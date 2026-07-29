@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenneth App - 일상을 바꾸는 앱을 만듭니다</title>
+  <meta name="description" content="Kenneth App 공식 홈페이지 - 다양한 모바일 앱을 만나보세요. Android와 iPhone 모두 지원합니다." />
+  <style>
+    :root {
+      --primary: #4f6ef7;
+      --primary-dark: #3a55d9;
+      --accent: #8a5cf6;
+      --text: #1c2333;
+      --text-muted: #5b6478;
+      --bg: #ffffff;
+      --bg-soft: #f4f6fc;
+      --border: #e8ebf3;
+      --radius: 16px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", "Hiragino Sans", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+    /* Header */
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px; gap: 16px;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 1.25rem; font-weight: 800; color: var(--text);
+      text-decoration: none; flex-shrink: 0;
+    }
+    .logo-mark {
+      width: 34px; height: 34px; border-radius: 9px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      display: grid; place-items: center;
+      color: #fff; font-size: 1rem; font-weight: 800;
+    }
+    .nav-right { display: flex; align-items: center; gap: 24px; }
+    .nav-links { display: flex; gap: 24px; }
+    .nav-links a {
+      color: var(--text-muted); text-decoration: none; font-size: 0.95rem; font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--primary); }
+
+    /* Language selector */
+    .lang-select {
+      display: flex; align-items: center; gap: 6px;
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 6px 10px;
+    }
+    .lang-select .globe { font-size: 0.95rem; }
+    .lang-select select {
+      border: none; background: transparent;
+      font-size: 0.88rem; font-weight: 600; color: var(--text);
+      font-family: inherit;
+      cursor: pointer; outline: none;
+      -webkit-appearance: none; appearance: none;
+      padding-right: 14px;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%235b6478' stroke-width='1.5' fill='none' stroke-linecap='round'/></svg>");
+      background-repeat: no-repeat;
+      background-position: right center;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(180deg, var(--bg-soft) 0%, #ffffff 100%);
+      padding: 88px 0 72px;
+      text-align: center;
+    }
+    .hero .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: 0.85rem; font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800; line-height: 1.25; letter-spacing: -0.02em;
+    }
+    .hero h1 .accent {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .hero p {
+      margin: 20px auto 0; max-width: 620px;
+      font-size: 1.1rem; color: var(--text-muted);
+    }
+    .hero .cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-top: 36px;
+      padding: 14px 32px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: #fff; font-weight: 700; font-size: 1rem;
+      border-radius: 12px; text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .hero .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(79, 110, 247, 0.35);
+    }
+
+    /* Sections */
+    section { padding: 80px 0; }
+    .section-title { text-align: center; }
+    .section-title h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 800; letter-spacing: -0.02em;
+    }
+    .section-title p { margin-top: 12px; color: var(--text-muted); }
+
+    /* App cards */
+    .apps { background: var(--bg-soft); }
+    .app-grid {
+      margin-top: 48px;
+      display: grid; gap: 28px;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    }
+    .app-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      display: flex; flex-direction: column;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .app-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 36px rgba(28, 35, 51, 0.1);
+    }
+    .app-card .app-head {
+      display: flex; align-items: center; gap: 16px;
+    }
+    .app-card .app-icon {
+      width: 64px; height: 64px; border-radius: 16px;
+      display: grid; place-items: center;
+      font-size: 1.8rem;
+      color: #fff;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+    .app-card .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-card .app-name h3 { font-size: 1.25rem; font-weight: 800; }
+    .app-card .app-name .category {
+      font-size: 0.82rem; color: var(--text-muted); font-weight: 500;
+    }
+    .app-card .app-desc {
+      margin-top: 16px;
+      color: var(--text-muted); font-size: 0.95rem;
+      flex-grow: 1;
+    }
+    .app-card .app-tags {
+      margin-top: 14px;
+      display: flex; flex-wrap: wrap; gap: 8px;
+    }
+    .app-card .app-tags span {
+      font-size: 0.78rem; font-weight: 600;
+      color: var(--primary);
+      background: rgba(79, 110, 247, 0.08);
+      padding: 4px 10px; border-radius: 999px;
+    }
+    .app-card .app-links {
+      margin-top: 20px;
+      display: flex; gap: 10px;
+    }
+    .store-btn {
+      flex: 1;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 10px 12px;
+      background: #111527; color: #fff;
+      border-radius: 10px; text-decoration: none;
+      font-size: 0.85rem; font-weight: 600;
+      transition: opacity 0.15s ease;
+    }
+    .store-btn:hover { opacity: 0.85; }
+    .store-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+    .store-btn.disabled {
+      background: #eceff5; color: #9aa3b5;
+      pointer-events: none;
+    }
+
+    /* About */
+    .about-grid {
+      margin-top: 48px;
+      display: grid; gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .about-card {
+      background: var(--bg-soft);
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      text-align: center;
+    }
+    .about-card .icon { font-size: 2rem; margin-bottom: 14px; }
+    .about-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+    .about-card p { color: var(--text-muted); font-size: 0.92rem; }
+
+    /* Contact CTA */
+    .contact-cta {
+      text-align: center;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      border-radius: 24px;
+      padding: 64px 32px;
+      color: #fff;
+      margin: 0 24px;
+    }
+    .contact-cta h2 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 800; }
+    .contact-cta p { margin-top: 12px; opacity: 0.9; }
+    .contact-cta a {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-top: 28px;
+      padding: 13px 30px;
+      background: #fff; color: var(--text);
+      font-weight: 700; border-radius: 12px; text-decoration: none;
+      transition: transform 0.15s ease;
+    }
+    .contact-cta a:hover { transform: translateY(-2px); }
+
+    /* Footer */
+    footer {
+      margin-top: 80px;
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+      text-align: center;
+      color: var(--text-muted); font-size: 0.9rem;
+    }
+    footer a { color: var(--text-muted); }
+
+    @media (max-width: 720px) {
+      .nav-links { display: none; }
+      .hero { padding: 64px 0 48px; }
+      section { padding: 56px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <a href="#" class="logo">
+        <span class="logo-mark">K</span>
+        Kenneth App
+      </a>
+      <div class="nav-right">
+        <nav class="nav-links">
+          <a href="#apps" data-i18n="nav.apps"></a>
+          <a href="#about" data-i18n="nav.about"></a>
+          <a href="#contact" data-i18n="nav.contact"></a>
+        </nav>
+        <label class="lang-select">
+          <span class="globe">🌐</span>
+          <select id="lang-picker" aria-label="Language">
+            <option value="en">English</option>
+            <option value="ko">한국어</option>
+            <option value="ja">日本語</option>
+            <option value="zh">中文</option>
+            <option value="ru">Русский</option>
+            <option value="fil">Filipino</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <span class="badge" data-i18n="hero.badge"></span>
+      <h1><span data-i18n="hero.title"></span><br /><span class="accent">Kenneth App</span></h1>
+      <p data-i18n="hero.desc"></p>
+      <a href="#apps" class="cta" data-i18n="hero.cta"></a>
+    </div>
+  </section>
+
+  <!-- Apps -->
+  <section class="apps" id="apps">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="apps.title"></h2>
+        <p data-i18n="apps.desc"></p>
+      </div>
+      <div class="app-grid" id="app-grid"><!-- 앱 카드는 아래 스크립트의 APPS 목록에서 자동 생성됩니다 --></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="about.title"></h2>
+        <p data-i18n="about.desc"></p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="icon">✨</div>
+          <h3 data-i18n="about.card1.title"></h3>
+          <p data-i18n="about.card1.desc"></p>
+        </div>
+        <div class="about-card">
+          <div class="icon">🔒</div>
+          <h3 data-i18n="about.card2.title"></h3>
+          <p data-i18n="about.card2.desc"></p>
+        </div>
+        <div class="about-card">
+          <div class="icon">🔄</div>
+          <h3 data-i18n="about.card3.title"></h3>
+          <p data-i18n="about.card3.desc"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-cta">
+        <h2 data-i18n="contact.title"></h2>
+        <p data-i18n="contact.desc"></p>
+        <a href="mailto:gkimmulti@gmail.com" data-i18n="contact.button"></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p><span data-i18n="footer.text"></span> · <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script>
+    /* ============================================================
+       UI 번역 사전 — 사이트 공통 문구 6개 언어
+       ============================================================ */
+    const I18N = {
+      en: {
+        "meta.title": "Kenneth App - Apps that improve your everyday life",
+        "meta.desc": "Official Kenneth App homepage - explore our mobile apps, available on Android and iPhone.",
+        "nav.apps": "Apps",
+        "nav.about": "About",
+        "nav.contact": "Contact",
+        "hero.badge": "📱 Available on Android & iPhone",
+        "hero.title": "Apps that improve your everyday life",
+        "hero.desc": "Kenneth App is a developer creating mobile apps that anyone can use easily and conveniently. Explore our apps now.",
+        "hero.cta": "Explore Apps ↓",
+        "apps.title": "Apps by Kenneth App",
+        "apps.desc": "Available on Google Play and the App Store.",
+        "about.title": "How We Build",
+        "about.desc": "Three promises in every app we make.",
+        "about.card1.title": "Simple & Intuitive",
+        "about.card1.desc": "Apps that need no manual — easy to use from the very first tap.",
+        "about.card2.title": "Privacy First",
+        "about.card2.desc": "We treat your data with care and request only the permissions we truly need.",
+        "about.card3.title": "Continuous Updates",
+        "about.card3.desc": "We listen to your feedback and keep improving every app.",
+        "contact.title": "We'd Love to Hear From You",
+        "contact.desc": "Questions, suggestions, and bug reports are all welcome.",
+        "contact.button": "✉️ Send Email",
+        "footer.text": "© 2026 Kenneth App. All rights reserved.",
+        "store.soon": "Coming Soon"
+      },
+      ko: {
+        "meta.title": "Kenneth App - 일상을 바꾸는 앱을 만듭니다",
+        "meta.desc": "Kenneth App 공식 홈페이지 - 다양한 모바일 앱을 만나보세요. Android와 iPhone 모두 지원합니다.",
+        "nav.apps": "앱 둘러보기",
+        "nav.about": "소개",
+        "nav.contact": "문의",
+        "hero.badge": "📱 Android · iPhone 모두 지원",
+        "hero.title": "일상을 바꾸는 앱을 만듭니다",
+        "hero.desc": "Kenneth App은 누구나 쉽고 편리하게 사용할 수 있는 모바일 앱을 만드는 개발자입니다. 지금 다양한 앱을 만나보세요.",
+        "hero.cta": "앱 둘러보기 ↓",
+        "apps.title": "Kenneth App의 앱들",
+        "apps.desc": "Google Play와 App Store에서 만나볼 수 있습니다.",
+        "about.title": "Kenneth App이 만드는 방식",
+        "about.desc": "모든 앱에 담는 세 가지 약속입니다.",
+        "about.card1.title": "쉽고 직관적으로",
+        "about.card1.desc": "설명서가 필요 없는 앱. 처음 열어도 바로 사용할 수 있게 만듭니다.",
+        "about.card2.title": "개인정보는 안전하게",
+        "about.card2.desc": "사용자의 데이터를 소중히 다루고, 꼭 필요한 권한만 요청합니다.",
+        "about.card3.title": "꾸준한 업데이트",
+        "about.card3.desc": "사용자의 의견을 듣고 지속적으로 개선하며 발전시킵니다.",
+        "contact.title": "의견을 들려주세요",
+        "contact.desc": "앱에 대한 문의, 제안, 버그 제보 모두 환영합니다.",
+        "contact.button": "✉️ 이메일 보내기",
+        "footer.text": "© 2026 Kenneth App. All rights reserved.",
+        "store.soon": "출시 예정"
+      },
+      ja: {
+        "meta.title": "Kenneth App - 日常を変えるアプリをつくります",
+        "meta.desc": "Kenneth App 公式ホームページ - さまざまなモバイルアプリをご紹介。Android・iPhone 両対応。",
+        "nav.apps": "アプリ一覧",
+        "nav.about": "紹介",
+        "nav.contact": "お問い合わせ",
+        "hero.badge": "📱 Android・iPhone 両対応",
+        "hero.title": "日常を変えるアプリをつくります",
+        "hero.desc": "Kenneth App は、誰でも簡単・便利に使えるモバイルアプリを開発しています。さまざまなアプリをぜひお試しください。",
+        "hero.cta": "アプリを見る ↓",
+        "apps.title": "Kenneth App のアプリ",
+        "apps.desc": "Google Play と App Store でご利用いただけます。",
+        "about.title": "Kenneth App のものづくり",
+        "about.desc": "すべてのアプリに込める3つの約束です。",
+        "about.card1.title": "簡単で直感的に",
+        "about.card1.desc": "説明書のいらないアプリ。初めて開いてもすぐに使えるように作ります。",
+        "about.card2.title": "個人情報を安全に",
+        "about.card2.desc": "ユーザーのデータを大切に扱い、本当に必要な権限のみをリクエストします。",
+        "about.card3.title": "継続的なアップデート",
+        "about.card3.desc": "ユーザーの声に耳を傾け、継続的に改善・発展させます。",
+        "contact.title": "ご意見をお聞かせください",
+        "contact.desc": "お問い合わせ・ご提案・不具合報告など、お気軽にどうぞ。",
+        "contact.button": "✉️ メールを送る",
+        "footer.text": "© 2026 Kenneth App. All rights reserved.",
+        "store.soon": "近日公開"
+      },
+      zh: {
+        "meta.title": "Kenneth App - 打造改变日常的应用",
+        "meta.desc": "Kenneth App 官方主页 - 探索我们的多款移动应用，支持 Android 和 iPhone。",
+        "nav.apps": "应用列表",
+        "nav.about": "介绍",
+        "nav.contact": "联系我们",
+        "hero.badge": "📱 支持 Android 和 iPhone",
+        "hero.title": "打造改变日常的应用",
+        "hero.desc": "Kenneth App 致力于开发人人都能轻松便捷使用的移动应用。快来探索我们的应用吧。",
+        "hero.cta": "浏览应用 ↓",
+        "apps.title": "Kenneth App 的应用",
+        "apps.desc": "可在 Google Play 和 App Store 下载。",
+        "about.title": "我们的开发理念",
+        "about.desc": "融入每个应用的三个承诺。",
+        "about.card1.title": "简单直观",
+        "about.card1.desc": "无需说明书的应用，首次打开即可轻松上手。",
+        "about.card2.title": "保护个人信息",
+        "about.card2.desc": "我们珍视用户数据，只请求真正必要的权限。",
+        "about.card3.title": "持续更新",
+        "about.card3.desc": "倾听用户意见，不断改进和完善。",
+        "contact.title": "期待您的反馈",
+        "contact.desc": "欢迎咨询、建议和错误反馈。",
+        "contact.button": "✉️ 发送邮件",
+        "footer.text": "© 2026 Kenneth App. All rights reserved.",
+        "store.soon": "即将上线"
+      },
+      ru: {
+        "meta.title": "Kenneth App - Приложения, которые меняют повседневную жизнь",
+        "meta.desc": "Официальный сайт Kenneth App - откройте для себя наши мобильные приложения для Android и iPhone.",
+        "nav.apps": "Приложения",
+        "nav.about": "О нас",
+        "nav.contact": "Контакты",
+        "hero.badge": "📱 Доступно на Android и iPhone",
+        "hero.title": "Приложения, которые меняют повседневную жизнь",
+        "hero.desc": "Kenneth App — разработчик мобильных приложений, которыми легко и удобно пользоваться каждому. Откройте для себя наши приложения.",
+        "hero.cta": "Смотреть приложения ↓",
+        "apps.title": "Приложения Kenneth App",
+        "apps.desc": "Доступны в Google Play и App Store.",
+        "about.title": "Как мы работаем",
+        "about.desc": "Три принципа в каждом нашем приложении.",
+        "about.card1.title": "Просто и интуитивно",
+        "about.card1.desc": "Приложения, которым не нужна инструкция — всё понятно с первого касания.",
+        "about.card2.title": "Конфиденциальность прежде всего",
+        "about.card2.desc": "Мы бережно относимся к вашим данным и запрашиваем только действительно необходимые разрешения.",
+        "about.card3.title": "Постоянные обновления",
+        "about.card3.desc": "Мы прислушиваемся к отзывам и постоянно улучшаем каждое приложение.",
+        "contact.title": "Будем рады обратной связи",
+        "contact.desc": "Вопросы, предложения и сообщения об ошибках приветствуются.",
+        "contact.button": "✉️ Написать нам",
+        "footer.text": "© 2026 Kenneth App. Все права защищены.",
+        "store.soon": "Скоро"
+      },
+      fil: {
+        "meta.title": "Kenneth App - Mga app na nagpapabuti sa iyong araw-araw",
+        "meta.desc": "Opisyal na homepage ng Kenneth App - tuklasin ang aming mga mobile app, available sa Android at iPhone.",
+        "nav.apps": "Mga App",
+        "nav.about": "Tungkol",
+        "nav.contact": "Kontak",
+        "hero.badge": "📱 Available sa Android at iPhone",
+        "hero.title": "Mga app na nagpapabuti sa iyong araw-araw",
+        "hero.desc": "Ang Kenneth App ay developer ng mga mobile app na madali at maginhawang gamitin ng kahit sino. Tuklasin ang aming mga app ngayon.",
+        "hero.cta": "Tingnan ang Mga App ↓",
+        "apps.title": "Mga App ng Kenneth App",
+        "apps.desc": "Available sa Google Play at App Store.",
+        "about.title": "Paano Kami Gumagawa",
+        "about.desc": "Tatlong pangako sa bawat app na ginagawa namin.",
+        "about.card1.title": "Simple at Intuitive",
+        "about.card1.desc": "Mga app na hindi na kailangan ng manual — madaling gamitin mula sa unang tap.",
+        "about.card2.title": "Protektado ang Privacy",
+        "about.card2.desc": "Iniingatan namin ang iyong data at humihingi lamang ng mga permisong talagang kailangan.",
+        "about.card3.title": "Tuloy-tuloy na Update",
+        "about.card3.desc": "Nakikinig kami sa inyong feedback at patuloy na pinapabuti ang bawat app.",
+        "contact.title": "Ibahagi ang Iyong Opinyon",
+        "contact.desc": "Malugod naming tinatanggap ang mga tanong, mungkahi, at bug report.",
+        "contact.button": "✉️ Mag-email",
+        "footer.text": "© 2026 Kenneth App. All rights reserved.",
+        "store.soon": "Malapit na"
+      }
+    };
+
+    /* ============================================================
+       앱 목록 — 여기에 앱을 추가/수정하면 카드가 자동으로 만들어집니다.
+
+       각 항목 설명:
+         name      : 앱 이름 (문자열 1개 또는 언어별 객체 {en:"", ko:"", ...})
+         category  : 카테고리 (문자열 또는 언어별 객체)
+         icon      : 이모지 1개 또는 이미지 경로 (예: "images/myapp.png")
+         iconBg    : 아이콘 배경 그라데이션 (이미지 사용 시 무시됨)
+         desc      : 앱 소개 (문자열 또는 언어별 객체)
+         tags      : 주요 기능 태그 (배열 또는 언어별 객체 {en:[...], ko:[...]})
+         playUrl   : Google Play 링크 (""이면 "출시 예정", null이면 버튼 숨김)
+         appStoreUrl : App Store 링크 (""이면 "출시 예정", null이면 버튼 숨김 — 안드로이드 전용 앱은 null)
+
+       언어별 객체에서 해당 언어가 없으면 en → ko 순으로 대체됩니다.
+       ============================================================ */
+    const APPS = [
+      {
+        name: "부조금관리 by 마음장부",
+        category: {
+          ko: "라이프스타일 · 한국어 전용",
+          en: "Lifestyle · Korean only",
+          ja: "ライフスタイル · 韓国語専用",
+          zh: "生活方式 · 仅限韩语",
+          ru: "Стиль жизни · только корейский",
+          fil: "Lifestyle · Korean lamang"
+        },
+        icon: "images/bujogeum-icon.svg",
+        iconBg: "linear-gradient(135deg, #e85d75, #f7a34f)",
+        desc: {
+          ko: "결혼식·돌잔치의 축의금, 장례식의 조의금, 그 외 경조사 부조금을 수동으로 간편하게 관리하는 앱입니다. 누구에게 얼마를 주고받았는지, 흩어진 부조금 기록을 한곳에 모아 깔끔하게 정리하고 필요할 때 언제든 쉽게 찾아볼 수 있습니다.",
+          en: "A Korean-language app for manually managing congratulatory money for weddings and first-birthday parties, condolence money for funerals, and other family-event gifts (bujogeum). Gather all your records in one place, keep them organized, and look them up easily anytime.",
+          ja: "結婚式や一歳祝いのご祝儀、葬儀の香典など、慶弔時の贈り金を手動で簡単に管理できる韓国語専用アプリです。誰といくらやり取りしたか、散らばった記録を一か所にまとめて整理し、必要なときにいつでもすぐ確認できます。",
+          zh: "一款韩语应用，用于手动管理婚礼、周岁宴的贺礼金，葬礼的吊唁金及其他红白喜事礼金。将分散的礼金记录汇集一处、整理清晰，需要时随时轻松查阅。",
+          ru: "Приложение на корейском языке для ручного учёта денежных подарков: на свадьбы и первые дни рождения, соболезнований на похоронах и других семейных событий. Все записи собраны в одном месте — аккуратно и всегда под рукой.",
+          fil: "Isang Korean-language app para manu-manong pamahalaan ang perang regalo sa kasal at unang kaarawan, pera ng pakikiramay sa libing, at iba pang bujogeum. Tipunin ang lahat ng tala sa isang lugar, panatilihing maayos, at madaling hanapin anumang oras."
+        },
+        tags: {
+          ko: ["축의금·조의금 기록", "한곳에 정리", "간편 조회"],
+          en: ["Gift money records", "All in one place", "Easy lookup"],
+          ja: ["ご祝儀・香典記録", "一括整理", "簡単検索"],
+          zh: ["礼金记录", "集中整理", "轻松查阅"],
+          ru: ["Учёт подарков", "Всё в одном месте", "Быстрый поиск"],
+          fil: ["Tala ng regalo", "Isang lugar", "Madaling hanapin"]
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=com.bujo.myapp",
+        appStoreUrl: "https://apps.apple.com/kr/app/%EB%B6%80%EC%A1%B0%EA%B8%88%EA%B4%80%EB%A6%AC-by-%EB%A7%88%EC%9D%8C%EC%9E%A5%EB%B6%80/id6787304594"
+      },
+      {
+        name: "SnapLog",
+        category: {
+          ko: "무음 카메라 · 안드로이드 전용",
+          en: "Silent Camera · Android only",
+          ja: "無音カメラ · Android専用",
+          zh: "静音相机 · 仅限Android",
+          ru: "Бесшумная камера · только Android",
+          fil: "Silent Camera · Android lamang"
+        },
+        icon: "images/snaplog-icon.svg",
+        iconBg: "linear-gradient(135deg, #0a1a3a, #1e3a8a)",
+        desc: {
+          ko: "셔터 소리 없이 조용히 촬영하는 무음 카메라 앱입니다. 도서관·공연장·잠든 아이 곁에서도 방해 없이 순간을 담고, 12가지 감성 필터와 편집기로 아름답게 완성하세요. 운동·식단·독서 같은 인증샷 챌린지로 매일의 기록도 쌓을 수 있습니다. 사진은 기기에 로컬 저장되어 안전합니다.",
+          en: "A truly silent camera app — shoot without any shutter sound in libraries, at concerts, or next to a sleeping child. Finish your shots beautifully with 12 mood filters and a full photo editor, and build daily photo-proof challenges for workouts, meals, study, and reading. Photos stay safely on your device.",
+          ja: "シャッター音なしで静かに撮影できる無音カメラアプリです。図書館・コンサート・眠っている子どものそばでも、周りを気にせず瞬間を残せます。12種類のフィルターと編集機能で美しく仕上げ、運動・食事・読書などの毎日の認証チャレンジも楽しめます。写真は端末内に安全に保存されます。",
+          zh: "真正的静音相机应用 — 无快门声，在图书馆、演出现场或熟睡的孩子身旁也能安静拍摄。用12种滤镜和照片编辑器让照片更精美，还能创建运动、饮食、学习、读书等每日打卡挑战。照片仅保存在本地设备，安全放心。",
+          ru: "По-настоящему бесшумная камера — снимайте без звука затвора в библиотеке, на концерте или рядом со спящим ребёнком. Доводите кадры до совершенства с 12 фильтрами и редактором, ведите ежедневные фото-челленджи: тренировки, питание, учёба, чтение. Фото хранятся только на вашем устройстве.",
+          fil: "Isang tunay na silent camera app — kumuha ng litrato nang walang tunog ng shutter sa library, sa concert, o sa tabi ng natutulog na bata. Pagandahin ang mga kuha gamit ang 12 filter at photo editor, at gumawa ng daily photo challenge para sa workout, pagkain, pag-aaral, at pagbabasa. Ligtas na nakatago ang mga litrato sa iyong device."
+        },
+        tags: {
+          ko: ["무음 촬영", "12가지 감성 필터", "사진 편집", "인증샷 챌린지"],
+          en: ["Silent shutter", "12 filters", "Photo editor", "Daily challenges"],
+          ja: ["無音撮影", "12種フィルター", "写真編集", "認証チャレンジ"],
+          zh: ["静音拍摄", "12种滤镜", "照片编辑", "打卡挑战"],
+          ru: ["Бесшумная съёмка", "12 фильтров", "Редактор фото", "Челленджи"],
+          fil: ["Silent shutter", "12 filter", "Photo editor", "Daily challenge"]
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=com.snaplog.myapp",
+        appStoreUrl: null
+      }
+      /* 새 앱을 추가하려면 위 항목을 복사해 쉼표(,)로 이어 붙이고 내용만 바꾸세요. */
+    ];
+
+    /* ============================================================
+       렌더링 로직 (수정할 필요 없음)
+       ============================================================ */
+    const SUPPORTED = ["en", "ko", "ja", "zh", "ru", "fil"];
+    const HTML_LANG = { en: "en", ko: "ko", ja: "ja", zh: "zh-CN", ru: "ru", fil: "fil" };
+
+    let lang = localStorage.getItem("kennethapp-lang");
+    if (!SUPPORTED.includes(lang)) {
+      const nav = (navigator.language || "en").toLowerCase();
+      lang =
+        nav.startsWith("ko") ? "ko" :
+        nav.startsWith("ja") ? "ja" :
+        nav.startsWith("zh") ? "zh" :
+        nav.startsWith("ru") ? "ru" :
+        (nav.startsWith("fil") || nav.startsWith("tl")) ? "fil" : "en";
+    }
+
+    function t(key) {
+      return (I18N[lang] && I18N[lang][key]) || I18N.en[key] || "";
+    }
+
+    function localized(value) {
+      if (value == null) return "";
+      if (typeof value === "string" || Array.isArray(value)) return value;
+      return value[lang] ?? value.en ?? value.ko ?? Object.values(value)[0] ?? "";
+    }
+
+    const PLAY_SVG = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.61 1.81C3.23 2.2 3 2.8 3 3.58v16.84c0 .78.23 1.38.62 1.76l.1.09 9.44-9.43v-.22L3.71 1.72l-.1.09z" fill="#00D7FE"/><path d="M16.3 15.99l-3.14-3.15v-.22l3.15-3.15.07.04 3.73 2.12c1.06.6 1.06 1.59 0 2.2l-3.73 2.12-.08.04z" fill="#FFCE00"/><path d="M16.38 15.95L13.16 12.7 3.61 22.18c.35.37.93.42 1.58.05l11.19-6.28" fill="#FF3A44"/><path d="M16.38 8.5L5.19 2.22c-.65-.37-1.23-.32-1.58.05l9.55 9.48 3.22-3.25z" fill="#00F076"/></svg>';
+    const APPLE_SVG = '<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>';
+
+    function storeButton(url, svg, label) {
+      if (url === null) return "";
+      if (url) {
+        return '<a class="store-btn" href="' + url + '" target="_blank" rel="noopener">' + svg + '<span>' + label + '</span></a>';
+      }
+      return '<span class="store-btn disabled">' + svg + '<span>' + t("store.soon") + '</span></span>';
+    }
+
+    function iconHtml(app) {
+      if (app.icon && (app.icon.includes("/") || app.icon.includes("."))) {
+        return '<div class="app-icon"><img src="' + app.icon + '" alt="' + localized(app.name) + '" /></div>';
+      }
+      return '<div class="app-icon" style="background:' + (app.iconBg || "linear-gradient(135deg, #4f6ef7, #8a5cf6)") + '">' + (app.icon || "📱") + '</div>';
+    }
+
+    function renderApps() {
+      document.getElementById("app-grid").innerHTML = APPS.map(function (app) {
+        return (
+          '<div class="app-card">' +
+            '<div class="app-head">' +
+              iconHtml(app) +
+              '<div class="app-name"><h3>' + localized(app.name) + '</h3><div class="category">' + localized(app.category) + '</div></div>' +
+            '</div>' +
+            '<p class="app-desc">' + localized(app.desc) + '</p>' +
+            '<div class="app-tags">' + localized(app.tags).map(function (tag) { return "<span>" + tag + "</span>"; }).join("") + '</div>' +
+            '<div class="app-links">' +
+              storeButton(app.playUrl, PLAY_SVG, "Google Play") +
+              storeButton(app.appStoreUrl, APPLE_SVG, "App Store") +
+            '</div>' +
+          '</div>'
+        );
+      }).join("");
+    }
+
+    function render() {
+      document.documentElement.lang = HTML_LANG[lang];
+      document.title = t("meta.title");
+      document.querySelector('meta[name="description"]').setAttribute("content", t("meta.desc"));
+      document.querySelectorAll("[data-i18n]").forEach(function (el) {
+        el.textContent = t(el.getAttribute("data-i18n"));
+      });
+      renderApps();
+      document.getElementById("lang-picker").value = lang;
+    }
+
+    document.getElementById("lang-picker").addEventListener("change", function (e) {
+      lang = e.target.value;
+      localStorage.setItem("kennethapp-lang", lang);
+      render();
+    });
+
+    render();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+name: Sync homepage from KennethApp
+
+# KennethApp 저장소의 홈페이지를 이곳(루트 사이트)으로 자동 복사합니다.
+# - 1시간마다 자동 실행
+# - Actions 탭에서 "Run workflow"로 즉시 실행 가능
+# 별도의 토큰/시크릿 설정이 필요 없습니다 (원본 저장소가 공개이므로).
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-homepage
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this site
+        uses: actions/checkout@v4
+
+      - name: Fetch homepage from KennethApp
+        run: |
+          git clone --depth 1 https://github.com/gkimmulti-ui/KennethApp.git /tmp/kennethapp
+
+      - name: Copy homepage files
+        run: |
+          # index.html 과 images/ 만 교체합니다. app-ads.txt 등 이 저장소 고유 파일은 건드리지 않습니다.
+          rm -rf images
+          cp /tmp/kennethapp/index.html ./index.html
+          cp -r /tmp/kennethapp/images ./images
+          cp /tmp/kennethapp/.nojekyll ./.nojekyll
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "변경 사항 없음 — 건너뜁니다."
+            exit 0
+          fi
+          git add -A
+          git commit -m "Sync homepage from KennethApp@$(git -C /tmp/kennethapp rev-parse --short HEAD)"
+          git push

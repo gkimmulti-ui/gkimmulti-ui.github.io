@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Privacy Policy — MBTI 16MODE</title>
+<style>
+  :root{
+    --bg:#F5F6FB; --panel:#FFFFFF; --ink:#1B1E2E; --muted:#5A607A;
+    --line:#E4E6F0; --violet:#6A48F5; --blue:#1E92E6; --chip:#EFEEFB;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0B0E1F; --panel:#12162B; --ink:#E9ECF6; --muted:#A5ABC0;
+           --line:#23294A; --violet:#B9A9FF; --blue:#37B8FF; --chip:#1B2140; }
+  }
+  :root[data-theme="light"]{ --bg:#F5F6FB; --panel:#FFFFFF; --ink:#1B1E2E; --muted:#5A607A;
+           --line:#E4E6F0; --violet:#6A48F5; --blue:#1E92E6; --chip:#EFEEFB; }
+  :root[data-theme="dark"]{ --bg:#0B0E1F; --panel:#12162B; --ink:#E9ECF6; --muted:#A5ABC0;
+           --line:#23294A; --violet:#B9A9FF; --blue:#37B8FF; --chip:#1B2140; }
+
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--ink);
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",sans-serif;
+        line-height:1.65; -webkit-font-smoothing:antialiased; }
+  .wrap{ max-width:720px; margin:0 auto; padding:44px 22px 96px; }
+  .eyebrow{ letter-spacing:.14em; text-transform:uppercase; font-size:12px; font-weight:700; color:var(--violet); }
+  h1{ font-size:clamp(26px,5vw,34px); line-height:1.15; margin:8px 0 4px; text-wrap:balance; }
+  .meta{ color:var(--muted); font-size:14px; margin:0 0 18px; }
+  .meta a{ color:var(--blue); text-decoration:none; }
+  .langs{ display:flex; flex-wrap:wrap; gap:8px; margin:0 0 26px; }
+  .langs button{ font:inherit; font-size:13px; font-weight:600; cursor:pointer;
+    color:var(--muted); background:transparent; border:1px solid var(--line);
+    border-radius:999px; padding:6px 13px; transition:.15s; }
+  .langs button:hover{ color:var(--ink); }
+  .langs button[aria-pressed="true"]{ color:#fff; background:var(--violet); border-color:var(--violet); }
+  @media (prefers-color-scheme: dark){ .langs button[aria-pressed="true"]{ color:#0B0E1F; } }
+  :root[data-theme="dark"] .langs button[aria-pressed="true"]{ color:#0B0E1F; }
+  .langs button:focus-visible{ outline:2px solid var(--blue); outline-offset:2px; }
+  .summary{ background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--violet);
+            border-radius:14px; padding:16px 18px; margin:6px 0 30px; }
+  h2{ font-size:16px; margin:30px 0 8px; }
+  h2 .n{ color:var(--violet); font-variant-numeric:tabular-nums; margin-right:8px; }
+  p{ margin:8px 0; } ul{ margin:8px 0; padding-left:20px; } li{ margin:3px 0; }
+  code{ background:var(--chip); border:1px solid var(--line); padding:1px 7px; border-radius:6px; font-size:.9em; }
+  hr{ border:0; border-top:1px solid var(--line); margin:30px 0 14px; }
+  .foot{ color:var(--muted); font-size:13px; }
+  strong{ color:var(--ink); }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <p class="eyebrow">MBTI 16MODE</p>
+  <h1 id="h1">Privacy Policy</h1>
+  <p class="meta"><span id="eff"></span> · Kenneth App · <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a></p>
+  <div class="langs" id="langs" role="group" aria-label="Language"></div>
+  <div id="doc"></div>
+  <hr>
+  <p class="foot">MBTI 16MODE · com.sixteenmode.app · © 2026 Kenneth App</p>
+</div>
+
+<script>
+const LANGS = [
+  ["en","English"],["ko","한국어"],["ja","日本語"],
+  ["zh","简体中文"],["ru","Русский"],["fil","Filipino"]
+];
+const T = {
+  en:{ title:"Privacy Policy", eff:"Effective August 1, 2026",
+    sumL:"In short:", sum:"MBTI 16MODE is offline-first. We do <strong>not</strong> collect, transmit, sell, or share your personal data. Everything you create stays on your device.",
+    s:[
+      ["Information we collect","We collect no personal information on any server. The app has no user accounts and never asks you to sign in."],
+      ["Data stored on your device","To function, the app saves the following <strong>locally on your device only</strong>:",
+        ["A nickname you optionally enter","Your selected base mode and growth goals","Progress: XP, levels, streaks, completed quests, earned badges","Settings: language, notifications, sound preferences"],
+        "This data never leaves your device and is not accessible to us or anyone else."],
+      ["Deleting your data","Erase everything anytime via <code>Profile → Data → Reset Data</code>, or by uninstalling the app."],
+      ["Analytics, ads &amp; third parties","No advertising. No third-party analytics or tracking SDKs. Nothing is shared with third parties."],
+      ["Permissions","The app does not access your contacts, location, camera, microphone, or files. Any optional feature added later (such as local reminders) will be clearly described and stay optional."],
+      ["Children","The app is suitable for all ages and knowingly collects no personal information from anyone, including children."],
+      ["MBTI disclaimer","MBTI-style content is for self-understanding and recommendations only — not a psychological diagnosis. Higher levels reflect usage experience, not a judgment of any person."],
+      ["Changes to this policy","If this policy changes, we update the effective date above. Continued use after changes means acceptance of the updated policy."]
+    ]},
+  ko:{ title:"개인정보처리방침", eff:"시행일: 2026년 8월 1일",
+    sumL:"요약:", sum:"MBTI 16MODE는 오프라인 우선 앱입니다. 저희는 이용자의 개인정보를 <strong>수집·전송·판매·공유하지 않습니다</strong>. 앱에서 만든 모든 정보는 기기 안에만 저장됩니다.",
+    s:[
+      ["수집하는 정보","저희는 어떤 서버에도 개인정보를 수집하지 않습니다. 이 앱은 계정이 없으며 로그인을 요구하지 않습니다."],
+      ["기기에 저장되는 데이터","앱 작동을 위해 다음 정보가 <strong>오직 이용자의 기기 안에만</strong> 저장됩니다:",
+        ["선택 입력하는 닉네임","선택한 기본 모드와 성장 목표","진행 상황: 경험치, 레벨, 연속 성장, 완료한 퀘스트, 획득 배지","설정: 언어, 알림, 사운드"],
+        "이 데이터는 기기를 벗어나지 않으며, 저희나 제3자가 접근할 수 없습니다."],
+      ["데이터 삭제","<code>프로필 → 데이터 → 데이터 초기화</code>에서 언제든 전체 삭제하거나, 앱을 삭제하면 됩니다."],
+      ["분석·광고·제3자","광고가 없습니다. 제3자 분석·추적 SDK가 없습니다. 어떤 데이터도 제3자와 공유하지 않습니다."],
+      ["권한","앱은 연락처·위치·카메라·마이크·파일에 접근하지 않습니다. 향후 추가되는 선택 기능(예: 로컬 알림)은 명확히 안내되며 선택 사항으로 유지됩니다."],
+      ["아동","앱은 전체 이용가이며, 아동을 포함한 누구로부터도 개인정보를 수집하지 않습니다."],
+      ["MBTI 관련 고지","앱의 MBTI 관련 내용은 자기이해와 추천을 위한 참고 정보이며, 심리 진단이 아닙니다. 높은 레벨은 사용 경험을 나타낼 뿐, 사람에 대한 평가가 아닙니다."],
+      ["방침 변경","방침이 변경되면 위 시행일을 갱신합니다. 변경 후 계속 사용하면 개정된 방침에 동의한 것으로 간주됩니다."]
+    ]},
+  ja:{ title:"プライバシーポリシー", eff:"施行日：2026年8月1日",
+    sumL:"要点：", sum:"MBTI 16MODEはオフライン優先のアプリです。当方は個人情報を<strong>収集・送信・販売・共有しません</strong>。アプリ内で作成した情報はすべて端末内にのみ保存されます。",
+    s:[
+      ["収集する情報","当方はいかなるサーバーにも個人情報を収集しません。本アプリにアカウントはなく、ログインも求めません。"],
+      ["端末に保存されるデータ","アプリの動作のため、次の情報が<strong>端末内にのみ</strong>保存されます：",
+        ["任意で入力するニックネーム","選択した基本モードと成長目標","進捗：XP、レベル、連続記録、完了クエスト、獲得バッジ","設定：言語、通知、サウンド"],
+        "このデータは端末外に出ず、当方や第三者がアクセスすることはできません。"],
+      ["データの削除","<code>プロフィール → データ → データ初期化</code>からいつでも全削除できます。アンインストールでも消去されます。"],
+      ["解析・広告・第三者","広告はありません。第三者の解析・追跡SDKもありません。データを第三者と共有しません。"],
+      ["権限","本アプリは連絡先・位置情報・カメラ・マイク・ファイルにアクセスしません。将来追加される任意機能（例：ローカル通知）は明示され、任意のままです。"],
+      ["子どもについて","本アプリは全年齢対象で、子どもを含む誰からも個人情報を収集しません。"],
+      ["MBTIに関する注意","アプリのMBTI関連の内容は自己理解と推薦のための参考情報であり、心理診断ではありません。高いレベルは使用経験を示すもので、人物評価ではありません。"],
+      ["ポリシーの変更","本ポリシーを変更した場合、上記の施行日を更新します。変更後の継続利用は改定への同意とみなされます。"]
+    ]},
+  zh:{ title:"隐私政策", eff:"生效日期：2026年8月1日",
+    sumL:"简而言之：", sum:"MBTI 16MODE 是离线优先的应用。我们<strong>不收集、不传输、不出售、不共享</strong>您的个人数据。您在应用中创建的一切都仅保存在您的设备上。",
+    s:[
+      ["我们收集的信息","我们不会在任何服务器上收集个人信息。本应用没有账户，也从不要求登录。"],
+      ["保存在设备上的数据","为使应用正常运行，以下信息<strong>仅保存在您的设备本地</strong>：",
+        ["您可选填的昵称","您选择的基础模式与成长目标","进度：经验值、等级、连续天数、已完成任务、已获得徽章","设置：语言、通知、声音"],
+        "这些数据不会离开您的设备，我们或任何第三方都无法访问。"],
+      ["删除您的数据","可随时通过 <code>我的资料 → 数据 → 重置数据</code> 全部清除，或卸载应用。"],
+      ["分析、广告与第三方","无广告。无第三方分析或追踪 SDK。不与任何第三方共享数据。"],
+      ["权限","本应用不访问您的通讯录、位置、相机、麦克风或文件。日后新增的可选功能（如本地提醒）将明确说明并保持可选。"],
+      ["儿童","本应用适合所有年龄，且不会有意收集包括儿童在内任何人的个人信息。"],
+      ["MBTI 免责声明","应用中的 MBTI 相关内容仅供自我理解与推荐参考，并非心理诊断。较高等级代表使用经验，而非对个人的评判。"],
+      ["政策变更","若本政策变更，我们会更新上方生效日期。变更后继续使用即表示接受更新后的政策。"]
+    ]},
+  ru:{ title:"Политика конфиденциальности", eff:"Действует с 1 августа 2026 г.",
+    sumL:"Коротко:", sum:"MBTI 16MODE работает офлайн. Мы <strong>не собираем, не передаём, не продаём и не передаём</strong> ваши персональные данные. Всё, что вы создаёте в приложении, остаётся на вашем устройстве.",
+    s:[
+      ["Какие данные мы собираем","Мы не собираем персональные данные ни на каком сервере. В приложении нет учётных записей и не требуется вход."],
+      ["Данные на вашем устройстве","Для работы приложение сохраняет следующее <strong>только на вашем устройстве</strong>:",
+        ["Никнейм, который вы вводите по желанию","Выбранный базовый режим и цели роста","Прогресс: опыт, уровни, серии, выполненные квесты, значки","Настройки: язык, уведомления, звук"],
+        "Эти данные не покидают устройство и недоступны ни нам, ни третьим лицам."],
+      ["Удаление данных","Удалите всё в любой момент через <code>Профиль → Данные → Сбросить данные</code> или удалив приложение."],
+      ["Аналитика, реклама и третьи стороны","Никакой рекламы. Нет сторонних SDK аналитики или отслеживания. Данные не передаются третьим сторонам."],
+      ["Разрешения","Приложение не обращается к контактам, геолокации, камере, микрофону или файлам. Любые будущие необязательные функции (например, локальные напоминания) будут чётко описаны и останутся необязательными."],
+      ["Дети","Приложение подходит для всех возрастов и сознательно не собирает персональные данные ни у кого, включая детей."],
+      ["Оговорка о MBTI","Контент в стиле MBTI служит только для самопонимания и рекомендаций — это не психологический диагноз. Высокий уровень отражает опыт использования, а не оценку человека."],
+      ["Изменения политики","При изменении политики мы обновим дату вступления в силу выше. Продолжение использования означает согласие с обновлённой политикой."]
+    ]},
+  fil:{ title:"Patakaran sa Privacy", eff:"Epektibo mula Agosto 1, 2026",
+    sumL:"Sa madaling salita:", sum:"Offline-first ang MBTI 16MODE. <strong>Hindi</strong> kami nangongolekta, nagpapadala, nagbebenta, o nagbabahagi ng iyong personal na datos. Nananatili sa iyong device ang lahat ng iyong ginagawa.",
+    s:[
+      ["Impormasyong kinokolekta namin","Wala kaming kinokolektang personal na impormasyon sa anumang server. Walang account ang app at hindi kailanman humihingi ng sign-in."],
+      ["Datos na nasa iyong device","Para gumana, ini-save ng app ang sumusunod <strong>sa iyong device lamang</strong>:",
+        ["Palayaw na opsyonal mong ilalagay","Ang piniling base mode at growth goals","Progreso: XP, level, streak, natapos na quest, nakuhang badge","Mga setting: wika, abiso, tunog"],
+        "Hindi umaalis sa device ang datos na ito at hindi ito ma-access namin o ng sinuman."],
+      ["Pagbura ng datos","Burahin lahat anumang oras sa <code>Profile → Data → I-reset ang Data</code>, o sa pag-uninstall ng app."],
+      ["Analytics, ads at third party","Walang advertising. Walang third-party analytics o tracking SDK. Walang ibinabahagi sa third party."],
+      ["Mga pahintulot","Hindi ina-access ng app ang iyong contacts, location, camera, mikropono, o files. Ang anumang opsyonal na feature sa hinaharap (hal. lokal na paalala) ay malinaw na ipapaliwanag at mananatiling opsyonal."],
+      ["Mga bata","Angkop sa lahat ng edad ang app at hindi sadyang nangongolekta ng personal na impormasyon mula kaninuman, kabilang ang mga bata."],
+      ["Paunawa sa MBTI","Ang MBTI-style na nilalaman ay para sa pag-unawa sa sarili at rekomendasyon lamang — hindi ito psychological diagnosis. Ang mas mataas na level ay karanasan sa paggamit, hindi paghatol sa tao."],
+      ["Mga pagbabago sa patakaran","Kung magbabago ang patakarang ito, ia-update namin ang petsa sa itaas. Ang patuloy na paggamit pagkatapos ng pagbabago ay pagtanggap sa na-update na patakaran."]
+    ]}
+};
+
+const langsEl = document.getElementById("langs");
+const docEl = document.getElementById("doc");
+function render(code){
+  const t = T[code] || T.en;
+  document.documentElement.setAttribute("lang", code);
+  document.getElementById("h1").textContent = t.title;
+  document.getElementById("eff").textContent = t.eff;
+  let html = '<div class="summary"><strong>'+t.sumL+'</strong> '+t.sum+'</div>';
+  t.s.forEach(function(sec, i){
+    html += '<h2><span class="n">'+(i+1)+'</span>'+sec[0]+'</h2>';
+    html += '<p>'+sec[1]+'</p>';
+    if(sec.length>2 && Array.isArray(sec[2])){
+      html += '<ul>'+sec[2].map(function(li){return '<li>'+li+'</li>';}).join('')+'</ul>';
+      if(sec[3]) html += '<p>'+sec[3]+'</p>';
+    }
+  });
+  docEl.innerHTML = html;
+  Array.prototype.forEach.call(langsEl.children, function(b){
+    b.setAttribute("aria-pressed", b.dataset.code===code ? "true" : "false");
+  });
+}
+LANGS.forEach(function(l){
+  const b = document.createElement("button");
+  b.textContent = l[1]; b.dataset.code = l[0];
+  b.addEventListener("click", function(){ render(l[0]); });
+  langsEl.appendChild(b);
+});
+const nav = (navigator.language||"en").slice(0,2);
+render(T[nav] ? nav : "en");
+</script>
+
+</body>
+</html>

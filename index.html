@@ -203,6 +203,11 @@
       background: #eceff5; color: #9aa3b5;
       pointer-events: none;
     }
+    .store-btn.dev {
+      background: #f4f6fc; color: #6b7488;
+      border: 1px dashed #c6cee0;
+      pointer-events: none;
+    }
 
     /* About */
     .about-grid {
@@ -381,7 +386,8 @@
         "contact.desc": "Questions, suggestions, and bug reports are all welcome.",
         "contact.button": "✉️ Send Email",
         "footer.text": "© 2026 Kenneth App. All rights reserved.",
-        "store.soon": "Coming Soon"
+        "store.soon": "Coming Soon",
+        "store.dev": "In Development"
       },
       ko: {
         "meta.title": "Kenneth App - 일상을 바꾸는 앱을 만듭니다",
@@ -407,7 +413,8 @@
         "contact.desc": "앱에 대한 문의, 제안, 버그 제보 모두 환영합니다.",
         "contact.button": "✉️ 이메일 보내기",
         "footer.text": "© 2026 Kenneth App. All rights reserved.",
-        "store.soon": "출시 예정"
+        "store.soon": "출시 예정",
+        "store.dev": "개발중"
       },
       ja: {
         "meta.title": "Kenneth App - 日常を変えるアプリをつくります",
@@ -433,7 +440,8 @@
         "contact.desc": "お問い合わせ・ご提案・不具合報告など、お気軽にどうぞ。",
         "contact.button": "✉️ メールを送る",
         "footer.text": "© 2026 Kenneth App. All rights reserved.",
-        "store.soon": "近日公開"
+        "store.soon": "近日公開",
+        "store.dev": "開発中"
       },
       zh: {
         "meta.title": "Kenneth App - 打造改变日常的应用",
@@ -459,7 +467,8 @@
         "contact.desc": "欢迎咨询、建议和错误反馈。",
         "contact.button": "✉️ 发送邮件",
         "footer.text": "© 2026 Kenneth App. All rights reserved.",
-        "store.soon": "即将上线"
+        "store.soon": "即将上线",
+        "store.dev": "开发中"
       },
       ru: {
         "meta.title": "Kenneth App - Приложения, которые меняют повседневную жизнь",
@@ -485,7 +494,8 @@
         "contact.desc": "Вопросы, предложения и сообщения об ошибках приветствуются.",
         "contact.button": "✉️ Написать нам",
         "footer.text": "© 2026 Kenneth App. Все права защищены.",
-        "store.soon": "Скоро"
+        "store.soon": "Скоро",
+        "store.dev": "В разработке"
       },
       fil: {
         "meta.title": "Kenneth App - Mga app na nagpapabuti sa iyong araw-araw",
@@ -511,7 +521,8 @@
         "contact.desc": "Malugod naming tinatanggap ang mga tanong, mungkahi, at bug report.",
         "contact.button": "✉️ Mag-email",
         "footer.text": "© 2026 Kenneth App. All rights reserved.",
-        "store.soon": "Malapit na"
+        "store.soon": "Malapit na",
+        "store.dev": "Ginagawa Pa"
       }
     };
 
@@ -530,6 +541,17 @@
 
        언어별 객체에서 해당 언어가 없으면 en → ko 순으로 대체됩니다.
        ============================================================ */
+
+    /* 개발 중인 앱들이 공통으로 쓰는 안내 문구 */
+    const DEV_DESC = {
+      ko: "현재 개발 중인 앱입니다. 출시되면 이곳에서 가장 먼저 알려드리겠습니다.",
+      en: "This app is currently in development. We'll announce it here as soon as it launches.",
+      ja: "現在開発中のアプリです。リリースされましたら、こちらで真っ先にお知らせします。",
+      zh: "该应用正在开发中。上线后我们会第一时间在此发布。",
+      ru: "Приложение находится в разработке. Мы сообщим о выходе здесь в первую очередь.",
+      fil: "Kasalukuyang ginagawa pa ang app na ito. Ipapaalam namin dito agad kapag inilabas na."
+    };
+
     const APPS = [
       {
         name: "부조금관리 by 마음장부",
@@ -631,6 +653,72 @@
         },
         playUrl: "https://play.google.com/store/apps/details?id=com.lightwall",
         appStoreUrl: ""
+      },
+      {
+        name: "챙김",
+        category: {
+          ko: "생활 관리 · 한국어 전용",
+          en: "Life Manager · Korean only",
+          ja: "生活管理 · 韓国語専用",
+          zh: "生活管理 · 仅限韩语",
+          ru: "Органайзер · только корейский",
+          fil: "Life Manager · Korean lamang"
+        },
+        icon: "images/chaenggim-icon.png",
+        iconBg: "linear-gradient(135deg, #4a90e2, #7fb8f0)",
+        desc: {
+          ko: "보험 만기일, 적금 납입일, 구독 결제일, 약 먹는 시간, 부모님 생신까지 — 흩어진 일정과 정보를 한곳에 모아 두고 중요한 순간이 오기 전에 알림으로 챙겨주는 생활 관리 앱입니다. 통신·구독·보험 같은 정기 지출부터 건강·가계부·반려동물까지 카테고리별로 정리하고, 가족의 일정도 프로필을 나눠 함께 관리할 수 있습니다. 주차 위치 타이머, 비밀번호 보관, 클라우드 백업까지 지원합니다.",
+          en: "A Korean-language life manager that gathers everything you tend to forget — insurance expiry dates, savings deposits, subscription billing, medication times, family birthdays — into one place and reminds you before it matters. Organize recurring bills, contracts, health records, budgets, and pets by category, manage family schedules under separate profiles, and use the parking timer, password vault, and cloud backup.",
+          ja: "保険の満期日、積立の入金日、サブスクの決済日、薬を飲む時間、家族の誕生日まで — 散らばった予定と情報を一か所にまとめ、大切なタイミングの前に通知で知らせてくれる韓国語専用の生活管理アプリです。通信・サブスク・保険などの定期支出から健康・家計簿・ペットまでカテゴリー別に整理でき、家族の予定もプロフィールを分けて管理できます。駐車位置タイマー、パスワード保管、クラウドバックアップにも対応しています。",
+          zh: "一款韩语生活管理应用，把保险到期日、存款缴纳日、订阅扣款日、服药时间、家人生日等容易忘记的事集中到一处，并在关键时刻到来前推送提醒。可按类别整理通信、订阅、保险等定期支出，以及健康、记账、宠物等生活记录，还能按档案分别管理家人的日程。支持停车位置计时、密码保管和云端备份。",
+          ru: "Органайзер на корейском языке, который собирает в одном месте всё, что легко забыть: сроки страховок, взносы по вкладам, списания за подписки, время приёма лекарств, дни рождения близких — и напоминает заранее. Ведите регулярные платежи и договоры, здоровье, бюджет и питомцев по категориям, управляйте расписанием семьи в отдельных профилях. Есть таймер парковки, хранилище паролей и облачное резервное копирование.",
+          fil: "Isang Korean-language life manager na tumitipon sa isang lugar ng lahat ng madaling makalimutan — expiry ng insurance, hulog sa ipon, singil sa subscription, oras ng gamot, kaarawan ng pamilya — at nagpapaalala bago pa ito mahuli. Ayusin ayon sa kategorya ang mga regular na bayarin, kontrata, kalusugan, badyet, at alagang hayop; pamahalaan ang iskedyul ng pamilya sa magkakahiwalay na profile. May parking timer, password vault, at cloud backup."
+        },
+        tags: {
+          ko: ["똑똑한 알림", "정기 지출·계약 관리", "가족 일정 관리", "클라우드 백업"],
+          en: ["Smart reminders", "Bills & contracts", "Family profiles", "Cloud backup"],
+          ja: ["スマート通知", "定期支出・契約管理", "家族の予定管理", "クラウドバックアップ"],
+          zh: ["智能提醒", "定期支出·合约", "家庭日程管理", "云端备份"],
+          ru: ["Умные напоминания", "Платежи и договоры", "Профили семьи", "Облачный бэкап"],
+          fil: ["Smart reminders", "Bayarin at kontrata", "Profile ng pamilya", "Cloud backup"]
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=com.chaengkim1.app",
+        appStoreUrl: null
+      },
+
+      /* ── 개발 중인 앱 ─────────────────────────────────────────────
+         status: "dev" 를 넣으면 스토어 버튼 대신 "개발중" 배지가 표시됩니다.
+         출시되면 status 줄을 지우고 playUrl / appStoreUrl 을 채워주세요.
+         ───────────────────────────────────────────────────────── */
+      {
+        name: "Slim Joy",
+        icon: "images/slimjoy-icon.png",
+        desc: DEV_DESC,
+        status: "dev"
+      },
+      {
+        name: "Light LED",
+        icon: "images/lightled-icon.png",
+        desc: DEV_DESC,
+        status: "dev"
+      },
+      {
+        name: { ko: "로또 번호", en: "Lotto Numbers", ja: "ロト番号", zh: "乐透号码", ru: "Лотерейные номера", fil: "Lotto Numbers" },
+        icon: "images/lotto-icon.png",
+        desc: DEV_DESC,
+        status: "dev"
+      },
+      {
+        name: { ko: "새 게임", en: "New Game", ja: "新作ゲーム", zh: "新游戏", ru: "Новая игра", fil: "Bagong Laro" },
+        icon: "images/game-icon.png",
+        desc: DEV_DESC,
+        status: "dev"
+      },
+      {
+        name: { ko: "새 앱", en: "New App", ja: "新アプリ", zh: "新应用", ru: "Новое приложение", fil: "Bagong App" },
+        icon: "images/puzzle-icon.png",
+        desc: DEV_DESC,
+        status: "dev"
       }
       /* 새 앱을 추가하려면 위 항목을 복사해 쉼표(,)로 이어 붙이고 내용만 바꾸세요. */
     ];
@@ -686,14 +774,18 @@
           '<div class="app-card">' +
             '<div class="app-head">' +
               iconHtml(app) +
-              '<div class="app-name"><h3>' + localized(app.name) + '</h3><div class="category">' + localized(app.category) + '</div></div>' +
+              '<div class="app-name"><h3>' + localized(app.name) + '</h3>' +
+                (app.category ? '<div class="category">' + localized(app.category) + '</div>' : "") +
+              '</div>' +
             '</div>' +
-            '<p class="app-desc">' + localized(app.desc) + '</p>' +
-            '<div class="app-tags">' + localized(app.tags).map(function (tag) { return "<span>" + tag + "</span>"; }).join("") + '</div>' +
+            (app.desc ? '<p class="app-desc">' + localized(app.desc) + '</p>' : '<p class="app-desc"></p>') +
+            (app.tags ? '<div class="app-tags">' + localized(app.tags).map(function (tag) { return "<span>" + tag + "</span>"; }).join("") + '</div>' : "") +
             (app.note ? '<p class="app-note">' + localized(app.note) + '</p>' : "") +
             '<div class="app-links">' +
-              storeButton(app.playUrl, PLAY_SVG, "Google Play") +
-              storeButton(app.appStoreUrl, APPLE_SVG, "App Store") +
+              (app.status === "dev"
+                ? '<span class="store-btn dev">🛠️ ' + t("store.dev") + '</span>'
+                : storeButton(app.playUrl, PLAY_SVG, "Google Play") +
+                  storeButton(app.appStoreUrl, APPLE_SVG, "App Store")) +
             '</div>' +
           '</div>'
         );

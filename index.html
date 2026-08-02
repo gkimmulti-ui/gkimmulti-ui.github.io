@@ -179,6 +179,11 @@
       background: rgba(79, 110, 247, 0.08);
       padding: 4px 10px; border-radius: 999px;
     }
+    .app-card .app-note {
+      margin-top: 14px;
+      font-size: 0.78rem; line-height: 1.55;
+      color: #8a93a6;
+    }
     .app-card .app-links {
       margin-top: 20px;
       display: flex; gap: 10px;
@@ -587,6 +592,45 @@
         },
         playUrl: "https://play.google.com/store/apps/details?id=com.snaplog.myapp",
         appStoreUrl: null
+      },
+      {
+        name: "Light Wall",
+        category: {
+          ko: "잠금화면 · 신앙",
+          en: "Lock Screen · Faith",
+          ja: "ロック画面 · 信仰",
+          zh: "锁屏 · 信仰",
+          ru: "Экран блокировки · Вера",
+          fil: "Lock Screen · Pananampalataya"
+        },
+        icon: "images/lightwall-icon.png",
+        iconBg: "linear-gradient(135deg, #f0b64f, #e8a13c)",
+        desc: {
+          ko: "예수 그리스도 후기성도 교회 회원을 위한 잠금화면 앱입니다. 휴대폰을 켤 때마다 전 세계 성전의 아름다운 사진과 함께 경전 구절·선지자의 말씀·간증을 만나보세요. 좋아하는 성전을 고정하고 시계와 잠금해제 방식을 원하는 대로 바꿀 수 있으며, 손전등·QR·카메라·계산기도 잠금화면에서 바로 쓸 수 있습니다. 광고도 추적도 없이 모든 설정은 기기에만 저장됩니다.",
+          en: "A lock screen app for members of The Church of Jesus Christ of Latter-day Saints. Every time you wake your phone, meet beautiful photos of temples around the world alongside scriptures, words of the prophets, and testimonies. Pin your favorite temples, customize the clock and unlock style, and reach the flashlight, QR scanner, camera, and calculator right from the lock screen. No ads, no tracking — every setting stays on your device.",
+          ja: "末日聖徒イエス・キリスト教会の会員のためのロック画面アプリです。スマートフォンを開くたびに、世界各地の神殿の美しい写真とともに、聖典の聖句・預言者の言葉・証に出会えます。お気に入りの神殿を固定し、時計やロック解除の方法を自由に変更でき、懐中電灯・QRコード・カメラ・電卓もロック画面からすぐに使えます。広告も追跡もなく、すべての設定は端末内にのみ保存されます。",
+          zh: "一款为耶稣基督后期圣徒教会成员打造的锁屏应用。每次点亮手机，都能看到世界各地圣殿的精美照片，以及经文、先知的话语和见证。可固定喜爱的圣殿，自由更改时钟与解锁方式，还能在锁屏直接使用手电筒、二维码扫描、相机和计算器。无广告、无追踪，所有设置仅保存在您的设备上。",
+          ru: "Приложение для экрана блокировки для членов Церкви Иисуса Христа Святых последних дней. Каждый раз, включая телефон, вы увидите красивые фотографии храмов со всего мира вместе со стихами из Священных Писаний, словами пророков и свидетельствами. Закрепляйте любимые храмы, настраивайте часы и способ разблокировки, пользуйтесь фонариком, сканером QR, камерой и калькулятором прямо с экрана блокировки. Без рекламы и слежения — все настройки хранятся только на вашем устройстве.",
+          fil: "Isang lock screen app para sa mga miyembro ng Ang Simbahan ni Jesucristo ng mga Banal sa mga Huling Araw. Sa tuwing bubuksan mo ang iyong telepono, makikita mo ang magagandang larawan ng mga templo mula sa buong mundo kasama ang mga banal na kasulatan, salita ng mga propeta, at patotoo. I-pin ang paborito mong templo, baguhin ang orasan at paraan ng pag-unlock, at gamitin ang flashlight, QR scanner, camera, at calculator mismo sa lock screen. Walang ads, walang tracking — nasa iyong device lang ang lahat ng setting."
+        },
+        tags: {
+          ko: ["전 세계 성전 사진", "매일의 말씀", "교회 소식", "광고·추적 없음"],
+          en: ["Temples worldwide", "Daily inspiration", "Church news", "No ads or tracking"],
+          ja: ["世界の神殿写真", "日々の聖句", "教会ニュース", "広告・追跡なし"],
+          zh: ["全球圣殿照片", "每日经文", "教会消息", "无广告无追踪"],
+          ru: ["Храмы мира", "Слово дня", "Новости Церкви", "Без рекламы и слежения"],
+          fil: ["Mga templo sa mundo", "Araw-araw na inspirasyon", "Balita ng Simbahan", "Walang ads o tracking"]
+        },
+        note: {
+          ko: "본 앱은 예수 그리스도 후기성도 교회의 공식 앱이 아니며, 교회의 보증을 받거나 교회와 제휴 관계에 있지 않습니다. 성전 사진은 Wikimedia Commons 등 공개 출처를 활용합니다.",
+          en: "This app is not an official app of The Church of Jesus Christ of Latter-day Saints, and is neither endorsed by nor affiliated with the Church. Temple photos come from public sources such as Wikimedia Commons.",
+          ja: "本アプリは末日聖徒イエス・キリスト教会の公式アプリではなく、教会の承認を受けたものでも、教会と提携しているものでもありません。神殿の写真はWikimedia Commonsなどの公開ソースを利用しています。",
+          zh: "本应用并非耶稣基督后期圣徒教会的官方应用，未获教会认可，也与教会无隶属关系。圣殿照片取自 Wikimedia Commons 等公开来源。",
+          ru: "Это приложение не является официальным приложением Церкви Иисуса Христа Святых последних дней, не одобрено Церковью и не связано с ней. Фотографии храмов взяты из открытых источников, таких как Wikimedia Commons.",
+          fil: "Ang app na ito ay hindi opisyal na app ng Ang Simbahan ni Jesucristo ng mga Banal sa mga Huling Araw, at hindi ito inendorso ng o kaugnay ng Simbahan. Ang mga larawan ng templo ay mula sa mga pampublikong pinagkukunan tulad ng Wikimedia Commons."
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=com.lightwall",
+        appStoreUrl: ""
       }
       /* 새 앱을 추가하려면 위 항목을 복사해 쉼표(,)로 이어 붙이고 내용만 바꾸세요. */
     ];
@@ -646,6 +690,7 @@
             '</div>' +
             '<p class="app-desc">' + localized(app.desc) + '</p>' +
             '<div class="app-tags">' + localized(app.tags).map(function (tag) { return "<span>" + tag + "</span>"; }).join("") + '</div>' +
+            (app.note ? '<p class="app-note">' + localized(app.note) + '</p>' : "") +
             '<div class="app-links">' +
               storeButton(app.playUrl, PLAY_SVG, "Google Play") +
               storeButton(app.appStoreUrl, APPLE_SVG, "App Store") +

@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kenneth App - 일상을 바꾸는 앱을 만듭니다</title>
   <meta name="description" content="Kenneth App 공식 홈페이지 - 다양한 모바일 앱을 만나보세요. Android와 iPhone 모두 지원합니다." />
+  <link rel="icon" type="image/png" href="images/kenneth-logo.png" />
+  <link rel="apple-touch-icon" href="images/kenneth-logo.png" />
   <style>
     :root {
       --primary: #4f6ef7;
@@ -44,10 +46,9 @@
       text-decoration: none; flex-shrink: 0;
     }
     .logo-mark {
-      width: 34px; height: 34px; border-radius: 9px;
-      background: linear-gradient(135deg, var(--primary), var(--accent));
-      display: grid; place-items: center;
-      color: #fff; font-size: 1rem; font-weight: 800;
+      width: 38px; height: 38px;
+      object-fit: contain;
+      flex-shrink: 0;
     }
     .nav-right { display: flex; align-items: center; gap: 24px; }
     .nav-links { display: flex; gap: 24px; }
@@ -257,7 +258,7 @@
   <header>
     <div class="container nav">
       <a href="#" class="logo">
-        <span class="logo-mark">K</span>
+        <img class="logo-mark" src="images/kenneth-logo.png" alt="Kenneth App 로고" />
         Kenneth App
       </a>
       <div class="nav-right">
@@ -535,7 +536,7 @@
           ru: "Стиль жизни · только корейский",
           fil: "Lifestyle · Korean lamang"
         },
-        icon: "images/bujogeum-icon.svg",
+        icon: "images/bujogeum-icon.png",
         iconBg: "linear-gradient(135deg, #e85d75, #f7a34f)",
         desc: {
           ko: "결혼식·돌잔치의 축의금, 장례식의 조의금, 그 외 경조사 부조금을 수동으로 간편하게 관리하는 앱입니다. 누구에게 얼마를 주고받았는지, 흩어진 부조금 기록을 한곳에 모아 깔끔하게 정리하고 필요할 때 언제든 쉽게 찾아볼 수 있습니다.",
@@ -566,7 +567,7 @@
           ru: "Бесшумная камера · только Android",
           fil: "Silent Camera · Android lamang"
         },
-        icon: "images/snaplog-icon.svg",
+        icon: "images/snaplog-icon.png",
         iconBg: "linear-gradient(135deg, #0a1a3a, #1e3a8a)",
         desc: {
           ko: "셔터 소리 없이 조용히 촬영하는 무음 카메라 앱입니다. 도서관·공연장·잠든 아이 곁에서도 방해 없이 순간을 담고, 12가지 감성 필터와 편집기로 아름답게 완성하세요. 운동·식단·독서 같은 인증샷 챌린지로 매일의 기록도 쌓을 수 있습니다. 사진은 기기에 로컬 저장되어 안전합니다.",

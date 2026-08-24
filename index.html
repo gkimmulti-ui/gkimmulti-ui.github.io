@@ -592,6 +592,7 @@
         "store.dev": "In Development",
         "filter.all": "All",
         "filter.both": "Android & iPhone",
+        "filter.ios-soon": "iPhone coming soon",
         "filter.google": "Android only",
         "filter.korean": "Korean only",
         "filter.dev": "In Development"
@@ -628,6 +629,7 @@
         "store.dev": "개발중",
         "filter.all": "전체",
         "filter.both": "안드로이드/아이폰 사용가능",
+        "filter.ios-soon": "아이폰 출시 예정",
         "filter.google": "안드로이드 전용",
         "filter.korean": "한국어 전용",
         "filter.dev": "개발 진행중"
@@ -664,6 +666,7 @@
         "store.dev": "開発中",
         "filter.all": "すべて",
         "filter.both": "Android/iPhone",
+        "filter.ios-soon": "iPhone 近日公開",
         "filter.google": "Android専用",
         "filter.korean": "韓国語専用",
         "filter.dev": "開発中"
@@ -700,6 +703,7 @@
         "store.dev": "开发中",
         "filter.all": "全部",
         "filter.both": "Android/iPhone",
+        "filter.ios-soon": "iPhone 即将上线",
         "filter.google": "仅限Android",
         "filter.korean": "仅限韩语",
         "filter.dev": "开发中"
@@ -736,6 +740,7 @@
         "store.dev": "В разработке",
         "filter.all": "Все",
         "filter.both": "Android и iPhone",
+        "filter.ios-soon": "iPhone скоро",
         "filter.google": "Только Android",
         "filter.korean": "Только корейский",
         "filter.dev": "В разработке"
@@ -772,6 +777,7 @@
         "store.dev": "Ginagawa Pa",
         "filter.all": "Lahat",
         "filter.both": "Android at iPhone",
+        "filter.ios-soon": "iPhone malapit na",
         "filter.google": "Android lamang",
         "filter.korean": "Korean lamang",
         "filter.dev": "Ginagawa Pa"
@@ -840,12 +846,12 @@
       {
         name: "SnapLog",
         category: {
-          ko: "무음 카메라 · 안드로이드 전용",
-          en: "Silent Camera · Android only",
-          ja: "無音カメラ · Android専用",
-          zh: "静音相机 · 仅限Android",
-          ru: "Бесшумная камера · только Android",
-          fil: "Silent Camera · Android lamang"
+          ko: "무음 카메라",
+          en: "Silent Camera",
+          ja: "無音カメラ",
+          zh: "静音相机",
+          ru: "Бесшумная камера",
+          fil: "Silent Camera"
         },
         icon: "images/snaplog-icon.png",
         iconBg: "linear-gradient(135deg, #0a1a3a, #1e3a8a)",
@@ -866,8 +872,8 @@
           fil: ["Silent shutter", "12 filter", "Photo editor", "Daily challenge"]
         },
         playUrl: "https://play.google.com/store/apps/details?id=com.snaplog.myapp",
-        appStoreUrl: null,
-        flags: ["google"]
+        appStoreUrl: "",
+        flags: ["ios-soon"]
       },
       {
         name: "Light Wall",
@@ -907,7 +913,47 @@
         },
         playUrl: "https://play.google.com/store/apps/details?id=com.lightwall",
         appStoreUrl: "",
-        flags: ["google"]
+        flags: ["ios-soon"]
+      },
+      {
+        name: "Holy Ground",
+        category: {
+          ko: "신앙 기록 · 위젯",
+          en: "Faith Journal · Widget",
+          ja: "信仰記録 · ウィジェット",
+          zh: "信仰记录 · 小组件",
+          ru: "Дневник веры · Виджет",
+          fil: "Faith Journal · Widget"
+        },
+        icon: "images/holyground-icon.png",
+        iconBg: "linear-gradient(135deg, #e8c877, #f2e0a8)",
+        desc: {
+          ko: "매일의 신앙생활을 기록하고 홈 화면에서 간편하게 확인하는 개인용 위젯 앱입니다. 경전 읽기와 「와서 나를 따르라」 학습, 개인 공부 시간을 체크해 일·주·월·연 단위로 돌아볼 수 있고, 성전 방문 날짜와 수행한 의식도 안전하게 남길 수 있습니다. 성전 사진 배경의 달력·시계 위젯과 연차대회·금식일 D-Day, 공식 교회 소식까지 홈 화면에서 바로 확인하세요. 앱 잠금과 암호화 백업을 지원합니다.",
+          en: "A personal widget app for recording your daily worship and seeing it at a glance on your home screen. Track scripture reading, Come, Follow Me study, and personal study time, then review by day, week, month, or year. Record temple visits and ordinances securely, and jump to the official booking page. Calendar and clock widgets with temple photo backgrounds, countdowns to general conference and fast days, and official Church news all sit on your home screen. Includes app lock and encrypted backup.",
+          ja: "日々の信仰生活を記録し、ホーム画面ですぐ確認できる個人用ウィジェットアプリです。聖典の通読や「わたしに従ってきなさい」の学習、個人学習の時間を記録し、日・週・月・年単位で振り返れます。神殿への訪問日と受けた儀式も安全に記録でき、公式の予約ページへ移動できます。神殿写真を背景にしたカレンダー・時計ウィジェット、総大会や断食日のカウントダウン、公式ニュースもホーム画面に。アプリロックと暗号化バックアップに対応しています。",
+          zh: "一款个人小组件应用，帮你记录每日的信仰生活并在主屏幕上一目了然。记录经文阅读、《跟随我来》学习与个人研读时间，可按日、周、月、年回顾；安全保存圣殿参访日期与所行教仪，并可前往官方预约页面。主屏幕小组件提供圣殿照片背景的日历与时钟、总会大会与禁食日倒数，以及官方教会消息。支持应用锁与加密备份。",
+          ru: "Личное приложение-виджет для записи повседневной духовной жизни, которую видно прямо на главном экране. Отмечайте чтение Священных Писаний, изучение «Приди, следуй за Мною» и личное изучение, а затем просматривайте итоги по дням, неделям, месяцам и годам. Надёжно сохраняйте даты посещения храма и совершённые таинства и переходите на официальную страницу записи. Виджеты календаря и часов с фотографиями храмов, отсчёт до генеральной конференции и дней поста, а также официальные новости Церкви — всё на главном экране. Есть блокировка приложения и зашифрованное резервное копирование.",
+          fil: "Isang personal na widget app para itala ang pang-araw-araw mong pananampalataya at makita ito agad sa home screen. Subaybayan ang pagbabasa ng banal na kasulatan, pag-aaral ng Come, Follow Me, at personal na pag-aaral, at balikan ito kada araw, linggo, buwan, o taon. Ligtas na itala ang mga pagbisita sa templo at mga ordenansa, at pumunta sa opisyal na booking page. May calendar at clock widget na may larawan ng templo, countdown sa general conference at araw ng pag-aayuno, at opisyal na balita ng Simbahan — nasa home screen lahat. May app lock at naka-encrypt na backup."
+        },
+        tags: {
+          ko: ["경전·공부 기록", "성전 방문·의식 기록", "홈 화면 위젯", "암호화 백업"],
+          en: ["Scripture & study log", "Temple records", "Home screen widgets", "Encrypted backup"],
+          ja: ["聖典・学習記録", "神殿・儀式の記録", "ホーム画面ウィジェット", "暗号化バックアップ"],
+          zh: ["经文·学习记录", "圣殿参访记录", "主屏幕小组件", "加密备份"],
+          ru: ["Писания и учёба", "Записи о храме", "Виджеты экрана", "Шифрованный бэкап"],
+          fil: ["Scripture at study log", "Talaan ng templo", "Home screen widgets", "Encrypted backup"]
+        },
+        note: {
+          ko: "Holy Ground는 예수 그리스도 후기성도 교회의 공식 앱이 아니며, 교회와 제휴하거나 교회의 승인을 받은 앱이 아닙니다. 교회 소식과 성전 예약은 공식 웹페이지로 연결됩니다.",
+          en: "Holy Ground is not an official app of The Church of Jesus Christ of Latter-day Saints, and is neither affiliated with nor endorsed by the Church. Church news and temple booking link out to the official web pages.",
+          ja: "Holy Groundは末日聖徒イエス・キリスト教会の公式アプリではなく、教会と提携も承認もされていません。教会ニュースと神殿の予約は公式ウェブページへ移動します。",
+          zh: "Holy Ground 并非耶稣基督后期圣徒教会的官方应用，与教会无隶属关系，也未获教会认可。教会消息与圣殿预约均连结至官方网页。",
+          ru: "Holy Ground не является официальным приложением Церкви Иисуса Христа Святых последних дней, не связано с Церковью и не одобрено ею. Новости Церкви и запись в храм ведут на официальные веб-страницы.",
+          fil: "Ang Holy Ground ay hindi opisyal na app ng Ang Simbahan ni Jesucristo ng mga Banal sa mga Huling Araw, at hindi ito kaugnay o inendorso ng Simbahan. Ang balita ng Simbahan at temple booking ay naglilink sa opisyal na mga web page."
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=holyground.myapp",
+        appStoreUrl: "",
+        flags: ["ios-soon"]
       },
       {
         name: "챙김",
@@ -939,7 +985,7 @@
         },
         playUrl: "https://play.google.com/store/apps/details?id=com.chaengkim1.app",
         appStoreUrl: "",
-        flags: ["google", "korean"]
+        flags: ["ios-soon", "korean"]
       },
 
       /* ── 개발 중인 앱 ─────────────────────────────────────────────
@@ -948,46 +994,195 @@
          ───────────────────────────────────────────────────────── */
       {
         name: "Slim Joy",
+        category: {
+          ko: "사진 편집",
+          en: "Photo Editing",
+          ja: "写真編集",
+          zh: "照片编辑",
+          ru: "Фоторедактор",
+          fil: "Photo Editing"
+        },
         icon: "images/slimjoy-icon.png",
-        desc: DEV_DESC,
-        status: "dev",
-        flags: ["dev"]
+        iconBg: "linear-gradient(135deg, #f2748f, #f7b25c)",
+        desc: {
+          ko: "사진 속 얼굴과 체형을 간편하게 보정하는 사진 편집 앱입니다. 갤러리에서 사진을 불러와 보정 강도만 고르면 얼굴선과 체형이 자연스럽게 조정되고, 슬라이더를 움직여 원본과 바로 비교할 수 있습니다. V라인·체형 슬리밍·키 보정·피부 보정을 지원하며, 변화 과정을 비포·애프터 GIF로 저장해 공유할 수도 있습니다.",
+          en: "A photo editor for gently refining faces and body shapes in your pictures. Pick a photo from your gallery, choose how strong the retouch should be, and compare against the original with a simple slider. Includes V-line and body slimming, height proportion, and skin smoothing — and you can save the change as a before-and-after GIF.",
+          ja: "写真の顔立ちや体型を手軽に補正できる写真編集アプリです。ギャラリーから写真を選び、補正の強さを決めるだけで自然に整い、スライダーを動かせば元の写真とすぐ比べられます。Vライン・体型スリム・身長比率・肌補正に対応し、変化をビフォーアフターGIFとして保存できます。",
+          zh: "一款轻松修饰照片中脸型与身形的照片编辑应用。从相册选择照片，设定修饰强度即可自然调整，拖动滑块就能与原图即时对比。支持 V 脸、身形瘦身、身高比例与皮肤润饰，还能把变化保存为前后对比 GIF。",
+          ru: "Фоторедактор для аккуратной коррекции лица и фигуры на снимках. Выберите фото из галереи, задайте силу ретуши и сравните с оригиналом одним движением слайдера. Есть V-линия лица, коррекция фигуры и пропорций роста, сглаживание кожи, а результат можно сохранить как GIF «до и после».",
+          fil: "Isang photo editor para maayos na i-retouch ang mukha at hugis ng katawan sa iyong mga litrato. Pumili ng litrato sa gallery, itakda ang lakas ng retouch, at ihambing sa orihinal gamit ang slider. May V-line at body slimming, proporsyon ng tangkad, at skin smoothing — at maaaring i-save ang pagbabago bilang before-and-after GIF."
+        },
+        tags: {
+          ko: ["체형·V라인 보정", "보정 강도 조절", "전후 비교", "비포·애프터 GIF"],
+          en: ["Face & body retouch", "Adjustable strength", "Before/after compare", "Before-after GIF"],
+          ja: ["体型・Vライン補正", "補正強度の調整", "ビフォーアフター比較", "変化のGIF保存"],
+          zh: ["脸型·身形修饰", "强度可调", "前后对比", "对比 GIF"],
+          ru: ["Лицо и фигура", "Регулируемая сила", "Сравнение до/после", "GIF до и после"],
+          fil: ["Mukha at katawan", "Adjustable na lakas", "Before/after compare", "Before-after GIF"]
+        },
+        note: {
+          ko: "Slim Joy는 사진의 외형을 시각적으로 변경하는 사진 편집 도구입니다. 실제 체중 감량이나 신체 변화, 건강 개선 효과를 제공하거나 보장하지 않습니다. 사진의 구도와 인물 위치, 배경, 화질에 따라 보정 결과가 달라질 수 있습니다.",
+          en: "Slim Joy is a photo editing tool that visually alters the appearance of images. It does not provide or guarantee actual weight loss, physical change, or health improvement. Results vary with composition, subject position, background, and image quality.",
+          ja: "Slim Joyは写真の見た目を視覚的に変更する写真編集ツールです。実際の減量や身体の変化、健康の改善を提供・保証するものではありません。写真の構図や人物の位置、背景、画質によって補正結果は異なります。",
+          zh: "Slim Joy 是一款在视觉上改变照片外观的照片编辑工具，并不提供或保证实际的减重、身体变化或健康改善效果。修饰结果会因构图、人物位置、背景与画质而不同。",
+          ru: "Slim Joy — инструмент редактирования фотографий, который визуально изменяет изображение. Он не обеспечивает и не гарантирует реального похудения, изменений тела или улучшения здоровья. Результат зависит от композиции, положения человека, фона и качества снимка.",
+          fil: "Ang Slim Joy ay isang photo editing tool na biswal na nagbabago ng hitsura ng larawan. Hindi ito nagbibigay o gumagarantiya ng tunay na pagpayat, pagbabago ng katawan, o pagbuti ng kalusugan. Nag-iiba ang resulta ayon sa komposisyon, posisyon ng tao, background, at kalidad ng larawan."
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=com.kennethapp.slimjoy",
+        appStoreUrl: "",
+        flags: ["ios-soon"]
       },
       {
         name: "Light LED",
+        category: {
+          ko: "LED 전광판",
+          en: "LED Display Board",
+          ja: "LED電光掲示板",
+          zh: "LED 显示屏",
+          ru: "Светодиодное табло",
+          fil: "LED Display Board"
+        },
         icon: "images/lightled-icon.png",
-        desc: DEV_DESC,
-        status: "dev",
-        flags: ["dev"]
+        iconBg: "linear-gradient(135deg, #1b1030, #2a1050)",
+        desc: {
+          ko: "스마트폰을 밝고 선명한 LED 전광판으로 바꿔주는 앱입니다. 원하는 문구를 입력하면 큰 스크롤 전광판으로 표시되어, 매장·행사장·콘서트·공항처럼 멀리서도 메시지를 전해야 하는 곳에서 활용할 수 있습니다. 도트 매트릭스·네온·세그먼트 스타일과 색상·속도·밝기를 자유롭게 설정하고, 자주 쓰는 문구는 저장해 바로 불러올 수 있습니다.",
+          en: "Turn your phone into a bright, easy-to-read LED display board. Type any message and it scrolls across the screen in large letters — perfect for shops, events, concerts, and airports where people need to read you from a distance. Choose dot-matrix, neon, or segment styles, adjust color, speed, and brightness, and save your favorite messages for instant recall.",
+          ja: "スマートフォンを明るく見やすいLED電光掲示板に変えるアプリです。好きな文字を入力すると大きなスクロール表示になり、店舗・イベント会場・コンサート・空港など、離れた場所から読んでもらいたい場面で活躍します。ドットマトリクス・ネオン・セグメントのスタイルを選び、色・速度・明るさを調整でき、よく使う文言は保存してすぐ呼び出せます。",
+          zh: "把手机变成明亮易读的 LED 显示屏。输入任意文字即可以大号滚动字幕呈现，适合店铺、活动现场、演唱会、机场等需要远距离传达信息的场合。可选择点阵、霓虹、数码管样式，自由调整颜色、速度与亮度，常用文字还能保存并一键调出。",
+          ru: "Превратите телефон в яркое светодиодное табло. Введите любое сообщение — и оно поплывёт крупными буквами по экрану: удобно в магазине, на мероприятии, концерте или в аэропорту, где вас должны прочитать издалека. Выбирайте стиль точечной матрицы, неона или сегментов, настраивайте цвет, скорость и яркость, сохраняйте частые сообщения для быстрого запуска.",
+          fil: "Gawing maliwanag at madaling basahin na LED display board ang iyong telepono. Mag-type ng kahit anong mensahe at mag-i-scroll ito sa malalaking titik — mainam sa tindahan, event, konsiyerto, at paliparan kung saan kailangan kang mabasa mula sa malayo. Pumili ng dot-matrix, neon, o segment na istilo, i-adjust ang kulay, bilis, at liwanag, at i-save ang mga paboritong mensahe para mabilis mabuksan."
+        },
+        tags: {
+          ko: ["스크롤 전광판", "도트·네온·세그먼트", "색상·속도·밝기 조절", "프리셋 저장"],
+          en: ["Scrolling marquee", "Dot · neon · segment", "Color, speed, brightness", "Saved presets"],
+          ja: ["スクロール表示", "ドット・ネオン・セグメント", "色・速度・明るさ調整", "プリセット保存"],
+          zh: ["滚动字幕", "点阵·霓虹·数码管", "颜色·速度·亮度", "预设保存"],
+          ru: ["Бегущая строка", "Матрица · неон · сегменты", "Цвет, скорость, яркость", "Сохранённые пресеты"],
+          fil: ["Scrolling marquee", "Dot · neon · segment", "Kulay, bilis, liwanag", "Naka-save na preset"]
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=com.kennethapp.lightled",
+        appStoreUrl: "",
+        flags: ["ios-soon"]
       },
       {
-        name: "나도 로또 당첨되고싶다",
+        name: "나도 로또 당첨되고 싶어",
         category: {
-          ko: "한국어 전용",
-          en: "Korean only",
-          ja: "韓国語専用",
-          zh: "仅限韩语",
-          ru: "только корейский",
-          fil: "Korean lamang"
+          ko: "로또 번호 도우미 · 한국어 전용",
+          en: "Lotto Helper · Korean only",
+          ja: "ロト番号アシスト · 韓国語専用",
+          zh: "乐透选号助手 · 仅限韩语",
+          ru: "Помощник по лотерее · только корейский",
+          fil: "Lotto Helper · Korean lamang"
         },
         icon: "images/lotto-icon.png",
-        desc: DEV_DESC,
-        status: "dev",
-        flags: ["dev", "korean"]
+        iconBg: "linear-gradient(135deg, #1565d8, #3f95f0)",
+        desc: {
+          ko: "로또 6/45 번호를 쉽고 재미있게 만들고, 구매한 번호를 회차별로 저장해 당첨 결과까지 확인하는 번호 도우미 앱입니다. 버튼 한 번으로 자동 생성하거나 포함·제외할 번호를 직접 정해 나만의 조합을 만들 수 있고, 한 번에 여러 게임도 생성됩니다. 저장한 번호는 최신 당첨번호와 비교해 일치 개수와 등수를 알려주며, 모든 기록은 기기에 저장됩니다.",
+          en: "A Korean-language helper for Lotto 6/45 that makes picking numbers easy and fun, saves the tickets you bought by draw, and checks the results for you. Generate a set with one tap or build your own by including and excluding specific numbers, and create several games at once. Saved tickets are compared against the latest winning numbers to show matches and prize tier — all stored on your device.",
+          ja: "韓国のロト6/45の番号を手軽に作り、購入した番号を回次ごとに保存して当選結果まで確認できる番号アシストアプリです。ボタン一つで自動生成したり、含めたい番号・除きたい番号を指定して自分だけの組み合わせを作れ、複数ゲームの同時生成にも対応します。保存した番号は最新の当選番号と照合され、一致数と等級が表示されます。記録はすべて端末内に保存されます。",
+          zh: "一款韩语乐透 6/45 选号助手，让选号变得轻松有趣，还能按期保存已购号码并核对中奖结果。一键自动生成，或自行指定要包含与排除的号码来打造专属组合，也可一次生成多注。保存的号码会与最新开奖号码比对，显示命中个数与中奖等级，所有记录仅保存在设备中。",
+          ru: "Помощник на корейском языке для лотереи 6/45: легко и увлекательно составляет комбинации, сохраняет купленные билеты по тиражам и проверяет результаты. Сгенерируйте набор одним касанием или соберите свой, указав нужные и исключённые числа, — можно создать сразу несколько игр. Сохранённые билеты сверяются с последними выигрышными числами и показывают совпадения и категорию приза. Все записи хранятся на устройстве.",
+          fil: "Isang Korean-language na katulong para sa Lotto 6/45 na ginagawang madali at masaya ang pagpili ng numero, nagse-save ng binili mong tiket bawat draw, at tumitingin ng resulta para sa iyo. Bumuo ng set sa isang tap o gumawa ng sarili mong kombinasyon sa pamamagitan ng pagsama at pag-alis ng partikular na numero, at gumawa ng ilang laro nang sabay. Ikinukumpara ang mga naka-save na tiket sa pinakabagong winning numbers para ipakita ang tugma at prize tier — lahat nasa iyong device."
+        },
+        tags: {
+          ko: ["자동·조건 번호 생성", "회차별 번호 저장", "당첨 결과 확인", "결과 알림"],
+          en: ["Auto & custom picks", "Saved by draw", "Result checking", "Result alerts"],
+          ja: ["自動・条件生成", "回次別に保存", "当選結果の確認", "結果通知"],
+          zh: ["自动·条件选号", "按期保存", "中奖核对", "结果通知"],
+          ru: ["Авто и свои числа", "Сохранение по тиражам", "Проверка результатов", "Уведомления"],
+          fil: ["Auto at custom picks", "Save bawat draw", "Result checking", "Result alerts"]
+        },
+        note: {
+          ko: "본 앱이 제공하는 번호는 무작위 생성 또는 사용자가 선택한 조건을 바탕으로 만든 참고용 조합입니다. 특정 번호의 당첨 가능성을 예측하거나 당첨을 보장하지 않습니다. 로또 구매는 개인의 판단과 책임에 따라 적정한 범위에서 이용해 주세요.",
+          en: "Numbers from this app are reference combinations produced at random or from conditions you set. It does not predict the odds of any number winning, nor guarantee a win. Please buy lottery tickets responsibly, within your own judgment and means.",
+          ja: "本アプリが提供する番号は、無作為またはユーザーが設定した条件に基づく参考用の組み合わせです。特定の番号の当選可能性を予測したり、当選を保証するものではありません。ロトの購入はご自身の判断と責任のもと、適切な範囲でご利用ください。",
+          zh: "本应用提供的号码为随机生成或依据用户设定条件产生的参考组合，不预测任何号码的中奖概率，也不保证中奖。请依个人判断与责任，在适度范围内购买彩票。",
+          ru: "Числа в приложении — справочные комбинации, созданные случайно или по заданным вами условиям. Приложение не предсказывает вероятность выигрыша и не гарантирует его. Покупайте лотерейные билеты ответственно, в разумных пределах.",
+          fil: "Ang mga numero mula sa app na ito ay sangguniang kombinasyon na random o batay sa mga kondisyong itinakda mo. Hindi nito hinuhulaan ang tsansang manalo ng kahit anong numero, ni ginagarantiyahan ang panalo. Mangyaring bumili ng lotto nang responsable, ayon sa sariling pagpapasya at kakayahan."
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=com.kennethapp.lotto",
+        appStoreUrl: "",
+        flags: ["ios-soon", "korean"]
       },
       {
         name: "One Minute Kingdom",
+        category: {
+          ko: "캐주얼 게임",
+          en: "Casual Game",
+          ja: "カジュアルゲーム",
+          zh: "休闲游戏",
+          ru: "Казуальная игра",
+          fil: "Casual Game"
+        },
         icon: "images/oneminutekingdom-icon.png",
-        desc: DEV_DESC,
-        status: "dev",
-        flags: ["dev"]
+        iconBg: "linear-gradient(135deg, #5b2fb0, #8b5cf6)",
+        desc: {
+          ko: "10초에서 1분이면 끝나는 초간단 미니게임을 즐기며 나만의 왕국을 키우는 캐주얼 게임입니다. 황금 터치·숫자 왕·국기 정복·성벽 방어·보물 상자 다섯 가지를 플레이해 골드를 모으고, 작은 마을에서 도시·왕국·대륙을 거쳐 달과 화성, 우주까지 영토를 넓혀 보세요. 출석 보상과 일일 미션, 무료 보물상자로 매일 즐길 거리가 있고 로그인 없이 바로 시작할 수 있습니다.",
+          en: "A casual game where 10-second to one-minute mini-games grow your own kingdom. Play five quick modes — Golden Touch, Number King, Flag Conquest, Wall Defense, and Treasure Chest — to collect gold, then expand from a small village to a city, kingdom, continent, and on to the Moon, Mars, and outer space. Daily rewards, missions, and free treasure chests keep it fresh, and you can start playing without signing in.",
+          ja: "10秒〜1分で終わる超シンプルなミニゲームを遊びながら自分の王国を育てるカジュアルゲームです。ゴールドタッチ・数字王・国旗征服・城壁防衛・宝箱の5種でゴールドを集め、小さな村から都市・王国・大陸、そして月・火星・宇宙まで領土を広げましょう。ログイン不要ですぐ始められ、出席報酬やデイリーミッション、無料宝箱で毎日楽しめます。",
+          zh: "一款休闲游戏，用 10 秒到 1 分钟就能玩完的迷你游戏培养属于你的王国。畅玩黄金点击、数字之王、国旗征服、城墙防御、宝箱五种玩法收集金币，从小村庄一路扩张到城市、王国、大陆，直至月球、火星与宇宙。每日签到奖励、任务与免费宝箱让你天天有得玩，无需登录即可开始。",
+          ru: "Казуальная игра, где мини-игры на 10 секунд — минуту растят ваше королевство. Играйте в пять режимов — «Золотое касание», «Король чисел», «Покорение флагов», «Защита стен» и «Сундук с сокровищами», — собирайте золото и расширяйтесь от деревни до города, королевства, континента, а затем до Луны, Марса и космоса. Ежедневные награды, задания и бесплатные сундуки, вход в аккаунт не нужен.",
+          fil: "Isang casual game kung saan ang mga mini-game na 10 segundo hanggang isang minuto ang nagpapalago ng sarili mong kaharian. Laruin ang limang mabilisang mode — Golden Touch, Number King, Flag Conquest, Wall Defense, at Treasure Chest — para mangolekta ng ginto, at lumawak mula maliit na nayon patungong lungsod, kaharian, kontinente, hanggang sa Buwan, Mars, at kalawakan. May pang-araw-araw na gantimpala, misyon, at libreng treasure chest, at makakalaro agad nang walang sign-in."
+        },
+        tags: {
+          ko: ["5가지 미니게임", "왕국 성장", "출석·일일 미션", "오프라인 지원"],
+          en: ["5 mini-games", "Kingdom growth", "Daily rewards", "Offline play"],
+          ja: ["5つのミニゲーム", "王国の成長", "出席・デイリー", "オフライン対応"],
+          zh: ["5 种迷你游戏", "王国成长", "签到·日常任务", "支持离线"],
+          ru: ["5 мини-игр", "Рост королевства", "Ежедневные награды", "Офлайн-режим"],
+          fil: ["5 mini-games", "Paglago ng kaharian", "Daily rewards", "Offline play"]
+        },
+        note: {
+          ko: "무료로 즐길 수 있으며 광고가 포함되어 있습니다.",
+          en: "Free to play, with ads.",
+          ja: "無料でプレイでき、広告が含まれます。",
+          zh: "免费游玩，含广告。",
+          ru: "Бесплатная игра с рекламой.",
+          fil: "Libreng laruin, may ads."
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=oneminutekingdom.myapp",
+        appStoreUrl: "",
+        flags: ["ios-soon"]
       },
       {
-        name: "MBTI 16 MODE",
+        name: "MBTI 16MODE",
+        category: {
+          ko: "자기계발 · 게임형",
+          en: "Self-growth · Gamified",
+          ja: "自己成長 · ゲーム型",
+          zh: "自我成长 · 游戏化",
+          ru: "Саморазвитие · Игровое",
+          fil: "Self-growth · Gamified"
+        },
         icon: "images/mbti16mode-icon.png",
-        desc: DEV_DESC,
-        status: "dev",
-        flags: ["dev"]
+        iconBg: "linear-gradient(135deg, #2a2f6b, #4f6ef7)",
+        desc: {
+          ko: "성격유형을 고정된 라벨이 아니라 상황에 맞게 깨워 쓰는 16개의 모드로 바라보는 게임형 자기계발 앱입니다. 지금 필요한 힘(집중·결단·공감 등)을 고르면 어울리는 모드를 추천하고, \"회의에서 의견 한 번 말하기\"처럼 바로 실천할 작은 퀘스트로 8가지 능력을 키웁니다. 스킬맵·성장 레이더·주간 리포트로 변화를 확인할 수 있고, 계정 없이 모든 기록은 기기에만 저장됩니다.",
+          en: "A gamified self-growth app that treats personality types not as fixed labels but as 16 modes you can switch on when you need them. Tell it what you need right now — focus, decisiveness, empathy — and it suggests the mode that fits, then hands you small real-life quests like \"speak up once in today's meeting\" to build eight different strengths. Track progress with a skill map, growth radar, and weekly report. No account needed; everything stays on your device.",
+          ja: "性格タイプを固定のラベルではなく、必要なときに呼び起こせる16のモードとして捉えるゲーム型自己成長アプリです。今ほしい力（集中・決断・共感など）を選ぶと最適なモードを提案し、「会議で一度発言する」といった実生活の小さなクエストで8つの能力を伸ばします。スキルマップ・成長レーダー・週次レポートで変化を確認でき、アカウント不要ですべての記録は端末内にのみ保存されます。",
+          zh: "一款游戏化的自我成长应用，把性格类型看作可随时唤醒的 16 种模式，而非固定标签。选择当下需要的能力（专注、决断、共情等），应用会推荐最合适的模式，并给出「在会议上发言一次」这类可立即实践的小任务，帮你培养八项能力。技能图、成长雷达与周报让变化一目了然。无需注册账号，所有记录仅保存在设备中。",
+          ru: "Игровое приложение для саморазвития, где тип личности — не фиксированный ярлык, а 16 режимов, которые можно включать по ситуации. Укажите, что нужно прямо сейчас — концентрация, решительность, эмпатия, — и приложение предложит подходящий режим, а затем даст небольшие задания из реальной жизни вроде «高高高высказаться один раз на совещании», развивая восемь качеств. Прогресс виден на карте навыков, радаре роста и в недельном отчёте. Аккаунт не нужен, все записи хранятся только на вашем устройстве.",
+          fil: "Isang gamified na self-growth app na tumitingin sa personality type hindi bilang nakapirming label kundi bilang 16 na mode na puwedeng buksan kapag kailangan. Sabihin kung ano ang kailangan mo ngayon — focus, decisiveness, empatiya — at magmumungkahi ito ng akmang mode, saka bibigyan ka ng maliliit na quest sa totoong buhay tulad ng \"magsalita nang isang beses sa meeting\" para palakasin ang walong kakayahan. Subaybayan ang progreso sa skill map, growth radar, at lingguhang report. Walang account na kailangan; nasa device mo lang ang lahat ng tala."
+        },
+        tags: {
+          ko: ["16가지 모드", "현실 퀘스트", "성장 기록·주간 리포트", "계정 불필요"],
+          en: ["16 modes", "Real-life quests", "Growth reports", "No account needed"],
+          ja: ["16のモード", "現実クエスト", "成長レポート", "アカウント不要"],
+          zh: ["16 种模式", "现实任务", "成长报告", "无需账号"],
+          ru: ["16 режимов", "Задания из жизни", "Отчёты о росте", "Без аккаунта"],
+          fil: ["16 na mode", "Real-life quests", "Growth reports", "Walang account"]
+        },
+        note: {
+          ko: "MBTI는 진단이 아닌 자기이해와 추천을 위한 참고 정보입니다. 높은 레벨은 더 나은 사람을 뜻하지 않으며, 사용 경험을 나타냅니다.",
+          en: "MBTI here is reference material for self-understanding and suggestions, not a diagnosis. A higher level does not mean a better person — it reflects usage experience.",
+          ja: "MBTIは診断ではなく、自己理解と提案のための参考情報です。レベルが高いことは優れた人であることを意味せず、利用経験を表します。",
+          zh: "此处的 MBTI 是用于自我理解与推荐的参考信息，并非诊断。等级高低不代表人的优劣，只反映使用经验。",
+          ru: "MBTI здесь — справочный материал для самопонимания и рекомендаций, а не диагноз. Высокий уровень не означает, что человек лучше: он отражает опыт использования.",
+          fil: "Ang MBTI dito ay sanggunian para sa pag-unawa sa sarili at mungkahi, hindi diagnosis. Ang mataas na level ay hindi ibig sabihing mas mabuting tao — sumasalamin ito sa karanasan sa paggamit."
+        },
+        playUrl: "https://play.google.com/store/apps/details?id=com.sixteenmode.app",
+        appStoreUrl: "",
+        flags: ["ios-soon"]
       }
       /* 새 앱을 추가하려면 위 항목을 복사해 쉼표(,)로 이어 붙이고 내용만 바꾸세요. */
     ];
@@ -1038,7 +1233,7 @@
     }
 
     /* 분류 필터 ── 한 앱이 여러 분류에 속할 수 있습니다 (flags 배열) */
-    var FILTERS = ["all", "both", "google", "korean", "dev"];
+    var FILTERS = ["all", "both", "ios-soon", "google", "korean", "dev"];
     var activeFilter = "all";
 
     function appsFor(key) {
@@ -1097,7 +1292,8 @@
         ["stats.released", released],
         ["stats.dev", inDev],
         ["stats.langs", SUPPORTED.length]
-      ].map(function (row) {
+      ].filter(function (row) { return row[1] > 0; })   // 0인 항목은 표시하지 않음
+       .map(function (row) {
         return '<div class="stat"><b>' + row[1] + '</b><span>' + t(row[0]) + '</span></div>';
       }).join("");
 

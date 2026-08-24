@@ -7,6 +7,311 @@
   <meta name="description" content="Kenneth App 공식 홈페이지 - 다양한 모바일 앱을 만나보세요. Android와 iPhone 모두 지원합니다." />
   <link rel="icon" type="image/png" href="images/kenneth-logo.png" />
   <link rel="apple-touch-icon" href="images/kenneth-logo.png" />
+
+  <!-- ── 검색 최적화 (SEO) ───────────────────────────────────────
+       아래 canonical / hreflang / og:url 의 주소와 sitemap.xml 은
+       루트 사이트(https://gkimmulti-ui.github.io/) 기준입니다.
+       ──────────────────────────────────────────────────────── -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="author" content="Kenneth App" />
+  <meta name="theme-color" content="#4f6ef7" />
+  <meta name="keywords" id="meta-keywords" content="Kenneth App, 부조금관리, 마음장부, SnapLog, 무음카메라, Light Wall, Holy Ground, 챙김, Slim Joy, Light LED, 나도 로또 당첨되고 싶어, One Minute Kingdom, MBTI 16MODE, 안드로이드 앱, 무료 앱" />
+  <link rel="canonical" href="https://gkimmulti-ui.github.io/" id="link-canonical" />
+
+  <!-- 언어별 주소 (hreflang) -->
+  <link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+  <link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/?lang=ko" />
+  <link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/?lang=en" />
+  <link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/?lang=ja" />
+  <link rel="alternate" hreflang="zh" href="https://gkimmulti-ui.github.io/?lang=zh" />
+  <link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/?lang=ru" />
+  <link rel="alternate" hreflang="fil" href="https://gkimmulti-ui.github.io/?lang=fil" />
+
+  <!-- 공유 미리보기 (카카오톡·페이스북·네이버 블로그 등) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Kenneth App" />
+  <meta property="og:url" content="https://gkimmulti-ui.github.io/" id="og-url" />
+  <meta property="og:title" content="Kenneth App - 일상을 바꾸는 앱을 만듭니다" id="og-title" />
+  <meta property="og:description" content="Kenneth App 공식 홈페이지 - 다양한 모바일 앱을 만나보세요." id="og-desc" />
+  <meta property="og:image" content="https://gkimmulti-ui.github.io/images/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="ko_KR" id="og-locale" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ja_JP" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+  <meta property="og:locale:alternate" content="ru_RU" />
+  <meta property="og:locale:alternate" content="fil_PH" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kenneth App" id="tw-title" />
+  <meta name="twitter:description" content="Kenneth App 공식 홈페이지 - 다양한 모바일 앱을 만나보세요." id="tw-desc" />
+  <meta name="twitter:image" content="https://gkimmulti-ui.github.io/images/og-image.png" />
+
+  <!-- 검색엔진 소유 확인 — 각 웹마스터 도구에서 발급받은 코드를 content 에 넣으세요.
+       네이버: https://searchadvisor.naver.com  /  구글: https://search.google.com/search-console
+  <meta name="naver-site-verification" content="여기에_네이버_인증코드" />
+  <meta name="google-site-verification" content="여기에_구글_인증코드" />
+  -->
+
+  <!-- 구조화 데이터 (구글 리치 결과 · AI 검색이 읽는 부분) -->
+  <script type="application/ld+json" id="ld-json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://gkimmulti-ui.github.io/#website",
+      "url": "https://gkimmulti-ui.github.io/",
+      "name": "Kenneth App",
+      "description": "Kenneth App 공식 홈페이지 - 다양한 모바일 앱을 만나보세요. Android와 iPhone 모두 지원합니다.",
+      "inLanguage": [
+        "ko",
+        "en",
+        "ja",
+        "zh",
+        "ru",
+        "fil"
+      ],
+      "publisher": {
+        "@id": "https://gkimmulti-ui.github.io/#publisher"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://gkimmulti-ui.github.io/#publisher",
+      "name": "Kenneth App",
+      "url": "https://gkimmulti-ui.github.io/",
+      "logo": "https://gkimmulti-ui.github.io/images/kenneth-logo.png",
+      "email": "gkimmulti@gmail.com"
+    },
+    {
+      "@type": "ItemList",
+      "name": "Kenneth App의 앱들",
+      "numberOfItems": 10,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "부조금관리 by 마음장부",
+            "description": "결혼식·돌잔치의 축의금, 장례식의 조의금, 그 외 경조사 부조금을 수동으로 간편하게 관리하는 앱입니다. 누구에게 얼마를 주고받았는지, 흩어진 부조금 기록을 한곳에 모아 깔끔하게 정리하고 필요할 때 언제든 쉽게 찾아볼 수 있습니다.",
+            "image": "https://gkimmulti-ui.github.io/images/bujogeum-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.bujo.myapp",
+            "url": "https://play.google.com/store/apps/details?id=com.bujo.myapp",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "SnapLog",
+            "description": "셔터 소리 없이 조용히 촬영하는 무음 카메라 앱입니다. 도서관·공연장·잠든 아이 곁에서도 방해 없이 순간을 담고, 12가지 감성 필터와 편집기로 아름답게 완성하세요. 운동·식단·독서 같은 인증샷 챌린지로 매일의 기록도 쌓을 수 있습니다. 사진은 기기에 로컬 저장되어 안전합니다.",
+            "image": "https://gkimmulti-ui.github.io/images/snaplog-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.snaplog.myapp",
+            "url": "https://play.google.com/store/apps/details?id=com.snaplog.myapp",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Light Wall",
+            "description": "예수 그리스도 후기성도 교회 회원을 위한 잠금화면 앱입니다. 휴대폰을 켤 때마다 전 세계 성전의 아름다운 사진과 함께 경전 구절·선지자의 말씀·간증을 만나보세요. 좋아하는 성전을 고정하고 시계와 잠금해제 방식을 원하는 대로 바꿀 수 있으며, 손전등·QR·카메라·계산기도 잠금화면에서 바로 쓸 수 있습니다. 광고도 추적도 없이 모든 설정은 기기에만 저장됩니다.",
+            "image": "https://gkimmulti-ui.github.io/images/lightwall-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.lightwall",
+            "url": "https://play.google.com/store/apps/details?id=com.lightwall",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Holy Ground",
+            "description": "매일의 신앙생활을 기록하고 홈 화면에서 간편하게 확인하는 개인용 위젯 앱입니다. 경전 읽기와 「와서 나를 따르라」 학습, 개인 공부 시간을 체크해 일·주·월·연 단위로 돌아볼 수 있고, 성전 방문 날짜와 수행한 의식도 안전하게 남길 수 있습니다. 성전 사진 배경의 달력·시계 위젯과 연차대회·금식일 D-Day, 공식 교회 소식까지 홈 화면에서 바로 확인하세요. 앱 잠금과 암호화 백업을 지원합니다.",
+            "image": "https://gkimmulti-ui.github.io/images/holyground-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=holyground.myapp",
+            "url": "https://play.google.com/store/apps/details?id=holyground.myapp",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "챙김",
+            "description": "보험 만기일, 적금 납입일, 구독 결제일, 약 먹는 시간, 부모님 생신까지 — 흩어진 일정과 정보를 한곳에 모아 두고 중요한 순간이 오기 전에 알림으로 챙겨주는 생활 관리 앱입니다. 통신·구독·보험 같은 정기 지출부터 건강·가계부·반려동물까지 카테고리별로 정리하고, 가족의 일정도 프로필을 나눠 함께 관리할 수 있습니다. 주차 위치 타이머, 비밀번호 보관, 클라우드 백업까지 지원합니다.",
+            "image": "https://gkimmulti-ui.github.io/images/chaenggim-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.chaengkim1.app",
+            "url": "https://play.google.com/store/apps/details?id=com.chaengkim1.app",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Slim Joy",
+            "description": "사진 속 얼굴과 체형을 간편하게 보정하는 사진 편집 앱입니다. 갤러리에서 사진을 불러와 보정 강도만 고르면 얼굴선과 체형이 자연스럽게 조정되고, 슬라이더를 움직여 원본과 바로 비교할 수 있습니다. V라인·체형 슬리밍·키 보정·피부 보정을 지원하며, 변화 과정을 비포·애프터 GIF로 저장해 공유할 수도 있습니다.",
+            "image": "https://gkimmulti-ui.github.io/images/slimjoy-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.slimjoy",
+            "url": "https://play.google.com/store/apps/details?id=com.kennethapp.slimjoy",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Light LED",
+            "description": "스마트폰을 밝고 선명한 LED 전광판으로 바꿔주는 앱입니다. 원하는 문구를 입력하면 큰 스크롤 전광판으로 표시되어, 매장·행사장·콘서트·공항처럼 멀리서도 메시지를 전해야 하는 곳에서 활용할 수 있습니다. 도트 매트릭스·네온·세그먼트 스타일과 색상·속도·밝기를 자유롭게 설정하고, 자주 쓰는 문구는 저장해 바로 불러올 수 있습니다.",
+            "image": "https://gkimmulti-ui.github.io/images/lightled-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lightled",
+            "url": "https://play.google.com/store/apps/details?id=com.kennethapp.lightled",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "나도 로또 당첨되고 싶어",
+            "description": "로또 6/45 번호를 쉽고 재미있게 만들고, 구매한 번호를 회차별로 저장해 당첨 결과까지 확인하는 번호 도우미 앱입니다. 버튼 한 번으로 자동 생성하거나 포함·제외할 번호를 직접 정해 나만의 조합을 만들 수 있고, 한 번에 여러 게임도 생성됩니다. 저장한 번호는 최신 당첨번호와 비교해 일치 개수와 등수를 알려주며, 모든 기록은 기기에 저장됩니다.",
+            "image": "https://gkimmulti-ui.github.io/images/lotto-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lotto",
+            "url": "https://play.google.com/store/apps/details?id=com.kennethapp.lotto",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "One Minute Kingdom",
+            "description": "10초에서 1분이면 끝나는 초간단 미니게임을 즐기며 나만의 왕국을 키우는 캐주얼 게임입니다. 황금 터치·숫자 왕·국기 정복·성벽 방어·보물 상자 다섯 가지를 플레이해 골드를 모으고, 작은 마을에서 도시·왕국·대륙을 거쳐 달과 화성, 우주까지 영토를 넓혀 보세요. 출석 보상과 일일 미션, 무료 보물상자로 매일 즐길 거리가 있고 로그인 없이 바로 시작할 수 있습니다.",
+            "image": "https://gkimmulti-ui.github.io/images/oneminutekingdom-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=oneminutekingdom.myapp",
+            "url": "https://play.google.com/store/apps/details?id=oneminutekingdom.myapp",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "MBTI 16MODE",
+            "description": "성격유형을 고정된 라벨이 아니라 상황에 맞게 깨워 쓰는 16개의 모드로 바라보는 게임형 자기계발 앱입니다. 지금 필요한 힘(집중·결단·공감 등)을 고르면 어울리는 모드를 추천하고, \"회의에서 의견 한 번 말하기\"처럼 바로 실천할 작은 퀘스트로 8가지 능력을 키웁니다. 스킬맵·성장 레이더·주간 리포트로 변화를 확인할 수 있고, 계정 없이 모든 기록은 기기에만 저장됩니다.",
+            "image": "https://gkimmulti-ui.github.io/images/mbti16mode-icon.png",
+            "operatingSystem": "Android",
+            "applicationCategory": "MobileApplication",
+            "installUrl": "https://play.google.com/store/apps/details?id=com.sixteenmode.app",
+            "url": "https://play.google.com/store/apps/details?id=com.sixteenmode.app",
+            "author": {
+              "@id": "https://gkimmulti-ui.github.io/#publisher"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "KRW"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}</script>
   <style>
     :root {
       --primary: #4f6ef7;
@@ -460,9 +765,9 @@
       </a>
       <div class="nav-right">
         <nav class="nav-links">
-          <a href="#apps" data-i18n="nav.apps"></a>
-          <a href="#about" data-i18n="nav.about"></a>
-          <a href="#contact" data-i18n="nav.contact"></a>
+          <a href="#apps" data-i18n="nav.apps">앱 둘러보기</a>
+          <a href="#about" data-i18n="nav.about">소개</a>
+          <a href="#contact" data-i18n="nav.contact">문의</a>
         </nav>
         <label class="lang-select">
           <span class="globe">🌐</span>
@@ -482,15 +787,15 @@
   <!-- Hero -->
   <section class="hero">
     <div class="container">
-      <span class="badge" data-i18n="hero.badge"></span>
-      <h1><span data-i18n="hero.title"></span><br /><span class="accent">Kenneth App</span></h1>
-      <p data-i18n="hero.desc"></p>
+      <span class="badge" data-i18n="hero.badge">📱 Android · iPhone 모두 지원</span>
+      <h1><span data-i18n="hero.title">일상을 바꾸는 앱을 만듭니다</span><br /><span class="accent">Kenneth App</span></h1>
+      <p data-i18n="hero.desc">Kenneth App은 누구나 쉽고 편리하게 사용할 수 있는 모바일 앱을 만드는 개발자입니다. 지금 다양한 앱을 만나보세요.</p>
       <div class="hero-actions">
-        <a href="#apps" class="cta" data-i18n="hero.cta"></a>
-        <a href="#contact" class="btn-ghost" data-i18n="hero.cta2"></a>
+        <a href="#apps" class="cta" data-i18n="hero.cta">앱 둘러보기 ↓</a>
+        <a href="#contact" class="btn-ghost" data-i18n="hero.cta2">문의하기</a>
       </div>
-      <div class="hero-stats" id="hero-stats"><!-- 숫자 요약 자동 생성 --></div>
-      <div class="hero-icons" id="hero-icons"><!-- 앱 아이콘 자동 생성 --></div>
+      <div class="hero-stats" id="hero-stats"><!-- seo:stats:start --><div class="stat"><b>10</b><span>출시된 앱</span></div><div class="stat"><b>6</b><span>지원 언어</span></div><!-- seo:stats:end --></div>
+      <div class="hero-icons" id="hero-icons"><!-- seo:icons:start --><img src="images/bujogeum-icon.png" alt="부조금관리 by 마음장부" width="58" height="58" loading="lazy" /><img src="images/snaplog-icon.png" alt="SnapLog" width="58" height="58" loading="lazy" /><img src="images/lightwall-icon.png" alt="Light Wall" width="58" height="58" loading="lazy" /><img src="images/holyground-icon.png" alt="Holy Ground" width="58" height="58" loading="lazy" /><img src="images/chaenggim-icon.png" alt="챙김" width="58" height="58" loading="lazy" /><img src="images/slimjoy-icon.png" alt="Slim Joy" width="58" height="58" loading="lazy" /><img src="images/lightled-icon.png" alt="Light LED" width="58" height="58" loading="lazy" /><img src="images/lotto-icon.png" alt="나도 로또 당첨되고 싶어" width="58" height="58" loading="lazy" /><img src="images/oneminutekingdom-icon.png" alt="One Minute Kingdom" width="58" height="58" loading="lazy" /><img src="images/mbti16mode-icon.png" alt="MBTI 16MODE" width="58" height="58" loading="lazy" /><!-- seo:icons:end --></div>
     </div>
   </section>
 
@@ -498,11 +803,11 @@
   <section class="apps" id="apps">
     <div class="container">
       <div class="section-title">
-        <h2 data-i18n="apps.title"></h2>
-        <p data-i18n="apps.desc"></p>
+        <h2 data-i18n="apps.title">Kenneth App의 앱들</h2>
+        <p data-i18n="apps.desc">Google Play와 App Store에서 만나볼 수 있습니다.</p>
       </div>
-      <div class="app-filters" id="app-filters"><!-- 필터 칩 자동 생성 --></div>
-      <div class="app-grid" id="app-grid"><!-- 앱 카드는 아래 스크립트의 APPS 목록에서 자동 생성됩니다 --></div>
+      <div class="app-filters" id="app-filters"><!-- seo:filters:start --><button type="button" class="filter-chip active" data-filter="all">전체<span class="count">10</span></button><button type="button" class="filter-chip" data-filter="both">안드로이드/아이폰 사용가능<span class="count">1</span></button><button type="button" class="filter-chip" data-filter="ios-soon">아이폰 출시 예정<span class="count">9</span></button><button type="button" class="filter-chip" data-filter="korean">한국어 전용<span class="count">3</span></button><!-- seo:filters:end --></div>
+      <div class="app-grid" id="app-grid"><!-- seo:cards:start --><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/bujogeum-icon.png" alt="부조금관리 by 마음장부 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>부조금관리 by 마음장부</h3><div class="category">라이프스타일 · 한국어 전용</div></div></div><p class="app-desc">결혼식·돌잔치의 축의금, 장례식의 조의금, 그 외 경조사 부조금을 수동으로 간편하게 관리하는 앱입니다. 누구에게 얼마를 주고받았는지, 흩어진 부조금 기록을 한곳에 모아 깔끔하게 정리하고 필요할 때 언제든 쉽게 찾아볼 수 있습니다.</p><div class="app-tags"><span>축의금·조의금 기록</span><span>한곳에 정리</span><span>간편 조회</span></div><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=com.bujo.myapp" target="_blank" rel="noopener">Google Play</a><a class="store-btn" href="https://apps.apple.com/kr/app/%EB%B6%80%EC%A1%B0%EA%B8%88%EA%B4%80%EB%A6%AC-by-%EB%A7%88%EC%9D%8C%EC%9E%A5%EB%B6%80/id6787304594" target="_blank" rel="noopener">App Store</a></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/snaplog-icon.png" alt="SnapLog 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>SnapLog</h3><div class="category">무음 카메라</div></div></div><p class="app-desc">셔터 소리 없이 조용히 촬영하는 무음 카메라 앱입니다. 도서관·공연장·잠든 아이 곁에서도 방해 없이 순간을 담고, 12가지 감성 필터와 편집기로 아름답게 완성하세요. 운동·식단·독서 같은 인증샷 챌린지로 매일의 기록도 쌓을 수 있습니다. 사진은 기기에 로컬 저장되어 안전합니다.</p><div class="app-tags"><span>무음 촬영</span><span>12가지 감성 필터</span><span>사진 편집</span><span>인증샷 챌린지</span></div><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=com.snaplog.myapp" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/lightwall-icon.png" alt="Light Wall 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>Light Wall</h3><div class="category">잠금화면 · 신앙</div></div></div><p class="app-desc">예수 그리스도 후기성도 교회 회원을 위한 잠금화면 앱입니다. 휴대폰을 켤 때마다 전 세계 성전의 아름다운 사진과 함께 경전 구절·선지자의 말씀·간증을 만나보세요. 좋아하는 성전을 고정하고 시계와 잠금해제 방식을 원하는 대로 바꿀 수 있으며, 손전등·QR·카메라·계산기도 잠금화면에서 바로 쓸 수 있습니다. 광고도 추적도 없이 모든 설정은 기기에만 저장됩니다.</p><div class="app-tags"><span>전 세계 성전 사진</span><span>매일의 말씀</span><span>교회 소식</span><span>광고·추적 없음</span></div><p class="app-note">본 앱은 예수 그리스도 후기성도 교회의 공식 앱이 아니며, 교회의 보증을 받거나 교회와 제휴 관계에 있지 않습니다. 성전 사진은 Wikimedia Commons 등 공개 출처를 활용합니다.</p><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=com.lightwall" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/holyground-icon.png" alt="Holy Ground 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>Holy Ground</h3><div class="category">신앙 기록 · 위젯</div></div></div><p class="app-desc">매일의 신앙생활을 기록하고 홈 화면에서 간편하게 확인하는 개인용 위젯 앱입니다. 경전 읽기와 「와서 나를 따르라」 학습, 개인 공부 시간을 체크해 일·주·월·연 단위로 돌아볼 수 있고, 성전 방문 날짜와 수행한 의식도 안전하게 남길 수 있습니다. 성전 사진 배경의 달력·시계 위젯과 연차대회·금식일 D-Day, 공식 교회 소식까지 홈 화면에서 바로 확인하세요. 앱 잠금과 암호화 백업을 지원합니다.</p><div class="app-tags"><span>경전·공부 기록</span><span>성전 방문·의식 기록</span><span>홈 화면 위젯</span><span>암호화 백업</span></div><p class="app-note">Holy Ground는 예수 그리스도 후기성도 교회의 공식 앱이 아니며, 교회와 제휴하거나 교회의 승인을 받은 앱이 아닙니다. 교회 소식과 성전 예약은 공식 웹페이지로 연결됩니다.</p><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=holyground.myapp" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/chaenggim-icon.png" alt="챙김 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>챙김</h3><div class="category">생활 관리 · 한국어 전용</div></div></div><p class="app-desc">보험 만기일, 적금 납입일, 구독 결제일, 약 먹는 시간, 부모님 생신까지 — 흩어진 일정과 정보를 한곳에 모아 두고 중요한 순간이 오기 전에 알림으로 챙겨주는 생활 관리 앱입니다. 통신·구독·보험 같은 정기 지출부터 건강·가계부·반려동물까지 카테고리별로 정리하고, 가족의 일정도 프로필을 나눠 함께 관리할 수 있습니다. 주차 위치 타이머, 비밀번호 보관, 클라우드 백업까지 지원합니다.</p><div class="app-tags"><span>똑똑한 알림</span><span>정기 지출·계약 관리</span><span>가족 일정 관리</span><span>클라우드 백업</span></div><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=com.chaengkim1.app" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/slimjoy-icon.png" alt="Slim Joy 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>Slim Joy</h3><div class="category">사진 편집</div></div></div><p class="app-desc">사진 속 얼굴과 체형을 간편하게 보정하는 사진 편집 앱입니다. 갤러리에서 사진을 불러와 보정 강도만 고르면 얼굴선과 체형이 자연스럽게 조정되고, 슬라이더를 움직여 원본과 바로 비교할 수 있습니다. V라인·체형 슬리밍·키 보정·피부 보정을 지원하며, 변화 과정을 비포·애프터 GIF로 저장해 공유할 수도 있습니다.</p><div class="app-tags"><span>체형·V라인 보정</span><span>보정 강도 조절</span><span>전후 비교</span><span>비포·애프터 GIF</span></div><p class="app-note">Slim Joy는 사진의 외형을 시각적으로 변경하는 사진 편집 도구입니다. 실제 체중 감량이나 신체 변화, 건강 개선 효과를 제공하거나 보장하지 않습니다. 사진의 구도와 인물 위치, 배경, 화질에 따라 보정 결과가 달라질 수 있습니다.</p><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=com.kennethapp.slimjoy" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/lightled-icon.png" alt="Light LED 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>Light LED</h3><div class="category">LED 전광판</div></div></div><p class="app-desc">스마트폰을 밝고 선명한 LED 전광판으로 바꿔주는 앱입니다. 원하는 문구를 입력하면 큰 스크롤 전광판으로 표시되어, 매장·행사장·콘서트·공항처럼 멀리서도 메시지를 전해야 하는 곳에서 활용할 수 있습니다. 도트 매트릭스·네온·세그먼트 스타일과 색상·속도·밝기를 자유롭게 설정하고, 자주 쓰는 문구는 저장해 바로 불러올 수 있습니다.</p><div class="app-tags"><span>스크롤 전광판</span><span>도트·네온·세그먼트</span><span>색상·속도·밝기 조절</span><span>프리셋 저장</span></div><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=com.kennethapp.lightled" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/lotto-icon.png" alt="나도 로또 당첨되고 싶어 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>나도 로또 당첨되고 싶어</h3><div class="category">로또 번호 도우미 · 한국어 전용</div></div></div><p class="app-desc">로또 6/45 번호를 쉽고 재미있게 만들고, 구매한 번호를 회차별로 저장해 당첨 결과까지 확인하는 번호 도우미 앱입니다. 버튼 한 번으로 자동 생성하거나 포함·제외할 번호를 직접 정해 나만의 조합을 만들 수 있고, 한 번에 여러 게임도 생성됩니다. 저장한 번호는 최신 당첨번호와 비교해 일치 개수와 등수를 알려주며, 모든 기록은 기기에 저장됩니다.</p><div class="app-tags"><span>자동·조건 번호 생성</span><span>회차별 번호 저장</span><span>당첨 결과 확인</span><span>결과 알림</span></div><p class="app-note">본 앱이 제공하는 번호는 무작위 생성 또는 사용자가 선택한 조건을 바탕으로 만든 참고용 조합입니다. 특정 번호의 당첨 가능성을 예측하거나 당첨을 보장하지 않습니다. 로또 구매는 개인의 판단과 책임에 따라 적정한 범위에서 이용해 주세요.</p><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=com.kennethapp.lotto" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/oneminutekingdom-icon.png" alt="One Minute Kingdom 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>One Minute Kingdom</h3><div class="category">캐주얼 게임</div></div></div><p class="app-desc">10초에서 1분이면 끝나는 초간단 미니게임을 즐기며 나만의 왕국을 키우는 캐주얼 게임입니다. 황금 터치·숫자 왕·국기 정복·성벽 방어·보물 상자 다섯 가지를 플레이해 골드를 모으고, 작은 마을에서 도시·왕국·대륙을 거쳐 달과 화성, 우주까지 영토를 넓혀 보세요. 출석 보상과 일일 미션, 무료 보물상자로 매일 즐길 거리가 있고 로그인 없이 바로 시작할 수 있습니다.</p><div class="app-tags"><span>5가지 미니게임</span><span>왕국 성장</span><span>출석·일일 미션</span><span>오프라인 지원</span></div><p class="app-note">무료로 즐길 수 있으며 광고가 포함되어 있습니다.</p><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=oneminutekingdom.myapp" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><div class="app-card"><div class="app-head"><div class="app-icon"><img src="images/mbti16mode-icon.png" alt="MBTI 16MODE 앱 아이콘" width="64" height="64" loading="lazy" /></div><div class="app-name"><h3>MBTI 16MODE</h3><div class="category">자기계발 · 게임형</div></div></div><p class="app-desc">성격유형을 고정된 라벨이 아니라 상황에 맞게 깨워 쓰는 16개의 모드로 바라보는 게임형 자기계발 앱입니다. 지금 필요한 힘(집중·결단·공감 등)을 고르면 어울리는 모드를 추천하고, &quot;회의에서 의견 한 번 말하기&quot;처럼 바로 실천할 작은 퀘스트로 8가지 능력을 키웁니다. 스킬맵·성장 레이더·주간 리포트로 변화를 확인할 수 있고, 계정 없이 모든 기록은 기기에만 저장됩니다.</p><div class="app-tags"><span>16가지 모드</span><span>현실 퀘스트</span><span>성장 기록·주간 리포트</span><span>계정 불필요</span></div><p class="app-note">MBTI는 진단이 아닌 자기이해와 추천을 위한 참고 정보입니다. 높은 레벨은 더 나은 사람을 뜻하지 않으며, 사용 경험을 나타냅니다.</p><div class="app-links"><a class="store-btn" href="https://play.google.com/store/apps/details?id=com.sixteenmode.app" target="_blank" rel="noopener">Google Play</a><span class="store-btn disabled">출시 예정</span></div></div><!-- seo:cards:end --></div>
     </div>
   </section>
 
@@ -510,24 +815,24 @@
   <section id="about">
     <div class="container">
       <div class="section-title">
-        <h2 data-i18n="about.title"></h2>
-        <p data-i18n="about.desc"></p>
+        <h2 data-i18n="about.title">Kenneth App이 만드는 방식</h2>
+        <p data-i18n="about.desc">모든 앱에 담는 세 가지 약속입니다.</p>
       </div>
       <div class="about-grid">
         <div class="about-card">
           <div class="icon">✨</div>
-          <h3 data-i18n="about.card1.title"></h3>
-          <p data-i18n="about.card1.desc"></p>
+          <h3 data-i18n="about.card1.title">쉽고 직관적으로</h3>
+          <p data-i18n="about.card1.desc">설명서가 필요 없는 앱. 처음 열어도 바로 사용할 수 있게 만듭니다.</p>
         </div>
         <div class="about-card">
           <div class="icon">🔒</div>
-          <h3 data-i18n="about.card2.title"></h3>
-          <p data-i18n="about.card2.desc"></p>
+          <h3 data-i18n="about.card2.title">개인정보는 안전하게</h3>
+          <p data-i18n="about.card2.desc">사용자의 데이터를 소중히 다루고, 꼭 필요한 권한만 요청합니다.</p>
         </div>
         <div class="about-card">
           <div class="icon">🔄</div>
-          <h3 data-i18n="about.card3.title"></h3>
-          <p data-i18n="about.card3.desc"></p>
+          <h3 data-i18n="about.card3.title">꾸준한 업데이트</h3>
+          <p data-i18n="about.card3.desc">사용자의 의견을 듣고 지속적으로 개선하며 발전시킵니다.</p>
         </div>
       </div>
     </div>
@@ -537,9 +842,9 @@
   <section id="contact">
     <div class="container">
       <div class="contact-cta">
-        <h2 data-i18n="contact.title"></h2>
-        <p data-i18n="contact.desc"></p>
-        <a href="mailto:gkimmulti@gmail.com" data-i18n="contact.button"></a>
+        <h2 data-i18n="contact.title">의견을 들려주세요</h2>
+        <p data-i18n="contact.desc">앱에 대한 문의, 제안, 버그 제보 모두 환영합니다.</p>
+        <a href="mailto:gkimmulti@gmail.com" data-i18n="contact.button">✉️ 이메일 보내기</a>
       </div>
     </div>
   </section>
@@ -551,7 +856,7 @@
         Kenneth App
       </div>
       <p><a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
-      <p style="margin-top:8px; font-size:0.85rem; opacity:0.75;" data-i18n="footer.text"></p>
+      <p style="margin-top:8px; font-size:0.85rem; opacity:0.75;" data-i18n="footer.text">© 2026 Kenneth App. All rights reserved.</p>
     </div>
   </footer>
 
@@ -1193,7 +1498,13 @@
     const SUPPORTED = ["en", "ko", "ja", "zh", "ru", "fil"];
     const HTML_LANG = { en: "en", ko: "ko", ja: "ja", zh: "zh-CN", ru: "ru", fil: "fil" };
 
-    let lang = localStorage.getItem("kennethapp-lang");
+    const OG_LOCALE = { en: "en_US", ko: "ko_KR", ja: "ja_JP", zh: "zh_CN", ru: "ru_RU", fil: "fil_PH" };
+    const SITE_URL = "https://gkimmulti-ui.github.io/";
+
+    /* 언어 결정 순서: ?lang= 주소 → 저장된 선택 → 브라우저 언어 → 영어
+       (?lang= 을 우선하므로 검색결과의 언어별 링크가 그대로 열립니다) */
+    let lang = new URLSearchParams(location.search).get("lang");
+    if (!SUPPORTED.includes(lang)) lang = localStorage.getItem("kennethapp-lang");
     if (!SUPPORTED.includes(lang)) {
       const nav = (navigator.language || "en").toLowerCase();
       lang =
@@ -1284,6 +1595,22 @@
       }).join("");
     }
 
+    /* 선택한 언어에 맞춰 공유·검색용 메타 태그를 갱신 */
+    function updateSeoTags() {
+      var url = SITE_URL + (lang === "ko" ? "" : "?lang=" + lang);
+      var set = function (id, attr, value) {
+        var el = document.getElementById(id);
+        if (el) el.setAttribute(attr, value);
+      };
+      set("link-canonical", "href", url);
+      set("og-url", "content", url);
+      set("og-title", "content", t("meta.title"));
+      set("og-desc", "content", t("meta.desc"));
+      set("og-locale", "content", OG_LOCALE[lang]);
+      set("tw-title", "content", t("meta.title"));
+      set("tw-desc", "content", t("meta.desc"));
+    }
+
     /* 히어로 숫자 요약 — APPS 목록에서 자동 계산 */
     function renderHero() {
       var released = APPS.filter(function (a) { return a.status !== "dev"; }).length;
@@ -1322,6 +1649,7 @@
       document.documentElement.lang = HTML_LANG[lang];
       document.title = t("meta.title");
       document.querySelector('meta[name="description"]').setAttribute("content", t("meta.desc"));
+      updateSeoTags();
       document.querySelectorAll("[data-i18n]").forEach(function (el) {
         el.textContent = t(el.getAttribute("data-i18n"));
       });
@@ -1333,7 +1661,11 @@
 
     document.getElementById("lang-picker").addEventListener("change", function (e) {
       lang = e.target.value;
-      localStorage.setItem("kennethapp-lang", lang);
+      try { localStorage.setItem("kennethapp-lang", lang); } catch (err) { /* 저장 불가 시 무시 */ }
+      // 주소창에도 언어를 반영해 공유·북마크한 링크가 같은 언어로 열리게 합니다
+      if (history.replaceState) {
+        history.replaceState(null, "", lang === "ko" ? location.pathname : location.pathname + "?lang=" + lang);
+      }
       render();
     });
 

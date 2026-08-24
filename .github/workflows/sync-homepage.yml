@@ -30,11 +30,15 @@ jobs:
 
       - name: Copy homepage files
         run: |
-          # index.html 과 images/ 만 교체합니다. app-ads.txt 등 이 저장소 고유 파일은 건드리지 않습니다.
+          # index.html, images/, 그리고 검색엔진용 robots.txt / sitemap.xml 을 교체합니다.
+          # app-ads.txt, lotto.html 등 이 저장소 고유 파일은 건드리지 않습니다.
           rm -rf images
           cp /tmp/kennethapp/index.html ./index.html
           cp -r /tmp/kennethapp/images ./images
           cp /tmp/kennethapp/.nojekyll ./.nojekyll
+          # robots.txt 와 sitemap.xml 은 크롤러가 도메인 루트에서만 찾으므로 이곳이 정본입니다
+          cp /tmp/kennethapp/robots.txt ./robots.txt
+          cp /tmp/kennethapp/sitemap.xml ./sitemap.xml
 
       - name: Commit and push if changed
         run: |

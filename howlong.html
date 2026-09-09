@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보처리방침 · HowLong?</title>
+<meta name="description" content="날짜 계산 앱 'HowLong?'의 개인정보처리방침입니다. 12개 언어를 지원합니다.">
+<meta name="robots" content="index, follow">
+<style>
+  :root {
+    --ink: #23263a;
+    --muted: #6f6d85;
+    --faint: #9a98ac;
+    --line: #e7e3f5;
+    --card: #ffffff;
+    --page: #f7f5fd;
+    --purple: #6338e8;
+    --pink: #f5457f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ece9f6;
+      --muted: #a9a5bd;
+      --faint: #837f98;
+      --line: #322c46;
+      --card: #191527;
+      --page: #100d1a;
+      --purple: #a78bff;
+      --pink: #ff7aa8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 64px;
+    background: var(--page);
+    color: var(--ink);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR",
+          "Noto Sans JP", "Noto Sans SC", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { padding: 44px 0 20px; }
+  .mark {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -.5px;
+    background: linear-gradient(100deg, var(--purple), var(--pink));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .tagline { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 14px 0 26px;
+    border-bottom: 1px solid var(--line);
+  }
+  nav button {
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 7px 14px;
+    font: inherit;
+    font-size: 13.5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  nav button:hover { color: var(--ink); border-color: var(--purple); }
+  nav button[aria-selected="true"] {
+    background: linear-gradient(100deg, var(--purple), var(--pink));
+    border-color: transparent;
+    color: #fff;
+  }
+  nav button:focus-visible { outline: 2px solid var(--purple); outline-offset: 2px; }
+  h1 { font-size: 27px; line-height: 1.3; margin: 30px 0 6px; }
+  .updated { margin: 0 0 30px; color: var(--faint); font-size: 13.5px; }
+  h2 {
+    font-size: 16.5px;
+    margin: 30px 0 6px;
+    color: var(--purple);
+  }
+  p { margin: 0 0 12px; overflow-wrap: break-word; }
+  a { color: var(--pink); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 34px 0 14px; }
+  .app { color: var(--faint); font-size: 13px; }
+  [hidden] { display: none !important; }
+  @media print {
+    nav { display: none; }
+    body { background: #fff; color: #000; }
+    [hidden] { display: block !important; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark">HowLong?</div>
+    <p class="tagline">Every Date Counts</p>
+  </header>
+
+  <nav role="tablist" aria-label="Language">
+        <button type="button" role="tab" data-locale="en" aria-controls="doc-en" aria-selected="false" tabindex="-1">English</button>
+        <button type="button" role="tab" data-locale="ko" aria-controls="doc-ko" aria-selected="false" tabindex="-1">한국어</button>
+        <button type="button" role="tab" data-locale="ja" aria-controls="doc-ja" aria-selected="false" tabindex="-1">日本語</button>
+        <button type="button" role="tab" data-locale="zh" aria-controls="doc-zh" aria-selected="false" tabindex="-1">简体中文</button>
+        <button type="button" role="tab" data-locale="es" aria-controls="doc-es" aria-selected="false" tabindex="-1">Español</button>
+        <button type="button" role="tab" data-locale="pt" aria-controls="doc-pt" aria-selected="false" tabindex="-1">Português</button>
+        <button type="button" role="tab" data-locale="fr" aria-controls="doc-fr" aria-selected="false" tabindex="-1">Français</button>
+        <button type="button" role="tab" data-locale="de" aria-controls="doc-de" aria-selected="false" tabindex="-1">Deutsch</button>
+        <button type="button" role="tab" data-locale="ru" aria-controls="doc-ru" aria-selected="false" tabindex="-1">Русский</button>
+        <button type="button" role="tab" data-locale="it" aria-controls="doc-it" aria-selected="false" tabindex="-1">Italiano</button>
+        <button type="button" role="tab" data-locale="id" aria-controls="doc-id" aria-selected="false" tabindex="-1">Bahasa Indonesia</button>
+        <button type="button" role="tab" data-locale="vi" aria-controls="doc-vi" aria-selected="false" tabindex="-1">Tiếng Việt</button>
+  </nav>
+
+  <main>
+    <article id="doc-en" role="tabpanel" lang="en" hidden>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: 28 August 2026</p>
+      <h2>1. In short</h2>
+      <p>HowLong? has no accounts and no server of ours. We do not collect, store or transmit your personal information.</p>
+      <h2>2. What stays on your device</h2>
+      <p>The dates you save (title, date, emoji) and your app settings are stored only in the app&#x27;s local storage on your device. They are never uploaded to us, and removing the app removes them.</p>
+      <h2>3. Advertising</h2>
+      <p>The app shows ads through Google AdMob. To serve and measure ads, Google may process device identifiers such as the advertising ID, along with coarse device and usage data. This processing is governed by Google&#x27;s privacy policy at <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>, and you can limit personalised ads in your device&#x27;s advertising settings.</p>
+      <h2>4. Sharing</h2>
+      <p>When you share a card, the image and text are handed to the app you pick (a messenger, mail app and so on). What happens to it after that is covered by that app&#x27;s own policy.</p>
+      <h2>5. Permissions</h2>
+      <p>The app needs internet access to load ads. It does not ask for contacts, photos, location or the camera.</p>
+      <h2>6. Children</h2>
+      <p>The app is not directed at children under 13 and we do not knowingly collect information from them.</p>
+      <h2>7. Your choices</h2>
+      <p>You can delete individual saved dates in My dates, reset your advertising ID in your device settings, or uninstall the app to remove all local data.</p>
+      <h2>8. Changes and contact</h2>
+      <p>If this policy changes, the new version will appear here in the app. For any question about privacy, use Settings and then Contact us. You can also write to us directly at <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · App version 1.0.1</p>
+    </article>
+    <article id="doc-ko" role="tabpanel" lang="ko" hidden>
+      <h1>개인정보 처리방침</h1>
+      <p class="updated">최종 업데이트: 2026년 8월 28일</p>
+      <h2>1. 요약</h2>
+      <p>HowLong?에는 계정도, 자체 서버도 없습니다. 개발자는 이용자의 개인정보를 수집하거나 저장하거나 전송하지 않습니다.</p>
+      <h2>2. 기기에만 저장되는 정보</h2>
+      <p>저장한 날짜(제목, 날짜, 이모지)와 앱 설정은 기기의 앱 저장소에만 보관됩니다. 개발자에게 전송되지 않으며 앱을 삭제하면 함께 지워집니다.</p>
+      <h2>3. 광고</h2>
+      <p>앱은 Google AdMob을 통해 광고를 노출합니다. 광고 제공과 측정을 위해 Google이 광고 ID 등 기기 식별자와 대략적인 기기·이용 정보를 처리할 수 있습니다. 이는 Google 개인정보처리방침(<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>)에 따르며, 기기의 광고 설정에서 맞춤 광고를 제한할 수 있습니다.</p>
+      <h2>4. 공유 기능</h2>
+      <p>카드를 공유하면 이미지와 텍스트가 사용자가 선택한 앱(메신저, 메일 등)에 전달됩니다. 그 이후의 처리는 해당 앱의 정책을 따릅니다.</p>
+      <h2>5. 권한</h2>
+      <p>광고를 불러오기 위해 인터넷 접근 권한이 필요합니다. 연락처, 사진, 위치, 카메라 권한은 요청하지 않습니다.</p>
+      <h2>6. 아동</h2>
+      <p>앱은 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 정보를 알면서 수집하지 않습니다.</p>
+      <h2>7. 이용자의 선택권</h2>
+      <p>내 날짜에서 저장한 날짜를 개별 삭제하거나, 기기 설정에서 광고 ID를 재설정하거나, 앱을 삭제해 모든 로컬 데이터를 지울 수 있습니다.</p>
+      <h2>8. 변경과 문의</h2>
+      <p>방침이 바뀌면 새 내용이 앱 안에 표시됩니다. 개인정보에 대한 문의는 설정 &gt; 문의하기를 이용해 주세요. 직접 메일을 보내셔도 됩니다: <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · 앱 버전 1.0.1</p>
+    </article>
+    <article id="doc-ja" role="tabpanel" lang="ja" hidden>
+      <h1>プライバシーポリシー</h1>
+      <p class="updated">最終更新: 2026年8月28日</p>
+      <h2>1. 概要</h2>
+      <p>HowLong? にはアカウントも当社のサーバーもありません。開発者がお客様の個人情報を収集・保存・送信することはありません。</p>
+      <h2>2. 端末内にのみ保存される情報</h2>
+      <p>保存した日付（タイトル、日付、絵文字）とアプリの設定は、端末内のアプリ領域にのみ保存されます。開発者に送信されることはなく、アプリを削除すると一緒に消去されます。</p>
+      <h2>3. 広告</h2>
+      <p>本アプリは Google AdMob を通じて広告を表示します。広告の配信と測定のため、Google が広告 ID などの端末識別子や、おおまかな端末・利用情報を処理する場合があります。これは Google のプライバシーポリシー（<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>）に従います。端末の広告設定からパーソナライズ広告を制限できます。</p>
+      <h2>4. 共有機能</h2>
+      <p>カードを共有すると、画像とテキストがお客様の選んだアプリ（メッセンジャー、メールなど）に渡されます。その後の取り扱いは当該アプリのポリシーに従います。</p>
+      <h2>5. 権限</h2>
+      <p>広告の読み込みのためにインターネット接続を利用します。連絡先・写真・位置情報・カメラの権限は要求しません。</p>
+      <h2>6. 児童について</h2>
+      <p>本アプリは13歳未満の児童を対象としておらず、児童の情報を意図的に収集することはありません。</p>
+      <h2>7. お客様の選択</h2>
+      <p>「マイ日付」で保存した日付を個別に削除する、端末設定で広告 ID をリセットする、アプリを削除してすべてのローカルデータを消去する、といった対応が可能です。</p>
+      <h2>8. 変更とお問い合わせ</h2>
+      <p>本ポリシーが変更された場合、新しい内容がアプリ内に表示されます。プライバシーに関するお問い合わせは、設定 &gt; お問い合わせをご利用ください。 <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a> 宛に直接メールをお送りいただいても構いません。</p>
+      <hr>
+      <p class="app">HowLong? · アプリのバージョン 1.0.1</p>
+    </article>
+    <article id="doc-zh" role="tabpanel" lang="zh-Hans" hidden>
+      <h1>隐私政策</h1>
+      <p class="updated">最后更新：2026年8月28日</p>
+      <h2>1. 概要</h2>
+      <p>HowLong? 没有账号，也没有我们自己的服务器。我们不收集、不存储、不传输你的个人信息。</p>
+      <h2>2. 仅保存在设备上的内容</h2>
+      <p>你保存的日期（标题、日期、表情）以及应用设置仅存放在设备本地存储中。它们不会上传给我们，卸载应用即会一并删除。</p>
+      <h2>3. 广告</h2>
+      <p>本应用通过 Google AdMob 展示广告。为投放和衡量广告，Google 可能会处理广告 ID 等设备标识符以及粗略的设备和使用数据。相关处理适用 Google 隐私政策（<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>），你可以在设备的广告设置中限制个性化广告。</p>
+      <h2>4. 分享功能</h2>
+      <p>分享卡片时，图片和文字会交给你选择的应用（即时通讯、邮件等）。此后的处理方式由该应用自己的政策约束。</p>
+      <h2>5. 权限</h2>
+      <p>本应用需要网络访问权限以加载广告，不会请求通讯录、照片、位置或摄像头权限。</p>
+      <h2>6. 儿童</h2>
+      <p>本应用不面向13岁以下儿童，我们也不会在知情的情况下收集儿童的信息。</p>
+      <h2>7. 你的选择</h2>
+      <p>你可以在“我的日期”中删除单条记录、在设备设置中重置广告 ID，或卸载应用以清除全部本地数据。</p>
+      <h2>8. 变更与联系</h2>
+      <p>若本政策发生变化，新版本会在应用内显示。如对隐私有任何疑问，请通过“设置 &gt; 联系我们”与我们联系。 也可以直接发送邮件至 <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>。</p>
+      <hr>
+      <p class="app">HowLong? · 应用版本 1.0.1</p>
+    </article>
+    <article id="doc-es" role="tabpanel" lang="es" hidden>
+      <h1>Política de privacidad</h1>
+      <p class="updated">Última actualización: 28 de agosto de 2026</p>
+      <h2>1. En resumen</h2>
+      <p>HowLong? no tiene cuentas ni servidores nuestros. No recogemos, almacenamos ni transmitimos tu información personal.</p>
+      <h2>2. Lo que se queda en tu dispositivo</h2>
+      <p>Las fechas que guardas (título, fecha, emoji) y tus ajustes se almacenan únicamente en el almacenamiento local de la app. Nunca se suben a ningún sitio y desaparecen si desinstalas la app.</p>
+      <h2>3. Publicidad</h2>
+      <p>La app muestra anuncios mediante Google AdMob. Para servirlos y medirlos, Google puede tratar identificadores del dispositivo, como el identificador de publicidad, junto con datos generales de uso. Ese tratamiento se rige por la política de privacidad de Google (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>) y puedes limitar los anuncios personalizados en los ajustes de publicidad de tu dispositivo.</p>
+      <h2>4. Compartir</h2>
+      <p>Cuando compartes una tarjeta, la imagen y el texto se entregan a la app que elijas (mensajería, correo, etc.). Lo que ocurra después se rige por la política de esa app.</p>
+      <h2>5. Permisos</h2>
+      <p>La app necesita acceso a internet para cargar los anuncios. No pide contactos, fotos, ubicación ni cámara.</p>
+      <h2>6. Menores</h2>
+      <p>La app no está dirigida a menores de 13 años y no recogemos conscientemente su información.</p>
+      <h2>7. Tus opciones</h2>
+      <p>Puedes borrar fechas concretas en Mis fechas, restablecer tu identificador de publicidad en los ajustes del dispositivo o desinstalar la app para eliminar todos los datos locales.</p>
+      <h2>8. Cambios y contacto</h2>
+      <p>Si esta política cambia, la nueva versión aparecerá aquí en la app. Para cualquier duda sobre privacidad, usa Ajustes y luego Contacto. También puedes escribirnos directamente a <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · Versión de la app 1.0.1</p>
+    </article>
+    <article id="doc-pt" role="tabpanel" lang="pt" hidden>
+      <h1>Política de Privacidade</h1>
+      <p class="updated">Última atualização: 28 de agosto de 2026</p>
+      <h2>1. Em resumo</h2>
+      <p>O HowLong? não tem contas nem servidores nossos. Não coletamos, armazenamos ou transmitimos suas informações pessoais.</p>
+      <h2>2. O que fica no seu aparelho</h2>
+      <p>As datas que você salva (título, data, emoji) e seus ajustes ficam apenas no armazenamento local do app. Nada é enviado para nós, e remover o app remove tudo isso.</p>
+      <h2>3. Publicidade</h2>
+      <p>O app exibe anúncios por meio do Google AdMob. Para veicular e medir anúncios, o Google pode processar identificadores do aparelho, como o identificador de publicidade, junto com dados gerais de uso. Esse tratamento segue a política de privacidade do Google (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>), e você pode limitar anúncios personalizados nos ajustes de publicidade do aparelho.</p>
+      <h2>4. Compartilhamento</h2>
+      <p>Ao compartilhar um cartão, a imagem e o texto são entregues ao app que você escolher (mensageiro, e-mail e assim por diante). O que acontece depois segue a política daquele app.</p>
+      <h2>5. Permissões</h2>
+      <p>O app precisa de acesso à internet para carregar anúncios. Ele não pede contatos, fotos, localização nem câmera.</p>
+      <h2>6. Crianças</h2>
+      <p>O app não é dirigido a crianças menores de 13 anos e não coletamos conscientemente informações delas.</p>
+      <h2>7. Suas escolhas</h2>
+      <p>Você pode excluir datas específicas em Minhas datas, redefinir seu identificador de publicidade nos ajustes do aparelho ou desinstalar o app para remover todos os dados locais.</p>
+      <h2>8. Alterações e contato</h2>
+      <p>Se esta política mudar, a nova versão aparecerá aqui no app. Para qualquer dúvida sobre privacidade, use Ajustes e depois Fale conosco. Você também pode escrever diretamente para <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · Versão do app 1.0.1</p>
+    </article>
+    <article id="doc-fr" role="tabpanel" lang="fr" hidden>
+      <h1>Politique de confidentialité</h1>
+      <p class="updated">Dernière mise à jour : 28 août 2026</p>
+      <h2>1. En bref</h2>
+      <p>HowLong? n&#x27;a ni compte ni serveur de notre côté. Nous ne collectons, ne stockons et ne transmettons aucune information personnelle vous concernant.</p>
+      <h2>2. Ce qui reste sur votre appareil</h2>
+      <p>Les dates que vous enregistrez (titre, date, emoji) et vos réglages sont stockés uniquement dans le stockage local de l&#x27;app. Rien ne nous est envoyé, et supprimer l&#x27;app les supprime aussi.</p>
+      <h2>3. Publicité</h2>
+      <p>L&#x27;app affiche des annonces via Google AdMob. Pour diffuser et mesurer les annonces, Google peut traiter des identifiants d&#x27;appareil, tel l&#x27;identifiant publicitaire, ainsi que des données générales d&#x27;utilisation. Ce traitement relève de la politique de confidentialité de Google (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>) et vous pouvez limiter les annonces personnalisées dans les réglages publicitaires de votre appareil.</p>
+      <h2>4. Partage</h2>
+      <p>Lorsque vous partagez une carte, l&#x27;image et le texte sont transmis à l&#x27;app que vous choisissez (messagerie, courriel, etc.). Ce qui s&#x27;ensuit relève de la politique de cette app.</p>
+      <h2>5. Autorisations</h2>
+      <p>L&#x27;app a besoin d&#x27;un accès internet pour charger les annonces. Elle ne demande ni contacts, ni photos, ni position, ni caméra.</p>
+      <h2>6. Enfants</h2>
+      <p>L&#x27;app ne s&#x27;adresse pas aux enfants de moins de 13 ans et nous ne collectons pas sciemment leurs informations.</p>
+      <h2>7. Vos choix</h2>
+      <p>Vous pouvez supprimer des dates dans Mes dates, réinitialiser votre identifiant publicitaire dans les réglages de l&#x27;appareil, ou désinstaller l&#x27;app pour effacer toutes les données locales.</p>
+      <h2>8. Modifications et contact</h2>
+      <p>Si cette politique change, la nouvelle version s&#x27;affichera ici dans l&#x27;app. Pour toute question relative à la confidentialité, passez par Réglages puis Nous contacter. Vous pouvez aussi nous écrire directement à <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · Version de l&#x27;app 1.0.1</p>
+    </article>
+    <article id="doc-de" role="tabpanel" lang="de" hidden>
+      <h1>Datenschutzerklärung</h1>
+      <p class="updated">Zuletzt aktualisiert: 28. August 2026</p>
+      <h2>1. Kurz gesagt</h2>
+      <p>HowLong? hat keine Konten und keinen Server von uns. Wir erheben, speichern und übertragen keine personenbezogenen Daten von dir.</p>
+      <h2>2. Was auf deinem Gerät bleibt</h2>
+      <p>Die von dir gespeicherten Daten (Titel, Datum, Emoji) und deine Einstellungen liegen ausschließlich im lokalen Speicher der App. Sie werden nie zu uns hochgeladen, und mit dem Entfernen der App verschwinden sie.</p>
+      <h2>3. Werbung</h2>
+      <p>Die App zeigt Anzeigen über Google AdMob. Zum Ausliefern und Messen von Anzeigen kann Google Gerätekennungen wie die Werbe-ID sowie grobe Geräte- und Nutzungsdaten verarbeiten. Dafür gilt die Datenschutzerklärung von Google (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>); personalisierte Werbung kannst du in den Werbeeinstellungen deines Geräts einschränken.</p>
+      <h2>4. Teilen</h2>
+      <p>Wenn du eine Karte teilst, werden Bild und Text an die von dir gewählte App übergeben (Messenger, Mail und so weiter). Was danach damit geschieht, regelt deren eigene Richtlinie.</p>
+      <h2>5. Berechtigungen</h2>
+      <p>Die App benötigt Internetzugriff, um Anzeigen zu laden. Sie fragt weder Kontakte noch Fotos, Standort oder Kamera ab.</p>
+      <h2>6. Kinder</h2>
+      <p>Die App richtet sich nicht an Kinder unter 13 Jahren, und wir erheben wissentlich keine Daten von ihnen.</p>
+      <h2>7. Deine Möglichkeiten</h2>
+      <p>Du kannst einzelne gespeicherte Daten unter Meine Daten löschen, deine Werbe-ID in den Geräteeinstellungen zurücksetzen oder die App deinstallieren, um alle lokalen Daten zu entfernen.</p>
+      <h2>8. Änderungen und Kontakt</h2>
+      <p>Ändert sich diese Erklärung, erscheint die neue Fassung hier in der App. Bei Fragen zum Datenschutz nutze Einstellungen und dann Kontakt. Du kannst uns auch direkt an <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a> schreiben.</p>
+      <hr>
+      <p class="app">HowLong? · App-Version 1.0.1</p>
+    </article>
+    <article id="doc-ru" role="tabpanel" lang="ru" hidden>
+      <h1>Политика конфиденциальности</h1>
+      <p class="updated">Последнее обновление: 28 августа 2026 г.</p>
+      <h2>1. Коротко</h2>
+      <p>В HowLong? нет учётных записей и нашего сервера. Мы не собираем, не храним и не передаём ваши персональные данные.</p>
+      <h2>2. Что остаётся на устройстве</h2>
+      <p>Сохранённые вами даты (название, дата, эмодзи) и настройки хранятся только в локальном хранилище приложения. Они никуда не выгружаются, а удаление приложения удаляет и их.</p>
+      <h2>3. Реклама</h2>
+      <p>Приложение показывает рекламу через Google AdMob. Для показа и измерения рекламы Google может обрабатывать идентификаторы устройства, например рекламный идентификатор, а также общие данные об устройстве и использовании. Эта обработка регулируется политикой конфиденциальности Google (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>); персонализированную рекламу можно ограничить в рекламных настройках устройства.</p>
+      <h2>4. Отправка</h2>
+      <p>Когда вы делитесь карточкой, изображение и текст передаются выбранному вами приложению (мессенджеру, почте и т. д.). Дальнейшая судьба этих данных определяется политикой того приложения.</p>
+      <h2>5. Разрешения</h2>
+      <p>Приложению нужен доступ в интернет для загрузки рекламы. Оно не запрашивает контакты, фотографии, местоположение и камеру.</p>
+      <h2>6. Дети</h2>
+      <p>Приложение не адресовано детям младше 13 лет, и мы сознательно не собираем их данные.</p>
+      <h2>7. Ваш выбор</h2>
+      <p>Вы можете удалить отдельные даты в разделе «Мои даты», сбросить рекламный идентификатор в настройках устройства или удалить приложение, чтобы стереть все локальные данные.</p>
+      <h2>8. Изменения и связь</h2>
+      <p>Если политика изменится, новая редакция появится здесь, в приложении. По вопросам конфиденциальности используйте «Настройки» → «Связаться с нами». Также можно написать нам напрямую на <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · Версия приложения 1.0.1</p>
+    </article>
+    <article id="doc-it" role="tabpanel" lang="it" hidden>
+      <h1>Informativa sulla privacy</h1>
+      <p class="updated">Ultimo aggiornamento: 28 agosto 2026</p>
+      <h2>1. In breve</h2>
+      <p>HowLong? non ha account né server nostri. Non raccogliamo, non conserviamo e non trasmettiamo le tue informazioni personali.</p>
+      <h2>2. Cosa resta sul dispositivo</h2>
+      <p>Le date che salvi (titolo, data, emoji) e le tue impostazioni sono conservate solo nella memoria locale dell&#x27;app. Non vengono mai caricate da noi e rimuovendo l&#x27;app spariscono.</p>
+      <h2>3. Pubblicità</h2>
+      <p>L&#x27;app mostra annunci tramite Google AdMob. Per erogare e misurare gli annunci, Google può trattare identificatori del dispositivo come l&#x27;ID pubblicitario, insieme a dati generali di utilizzo. Questo trattamento è regolato dall&#x27;informativa privacy di Google (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>) e puoi limitare gli annunci personalizzati nelle impostazioni pubblicitarie del dispositivo.</p>
+      <h2>4. Condivisione</h2>
+      <p>Quando condividi una card, l&#x27;immagine e il testo vengono consegnati all&#x27;app che scegli (messaggistica, posta e così via). Ciò che accade dopo è regolato dalla policy di quell&#x27;app.</p>
+      <h2>5. Permessi</h2>
+      <p>L&#x27;app ha bisogno dell&#x27;accesso a internet per caricare gli annunci. Non chiede contatti, foto, posizione o fotocamera.</p>
+      <h2>6. Minori</h2>
+      <p>L&#x27;app non è rivolta a minori di 13 anni e non raccogliamo consapevolmente le loro informazioni.</p>
+      <h2>7. Le tue scelte</h2>
+      <p>Puoi eliminare singole date da Le mie date, reimpostare l&#x27;ID pubblicitario nelle impostazioni del dispositivo o disinstallare l&#x27;app per rimuovere tutti i dati locali.</p>
+      <h2>8. Modifiche e contatti</h2>
+      <p>Se questa informativa cambia, la nuova versione comparirà qui nell&#x27;app. Per qualsiasi domanda sulla privacy usa Impostazioni e poi Contattaci. Puoi anche scriverci direttamente a <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · Versione dell&#x27;app 1.0.1</p>
+    </article>
+    <article id="doc-id" role="tabpanel" lang="id" hidden>
+      <h1>Kebijakan Privasi</h1>
+      <p class="updated">Terakhir diperbarui: 28 Agustus 2026</p>
+      <h2>1. Ringkasnya</h2>
+      <p>HowLong? tidak memiliki akun maupun server milik kami. Kami tidak mengumpulkan, menyimpan, atau mengirimkan informasi pribadimu.</p>
+      <h2>2. Yang tetap di perangkatmu</h2>
+      <p>Tanggal yang kamu simpan (judul, tanggal, emoji) dan pengaturan aplikasi hanya disimpan di penyimpanan lokal aplikasi. Data itu tidak pernah diunggah kepada kami, dan menghapus aplikasi akan menghapusnya juga.</p>
+      <h2>3. Iklan</h2>
+      <p>Aplikasi menampilkan iklan melalui Google AdMob. Untuk menayangkan dan mengukur iklan, Google dapat memproses pengenal perangkat seperti ID iklan, bersama data perangkat dan penggunaan secara umum. Pemrosesan ini tunduk pada kebijakan privasi Google (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>), dan kamu bisa membatasi iklan yang dipersonalisasi di pengaturan iklan perangkat.</p>
+      <h2>4. Berbagi</h2>
+      <p>Saat kamu membagikan kartu, gambar dan teksnya diserahkan ke aplikasi yang kamu pilih (pesan instan, surel, dan sebagainya). Apa yang terjadi setelahnya mengikuti kebijakan aplikasi tersebut.</p>
+      <h2>5. Izin</h2>
+      <p>Aplikasi memerlukan akses internet untuk memuat iklan. Aplikasi tidak meminta kontak, foto, lokasi, atau kamera.</p>
+      <h2>6. Anak-anak</h2>
+      <p>Aplikasi ini tidak ditujukan untuk anak di bawah 13 tahun dan kami tidak dengan sengaja mengumpulkan informasi mereka.</p>
+      <h2>7. Pilihanmu</h2>
+      <p>Kamu bisa menghapus tanggal tertentu di Tanggal saya, menyetel ulang ID iklan di pengaturan perangkat, atau mencopot aplikasi untuk menghapus semua data lokal.</p>
+      <h2>8. Perubahan dan kontak</h2>
+      <p>Jika kebijakan ini berubah, versi barunya akan muncul di aplikasi. Untuk pertanyaan soal privasi, gunakan Pengaturan lalu Hubungi kami. Kamu juga bisa mengirim email langsung ke <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · Versi aplikasi 1.0.1</p>
+    </article>
+    <article id="doc-vi" role="tabpanel" lang="vi" hidden>
+      <h1>Chính sách quyền riêng tư</h1>
+      <p class="updated">Cập nhật lần cuối: ngày 28 tháng 8 năm 2026</p>
+      <h2>1. Tóm tắt</h2>
+      <p>HowLong? không có tài khoản và cũng không có máy chủ của chúng tôi. Chúng tôi không thu thập, lưu trữ hay truyền đi thông tin cá nhân của bạn.</p>
+      <h2>2. Những gì ở lại trên thiết bị</h2>
+      <p>Những ngày bạn lưu (tiêu đề, ngày, biểu tượng cảm xúc) và cài đặt ứng dụng chỉ nằm trong bộ nhớ cục bộ của ứng dụng. Chúng không bao giờ được tải lên cho chúng tôi, và gỡ ứng dụng sẽ xóa chúng.</p>
+      <h2>3. Quảng cáo</h2>
+      <p>Ứng dụng hiển thị quảng cáo qua Google AdMob. Để phân phối và đo lường quảng cáo, Google có thể xử lý các mã định danh thiết bị như mã quảng cáo, cùng dữ liệu chung về thiết bị và cách sử dụng. Việc xử lý này tuân theo chính sách quyền riêng tư của Google (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>); bạn có thể hạn chế quảng cáo cá nhân hóa trong phần cài đặt quảng cáo của thiết bị.</p>
+      <h2>4. Chia sẻ</h2>
+      <p>Khi bạn chia sẻ một tấm thiệp, hình ảnh và văn bản được chuyển cho ứng dụng bạn chọn (ứng dụng nhắn tin, email, v.v.). Những gì diễn ra sau đó thuộc về chính sách của ứng dụng đó.</p>
+      <h2>5. Quyền truy cập</h2>
+      <p>Ứng dụng cần truy cập internet để tải quảng cáo. Ứng dụng không yêu cầu danh bạ, ảnh, vị trí hay máy ảnh.</p>
+      <h2>6. Trẻ em</h2>
+      <p>Ứng dụng không hướng đến trẻ em dưới 13 tuổi và chúng tôi không cố ý thu thập thông tin của các em.</p>
+      <h2>7. Lựa chọn của bạn</h2>
+      <p>Bạn có thể xóa từng ngày đã lưu trong Ngày của tôi, đặt lại mã quảng cáo trong cài đặt thiết bị, hoặc gỡ ứng dụng để xóa toàn bộ dữ liệu cục bộ.</p>
+      <h2>8. Thay đổi và liên hệ</h2>
+      <p>Nếu chính sách này thay đổi, bản mới sẽ xuất hiện ngay trong ứng dụng. Với mọi thắc mắc về quyền riêng tư, hãy vào Cài đặt rồi chọn Liên hệ. Bạn cũng có thể gửi email trực tiếp tới <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p>
+      <hr>
+      <p class="app">HowLong? · Phiên bản ứng dụng 1.0.1</p>
+    </article>
+  </main>
+</div>
+
+<script>
+  var locales = ['en', 'ko', 'ja', 'zh', 'es', 'pt', 'fr', 'de', 'ru', 'it', 'id', 'vi'];
+  var titles = {en: "Privacy Policy", ko: "\uac1c\uc778\uc815\ubcf4 \ucc98\ub9ac\ubc29\uce68", ja: "\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc", zh: "\u9690\u79c1\u653f\u7b56", es: "Pol\u00edtica de privacidad", pt: "Pol\u00edtica de Privacidade", fr: "Politique de confidentialit\u00e9", de: "Datenschutzerkl\u00e4rung", ru: "\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438", it: "Informativa sulla privacy", id: "Kebijakan Privasi", vi: "Ch\u00ednh s\u00e1ch quy\u1ec1n ri\u00eang t\u01b0"};
+
+  function show(locale) {
+    if (locales.indexOf(locale) < 0) locale = 'en';
+    locales.forEach(function (name) {
+      var panel = document.getElementById('doc-' + name);
+      var tab = document.querySelector('nav button[data-locale="' + name + '"]');
+      var on = name === locale;
+      panel.hidden = !on;
+      tab.setAttribute('aria-selected', on ? 'true' : 'false');
+      tab.tabIndex = on ? 0 : -1;
+    });
+    document.documentElement.lang = document.getElementById('doc-' + locale).lang;
+    document.title = titles[locale] + ' · HowLong?';
+  }
+
+  // #ko wins, then the browser's own language, then English.
+  function preferred() {
+    var wanted = (location.hash || '').replace('#', '').toLowerCase();
+    if (locales.indexOf(wanted) >= 0) return wanted;
+    var langs = navigator.languages || [navigator.language || 'en'];
+    for (var i = 0; i < langs.length; i++) {
+      var base = String(langs[i]).toLowerCase().split('-')[0];
+      if (locales.indexOf(base) >= 0) return base;
+    }
+    return 'en';
+  }
+
+  document.querySelectorAll('nav button').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      var locale = tab.dataset.locale;
+      history.replaceState(null, '', '#' + locale);
+      show(locale);
+    });
+  });
+
+  window.addEventListener('hashchange', function () { show(preferred()); });
+  show(preferred());
+</script>
+</body>
+</html>

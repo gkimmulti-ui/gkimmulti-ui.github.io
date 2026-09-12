@@ -1,323 +1,239 @@
-<title>개인정보처리방침</title>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snap Clean Privacy Policy</title>
+<meta name="description" content="Snap Clean privacy policy in English, Korean, Japanese, Chinese, Russian and Filipino.">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap');
-
   :root{
-    --bg:#f6f7fb;
-    --surface:#ffffff;
-    --text:#1a2233;
-    --text-soft:#5b6472;
-    --accent:#2e6bf2;
-    --accent-soft:#e8effe;
-    --border:#e2e6ed;
-    --badge-fg:#ffffff;
+    --bg:#f6f7fb; --surface:#fff; --text:#1a2233; --text-soft:#5b6472;
+    --accent:#2e6bf2; --accent-soft:#e8effe; --border:#e2e6ed;
+    --ok:#15803d; --ok-soft:#e8faee;
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --bg:#0f1420;
-      --surface:#161c2b;
-      --text:#e7eaf2;
-      --text-soft:#99a2b5;
-      --accent:#7ea1ff;
-      --accent-soft:rgba(126,161,255,0.14);
-      --border:#262e42;
-      --badge-fg:#0f1420;
+      --bg:#0f1420; --surface:#161c2b; --text:#e7eaf2; --text-soft:#99a2b5;
+      --accent:#7ea1ff; --accent-soft:rgba(126,161,255,.14); --border:#262e42;
+      --ok:#4ade80; --ok-soft:rgba(74,222,128,.12);
     }
   }
   :root[data-theme="dark"]{
-    --bg:#0f1420;
-    --surface:#161c2b;
-    --text:#e7eaf2;
-    --text-soft:#99a2b5;
-    --accent:#7ea1ff;
-    --accent-soft:rgba(126,161,255,0.14);
-    --border:#262e42;
-    --badge-fg:#0f1420;
+    --bg:#0f1420; --surface:#161c2b; --text:#e7eaf2; --text-soft:#99a2b5;
+    --accent:#7ea1ff; --accent-soft:rgba(126,161,255,.14); --border:#262e42;
+    --ok:#4ade80; --ok-soft:rgba(74,222,128,.12);
   }
-
-  *{box-sizing:border-box;}
+  *{box-sizing:border-box}
+  [hidden]{display:none !important}
   body{
-    margin:0;
-    background:var(--bg);
-    color:var(--text);
-    font-family:'Noto Sans KR', -apple-system, sans-serif;
-    padding:0 20px;
+    margin:0; padding:0 20px; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+      "Noto Sans","Noto Sans KR","Noto Sans JP","Noto Sans SC","Malgun Gothic",
+      "Hiragino Sans","Microsoft YaHei",Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
   }
-  .page{
-    max-width:720px;
-    margin:0 auto;
-    padding-block:56px 80px;
-  }
-
-  header{
-    display:flex;
-    flex-direction:column;
-    align-items:flex-start;
-    gap:18px;
-    padding-bottom:36px;
-    margin-bottom:40px;
-    border-bottom:1px solid var(--border);
-  }
-  .badge{
-    width:52px;
-    height:52px;
-    border-radius:16px;
-    background:linear-gradient(135deg, var(--accent), #57c7e8);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-shrink:0;
-  }
-  .badge svg{width:26px;height:26px;}
-  h1{
-    font-family:'Noto Serif KR', serif;
-    font-weight:700;
-    font-size:clamp(28px, 5vw, 38px);
-    line-height:1.25;
-    margin:0;
-    text-wrap:balance;
-  }
-  .meta{
-    display:flex;
-    flex-wrap:wrap;
-    gap:8px 14px;
-    font-size:14px;
-    color:var(--text-soft);
-  }
-  .meta strong{color:var(--text);font-weight:500;}
-  .lede{
-    font-size:15.5px;
-    line-height:1.75;
-    color:var(--text-soft);
-    max-width:60ch;
-  }
-
-  nav.toc{
-    display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    gap:6px 20px;
-    padding:18px 20px;
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:14px;
-    margin-bottom:48px;
-  }
-  nav.toc a{
-    font-size:13.5px;
-    color:var(--text-soft);
-    text-decoration:none;
-    padding:6px 0;
-    border-bottom:1px dashed transparent;
-  }
-  nav.toc a:hover, nav.toc a:focus-visible{
-    color:var(--accent);
-    border-bottom-color:var(--accent);
-  }
-  @media (max-width:520px){
-    nav.toc{grid-template-columns:1fr;}
-  }
-
-  section.clause{
-    display:grid;
-    grid-template-columns:56px 1fr;
-    gap:20px;
-    padding-block:26px;
-    border-bottom:1px solid var(--border);
-    scroll-margin-top:24px;
-  }
-  section.clause:last-of-type{border-bottom:none;}
-  .num{
-    font-family:'Noto Serif KR', serif;
-    font-weight:700;
-    font-size:22px;
-    color:var(--accent);
-    background:var(--accent-soft);
-    width:44px;
-    height:44px;
-    border-radius:12px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-variant-numeric:tabular-nums;
-  }
-  .clause h2{
-    font-family:'Noto Serif KR', serif;
-    font-size:19px;
-    font-weight:700;
-    margin:2px 0 10px;
-    text-wrap:balance;
-  }
-  .clause p{
-    margin:0;
-    font-size:15px;
-    line-height:1.85;
-    color:var(--text);
-    max-width:62ch;
-  }
-  @media (max-width:480px){
-    section.clause{grid-template-columns:40px 1fr; gap:14px;}
-    .num{width:36px;height:36px;font-size:17px;border-radius:10px;}
-  }
-
-  footer{
-    margin-top:48px;
-    padding:26px 24px;
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:14px;
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:space-between;
-    gap:16px;
-  }
-  footer .contact-label{
-    font-size:12px;
-    letter-spacing:.06em;
-    text-transform:uppercase;
-    color:var(--text-soft);
-    margin:0 0 4px;
-  }
-  footer a.mail{
-    font-size:16px;
-    font-weight:500;
-    color:var(--accent);
-    text-decoration:none;
-  }
-  footer a.mail:hover{text-decoration:underline;}
-  .top-link{
-    font-size:13.5px;
-    color:var(--text-soft);
-    text-decoration:none;
-    border:1px solid var(--border);
-    padding:8px 14px;
-    border-radius:999px;
-  }
-  .top-link:hover{color:var(--accent);border-color:var(--accent);}
-
-  a:focus-visible, .top-link:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  .page{max-width:720px; margin:0 auto; padding-block:52px 80px}
+  header{display:flex; flex-direction:column; align-items:flex-start; gap:16px;
+    padding-bottom:32px; margin-bottom:28px; border-bottom:1px solid var(--border)}
+  .badge{width:52px;height:52px;border-radius:16px;display:flex;align-items:center;
+    justify-content:center;flex-shrink:0;background:linear-gradient(135deg,#2e6bf2,#57c7e8)}
+  .badge svg{width:26px;height:26px}
+  h1{font-size:clamp(27px,5vw,37px);line-height:1.24;margin:0;font-weight:800;
+    letter-spacing:-.01em;text-wrap:balance}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:14px;color:var(--text-soft)}
+  .meta strong{color:var(--text);font-weight:600}
+  .lede{font-size:15.5px;line-height:1.75;color:var(--text-soft);max-width:62ch;margin:0}
+  nav.langs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:36px}
+  nav.langs a,nav.langs button{
+    font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;cursor:pointer;
+    border:1px solid var(--border);background:var(--surface);color:var(--text-soft);
+    text-decoration:none;display:inline-block}
+  nav.langs a:hover,nav.langs button:hover{border-color:var(--accent);color:var(--accent)}
+  nav.langs .on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+  nav.toc{display:grid;grid-template-columns:repeat(2,1fr);gap:4px 20px;padding:16px 20px;
+    background:var(--surface);border:1px solid var(--border);border-radius:14px;margin-bottom:12px}
+  .toc-label{font-size:12px;letter-spacing:.07em;text-transform:uppercase;
+    color:var(--text-soft);margin:0 0 10px;grid-column:1/-1;font-weight:700}
+  nav.toc a{font-size:13.5px;color:var(--text-soft);text-decoration:none;padding:5px 0;
+    border-bottom:1px dashed transparent}
+  nav.toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  @media (max-width:540px){nav.toc{grid-template-columns:1fr}}
+  section.clause{display:grid;grid-template-columns:56px 1fr;gap:18px;padding-block:24px;
+    border-bottom:1px solid var(--border);scroll-margin-top:20px}
+  section.clause:last-of-type{border-bottom:none}
+  .num{font-size:20px;font-weight:800;color:var(--accent);background:var(--accent-soft);
+    width:44px;height:44px;border-radius:12px;display:flex;align-items:center;
+    justify-content:center;font-variant-numeric:tabular-nums}
+  .clause h2{font-size:18.5px;font-weight:700;margin:4px 0 10px;line-height:1.35;
+    text-wrap:balance}
+  .clause p{margin:0;font-size:15px;line-height:1.85;max-width:64ch}
+  .clause a{color:var(--accent)}
+  footer{margin-top:44px;padding:24px;background:var(--surface);border:1px solid var(--border);
+    border-radius:14px;display:flex;flex-wrap:wrap;align-items:center;
+    justify-content:space-between;gap:16px}
+  .contact-label{font-size:12px;letter-spacing:.07em;text-transform:uppercase;
+    color:var(--text-soft);margin:0 0 5px;font-weight:700}
+  footer a.mail{font-size:16px;font-weight:600;color:var(--accent);text-decoration:none}
+  footer a.mail:hover{text-decoration:underline}
+  .top-link{font-size:13.5px;color:var(--text-soft);text-decoration:none;
+    border:1px solid var(--border);padding:8px 14px;border-radius:999px}
+  .top-link:hover{color:var(--accent);border-color:var(--accent)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </style>
-
-<div class="page" id="top">
+</head>
+<body>
+<div class="lang-pane" data-lang="en"><div class="page" id="en-top" lang="en">
   <header>
-    <div class="badge" aria-hidden="true">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 2.5 4 5.6v5.4c0 5.2 3.4 9.7 8 10.9 4.6-1.2 8-5.7 8-10.9V5.6L12 2.5Z" fill="#ffffff" fill-opacity="0.92"/>
-        <path d="m8.7 12.1 2.4 2.4 4.6-4.9" stroke="#2e6bf2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </div>
-    <h1>개인정보처리방침</h1>
-    <div class="meta"><strong>Snap Clean</strong><span>·</span><span>시행일 2026년 9월 12일</span><span>·</span><span>버전 1.0.0</span></div>
-    <p class="lede">Snap Clean은 사진·동영상 정리 앱입니다. 이 문서는 앱이 어떤 정보를 다루고, 다루지 않는지를 12개 조항으로 정리한 것입니다 — 요약하면, 사진과 관련된 어떤 데이터도 기기 밖으로 나가지 않습니다.</p>
+    <div class="badge"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.5 4 5.6v5.4c0 5.2 3.4 9.7 8 10.9 4.6-1.2 8-5.7 8-10.9V5.6L12 2.5Z" fill="#fff" fill-opacity=".92"/><path d="m8.7 12.1 2.4 2.4 4.6-4.9" stroke="#2e6bf2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h1>Privacy Policy</h1>
+    <div class="meta"><strong>Snap Clean</strong><span>·</span><span>Effective September 12, 2026</span><span>·</span><span>v1.0.0</span></div>
+    <p class="lede">Snap Clean is a photo and video cleaner. This policy sets out, in 12 sections, what the app does and does not handle — in short, no photo data ever leaves your device.</p>
   </header>
-
-  <nav class="toc" aria-label="목차">
-    <a href="#c1">1. 개인정보 보호에 대한 약속</a>
-    <a href="#c2">2. 수집하지 않는 정보</a>
-    <a href="#c3">3. 수집하는 정보</a>
-    <a href="#c4">4. 광고 데이터</a>
-    <a href="#c5">5. 인앱 결제</a>
-    <a href="#c6">6. 요청하는 권한</a>
-    <a href="#c7">7. 데이터 보관</a>
-    <a href="#c8">8. 아동의 개인정보 보호</a>
-    <a href="#c9">9. 사용자의 권리</a>
-    <a href="#c10">10. 제3자 서비스</a>
-    <a href="#c11">11. 방침의 변경</a>
-    <a href="#c12">12. 문의하기</a>
+  <nav class="langs" aria-label="Language"><button type="button" data-go="en" class="on" lang="en">English</button><button type="button" data-go="ko" class="" lang="ko">한국어</button><button type="button" data-go="ja" class="" lang="ja">日本語</button><button type="button" data-go="zh" class="" lang="zh-Hans">简体中文</button><button type="button" data-go="ru" class="" lang="ru">Русский</button><button type="button" data-go="fil" class="" lang="fil">Filipino</button></nav>
+  <nav class="toc" aria-label="Contents">
+    <p class="toc-label">Contents</p>
+    <a href="#en-c1">1. Our Commitment to Privacy</a><a href="#en-c2">2. Information We Do NOT Collect</a><a href="#en-c3">3. Information We Collect</a><a href="#en-c4">4. Advertising Data</a><a href="#en-c5">5. In-App Purchases</a><a href="#en-c6">6. Permissions We Request</a><a href="#en-c7">7. Data Retention</a><a href="#en-c8">8. Children&#x27;s Privacy</a><a href="#en-c9">9. Your Rights</a><a href="#en-c10">10. Third-Party Services</a><a href="#en-c11">11. Changes to This Policy</a><a href="#en-c12">12. Contact Us</a>
   </nav>
-
-  <main>
-    <section class="clause" id="c1">
-      <div class="num">01</div>
-      <div>
-        <h2>개인정보 보호에 대한 약속</h2>
-        <p>Snap Clean은 설계 단계부터 개인정보 보호를 최우선으로 합니다. 중복 사진 탐지, 비슷한 사진 그룹화, 스크린샷 탐지, 흐림 탐지를 포함한 모든 사진·동영상 분석은 전적으로 사용자의 기기 내에서 이루어집니다. 당사는 사용자의 미디어를 수신하는 어떠한 서버도 운영하지 않습니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c2">
-      <div class="num">02</div>
-      <div>
-        <h2>수집하지 않는 정보</h2>
-        <p>당사는 사용자의 사진, 동영상, 썸네일, 파일명, 파일 경로, EXIF 메타데이터, 위치 정보, 얼굴 데이터, 또는 지각적/파일 해시 값을 업로드, 전송 또는 저장하지 않습니다. 이러한 정보는 사용자의 기기를 벗어나지 않습니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c3">
-      <div class="num">03</div>
-      <div>
-        <h2>수집하는 정보</h2>
-        <p>당사는 Firebase Analytics를 사용하여 서비스 개선을 위해 스캔 시작, 정리 완료 등 개인을 식별할 수 없는 집계된 사용 이벤트를 수집합니다. 또한 Firebase Crashlytics를 사용하여 스택 트레이스, OS 버전, 앱 버전 등 오류 진단 정보를 수집하며, 사진 콘텐츠나 파일명은 절대 수집하지 않습니다. Firebase Remote Config는 기능 설정값을 전달하는 데 사용되며 개인정보를 수집하지 않습니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c4">
-      <div class="num">04</div>
-      <div>
-        <h2>광고 데이터</h2>
-        <p>무료 사용자에게는 Google AdMob을 통한 광고가 표시되며, Google의 자체 개인정보처리방침에 따라 광고 식별자 및 상호작용 데이터가 수집될 수 있습니다. 기기의 광고 설정을 통해 맞춤형 광고를 거부할 수 있습니다. Snap Clean PRO는 모든 광고를 제거합니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c5">
-      <div class="num">05</div>
-      <div>
-        <h2>인앱 결제</h2>
-        <p>Snap Clean PRO 결제는 Google Play 또는 Apple App Store에서 전적으로 처리됩니다. Snap Clean은 사용자의 결제 카드 정보를 수신하거나 저장하지 않습니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c6">
-      <div class="num">06</div>
-      <div>
-        <h2>요청하는 권한</h2>
-        <p>Snap Clean은 미디어를 스캔하고 관리하기 위해 사진 라이브러리 접근 권한을 요청합니다. 사용자는 언제든지 기기 설정에서 전체 접근, 제한된 접근을 허용하거나 접근을 거부할 수 있으며, 제한된 접근 상태에서도 앱을 계속 사용할 수 있습니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c7">
-      <div class="num">07</div>
-      <div>
-        <h2>데이터 보관</h2>
-        <p>스캔 캐시, 정리 기록, 설정값은 사용자의 기기에만 로컬로 저장됩니다. 앱을 삭제하면 이 로컬 데이터도 함께 제거됩니다. 집계된 분석 데이터는 Firebase의 표준 보관 정책에 따라 보관됩니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c8">
-      <div class="num">08</div>
-      <div>
-        <h2>아동의 개인정보 보호</h2>
-        <p>Snap Clean은 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c9">
-      <div class="num">09</div>
-      <div>
-        <h2>사용자의 권리</h2>
-        <p>사용자의 미디어는 기기를 벗어나지 않으므로 당사 서버에서 접근, 내보내기 또는 삭제할 사진 데이터가 존재하지 않습니다. 사용자는 언제든지 앱을 삭제하거나 기기 설정에서 앱 저장공간을 지워 모든 로컬 데이터를 삭제할 수 있습니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c10">
-      <div class="num">10</div>
-      <div>
-        <h2>제3자 서비스</h2>
-        <p>Snap Clean은 Google Firebase(Analytics, Crashlytics, Remote Config), Google AdMob, Google Play Billing / Apple 인앱결제를 사용합니다. 각 제공업체의 데이터 사용은 해당 업체의 개인정보처리방침을 따릅니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c11">
-      <div class="num">11</div>
-      <div>
-        <h2>방침의 변경</h2>
-        <p>본 개인정보처리방침은 수시로 변경될 수 있습니다. 변경 사항 적용 이후 본 앱을 계속 사용하는 경우 변경된 방침에 동의하는 것으로 간주됩니다.</p>
-      </div>
-    </section>
-    <section class="clause" id="c12">
-      <div class="num">12</div>
-      <div>
-        <h2>문의하기</h2>
-        <p>본 개인정보처리방침에 대해 문의사항이 있으시면 아래 이메일로 연락해 주세요.</p>
-      </div>
-    </section>
-  </main>
-
+  <main><section class="clause" id="en-c1"><div class="num">1</div><div><h2>Our Commitment to Privacy</h2><p>Snap Clean is private by design. All photo and video analysis — including duplicate detection, similar photo grouping, screenshot detection, and blur detection — happens entirely on your device. We do not operate any server that receives your media.</p></div></section><section class="clause" id="en-c2"><div class="num">2</div><div><h2>Information We Do NOT Collect</h2><p>We never upload, transmit, or store your photos, videos, thumbnails, file names, file paths, EXIF metadata, location data, face data, or perceptual/file hashes. This information never leaves your device.</p></div></section><section class="clause" id="en-c3"><div class="num">3</div><div><h2>Information We Collect</h2><p>We use Firebase Analytics to collect aggregated, non-identifying usage events (for example, that a scan started or a cleanup completed) to help us improve the App. We use Firebase Crashlytics to collect crash diagnostics such as stack traces, OS version, and app version — never photo content or file names. We use Firebase Remote Config to deliver feature settings; it does not collect personal data.</p></div></section><section class="clause" id="en-c4"><div class="num">4</div><div><h2>Advertising Data</h2><p>Free users are shown ads through Google AdMob, which may collect advertising identifiers and interaction data under Google&#x27;s own privacy policy. You can opt out of personalized advertising through your device&#x27;s ad settings. Snap Clean PRO removes all ads.</p></div></section><section class="clause" id="en-c5"><div class="num">5</div><div><h2>In-App Purchases</h2><p>Payments for Snap Clean PRO are processed entirely by Google Play or the Apple App Store. Snap Clean does not receive or store your payment card information.</p></div></section><section class="clause" id="en-c6"><div class="num">6</div><div><h2>Permissions We Request</h2><p>Snap Clean requests photo library access to scan and manage your media. You may grant full access, limited access, or deny access at any time in your device settings; the App remains usable with limited access.</p></div></section><section class="clause" id="en-c7"><div class="num">7</div><div><h2>Data Retention</h2><p>Your scan cache, cleaning history, and settings are stored only locally on your device. Uninstalling the App removes this local data. Aggregated analytics data is retained by Firebase according to its standard retention policies.</p></div></section><section class="clause" id="en-c8"><div class="num">8</div><div><h2>Children&#x27;s Privacy</h2><p>Snap Clean is not directed at children under 13, and we do not knowingly collect personal information from children.</p></div></section><section class="clause" id="en-c9"><div class="num">9</div><div><h2>Your Rights</h2><p>Because your media never leaves your device, there is no photo data for us to access, export, or delete on our servers. You can clear all local app data at any time by uninstalling the App or clearing app storage in your device settings.</p></div></section><section class="clause" id="en-c10"><div class="num">10</div><div><h2>Third-Party Services</h2><p>Snap Clean uses Google Firebase (Analytics, Crashlytics, Remote Config), Google AdMob, and Google Play Billing / Apple In-App Purchase. Each provider&#x27;s use of data is governed by its own privacy policy.</p></div></section><section class="clause" id="en-c11"><div class="num">11</div><div><h2>Changes to This Policy</h2><p>We may update this Privacy Policy from time to time. Continued use of the App after changes take effect constitutes acceptance of the revised policy.</p></div></section><section class="clause" id="en-c12"><div class="num">12</div><div><h2>Contact Us</h2><p>If you have questions about this Privacy Policy, contact us at <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p></div></section></main>
+  <footer>
+    <div>
+      <p class="contact-label">Contact</p>
+      <a class="mail" href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>
+    </div>
+    <a class="top-link" href="#en-top">Back to top</a>
+  </footer>
+</div></div><div class="lang-pane" data-lang="ko" hidden><div class="page" id="ko-top" lang="ko">
+  <header>
+    <div class="badge"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.5 4 5.6v5.4c0 5.2 3.4 9.7 8 10.9 4.6-1.2 8-5.7 8-10.9V5.6L12 2.5Z" fill="#fff" fill-opacity=".92"/><path d="m8.7 12.1 2.4 2.4 4.6-4.9" stroke="#2e6bf2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h1>개인정보처리방침</h1>
+    <div class="meta"><strong>Snap Clean</strong><span>·</span><span>시행일 2026년 9월 12일</span><span>·</span><span>v1.0.0</span></div>
+    <p class="lede">Snap Clean은 사진·동영상 정리 앱입니다. 이 문서는 앱이 어떤 정보를 다루고 다루지 않는지를 12개 조항으로 정리한 것입니다 — 요약하면, 사진과 관련된 어떤 데이터도 기기 밖으로 나가지 않습니다.</p>
+  </header>
+  <nav class="langs" aria-label="Language"><button type="button" data-go="en" class="on" lang="en">English</button><button type="button" data-go="ko" class="" lang="ko">한국어</button><button type="button" data-go="ja" class="" lang="ja">日本語</button><button type="button" data-go="zh" class="" lang="zh-Hans">简体中文</button><button type="button" data-go="ru" class="" lang="ru">Русский</button><button type="button" data-go="fil" class="" lang="fil">Filipino</button></nav>
+  <nav class="toc" aria-label="목차">
+    <p class="toc-label">목차</p>
+    <a href="#ko-c1">1. 개인정보 보호에 대한 약속</a><a href="#ko-c2">2. 수집하지 않는 정보</a><a href="#ko-c3">3. 수집하는 정보</a><a href="#ko-c4">4. 광고 데이터</a><a href="#ko-c5">5. 인앱 결제</a><a href="#ko-c6">6. 요청하는 권한</a><a href="#ko-c7">7. 데이터 보관</a><a href="#ko-c8">8. 아동의 개인정보 보호</a><a href="#ko-c9">9. 사용자의 권리</a><a href="#ko-c10">10. 제3자 서비스</a><a href="#ko-c11">11. 방침의 변경</a><a href="#ko-c12">12. 문의하기</a>
+  </nav>
+  <main><section class="clause" id="ko-c1"><div class="num">1</div><div><h2>개인정보 보호에 대한 약속</h2><p>Snap Clean은 설계 단계부터 개인정보 보호를 최우선으로 합니다. 중복 사진 탐지, 비슷한 사진 그룹화, 스크린샷 탐지, 흐림 탐지를 포함한 모든 사진·동영상 분석은 전적으로 사용자의 기기 내에서 이루어집니다. 당사는 사용자의 미디어를 수신하는 어떠한 서버도 운영하지 않습니다.</p></div></section><section class="clause" id="ko-c2"><div class="num">2</div><div><h2>수집하지 않는 정보</h2><p>당사는 사용자의 사진, 동영상, 썸네일, 파일명, 파일 경로, EXIF 메타데이터, 위치 정보, 얼굴 데이터, 또는 지각적/파일 해시 값을 업로드, 전송 또는 저장하지 않습니다. 이러한 정보는 사용자의 기기를 벗어나지 않습니다.</p></div></section><section class="clause" id="ko-c3"><div class="num">3</div><div><h2>수집하는 정보</h2><p>당사는 Firebase Analytics를 사용하여 서비스 개선을 위해 스캔 시작, 정리 완료 등 개인을 식별할 수 없는 집계된 사용 이벤트를 수집합니다. 또한 Firebase Crashlytics를 사용하여 스택 트레이스, OS 버전, 앱 버전 등 오류 진단 정보를 수집하며, 사진 콘텐츠나 파일명은 절대 수집하지 않습니다. Firebase Remote Config는 기능 설정값을 전달하는 데 사용되며 개인정보를 수집하지 않습니다.</p></div></section><section class="clause" id="ko-c4"><div class="num">4</div><div><h2>광고 데이터</h2><p>무료 사용자에게는 Google AdMob을 통한 광고가 표시되며, Google의 자체 개인정보처리방침에 따라 광고 식별자 및 상호작용 데이터가 수집될 수 있습니다. 기기의 광고 설정을 통해 맞춤형 광고를 거부할 수 있습니다. Snap Clean PRO는 모든 광고를 제거합니다.</p></div></section><section class="clause" id="ko-c5"><div class="num">5</div><div><h2>인앱 결제</h2><p>Snap Clean PRO 결제는 Google Play 또는 Apple App Store에서 전적으로 처리됩니다. Snap Clean은 사용자의 결제 카드 정보를 수신하거나 저장하지 않습니다.</p></div></section><section class="clause" id="ko-c6"><div class="num">6</div><div><h2>요청하는 권한</h2><p>Snap Clean은 미디어를 스캔하고 관리하기 위해 사진 라이브러리 접근 권한을 요청합니다. 사용자는 언제든지 기기 설정에서 전체 접근, 제한된 접근을 허용하거나 접근을 거부할 수 있으며, 제한된 접근 상태에서도 앱을 계속 사용할 수 있습니다.</p></div></section><section class="clause" id="ko-c7"><div class="num">7</div><div><h2>데이터 보관</h2><p>스캔 캐시, 정리 기록, 설정값은 사용자의 기기에만 로컬로 저장됩니다. 앱을 삭제하면 이 로컬 데이터도 함께 제거됩니다. 집계된 분석 데이터는 Firebase의 표준 보관 정책에 따라 보관됩니다.</p></div></section><section class="clause" id="ko-c8"><div class="num">8</div><div><h2>아동의 개인정보 보호</h2><p>Snap Clean은 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다.</p></div></section><section class="clause" id="ko-c9"><div class="num">9</div><div><h2>사용자의 권리</h2><p>사용자의 미디어는 기기를 벗어나지 않으므로 당사 서버에서 접근, 내보내기 또는 삭제할 사진 데이터가 존재하지 않습니다. 사용자는 언제든지 앱을 삭제하거나 기기 설정에서 앱 저장공간을 지워 모든 로컬 데이터를 삭제할 수 있습니다.</p></div></section><section class="clause" id="ko-c10"><div class="num">10</div><div><h2>제3자 서비스</h2><p>Snap Clean은 Google Firebase(Analytics, Crashlytics, Remote Config), Google AdMob, Google Play Billing / Apple 인앱결제를 사용합니다. 각 제공업체의 데이터 사용은 해당 업체의 개인정보처리방침을 따릅니다.</p></div></section><section class="clause" id="ko-c11"><div class="num">11</div><div><h2>방침의 변경</h2><p>본 개인정보처리방침은 수시로 변경될 수 있습니다. 변경 사항 적용 이후 본 앱을 계속 사용하는 경우 변경된 방침에 동의하는 것으로 간주됩니다.</p></div></section><section class="clause" id="ko-c12"><div class="num">12</div><div><h2>문의하기</h2><p>본 개인정보처리방침에 대해 문의사항이 있으시면 <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>으로 연락해 주세요.</p></div></section></main>
   <footer>
     <div>
       <p class="contact-label">문의</p>
       <a class="mail" href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>
     </div>
-    <a class="top-link" href="#top">맨 위로</a>
+    <a class="top-link" href="#ko-top">맨 위로</a>
   </footer>
-</div>
+</div></div><div class="lang-pane" data-lang="ja" hidden><div class="page" id="ja-top" lang="ja">
+  <header>
+    <div class="badge"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.5 4 5.6v5.4c0 5.2 3.4 9.7 8 10.9 4.6-1.2 8-5.7 8-10.9V5.6L12 2.5Z" fill="#fff" fill-opacity=".92"/><path d="m8.7 12.1 2.4 2.4 4.6-4.9" stroke="#2e6bf2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h1>プライバシーポリシー</h1>
+    <div class="meta"><strong>Snap Clean</strong><span>·</span><span>施行日 2026年9月12日</span><span>·</span><span>v1.0.0</span></div>
+    <p class="lede">Snap Clean は写真・動画の整理アプリです。本ポリシーでは、アプリが扱う情報と扱わない情報を12の条項で説明します。要するに、写真に関するデータが端末外に出ることはありません。</p>
+  </header>
+  <nav class="langs" aria-label="Language"><button type="button" data-go="en" class="on" lang="en">English</button><button type="button" data-go="ko" class="" lang="ko">한국어</button><button type="button" data-go="ja" class="" lang="ja">日本語</button><button type="button" data-go="zh" class="" lang="zh-Hans">简体中文</button><button type="button" data-go="ru" class="" lang="ru">Русский</button><button type="button" data-go="fil" class="" lang="fil">Filipino</button></nav>
+  <nav class="toc" aria-label="目次">
+    <p class="toc-label">目次</p>
+    <a href="#ja-c1">1. プライバシーへの取り組み</a><a href="#ja-c2">2. 収集しない情報</a><a href="#ja-c3">3. 収集する情報</a><a href="#ja-c4">4. 広告データ</a><a href="#ja-c5">5. アプリ内購入</a><a href="#ja-c6">6. リクエストする権限</a><a href="#ja-c7">7. データの保持</a><a href="#ja-c8">8. 児童のプライバシー</a><a href="#ja-c9">9. お客様の権利</a><a href="#ja-c10">10. 第三者サービス</a><a href="#ja-c11">11. 本ポリシーの変更</a><a href="#ja-c12">12. お問い合わせ</a>
+  </nav>
+  <main><section class="clause" id="ja-c1"><div class="num">1</div><div><h2>プライバシーへの取り組み</h2><p>Snap Cleanはプライバシー・バイ・デザインを採用しています。重複検出、類似写真のグループ化、スクリーンショット検出、ぼやけ検出を含む写真や動画の解析はすべて、お客様のデバイス上で完結します。当社はお客様のメディアを受信するサーバーを運用していません。</p></div></section><section class="clause" id="ja-c2"><div class="num">2</div><div><h2>収集しない情報</h2><p>当社は、お客様の写真、動画、サムネイル、ファイル名、ファイルパス、EXIFメタデータ、位置情報、顔データ、または知覚ハッシュ/ファイルハッシュをアップロード、送信、保存することは一切ありません。これらの情報がお客様のデバイスから外部に送信されることはありません。</p></div></section><section class="clause" id="ja-c3"><div class="num">3</div><div><h2>収集する情報</h2><p>当社は、本アプリの改善のため、Firebase Analyticsを使用して、集計された非識別的な利用イベント(スキャンの開始やクリーンアップの完了など)を収集します。また、Firebase Crashlyticsを使用して、スタックトレース、OSバージョン、アプリバージョンなどのクラッシュ診断情報を収集しますが、写真の内容やファイル名を収集することはありません。Firebase Remote Configは機能設定を配信するために使用され、個人データを収集することはありません。</p></div></section><section class="clause" id="ja-c4"><div class="num">4</div><div><h2>広告データ</h2><p>無料ユーザーにはGoogle AdMobを通じて広告が表示され、Googleの独自のプライバシーポリシーに基づき広告識別子や操作データが収集される場合があります。デバイスの広告設定からパーソナライズ広告をオプトアウトできます。Snap Clean PROはすべての広告を非表示にします。</p></div></section><section class="clause" id="ja-c5"><div class="num">5</div><div><h2>アプリ内購入</h2><p>Snap Clean PROのお支払いは、Google PlayまたはApple App Storeによってすべて処理されます。Snap Cleanがお客様のお支払いカード情報を受信または保存することはありません。</p></div></section><section class="clause" id="ja-c6"><div class="num">6</div><div><h2>リクエストする権限</h2><p>Snap Cleanは、メディアをスキャン・管理するために写真ライブラリへのアクセスを要求します。デバイスの設定でいつでもフルアクセス、限定アクセス、またはアクセス拒否を選択でき、限定アクセスでも本アプリはご利用いただけます。</p></div></section><section class="clause" id="ja-c7"><div class="num">7</div><div><h2>データの保持</h2><p>スキャンキャッシュ、クリーニング履歴、設定はお客様のデバイス上にのみローカルに保存されます。本アプリをアンインストールすると、これらのローカルデータは削除されます。集計された分析データは、Firebaseの標準的な保持ポリシーに従って保持されます。</p></div></section><section class="clause" id="ja-c8"><div class="num">8</div><div><h2>児童のプライバシー</h2><p>Snap Cleanは13歳未満の児童を対象としておらず、児童から個人情報を意図的に収集することはありません。</p></div></section><section class="clause" id="ja-c9"><div class="num">9</div><div><h2>お客様の権利</h2><p>お客様のメディアがデバイスから外部に送信されることはないため、当社のサーバー上でアクセス、エクスポート、削除すべき写真データは存在しません。本アプリをアンインストールするか、デバイスの設定でアプリストレージをクリアすることで、いつでもすべてのローカルアプリデータを消去できます。</p></div></section><section class="clause" id="ja-c10"><div class="num">10</div><div><h2>第三者サービス</h2><p>Snap Cleanは、Google Firebase(Analytics、Crashlytics、Remote Config)、Google AdMob、およびGoogle Play Billing / Apple In-App Purchaseを使用しています。各プロバイダーによるデータの利用は、それぞれの独自のプライバシーポリシーに準拠します。</p></div></section><section class="clause" id="ja-c11"><div class="num">11</div><div><h2>本ポリシーの変更</h2><p>当社は本プライバシーポリシーを随時更新することがあります。変更の発効後も本アプリを継続してご利用いただくことは、変更後のポリシーへの同意とみなされます。</p></div></section><section class="clause" id="ja-c12"><div class="num">12</div><div><h2>お問い合わせ</h2><p>本プライバシーポリシーに関するご質問は、<a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>までご連絡ください。</p></div></section></main>
+  <footer>
+    <div>
+      <p class="contact-label">お問い合わせ</p>
+      <a class="mail" href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>
+    </div>
+    <a class="top-link" href="#ja-top">先頭に戻る</a>
+  </footer>
+</div></div><div class="lang-pane" data-lang="zh" hidden><div class="page" id="zh-top" lang="zh-Hans">
+  <header>
+    <div class="badge"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.5 4 5.6v5.4c0 5.2 3.4 9.7 8 10.9 4.6-1.2 8-5.7 8-10.9V5.6L12 2.5Z" fill="#fff" fill-opacity=".92"/><path d="m8.7 12.1 2.4 2.4 4.6-4.9" stroke="#2e6bf2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h1>隐私政策</h1>
+    <div class="meta"><strong>Snap Clean</strong><span>·</span><span>生效日期 2026年9月12日</span><span>·</span><span>v1.0.0</span></div>
+    <p class="lede">Snap Clean 是一款照片与视频清理应用。本政策以 12 个条款说明应用处理与不处理的信息 — 简而言之，任何照片数据都不会离开您的设备。</p>
+  </header>
+  <nav class="langs" aria-label="Language"><button type="button" data-go="en" class="on" lang="en">English</button><button type="button" data-go="ko" class="" lang="ko">한국어</button><button type="button" data-go="ja" class="" lang="ja">日本語</button><button type="button" data-go="zh" class="" lang="zh-Hans">简体中文</button><button type="button" data-go="ru" class="" lang="ru">Русский</button><button type="button" data-go="fil" class="" lang="fil">Filipino</button></nav>
+  <nav class="toc" aria-label="目录">
+    <p class="toc-label">目录</p>
+    <a href="#zh-c1">1. 我们对隐私的承诺</a><a href="#zh-c2">2. 我们不会收集的信息</a><a href="#zh-c3">3. 我们收集的信息</a><a href="#zh-c4">4. 广告数据</a><a href="#zh-c5">5. 应用内购买</a><a href="#zh-c6">6. 我们请求的权限</a><a href="#zh-c7">7. 数据保留</a><a href="#zh-c8">8. 儿童隐私</a><a href="#zh-c9">9. 您的权利</a><a href="#zh-c10">10. 第三方服务</a><a href="#zh-c11">11. 本政策的变更</a><a href="#zh-c12">12. 联系我们</a>
+  </nav>
+  <main><section class="clause" id="zh-c1"><div class="num">1</div><div><h2>我们对隐私的承诺</h2><p>Snap Clean 以隐私保护为设计核心。所有照片和视频分析——包括重复检测、相似照片分组、截图检测和模糊检测——均完全在您的设备本地完成。我们不运营任何接收您媒体内容的服务器。</p></div></section><section class="clause" id="zh-c2"><div class="num">2</div><div><h2>我们不会收集的信息</h2><p>我们绝不会上传、传输或存储您的照片、视频、缩略图、文件名、文件路径、EXIF 元数据、位置数据、人脸数据,或感知哈希/文件哈希。这些信息永远不会离开您的设备。</p></div></section><section class="clause" id="zh-c3"><div class="num">3</div><div><h2>我们收集的信息</h2><p>我们使用 Firebase Analytics 收集聚合的、不可识别身份的使用事件(例如某次扫描已开始或某次清理已完成),以帮助我们改进本应用。我们使用 Firebase Crashlytics 收集崩溃诊断信息,如堆栈跟踪、操作系统版本和应用版本——但绝不收集照片内容或文件名。我们使用 Firebase Remote Config 下发功能配置,该服务不会收集任何个人数据。</p></div></section><section class="clause" id="zh-c4"><div class="num">4</div><div><h2>广告数据</h2><p>免费用户会看到通过 Google AdMob 展示的广告,Google AdMob 可能会依据其自身的隐私政策收集广告标识符和交互数据。您可以通过设备的广告设置选择退出个性化广告。Snap Clean PRO 将移除所有广告。</p></div></section><section class="clause" id="zh-c5"><div class="num">5</div><div><h2>应用内购买</h2><p>Snap Clean PRO 的付款完全由 Google Play 或 Apple App Store 处理。Snap Clean 不会接收或存储您的支付卡信息。</p></div></section><section class="clause" id="zh-c6"><div class="num">6</div><div><h2>我们请求的权限</h2><p>Snap Clean 会请求访问您的照片库,以扫描和管理您的媒体内容。您可以随时在设备设置中授予完全访问权限、有限访问权限,或拒绝访问;在有限访问权限下本应用仍可正常使用。</p></div></section><section class="clause" id="zh-c7"><div class="num">7</div><div><h2>数据保留</h2><p>您的扫描缓存、清理历史记录和设置仅存储在您的设备本地。卸载本应用会删除这些本地数据。聚合分析数据由 Firebase 按其标准数据保留政策进行保留。</p></div></section><section class="clause" id="zh-c8"><div class="num">8</div><div><h2>儿童隐私</h2><p>Snap Clean 并非面向 13 岁以下儿童,我们不会在明知的情况下收集儿童的个人信息。</p></div></section><section class="clause" id="zh-c9"><div class="num">9</div><div><h2>您的权利</h2><p>由于您的媒体内容从未离开您的设备,我们的服务器上没有可供我们访问、导出或删除的照片数据。您可以随时通过卸载本应用或在设备设置中清除应用存储空间,来清除全部本地应用数据。</p></div></section><section class="clause" id="zh-c10"><div class="num">10</div><div><h2>第三方服务</h2><p>Snap Clean 使用 Google Firebase(Analytics、Crashlytics、Remote Config)、Google AdMob,以及 Google Play Billing / Apple In-App Purchase。每家服务提供商对数据的使用均受其各自隐私政策的约束。</p></div></section><section class="clause" id="zh-c11"><div class="num">11</div><div><h2>本政策的变更</h2><p>我们可能会不时更新本隐私政策。政策变更生效后继续使用本应用,即表示您接受修订后的政策。</p></div></section><section class="clause" id="zh-c12"><div class="num">12</div><div><h2>联系我们</h2><p>如果您对本隐私政策有任何疑问,请通过 <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a> 与我们联系。</p></div></section></main>
+  <footer>
+    <div>
+      <p class="contact-label">联系</p>
+      <a class="mail" href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>
+    </div>
+    <a class="top-link" href="#zh-top">返回顶部</a>
+  </footer>
+</div></div><div class="lang-pane" data-lang="ru" hidden><div class="page" id="ru-top" lang="ru">
+  <header>
+    <div class="badge"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.5 4 5.6v5.4c0 5.2 3.4 9.7 8 10.9 4.6-1.2 8-5.7 8-10.9V5.6L12 2.5Z" fill="#fff" fill-opacity=".92"/><path d="m8.7 12.1 2.4 2.4 4.6-4.9" stroke="#2e6bf2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h1>Политика конфиденциальности</h1>
+    <div class="meta"><strong>Snap Clean</strong><span>·</span><span>Действует с 12 сентября 2026 г.</span><span>·</span><span>v1.0.0</span></div>
+    <p class="lede">Snap Clean — приложение для очистки фото и видео. В 12 разделах этой политики описано, какие данные приложение обрабатывает, а какие нет. Коротко: никакие данные о ваших фото не покидают устройство.</p>
+  </header>
+  <nav class="langs" aria-label="Language"><button type="button" data-go="en" class="on" lang="en">English</button><button type="button" data-go="ko" class="" lang="ko">한국어</button><button type="button" data-go="ja" class="" lang="ja">日本語</button><button type="button" data-go="zh" class="" lang="zh-Hans">简体中文</button><button type="button" data-go="ru" class="" lang="ru">Русский</button><button type="button" data-go="fil" class="" lang="fil">Filipino</button></nav>
+  <nav class="toc" aria-label="Содержание">
+    <p class="toc-label">Содержание</p>
+    <a href="#ru-c1">1. Наша приверженность конфиденциальности</a><a href="#ru-c2">2. Информация, которую мы НЕ собираем</a><a href="#ru-c3">3. Информация, которую мы собираем</a><a href="#ru-c4">4. Рекламные данные</a><a href="#ru-c5">5. Покупки в приложении</a><a href="#ru-c6">6. Запрашиваемые разрешения</a><a href="#ru-c7">7. Хранение данных</a><a href="#ru-c8">8. Конфиденциальность детей</a><a href="#ru-c9">9. Ваши права</a><a href="#ru-c10">10. Сторонние сервисы</a><a href="#ru-c11">11. Изменения настоящей Политики</a><a href="#ru-c12">12. Свяжитесь с нами</a>
+  </nav>
+  <main><section class="clause" id="ru-c1"><div class="num">1</div><div><h2>Наша приверженность конфиденциальности</h2><p>Snap Clean изначально разработан с учетом конфиденциальности. Весь анализ фотографий и видео — включая обнаружение дубликатов, группировку похожих фотографий, определение скриншотов и обнаружение размытости — полностью выполняется на вашем устройстве. Мы не используем какие-либо серверы, получающие ваши медиафайлы.</p></div></section><section class="clause" id="ru-c2"><div class="num">2</div><div><h2>Информация, которую мы НЕ собираем</h2><p>Мы никогда не загружаем, не передаем и не храним ваши фотографии, видео, миниатюры, имена файлов, пути к файлам, метаданные EXIF, данные о местоположении, данные о лицах или перцептивные/файловые хеши. Эта информация никогда не покидает ваше устройство.</p></div></section><section class="clause" id="ru-c3"><div class="num">3</div><div><h2>Информация, которую мы собираем</h2><p>Мы используем Firebase Analytics для сбора агрегированных, обезличенных событий использования (например, о начале сканирования или завершении очистки), чтобы улучшать Приложение. Мы используем Firebase Crashlytics для сбора диагностических данных о сбоях, таких как трассировки стека, версия ОС и версия приложения, — но никогда не содержимое фотографий или имена файлов. Мы используем Firebase Remote Config для доставки настроек функций; этот сервис не собирает персональные данные.</p></div></section><section class="clause" id="ru-c4"><div class="num">4</div><div><h2>Рекламные данные</h2><p>Бесплатным пользователям показывается реклама через Google AdMob, который может собирать рекламные идентификаторы и данные о взаимодействии в соответствии с собственной политикой конфиденциальности Google. Вы можете отказаться от персонализированной рекламы в настройках рекламы вашего устройства. Snap Clean PRO отключает всю рекламу.</p></div></section><section class="clause" id="ru-c5"><div class="num">5</div><div><h2>Покупки в приложении</h2><p>Платежи за Snap Clean PRO полностью обрабатываются Google Play или Apple App Store. Snap Clean не получает и не хранит данные вашей платежной карты.</p></div></section><section class="clause" id="ru-c6"><div class="num">6</div><div><h2>Запрашиваемые разрешения</h2><p>Snap Clean запрашивает доступ к библиотеке фотографий для сканирования и управления вашими медиафайлами. Вы можете предоставить полный доступ, ограниченный доступ или отказать в доступе в любой момент в настройках устройства; Приложение остается работоспособным при ограниченном доступе.</p></div></section><section class="clause" id="ru-c7"><div class="num">7</div><div><h2>Хранение данных</h2><p>Кэш сканирования, история очистки и настройки хранятся только локально на вашем устройстве. Удаление Приложения удаляет эти локальные данные. Агрегированные аналитические данные хранятся в Firebase в соответствии с его стандартными политиками хранения.</p></div></section><section class="clause" id="ru-c8"><div class="num">8</div><div><h2>Конфиденциальность детей</h2><p>Snap Clean не предназначен для детей младше 13 лет, и мы сознательно не собираем персональную информацию от детей.</p></div></section><section class="clause" id="ru-c9"><div class="num">9</div><div><h2>Ваши права</h2><p>Поскольку ваши медиафайлы никогда не покидают устройство, у нас нет доступа к данным о фотографиях, которые можно было бы экспортировать или удалить на наших серверах. Вы можете в любой момент очистить все локальные данные приложения, удалив Приложение или очистив его хранилище в настройках устройства.</p></div></section><section class="clause" id="ru-c10"><div class="num">10</div><div><h2>Сторонние сервисы</h2><p>Snap Clean использует Google Firebase (Analytics, Crashlytics, Remote Config), Google AdMob, а также Google Play Billing / Apple In-App Purchase. Использование данных каждым поставщиком регулируется его собственной политикой конфиденциальности.</p></div></section><section class="clause" id="ru-c11"><div class="num">11</div><div><h2>Изменения настоящей Политики</h2><p>Мы можем время от времени обновлять настоящую Политику конфиденциальности. Продолжение использования Приложения после вступления изменений в силу означает принятие обновленной политики.</p></div></section><section class="clause" id="ru-c12"><div class="num">12</div><div><h2>Свяжитесь с нами</h2><p>Если у вас есть вопросы по поводу настоящей Политики конфиденциальности, свяжитесь с нами по адресу <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p></div></section></main>
+  <footer>
+    <div>
+      <p class="contact-label">Контакты</p>
+      <a class="mail" href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>
+    </div>
+    <a class="top-link" href="#ru-top">Наверх</a>
+  </footer>
+</div></div><div class="lang-pane" data-lang="fil" hidden><div class="page" id="fil-top" lang="fil">
+  <header>
+    <div class="badge"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.5 4 5.6v5.4c0 5.2 3.4 9.7 8 10.9 4.6-1.2 8-5.7 8-10.9V5.6L12 2.5Z" fill="#fff" fill-opacity=".92"/><path d="m8.7 12.1 2.4 2.4 4.6-4.9" stroke="#2e6bf2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h1>Patakaran sa Privacy</h1>
+    <div class="meta"><strong>Snap Clean</strong><span>·</span><span>Epektibo mula Setyembre 12, 2026</span><span>·</span><span>v1.0.0</span></div>
+    <p class="lede">Ang Snap Clean ay isang photo at video cleaner. Inilalahad ng patakarang ito sa 12 seksyon kung ano ang hinahawakan at hindi hinahawakan ng app — sa madaling salita, walang anumang datos ng larawan ang umaalis sa iyong device.</p>
+  </header>
+  <nav class="langs" aria-label="Language"><button type="button" data-go="en" class="on" lang="en">English</button><button type="button" data-go="ko" class="" lang="ko">한국어</button><button type="button" data-go="ja" class="" lang="ja">日本語</button><button type="button" data-go="zh" class="" lang="zh-Hans">简体中文</button><button type="button" data-go="ru" class="" lang="ru">Русский</button><button type="button" data-go="fil" class="" lang="fil">Filipino</button></nav>
+  <nav class="toc" aria-label="Nilalaman">
+    <p class="toc-label">Nilalaman</p>
+    <a href="#fil-c1">1. Ang Aming Pangako sa Privacy</a><a href="#fil-c2">2. Impormasyong HINDI Namin Kinokolekta</a><a href="#fil-c3">3. Impormasyong Kinokolekta Namin</a><a href="#fil-c4">4. Data ng Advertising</a><a href="#fil-c5">5. Mga In-App Purchase</a><a href="#fil-c6">6. Mga Permission na Hinihiling Namin</a><a href="#fil-c7">7. Pagpapanatili ng Data</a><a href="#fil-c8">8. Privacy ng mga Bata</a><a href="#fil-c9">9. Ang Iyong Mga Karapatan</a><a href="#fil-c10">10. Mga Serbisyo ng Third-Party</a><a href="#fil-c11">11. Mga Pagbabago sa Patakarang Ito</a><a href="#fil-c12">12. Makipag-ugnayan sa Amin</a>
+  </nav>
+  <main><section class="clause" id="fil-c1"><div class="num">1</div><div><h2>Ang Aming Pangako sa Privacy</h2><p>Ang Snap Clean ay private by design. Ang lahat ng pagsusuri sa larawan at video — kabilang ang pagtukoy ng duplicate, pagpapangkat ng magkatulad na larawan, pagtukoy ng screenshot, at pagtukoy ng malabong larawan — ay ginaganap nang buo sa iyong device. Wala kaming pinapatakbong server na tumatanggap ng iyong media.</p></div></section><section class="clause" id="fil-c2"><div class="num">2</div><div><h2>Impormasyong HINDI Namin Kinokolekta</h2><p>Hindi namin kailanman ina-upload, ipinapadala, o iniimbak ang iyong mga larawan, video, thumbnail, pangalan ng file, path ng file, EXIF metadata, data ng lokasyon, data ng mukha, o perceptual/file hash. Hindi kailanman umaalis sa iyong device ang impormasyong ito.</p></div></section><section class="clause" id="fil-c3"><div class="num">3</div><div><h2>Impormasyong Kinokolekta Namin</h2><p>Gumagamit kami ng Firebase Analytics upang mangolekta ng aggregated, hindi nagpapakilalang mga usage event (halimbawa, na nagsimula ang isang scan o natapos ang isang cleanup) upang matulungan kaming mapahusay ang App. Gumagamit kami ng Firebase Crashlytics upang mangolekta ng crash diagnostics tulad ng stack trace, bersyon ng OS, at bersyon ng app — hindi kailanman ang laman ng larawan o pangalan ng file. Gumagamit kami ng Firebase Remote Config upang maghatid ng mga setting ng feature; hindi ito nangongolekta ng personal na data.</p></div></section><section class="clause" id="fil-c4"><div class="num">4</div><div><h2>Data ng Advertising</h2><p>Ipinapakita sa mga libreng user ang mga ad sa pamamagitan ng Google AdMob, na maaaring mangolekta ng mga advertising identifier at data ng interaksyon sa ilalim ng sariling patakaran sa privacy ng Google. Maaari kang mag-opt out sa personalized advertising sa pamamagitan ng mga setting ng ad ng iyong device. Inaalis ng Snap Clean PRO ang lahat ng ad.</p></div></section><section class="clause" id="fil-c5"><div class="num">5</div><div><h2>Mga In-App Purchase</h2><p>Ang mga bayad para sa Snap Clean PRO ay buong pinoproseso ng Google Play o ng Apple App Store. Hindi tumatanggap o nag-iimbak ang Snap Clean ng impormasyon ng iyong payment card.</p></div></section><section class="clause" id="fil-c6"><div class="num">6</div><div><h2>Mga Permission na Hinihiling Namin</h2><p>Hinihiling ng Snap Clean ang access sa photo library upang i-scan at pamahalaan ang iyong media. Maaari mong ibigay ang buong access, limitadong access, o tanggihan ang access anumang oras sa mga setting ng iyong device; magagamit pa rin ang App kahit limitado ang access.</p></div></section><section class="clause" id="fil-c7"><div class="num">7</div><div><h2>Pagpapanatili ng Data</h2><p>Ang iyong scan cache, kasaysayan ng paglilinis, at mga setting ay iniimbak lamang nang lokal sa iyong device. Ang pag-uninstall ng App ay nag-aalis sa lokal na datang ito. Pinapanatili ang aggregated analytics data ng Firebase ayon sa mga standard na patakaran nito sa pagpapanatili.</p></div></section><section class="clause" id="fil-c8"><div class="num">8</div><div><h2>Privacy ng mga Bata</h2><p>Hindi nakatuon ang Snap Clean sa mga batang wala pang 13 taong gulang, at hindi kami sinasadyang nangongolekta ng personal na impormasyon mula sa mga bata.</p></div></section><section class="clause" id="fil-c9"><div class="num">9</div><div><h2>Ang Iyong Mga Karapatan</h2><p>Dahil hindi kailanman umaalis ang iyong media sa iyong device, walang photo data na maa-access, ma-export, o mabubura namin sa aming mga server. Maaari mong burahin ang lahat ng lokal na data ng app anumang oras sa pamamagitan ng pag-uninstall ng App o pag-clear ng app storage sa mga setting ng iyong device.</p></div></section><section class="clause" id="fil-c10"><div class="num">10</div><div><h2>Mga Serbisyo ng Third-Party</h2><p>Gumagamit ang Snap Clean ng Google Firebase (Analytics, Crashlytics, Remote Config), Google AdMob, at Google Play Billing / Apple In-App Purchase. Ang paggamit ng data ng bawat provider ay pinamamahalaan ng sarili nitong patakaran sa privacy.</p></div></section><section class="clause" id="fil-c11"><div class="num">11</div><div><h2>Mga Pagbabago sa Patakarang Ito</h2><p>Maaari naming i-update ang Patakaran sa Privacy na ito paminsan-minsan. Ang patuloy na paggamit ng App matapos magkabisa ang mga pagbabago ay itinuturing na pagtanggap sa binagong patakaran.</p></div></section><section class="clause" id="fil-c12"><div class="num">12</div><div><h2>Makipag-ugnayan sa Amin</h2><p>Kung may mga katanungan ka tungkol sa Patakaran sa Privacy na ito, makipag-ugnayan sa amin sa <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>.</p></div></section></main>
+  <footer>
+    <div>
+      <p class="contact-label">Kontak</p>
+      <a class="mail" href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>
+    </div>
+    <a class="top-link" href="#fil-top">Balik sa itaas</a>
+  </footer>
+</div></div>
+<script>
+  (function () {
+    var panes = document.querySelectorAll('.lang-pane');
+    function show(code) {
+      panes.forEach(function (p) { p.hidden = p.dataset.lang !== code; });
+      document.querySelectorAll('nav.langs button').forEach(function (b) {
+        b.classList.toggle('on', b.dataset.go === code);
+      });
+      document.documentElement.lang = code === 'zh' ? 'zh-Hans' : code;
+      try { localStorage.setItem('snapclean-pp-lang', code); } catch (e) {}
+    }
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest('nav.langs button');
+      if (!b) return;
+      show(b.dataset.go);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    var known = ['en', 'ko', 'ja', 'zh', 'ru', 'fil'];
+    var pick = null;
+    try { pick = localStorage.getItem('snapclean-pp-lang'); } catch (e) {}
+    if (known.indexOf(pick) === -1) {
+      var nav = (navigator.language || 'en').toLowerCase();
+      pick = nav.indexOf('ko') === 0 ? 'ko'
+           : nav.indexOf('ja') === 0 ? 'ja'
+           : nav.indexOf('zh') === 0 ? 'zh'
+           : nav.indexOf('ru') === 0 ? 'ru'
+           : (nav.indexOf('fil') === 0 || nav.indexOf('tl') === 0) ? 'fil'
+           : 'en';
+    }
+    show(pick);
+  })();
+</script>
+</body>
+</html>

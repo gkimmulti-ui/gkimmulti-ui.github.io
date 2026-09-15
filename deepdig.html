@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#142b32">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Deep Dig 개인정보처리방침 / Privacy Policy — Kenneth App. 한국어, English, 日本語, 简体中文, Русский, Filipino.">
+  <title>Deep Dig · 개인정보처리방침</title>
+  <style>
+    :root { color-scheme: light; --ink:#172f37; --muted:#52666c; --teal:#116f69; --paper:#ffffff; --line:#dce4e3; --canvas:#f3f5f2; }
+    * { box-sizing:border-box; }
+    html { scroll-padding-top:24px; }
+    body { margin:0; background:var(--canvas); color:var(--ink); font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans","Noto Sans KR","Noto Sans JP","Noto Sans SC",sans-serif; font-size:16px; line-height:1.8; -webkit-text-size-adjust:100%; }
+    a { color:var(--teal); text-underline-offset:4px; }
+    a:focus-visible, button:focus-visible { outline:3px solid #c5750c; outline-offset:4px; border-radius:5px; }
+    .skip { position:absolute; top:12px; left:12px; z-index:10; padding:10px 18px; background:#fff; transform:translateY(-160%); }
+    .skip:focus { transform:translateY(0); }
+    .masthead { background:#142b32; color:#fff; border-top:4px solid #dca747; }
+    .brand-row { max-width:940px; margin:auto; padding:27px 30px; display:flex; gap:14px; align-items:center; }
+    .mark { width:34px; height:34px; flex:none; background:#dca747; clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%); position:relative; }
+    .mark::after { content:""; position:absolute; inset:9px; background:#142b32; clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%); }
+    .brand { font-size:24px; font-weight:800; letter-spacing:-.6px; line-height:1.2; }
+    .publisher { margin-top:5px; font-size:10px; font-weight:650; letter-spacing:2px; color:#c4d1d2; line-height:1.3; }
+    .toolbar { max-width:940px; padding:26px 30px 22px; margin:auto; }
+    .toolbar-top { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:12px; }
+    .language-label { margin:0; font-size:12px; font-weight:650; color:var(--muted); }
+    #print { border:0; background:transparent; color:var(--teal); cursor:pointer; padding:3px 0 3px 12px; font:inherit; font-size:13px; font-weight:650; }
+    .languages { display:flex; flex-wrap:wrap; gap:8px; }
+    .languages a { padding:8px 17px; min-height:44px; border:1px solid #b5c5c6; border-radius:8px; background:var(--paper); color:var(--ink); text-decoration:none; font-size:14px; font-weight:600; display:flex; align-items:center; justify-content:center; line-height:1.5; }
+    .languages a:hover { border-color:var(--teal); background:#eaf3ef; }
+    .languages a[aria-current="true"] { background:var(--ink); border-color:var(--ink); color:#fff; box-shadow:0 2px 5px #172f3714; }
+    main { max-width:940px; padding:0 30px; margin:auto; }
+    .policy { overflow:hidden; background:var(--paper); border:1px solid var(--line); border-radius:16px; margin-bottom:28px; box-shadow:0 8px 28px #142b3205; scroll-margin-top:20px; }
+    .policy-header { padding:40px 44px 28px; border-bottom:1px solid var(--line); background:linear-gradient(115deg,#f6faf8,#fff); }
+    .eyebrow { margin:0 0 12px; color:var(--teal); font-size:12px; font-weight:700; letter-spacing:.3px; }
+    h1 { font-size:clamp(28px,4.4vw,42px); line-height:1.3; font-weight:760; letter-spacing:-1px; margin:0; overflow-wrap:anywhere; }
+    .metadata { display:flex; flex-wrap:wrap; gap:12px 36px; margin-top:24px; }
+    .metadata p { margin:0; font-size:13px; line-height:1.65; }
+    .metadata span { display:block; color:var(--muted); font-size:11px; margin-bottom:3px; }
+    .metadata time, .metadata strong { font-weight:550; }
+    .policy-body { padding:34px 44px 40px; }
+    .policy-body section + section { margin-top:30px; }
+    h2 { margin:0 0 10px; font-size:18px; font-weight:730; letter-spacing:-.25px; line-height:1.5; overflow-wrap:anywhere; }
+    .policy-body p { margin:0; color:#354c54; font-size:15px; line-height:1.9; overflow-wrap:anywhere; }
+    :lang(ko) { word-break:keep-all; }
+    .contact { margin-top:34px; padding:22px 24px; border:1px solid #cddfdb; border-left:4px solid var(--teal); border-radius:8px; background:#f2f8f5; }
+    .contact h2 { font-size:16px; }
+    .contact p { font-size:13px; line-height:1.75; margin-bottom:9px; }
+    .contact a { font-size:15px; font-weight:650; overflow-wrap:anywhere; }
+    footer { max-width:940px; padding:0 30px 30px; margin:auto; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:7px 20px; color:var(--muted); font-size:11px; }
+    footer p { margin:0; overflow-wrap:anywhere; }
+    [hidden] { display:none !important; }
+    @media (max-width:600px) {
+      .brand-row { padding:23px 20px; }
+      .toolbar { padding:22px 16px 18px; }
+      .languages { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; }
+      .languages a { padding:9px 6px; font-size:13px; }
+      main { padding:0 12px; }
+      .policy { border-radius:12px; margin-bottom:20px; }
+      .policy-header { padding:28px 22px 23px; }
+      .policy-body { padding:27px 22px 28px; }
+      h1 { letter-spacing:-.7px; }
+      h2 { font-size:17px; }
+      .policy-body p { font-size:14px; line-height:1.95; }
+      .metadata { gap:13px 24px; }
+      .contact { padding:18px 17px; }
+      footer { padding:0 20px 24px; }
+    }
+    @media print {
+      @page { margin:18mm; }
+      body { background:#fff; color:#000; font-size:11pt; }
+      .skip, .toolbar { display:none !important; }
+      .masthead { color:#000; background:#fff; border:0; }
+      .brand-row { max-width:none; padding:0 0 18px; }
+      .mark { display:none; }
+      .publisher { color:#333; }
+      main { max-width:none; padding:0; }
+      .policy { border:0; border-radius:0; box-shadow:none; overflow:visible; break-after:page; }
+      .policy:last-child { break-after:auto; }
+      .policy-header { background:#fff; padding:0 0 22px; }
+      h1 { font-size:26pt; }
+      .policy-body { padding:24px 0 0; }
+      .policy-body p { font-size:10.5pt; line-height:1.75; color:#111; }
+      h2 { break-after:avoid; font-size:13pt; }
+      p { orphans:3; widows:3; }
+      .contact { break-inside:avoid; background:#fff; }
+      footer { padding:0; max-width:none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#ko">개인정보처리방침으로 이동</a>
+  <header class="masthead">
+    <div class="brand-row">
+      <span class="mark" aria-hidden="true"></span>
+      <div><div class="brand">Deep Dig</div><div class="publisher">KENNETH APP</div></div>
+    </div>
+  </header>
+  <div class="toolbar">
+    <div class="toolbar-top">
+      <p class="language-label" id="language-label">언어 선택 · Language</p>
+      <button id="print" type="button" hidden>인쇄</button>
+    </div>
+    <nav class="languages" aria-labelledby="language-label">
+        <a href="#ko" lang="ko" hreflang="ko" data-language="ko">한국어</a>
+        <a href="#en" lang="en" hreflang="en" data-language="en">English</a>
+        <a href="#ja" lang="ja" hreflang="ja" data-language="ja">日本語</a>
+        <a href="#zh-Hans" lang="zh-Hans" hreflang="zh-Hans" data-language="zh-Hans">简体中文</a>
+        <a href="#ru" lang="ru" hreflang="ru" data-language="ru">Русский</a>
+        <a href="#fil" lang="fil" hreflang="fil" data-language="fil">Filipino</a>
+    </nav>
+  </div>
+  <main id="policy-content">
+    <article class="policy" id="ko" lang="ko" aria-labelledby="title-ko">
+      <header class="policy-header">
+        <p class="eyebrow">Android 앱 · 버전 1.0.1</p>
+        <h1 id="title-ko" tabindex="-1">개인정보처리방침</h1>
+        <div class="metadata">
+          <p><span>최종 업데이트</span><time datetime="2026-09-15">2026년 9월 15일</time></p>
+          <p><span>개발자</span><strong>Kenneth App</strong></p>
+        </div>
+      </header>
+      <div class="policy-body">
+        <section aria-labelledby="ko-section-1">
+          <h2 id="ko-section-1">1. 처리 주체와 적용 범위</h2>
+          <p>Kenneth App은 Deep Dig 버전 1.0.1의 개인정보 처리 방식을 아래와 같이 안내합니다. 이 설명은 현재 앱의 기능에 적용되며 앱스토어 및 기기 운영체제의 별도 처리에는 해당 제공자의 정책이 적용됩니다.</p>
+        </section>
+        <section aria-labelledby="ko-section-2">
+          <h2 id="ko-section-2">2. 기기에 저장되는 정보와 목적</h2>
+          <p>앱은 진행도, 골드·다이아, 아이템·장비·캐릭터, 퀘스트·보스 기록, 출석 날짜, 자동 채굴·진동·언어 설정을 기기에 보관합니다. 게임을 이어서 하고 보상과 설정을 유지하기 위한 목적입니다. 모바일 앱의 게임 진행 데이터는 암호화하며 암호키는 기기의 보안 저장소에 보관합니다. 언어 설정은 별도로 기기에 저장하며, 첫 실행의 기본 언어 선택에는 기기가 제공하는 언어 정보를 사용합니다.</p>
+        </section>
+        <section aria-labelledby="ko-section-3">
+          <h2 id="ko-section-3">3. 전송, 제3자 제공과 권한</h2>
+          <p>현재 게임에는 로그인, 개발자 서버 전송, 광고 추적, 분석 SDK, 앱 내 현금 결제 기능이 없습니다. Kenneth App은 위 게임 데이터를 서버로 수집하거나 판매하지 않습니다. 연락처, 위치, 사진, 카메라, 마이크를 요청하지 않습니다. 진동은 설정에서 끌 수 있습니다. Android 버전은 앱 데이터를 운영체제의 클라우드 백업과 기기 간 전송 대상에서 제외합니다.</p>
+        </section>
+        <section aria-labelledby="ko-section-4">
+          <h2 id="ko-section-4">4. 보관 기간과 삭제</h2>
+          <p>데이터는 앱을 사용하는 동안 기기에 남습니다. 기기 설정에서 Deep Dig의 앱 데이터를 지우거나 앱을 삭제하면 로컬 데이터를 삭제할 수 있습니다. 이 작업은 진행 상황도 지우므로 되돌리지 못할 수 있습니다. 별도 운영체제 백업이 있다면 해당 백업 설정에서 관리·삭제해 주세요. 개발자 서버에 계정이나 게임 저장본이 없어 서버 계정 삭제 절차는 없습니다.</p>
+        </section>
+        <section aria-labelledby="ko-section-5">
+          <h2 id="ko-section-5">5. 아동, 문의와 정책 변경</h2>
+          <p>현재 앱은 아동을 포함한 이용자에게 이름, 이메일, 생년월일 등 식별 정보를 입력하도록 요구하지 않습니다. 개인정보 관련 문의나 권리 요청은 배포 페이지의 Kenneth App 개발자 연락처로 보내 주세요. 이용자가 별도 문의를 보내면 회신에 필요한 연락 정보와 문의 내용이 해당 연락 서비스에서 처리될 수 있으므로 불필요한 개인정보는 보내지 마세요. 데이터 처리 기능이 바뀌면 정책과 시행일을 갱신하고 필요한 안내 또는 동의 절차를 제공합니다.</p>
+        </section>
+        <aside class="contact" aria-labelledby="ko-contact">
+          <h2 id="ko-contact">개인정보 관련 문의</h2>
+          <p>개인정보 관련 문의나 권리 요청은 아래 이메일로 보내 주세요.</p>
+          <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a>
+        </aside>
+      </div>
+    </article>
+
+    <article class="policy" id="en" lang="en" aria-labelledby="title-en">
+      <header class="policy-header">
+        <p class="eyebrow">Android app · Version 1.0.1</p>
+        <h1 id="title-en" tabindex="-1">Privacy Policy</h1>
+        <div class="metadata">
+          <p><span>Last updated</span><time datetime="2026-09-15">September 15, 2026</time></p>
+          <p><span>Developer</span><strong>Kenneth App</strong></p>
+        </div>
+      </header>
+      <div class="policy-body">
+        <section aria-labelledby="en-section-1">
+          <h2 id="en-section-1">1. Provider and scope</h2>
+          <p>Kenneth App describes data handling in Deep Dig version 1.0.1 below. This policy covers the app&#39;s current features. Separate processing by app stores and device operating systems is governed by their providers&#39; policies.</p>
+        </section>
+        <section aria-labelledby="en-section-2">
+          <h2 id="en-section-2">2. Device data and purpose</h2>
+          <p>The app stores progress, gold and diamonds, items, equipment, characters, quest and boss records, attendance dates, and auto-mining, vibration and language settings on your device. This lets you resume play and keep rewards and preferences. Game progress in the mobile app is encrypted, and its encryption key is kept in the device secure store. The language preference is stored separately on the device; the initial language is selected using the language information provided by your device.</p>
+        </section>
+        <section aria-labelledby="en-section-3">
+          <h2 id="en-section-3">3. Transmission, sharing and permissions</h2>
+          <p>The current game has no login, developer-server uploads, ad tracking, analytics SDK or real-money in-app purchases. Kenneth App does not collect the above game data on a server or sell it. The app does not request contacts, location, photos, camera or microphone access. Vibration can be turned off in Settings. The Android version excludes app data from operating-system cloud backup and device-to-device transfer.</p>
+        </section>
+        <section aria-labelledby="en-section-4">
+          <h2 id="en-section-4">4. Retention and deletion</h2>
+          <p>Data remains on the device while you use the app. Clear Deep Dig&#39;s app data in device settings or uninstall it to delete local data. This also removes progress and may be irreversible. Manage or delete any separate OS backup in your backup settings. There is no server-account deletion process because the developer stores no account or game save on a server.</p>
+        </section>
+        <section aria-labelledby="en-section-5">
+          <h2 id="en-section-5">5. Children, contact and policy changes</h2>
+          <p>The current app does not ask users, including children, to enter identifiers such as a name, email or birth date. Send privacy questions or rights requests to the Kenneth App developer contact on the distribution page. If you separately contact us, the contact service may process your contact details and message to enable a reply; please avoid unnecessary personal information. If data-handling features change, we will update this policy and effective date and provide any required notice or consent process.</p>
+        </section>
+        <aside class="contact" aria-labelledby="en-contact">
+          <h2 id="en-contact">Privacy contact</h2>
+          <p>Send privacy questions or requests about your rights to the email address below.</p>
+          <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a>
+        </aside>
+      </div>
+    </article>
+
+    <article class="policy" id="ja" lang="ja" aria-labelledby="title-ja">
+      <header class="policy-header">
+        <p class="eyebrow">Androidアプリ · バージョン1.0.1</p>
+        <h1 id="title-ja" tabindex="-1">プライバシーポリシー</h1>
+        <div class="metadata">
+          <p><span>最終更新日</span><time datetime="2026-09-15">2026年9月15日</time></p>
+          <p><span>開発者</span><strong>Kenneth App</strong></p>
+        </div>
+      </header>
+      <div class="policy-body">
+        <section aria-labelledby="ja-section-1">
+          <h2 id="ja-section-1">1. 管理者と適用範囲</h2>
+          <p>Kenneth AppはDeep Digバージョン1.0.1のデータ処理を以下のとおり説明します。本方針は現在のアプリ機能に適用され、アプリストアや端末OSによる別の処理には各提供者の方針が適用されます。</p>
+        </section>
+        <section aria-labelledby="ja-section-2">
+          <h2 id="ja-section-2">2. 端末に保存する情報と目的</h2>
+          <p>アプリは進行状況、ゴールド・ダイヤ、アイテム・装備・キャラクター、クエスト・ボスの記録、出席日、自動採掘・振動・言語の設定を端末に保存します。ゲームの再開と報酬・設定の維持に使用します。モバイルアプリの進行データは暗号化し、暗号鍵は端末の安全な保存領域に保管します。言語設定は端末に別途保存し、初回の言語選択には端末が提供する言語情報を使用します。</p>
+        </section>
+        <section aria-labelledby="ja-section-3">
+          <h2 id="ja-section-3">3. 送信・第三者提供・権限</h2>
+          <p>現在のゲームにはログイン、開発者サーバーへの送信、広告追跡、分析SDK、現金によるアプリ内購入はありません。Kenneth Appは上記のゲームデータをサーバーに収集したり販売したりしません。連絡先、位置情報、写真、カメラ、マイクへのアクセスを求めません。振動は設定で無効にできます。Android版はアプリデータをOSのクラウドバックアップと端末間転送の対象外にしています。</p>
+        </section>
+        <section aria-labelledby="ja-section-4">
+          <h2 id="ja-section-4">4. 保存期間と削除</h2>
+          <p>データはアプリの利用中、端末に残ります。端末設定でDeep Digのデータを消去するかアプリを削除すると、ローカルデータを削除できます。進行状況も消え、元に戻せない場合があります。別途OSバックアップがある場合はバックアップ設定で管理・削除してください。開発者サーバーにアカウントや保存データがないため、サーバー上のアカウント削除手続きはありません。</p>
+        </section>
+        <section aria-labelledby="ja-section-5">
+          <h2 id="ja-section-5">5. 子ども・問い合わせ・方針の変更</h2>
+          <p>現在のアプリは子どもを含む利用者に氏名、メール、生年月日等の識別情報の入力を求めません。プライバシーの問い合わせや権利の請求は配布ページのKenneth App開発者連絡先へお送りください。別途お問い合わせいただく場合、返信のため連絡先や内容が連絡サービスで処理されることがあります。不要な個人情報は送らないでください。データ処理機能の変更時は方針と施行日を更新し、必要な通知や同意手続きを提供します。</p>
+        </section>
+        <aside class="contact" aria-labelledby="ja-contact">
+          <h2 id="ja-contact">個人情報に関するお問い合わせ</h2>
+          <p>個人情報に関するお問い合わせや権利行使のご依頼は、以下のメールアドレスにお送りください。</p>
+          <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a>
+        </aside>
+      </div>
+    </article>
+
+    <article class="policy" id="zh-Hans" lang="zh-Hans" aria-labelledby="title-zh-Hans">
+      <header class="policy-header">
+        <p class="eyebrow">Android应用 · 版本1.0.1</p>
+        <h1 id="title-zh-Hans" tabindex="-1">隐私政策</h1>
+        <div class="metadata">
+          <p><span>最后更新</span><time datetime="2026-09-15">2026年9月15日</time></p>
+          <p><span>开发者</span><strong>Kenneth App</strong></p>
+        </div>
+      </header>
+      <div class="policy-body">
+        <section aria-labelledby="zh-Hans-section-1">
+          <h2 id="zh-Hans-section-1">1. 处理主体与适用范围</h2>
+          <p>Kenneth App在下文说明Deep Dig 1.0.1版本的数据处理方式。本政策适用于当前应用功能；应用商店和设备操作系统的独立处理适用各自提供方的政策。</p>
+        </section>
+        <section aria-labelledby="zh-Hans-section-2">
+          <h2 id="zh-Hans-section-2">2. 设备存储信息与目的</h2>
+          <p>应用在设备上保存进度、金币和钻石、物品、装备、角色、任务和首领记录、签到日期，以及自动采矿、振动和语言设置，用于继续游戏并保留奖励与偏好。移动应用的游戏进度经过加密，密钥保存在设备的安全存储区。语言偏好单独保存在设备上，首次启动时根据设备提供的语言信息选择默认语言。</p>
+        </section>
+        <section aria-labelledby="zh-Hans-section-3">
+          <h2 id="zh-Hans-section-3">3. 传输、第三方提供与权限</h2>
+          <p>当前游戏没有登录、向开发者服务器上传、广告追踪、分析SDK或真实货币内购功能。Kenneth App不会在服务器收集或出售上述游戏数据。应用不请求通讯录、位置、照片、相机或麦克风权限。振动可在设置中关闭。Android版将应用数据排除在操作系统云备份和设备间传输之外。</p>
+        </section>
+        <section aria-labelledby="zh-Hans-section-4">
+          <h2 id="zh-Hans-section-4">4. 保存期限与删除</h2>
+          <p>使用应用期间，数据保留在设备上。可在设备设置中清除Deep Dig应用数据或卸载应用来删除本地数据，同时会删除进度且可能无法恢复。如有独立的系统备份，请在备份设置中管理或删除。开发者服务器上没有账号或游戏存档，因此不存在服务器账号删除流程。</p>
+        </section>
+        <section aria-labelledby="zh-Hans-section-5">
+          <h2 id="zh-Hans-section-5">5. 儿童、联系与政策变更</h2>
+          <p>当前应用不会要求包括儿童在内的用户输入姓名、邮箱、出生日期等身份信息。隐私问题或权利请求请发送至发布页面上的Kenneth App开发者联系方式。如果您另行联系，相关联系服务可能处理您的联系方式与消息以便回复，请勿发送不必要的个人信息。数据处理功能变更时，我们将更新政策与生效日期，并提供必要的通知或同意流程。</p>
+        </section>
+        <aside class="contact" aria-labelledby="zh-Hans-contact">
+          <h2 id="zh-Hans-contact">隐私问题联系方式</h2>
+          <p>如有隐私问题或希望行使相关权利，请发送邮件至以下地址。</p>
+          <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a>
+        </aside>
+      </div>
+    </article>
+
+    <article class="policy" id="ru" lang="ru" aria-labelledby="title-ru">
+      <header class="policy-header">
+        <p class="eyebrow">Приложение Android · Версия 1.0.1</p>
+        <h1 id="title-ru" tabindex="-1">Политика конфиденциальности</h1>
+        <div class="metadata">
+          <p><span>Последнее обновление</span><time datetime="2026-09-15">15 сентября 2026 г.</time></p>
+          <p><span>Разработчик</span><strong>Kenneth App</strong></p>
+        </div>
+      </header>
+      <div class="policy-body">
+        <section aria-labelledby="ru-section-1">
+          <h2 id="ru-section-1">1. Оператор и область действия</h2>
+          <p>Ниже Kenneth App описывает обработку данных в Deep Dig 1.0.1. Политика относится к текущим функциям приложения. Отдельная обработка магазинами приложений и операционными системами регулируется политиками их поставщиков.</p>
+        </section>
+        <section aria-labelledby="ru-section-2">
+          <h2 id="ru-section-2">2. Данные на устройстве и цели</h2>
+          <p>Приложение хранит на устройстве прогресс, золото и алмазы, предметы, снаряжение, персонажей, записи заданий и боссов, даты посещений, настройки автодобычи, вибрации и языка. Это позволяет продолжать игру и сохранять награды и настройки. Прогресс в мобильном приложении шифруется, а ключ хранится в защищённом хранилище устройства. Настройка языка сохраняется отдельно на устройстве; при первом запуске язык выбирается по сведениям, предоставленным устройством.</p>
+        </section>
+        <section aria-labelledby="ru-section-3">
+          <h2 id="ru-section-3">3. Передача, третьи лица и разрешения</h2>
+          <p>В текущей игре нет входа в аккаунт, отправки данных на сервер разработчика, рекламного отслеживания, аналитических SDK или покупок за реальные деньги. Kenneth App не собирает указанные игровые данные на сервере и не продаёт их. Доступ к контактам, местоположению, фото, камере и микрофону не запрашивается. Вибрацию можно отключить в настройках. Версия для Android исключает данные приложения из облачного резервного копирования ОС и переноса между устройствами.</p>
+        </section>
+        <section aria-labelledby="ru-section-4">
+          <h2 id="ru-section-4">4. Срок хранения и удаление</h2>
+          <p>Данные остаются на устройстве во время использования приложения. Для удаления локальных данных очистите данные Deep Dig в настройках устройства или удалите приложение. Это также удалит прогресс и может быть необратимо. Отдельными резервными копиями ОС управляйте в настройках резервного копирования. Процедуры удаления серверного аккаунта нет, поскольку разработчик не хранит аккаунты или сохранения на сервере.</p>
+        </section>
+        <section aria-labelledby="ru-section-5">
+          <h2 id="ru-section-5">5. Дети, связь и изменения политики</h2>
+          <p>Приложение не просит пользователей, включая детей, вводить имя, электронную почту, дату рождения или другие идентификаторы. Вопросы о данных и запросы о реализации прав направляйте через контакт Kenneth App на странице распространения. При отдельном обращении сервис связи может обработать контактные данные и сообщение для ответа; не отправляйте лишних персональных данных. При изменении обработки данных мы обновим политику и дату её действия и предоставим необходимые уведомления или запросим согласие.</p>
+        </section>
+        <aside class="contact" aria-labelledby="ru-contact">
+          <h2 id="ru-contact">Вопросы о конфиденциальности</h2>
+          <p>Вопросы о конфиденциальности и запросы об осуществлении ваших прав можно отправить по указанному ниже адресу.</p>
+          <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a>
+        </aside>
+      </div>
+    </article>
+
+    <article class="policy" id="fil" lang="fil" aria-labelledby="title-fil">
+      <header class="policy-header">
+        <p class="eyebrow">Android app · Bersyon 1.0.1</p>
+        <h1 id="title-fil" tabindex="-1">Patakaran sa Privacy</h1>
+        <div class="metadata">
+          <p><span>Huling na-update</span><time datetime="2026-09-15">Setyembre 15, 2026</time></p>
+          <p><span>Developer</span><strong>Kenneth App</strong></p>
+        </div>
+      </header>
+      <div class="policy-body">
+        <section aria-labelledby="fil-section-1">
+          <h2 id="fil-section-1">1. Tagapangasiwa at saklaw</h2>
+          <p>Inilalarawan ng Kenneth App sa ibaba ang paghawak ng datos sa Deep Dig 1.0.1. Saklaw nito ang kasalukuyang tampok ng app. Ang hiwalay na pagproseso ng app store at operating system ay saklaw ng kani-kanilang patakaran.</p>
+        </section>
+        <section aria-labelledby="fil-section-2">
+          <h2 id="fil-section-2">2. Datos sa device at layunin</h2>
+          <p>Itinatago ng app sa device ang progreso, ginto at diyamante, mga item, kagamitan, karakter, tala ng misyon at boss, petsa ng pagpasok, at mga setting ng auto-mining, vibration at wika. Ginagamit ito upang maipagpatuloy ang laro at mapanatili ang mga gantimpala at setting. Naka-encrypt ang progreso sa mobile app, at nasa secure storage ng device ang encryption key. Hiwalay na itinatago sa device ang napiling wika; sa unang pagbukas, ginagamit ang impormasyon ng wika mula sa device.</p>
+        </section>
+        <section aria-labelledby="fil-section-3">
+          <h2 id="fil-section-3">3. Pagpapadala, pagbabahagi at pahintulot</h2>
+          <p>Walang login, pagpapadala sa server ng developer, ad tracking, analytics SDK o pagbiling may totoong pera sa kasalukuyang laro. Hindi kinokolekta sa server o ibinebenta ng Kenneth App ang nasabing game data. Hindi hinihingi ang access sa mga contact, lokasyon, larawan, camera o mikropono. Maaaring patayin ang vibration sa Mga Setting. Hindi kasama ang app data ng bersyon sa Android sa cloud backup ng operating system at paglilipat sa ibang device.</p>
+        </section>
+        <section aria-labelledby="fil-section-4">
+          <h2 id="fil-section-4">4. Tagal ng pag-iingat at pagbura</h2>
+          <p>Nananatili sa device ang datos habang ginagamit ang app. I-clear ang data ng Deep Dig sa setting ng device o i-uninstall ito upang burahin ang lokal na datos. Mabubura rin ang progreso at maaaring hindi na maibalik. Pamahalaan o burahin ang hiwalay na OS backup sa backup settings. Walang proseso ng pagbura ng server account dahil walang account o save na itinatago ang developer sa server.</p>
+        </section>
+        <section aria-labelledby="fil-section-5">
+          <h2 id="fil-section-5">5. Mga bata, pakikipag-ugnayan at pagbabago</h2>
+          <p>Hindi hinihingi sa mga gumagamit, kabilang ang mga bata, ang pangalan, email o petsa ng kapanganakan. Ipadala ang tanong sa privacy o kahilingan sa karapatan sa contact ng Kenneth App sa pahina ng pamamahagi. Kung hiwalay kang makikipag-ugnayan, maaaring iproseso ng serbisyong pangkomunikasyon ang contact at mensahe mo para makasagot; huwag magpadala ng hindi kailangang personal na impormasyon. Kapag nagbago ang paghawak ng datos, ia-update ang patakaran at petsa at ibibigay ang kinakailangang abiso o proseso ng pahintulot.</p>
+        </section>
+        <aside class="contact" aria-labelledby="fil-contact">
+          <h2 id="fil-contact">Mga tanong tungkol sa privacy</h2>
+          <p>Ipadala ang mga tanong tungkol sa privacy o mga kahilingan tungkol sa iyong mga karapatan sa email address sa ibaba.</p>
+          <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a>
+        </aside>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>Deep Dig · Kenneth App</p>
+    <p>Android · <span translate="no">com.kennethapp.deepdig</span></p>
+  </footer>
+  <script>
+    (() => {
+      'use strict';
+      const labels = {"ko":{"title":"개인정보처리방침","language":"언어 선택","print":"인쇄","skip":"개인정보처리방침으로 이동"},"en":{"title":"Privacy Policy","language":"Choose language","print":"Print","skip":"Skip to privacy policy"},"ja":{"title":"プライバシーポリシー","language":"言語を選択","print":"印刷","skip":"プライバシーポリシーへ移動"},"zh-Hans":{"title":"隐私政策","language":"选择语言","print":"打印","skip":"跳转至隐私政策"},"ru":{"title":"Политика конфиденциальности","language":"Выбрать язык","print":"Печать","skip":"Перейти к политике конфиденциальности"},"fil":{"title":"Patakaran sa Privacy","language":"Pumili ng wika","print":"I-print","skip":"Pumunta sa patakaran sa privacy"}};
+      const policies = Array.from(document.querySelectorAll('.policy'));
+      const links = Array.from(document.querySelectorAll('[data-language]'));
+      const printButton = document.getElementById('print');
+      const skipLink = document.querySelector('.skip');
+      let activeLanguage = '';
+      function normalize(value) {
+        const code = String(value || '').toLowerCase().replace(/_/g, '-');
+        if (code === 'zh' || code.startsWith('zh-')) return 'zh-Hans';
+        if (code === 'tl' || code.startsWith('tl-')) return 'fil';
+        return Object.keys(labels).find(key => code === key.toLowerCase() || code.startsWith(key.toLowerCase() + '-')) || '';
+      }
+      function preferredLanguage() {
+        let hash = '';
+        try { hash = decodeURIComponent(location.hash.slice(1)); } catch (_) {}
+        const explicit = normalize(hash);
+        if (explicit) return explicit;
+        for (const language of (navigator.languages || [navigator.language])) {
+          const match = normalize(language);
+          if (match) return match;
+        }
+        return 'en';
+      }
+      function showPolicy(language) {
+        const data = labels[language];
+        if (!data) return;
+        activeLanguage = language;
+        policies.forEach(policy => { policy.hidden = policy.id !== language; });
+        links.forEach(link => {
+          if (link.dataset.language === language) link.setAttribute('aria-current', 'true');
+          else link.removeAttribute('aria-current');
+        });
+        document.documentElement.lang = language;
+        document.title = 'Deep Dig · ' + data.title;
+        document.getElementById('language-label').textContent = data.language + (language === 'en' ? '' : ' · Language');
+        printButton.textContent = data.print;
+        skipLink.textContent = data.skip;
+        skipLink.setAttribute('href', '#' + language);
+      }
+      links.forEach(link => link.addEventListener('click', event => {
+        if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        const language = link.dataset.language;
+        showPolicy(language);
+        if (location.hash !== '#' + language) {
+          try { history.pushState(null, '', '#' + language); }
+          catch (_) { location.hash = language; }
+        }
+      }));
+      window.addEventListener('hashchange', () => showPolicy(preferredLanguage()));
+      window.addEventListener('popstate', () => showPolicy(preferredLanguage()));
+      skipLink.addEventListener('click', () => {
+        const title = document.getElementById('title-' + activeLanguage);
+        if (title) title.focus();
+      });
+      printButton.hidden = false;
+      printButton.addEventListener('click', () => window.print());
+      showPolicy(preferredLanguage());
+    })();
+  </script>
+</body>
+</html>
+

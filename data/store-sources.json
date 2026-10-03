@@ -1,0 +1,524 @@
+[
+  {
+    "slug": "maeum",
+    "package": "com.bujo.myapp",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bujo.myapp&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "부조금관리 by 마음장부",
+    "screenshots": [
+      {
+        "src": "images/screenshots/maeum-01.webp",
+        "thumb": "images/screenshots/maeum-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/IwXBpsc6GcZXeniIpZq0YEkijmF_5wpVPfbzGlaF3V3NHLY8_OfH18KP_1LtpQJSqz8lDuIjLX-PTjvUAOjZ6MI=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/maeum-02.webp",
+        "thumb": "images/screenshots/maeum-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Px-t17HRLUP926x5ZRGgGZ85HaTBmC7gozYYE2slKp4Wx_uUjrWP72loWXgn68rvsJz5xebfMeJrBPT6hFdvkT8=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/maeum-03.webp",
+        "thumb": "images/screenshots/maeum-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/yrQ4fK82lXKEHq51ZmXsoGxXbsyPYP57NAuHrtpRherY3SkZUHty4hjc32it72_IjElGibYG4I1LJ8g8lKf2Vg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/maeum-04.webp",
+        "thumb": "images/screenshots/maeum-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/gVqarzmLdoA9yucsIdRzcc8mT227ZuGt_MLtZI_rGRV53lQPX0vmBWNueoAfxASB2SjkDrXCijGIbRFzIQ7o=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/maeum-ios-01.webp",
+        "thumb": "images/screenshots/maeum-ios-01-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/85/03/17850349-6d6b-7781-5f82-ab8bc63808b8/IMG_0007_6.5in_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/maeum-ios-02.webp",
+        "thumb": "images/screenshots/maeum-ios-02-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/92/89/dd9289fd-7df6-56fd-99a7-54b5eec38e3a/IMG_0012_6.5in_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/maeum-ios-03.webp",
+        "thumb": "images/screenshots/maeum-ios-03-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/a5/95/bba595b4-fefb-8ca9-5eb5-e098162f3db1/IMG_0005_6.5in_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/maeum-ios-04.webp",
+        "thumb": "images/screenshots/maeum-ios-04-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/dc/c0/98dcc077-b409-8396-cdc9-3d1430681b3f/IMG_0010_6.5in_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      }
+    ]
+  },
+  {
+    "slug": "snaplog",
+    "package": "com.snaplog.myapp",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.snaplog.myapp&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "Snap Log",
+    "screenshots": [
+      {
+        "src": "images/screenshots/snaplog-01.webp",
+        "thumb": "images/screenshots/snaplog-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/TAjgfPDWiOhKWrj4J74oNR2vMBmURIlg55pDrc4r8-ZwqC0aImM7urr5pqEDMVoAEPOc6BdYiyrJyfGNGA1Zxg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snaplog-02.webp",
+        "thumb": "images/screenshots/snaplog-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/1dWU4P6B6Q7omRszC06Hndzvjrw31csezWQTppSxn8r3a9pILa3g37ApXbcGOaTnc16MdsSlxq_fethiQsQ0nA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snaplog-03.webp",
+        "thumb": "images/screenshots/snaplog-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/KJ2l7DpWXbFHbSs7lo8z9zMVyB5LwL-LvVpGvMJCuYs_1S-0M5BkAmZ3tRO5cCERWM8gKvmNILz0KltadN9UamQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snaplog-04.webp",
+        "thumb": "images/screenshots/snaplog-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/V5uBwJbOVerNrurEZO1XwPhchDUEQXZWtRH3_tIlH_f6pXg102O2cuq-Q05nxLe9C2GvO-SwMUHbI2LLIkMPPw=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ]
+  },
+  {
+    "slug": "lightwall",
+    "package": "com.lightwall",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.lightwall&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "Light Wall",
+    "screenshots": [
+      {
+        "src": "images/screenshots/lightwall-01.webp",
+        "thumb": "images/screenshots/lightwall-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Vn6B9bQv2DqVfj39LAk5ji2J1W9pDLC-XqleEsZJMQhykkojCXcoxKJtQT0iPz21v0kvE4GUfwM3DeQNNwon=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      },
+      {
+        "src": "images/screenshots/lightwall-02.webp",
+        "thumb": "images/screenshots/lightwall-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/c6apNDoTjCslYkyX5o-xP_B2rW-t5syZx5ofP5ZkgBLbhBjtotMewMybH89vv6oT3v6R_vqi_C8Kg-r-aSq3ow=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      },
+      {
+        "src": "images/screenshots/lightwall-03.webp",
+        "thumb": "images/screenshots/lightwall-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/hqlzCHLk1qxFOJwA7h0M7oi74QXIS_-H9n2MoNZ4U9qVlFDHRNs7yJEjwAxKL8D4LI7U8ZYMue4tKYnS2PXUchk=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      },
+      {
+        "src": "images/screenshots/lightwall-04.webp",
+        "thumb": "images/screenshots/lightwall-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/AYZWuReSF8_Y0HAQcWM8NVYnm-Jf0kueiXgbMZjj6O3XeH5iHkgsqcXq7-LGIORN_mxNp4j1H3lInsq_3pqwjw=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      },
+      {
+        "src": "images/screenshots/lightwall-05.webp",
+        "thumb": "images/screenshots/lightwall-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/sagzWOvKar_ZKrh4EacI2OV149RNHiP78pknuRBsrj9Yi-9XwLBDaftZy8-AaH_g6_o8lgAmu10W7GZKVpka=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      }
+    ]
+  },
+  {
+    "slug": "holyground",
+    "package": "holyground.myapp",
+    "storeUrl": "https://play.google.com/store/apps/details?id=holyground.myapp&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "Holy Ground",
+    "screenshots": [
+      {
+        "src": "images/screenshots/holyground-01.webp",
+        "thumb": "images/screenshots/holyground-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/3NHotTNdcomIM9aWLINTcUEP7lbGIaZQXiXV_10dnQUY7aE24nxpNQUdA3UW8cPyqvwQTPzKp1inlUuApio3dA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/holyground-02.webp",
+        "thumb": "images/screenshots/holyground-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/-ruvEzOfZLZCRwJFwOeJyLG7frFTXMeEDv_yycQ601FGmwvPT0TbbYWtjqVVaFdMXVgq_Ru4AdTAWuyu-iZwkw=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/holyground-03.webp",
+        "thumb": "images/screenshots/holyground-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/fdw2P127b5b5LkmJAWtQIuE5UT6_XnbYUFmnbxDCSuYNeyxcPItjrzGKL2UfTUa25H5o8zpwyE3nQhit-JqRIEU=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/holyground-04.webp",
+        "thumb": "images/screenshots/holyground-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/NogBB_usbQxQCDhhmn1F9N_p6mpnMoMzHcAUm3l5uUqPSs8KRqcZ1dNiHwnPUQ1oVUQ0hWSwwJoYpwdeYuittg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/holyground-05.webp",
+        "thumb": "images/screenshots/holyground-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ebHj1wlhOKX0Lac6tTmFXMBOCAVzFNRBInbiCy4SJDgAZNFiohVABjz1Kcyd1YEoLWEylyt1pDjc_eKEJYYKtQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ]
+  },
+  {
+    "slug": "chaengkim",
+    "package": "com.chaengkim1.app",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.chaengkim1.app&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "챙김",
+    "screenshots": [
+      {
+        "src": "images/screenshots/chaengkim-01.webp",
+        "thumb": "images/screenshots/chaengkim-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/1pkAGJWQQCXcLhAis0B_kQQufMgpYJfTdWFASV54Bi4zwcb5Chyebr_Stoku5aKqlmM57kSrLZEMmq6wfzHHrQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      },
+      {
+        "src": "images/screenshots/chaengkim-02.webp",
+        "thumb": "images/screenshots/chaengkim-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/GojYNlFsHxyN1uyYpDz1h9a_SI3kbPQ677iUY_WAX67l3LsZ0fXi36cfIjtcmoeSVSJHiViCE9CbFhxyJEBLkg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      },
+      {
+        "src": "images/screenshots/chaengkim-03.webp",
+        "thumb": "images/screenshots/chaengkim-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/6LlP7a7DuC_ozJ-KqQ3tAMCm9-7BvMFho-EwwyhtDMfz3Ixb37GHNNXcDuFsk-Fb12_Tim6Bl0Ujwcpq8xPY52Y=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      },
+      {
+        "src": "images/screenshots/chaengkim-04.webp",
+        "thumb": "images/screenshots/chaengkim-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/J5ssCYZV9PrSnpG_Grhy2oVPnJt3kO9UUZzIiaTupmdYWoAYX4GsDuwgQ_S2buGPDQqABFXaqouyNWLLavDX=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      },
+      {
+        "src": "images/screenshots/chaengkim-05.webp",
+        "thumb": "images/screenshots/chaengkim-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/gNM4X6dsqHntTQkawHmlhSdzjLKe4UW0jR1TQup29SatuDBkfSE1xw3U-4KufU5QZwvj3u0daemFJchf1kdjpg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2230
+      }
+    ]
+  },
+  {
+    "slug": "slimjoy",
+    "package": "com.kennethapp.slimjoy",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.slimjoy&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "Slim Joy",
+    "screenshots": [
+      {
+        "src": "images/screenshots/slimjoy-01.webp",
+        "thumb": "images/screenshots/slimjoy-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/E2mqQi00xynOdE1v9R4gju8GrOiqNOlqpTjUt6aHdS5RpPWqgJ8OxaHyl17J56-Qs3sCMjY5TmDDto0V8KbNUQ=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/slimjoy-02.webp",
+        "thumb": "images/screenshots/slimjoy-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/_azJERrzpsAuMnatSolAbrrBzxxe2AYdom3EgnYc0nm3tSyuDW1HNGlhBDDx_2V1aQOSJ9q-D4Uk6Hdr6UKfOqM=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/slimjoy-03.webp",
+        "thumb": "images/screenshots/slimjoy-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/VpQDxmtp4GfW-Q7ofXtlmwsgpM4-SDn_UXnNpuyBX0Zzshy0YLsffhoL7FQvSAHyhxZaAuBnuHYRLlgqEtK2=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/slimjoy-04.webp",
+        "thumb": "images/screenshots/slimjoy-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/gW4uiD7qJQwwFmD8kvpK0_8pKk97pkuvZXQZ9wJSEc_aTVHA1nHr2qlJw8cFWGIII3BVjhB3DKKJhkROlUIou_o=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/slimjoy-05.webp",
+        "thumb": "images/screenshots/slimjoy-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/sZWj1BCIdoHiBKOirXxyxmWr-LRA47mNO4H6zeKo7XIsNa3u7e-OPcthbNq1Ang--v5mlNiezozRqFRdD6gy=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      }
+    ]
+  },
+  {
+    "slug": "lightled",
+    "package": "com.kennethapp.lightled",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lightled&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "Light LED",
+    "screenshots": [
+      {
+        "src": "images/screenshots/lightled-01.webp",
+        "thumb": "images/screenshots/lightled-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/DzsWROJF0gws3dEbN9FEYn2N7yyiSj2M8-yHnDTGuIEaCJXn8oKnPZAH10t9wsroYTIaDf6zTDueXXBIlKddPA=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lightled-02.webp",
+        "thumb": "images/screenshots/lightled-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/PXudf8Ka-Xx9qiSdaRav2t7nF0Y1vEUax4kieNYLyQQEbperyudxp8joJWy-LVVkmErABRy4lqqdI5x1M41Hsg=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lightled-03.webp",
+        "thumb": "images/screenshots/lightled-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ZG59yLaBD9zesoqHNwRtjUFfRTHJrklRP7OHfohpR24A-J3NZMUvS5Xbn9suihO4cgfx0vTtWrrhX88UwbUeyQ=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lightled-04.webp",
+        "thumb": "images/screenshots/lightled-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/AqzyO3rcsjRo-qpqebFLIwhl0wehUjTYgK445AemVD169Rffb59RlA6931mvRtBrpQ8Whzw6-izXEUog7EqeUA=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lightled-05.webp",
+        "thumb": "images/screenshots/lightled-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/9eMHDlChKgcx7izozYIogajoogCx6zzUFt1jXSKTt59igfiHsOrlPX69VCocObH84VhJvt4DLy2uK_NdTdGa=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      }
+    ]
+  },
+  {
+    "slug": "lotto",
+    "package": "com.kennethapp.lotto",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lotto&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "나도 로또 당첨되고 싶어",
+    "screenshots": [
+      {
+        "src": "images/screenshots/lotto-01.webp",
+        "thumb": "images/screenshots/lotto-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/mszB0PKyyeVm57jmyKFQ6lVZFOezo5cD_9DnuGfBqiPVOfdqcU3UNFZ1ovJd7hY0_EG0K9_GzPP7WbNJuSk-=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lotto-02.webp",
+        "thumb": "images/screenshots/lotto-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/sZiPzvGyqUPrxyzLMHVjVfNwMZ74XMCB0VKu4HbnXWbGR-rFSC_6mkRWQ_T4tZzS_eDim4wbvmda_SBBhm79ELI=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lotto-03.webp",
+        "thumb": "images/screenshots/lotto-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/okx4lRDcks_hAdYyd1lJYIhHQFeIywksyt4NJmR1Izez40BoIak91v_l6qzUuLiSzopBioO3NllyfULkZsJYGa8=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lotto-04.webp",
+        "thumb": "images/screenshots/lotto-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/UmqG_f4McZv1e6ThJNSsfn1b7r0hEgw3Yy3KdHs5mcVHXIITmhjq8S4GJymtKNLGW90BnhFZQFzKrTraL1aTTw=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lotto-05.webp",
+        "thumb": "images/screenshots/lotto-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/K2kEzPNLgXGHOI9EgSt--Jr4POCLfmL_C7rEjrtpm5DVgcu5kz94ZRpWDJiwb4568EC4zqMSkG626oKQ1eHbDPc=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      }
+    ]
+  },
+  {
+    "slug": "kingdom",
+    "package": "oneminutekingdom.myapp",
+    "storeUrl": "https://play.google.com/store/apps/details?id=oneminutekingdom.myapp&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "1분 왕국: 미니게임 세계정복",
+    "screenshots": [
+      {
+        "src": "images/screenshots/kingdom-01.webp",
+        "thumb": "images/screenshots/kingdom-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/FTbw0u-0veDW7SL6rrxbAUuFMp-Z7VVlUw54maGGYY9EKK94BtUaRIy725xhytMbeQIrvpH1CCobbIOgghT1uYY=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/kingdom-02.webp",
+        "thumb": "images/screenshots/kingdom-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/wkcYv6qIIDwI_8YNIMIXPw5MAgOEJLGyXtyfR0sUXOcKAmG6AmD_Nd7vdv0yG3GsNKN0nJFhEG4jEffZpmorwg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/kingdom-03.webp",
+        "thumb": "images/screenshots/kingdom-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/xxaVY1D3nOYUGCcXzGNRgbl3HZRtNvW9LfTQNQ8WrpjXavzZQZJUV19Lj5PCApgVlZ3FOhUmvWPPIgmcdMywA_Y=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/kingdom-04.webp",
+        "thumb": "images/screenshots/kingdom-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/05c1pfQoYBmt-Z7_A00RHJxm4v_9DqR5XOMcvPp69jx70KPaaH_iHbppWec9zrLmUDYGa67f2bPsoXY4xtkXlQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/kingdom-05.webp",
+        "thumb": "images/screenshots/kingdom-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/6R6wJRRhJkPQI-2jshHsgDrHWrJBq7RGazH19SRK7vsUW4attg-c9JP4LHsyc87pp2KBvtbTw8rUtE2-En5f=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/kingdom-06.webp",
+        "thumb": "images/screenshots/kingdom-06-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/voQ5oTBnU0OyXbtuuq94_B8hmA-QFN2tVw2O2_y7d2PE30FijJo1DhYMYEX2tZDoDDRaKzZ-lehVKd2HK-y8OKM=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/kingdom-07.webp",
+        "thumb": "images/screenshots/kingdom-07-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/XObf8r7PiaUCxpNvRrGF1aX1CWco2HuNjAoaTEwPOslkE4APNmn-PxrWcTfwhNiNCHh-qKi1YGQw3sT0yvvwOA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/kingdom-08.webp",
+        "thumb": "images/screenshots/kingdom-08-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/fx13rovgf2-YnLjuloExKuZL6nTesF8WIUrvOk-HOuecJU2Q5N2PYEECKjZKg_x6QYYtZ0U3D3kaFJ_C6ERFwO4=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ]
+  },
+  {
+    "slug": "16mode",
+    "package": "com.sixteenmode.app",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.sixteenmode.app&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "MBTI 16MODE",
+    "screenshots": [
+      {
+        "src": "images/screenshots/16mode-01.webp",
+        "thumb": "images/screenshots/16mode-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/gerszhZqbxIf1zdSKurZawgLzCstoNSNBOvnZ7zOtz7MjmLJc96GnLbLK5pENofC3rGBAPVWmFXF63ofceRGew=w1000",
+        "platform": "Google Play",
+        "width": 864,
+        "height": 1821
+      },
+      {
+        "src": "images/screenshots/16mode-02.webp",
+        "thumb": "images/screenshots/16mode-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/02fFN_QGxTvPQuvYg267LAzwvZDI5IlJxrQrnw7AhBmEFVSs6eW0LpIJ5y-oKhubmUYekWm3al-WIKFjdMHQiA=w1000",
+        "platform": "Google Play",
+        "width": 864,
+        "height": 1821
+      },
+      {
+        "src": "images/screenshots/16mode-03.webp",
+        "thumb": "images/screenshots/16mode-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/2YErpDq3H5tuNsqB0FrtyT67RYRyL4_kmO2i73GlcT54H8IJ5LXS-cQ8uR6TRXZgWdguyB1lAUbKHsSBkqft=w1000",
+        "platform": "Google Play",
+        "width": 864,
+        "height": 1821
+      },
+      {
+        "src": "images/screenshots/16mode-04.webp",
+        "thumb": "images/screenshots/16mode-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/0qwUBFBovlMHdQ9KgYwLctF8LYR9TNF_RzPBiQGu1eLufhhbmQCUjmuXstNBvZzy8_PbWDe_OAZKEU7JxaBn=w1000",
+        "platform": "Google Play",
+        "width": 864,
+        "height": 1821
+      }
+    ]
+  }
+]

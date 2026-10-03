@@ -1,14 +1,19 @@
 name: Sync homepage from KennethApp
 
 # KennethApp 저장소의 홈페이지를 이곳(루트 사이트)으로 자동 복사합니다.
-# - 1시간마다 자동 실행
-# - Actions 탭에서 "Run workflow"로 즉시 실행 가능
+# 리뉴얼 이후 홈페이지는 이 저장소에서 직접 관리합니다.
+# 필요할 때만 Actions에서 명시적으로 확인하고 예전 원본을 가져올 수 있습니다.
+# 자동 복사를 다시 켜면 현재 홈페이지와 images/ 전체가 덮어써집니다.
 # 별도의 토큰/시크릿 설정이 필요 없습니다 (원본 저장소가 공개이므로).
 
 on:
-  schedule:
-    - cron: "0 * * * *"
   workflow_dispatch:
+    inputs:
+      confirm_overwrite:
+        description: 'Overwrite the redesigned homepage with the KennethApp source'
+        type: boolean
+        required: true
+        default: false
 
 permissions:
   contents: write
@@ -19,6 +24,7 @@ concurrency:
 
 jobs:
   sync:
+    if: ${{ inputs.confirm_overwrite == true }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this site

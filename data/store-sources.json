@@ -1,5 +1,155 @@
 [
   {
+    "slug": "quizaura",
+    "package": "com.kennethapp.simquiz",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.simquiz&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "Quiz Aura: 심리테스트·MBTI",
+    "screenshots": [
+      {
+        "src": "images/screenshots/quizaura-01.webp",
+        "thumb": "images/screenshots/quizaura-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/8QMx7lkyzFd2T0-tG0wrEC2uXQ1FcsGZ6fNnOJWBXFkaB_WxBZdv4RFoGOe2kcE_zLDP0sOT78G4cA3ljZtc4w=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/quizaura-02.webp",
+        "thumb": "images/screenshots/quizaura-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ySfxO7P9mVKd60G3O4qXCoTY65Z0k3v8eqDTvvuVrYHoXkaUVehLiYuimIqNKwJQulPbYuWXDPzYPSoMgp5WeA=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/quizaura-03.webp",
+        "thumb": "images/screenshots/quizaura-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Pnwc4063xS6Qp_EFQqqquokDJiPVpLvyGSkH4kgjfgqH8ua2RaAvvd8DmsZ5qrelPHtp-7wYw2Hrey6EiquYww=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/quizaura-04.webp",
+        "thumb": "images/screenshots/quizaura-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/uJe8J0zgDVtdkmN1ItdQFWzuCA1ae37SIC3-IGFUdxQweTc9M-A5gplu2LogeSknyAsk8zASOD8b5rgbhQIe=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      }
+    ],
+    "iconSourceUrl": "https://play-lh.googleusercontent.com/ffN921rblOGNVU8nBuDV3oU3XvRQKj_t841_Uvb47OMoBxhX6rELKQ-mRkZXvQHCASorEhfHraKXS0XSD3cRDwA=w256"
+  },
+  {
+    "slug": "snapclean",
+    "package": "com.kennethapp.snapclean",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.snapclean&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "Snap Clean: 사진 정리",
+    "screenshots": [
+      {
+        "src": "images/screenshots/snapclean-01.webp",
+        "thumb": "images/screenshots/snapclean-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ju3OSVg8CFrjFy6do0YQkixIMFUupJMeKBR-UvrcatQnFXsXuMih4L98nyR00bGu3hNIarKAJbqC9sVcdBx8dg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snapclean-02.webp",
+        "thumb": "images/screenshots/snapclean-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/1CUiDFgWuW9hpMbfZaNjurnCdqL75_Kc0O1jkZE2sejRsNQYe1yB5ZhhdxYKPGjR8nysOuz3KEcF-f1hrn0-Kg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snapclean-03.webp",
+        "thumb": "images/screenshots/snapclean-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/SAC8UBsa-fbzdxGTehLhKl6hkdNaT8376IpltkKJoThKjC0emx-92WesN0FCkTack_7_vKUPg1zLCvXZI8WE0g=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snapclean-04.webp",
+        "thumb": "images/screenshots/snapclean-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/QUhFMoOSfoVISq4-ersVKeoUJvM7duLpZ0cWVxC-l7lLL8KjEIaMCmnXVw0OhCu1U8vbRMY4KazP6Lk9C6Kdjg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snapclean-05.webp",
+        "thumb": "images/screenshots/snapclean-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/OyTotJuvCsGbUPo69vz17iB75t3YZaQ4RhSbWLDYbrkQFfzvm52gaNE2uFnEK9xhx2HYR2iXf9T2uuN1lRIr=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ],
+    "iconSourceUrl": "https://play-lh.googleusercontent.com/0EFvITu2nBbXg6bZEDnYiJ3gTzVKdxDP3IK4UPAZNWPWb4VKycpMeZcAUNgWcAWhpDHmP7fYVjnfFPhNtPZOy68=w256"
+  },
+  {
+    "slug": "lumiday",
+    "package": "com.kennethapp.lumiday",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lumiday&hl=ko&gl=KR",
+    "verifiedAt": "2026-10-03",
+    "storeTitle": "LUMI DAY - 감성 일기",
+    "screenshots": [
+      {
+        "src": "images/screenshots/lumiday-01.webp",
+        "thumb": "images/screenshots/lumiday-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/m4DxoJ6xGLVWzqDK83pM5bTmBzbcI7iy-RaUqnFhKQxcusE8w7Sewk91sMdWLTBdPPE50D5znQJ8wxSowxdb=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-02.webp",
+        "thumb": "images/screenshots/lumiday-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/fG4Tq2gdRd0Z_xtu2TZygJd1jpNxeYOcMjcI8MKKcPK5dfb-xN_-VFXy52U3XsgR9A7hn7USgP6MXuE4n6P2=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-03.webp",
+        "thumb": "images/screenshots/lumiday-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/d941am6-caRaq9PscMwxovrnGttHmRs0VQlqhNIYnaG3mcTLLXJOxtfgdg7EdIzvv7V_tosyeH5ZiRKQP350=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-04.webp",
+        "thumb": "images/screenshots/lumiday-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/hRMKgzOdZ9Gr2dAdOcHqPdvNA0PEccUsZ4RLFrUwdhxhJ5rQ7oxDBxb0KmlUZPKIYMcjREJpuXqojefjfjJ3=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-05.webp",
+        "thumb": "images/screenshots/lumiday-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/hzLHFi97sDO0wH9HcSUaoBgjnYJxGTHhvpwBvuNYblLg1kITvFvN5EqDyapZVRORU1eI1L66IqkbeTfIbWlkWE8=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-06.webp",
+        "thumb": "images/screenshots/lumiday-06-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/znU7YYaNoqO3SaGzKeYUUZ8oiXxEtfDk5dDb1CEbkRVpzLbFPfH5G82s4l7gIpRBxaNz0SK4-2iOdPqG1D2x5w=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      }
+    ],
+    "iconSourceUrl": "https://play-lh.googleusercontent.com/v4f8N2Yg7RMyJ5zz0RLlJqM_CXWsZOBHkSspeVJogkrCO94aUMzsF-wsbaoCKW4xgmxqDXGT-EbEytN7yPPZuQ=w256"
+  },
+  {
     "slug": "maeum",
     "package": "com.bujo.myapp",
     "storeUrl": "https://play.google.com/store/apps/details?id=com.bujo.myapp&hl=ko&gl=KR",
@@ -159,8 +309,90 @@
         "platform": "Google Play",
         "width": 1000,
         "height": 2230
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-01.webp",
+        "thumb": "images/screenshots/lightwall-ios-01-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/62/78/1b6278a0-4bb0-eb5e-9d0d-f84cb9d25234/11.jpg/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-02.webp",
+        "thumb": "images/screenshots/lightwall-ios-02-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/6d/86/c06d86b2-aee8-bd6d-3247-dc675fb2488d/12.jpg/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-03.webp",
+        "thumb": "images/screenshots/lightwall-ios-03-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/f6/ce/bcf6ce6c-6d0c-b0c1-0348-8209da446d22/IMG_0014.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-04.webp",
+        "thumb": "images/screenshots/lightwall-ios-04-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/9c/8a/889c8a24-c63f-6349-83e9-5825136811fb/IMG_0016.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-05.webp",
+        "thumb": "images/screenshots/lightwall-ios-05-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/25/c7/ff25c729-616e-bef8-3b06-9a32f626c36b/IMG_0020.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-06.webp",
+        "thumb": "images/screenshots/lightwall-ios-06-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/e0/b3/76e0b3c9-a765-114f-a5cc-6537d4a7c386/IMG_0019.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-07.webp",
+        "thumb": "images/screenshots/lightwall-ios-07-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/04/a6/ac04a65c-edda-7fdc-920f-6d326d9249d1/IMG_0015.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-08.webp",
+        "thumb": "images/screenshots/lightwall-ios-08-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/5b/e1/665be112-8c86-09a9-2046-ad923b74a44f/IMG_0018.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-09.webp",
+        "thumb": "images/screenshots/lightwall-ios-09-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/9b/e6/139be6d2-d3eb-fda6-4115-e9293676dec8/IMG_0017.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-10.webp",
+        "thumb": "images/screenshots/lightwall-ios-10-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/a6/1d/65a61de4-8a9f-70be-2c5d-b58b5e877992/12.jpg/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
       }
-    ]
+    ],
+    "appStoreUrl": "https://apps.apple.com/kr/app/lightwal/id6787111203",
+    "appStoreTitle": "LightWal"
   },
   {
     "slug": "holyground",
@@ -404,8 +636,90 @@
         "platform": "Google Play",
         "width": 941,
         "height": 1672
+      },
+      {
+        "src": "images/screenshots/lotto-ios-01.webp",
+        "thumb": "images/screenshots/lotto-ios-01-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/19/f2/bc19f272-7970-a6cc-c2e9-e0264ed5be28/01__Ud648__Ud654_Uba74_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-02.webp",
+        "thumb": "images/screenshots/lotto-ios-02-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/98/d6/7b98d61c-423b-2b9a-1aa9-aca390254544/03__Ube60_Ub978__Ubc88_Ud638__Uc0dd_Uc131_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-03.webp",
+        "thumb": "images/screenshots/lotto-ios-03-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/3a/29/b73a2927-cd47-cf28-e896-a3dd8048e795/09__Uc790_Ub3d9__Ub2f9_Ucca8__Uc54c_Ub9bc_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-04.webp",
+        "thumb": "images/screenshots/lotto-ios-04-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/9b/64/dc9b64ff-b202-5f21-cfe4-fd0a15a28f9f/04__Uc870_Uac74_Ubc88_Ud638__Uc0dd_Uc131_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-05.webp",
+        "thumb": "images/screenshots/lotto-ios-05-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/20/12/0520123e-6c5f-de14-25fb-1bb125ac7c17/02__Ubc88_Ud638__Ub9cc_Ub4e4_Uae30_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-06.webp",
+        "thumb": "images/screenshots/lotto-ios-06-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/02/63/7f0263be-4c41-cd8e-c6e2-a02c783521b9/08__Ub2f9_Ucca8_Uacb0_Uacfc__Ud655_Uc778_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-07.webp",
+        "thumb": "images/screenshots/lotto-ios-07-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/57/90/395790ea-1b46-43d0-210a-320e04b94ca5/07__Ubc88_Ud638__Uc9c1_Uc811__Uc785_Ub825_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-08.webp",
+        "thumb": "images/screenshots/lotto-ios-08-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/32/52/d63252c2-8a56-e2b9-3370-f574c1a89489/05__Ubc18_Uc790_Ub3d9__Ubc88_Ud638_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-09.webp",
+        "thumb": "images/screenshots/lotto-ios-09-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/66/4f/13664f21-eed5-e393-cfee-cf55f7eccf20/10__Uc124_Uc815__Ud654_Uba74_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-10.webp",
+        "thumb": "images/screenshots/lotto-ios-10-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/52/59/3852591b-13e2-7d9c-de9b-599622f485bf/06__Uad6c_Ub9e4_Ubc88_Ud638__Uad00_Ub9ac_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
       }
-    ]
+    ],
+    "appStoreUrl": "https://apps.apple.com/kr/app/id6806789389",
+    "appStoreTitle": "나도 로또 당첨되고싶어"
   },
   {
     "slug": "kingdom",

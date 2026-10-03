@@ -1,5 +1,368 @@
 [
   {
+    "name": "Quiz Aura",
+    "slug": "quizaura",
+    "group": "play",
+    "tone": "lavender",
+    "category": {
+      "ko": "심리테스트 · MBTI",
+      "en": "Personality quizzes · MBTI",
+      "ja": "心理テスト · MBTI",
+      "zh": "趣味心理测试 · MBTI",
+      "ru": "Тесты личности · MBTI",
+      "fil": "Personality quiz · MBTI"
+    },
+    "headline": {
+      "ko": "질문 하나로 만나는, 새로운 나.",
+      "en": "A little quiz. A new side of you.",
+      "ja": "ひとつの質問から、新しい自分へ。",
+      "zh": "从一个问题，遇见新的自己。",
+      "ru": "Небольшой тест. Новая грань вас.",
+      "fil": "Isang munting quiz, bagong pagkilala sa sarili."
+    },
+    "desc": {
+      "ko": "MBTI·연애·취향·동물상·캐릭터 매칭 등 12개 카테고리의 심리테스트 1,165개를 가볍게 즐겨보세요. 회원가입 없이 바로 시작하고, 궁합을 살펴보거나 결과를 카드 이미지로 저장해 친구와 비교할 수 있습니다. 결과 히스토리가 자동으로 남아 나의 다양한 모습을 다시 돌아볼 수 있습니다.",
+      "en": "Explore 1,165 quizzes across 12 categories, including MBTI, relationships, preferences, animal lookalikes, and character matching. Start without signing up, explore type compatibility, and save your results as cards to share with friends. Your result history is saved automatically so you can revisit the different sides of yourself.",
+      "ja": "MBTI・恋愛・好み・動物タイプ・キャラクター診断など、12カテゴリ、1,165種類のテストを気軽に楽しめます。会員登録なしで始められ、タイプの相性を見たり、結果をカード画像で保存して友達と比べたりできます。結果の履歴は自動保存され、さまざまな自分を振り返れます。",
+      "zh": "轻松探索MBTI、恋爱、喜好、动物类型、角色匹配等12个类别的1,165项趣味测试。无需注册即可开始，查看类型契合度，将结果保存为卡片图片并与朋友分享比较。测试历史自动保存，方便回顾不同面向的自己。",
+      "ru": "Откройте 1 165 тестов в 12 категориях: MBTI, отношения, предпочтения, сходство с животными и персонажами. Начинайте без регистрации, изучайте совместимость типов и сохраняйте результаты в виде карточек для обмена с друзьями. История результатов сохраняется автоматически.",
+      "fil": "Subukan ang 1,165 quiz sa 12 kategorya, gaya ng MBTI, relasyon, hilig, animal lookalikes, at character matching. Magsimula nang walang sign-up, tingnan ang compatibility ng mga uri, at i-save ang resulta bilang card na maibabahagi sa mga kaibigan. Awtomatikong naka-save ang history para mabalikan ang iba’t ibang bahagi ng iyong sarili."
+    },
+    "tags": {
+      "ko": [
+        "1,165개 테스트",
+        "12개 카테고리",
+        "결과 카드·공유",
+        "가입 없이 시작"
+      ],
+      "en": [
+        "1,165 quizzes",
+        "12 categories",
+        "Shareable result cards",
+        "No sign-up"
+      ],
+      "ja": [
+        "1,165種類のテスト",
+        "12カテゴリ",
+        "結果カード・共有",
+        "登録不要"
+      ],
+      "zh": [
+        "1,165项测试",
+        "12个类别",
+        "结果卡片与分享",
+        "无需注册"
+      ],
+      "ru": [
+        "1 165 тестов",
+        "12 категорий",
+        "Карточки результатов",
+        "Без регистрации"
+      ],
+      "fil": [
+        "1,165 quiz",
+        "12 kategorya",
+        "Mga result card",
+        "Walang sign-up"
+      ]
+    },
+    "note": {
+      "ko": "테스트는 재미와 자기 이해를 위한 콘텐츠이며, 전문적인 심리 진단이나 의학적 조언이 아닙니다.",
+      "en": "These quizzes are for entertainment and self-understanding, not professional psychological assessment or medical advice.",
+      "ja": "テストは娯楽と自己理解のためのもので、専門的な心理診断や医学的助言ではありません。",
+      "zh": "测试仅用于娱乐与自我理解，不属于专业心理诊断或医疗建议。",
+      "ru": "Тесты предназначены для развлечения и самопознания, а не для профессиональной психологической диагностики или медицинских рекомендаций.",
+      "fil": "Para sa libangan at pagkilala sa sarili ang mga quiz; hindi ito propesyonal na psychological assessment o payong medikal."
+    },
+    "icon": "images/quizaura-icon.webp",
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.simquiz",
+    "appStoreUrl": null,
+    "screenshots": [
+      {
+        "src": "images/screenshots/quizaura-01.webp",
+        "thumb": "images/screenshots/quizaura-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/8QMx7lkyzFd2T0-tG0wrEC2uXQ1FcsGZ6fNnOJWBXFkaB_WxBZdv4RFoGOe2kcE_zLDP0sOT78G4cA3ljZtc4w=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/quizaura-02.webp",
+        "thumb": "images/screenshots/quizaura-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ySfxO7P9mVKd60G3O4qXCoTY65Z0k3v8eqDTvvuVrYHoXkaUVehLiYuimIqNKwJQulPbYuWXDPzYPSoMgp5WeA=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/quizaura-03.webp",
+        "thumb": "images/screenshots/quizaura-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Pnwc4063xS6Qp_EFQqqquokDJiPVpLvyGSkH4kgjfgqH8ua2RaAvvd8DmsZ5qrelPHtp-7wYw2Hrey6EiquYww=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/quizaura-04.webp",
+        "thumb": "images/screenshots/quizaura-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/uJe8J0zgDVtdkmN1ItdQFWzuCA1ae37SIC3-IGFUdxQweTc9M-A5gplu2LogeSknyAsk8zASOD8b5rgbhQIe=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      }
+    ]
+  },
+  {
+    "name": "Snap Clean: Photo Cleaner",
+    "slug": "snapclean",
+    "group": "photo",
+    "tone": "mint",
+    "category": {
+      "ko": "사진 정리 · 저장공간",
+      "en": "Photo cleanup · Storage",
+      "ja": "写真整理 · ストレージ",
+      "zh": "照片整理 · 存储空间",
+      "ru": "Очистка фото · Память",
+      "fil": "Paglilinis ng litrato · Storage"
+    },
+    "headline": {
+      "ko": "소중한 사진은 남기고, 공간은 가볍게.",
+      "en": "Keep the memories. Make some room.",
+      "ja": "大切な写真を残して、空き容量を。",
+      "zh": "留下珍贵照片，腾出更多空间。",
+      "ru": "Сохраните воспоминания. Освободите место.",
+      "fil": "Itabi ang alaala, maglaan ng espasyo."
+    },
+    "desc": {
+      "ko": "중복·비슷한 사진, 스크린샷, 흐릿한 사진과 대용량 파일을 찾아 갤러리를 정리하세요. 사진 분석은 기기 안에서 이루어지며, 삭제 전에 직접 검토하고 확인할 수 있습니다. Smart Clean으로 한 번에 살펴보거나 Swipe Clean으로 한 장씩 넘겨 정리하고, 아까운 사진은 압축한 사본으로 보관할 수 있습니다.",
+      "en": "Find duplicate and similar photos, screenshots, blurry pictures, and large files to tidy your gallery. Photos are analyzed on your device, and you review and confirm files before deletion. Scan categories with Smart Clean, sort one image at a time with Swipe Clean, or keep compressed copies of photos you want to save.",
+      "ja": "重複・類似写真、スクリーンショット、ぼやけた写真、大容量ファイルを見つけてギャラリーを整理。写真は端末内で解析され、削除前に自分で確認できます。Smart Cleanでまとめて確認したり、Swipe Cleanで一枚ずつ整理したり、残したい写真を圧縮したコピーで保存したりできます。",
+      "zh": "找出重复或相似照片、截图、模糊照片与大文件，整理你的相册。照片在设备内分析，删除前由你检查并确认。通过Smart Clean集中查看各类文件，使用Swipe Clean逐张滑动整理，或为想保留的照片保存压缩副本。",
+      "ru": "Находите дубликаты и похожие фото, скриншоты, размытые снимки и большие файлы. Анализ выполняется на устройстве; перед удалением вы проверяете и подтверждаете выбор. Просматривайте категории через Smart Clean, разбирайте снимки по одному в Swipe Clean или сохраняйте сжатые копии нужных фото.",
+      "fil": "Hanapin ang duplicate at magkahawig na litrato, screenshot, malabong larawan, at malalaking file. Sa device ginagawa ang pagsusuri, at ikaw ang nagrerepaso at nagkukumpirma bago mag-delete. Gamitin ang Smart Clean, mag-swipe nang paisa-isa sa Swipe Clean, o mag-save ng compressed na kopya ng mga larawang gusto mong itabi."
+    },
+    "tags": {
+      "ko": [
+        "중복·유사 사진 정리",
+        "기기 내 분석",
+        "스와이프 정리",
+        "삭제 전 확인"
+      ],
+      "en": [
+        "Duplicate & similar photos",
+        "On-device analysis",
+        "Swipe cleanup",
+        "Review before deleting"
+      ],
+      "ja": [
+        "重複・類似写真整理",
+        "端末内で解析",
+        "スワイプ整理",
+        "削除前に確認"
+      ],
+      "zh": [
+        "重复与相似照片",
+        "设备内分析",
+        "滑动整理",
+        "删除前确认"
+      ],
+      "ru": [
+        "Дубликаты и похожие фото",
+        "Анализ на устройстве",
+        "Очистка свайпом",
+        "Проверка перед удалением"
+      ],
+      "fil": [
+        "Duplicate at similar photos",
+        "On-device analysis",
+        "Swipe cleanup",
+        "Suriin bago mag-delete"
+      ]
+    },
+    "note": {
+      "ko": "무료 버전에는 광고와 정리 수량 제한이 있습니다. 비슷한 사진 스마트 감지·Best Shot·사진 및 동영상 압축·광고 제거 등 일부 기능은 PRO에서 제공되며, 자세한 조건은 앱과 Google Play에서 확인할 수 있습니다.",
+      "en": "The free version includes ads and cleanup limits. Some features, including smart similar-photo detection, Best Shot, photo and video compression, and ad removal, require PRO. See the app and Google Play for details.",
+      "ja": "無料版には広告と整理枚数の制限があります。類似写真のスマート検出、Best Shot、写真・動画圧縮、広告削除など一部機能はPROで利用できます。詳細はアプリとGoogle Playをご確認ください。",
+      "zh": "免费版包含广告并设有清理数量限制。相似照片智能检测、Best Shot、照片与视频压缩、去广告等部分功能需使用PRO。详情请查看应用与Google Play。",
+      "ru": "В бесплатной версии есть реклама и лимиты очистки. Умный поиск похожих фото, Best Shot, сжатие фото и видео, отключение рекламы и некоторые другие функции доступны в PRO. Условия — в приложении и Google Play.",
+      "fil": "May ads at limitasyon sa paglilinis ang libreng bersyon. Nangangailangan ng PRO ang ilang feature tulad ng smart similar-photo detection, Best Shot, photo at video compression, at pag-alis ng ads. Tingnan ang detalye sa app at Google Play."
+    },
+    "icon": "images/snapclean-icon.webp",
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.snapclean",
+    "appStoreUrl": null,
+    "screenshots": [
+      {
+        "src": "images/screenshots/snapclean-01.webp",
+        "thumb": "images/screenshots/snapclean-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ju3OSVg8CFrjFy6do0YQkixIMFUupJMeKBR-UvrcatQnFXsXuMih4L98nyR00bGu3hNIarKAJbqC9sVcdBx8dg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snapclean-02.webp",
+        "thumb": "images/screenshots/snapclean-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/1CUiDFgWuW9hpMbfZaNjurnCdqL75_Kc0O1jkZE2sejRsNQYe1yB5ZhhdxYKPGjR8nysOuz3KEcF-f1hrn0-Kg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snapclean-03.webp",
+        "thumb": "images/screenshots/snapclean-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/SAC8UBsa-fbzdxGTehLhKl6hkdNaT8376IpltkKJoThKjC0emx-92WesN0FCkTack_7_vKUPg1zLCvXZI8WE0g=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snapclean-04.webp",
+        "thumb": "images/screenshots/snapclean-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/QUhFMoOSfoVISq4-ersVKeoUJvM7duLpZ0cWVxC-l7lLL8KjEIaMCmnXVw0OhCu1U8vbRMY4KazP6Lk9C6Kdjg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/snapclean-05.webp",
+        "thumb": "images/screenshots/snapclean-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/OyTotJuvCsGbUPo69vz17iB75t3YZaQ4RhSbWLDYbrkQFfzvm52gaNE2uFnEK9xhx2HYR2iXf9T2uuN1lRIr=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ]
+  },
+  {
+    "name": "LUMI DAY - Diary & Journal",
+    "slug": "lumiday",
+    "group": "life",
+    "tone": "sand",
+    "category": {
+      "ko": "감성 일기 · 기분 기록",
+      "en": "Diary · Mood journal",
+      "ja": "日記 · 気分の記録",
+      "zh": "日记 · 心情记录",
+      "ru": "Дневник · Настроение",
+      "fil": "Diary · Tala ng mood"
+    },
+    "headline": {
+      "ko": "하루 한 줄, 나를 위한 작은 기록.",
+      "en": "One line a day. A little space for you.",
+      "ja": "一日ひと言、自分のための記録。",
+      "zh": "每天一行，写给自己的小记录。",
+      "ru": "Строка в день. Немного времени для себя.",
+      "fil": "Isang linya bawat araw, munting tala para sa sarili."
+    },
+    "desc": {
+      "ko": "무엇을 쓸지 막막한 날에는 500개의 질문 중 오늘의 질문으로 일기를 시작해 보세요. 기분·날씨·태그와 사진 최대 5장을 함께 남기고, 스티커와 파스텔 테마로 꾸밀 수 있습니다. 일기를 쓸수록 자라는 캐릭터와 함께 기록 습관을 만들고, 달력과 기분 그래프로 지난 하루들을 돌아보세요. 회원가입 없이 일기와 사진을 기기에 보관하며 PIN 잠금과 직접 백업을 지원합니다.",
+      "en": "Start with a daily prompt from a collection of 500 questions. Record your mood, weather, tags, and up to five photos, then decorate entries with stickers and pastel themes. Build a journaling habit with a character that grows as you write, and revisit your days through calendars and mood graphs. No account is needed: entries and photos stay on your device, with PIN protection and manual backups.",
+      "ja": "書くことに迷ったら、500の質問から届く今日の問いで日記を始めましょう。気分・天気・タグと写真を最大5枚まで残し、ステッカーやパステルテーマで飾れます。書くほど育つキャラクターと記録習慣を作り、カレンダーや気分グラフで日々を振り返れます。登録不要で日記と写真は端末に保存。PINロックと手動バックアップに対応します。",
+      "zh": "不知道写什么时，从500个问题中选出的今日提问开始记录。写下心情、天气、标签并添加最多5张照片，用贴纸和柔和主题装饰日记。与随记录成长的角色一起养成习惯，通过日历和心情图表回顾每一天。无需注册，日记与照片保存在设备内，支持PIN锁和手动备份。",
+      "ru": "Начните с вопроса дня из подборки 500 вопросов. Отмечайте настроение, погоду, теги и добавляйте до пяти фото, украшая записи стикерами и пастельными темами. Персонаж растёт вместе с вашей привычкой писать, а календарь и графики настроения помогают вспоминать прошедшие дни. Аккаунт не нужен: записи и фото хранятся на устройстве. Есть PIN-блокировка и ручные резервные копии.",
+      "fil": "Magsimula sa tanong ng araw mula sa 500 prompt. Itala ang mood, panahon, mga tag, at hanggang limang litrato, saka palamutian gamit ang sticker at pastel na tema. Bumuo ng journaling habit kasama ang karakter na lumalaki habang nagsusulat ka, at balikan ang mga araw sa kalendaryo at mood graph. Walang kailangang account: nasa device ang mga tala at litrato, na may PIN lock at manual backup."
+    },
+    "tags": {
+      "ko": [
+        "500개의 일기 질문",
+        "사진·기분 기록",
+        "함께 자라는 캐릭터",
+        "PIN 잠금·백업"
+      ],
+      "en": [
+        "500 writing prompts",
+        "Photos & mood tracking",
+        "A growing companion",
+        "PIN lock & backup"
+      ],
+      "ja": [
+        "500の日記の質問",
+        "写真・気分記録",
+        "一緒に育つキャラクター",
+        "PINロック・バックアップ"
+      ],
+      "zh": [
+        "500个日记提问",
+        "照片与心情记录",
+        "一起成长的角色",
+        "PIN锁与备份"
+      ],
+      "ru": [
+        "500 вопросов для дневника",
+        "Фото и настроение",
+        "Растущий персонаж",
+        "PIN и резервные копии"
+      ],
+      "fil": [
+        "500 writing prompt",
+        "Litrato at mood",
+        "Lumalagong karakter",
+        "PIN lock at backup"
+      ]
+    },
+    "note": {
+      "ko": "무료 앱이며 화면 하단에 배너 광고가 표시됩니다. 스토어 안내에 따르면 일기 내용은 광고에 사용되지 않습니다.",
+      "en": "The free app displays banner ads at the bottom of the screen. The store listing states that diary content is not used for advertising.",
+      "ja": "無料アプリで、画面下部にバナー広告が表示されます。ストアの説明では、日記の内容は広告に使用されません。",
+      "zh": "应用免费，屏幕底部会显示横幅广告。根据商店说明，日记内容不用于广告。",
+      "ru": "В бесплатном приложении показывается баннер внизу экрана. Согласно описанию в магазине, содержание дневника не используется для рекламы.",
+      "fil": "Libre ang app at may banner ads sa ibaba ng screen. Ayon sa store listing, hindi ginagamit sa advertising ang nilalaman ng diary."
+    },
+    "icon": "images/lumiday-icon.webp",
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lumiday",
+    "appStoreUrl": null,
+    "screenshots": [
+      {
+        "src": "images/screenshots/lumiday-01.webp",
+        "thumb": "images/screenshots/lumiday-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/m4DxoJ6xGLVWzqDK83pM5bTmBzbcI7iy-RaUqnFhKQxcusE8w7Sewk91sMdWLTBdPPE50D5znQJ8wxSowxdb=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-02.webp",
+        "thumb": "images/screenshots/lumiday-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/fG4Tq2gdRd0Z_xtu2TZygJd1jpNxeYOcMjcI8MKKcPK5dfb-xN_-VFXy52U3XsgR9A7hn7USgP6MXuE4n6P2=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-03.webp",
+        "thumb": "images/screenshots/lumiday-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/d941am6-caRaq9PscMwxovrnGttHmRs0VQlqhNIYnaG3mcTLLXJOxtfgdg7EdIzvv7V_tosyeH5ZiRKQP350=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-04.webp",
+        "thumb": "images/screenshots/lumiday-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/hRMKgzOdZ9Gr2dAdOcHqPdvNA0PEccUsZ4RLFrUwdhxhJ5rQ7oxDBxb0KmlUZPKIYMcjREJpuXqojefjfjJ3=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-05.webp",
+        "thumb": "images/screenshots/lumiday-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/hzLHFi97sDO0wH9HcSUaoBgjnYJxGTHhvpwBvuNYblLg1kITvFvN5EqDyapZVRORU1eI1L66IqkbeTfIbWlkWE8=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "src": "images/screenshots/lumiday-06.webp",
+        "thumb": "images/screenshots/lumiday-06-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/znU7YYaNoqO3SaGzKeYUUZ8oiXxEtfDk5dDb1CEbkRVpzLbFPfH5G82s4l7gIpRBxaNz0SK4-2iOdPqG1D2x5w=w1000",
+        "platform": "Google Play",
+        "width": 941,
+        "height": 1672
+      }
+    ]
+  },
+  {
     "name": "부조금관리 by 마음장부",
     "category": {
       "ko": "라이프스타일 · 한국어 전용",
@@ -240,59 +603,59 @@
   {
     "name": "Light Wall",
     "category": {
-      "ko": "잠금화면 · 신앙",
-      "en": "Lock Screen · Faith",
-      "ja": "ロック画面 · 信仰",
-      "zh": "锁屏 · 信仰",
-      "ru": "Экран блокировки · Вера",
-      "fil": "Lock Screen · Pananampalataya"
+      "ko": "신앙 · 잠금화면·위젯",
+      "en": "Faith · Lock screen & widgets",
+      "ja": "信仰 · ロック画面・ウィジェット",
+      "zh": "信仰 · 锁屏与小组件",
+      "ru": "Вера · Экран блокировки и виджеты",
+      "fil": "Pananampalataya · Lock screen at widget"
     },
     "icon": "images/lightwall-icon.png",
     "iconBg": "linear-gradient(135deg, #f0b64f, #e8a13c)",
     "desc": {
-      "ko": "예수 그리스도 후기성도 교회 회원을 위한 잠금화면 앱입니다. 휴대폰을 켤 때마다 전 세계 성전의 아름다운 사진과 함께 경전 구절·선지자의 말씀·간증을 만나보세요. 좋아하는 성전을 고정하고 시계와 잠금해제 방식을 원하는 대로 바꿀 수 있으며, 손전등·QR·카메라·계산기도 잠금화면에서 바로 쓸 수 있습니다. 광고도 추적도 없이 모든 설정은 기기에만 저장됩니다.",
-      "en": "A lock screen app for members of The Church of Jesus Christ of Latter-day Saints. Every time you wake your phone, meet beautiful photos of temples around the world alongside scriptures, words of the prophets, and testimonies. Pin your favorite temples, customize the clock and unlock style, and reach the flashlight, QR scanner, camera, and calculator right from the lock screen. No ads, no tracking — every setting stays on your device.",
-      "ja": "末日聖徒イエス・キリスト教会の会員のためのロック画面アプリです。スマートフォンを開くたびに、世界各地の神殿の美しい写真とともに、聖典の聖句・預言者の言葉・証に出会えます。お気に入りの神殿を固定し、時計やロック解除の方法を自由に変更でき、懐中電灯・QRコード・カメラ・電卓もロック画面からすぐに使えます。広告も追跡もなく、すべての設定は端末内にのみ保存されます。",
-      "zh": "一款为耶稣基督后期圣徒教会成员打造的锁屏应用。每次点亮手机，都能看到世界各地圣殿的精美照片，以及经文、先知的话语和见证。可固定喜爱的圣殿，自由更改时钟与解锁方式，还能在锁屏直接使用手电筒、二维码扫描、相机和计算器。无广告、无追踪，所有设置仅保存在您的设备上。",
-      "ru": "Приложение для экрана блокировки для членов Церкви Иисуса Христа Святых последних дней. Каждый раз, включая телефон, вы увидите красивые фотографии храмов со всего мира вместе со стихами из Священных Писаний, словами пророков и свидетельствами. Закрепляйте любимые храмы, настраивайте часы и способ разблокировки, пользуйтесь фонариком, сканером QR, камерой и калькулятором прямо с экрана блокировки. Без рекламы и слежения — все настройки хранятся только на вашем устройстве.",
-      "fil": "Isang lock screen app para sa mga miyembro ng Ang Simbahan ni Jesucristo ng mga Banal sa mga Huling Araw. Sa tuwing bubuksan mo ang iyong telepono, makikita mo ang magagandang larawan ng mga templo mula sa buong mundo kasama ang mga banal na kasulatan, salita ng mga propeta, at patotoo. I-pin ang paborito mong templo, baguhin ang orasan at paraan ng pag-unlock, at gamitin ang flashlight, QR scanner, camera, at calculator mismo sa lock screen. Walang ads, walang tracking — nasa iyong device lang ang lahat ng setting."
+      "ko": "성전 사진과 영감을 주는 말씀을 가까이 두는 신앙 앱입니다. Android에서는 전 세계 성전 사진·경전 구절·교회 소식을 잠금화면에서 만나고, 시계와 잠금해제 방식을 꾸밀 수 있습니다. iPhone에서는 App Store에 등록된 「LightWal」 위젯 앱으로 성전과 연사들의 메시지를 확인할 수 있습니다. 지원 기능은 플랫폼에 따라 다릅니다.",
+      "en": "Keep temple imagery and inspiring messages close. On Android, explore temple photos, scripture passages, and Church news on a customizable lock screen. On iPhone, the widget app listed as “LightWal” brings temples and speakers’ messages to your screen. Features vary by platform.",
+      "ja": "神殿の写真と心に響くメッセージを身近に。Androidでは、世界の神殿写真・聖句・教会ニュースをロック画面で楽しみ、時計や解除方法を設定できます。iPhoneではApp Storeに「LightWal」として登録されたウィジェットアプリで、神殿や話者のメッセージを確認できます。機能はプラットフォームにより異なります。",
+      "zh": "让圣殿照片与启发人心的话语常伴身边。Android版可在自定义锁屏上查看世界各地的圣殿照片、经文与教会消息，并设置时钟与解锁方式。iPhone版以“LightWal”名称在App Store提供，通过小组件查看圣殿与演讲者的信息。不同平台的功能有所区别。",
+      "ru": "Держите фотографии храмов и вдохновляющие послания рядом. На Android доступны изображения храмов, отрывки из Священных Писаний и новости Церкви на настраиваемом экране блокировки. На iPhone приложение-виджет представлено в App Store под названием «LightWal» и посвящено храмам и посланиям выступающих. Возможности зависят от платформы.",
+      "fil": "Ilapit ang mga larawan ng templo at nagbibigay-inspirasyong mensahe. Sa Android, makikita ang mga templo, banal na kasulatan, at balita ng Simbahan sa nako-customize na lock screen. Sa iPhone, nakalista bilang “LightWal” sa App Store ang widget app para sa mga templo at mensahe ng mga tagapagsalita. Magkaiba ang ilang feature sa bawat platform."
     },
     "tags": {
       "ko": [
-        "전 세계 성전 사진",
-        "매일의 말씀",
-        "교회 소식",
-        "광고·추적 없음"
+        "성전 사진",
+        "영감을 주는 말씀",
+        "Android 잠금화면",
+        "iPhone 위젯"
       ],
       "en": [
-        "Temples worldwide",
-        "Daily inspiration",
-        "Church news",
-        "No ads or tracking"
+        "Temple photos",
+        "Inspiring messages",
+        "Android lock screen",
+        "iPhone widgets"
       ],
       "ja": [
-        "世界の神殿写真",
-        "日々の聖句",
-        "教会ニュース",
-        "広告・追跡なし"
+        "神殿の写真",
+        "心に響くメッセージ",
+        "Androidロック画面",
+        "iPhoneウィジェット"
       ],
       "zh": [
-        "全球圣殿照片",
-        "每日经文",
-        "教会消息",
-        "无广告无追踪"
+        "圣殿照片",
+        "启发人心的话语",
+        "Android锁屏",
+        "iPhone小组件"
       ],
       "ru": [
-        "Храмы мира",
-        "Слово дня",
-        "Новости Церкви",
-        "Без рекламы и слежения"
+        "Фото храмов",
+        "Вдохновляющие послания",
+        "Экран блокировки Android",
+        "Виджеты iPhone"
       ],
       "fil": [
-        "Mga templo sa mundo",
-        "Araw-araw na inspirasyon",
-        "Balita ng Simbahan",
-        "Walang ads o tracking"
+        "Mga larawan ng templo",
+        "Mga mensahe",
+        "Android lock screen",
+        "iPhone widget"
       ]
     },
     "note": {
@@ -304,7 +667,7 @@
       "fil": "Ang app na ito ay hindi opisyal na app ng Ang Simbahan ni Jesucristo ng mga Banal sa mga Huling Araw, at hindi ito inendorso ng o kaugnay ng Simbahan. Ang mga larawan ng templo ay mula sa mga pampublikong pinagkukunan tulad ng Wikimedia Commons."
     },
     "playUrl": "https://play.google.com/store/apps/details?id=com.lightwall",
-    "appStoreUrl": "",
+    "appStoreUrl": "https://apps.apple.com/kr/app/lightwal/id6787111203",
     "slug": "lightwall",
     "group": "faith",
     "tone": "sage",
@@ -348,6 +711,86 @@
         "platform": "Google Play",
         "width": 1000,
         "height": 2230
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-01.webp",
+        "thumb": "images/screenshots/lightwall-ios-01-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/62/78/1b6278a0-4bb0-eb5e-9d0d-f84cb9d25234/11.jpg/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-02.webp",
+        "thumb": "images/screenshots/lightwall-ios-02-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/6d/86/c06d86b2-aee8-bd6d-3247-dc675fb2488d/12.jpg/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-03.webp",
+        "thumb": "images/screenshots/lightwall-ios-03-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/f6/ce/bcf6ce6c-6d0c-b0c1-0348-8209da446d22/IMG_0014.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-04.webp",
+        "thumb": "images/screenshots/lightwall-ios-04-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/9c/8a/889c8a24-c63f-6349-83e9-5825136811fb/IMG_0016.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-05.webp",
+        "thumb": "images/screenshots/lightwall-ios-05-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/25/c7/ff25c729-616e-bef8-3b06-9a32f626c36b/IMG_0020.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-06.webp",
+        "thumb": "images/screenshots/lightwall-ios-06-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/e0/b3/76e0b3c9-a765-114f-a5cc-6537d4a7c386/IMG_0019.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-07.webp",
+        "thumb": "images/screenshots/lightwall-ios-07-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/04/a6/ac04a65c-edda-7fdc-920f-6d326d9249d1/IMG_0015.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-08.webp",
+        "thumb": "images/screenshots/lightwall-ios-08-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/5b/e1/665be112-8c86-09a9-2046-ad923b74a44f/IMG_0018.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-09.webp",
+        "thumb": "images/screenshots/lightwall-ios-09-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/9b/e6/139be6d2-d3eb-fda6-4115-e9293676dec8/IMG_0017.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lightwall-ios-10.webp",
+        "thumb": "images/screenshots/lightwall-ios-10-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/a6/1d/65a61de4-8a9f-70be-2c5d-b58b5e877992/12.jpg/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
       }
     ],
     "headline": {
@@ -357,7 +800,8 @@
       "zh": "每次亮屏，遇见一份启发。",
       "ru": "Вдохновение при каждом включении.",
       "fil": "Inspirasyon sa bawat pagbukas."
-    }
+    },
+    "appStoreTitle": "LightWal"
   },
   {
     "name": "Holy Ground",
@@ -898,7 +1342,7 @@
       "fil": "Ang mga numero mula sa app na ito ay sangguniang kombinasyon na random o batay sa mga kondisyong itinakda mo. Hindi nito hinuhulaan ang tsansang manalo ng kahit anong numero, ni ginagarantiyahan ang panalo. Mangyaring bumili ng lotto nang responsable, ayon sa sariling pagpapasya at kakayahan."
     },
     "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lotto",
-    "appStoreUrl": "",
+    "appStoreUrl": "https://apps.apple.com/kr/app/id6806789389",
     "slug": "lotto",
     "group": "tools",
     "tone": "blue",
@@ -942,6 +1386,86 @@
         "platform": "Google Play",
         "width": 941,
         "height": 1672
+      },
+      {
+        "src": "images/screenshots/lotto-ios-01.webp",
+        "thumb": "images/screenshots/lotto-ios-01-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/19/f2/bc19f272-7970-a6cc-c2e9-e0264ed5be28/01__Ud648__Ud654_Uba74_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-02.webp",
+        "thumb": "images/screenshots/lotto-ios-02-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/98/d6/7b98d61c-423b-2b9a-1aa9-aca390254544/03__Ube60_Ub978__Ubc88_Ud638__Uc0dd_Uc131_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-03.webp",
+        "thumb": "images/screenshots/lotto-ios-03-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/3a/29/b73a2927-cd47-cf28-e896-a3dd8048e795/09__Uc790_Ub3d9__Ub2f9_Ucca8__Uc54c_Ub9bc_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-04.webp",
+        "thumb": "images/screenshots/lotto-ios-04-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/9b/64/dc9b64ff-b202-5f21-cfe4-fd0a15a28f9f/04__Uc870_Uac74_Ubc88_Ud638__Uc0dd_Uc131_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-05.webp",
+        "thumb": "images/screenshots/lotto-ios-05-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/20/12/0520123e-6c5f-de14-25fb-1bb125ac7c17/02__Ubc88_Ud638__Ub9cc_Ub4e4_Uae30_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-06.webp",
+        "thumb": "images/screenshots/lotto-ios-06-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/02/63/7f0263be-4c41-cd8e-c6e2-a02c783521b9/08__Ub2f9_Ucca8_Uacb0_Uacfc__Ud655_Uc778_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-07.webp",
+        "thumb": "images/screenshots/lotto-ios-07-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/57/90/395790ea-1b46-43d0-210a-320e04b94ca5/07__Ubc88_Ud638__Uc9c1_Uc811__Uc785_Ub825_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-08.webp",
+        "thumb": "images/screenshots/lotto-ios-08-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/32/52/d63252c2-8a56-e2b9-3370-f574c1a89489/05__Ubc18_Uc790_Ub3d9__Ubc88_Ud638_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-09.webp",
+        "thumb": "images/screenshots/lotto-ios-09-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/66/4f/13664f21-eed5-e393-cfee-cf55f7eccf20/10__Uc124_Uc815__Ud654_Uba74_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
+      },
+      {
+        "src": "images/screenshots/lotto-ios-10.webp",
+        "thumb": "images/screenshots/lotto-ios-10-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/52/59/3852591b-13e2-7d9c-de9b-599622f485bf/06__Uad6c_Ub9e4_Ubc88_Ud638__Uad00_Ub9ac_1242x2688.png/1000x2164bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2164
       }
     ],
     "headline": {
@@ -951,7 +1475,8 @@
       "zh": "从本周选号，到核对结果。",
       "ru": "От выбора чисел до проверки результатов.",
       "fil": "Mula pagpili ng numero hanggang resulta."
-    }
+    },
+    "appStoreTitle": "나도 로또 당첨되고싶어"
   },
   {
     "name": "One Minute Kingdom",

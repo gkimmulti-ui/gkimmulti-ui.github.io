@@ -5,16 +5,29 @@ const apps=require('../data/apps.json');
 const translations=require('../data/translations.json');
 const {card,filters,escape}=require('../assets/home.js');
 let html=fs.readFileSync(path.join(root,'src/index.template.html'),'utf8');
+html=html.replaceAll('{{APP_COUNT}}',String(apps.length)).replaceAll('{{APP_RANGE}}','01—'+String(apps.length).padStart(2,'0'));
 html=html.replace('{{CARDS}}',apps.map(app=>card(app,'ko')).join('\n')).replace('{{FILTERS}}',filters('ko'));
 html=html.replace('{{ICONS}}',apps.map(app=>`<a href="#app-${app.slug}" aria-label="${escape(app.name)}"><img src="${app.icon}" alt="${escape(app.name)}" width="38" height="38" loading="lazy"></a>`).join(''));
 html=html.replace(/(<([a-z0-9]+)\b[^>]*data-i18n="([^"]+)"[^>]*>)([^<]*)(<\/\2>)/g,(all,start,tag,key,content,end)=>start+escape(translations.ko[key])+end);
 html=html.replace(/(<meta name="description" content=")[^"]*/, '$1'+escape(translations.ko['meta.desc']));
 html=html.replace(/(<meta property="og:description" content=")[^"]*/, '$1'+escape(translations.ko['meta.desc']));
 html=html.replace(/(<meta name="twitter:description" content=")[^"]*/, '$1'+escape(translations.ko['meta.desc']));
+html=html.replace(/(<meta name="keywords"[^>]*content=")[^"]*/, '$1'+escape(['Kenneth App',...apps.map(app=>typeof app.name==='string'?app.name:app.name.ko),'Android','iPhone','모바일 앱'].join(', ')));
 // Keep the structured data aligned with the visible app catalog.
 html=html.replace(/(<script type="application\/ld\+json" id="ld-json">)([\s\S]*?)(<\/script>)/,(all,start,json,end)=>{
  const schema=JSON.parse(json);
  if(schema['@graph']) for(const item of schema['@graph']) if(item['@type']==='WebSite'||item['@type']==='Organization') if(item.description)item.description=translations.ko['meta.desc'];
+ const list=schema['@graph']?.find(item=>item['@type']==='ItemList');
+ if(list){
+  list.numberOfItems=apps.length;
+  list.itemListElement=apps.map((app,index)=>({'@type':'ListItem',position:index+1,item:{
+   '@type':'SoftwareApplication',name:typeof app.name==='string'?app.name:app.name.ko,
+   description:app.desc.ko,image:'https://gkimmulti-ui.github.io/'+app.icon,
+   operatingSystem:app.appStoreUrl?'Android, iOS':'Android',applicationCategory:'MobileApplication',
+   installUrl:app.appStoreUrl?[app.playUrl,app.appStoreUrl]:app.playUrl,url:app.playUrl,
+   author:{'@id':'https://gkimmulti-ui.github.io/#publisher'},offers:{'@type':'Offer',price:'0',priceCurrency:'KRW'}
+  }}));
+ }
  return start+JSON.stringify(schema,null,2)+end;
 });
 // Accurate intrinsic dimensions avoid shifts as the hero photographs arrive.

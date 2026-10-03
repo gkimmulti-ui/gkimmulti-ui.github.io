@@ -11,31 +11,29 @@
     --line:#E4E6F0; --violet:#6A48F5; --blue:#1E92E6; --chip:#EFEEFB;
   }
   @media (prefers-color-scheme: dark){
-    :root{ --bg:#0B0E1F; --panel:#12162B; --ink:#E9ECF6; --muted:#A5ABC0;
+    :root:not([data-theme="light"]){ --bg:#0B0E1F; --panel:#12162B; --ink:#E9ECF6; --muted:#A5ABC0;
            --line:#23294A; --violet:#B9A9FF; --blue:#37B8FF; --chip:#1B2140; }
   }
-  :root[data-theme="light"]{ --bg:#F5F6FB; --panel:#FFFFFF; --ink:#1B1E2E; --muted:#5A607A;
-           --line:#E4E6F0; --violet:#6A48F5; --blue:#1E92E6; --chip:#EFEEFB; }
   :root[data-theme="dark"]{ --bg:#0B0E1F; --panel:#12162B; --ink:#E9ECF6; --muted:#A5ABC0;
            --line:#23294A; --violet:#B9A9FF; --blue:#37B8FF; --chip:#1B2140; }
 
   *{ box-sizing:border-box; }
   body{ margin:0; background:var(--bg); color:var(--ink);
         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",sans-serif;
-        line-height:1.65; -webkit-font-smoothing:antialiased; }
-  .wrap{ max-width:720px; margin:0 auto; padding:44px 22px 96px; }
-  .eyebrow{ letter-spacing:.14em; text-transform:uppercase; font-size:12px; font-weight:700; color:var(--violet); }
+        line-height:1.65; -webkit-font-smoothing:antialiased; overflow-wrap:break-word; }
+  :root:lang(ko) body{ word-break:keep-all; }
+  .wrap{ max-width:720px; margin:0 auto; padding:44px 16px 96px; }
+  .eyebrow{ letter-spacing:.14em; text-transform:uppercase; font-size:12px; font-weight:700; color:var(--violet); margin:0; }
   h1{ font-size:clamp(26px,5vw,34px); line-height:1.15; margin:8px 0 4px; text-wrap:balance; }
   .meta{ color:var(--muted); font-size:14px; margin:0 0 18px; }
-  .meta a{ color:var(--blue); text-decoration:none; }
+  a{ color:var(--blue); text-decoration:none; }
+  a:hover{ text-decoration:underline; }
   .langs{ display:flex; flex-wrap:wrap; gap:8px; margin:0 0 26px; }
   .langs button{ font:inherit; font-size:13px; font-weight:600; cursor:pointer;
     color:var(--muted); background:transparent; border:1px solid var(--line);
     border-radius:999px; padding:6px 13px; transition:.15s; }
   .langs button:hover{ color:var(--ink); }
-  .langs button[aria-pressed="true"]{ color:#fff; background:var(--violet); border-color:var(--violet); }
-  @media (prefers-color-scheme: dark){ .langs button[aria-pressed="true"]{ color:#0B0E1F; } }
-  :root[data-theme="dark"] .langs button[aria-pressed="true"]{ color:#0B0E1F; }
+  .langs button[aria-pressed="true"]{ color:var(--bg); background:var(--violet); border-color:var(--violet); }
   .langs button:focus-visible{ outline:2px solid var(--blue); outline-offset:2px; }
   .summary{ background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--violet);
             border-radius:14px; padding:16px 18px; margin:6px 0 30px; }
@@ -50,105 +48,153 @@
 </head>
 <body>
 
-
 <div class="wrap">
   <p class="eyebrow">MBTI 16MODE</p>
   <h1 id="h1">Privacy Policy</h1>
-  <p class="meta"><span id="eff"></span> · Kenneth App · <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a></p>
+  <p class="meta"><span id="eff">Effective October 3, 2026</span> · Kenneth App · <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a></p>
   <div class="langs" id="langs" role="group" aria-label="Language"></div>
   <div id="doc"></div>
   <hr>
-  <p class="foot">MBTI 16MODE · com.sixteenmode.app · © 2026 Kenneth App</p>
+  <p class="foot">MBTI 16MODE · Android: com.sixteenmode.app · iOS: com.sixteenmode.app · © 2026 Kenneth App</p>
 </div>
 
 <script>
+const MAIL = '<a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a>';
+const G_PRIV = 'https://policies.google.com/privacy';
+const G_PARTNER = 'https://policies.google.com/technologies/partner-sites';
+const G_ADC = 'https://myadcenter.google.com';
+const a = (href, text) => '<a href="' + href + '" target="_blank" rel="noopener">' + text + '</a>';
+
 const LANGS = [
   ["en","English"],["ko","한국어"],["ja","日本語"],
   ["zh","简体中文"],["ru","Русский"],["fil","Filipino"]
 ];
+
+// Section format: [title, paragraph, (optional) list, (optional) paragraph after list]
 const T = {
-  en:{ title:"Privacy Policy", eff:"Effective August 2, 2026",
-    sumL:"In short:", sum:"MBTI 16MODE is offline-first: the notes, progress and settings you create stay <strong>on your device</strong> and we never sell your data. The one exception is banner ads served by <strong>Google AdMob</strong>, which may use your device's Advertising ID to show ads.",
+  en:{ title:"Privacy Policy", eff:"Effective October 3, 2026",
+    sumL:"In short:", sum:"MBTI 16MODE is offline-first: the nickname, progress and settings you create stay <strong>on your device</strong>. We run no servers, have no accounts, and never sell your data. The only data that leaves your device is what <strong>Google AdMob</strong> uses to show ads (banner, full-screen and optional rewarded ads).",
     s:[
-      ["Information we collect","We collect no personal information on any server. The app has no user accounts and never asks you to sign in."],
+      ["Information we collect","We (the developer) do not collect, receive or store any personal information. The app has no user accounts, never asks you to sign in, and has no server of its own."],
       ["Data stored on your device","To function, the app saves the following <strong>locally on your device only</strong>:",
         ["A nickname you optionally enter","Your selected base mode and growth goals","Progress: XP, levels, streaks, completed quests, earned badges","Settings: language, notifications, sound preferences"],
         "This data never leaves your device and is not accessible to us or anyone else."],
       ["Deleting your data","Erase everything anytime via <code>Profile → Data → Reset Data</code>, or by uninstalling the app."],
-      ["Advertising &amp; third parties","MBTI 16MODE shows banner ads through <strong>Google AdMob</strong>. To serve ads, Google and its partners may collect and use device identifiers — including your <strong>Advertising ID</strong> — and limited usage data, as described in the <a href=\"https://policies.google.com/privacy\">Google Privacy Policy</a> and <a href=\"https://policies.google.com/technologies/partner-sites\">how Google uses data from apps that use its services</a>. We use no other third-party analytics or tracking SDKs, and we do not otherwise sell or share your data. You can reset your Advertising ID or opt out of ad personalization in your device settings."],
-      ["Permissions","The app does not access your contacts, location, camera, microphone, or files. Any optional feature added later (such as local reminders) will be clearly described and stay optional."],
-      ["Children","The app is suitable for all ages and knowingly collects no personal information from anyone, including children."],
+      ["Advertising (Google AdMob)","The app shows three kinds of ads through Google AdMob: a banner at the bottom of the screen, an occasional full-screen ad after you finish a mode session (at most once every 3 minutes), and a rewarded ad that you choose to watch for bonus XP. To serve ads, Google and its partners may collect and use:",
+        ["Your device's advertising identifier (Android Advertising ID)","IP address and the approximate location derived from it","Device and app information (model, OS version, language, app version)","Ad interaction data (ads shown, clicks) and SDK diagnostics"],
+        "Google uses this data to deliver and measure ads, to personalize them where permitted, and to prevent fraud, as described in the "+a(G_PRIV,"Google Privacy Policy")+" and "+a(G_PARTNER,"how Google uses information from sites or apps that use its services")+". We do not receive this data, and we use no other analytics or tracking SDK. In your device's ad settings you can reset or delete your Advertising ID or turn off personalized ads."],
+      ["Ad consent (Europe and similar regions)","If you are in the European Economic Area, the United Kingdom or Switzerland, the app shows Google's consent message before any ad is requested, and ads are only requested in line with your choice. To change your choice later, reinstall the app or clear its data and the consent message will appear again."],
+      ["iPhone and iPad (no tracking)","On iOS, the app does not ask for tracking permission (App Tracking Transparency) and does not track you across other companies' apps or websites. Without that permission, your device's advertising identifier (IDFA) is not available to the app or to Google."],
+      ["Permissions","On Android the app requests only Internet access and the Advertising ID permission (<code>com.google.android.gms.permission.AD_ID</code>), both used solely to show ads. It does not access your contacts, location, camera, microphone, photos or files. Any optional feature added later (such as local reminders) will be clearly described and stay optional."],
+      ["Data security","Your app data stays on your device and is protected by your device's own security. Communication between the ads SDK and Google uses encrypted connections (HTTPS)."],
+      ["Children","The app is suitable for all ages. We do not collect personal information from anyone, including children, and ads are served under Google's policies."],
       ["MBTI disclaimer","MBTI-style content is for self-understanding and recommendations only — not a psychological diagnosis. Higher levels reflect usage experience, not a judgment of any person."],
+      ["Your rights and contact","Because we hold no personal data, there is nothing on our side to access, correct or delete — your app data lives on your device and you control it (section 3). You can manage the data Google uses for ads in "+a(G_ADC,"Google My Ad Center")+". Questions or requests: "+MAIL+"."],
       ["Changes to this policy","If this policy changes, we update the effective date above. Continued use after changes means acceptance of the updated policy."]
     ]},
-  ko:{ title:"개인정보처리방침", eff:"시행일: 2026년 8월 2일",
-    sumL:"요약:", sum:"MBTI 16MODE는 오프라인 우선 앱입니다. 이용자가 만든 기록·진행·설정은 <strong>기기 안에만</strong> 저장되며 저희는 이를 판매하지 않습니다. 단 하나의 예외는 <strong>Google AdMob</strong> 배너 광고로, 광고 제공을 위해 기기의 광고 ID가 사용될 수 있습니다.",
+
+  ko:{ title:"개인정보처리방침", eff:"시행일: 2026년 10월 3일",
+    sumL:"요약:", sum:"MBTI 16MODE는 오프라인 우선 앱입니다. 이용자가 만든 닉네임·진행 상황·설정은 <strong>기기 안에만</strong> 저장됩니다. 저희는 서버와 계정을 운영하지 않으며 이용자의 데이터를 판매하지 않습니다. 기기 밖으로 나가는 데이터는 <strong>Google AdMob</strong>이 광고(배너·전면·선택형 보상형)를 표시하는 데 사용하는 정보뿐입니다.",
     s:[
-      ["수집하는 정보","저희는 어떤 서버에도 개인정보를 수집하지 않습니다. 이 앱은 계정이 없으며 로그인을 요구하지 않습니다."],
+      ["수집하는 정보","저희(개발자)는 어떤 개인정보도 수집·수신·보관하지 않습니다. 이 앱에는 계정과 로그인이 없고, 자체 서버도 없습니다."],
       ["기기에 저장되는 데이터","앱 작동을 위해 다음 정보가 <strong>오직 이용자의 기기 안에만</strong> 저장됩니다:",
         ["선택 입력하는 닉네임","선택한 기본 모드와 성장 목표","진행 상황: 경험치, 레벨, 연속 성장, 완료한 퀘스트, 획득 배지","설정: 언어, 알림, 사운드"],
         "이 데이터는 기기를 벗어나지 않으며, 저희나 제3자가 접근할 수 없습니다."],
       ["데이터 삭제","<code>프로필 → 데이터 → 데이터 초기화</code>에서 언제든 전체 삭제하거나, 앱을 삭제하면 됩니다."],
-      ["광고·제3자","MBTI 16MODE는 <strong>Google AdMob</strong>을 통해 배너 광고를 표시합니다. 광고 제공을 위해 Google과 파트너는 <strong>광고 ID</strong>를 포함한 기기 식별자와 제한된 사용 데이터를 수집·이용할 수 있습니다. 자세한 내용은 <a href=\"https://policies.google.com/privacy\">Google 개인정보처리방침</a> 및 <a href=\"https://policies.google.com/technologies/partner-sites\">Google 서비스를 사용하는 앱의 데이터 이용 방식</a>을 참고하세요. 그 외 제3자 분석·추적 SDK는 사용하지 않으며, 이용자의 데이터를 그 밖의 방식으로 판매·공유하지 않습니다. 기기 설정에서 광고 ID를 재설정하거나 맞춤 광고를 해제할 수 있습니다."],
-      ["권한","앱은 연락처·위치·카메라·마이크·파일에 접근하지 않습니다. 향후 추가되는 선택 기능(예: 로컬 알림)은 명확히 안내되며 선택 사항으로 유지됩니다."],
-      ["아동","앱은 전체 이용가이며, 아동을 포함한 누구로부터도 개인정보를 수집하지 않습니다."],
+      ["광고 (Google AdMob)","앱은 Google AdMob을 통해 세 가지 광고를 표시합니다: 화면 하단의 배너 광고, 모드 세션을 마친 뒤 가끔 나오는 전면 광고(최소 3분 간격), 그리고 이용자가 원할 때만 보는 보상형 광고(보너스 XP 지급). 광고 제공을 위해 Google과 파트너는 다음 정보를 수집·이용할 수 있습니다:",
+        ["기기 광고 식별자(Android 광고 ID)","IP 주소 및 이를 바탕으로 한 대략적 위치","기기·앱 정보(기종, OS 버전, 언어, 앱 버전)","광고 상호작용 데이터(노출·클릭) 및 SDK 진단 정보"],
+        "Google은 이 정보를 광고 제공·측정, (허용되는 경우) 맞춤 광고, 부정 행위 방지에 사용합니다. 자세한 내용은 "+a(G_PRIV,"Google 개인정보처리방침")+" 및 "+a(G_PARTNER,"Google 서비스를 사용하는 사이트·앱의 정보 이용 방식")+"을 참고하세요. 저희는 이 정보를 받지 않으며, 그 밖의 분석·추적 SDK는 사용하지 않습니다. 기기의 광고 설정에서 광고 ID를 재설정·삭제하거나 맞춤 광고를 해제할 수 있습니다."],
+      ["광고 동의 (유럽 등)","유럽경제지역(EEA)·영국·스위스에 있는 이용자에게는 광고를 요청하기 전에 Google의 동의 안내가 표시되며, 광고는 이용자의 선택에 따라서만 요청됩니다. 선택을 바꾸려면 앱을 재설치하거나 앱 데이터를 삭제하면 동의 안내가 다시 표시됩니다."],
+      ["iPhone·iPad (추적 안 함)","iOS에서 앱은 추적 허용(App Tracking Transparency)을 요청하지 않으며, 다른 회사의 앱·웹사이트에 걸쳐 이용자를 추적하지 않습니다. 이 허용이 없으면 기기의 광고 식별자(IDFA)는 앱과 Google 모두 사용할 수 없습니다."],
+      ["권한","Android에서 앱은 인터넷 접근과 광고 ID 권한(<code>com.google.android.gms.permission.AD_ID</code>)만 요청하며, 둘 다 광고 표시에만 사용됩니다. 연락처·위치·카메라·마이크·사진·파일에는 접근하지 않습니다. 향후 추가되는 선택 기능(예: 로컬 알림)은 명확히 안내되며 선택 사항으로 유지됩니다."],
+      ["데이터 보안","앱 데이터는 기기에만 있으며 기기 자체의 보안으로 보호됩니다. 광고 SDK와 Google 간의 통신은 암호화된 연결(HTTPS)을 사용합니다."],
+      ["아동","앱은 전체 이용가입니다. 저희는 아동을 포함한 누구로부터도 개인정보를 수집하지 않으며, 광고는 Google의 정책에 따라 제공됩니다."],
       ["MBTI 관련 고지","앱의 MBTI 관련 내용은 자기이해와 추천을 위한 참고 정보이며, 심리 진단이 아닙니다. 높은 레벨은 사용 경험을 나타낼 뿐, 사람에 대한 평가가 아닙니다."],
+      ["이용자의 권리와 문의","저희는 개인정보를 보관하지 않으므로 저희 쪽에서 열람·정정·삭제할 정보가 없습니다. 앱 데이터는 이용자의 기기에 있으며 직접 관리할 수 있습니다(3항). Google이 광고에 사용하는 데이터는 "+a(G_ADC,"Google 내 광고 센터")+"에서 관리할 수 있습니다. 문의·요청: "+MAIL],
       ["방침 변경","방침이 변경되면 위 시행일을 갱신합니다. 변경 후 계속 사용하면 개정된 방침에 동의한 것으로 간주됩니다."]
     ]},
-  ja:{ title:"プライバシーポリシー", eff:"施行日：2026年8月2日",
-    sumL:"要点：", sum:"MBTI 16MODEはオフライン優先のアプリです。あなたが作成した記録・進捗・設定は<strong>端末内にのみ</strong>保存され、当方がこれを販売することはありません。唯一の例外は<strong>Google AdMob</strong>のバナー広告で、広告配信のために端末の広告IDが利用される場合があります。",
+
+  ja:{ title:"プライバシーポリシー", eff:"施行日：2026年10月3日",
+    sumL:"要点：", sum:"MBTI 16MODEはオフライン優先のアプリです。あなたが作成したニックネーム・進捗・設定は<strong>端末内にのみ</strong>保存されます。当方はサーバーもアカウントも運営しておらず、データを販売することはありません。端末の外に出るのは、<strong>Google AdMob</strong>が広告（バナー・全画面・任意のリワード広告）を表示するために使う情報だけです。",
     s:[
-      ["収集する情報","当方はいかなるサーバーにも個人情報を収集しません。本アプリにアカウントはなく、ログインも求めません。"],
+      ["収集する情報","当方（開発者）は個人情報を一切収集・受信・保存しません。本アプリにはアカウントもログインもなく、独自のサーバーもありません。"],
       ["端末に保存されるデータ","アプリの動作のため、次の情報が<strong>端末内にのみ</strong>保存されます：",
         ["任意で入力するニックネーム","選択した基本モードと成長目標","進捗：XP、レベル、連続記録、完了クエスト、獲得バッジ","設定：言語、通知、サウンド"],
         "このデータは端末外に出ず、当方や第三者がアクセスすることはできません。"],
       ["データの削除","<code>プロフィール → データ → データ初期化</code>からいつでも全削除できます。アンインストールでも消去されます。"],
-      ["広告・第三者","MBTI 16MODEは<strong>Google AdMob</strong>を通じてバナー広告を表示します。広告配信のため、Googleおよびそのパートナーは<strong>広告ID</strong>を含む端末識別子と限定的な利用データを収集・利用する場合があります。詳しくは<a href=\"https://policies.google.com/privacy\">Googleプライバシーポリシー</a>および<a href=\"https://policies.google.com/technologies/partner-sites\">Googleのサービスを利用するアプリのデータ利用について</a>をご覧ください。これ以外の第三者の解析・追跡SDKは使用せず、データをその他の方法で販売・共有することもありません。端末の設定で広告IDのリセットや広告のパーソナライズ解除ができます。"],
-      ["権限","本アプリは連絡先・位置情報・カメラ・マイク・ファイルにアクセスしません。将来追加される任意機能（例：ローカル通知）は明示され、任意のままです。"],
-      ["子どもについて","本アプリは全年齢対象で、子どもを含む誰からも個人情報を収集しません。"],
+      ["広告（Google AdMob）","本アプリはGoogle AdMobを通じて3種類の広告を表示します：画面下部のバナー広告、モードセッション終了後にときどき表示される全画面広告（最短3分間隔）、そしてボーナスXPのためにあなたが自ら選んで視聴するリワード広告です。広告配信のため、Googleおよびそのパートナーは次の情報を収集・利用する場合があります：",
+        ["端末の広告識別子（Android広告ID）","IPアドレスとそこから推定されるおおよその位置","端末・アプリ情報（機種、OSバージョン、言語、アプリバージョン）","広告の操作データ（表示・クリック）およびSDKの診断情報"],
+        "Googleはこれらの情報を広告の配信・測定、（許可されている場合の）パーソナライズ、不正防止に使用します。詳しくは"+a(G_PRIV,"Googleプライバシーポリシー")+"および"+a(G_PARTNER,"Googleのサービスを使用するサイトやアプリから収集した情報の利用について")+"をご覧ください。当方はこれらの情報を受け取らず、その他の解析・追跡SDKも使用しません。端末の広告設定で広告IDのリセット・削除や、パーソナライズ広告の無効化ができます。"],
+      ["広告の同意（欧州など）","欧州経済領域（EEA）・英国・スイスにお住まいの方には、広告をリクエストする前にGoogleの同意メッセージが表示され、広告はあなたの選択に従ってのみリクエストされます。選択を変更するには、アプリを再インストールするかアプリのデータを削除すると、同意メッセージが再度表示されます。"],
+      ["iPhone・iPad（トラッキングなし）","iOSでは、本アプリはトラッキングの許可（App Tracking Transparency）を求めず、他社のアプリやウェブサイトをまたいであなたを追跡しません。この許可がない場合、端末の広告識別子（IDFA）は本アプリもGoogleも利用できません。"],
+      ["権限","Androidでは、本アプリはインターネットアクセスと広告ID権限（<code>com.google.android.gms.permission.AD_ID</code>）のみを要求し、どちらも広告表示にのみ使用します。連絡先・位置情報・カメラ・マイク・写真・ファイルにはアクセスしません。将来追加される任意機能（例：ローカル通知）は明示され、任意のままです。"],
+      ["データの安全性","アプリのデータは端末内にあり、端末自体のセキュリティで保護されます。広告SDKとGoogleとの通信には暗号化された接続（HTTPS）が使われます。"],
+      ["子どもについて","本アプリは全年齢対象です。当方は子どもを含む誰からも個人情報を収集せず、広告はGoogleのポリシーに従って配信されます。"],
       ["MBTIに関する注意","アプリのMBTI関連の内容は自己理解と推薦のための参考情報であり、心理診断ではありません。高いレベルは使用経験を示すもので、人物評価ではありません。"],
+      ["あなたの権利とお問い合わせ","当方は個人情報を保有していないため、当方側で開示・訂正・削除する情報はありません。アプリのデータはあなたの端末にあり、ご自身で管理できます（第3項）。Googleが広告に使用するデータは"+a(G_ADC,"Googleのマイ アド センター")+"で管理できます。お問い合わせ・ご請求："+MAIL],
       ["ポリシーの変更","本ポリシーを変更した場合、上記の施行日を更新します。変更後の継続利用は改定への同意とみなされます。"]
     ]},
-  zh:{ title:"隐私政策", eff:"生效日期：2026年8月2日",
-    sumL:"简而言之：", sum:"MBTI 16MODE 是离线优先的应用。您创建的记录、进度和设置<strong>仅保存在您的设备上</strong>，我们绝不出售您的数据。唯一的例外是 <strong>Google AdMob</strong> 横幅广告，为投放广告可能会使用设备的广告 ID。",
+
+  zh:{ title:"隐私政策", eff:"生效日期：2026年10月3日",
+    sumL:"简而言之：", sum:"MBTI 16MODE 是离线优先的应用。您创建的昵称、进度和设置<strong>仅保存在您的设备上</strong>。我们不运营服务器、没有账户，也绝不出售您的数据。唯一会离开您设备的，是 <strong>Google AdMob</strong> 为展示广告（横幅、全屏及可选的激励广告）所使用的信息。",
     s:[
-      ["我们收集的信息","我们不会在任何服务器上收集个人信息。本应用没有账户，也从不要求登录。"],
+      ["我们收集的信息","我们（开发者）不收集、不接收、也不存储任何个人信息。本应用没有账户、无需登录，也没有自己的服务器。"],
       ["保存在设备上的数据","为使应用正常运行，以下信息<strong>仅保存在您的设备本地</strong>：",
         ["您可选填的昵称","您选择的基础模式与成长目标","进度：经验值、等级、连续天数、已完成任务、已获得徽章","设置：语言、通知、声音"],
         "这些数据不会离开您的设备，我们或任何第三方都无法访问。"],
       ["删除您的数据","可随时通过 <code>我的资料 → 数据 → 重置数据</code> 全部清除，或卸载应用。"],
-      ["广告与第三方","MBTI 16MODE 通过 <strong>Google AdMob</strong> 展示横幅广告。为投放广告，Google 及其合作伙伴可能会收集并使用包括<strong>广告 ID</strong> 在内的设备标识符及有限的使用数据，详见 <a href=\"https://policies.google.com/privacy\">Google 隐私政策</a> 与 <a href=\"https://policies.google.com/technologies/partner-sites\">Google 如何使用来自其服务的应用的数据</a>。除此之外我们不使用任何第三方分析或追踪 SDK，也不会以其他方式出售或共享您的数据。您可在设备设置中重置广告 ID 或关闭个性化广告。"],
-      ["权限","本应用不访问您的通讯录、位置、相机、麦克风或文件。日后新增的可选功能（如本地提醒）将明确说明并保持可选。"],
-      ["儿童","本应用适合所有年龄，且不会有意收集包括儿童在内任何人的个人信息。"],
+      ["广告（Google AdMob）","本应用通过 Google AdMob 展示三种广告：屏幕底部的横幅广告；完成模式练习后偶尔出现的全屏广告（至少间隔 3 分钟）；以及由您自主选择观看以获得额外 XP 的激励广告。为投放广告，Google 及其合作伙伴可能会收集并使用以下信息：",
+        ["设备广告标识符（Android 广告 ID）","IP 地址及据此推断的大致位置","设备与应用信息（机型、系统版本、语言、应用版本）","广告互动数据（展示、点击）及 SDK 诊断信息"],
+        "Google 将这些信息用于广告投放与衡量、（在允许的情况下）个性化广告以及防止欺诈，详见 "+a(G_PRIV,"Google 隐私政策")+" 与 "+a(G_PARTNER,"Google 如何使用来自使用其服务的网站或应用的信息")+"。我们不会收到这些信息，也不使用任何其他分析或追踪 SDK。您可以在设备的广告设置中重置或删除广告 ID，或关闭个性化广告。"],
+      ["广告同意（欧洲等地区）","如果您位于欧洲经济区（EEA）、英国或瑞士，应用会在请求任何广告之前显示 Google 的同意提示，并仅按照您的选择请求广告。如需更改选择，请重新安装应用或清除应用数据，同意提示将再次出现。"],
+      ["iPhone 与 iPad（不追踪）","在 iOS 上，本应用不会请求追踪许可（App Tracking Transparency），也不会在其他公司的应用或网站之间追踪您。在没有该许可的情况下，应用和 Google 都无法使用设备的广告标识符（IDFA）。"],
+      ["权限","在 Android 上，本应用仅请求网络访问权限和广告 ID 权限（<code>com.google.android.gms.permission.AD_ID</code>），二者都只用于展示广告。本应用不访问您的通讯录、位置、相机、麦克风、照片或文件。日后新增的可选功能（如本地提醒）将明确说明并保持可选。"],
+      ["数据安全","应用数据仅保存在您的设备上，并受设备自身安全机制保护。广告 SDK 与 Google 之间的通信使用加密连接（HTTPS）。"],
+      ["儿童","本应用适合所有年龄。我们不会收集包括儿童在内任何人的个人信息，广告依照 Google 的政策提供。"],
       ["MBTI 免责声明","应用中的 MBTI 相关内容仅供自我理解与推荐参考，并非心理诊断。较高等级代表使用经验，而非对个人的评判。"],
+      ["您的权利与联系方式","由于我们不保存任何个人信息，我们这边没有可供查阅、更正或删除的数据。应用数据保存在您的设备上，由您自行管理（第 3 条）。Google 用于广告的数据可在 "+a(G_ADC,"Google 我的广告中心")+" 管理。问题或请求："+MAIL],
       ["政策变更","若本政策变更，我们会更新上方生效日期。变更后继续使用即表示接受更新后的政策。"]
     ]},
-  ru:{ title:"Политика конфиденциальности", eff:"Действует с 2 августа 2026 г.",
-    sumL:"Коротко:", sum:"MBTI 16MODE работает офлайн: созданные вами записи, прогресс и настройки хранятся <strong>только на вашем устройстве</strong>, и мы никогда не продаём ваши данные. Единственное исключение — баннерная реклама через <strong>Google AdMob</strong>, которая может использовать рекламный идентификатор устройства для показа рекламы.",
+
+  ru:{ title:"Политика конфиденциальности", eff:"Действует с 3 октября 2026 г.",
+    sumL:"Коротко:", sum:"MBTI 16MODE работает офлайн: созданные вами никнейм, прогресс и настройки хранятся <strong>только на вашем устройстве</strong>. У нас нет серверов и учётных записей, и мы никогда не продаём ваши данные. Устройство покидают только данные, которые <strong>Google AdMob</strong> использует для показа рекламы (баннерной, полноэкранной и необязательной рекламы с вознаграждением).",
     s:[
-      ["Какие данные мы собираем","Мы не собираем персональные данные ни на каком сервере. В приложении нет учётных записей и не требуется вход."],
+      ["Какие данные мы собираем","Мы (разработчик) не собираем, не получаем и не храним никаких персональных данных. В приложении нет учётных записей и входа, и у него нет собственного сервера."],
       ["Данные на вашем устройстве","Для работы приложение сохраняет следующее <strong>только на вашем устройстве</strong>:",
         ["Никнейм, который вы вводите по желанию","Выбранный базовый режим и цели роста","Прогресс: опыт, уровни, серии, выполненные квесты, значки","Настройки: язык, уведомления, звук"],
         "Эти данные не покидают устройство и недоступны ни нам, ни третьим лицам."],
       ["Удаление данных","Удалите всё в любой момент через <code>Профиль → Данные → Сбросить данные</code> или удалив приложение."],
-      ["Реклама и третьи стороны","MBTI 16MODE показывает баннерную рекламу через <strong>Google AdMob</strong>. Для показа рекламы Google и его партнёры могут собирать и использовать идентификаторы устройства, включая <strong>рекламный идентификатор</strong>, и ограниченные данные об использовании, как описано в <a href=\"https://policies.google.com/privacy\">Политике конфиденциальности Google</a> и в документе <a href=\"https://policies.google.com/technologies/partner-sites\">о том, как Google использует данные приложений, использующих его сервисы</a>. Других сторонних SDK аналитики или отслеживания мы не используем и иным образом ваши данные не продаём и не передаём. Вы можете сбросить рекламный идентификатор или отключить персонализацию рекламы в настройках устройства."],
-      ["Разрешения","Приложение не обращается к контактам, геолокации, камере, микрофону или файлам. Любые будущие необязательные функции (например, локальные напоминания) будут чётко описаны и останутся необязательными."],
-      ["Дети","Приложение подходит для всех возрастов и сознательно не собирает персональные данные ни у кого, включая детей."],
+      ["Реклама (Google AdMob)","Приложение показывает три вида рекламы через Google AdMob: баннер внизу экрана, иногда полноэкранную рекламу после завершения сессии режима (не чаще раза в 3 минуты) и рекламу с вознаграждением, которую вы смотрите только по своему желанию, чтобы получить бонусный XP. Для показа рекламы Google и его партнёры могут собирать и использовать:",
+        ["рекламный идентификатор устройства (Android Advertising ID)","IP-адрес и примерное местоположение, определённое по нему","сведения об устройстве и приложении (модель, версия ОС, язык, версия приложения)","данные о взаимодействии с рекламой (показы, нажатия) и диагностику SDK"],
+        "Google использует эти данные для показа и измерения рекламы, её персонализации (если это разрешено) и предотвращения мошенничества — см. "+a(G_PRIV,"Политику конфиденциальности Google")+" и "+a(G_PARTNER,"как Google использует информацию с сайтов и из приложений, использующих его сервисы")+". Мы эти данные не получаем и не используем других SDK аналитики или отслеживания. В рекламных настройках устройства можно сбросить или удалить рекламный идентификатор либо отключить персонализированную рекламу."],
+      ["Согласие на рекламу (Европа и др.)","Если вы находитесь в Европейской экономической зоне, Великобритании или Швейцарии, перед любым запросом рекламы приложение показывает форму согласия Google, и реклама запрашивается только в соответствии с вашим выбором. Чтобы изменить выбор, переустановите приложение или очистите его данные — форма согласия появится снова."],
+      ["iPhone и iPad (без отслеживания)","На iOS приложение не запрашивает разрешение на отслеживание (App Tracking Transparency) и не отслеживает вас в приложениях и на сайтах других компаний. Без этого разрешения рекламный идентификатор устройства (IDFA) недоступен ни приложению, ни Google."],
+      ["Разрешения","На Android приложение запрашивает только доступ в интернет и разрешение на рекламный идентификатор (<code>com.google.android.gms.permission.AD_ID</code>) — оба используются только для показа рекламы. Приложение не обращается к контактам, геолокации, камере, микрофону, фото или файлам. Любые будущие необязательные функции (например, локальные напоминания) будут чётко описаны и останутся необязательными."],
+      ["Безопасность данных","Данные приложения хранятся только на устройстве и защищены его собственными средствами безопасности. Обмен данными между рекламным SDK и Google идёт по зашифрованному соединению (HTTPS)."],
+      ["Дети","Приложение подходит для всех возрастов. Мы не собираем персональные данные ни у кого, включая детей; реклама показывается в соответствии с политиками Google."],
       ["Оговорка о MBTI","Контент в стиле MBTI служит только для самопонимания и рекомендаций — это не психологический диагноз. Высокий уровень отражает опыт использования, а не оценку человека."],
+      ["Ваши права и контакты","Поскольку мы не храним персональные данные, у нас нет сведений, которые можно было бы предоставить, исправить или удалить. Данные приложения находятся на вашем устройстве, и вы управляете ими сами (раздел 3). Данными, которые Google использует для рекламы, можно управлять в "+a(G_ADC,"Моём рекламном центре Google")+". Вопросы и запросы: "+MAIL+"."],
       ["Изменения политики","При изменении политики мы обновим дату вступления в силу выше. Продолжение использования означает согласие с обновлённой политикой."]
     ]},
-  fil:{ title:"Patakaran sa Privacy", eff:"Epektibo mula Agosto 2, 2026",
-    sumL:"Sa madaling salita:", sum:"Offline-first ang MBTI 16MODE: ang mga tala, progreso at setting na ginagawa mo ay nananatili <strong>sa iyong device</strong> at hindi namin ibinebenta ang iyong datos. Ang tanging eksepsiyon ay ang banner ads sa pamamagitan ng <strong>Google AdMob</strong>, na maaaring gumamit ng Advertising ID ng iyong device para magpakita ng ads.",
+
+  fil:{ title:"Patakaran sa Privacy", eff:"Epektibo mula Oktubre 3, 2026",
+    sumL:"Sa madaling salita:", sum:"Offline-first ang MBTI 16MODE: ang palayaw, progreso at setting na ginagawa mo ay nananatili <strong>sa iyong device</strong>. Wala kaming server o account, at hindi namin ibinebenta ang iyong datos. Ang tanging datos na lumalabas sa iyong device ay ang ginagamit ng <strong>Google AdMob</strong> para magpakita ng ads (banner, full-screen at opsyonal na rewarded ads).",
     s:[
-      ["Impormasyong kinokolekta namin","Wala kaming kinokolektang personal na impormasyon sa anumang server. Walang account ang app at hindi kailanman humihingi ng sign-in."],
+      ["Impormasyong kinokolekta namin","Kami (ang developer) ay hindi nangongolekta, tumatanggap, o nag-iimbak ng anumang personal na impormasyon. Walang account o sign-in ang app, at wala itong sariling server."],
       ["Datos na nasa iyong device","Para gumana, ini-save ng app ang sumusunod <strong>sa iyong device lamang</strong>:",
         ["Palayaw na opsyonal mong ilalagay","Ang piniling base mode at growth goals","Progreso: XP, level, streak, natapos na quest, nakuhang badge","Mga setting: wika, abiso, tunog"],
         "Hindi umaalis sa device ang datos na ito at hindi ito ma-access namin o ng sinuman."],
       ["Pagbura ng datos","Burahin lahat anumang oras sa <code>Profile → Data → I-reset ang Data</code>, o sa pag-uninstall ng app."],
-      ["Advertising at third party","Nagpapakita ang MBTI 16MODE ng banner ads sa pamamagitan ng <strong>Google AdMob</strong>. Para maghatid ng ads, maaaring mangolekta at gumamit ang Google at mga partner nito ng mga device identifier — kabilang ang iyong <strong>Advertising ID</strong> — at limitadong usage data, gaya ng nakasaad sa <a href=\"https://policies.google.com/privacy\">Google Privacy Policy</a> at kung <a href=\"https://policies.google.com/technologies/partner-sites\">paano ginagamit ng Google ang datos mula sa mga app na gumagamit ng serbisyo nito</a>. Wala kaming ibang third-party analytics o tracking SDK, at hindi namin ibinebenta o ibinabahagi sa ibang paraan ang iyong datos. Puwede mong i-reset ang Advertising ID o i-opt out sa personalized ads sa settings ng device."],
-      ["Mga pahintulot","Hindi ina-access ng app ang iyong contacts, location, camera, mikropono, o files. Ang anumang opsyonal na feature sa hinaharap (hal. lokal na paalala) ay malinaw na ipapaliwanag at mananatiling opsyonal."],
-      ["Mga bata","Angkop sa lahat ng edad ang app at hindi sadyang nangongolekta ng personal na impormasyon mula kaninuman, kabilang ang mga bata."],
+      ["Advertising (Google AdMob)","Nagpapakita ang app ng tatlong uri ng ads sa pamamagitan ng Google AdMob: banner sa ibaba ng screen, paminsan-minsang full-screen ad pagkatapos mong tapusin ang isang mode session (hindi lalampas sa isang beses bawat 3 minuto), at rewarded ad na pinipili mong panoorin para sa bonus XP. Para maghatid ng ads, maaaring mangolekta at gumamit ang Google at mga partner nito ng:",
+        ["Advertising identifier ng device (Android Advertising ID)","IP address at tinatayang lokasyon mula rito","Impormasyon ng device at app (modelo, bersyon ng OS, wika, bersyon ng app)","Datos ng interaksyon sa ads (impression, click) at diagnostics ng SDK"],
+        "Ginagamit ng Google ang datos na ito para maghatid at sukatin ang ads, mag-personalize kung pinapayagan, at pigilan ang panloloko, gaya ng nakasaad sa "+a(G_PRIV,"Google Privacy Policy")+" at kung "+a(G_PARTNER,"paano ginagamit ng Google ang impormasyon mula sa mga site o app na gumagamit ng serbisyo nito")+". Hindi namin natatanggap ang datos na ito, at wala kaming ibang analytics o tracking SDK. Sa ad settings ng iyong device, puwede mong i-reset o i-delete ang Advertising ID o i-off ang personalized ads."],
+      ["Pahintulot sa ads (Europe at iba pa)","Kung nasa European Economic Area, United Kingdom o Switzerland ka, ipinapakita ng app ang consent message ng Google bago humiling ng anumang ad, at humihiling lang ito ng ads ayon sa iyong pinili. Para baguhin ang iyong pinili, i-reinstall ang app o i-clear ang datos nito at lalabas muli ang consent message."],
+      ["iPhone at iPad (walang tracking)","Sa iOS, hindi humihingi ang app ng pahintulot sa tracking (App Tracking Transparency) at hindi ka nito sinusubaybayan sa mga app o website ng ibang kumpanya. Kung wala ang pahintulot na ito, hindi magagamit ng app o ng Google ang advertising identifier ng iyong device (IDFA)."],
+      ["Mga pahintulot","Sa Android, humihingi lang ang app ng internet access at ng Advertising ID permission (<code>com.google.android.gms.permission.AD_ID</code>), at pareho itong para lang sa ads. Hindi ina-access ng app ang iyong contacts, location, camera, mikropono, photos o files. Ang anumang opsyonal na feature sa hinaharap (hal. lokal na paalala) ay malinaw na ipapaliwanag at mananatiling opsyonal."],
+      ["Seguridad ng datos","Nasa iyong device lang ang datos ng app at protektado ng sariling seguridad ng device. Gumagamit ng encrypted na koneksyon (HTTPS) ang komunikasyon ng ads SDK at Google."],
+      ["Mga bata","Angkop sa lahat ng edad ang app. Hindi kami nangongolekta ng personal na impormasyon mula kaninuman, kabilang ang mga bata, at inihahatid ang ads ayon sa mga patakaran ng Google."],
       ["Paunawa sa MBTI","Ang MBTI-style na nilalaman ay para sa pag-unawa sa sarili at rekomendasyon lamang — hindi ito psychological diagnosis. Ang mas mataas na level ay karanasan sa paggamit, hindi paghatol sa tao."],
+      ["Iyong mga karapatan at pakikipag-ugnayan","Dahil wala kaming hawak na personal na datos, wala kaming maipapakita, maitatama, o mabubura sa aming panig. Nasa iyong device ang datos ng app at ikaw ang may kontrol dito (seksyon 3). Ang datos na ginagamit ng Google para sa ads ay mapapamahalaan sa "+a(G_ADC,"My Ad Center ng Google")+". Mga tanong o kahilingan: "+MAIL+"."],
       ["Mga pagbabago sa patakaran","Kung magbabago ang patakarang ito, ia-update namin ang petsa sa itaas. Ang patuloy na paggamit pagkatapos ng pagbabago ay pagtanggap sa na-update na patakaran."]
     ]}
 };
@@ -158,6 +204,7 @@ const docEl = document.getElementById("doc");
 function render(code){
   const t = T[code] || T.en;
   document.documentElement.setAttribute("lang", code);
+  document.title = t.title + " — MBTI 16MODE";
   document.getElementById("h1").textContent = t.title;
   document.getElementById("eff").textContent = t.eff;
   let html = '<div class="summary"><strong>'+t.sumL+'</strong> '+t.sum+'</div>';
@@ -176,12 +223,21 @@ function render(code){
 }
 LANGS.forEach(function(l){
   const b = document.createElement("button");
-  b.textContent = l[1]; b.dataset.code = l[0];
+  b.type = "button"; b.textContent = l[1]; b.dataset.code = l[0];
   b.addEventListener("click", function(){ render(l[0]); });
   langsEl.appendChild(b);
 });
-const nav = (navigator.language||"en").slice(0,2);
-render(T[nav] ? nav : "en");
+
+// Language: ?lang=xx or #xx (for store listings per language), else the browser language.
+function pickLang(){
+  const q = (new URLSearchParams(location.search).get("lang") || location.hash.slice(1) || "").toLowerCase();
+  if (T[q]) return q;
+  const nav = (navigator.language || "en").toLowerCase();
+  if (nav.startsWith("fil") || nav.startsWith("tl")) return "fil";
+  const two = nav.slice(0,2);
+  return T[two] ? two : "en";
+}
+render(pickLang());
 </script>
 
 </body>

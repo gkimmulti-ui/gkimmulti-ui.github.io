@@ -23,3 +23,19 @@ The self-hosted `Kenneth UI` font is a renamed, character-subset version of Pret
 The previous hourly sync replaced `index.html` and the entire `images/` directory from `KennethApp`. Scheduled overwrite is now disabled so it cannot erase this redesign. The old manual workflow is retained with an explicit, default-off `confirm_overwrite` input. Running it replaces the homepage with the old upstream source; use only for an intentional restore.
 
 The catalog currently contains 13 apps. Quiz Aura, Snap Clean: Photo Cleaner, and LUMI DAY - Diary & Journal were added as Android-only apps. 마음장부, 로또, and Light Wall have verified App Store links. Light Wall is listed as LightWal on the App Store; its description distinguishes the Android lock screen from the iPhone widget app.
+
+## Store badges and QR codes
+
+Each app has a download section with official localized Google Play / App Store badge images, a scannable QR code, and a QR image download link. Apps without an App Store URL display a localized “Coming soon” panel. They do not show an active App Store download badge or QR code.
+
+Badge originals are stored in `assets/store-badges/`; their official source URLs are recorded in `data/store-badges.json`. Their proportions and artwork are preserved. QR codes are local PNGs in `assets/store-qr/`, with exact destination URLs in `data/store-qr.json`. There is no third-party QR service, redirect, or tracking dependency.
+
+When adding or changing a store URL, run:
+
+```sh
+python -m pip install 'qrcode[pil]==8.2'
+python scripts/generate-store-qr.py
+node scripts/build.cjs
+```
+
+Commit the QR images and manifest with the generated homepage. The build rejects missing or stale QR codes. To mark an App Store release, set `appStoreUrl` in `data/apps.json` and regenerate; the active badge and QR replace the upcoming panel automatically. All download links and QR images work without JavaScript.

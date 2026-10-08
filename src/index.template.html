@@ -89,11 +89,11 @@
     }
   ]
 }</script>
-  <link rel="preload" as="font" href="assets/fonts/kenneth-ui.woff2?v=20261003-apps" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="assets/home.css?v=20261003-apps" />
+  <link rel="preload" as="font" href="assets/fonts/kenneth-ui.woff2?v=20261008-stores" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="assets/home.css?v=20261008-stores" />
   <link rel="preload" as="image" href="images/screenshots/snaplog-01.webp" fetchpriority="high" />
-  <script src="assets/catalog.js?v=20261003-apps" defer></script>
-  <script src="assets/home.js?v=20261003-apps" defer></script>
+  <script src="assets/catalog.js?v=20261008-stores" defer></script>
+  <script src="assets/home.js?v=20261008-stores" defer></script>
 </head>
 <body data-homepage-version="2026-10-redesign">
   <a class="skip-link" href="#main" data-i18n="skip"></a>
@@ -123,7 +123,7 @@
       <div class="section-heading"><div><div class="eyebrow" data-i18n="apps.eyebrow"></div><h2 id="apps-title" data-i18n="apps.title"></h2><p data-i18n="apps.desc"></p></div><span class="collection-number" aria-hidden="true">{{APP_RANGE}}</span></div>
       <div class="catalog-tools"><div id="app-filters" class="app-filters">{{FILTERS}}</div><div class="search-tools">
         <label class="search-box"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.5"/></svg><span class="sr-only" data-i18n="search.label"></span><input type="search" id="app-search" placeholder="앱 이름이나 기능 검색" autocomplete="off" /></label>
-        <select id="platform" class="platform-select" aria-label="Device"><option value="all" data-i18n="platform.all"></option><option value="ios">iPhone / iPad</option></select>
+        <select id="platform" class="platform-select" aria-label="다운로드 스토어" data-i18n-label="store.filter"><option value="all" data-i18n="platform.all"></option><option value="play" data-i18n="store.play"></option><option value="appstore" data-i18n="store.appstore"></option></select>
       </div></div>
       <div class="catalog-status"><span id="result-count" role="status" aria-live="polite">{{APP_COUNT}}개 앱</span><span class="status-note"><i aria-hidden="true"></i><span data-i18n="gallery.label"></span></span></div>
       <div class="app-grid" id="app-grid">{{CARDS}}</div>

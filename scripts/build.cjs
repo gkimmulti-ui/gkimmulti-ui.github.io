@@ -3,6 +3,14 @@ const path=require('node:path');
 const root=path.join(__dirname,'..');
 const apps=require('../data/apps.json');
 const translations=require('../data/translations.json');
+// Store links and the locally generated QR codes must stay in sync.
+const qrManifest=require('../data/store-qr.json');
+for(const app of apps) for(const [store,key] of [['play','playUrl'],['appstore','appStoreUrl']]) {
+ const qr=qrManifest.find(entry=>entry.app===app.slug&&entry.store===store);
+ if(app[key] ? (!qr||qr.url!==app[key]||!fs.existsSync(path.join(root,qr.image))) : qr) {
+  throw new Error(`QR code out of date for ${app.slug}/${store}. Run python scripts/generate-store-qr.py.`);
+ }
+}
 const {card,filters,escape}=require('../assets/home.js');
 let html=fs.readFileSync(path.join(root,'src/index.template.html'),'utf8');
 html=html.replaceAll('{{APP_COUNT}}',String(apps.length)).replaceAll('{{APP_RANGE}}','01—'+String(apps.length).padStart(2,'0'));

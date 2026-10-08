@@ -11,19 +11,26 @@
   const local = (value, lang) => typeof value === 'object' && !Array.isArray(value) ? value[lang] ?? value.en ?? value.ko : value;
   const t = (key, lang) => data.translations[lang][key] ?? data.translations.en[key] ?? '';
   const arrow = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  const play = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3.8c0-.6.7-1 1.2-.7l13.4 8.2a.8.8 0 0 1 0 1.4L5.2 20.9c-.5.3-1.2-.1-1.2-.7V3.8Z"/></svg>';
-  const apple = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.4 12.6c0-2.2 1.8-3.3 1.9-3.4-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.7.9-3.4.9-.7 0-1.8-.9-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.8-.4 7 1.1 9.3.8 1.1 1.7 2.3 2.9 2.2 1.1 0 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.8-2.2c.9-1.3 1.3-2.6 1.3-2.7-.1 0-2.6-1-2.6-3.7ZM15.1 5.9c.6-.8 1.1-1.8 1-2.9-1 .1-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.8-1.4Z"/></svg>';
+  function storeOption(app, store, lang) {
+    const label = escape(t('store.'+store,lang));
+    const name = escape(local(app.name,lang));
+    const url = store==='play'?app.playUrl:app.appStoreUrl;
+    if(!url) return `<div class="store-option store-upcoming"><div class="upcoming-symbol" aria-hidden="true">◷</div><h5>${label}</h5><strong>${escape(t('store.soon',lang))}</strong><p>${escape(t('store.soonDetail',lang))}</p></div>`;
+    const qr = `assets/store-qr/${app.slug}-${store}.png`;
+    const badge = `assets/store-badges/${store}-${lang}.${store==='play'?'png':'svg'}`;
+    return `<div class="store-option"><div class="store-download"><h5>${label}</h5><a class="store-badge-link ${store}" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${name} · ${label} · ${escape(t('store.download',lang))}"><img src="${badge}" alt="${label} · ${escape(t('store.download',lang))}" loading="lazy" decoding="async"></a></div><div class="store-qr"><a class="qr-link" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${name} · ${label} · ${escape(t('store.open',lang))}"><img src="${qr}" alt="${name} · ${label} ${escape(t('store.qr',lang))}" width="144" height="144" loading="lazy" decoding="async"></a><a class="qr-save" href="${qr}" download="${app.slug}-${store}-qr.png" aria-label="${name} · ${label} · ${escape(t('store.saveQr',lang))}">${escape(t('store.saveQr',lang))} <span aria-hidden="true">↓</span></a></div></div>`;
+  }
   function card(app, lang) {
     const name = escape(local(app.name, lang));
     const shots = app.screenshots;
     const gallery = shots.map((s,i) => `<a class="screen-link" href="${s.src}" data-shot="${i}" data-app="${app.slug}" aria-label="${name} · ${escape(t('gallery.open',lang))} ${i+1} · ${s.platform}"><img src="${s.thumb}" alt="${name} · ${escape(t('gallery.label',lang))} ${i+1} (${s.platform})" width="${s.width}" height="${s.height}" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span>${s.platform==='App Store'?'<span class="screen-platform">iPhone</span>':''}</a>`).join('');
     return `<article class="app-card tone-${app.tone}" id="app-${app.slug}" aria-labelledby="name-${app.slug}">
-      <div class="app-head"><img class="app-icon" src="${escape(app.icon)}" alt="" width="52" height="52" loading="lazy"><div class="app-name"><h3 id="name-${app.slug}">${name}</h3><p>${escape(local(app.category,lang))}</p></div><span class="platform-badge">${app.appStoreUrl?'Android + iOS':'Android'}</span></div>
+      <div class="app-head"><img class="app-icon" src="${escape(app.icon)}" alt="" width="52" height="52" loading="lazy"><div class="app-name"><h3 id="name-${app.slug}">${name}</h3><p>${escape(local(app.category,lang))}</p></div></div>
       <div class="gallery-wrap"><div class="screenshot-track" id="gallery-${app.slug}" role="group" aria-label="${name} · ${escape(t('gallery.label',lang))}">${gallery}</div>
       <div class="gallery-footer"><span>${escape(t('gallery.hint',lang))}</span><div class="gallery-controls"><button class="icon-btn gallery-prev" type="button" data-gallery="${app.slug}" data-direction="-1" aria-label="${name} · ${escape(t('gallery.prev',lang))}">${arrow}</button><button class="icon-btn" type="button" data-gallery="${app.slug}" data-direction="1" aria-label="${name} · ${escape(t('gallery.next',lang))}">${arrow}</button></div></div></div>
       <div class="app-copy"><h4>${escape(local(app.headline,lang))}</h4><p class="app-desc">${escape(local(app.desc,lang))}</p><ul class="app-tags">${(local(app.tags,lang)||[]).map(tag=>`<li>${escape(tag)}</li>`).join('')}</ul>
       ${app.note?`<details class="app-note"><summary>${escape(t('details',lang))}</summary><p>${escape(local(app.note,lang))}</p></details>`:''}
-      <div class="app-links"><a class="store-btn" href="${escape(app.playUrl)}" target="_blank" rel="noopener noreferrer">${play}<span>Google Play</span>${arrow}</a>${app.appStoreUrl?`<a class="store-btn secondary" href="${escape(app.appStoreUrl)}" target="_blank" rel="noopener noreferrer">${apple}<span>App Store</span>${arrow}</a>`:''}</div></div></article>`;
+      <div class="app-downloads"><p class="download-hint">${escape(t('store.hint',lang))}</p><div class="store-options">${app.appStoreUrl?storeOption(app,'appstore',lang)+storeOption(app,'play',lang):storeOption(app,'play',lang)+storeOption(app,'appstore',lang)}</div></div></div></article>`;
   }
   function filters(lang, selected='all') {
     return groups.map(g=>`<button class="filter-chip${g===selected?' active':''}" type="button" data-filter="${g}" aria-pressed="${g===selected}">${escape(t('filter.'+g,lang))}${g==='all'?`<span>${data.apps.length}</span>`:''}</button>`).join('');
@@ -45,7 +52,7 @@
   let currentApp=null, currentShot=0, lastTrigger=null;
   function renderApps() {
     const query=search.value.trim().toLocaleLowerCase();
-    const apps=data.apps.filter(app=> (activeGroup==='all'||app.group===activeGroup) && (platform.value!=='ios'||app.appStoreUrl) && (!query||[local(app.name,lang),local(app.category,lang),local(app.desc,lang),...local(app.tags,lang)].join(' ').toLocaleLowerCase().includes(query)));
+    const apps=data.apps.filter(app=> (activeGroup==='all'||app.group===activeGroup) && (platform.value!=='appstore'||app.appStoreUrl) && (platform.value!=='play'||app.playUrl) && (!query||[local(app.name,lang),local(app.category,lang),local(app.desc,lang),...local(app.tags,lang)].join(' ').toLocaleLowerCase().includes(query)));
     grid.innerHTML=apps.map(app=>card(app,lang)).join('');
     document.getElementById('result-count').textContent=apps.length+' '+t('results',lang);
     document.getElementById('empty-state').hidden=apps.length!==0;

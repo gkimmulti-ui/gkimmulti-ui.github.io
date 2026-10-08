@@ -1,0 +1,98 @@
+[
+  {
+    "app": "quizaura",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.simquiz",
+    "image": "assets/store-qr/quizaura-play.png"
+  },
+  {
+    "app": "snapclean",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.snapclean",
+    "image": "assets/store-qr/snapclean-play.png"
+  },
+  {
+    "app": "lumiday",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.lumiday",
+    "image": "assets/store-qr/lumiday-play.png"
+  },
+  {
+    "app": "maeum",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.bujo.myapp",
+    "image": "assets/store-qr/maeum-play.png"
+  },
+  {
+    "app": "maeum",
+    "store": "appstore",
+    "url": "https://apps.apple.com/kr/app/%EB%B6%80%EC%A1%B0%EA%B8%88%EA%B4%80%EB%A6%AC-by-%EB%A7%88%EC%9D%8C%EC%9E%A5%EB%B6%80/id6787304594",
+    "image": "assets/store-qr/maeum-appstore.png"
+  },
+  {
+    "app": "snaplog",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.snaplog.myapp",
+    "image": "assets/store-qr/snaplog-play.png"
+  },
+  {
+    "app": "lightwall",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.lightwall",
+    "image": "assets/store-qr/lightwall-play.png"
+  },
+  {
+    "app": "lightwall",
+    "store": "appstore",
+    "url": "https://apps.apple.com/kr/app/lightwal/id6787111203",
+    "image": "assets/store-qr/lightwall-appstore.png"
+  },
+  {
+    "app": "holyground",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=holyground.myapp",
+    "image": "assets/store-qr/holyground-play.png"
+  },
+  {
+    "app": "chaengkim",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.chaengkim1.app",
+    "image": "assets/store-qr/chaengkim-play.png"
+  },
+  {
+    "app": "slimjoy",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.slimjoy",
+    "image": "assets/store-qr/slimjoy-play.png"
+  },
+  {
+    "app": "lightled",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.lightled",
+    "image": "assets/store-qr/lightled-play.png"
+  },
+  {
+    "app": "lotto",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.lotto",
+    "image": "assets/store-qr/lotto-play.png"
+  },
+  {
+    "app": "lotto",
+    "store": "appstore",
+    "url": "https://apps.apple.com/kr/app/id6806789389",
+    "image": "assets/store-qr/lotto-appstore.png"
+  },
+  {
+    "app": "kingdom",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=oneminutekingdom.myapp",
+    "image": "assets/store-qr/kingdom-play.png"
+  },
+  {
+    "app": "16mode",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.sixteenmode.app",
+    "image": "assets/store-qr/16mode-play.png"
+  }
+]

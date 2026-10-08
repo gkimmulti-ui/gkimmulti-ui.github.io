@@ -1,0 +1,79 @@
+{
+  "downloaded": "2026-10-08",
+  "googleGuidelines": "https://partnermarketinghub.withgoogle.com/brands/google-play/google-play/lockups-icons-badges/",
+  "appleGuidelines": "https://developer.apple.com/app-store/marketing/guidelines/",
+  "badges": [
+    {
+      "lang": "ko",
+      "store": "play",
+      "source": "https://play.google.com/intl/en_us/badges/static/images/badges/ko_badge_web_generic.png",
+      "file": "assets/store-badges/play-ko.png"
+    },
+    {
+      "lang": "ko",
+      "store": "appstore",
+      "source": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83",
+      "file": "assets/store-badges/appstore-ko.svg"
+    },
+    {
+      "lang": "en",
+      "store": "play",
+      "source": "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png",
+      "file": "assets/store-badges/play-en.png"
+    },
+    {
+      "lang": "en",
+      "store": "appstore",
+      "source": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83",
+      "file": "assets/store-badges/appstore-en.svg"
+    },
+    {
+      "lang": "ja",
+      "store": "play",
+      "source": "https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png",
+      "file": "assets/store-badges/play-ja.png"
+    },
+    {
+      "lang": "ja",
+      "store": "appstore",
+      "source": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83",
+      "file": "assets/store-badges/appstore-ja.svg"
+    },
+    {
+      "lang": "zh",
+      "store": "play",
+      "source": "https://play.google.com/intl/en_us/badges/static/images/badges/zh-cn_badge_web_generic.png",
+      "file": "assets/store-badges/play-zh.png"
+    },
+    {
+      "lang": "zh",
+      "store": "appstore",
+      "source": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-cn?size=250x83",
+      "file": "assets/store-badges/appstore-zh.svg"
+    },
+    {
+      "lang": "ru",
+      "store": "play",
+      "source": "https://play.google.com/intl/en_us/badges/static/images/badges/ru_badge_web_generic.png",
+      "file": "assets/store-badges/play-ru.png"
+    },
+    {
+      "lang": "ru",
+      "store": "appstore",
+      "source": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ru-ru?size=250x83",
+      "file": "assets/store-badges/appstore-ru.svg"
+    },
+    {
+      "lang": "fil",
+      "store": "play",
+      "source": "https://play.google.com/intl/en_us/badges/static/images/badges/fil_badge_web_generic.png",
+      "file": "assets/store-badges/play-fil.png"
+    },
+    {
+      "lang": "fil",
+      "store": "appstore",
+      "source": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/tl-ph?size=250x83",
+      "file": "assets/store-badges/appstore-fil.svg"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "savecity",
+    "platform": "Google Play",
+    "index": 2
+  },
+  {
+    "slug": "howlong",
+    "platform": "Google Play",
+    "index": 0
+  },
+  {
+    "slug": "starstock",
+    "platform": "Google Play",
+    "index": 3
+  },
+  {
+    "slug": "deepdig",
+    "platform": "Google Play",
+    "index": 4
+  },
+  {
+    "slug": "holyground",
+    "platform": "Google Play",
+    "index": 0
+  },
+  {
+    "slug": "maeum",
+    "platform": "App Store",
+    "index": 0
+  },
+  {
+    "slug": "lotto",
+    "platform": "App Store",
+    "index": 0
+  }
+]

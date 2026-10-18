@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   const data = typeof module !== 'undefined' && module.exports ? {
-    apps: require('../data/apps.json'), translations: require('../data/translations.json')
+    apps: require('../data/apps.json'), translations: require('../data/translations.json'), hero: require('../data/hero.json')
   } : KENNETH_DATA;
   const languages = ['ko', 'en', 'ja', 'zh', 'ru', 'fil'];
   const htmlLang = {ko:'ko', en:'en', ja:'ja', zh:'zh-CN', ru:'ru', fil:'fil'};
@@ -11,6 +11,21 @@
   const local = (value, lang) => typeof value === 'object' && !Array.isArray(value) ? value[lang] ?? value.en ?? value.ko : value;
   const t = (key, lang) => data.translations[lang][key] ?? data.translations.en[key] ?? '';
   const arrow = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  function heroEntries() {
+    const featured = data.hero.map(choice => {
+      const app = data.apps.find(app => app.slug === choice.slug);
+      const shot = app?.screenshots.filter(shot => shot.platform === choice.platform)[choice.index];
+      if (!shot) throw new Error('Hero screenshot missing: '+choice.slug+'. Update data/hero.json.');
+      return {app, shot};
+    });
+    return [...featured, ...data.apps.filter(app => !data.hero.some(choice => choice.slug === app.slug)).map(app => ({app, shot:app.screenshots[0]}))];
+  }
+  function heroSlides(lang) {
+    return heroEntries().map(({app,shot},index) => {
+      const name=escape(local(app.name,lang));
+      return `<li class="hero-slide tone-${app.tone}${shot.width>shot.height?' is-landscape':''}"><a class="hero-screen" href="#app-${app.slug}" aria-label="${name} · ${escape(t('hero.open',lang))}"><span class="hero-screen-image"><img src="${shot.thumb}" alt="${name} · ${escape(t('gallery.label',lang))} (${shot.platform})" width="${shot.width}" height="${shot.height}" loading="${index<6?'eager':'lazy'}" decoding="async"${index===0?' fetchpriority="high"':''}></span><span class="hero-screen-caption"><img src="${app.icon}" alt="" width="30" height="30" loading="lazy"><span><strong>${name}</strong><span>${escape(local(app.category,lang))}</span></span><span class="hero-screen-arrow" aria-hidden="true">↗</span></span></a></li>`;
+    }).join('');
+  }
   function storeOption(app, store, lang) {
     const label = escape(t('store.'+store,lang));
     const name = escape(local(app.name,lang));
@@ -35,7 +50,7 @@
   function filters(lang, selected='all') {
     return groups.map(g=>`<button class="filter-chip${g===selected?' active':''}" type="button" data-filter="${g}" aria-pressed="${g===selected}">${escape(t('filter.'+g,lang))}${g==='all'?`<span>${data.apps.length}</span>`:''}</button>`).join('');
   }
-  if (typeof module !== 'undefined' && module.exports) { module.exports={card,filters,escape}; return; }
+  if (typeof module !== 'undefined' && module.exports) { module.exports={card,filters,escape,heroEntries,heroSlides}; return; }
 
   let lang = new URLSearchParams(location.search).get('lang');
   if (!languages.includes(lang)) { try { lang=localStorage.getItem('kennethapp-lang'); } catch {} }
@@ -70,6 +85,7 @@
     document.getElementById('app-filters').innerHTML=filters(lang,activeGroup);
     document.getElementById('lang-picker').value=lang;
     renderApps();
+    renderHero();
   }
   function showShot() {
     const shot=currentApp.screenshots[currentShot];
@@ -85,7 +101,7 @@
     if(gallery){const track=document.getElementById('gallery-'+gallery.dataset.gallery);track.scrollBy({left:track.clientWidth*.8*Number(gallery.dataset.direction),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});return;}
     const link=event.target.closest('[data-shot]');
     if(!link||typeof dialog.showModal!=='function')return;
-    event.preventDefault();currentApp=data.apps.find(app=>app.slug===link.dataset.app);currentShot=Number(link.dataset.shot);lastTrigger=link;showShot();dialog.showModal();document.body.classList.add('viewer-open');
+    event.preventDefault();currentApp=data.apps.find(app=>app.slug===link.dataset.app);currentShot=Number(link.dataset.shot);lastTrigger=link;showShot();dialog.showModal();document.body.classList.add('viewer-open');syncHeroPlayback();
   });
   document.getElementById('viewer-prev').addEventListener('click',()=>step(-1));
   document.getElementById('viewer-next').addEventListener('click',()=>step(1));
@@ -108,9 +124,72 @@
     const url=new URL(location.href);if(lang==='ko')url.searchParams.delete('lang');else url.searchParams.set('lang',lang);
     history.replaceState(null,'',url);render();
   });
+  const showcase=document.getElementById('hero-showcase');
+  const heroTrack=document.getElementById('hero-track');
+  const heroToggle=document.getElementById('hero-toggle');
+  const motion=matchMedia('(prefers-reduced-motion: reduce)');
+  let heroPaused=motion.matches, heroHovered=false, heroVisible=false, heroTimer=null, heroFrame=0;
+  const heroPosition=document.getElementById('hero-position');
+  const heroStatus=document.getElementById('hero-status');
+  function updateHeroPosition() {
+    const bounds=heroTrack.getBoundingClientRect();
+    const visible=[...heroTrack.children].map((slide,index)=>({bounds:slide.getBoundingClientRect(),index})).filter(({bounds:r})=>Math.min(r.right,bounds.right)-Math.max(r.left,bounds.left)>r.width*.5);
+    if(!visible.length)return;
+    const first=visible[0].index+1, last=visible[visible.length-1].index+1;
+    heroPosition.textContent=String(first).padStart(2,'0')+(first===last?'':'–'+String(last).padStart(2,'0'))+' / '+heroTrack.children.length;
+    document.getElementById('hero-progress').style.setProperty('--progress',((heroTrack.scrollWidth-heroTrack.clientWidth<1?1:heroTrack.scrollLeft/(heroTrack.scrollWidth-heroTrack.clientWidth))*100)+'%');
+  }
+  function syncHeroPlayback() {
+    clearTimeout(heroTimer);
+    heroToggle.setAttribute('aria-label',t(heroPaused?'hero.play':'hero.pause',lang));
+    heroToggle.title=t(heroPaused?'hero.play':'hero.pause',lang);
+    heroToggle.dataset.paused=String(heroPaused);
+    if(!heroPaused&&!heroHovered&&heroVisible&&!document.hidden&&!dialog.open)heroTimer=setTimeout(()=>{moveHero(1);syncHeroPlayback();},5000);
+  }
+  function pauseHero() {heroPaused=true;syncHeroPlayback();}
+  function renderHero() {
+    const left=heroTrack.scrollLeft;
+    heroTrack.innerHTML=heroSlides(lang);
+    heroTrack.scrollLeft=left;
+    document.getElementById('hero-controls').hidden=false;
+    syncHeroPlayback();
+    requestAnimationFrame(updateHeroPosition);
+  }
+  function moveHero(direction,manual=false) {
+    if(manual)pauseHero();
+    const max=heroTrack.scrollWidth-heroTrack.clientWidth;
+    if(max<=0)return;
+    const padding=parseFloat(getComputedStyle(heroTrack).paddingLeft);
+    const trackLeft=heroTrack.getBoundingClientRect().left;
+    const offsets=[...heroTrack.children].map(slide=>slide.getBoundingClientRect().left-trackLeft+heroTrack.scrollLeft-padding);
+    const current=heroTrack.scrollLeft;
+    let target;
+    if(direction>0)target=current>=max-2?0:Math.min(max,offsets.find(offset=>offset>current+3)??max);
+    else target=current<=2?max:[...offsets].reverse().find(offset=>offset<current-3)??0;
+    heroTrack.scrollTo({left:target,behavior:motion.matches?'instant':'smooth'});
+  }
+  document.getElementById('hero-prev').addEventListener('click',()=>moveHero(-1,true));
+  document.getElementById('hero-next').addEventListener('click',()=>moveHero(1,true));
+  heroToggle.addEventListener('click',()=>{heroPaused=!heroPaused;syncHeroPlayback();});
+  heroTrack.addEventListener('scroll',()=>{cancelAnimationFrame(heroFrame);heroFrame=requestAnimationFrame(updateHeroPosition);},{passive:true});
+  heroTrack.addEventListener('scrollend',()=>{if(heroPaused)heroStatus.textContent=t('hero.position',lang)+': '+heroPosition.textContent;});
+  heroTrack.addEventListener('pointerdown',pauseHero,{passive:true});
+  heroTrack.addEventListener('wheel',pauseHero,{passive:true});
+  showcase.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse'){heroHovered=true;syncHeroPlayback();}});
+  showcase.addEventListener('pointerleave',()=>{heroHovered=false;syncHeroPlayback();});
+  showcase.addEventListener('focusin',event=>{if(event.target!==heroToggle)pauseHero();});
+  heroTrack.addEventListener('keydown',event=>{
+    if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();moveHero(event.key==='ArrowLeft'?-1:1,true);}
+  });
+  document.addEventListener('visibilitychange',syncHeroPlayback);
+  dialog.addEventListener('close',syncHeroPlayback);
+  motion.addEventListener('change',()=>{if(motion.matches)heroPaused=true;syncHeroPlayback();});
+  new IntersectionObserver(entries=>{heroVisible=entries[0].isIntersecting;syncHeroPlayback();},{threshold:.15}).observe(showcase);
+  new ResizeObserver(updateHeroPosition).observe(heroTrack);
   // Hero links still reach an app when a previous search has hidden its card.
-  document.querySelectorAll('a[href^="#app-"]').forEach(link=>link.addEventListener('click',()=>{
-    if(!document.getElementById(link.hash.slice(1))){activeGroup='all';search.value='';platform.value='all';render();}
-  }));
+  document.addEventListener('click',event=>{
+    const link=event.target.closest('a[href^="#app-"]');
+    if(link&&!document.getElementById(link.hash.slice(1))){activeGroup='all';search.value='';platform.value='all';document.getElementById('app-filters').innerHTML=filters(lang);renderApps();}
+  });
   render();
 })();

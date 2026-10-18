@@ -5,6 +5,7 @@ Static GitHub Pages homepage for https://gkimmulti-ui.github.io/.
 ## Update the homepage
 
 - App descriptions, localized copy, store links and screenshot metadata: `data/apps.json`
+- Featured hero order and screenshot selection: `data/hero.json`
 - Website text in Korean, English, Japanese, Chinese, Russian and Filipino: `data/translations.json`
 - Layout: `src/index.template.html`
 - Styles and interactions: `assets/home.css`, `assets/home.js`
@@ -51,3 +52,9 @@ node scripts/build.cjs
 ```
 
 Commit the QR images and manifest with the generated homepage. The build rejects missing or stale QR codes. To mark an App Store release, set `appStoreUrl` in `data/apps.json` and regenerate; the active badge and QR replace the upcoming panel automatically. All download links and QR images work without JavaScript.
+
+## Hero screenshot collection
+
+The top gallery shows one current store screenshot for every app. `data/hero.json` prioritizes new releases and updated galleries, with a zero-based screenshot index within the selected platform. The remaining apps are appended automatically using their first screenshot. Both static HTML and browser rendering read the same catalog metadata, so screenshot refreshes also update the hero. The build rejects featured selections that no longer exist.
+
+The gallery supports native touch scrolling, previous/next buttons, arrow keys, and a pause/play control. It advances every five seconds while visible, pauses on hover, and stops after keyboard focus or manual navigation. Reduced-motion preferences start it paused. App links restore filtered-out cards before navigating. All 17 screenshots and links also work without JavaScript.

@@ -8,7 +8,7 @@ Static GitHub Pages homepage for https://gkimmulti-ui.github.io/.
 - Website text in Korean, English, Japanese, Chinese, Russian and Filipino: `data/translations.json`
 - Layout: `src/index.template.html`
 - Styles and interactions: `assets/home.css`, `assets/home.js`
-- Source URLs for the 89 official store screenshots, checked 2026-10-03: `data/store-sources.json`
+- Current official screenshot URLs and per-store verification dates: `data/store-sources.json`
 
 Run `node scripts/build.cjs` after changing the template or data. Commit the generated `index.html` and `assets/catalog.js` together with source changes. No third-party runtime packages are needed. The initial Korean catalog is rendered in the HTML, so descriptions, image links and store links remain available without JavaScript.
 
@@ -22,7 +22,19 @@ The self-hosted `Kenneth UI` font is a renamed, character-subset version of Pret
 
 The previous hourly sync replaced `index.html` and the entire `images/` directory from `KennethApp`. Scheduled overwrite is now disabled so it cannot erase this redesign. The old manual workflow is retained with an explicit, default-off `confirm_overwrite` input. Running it replaces the homepage with the old upstream source; use only for an intentional restore.
 
-The catalog currently contains 13 apps. Quiz Aura, Snap Clean: Photo Cleaner, and LUMI DAY - Diary & Journal were added as Android-only apps. 마음장부, 로또, and Light Wall have verified App Store links. Light Wall is listed as LightWal on the App Store; its description distinguishes the Android lock screen from the iPhone widget app.
+The catalog currently contains 17 apps. SaveCity, HowLong?, Star Stock and Deep Dig were added on 2026-10-18, with localized descriptions, official screenshots and Google Play QR codes. All existing Google Play and App Store galleries were compared against their current listings. Identical phone/tablet screenshots are shown only once. The changed galleries are Holy Ground (Google Play), 마음장부 and 로또 (App Store).
+
+마음장부, 로또, and Light Wall have verified App Store links. As of 2026-10-18, 로또 is listed in the US App Store but its Korean listing returns 404; its button and QR use the verified US link and the card explains regional availability. Light Wall is listed as LightWal on the App Store; its description distinguishes the Android lock screen from the iPhone widget app.
+
+To check all catalog screenshots again, install the authoring-only dependencies and run:
+
+```sh
+python -m pip install 'google-play-scraper==1.2.7' Pillow
+python scripts/refresh-store-screenshots.py
+node scripts/build.cjs
+```
+
+The refresh preserves images with unchanged source URLs, downloads new images under dated filenames, removes repeated device-gallery entries, and updates the source manifest. An unavailable listing stops the refresh for review. Existing standalone policy pages are not rewritten. Rebuild the subset font when adding new text that needs additional characters.
 
 ## Store badges and QR codes
 

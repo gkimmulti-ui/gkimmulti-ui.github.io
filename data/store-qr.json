@@ -1,5 +1,29 @@
 [
   {
+    "app": "savecity",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.savecity",
+    "image": "assets/store-qr/savecity-play.png"
+  },
+  {
+    "app": "howlong",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.howlong",
+    "image": "assets/store-qr/howlong-play.png"
+  },
+  {
+    "app": "starstock",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.starstock.app",
+    "image": "assets/store-qr/starstock-play.png"
+  },
+  {
+    "app": "deepdig",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.deepdig",
+    "image": "assets/store-qr/deepdig-play.png"
+  },
+  {
     "app": "quizaura",
     "store": "play",
     "url": "https://play.google.com/store/apps/details?id=com.kennethapp.simquiz",
@@ -80,7 +104,7 @@
   {
     "app": "lotto",
     "store": "appstore",
-    "url": "https://apps.apple.com/kr/app/id6806789389",
+    "url": "https://apps.apple.com/us/app/id6806789389",
     "image": "assets/store-qr/lotto-appstore.png"
   },
   {

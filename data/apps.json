@@ -1,5 +1,473 @@
 [
   {
+    "name": "SaveCity",
+    "slug": "savecity",
+    "group": "play",
+    "tone": "sage",
+    "category": {
+      "ko": "절약 기록 · 도시 성장",
+      "en": "Savings log · City building",
+      "ja": "節約記録 · 街づくり",
+      "zh": "节约记录 · 城市建设",
+      "ru": "Учёт экономии · Город",
+      "fil": "Tala ng pagtitipid · Lungsod"
+    },
+    "headline": {
+      "ko": "오늘 아낀 한 잔이, 내일의 도시로.",
+      "en": "Small savings. A city of your own.",
+      "ja": "今日の小さな節約が、明日の街に。",
+      "zh": "把今天的节约，变成明天的城市。",
+      "ru": "Маленькая экономия — растущий город.",
+      "fil": "Munting pagtitipid, lumalaking lungsod."
+    },
+    "desc": {
+      "ko": "커피·배달·교통비처럼 쓰지 않고 아낀 금액을 기록하면 코인과 경험치가 쌓입니다. 건물 9종을 짓고 업그레이드하며 작은 마을을 6단계의 미래 도시로 키워보세요. 카테고리별 통계, 연속 기록, 업적과 일일 알림으로 절약 습관을 이어갈 수 있습니다.",
+      "en": "Log what you saved on coffee, delivery, transport and more to earn coins and XP. Build and upgrade nine kinds of buildings as your town grows through six city levels. Category stats, streaks, achievements and optional daily reminders help you keep the habit going.",
+      "ja": "コーヒーやデリバリー、交通費などで節約した金額を記録すると、コインと経験値を獲得できます。9種類の建物を建てて強化し、6段階の街づくりを楽しめます。カテゴリ別統計、連続記録、実績、任意の毎日通知で節約習慣を続けましょう。",
+      "zh": "记录在咖啡、外卖、交通等方面省下的金额，获得金币与经验。建造并升级9类建筑，让小镇经历6个城市等级，逐步成长为未来之城。分类统计、连续记录、成就和可选的每日提醒帮助你坚持节约。",
+      "ru": "Записывайте, сколько сэкономили на кофе, доставке и транспорте, и получайте монеты и опыт. Стройте и улучшайте девять типов зданий, проходя шесть уровней города. Статистика по категориям, серии записей, достижения и напоминания помогают поддерживать привычку.",
+      "fil": "Itala ang natipid sa kape, delivery, pamasahe at iba pa para kumita ng coins at XP. Magtayo at mag-upgrade ng siyam na uri ng gusali habang lumalago ang lungsod sa anim na antas. May category stats, streaks, achievements at opsyonal na daily reminder."
+    },
+    "tags": {
+      "ko": [
+        "건물 9종",
+        "도시 성장 6단계",
+        "절약 통계",
+        "가입 없이 시작"
+      ],
+      "en": [
+        "9 building types",
+        "6 city levels",
+        "Savings stats",
+        "No sign-up"
+      ],
+      "ja": [
+        "建物9種類",
+        "街の成長6段階",
+        "節約統計",
+        "登録不要"
+      ],
+      "zh": [
+        "9类建筑",
+        "6个城市等级",
+        "节约统计",
+        "无需注册"
+      ],
+      "ru": [
+        "9 типов зданий",
+        "6 уровней города",
+        "Статистика экономии",
+        "Без регистрации"
+      ],
+      "fil": [
+        "9 uri ng gusali",
+        "6 antas ng lungsod",
+        "Savings stats",
+        "Walang sign-up"
+      ]
+    },
+    "note": {
+      "ko": "사용자가 절약액을 직접 기록하는 게임입니다. 실제 계좌에 연결하거나 돈을 보관·이체하지 않으며, 게임 속 코인과 건물에는 금전적 가치가 없습니다.",
+      "en": "Savings are entered manually. The game does not connect to bank accounts or hold or transfer money. Its coins and buildings have no monetary value.",
+      "ja": "節約額は手動で記録します。銀行口座への接続や実際のお金の保管・送金は行いません。ゲーム内のコインや建物に金銭的価値はありません。",
+      "zh": "节约金额由用户手动记录。游戏不连接银行账户，也不保管或转移真实资金。金币和建筑不具有货币价值。",
+      "ru": "Суммы вводятся вручную. Игра не подключается к банковским счетам и не хранит и не переводит деньги. Монеты и здания не имеют денежной стоимости.",
+      "fil": "Manu-manong inilalagay ang natipid. Hindi kumokonekta sa bank account o humahawak at naglilipat ng pera ang laro. Walang katumbas na tunay na pera ang coins at gusali."
+    },
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.savecity",
+    "icon": "images/savecity-icon.webp",
+    "appStoreUrl": null,
+    "screenshots": [
+      {
+        "src": "images/screenshots/savecity-play-20261018-01.webp",
+        "thumb": "images/screenshots/savecity-play-20261018-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/mRIgAJ-UZ88CS1LHfCwJBQ0DrJmx_wl8V2jMYZfH1Au42fu9geTftDvGBDEuO3nq9sHAd9q5LBSzAsE9P6F8=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/savecity-play-20261018-02.webp",
+        "thumb": "images/screenshots/savecity-play-20261018-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/IngJzej7v9Er43xoF9IP2x38KOciWPJQko4UGQKaWJhyoho427VagphdAbDgyK23K2qwA18gAWYYR6gcCWmp=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/savecity-play-20261018-03.webp",
+        "thumb": "images/screenshots/savecity-play-20261018-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/9fa--728KwRqE-BJoA5RNhwbMu1JBoCiiU2xf9yapf1LU0Y4B-vKjJIxYjKsmewv1POvjzAFQrOXDQ8TYgFRmQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/savecity-play-20261018-04.webp",
+        "thumb": "images/screenshots/savecity-play-20261018-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/uc6zzlUYqa91O98wgMB8ptTCbfqwtaTU9b8Fxp_ABFLER8SsO4KhVdnWAccMnU3TNxhBeolqIasMeyGIgYXrWQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/savecity-play-20261018-05.webp",
+        "thumb": "images/screenshots/savecity-play-20261018-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Ej-6HpyDIhWPKyjhGAqcEp6dYo_SuvvUEj6JxQryuj_mWjxJ4u_Cofsnsw_Jx2dWo_UomZjTAlU0itU3yJPT_Q=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ]
+  },
+  {
+    "name": "HowLong?",
+    "slug": "howlong",
+    "group": "tools",
+    "tone": "blue",
+    "category": {
+      "ko": "디데이 · 날짜 계산",
+      "en": "Countdowns · Date calculator",
+      "ja": "D-Day · 日付計算",
+      "zh": "倒计时 · 日期计算",
+      "ru": "Обратный отсчёт · Даты",
+      "fil": "Countdown · Date calculator"
+    },
+    "headline": {
+      "ko": "얼마나 지났을까, 얼마나 남았을까.",
+      "en": "Count the days that matter.",
+      "ja": "大切な日まで、あと何日？",
+      "zh": "重要的日子，过去了多久、还剩多久？",
+      "ru": "Сколько прошло? Сколько осталось?",
+      "fil": "Ilang araw na? Ilan pa ang natitira?"
+    },
+    "desc": {
+      "ko": "생일·연애·결혼 기념일부터 전역일·월급날까지, 지난 시간과 남은 날짜를 한눈에 계산하세요. 두 날짜 사이, N일 전후, 만 나이, 휴게시간을 뺀 근무시간과 도시 간 시차도 확인할 수 있습니다. 중요한 날짜를 저장하고 세로 카드 이미지로 공유해 보세요.",
+      "en": "Count days since birthdays and anniversaries or until a deadline or payday. Calculate date intervals, dates before or after a chosen day, exact age, working hours minus breaks and time differences between cities. Save important dates and share them as portrait cards.",
+      "ja": "誕生日や記念日からの経過日数、締め切りや給料日までの日数を計算できます。2つの日付の間隔、N日前後、満年齢、休憩を除く勤務時間、都市間の時差にも対応。大切な日を保存し、縦型カードで共有できます。",
+      "zh": "计算从生日、恋爱或结婚纪念日起经过的天数，或距离截止日、发薪日还有多久。还可计算两个日期的间隔、前后N天、周岁、扣除休息后的工时和城市时差。保存重要日期，并生成竖版卡片分享。",
+      "ru": "Считайте дни с рождения и годовщин или до важной даты и зарплаты. Рассчитывайте интервалы, даты через N дней, точный возраст, рабочие часы без перерывов и разницу во времени между городами. Сохраняйте даты и делитесь вертикальными карточками.",
+      "fil": "Bilangin ang mga araw mula sa kaarawan o anibersaryo, o hanggang sa deadline at payday. Kalkulahin ang pagitan ng mga petsa, petsang N araw bago o pagkatapos, eksaktong edad, oras ng trabaho na bawas ang pahinga, at agwat ng oras ng mga lungsod. I-save ang mga petsa at ibahagi bilang portrait card."
+    },
+    "tags": {
+      "ko": [
+        "디데이·기념일",
+        "만 나이·근무시간",
+        "카드 공유",
+        "12개 언어"
+      ],
+      "en": [
+        "Countdowns & anniversaries",
+        "Age & working hours",
+        "Shareable cards",
+        "12 languages"
+      ],
+      "ja": [
+        "D-Day・記念日",
+        "年齢・勤務時間",
+        "カード共有",
+        "12言語"
+      ],
+      "zh": [
+        "倒计时与纪念日",
+        "年龄与工时",
+        "卡片分享",
+        "12种语言"
+      ],
+      "ru": [
+        "Отсчёт и годовщины",
+        "Возраст и рабочие часы",
+        "Карточки для обмена",
+        "12 языков"
+      ],
+      "fil": [
+        "Countdown at anibersaryo",
+        "Edad at oras ng trabaho",
+        "Mga shareable card",
+        "12 wika"
+      ]
+    },
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.howlong",
+    "icon": "images/howlong-icon.webp",
+    "appStoreUrl": null,
+    "screenshots": [
+      {
+        "src": "images/screenshots/howlong-play-20261018-01.webp",
+        "thumb": "images/screenshots/howlong-play-20261018-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/DaHcGzyfs99O6PvXGCFJKE-9JtXUdNh_0XbPe1E6G8vCzf4oc5YdBxn-V5QhFQD2bYWruYIi8kZfqg8-K9KdtV0=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/howlong-play-20261018-02.webp",
+        "thumb": "images/screenshots/howlong-play-20261018-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/xbI4onEbCQl5Mh_8Fu7RsL4780awwgiuXPkK4vPkWlfT4VT39bMBoC-jk8jZz0bHbluRCvawfV3wSx3wsQ0DJZM=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/howlong-play-20261018-03.webp",
+        "thumb": "images/screenshots/howlong-play-20261018-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/sJVsMI5Kni82PvWkbmLN97JMy5tGh55f2skpE5wbqn7g1S1skSu7lcPkXyDRKKIoR7c9at3DbFXopiFl7yI9c2I=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/howlong-play-20261018-04.webp",
+        "thumb": "images/screenshots/howlong-play-20261018-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/SZ3zvgMtZUbWfxG_HhLE9MVloQeFHzcUsLqs9cdpuWbqLdXFnTPtxjhtkDLNcPLW8QNtxwE9N19OujJ6cBw7=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/howlong-play-20261018-05.webp",
+        "thumb": "images/screenshots/howlong-play-20261018-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/mkhMIE_8DsdX9FtDPyzmWXtWNUZ1r4RNn_bUESX6RG8s2MpeYlh8_1OTrxIDF53eEVrPvn-EBZwL5_-J5OMRBzw=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ]
+  },
+  {
+    "name": "Star Stock",
+    "slug": "starstock",
+    "group": "play",
+    "tone": "lavender",
+    "category": {
+      "ko": "가상 주식 · 시뮬레이션",
+      "en": "Virtual stocks · Simulation",
+      "ja": "架空の株式 · シミュレーション",
+      "zh": "虚拟股票 · 模拟经营",
+      "ru": "Виртуальные акции · Симулятор",
+      "fil": "Virtual stocks · Simulation"
+    },
+    "headline": {
+      "ko": "나만의 전략으로 키우는 가상 포트폴리오.",
+      "en": "Your strategy. Your virtual portfolio.",
+      "ja": "自分の戦略で育てる、仮想ポートフォリオ。",
+      "zh": "用自己的策略，经营虚拟投资组合。",
+      "ru": "Ваша стратегия. Ваш виртуальный портфель.",
+      "fil": "Sariling diskarte, sariling virtual portfolio."
+    },
+    "desc": {
+      "ko": "가상의 기업과 자금으로 뉴스·차트를 살펴보고 매매 전략을 세우는 주식 시뮬레이션 게임입니다. 지정가·손절 주문, 가상 IPO와 배당을 경험하고, 일일 미션과 업적으로 사무실을 꾸며보세요. 기술주 폭락·에너지 위기 같은 시나리오에 도전하고 거래 기록도 돌아볼 수 있습니다.",
+      "en": "Explore fictional companies, in-game news and charts as you manage a virtual portfolio. Try limit and stop-loss orders, simulated IPOs and dividends, then decorate your office through missions and achievements. Take on market scenarios and review your trading history.",
+      "ja": "架空の企業と資金でニュースやチャートを読み、仮想ポートフォリオを運用するゲームです。指値・損切り注文、架空IPO、配当を体験し、ミッションや実績でオフィスを飾れます。市場シナリオに挑戦し、取引履歴も振り返れます。",
+      "zh": "在虚构的企业和资金环境中阅读新闻与图表，管理虚拟投资组合。体验限价单、止损单、虚拟IPO和分红，通过任务与成就装饰办公室。挑战不同市场情景，并回顾自己的交易记录。",
+      "ru": "Изучайте вымышленные компании, игровые новости и графики, управляя виртуальным портфелем. Пробуйте лимитные и стоп-лосс ордера, IPO и дивиденды. Выполняйте миссии, украшайте офис, проходите рыночные сценарии и анализируйте историю сделок.",
+      "fil": "Suriin ang kathang-isip na mga kumpanya, balita at chart habang pinamamahalaan ang virtual portfolio. Subukan ang limit at stop-loss orders, simulated IPO at dividends. Kumpletuhin ang mga misyon, palamutihan ang opisina, harapin ang market scenarios at balikan ang mga trade."
+    },
+    "tags": {
+      "ko": [
+        "가상 매매",
+        "IPO·배당",
+        "사무실 성장",
+        "시나리오 도전"
+      ],
+      "en": [
+        "Virtual trading",
+        "IPOs & dividends",
+        "Grow your office",
+        "Market scenarios"
+      ],
+      "ja": [
+        "仮想売買",
+        "IPO・配当",
+        "オフィスの成長",
+        "シナリオ挑戦"
+      ],
+      "zh": [
+        "虚拟交易",
+        "IPO与分红",
+        "办公室成长",
+        "市场情景挑战"
+      ],
+      "ru": [
+        "Виртуальная торговля",
+        "IPO и дивиденды",
+        "Развитие офиса",
+        "Рыночные сценарии"
+      ],
+      "fil": [
+        "Virtual trading",
+        "IPO at dividends",
+        "Palaguin ang opisina",
+        "Market scenarios"
+      ]
+    },
+    "note": {
+      "ko": "기업·시세·자금은 모두 게임용 가상 데이터입니다. 실제 주식 거래나 투자 자문을 제공하지 않으며, 게임 자산을 현금으로 교환하거나 출금할 수 없습니다.",
+      "en": "Companies, prices and funds are fictional game data. The app does not offer real stock trading or investment advice, and game assets cannot be exchanged for or withdrawn as cash.",
+      "ja": "企業・価格・資金はすべて架空のゲームデータです。実際の株式取引や投資助言は提供せず、ゲーム資産を現金に交換したり出金したりすることはできません。",
+      "zh": "企业、价格与资金均为虚构的游戏数据。应用不提供真实股票交易或投资建议，游戏资产不能兑换或提取为现金。",
+      "ru": "Компании, цены и средства — вымышленные игровые данные. Приложение не предлагает реальную торговлю или инвестиционные советы. Игровые активы нельзя обменять на деньги или вывести.",
+      "fil": "Kathang-isip ang mga kumpanya, presyo at pondo. Walang tunay na stock trading o investment advice. Hindi maaaring ipalit o i-withdraw bilang cash ang game assets."
+    },
+    "playUrl": "https://play.google.com/store/apps/details?id=com.starstock.app",
+    "icon": "images/starstock-icon.webp",
+    "appStoreUrl": null,
+    "screenshots": [
+      {
+        "src": "images/screenshots/starstock-play-20261018-01.webp",
+        "thumb": "images/screenshots/starstock-play-20261018-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Y3dRtH5PgFXx3h1KWNjBzqr_3Vn8CAosPWbTPUiQFHhrN6MuBTQOc0NYS-m_DvdTXIBvMogsWOgKCzlkoZNm=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/starstock-play-20261018-02.webp",
+        "thumb": "images/screenshots/starstock-play-20261018-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/k4VtDO3YJ_hvWl5AYvNy5IxQ1O5HQoahIO3aoYabCVfdzmPpz8LxmxcKbIVhhI7faA6VtACzP8jH7bTypBDY=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/starstock-play-20261018-03.webp",
+        "thumb": "images/screenshots/starstock-play-20261018-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Zo5RcPEPY_dXZZRb3Zi9iigLQ8u17u79_gYeaAAUFD9OC4hQ78ABUhXE-dLAZduy0ok15IFmu_tKB-Ub1u1KHtQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/starstock-play-20261018-04.webp",
+        "thumb": "images/screenshots/starstock-play-20261018-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/5sozedRHZVHInsfQPgyqvjHNrL8zQBRSFhVZcpA_FlKEOUpccwQ12SGefYJYbiOPbJvViKYxoohRrGlJUK23Cg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/starstock-play-20261018-05.webp",
+        "thumb": "images/screenshots/starstock-play-20261018-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/ghZPvemvqsIGDNSedm_YVrk7CUoMQvAJxRReUC-xx7g7IdNgQ7Aqjo9cupay0GLx1Ilvna328i0us-bbbtpNeA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ]
+  },
+  {
+    "name": "Deep Dig",
+    "slug": "deepdig",
+    "group": "play",
+    "tone": "sand",
+    "category": {
+      "ko": "광산 탐험 · 채굴 게임",
+      "en": "Mine exploration · Mining game",
+      "ja": "鉱山探索 · 採掘ゲーム",
+      "zh": "矿山探索 · 采矿游戏",
+      "ru": "Исследование шахт · Добыча",
+      "fil": "Paggalugad ng minahan · Mining"
+    },
+    "headline": {
+      "ko": "한 번 더 캐고, 더 깊은 모험으로.",
+      "en": "One more tap. A deeper adventure.",
+      "ja": "もうひと掘り、もっと深い冒険へ。",
+      "zh": "再挖一下，探索更深的冒险。",
+      "ru": "Ещё один удар — и приключение глубже.",
+      "fil": "Isa pang mina, mas malalim na pakikipagsapalaran."
+    },
+    "desc": {
+      "ko": "광물을 캐고 장비와 동료 광부를 성장시키며 10개 지역의 광산 100곳을 탐험하세요. 곡괭이·드릴·부적 등 장비 72종을 모아 제작·강화하고, 캐릭터 5명과 외형 15종을 조합할 수 있습니다. 직접 채굴과 플레이 중 자동 채굴을 함께 즐기며, 가입 없이 오프라인으로 이어갈 수 있습니다.",
+      "en": "Mine minerals and improve your equipment and crew across 100 mines in 10 regions. Collect, craft and upgrade 72 pieces of gear, and choose from five characters with 15 looks. Combine tap mining with automatic mining while playing, and continue offline without an account.",
+      "ja": "鉱物を採掘し、装備や仲間の鉱夫を育てながら10地域・100の鉱山を探索。つるはし、ドリル、お守りなど72種類の装備を収集・製作・強化し、5人のキャラクターと15種類の外見を選べます。プレイ中の自動採掘にも対応し、登録不要でオフラインでも遊べます。",
+      "zh": "采集矿物、强化装备并培养矿工伙伴，探索10个地区的100座矿山。收集、制作和升级72件装备，选择5位角色与15种外观。结合点击采矿与游玩期间的自动采矿，无需注册即可离线继续冒险。",
+      "ru": "Добывайте минералы и развивайте снаряжение и команду в 100 шахтах десяти регионов. Собирайте, создавайте и улучшайте 72 предмета экипировки, выбирайте из пяти персонажей и 15 обликов. Совмещайте ручную добычу с автоматической во время игры. Играйте офлайн без аккаунта.",
+      "fil": "Magmina ng mineral at palakasin ang kagamitan at mga kasama sa 100 minahan sa 10 rehiyon. Mangolekta, gumawa at mag-upgrade ng 72 kagamitan, at pumili mula sa limang karakter at 15 hitsura. Pagsamahin ang tap mining at awtomatikong pagmimina habang naglalaro. Puwedeng maglaro offline nang walang account."
+    },
+    "tags": {
+      "ko": [
+        "광산 100곳",
+        "장비 72종",
+        "캐릭터 5명",
+        "오프라인 플레이"
+      ],
+      "en": [
+        "100 mines",
+        "72 equipment items",
+        "5 characters",
+        "Offline play"
+      ],
+      "ja": [
+        "鉱山100か所",
+        "装備72種類",
+        "キャラクター5人",
+        "オフライン対応"
+      ],
+      "zh": [
+        "100座矿山",
+        "72件装备",
+        "5位角色",
+        "离线游玩"
+      ],
+      "ru": [
+        "100 шахт",
+        "72 предмета экипировки",
+        "5 персонажей",
+        "Игра офлайн"
+      ],
+      "fil": [
+        "100 minahan",
+        "72 kagamitan",
+        "5 karakter",
+        "Offline play"
+      ]
+    },
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.deepdig",
+    "icon": "images/deepdig-icon.webp",
+    "appStoreUrl": null,
+    "screenshots": [
+      {
+        "src": "images/screenshots/deepdig-play-20261018-01.webp",
+        "thumb": "images/screenshots/deepdig-play-20261018-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/IAj-cFbuo00X8uTb07WSJZuoofhqBMI2ijNCQKM73RX4n_cIfNJQW6W_lAtys4hDCxI4m8MYKIl2DEPRABvNpQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/deepdig-play-20261018-02.webp",
+        "thumb": "images/screenshots/deepdig-play-20261018-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/4K6u8IBf9zzpYxmUo8ZwbiZPXADvrQJorstCValTHGSUU0MPcPKfMqrxs-ElxR-NBtm8zm6yUsnA60NrXG8DMA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/deepdig-play-20261018-03.webp",
+        "thumb": "images/screenshots/deepdig-play-20261018-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/W6leEhk6cUNjAoWJaunLRgMEDYuhY1yZS6yNjXeR07h-aMbumkq9QWKZ97AFEN7ZlmQ63-kJxPVC4_XHl9e3Ow=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/deepdig-play-20261018-04.webp",
+        "thumb": "images/screenshots/deepdig-play-20261018-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/zFv48pXZ-Wv_cWXh4nSDM6AmCl9o_fMLp-yT9UvMX1WUs7CGx6jF0-dn-fS0hdol8rcASki6IFBd13C62JLCiA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/deepdig-play-20261018-05.webp",
+        "thumb": "images/screenshots/deepdig-play-20261018-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/IBHZY-JL7OxQksDruKnZJlHxc_zEZtmha4LSeoHyp0FImuP6WPsCySKBVqLby2LMiQ4VO32vQKnbk8GjPnSoXg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ]
+  },
+  {
     "name": "Quiz Aura",
     "slug": "quizaura",
     "group": "play",
@@ -453,36 +921,84 @@
         "height": 1778
       },
       {
-        "src": "images/screenshots/maeum-ios-01.webp",
-        "thumb": "images/screenshots/maeum-ios-01-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/85/03/17850349-6d6b-7781-5f82-ab8bc63808b8/IMG_0007_6.5in_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/maeum-appstore-20261018-01.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-01-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/a4/bf/a9a4bfd1-606d-c9e4-77c4-f87f2cb2908e/IMG_0003_6.3in_1260x2736.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 2171
       },
       {
-        "src": "images/screenshots/maeum-ios-02.webp",
-        "thumb": "images/screenshots/maeum-ios-02-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/92/89/dd9289fd-7df6-56fd-99a7-54b5eec38e3a/IMG_0012_6.5in_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/maeum-appstore-20261018-02.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-02-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/0f/64/760f6436-8a66-1707-550f-9ef80958e5fb/IMG_0004_6.3in_1260x2736.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 2171
       },
       {
-        "src": "images/screenshots/maeum-ios-03.webp",
-        "thumb": "images/screenshots/maeum-ios-03-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/a5/95/bba595b4-fefb-8ca9-5eb5-e098162f3db1/IMG_0005_6.5in_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/maeum-appstore-20261018-03.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-03-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/a5/e0/6ea5e00f-ab47-fa9a-37e6-cfe44ff8939e/IMG_0010_6.3in_1260x2736.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 2171
       },
       {
-        "src": "images/screenshots/maeum-ios-04.webp",
-        "thumb": "images/screenshots/maeum-ios-04-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/dc/c0/98dcc077-b409-8396-cdc9-3d1430681b3f/IMG_0010_6.5in_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/maeum-appstore-20261018-04.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-04-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/e1/05/34e1050d-e9a6-e94d-f2f6-26af42d4780b/IMG_0006_6.3in_1260x2736.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 2171
+      },
+      {
+        "src": "images/screenshots/maeum-appstore-20261018-05.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-05-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/80/8e/16808e76-270e-3e65-b5f3-2238db593153/IMG_0009_6.3in_1260x2736.png/1000x2200bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2171
+      },
+      {
+        "src": "images/screenshots/maeum-appstore-20261018-06.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-06-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/97/1d/ae971d98-d45e-93ae-5323-f0c7c6c8c2e0/IMG_0005_6.3in_1260x2736.png/1000x2200bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2171
+      },
+      {
+        "src": "images/screenshots/maeum-appstore-20261018-07.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-07-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/94/a2/3c94a2e4-f10a-0e37-f9c2-f6790c70f8b7/IMG_0012_6.3in_1260x2736.png/1000x2200bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2171
+      },
+      {
+        "src": "images/screenshots/maeum-appstore-20261018-08.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-08-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/20/9c/e5209ce5-7b4f-2dee-b9f2-0eef82a4d195/IMG_0011_6.3in_1260x2736.png/1000x2200bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2171
+      },
+      {
+        "src": "images/screenshots/maeum-appstore-20261018-09.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-09-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/d9/7b/71d97bde-dba2-ecf3-f226-f9b43549961e/IMG_0008_6.3in_1260x2736.png/1000x2200bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2171
+      },
+      {
+        "src": "images/screenshots/maeum-appstore-20261018-10.webp",
+        "thumb": "images/screenshots/maeum-appstore-20261018-10-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/8b/fc/288bfcb6-ddb3-7d04-1145-a1566dd938f3/IMG_0007_6.3in_1260x2736.png/1000x2200bb.jpg",
+        "platform": "App Store",
+        "width": 1000,
+        "height": 2171
       }
     ],
     "headline": {
@@ -492,7 +1008,8 @@
       "zh": "记住每一份往来的心意。",
       "ru": "Помните каждый знак внимания.",
       "fil": "Alalahanin ang bawat regalong may puso."
-    }
+    },
+    "appStoreTitle": "부조금관리 by 마음장부"
   },
   {
     "name": "SnapLog",
@@ -876,41 +1393,41 @@
     "tone": "sand",
     "screenshots": [
       {
-        "src": "images/screenshots/holyground-01.webp",
-        "thumb": "images/screenshots/holyground-01-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/3NHotTNdcomIM9aWLINTcUEP7lbGIaZQXiXV_10dnQUY7aE24nxpNQUdA3UW8cPyqvwQTPzKp1inlUuApio3dA=w1000",
+        "src": "images/screenshots/holyground-play-20261018-01.webp",
+        "thumb": "images/screenshots/holyground-play-20261018-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Uim7gJA05DAcg6rVM1KnRfLobehl5DXSqm8eUfjMcVknwWFhZqwtjqTPLU0BA5oVrKZqe3XH53DaacTAhmVv=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
       },
       {
-        "src": "images/screenshots/holyground-02.webp",
-        "thumb": "images/screenshots/holyground-02-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/-ruvEzOfZLZCRwJFwOeJyLG7frFTXMeEDv_yycQ601FGmwvPT0TbbYWtjqVVaFdMXVgq_Ru4AdTAWuyu-iZwkw=w1000",
+        "src": "images/screenshots/holyground-play-20261018-02.webp",
+        "thumb": "images/screenshots/holyground-play-20261018-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/0zJ4ArYiYs821B3rAMt2wihH9L7_ZtesvQsHl2cslgCQ3gycm3iF-ZnG6G6uHrK11zkbH57fPMj0fZZHQD9Fhg=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
       },
       {
-        "src": "images/screenshots/holyground-03.webp",
-        "thumb": "images/screenshots/holyground-03-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/fdw2P127b5b5LkmJAWtQIuE5UT6_XnbYUFmnbxDCSuYNeyxcPItjrzGKL2UfTUa25H5o8zpwyE3nQhit-JqRIEU=w1000",
+        "src": "images/screenshots/holyground-play-20261018-03.webp",
+        "thumb": "images/screenshots/holyground-play-20261018-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/vrrdMvUBihLruj35WSjmML5o3i2DNl9rUsawyVeP85nMsfvFZUwuYFhjltneVVPwYabv7wgn1aQgs92YoHuI5w=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
       },
       {
-        "src": "images/screenshots/holyground-04.webp",
-        "thumb": "images/screenshots/holyground-04-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/NogBB_usbQxQCDhhmn1F9N_p6mpnMoMzHcAUm3l5uUqPSs8KRqcZ1dNiHwnPUQ1oVUQ0hWSwwJoYpwdeYuittg=w1000",
+        "src": "images/screenshots/holyground-play-20261018-04.webp",
+        "thumb": "images/screenshots/holyground-play-20261018-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/3TdAP7Ae8VTo06W0aSS5HFXb6j3FD2YP-5XZ8JehkTUq_F2Tzu9sTCsH8r8SEdjmbS5DF0kH4OUDgl7v6zgrkg=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
       },
       {
-        "src": "images/screenshots/holyground-05.webp",
-        "thumb": "images/screenshots/holyground-05-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/ebHj1wlhOKX0Lac6tTmFXMBOCAVzFNRBInbiCy4SJDgAZNFiohVABjz1Kcyd1YEoLWEylyt1pDjc_eKEJYYKtQ=w1000",
+        "src": "images/screenshots/holyground-play-20261018-05.webp",
+        "thumb": "images/screenshots/holyground-play-20261018-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/gNAmhdNqgTVflZ68wOwq7ACqJm2fDqxjkYdSwqFDz_j8KEURDfrE2OC1RozHVtOFeDZZUajdMznaxexPlU2Rpg=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
@@ -1342,7 +1859,7 @@
       "fil": "Ang mga numero mula sa app na ito ay sangguniang kombinasyon na random o batay sa mga kondisyong itinakda mo. Hindi nito hinuhulaan ang tsansang manalo ng kahit anong numero, ni ginagarantiyahan ang panalo. Mangyaring bumili ng lotto nang responsable, ayon sa sariling pagpapasya at kakayahan."
     },
     "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lotto",
-    "appStoreUrl": "https://apps.apple.com/kr/app/id6806789389",
+    "appStoreUrl": "https://apps.apple.com/us/app/id6806789389",
     "slug": "lotto",
     "group": "tools",
     "tone": "blue",
@@ -1388,84 +1905,60 @@
         "height": 1672
       },
       {
-        "src": "images/screenshots/lotto-ios-01.webp",
-        "thumb": "images/screenshots/lotto-ios-01-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/19/f2/bc19f272-7970-a6cc-c2e9-e0264ed5be28/01__Ud648__Ud654_Uba74_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/lotto-appstore-20261018-01.webp",
+        "thumb": "images/screenshots/lotto-appstore-20261018-01-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/60/ec/3d60ec92-51ed-0916-8b7f-e5ef33bf9537/01_home.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 461
       },
       {
-        "src": "images/screenshots/lotto-ios-02.webp",
-        "thumb": "images/screenshots/lotto-ios-02-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/98/d6/7b98d61c-423b-2b9a-1aa9-aca390254544/03__Ube60_Ub978__Ubc88_Ud638__Uc0dd_Uc131_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/lotto-appstore-20261018-02.webp",
+        "thumb": "images/screenshots/lotto-appstore-20261018-02-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/83/df/ab83df9a-f8e5-56a8-03d8-ae86eb18d7b4/02_results.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 461
       },
       {
-        "src": "images/screenshots/lotto-ios-03.webp",
-        "thumb": "images/screenshots/lotto-ios-03-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/3a/29/b73a2927-cd47-cf28-e896-a3dd8048e795/09__Uc790_Ub3d9__Ub2f9_Ucca8__Uc54c_Ub9bc_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/lotto-appstore-20261018-03.webp",
+        "thumb": "images/screenshots/lotto-appstore-20261018-03-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/c8/51/b1c8514e-6660-7cfe-f1d6-998fb626f282/03_prizes.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 461
       },
       {
-        "src": "images/screenshots/lotto-ios-04.webp",
-        "thumb": "images/screenshots/lotto-ios-04-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/9b/64/dc9b64ff-b202-5f21-cfe4-fd0a15a28f9f/04__Uc870_Uac74_Ubc88_Ud638__Uc0dd_Uc131_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/lotto-appstore-20261018-04.webp",
+        "thumb": "images/screenshots/lotto-appstore-20261018-04-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/ab/04/2dab044d-2310-1f79-c71a-84574d12d20d/04_generate.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 461
       },
       {
-        "src": "images/screenshots/lotto-ios-05.webp",
-        "thumb": "images/screenshots/lotto-ios-05-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/20/12/0520123e-6c5f-de14-25fb-1bb125ac7c17/02__Ubc88_Ud638__Ub9cc_Ub4e4_Uae30_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/lotto-appstore-20261018-05.webp",
+        "thumb": "images/screenshots/lotto-appstore-20261018-05-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/a5/d0/7da5d05f-ec78-4ce0-e5af-7b6b64c7c4ec/05_saved.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 461
       },
       {
-        "src": "images/screenshots/lotto-ios-06.webp",
-        "thumb": "images/screenshots/lotto-ios-06-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/02/63/7f0263be-4c41-cd8e-c6e2-a02c783521b9/08__Ub2f9_Ucca8_Uacb0_Uacfc__Ud655_Uc778_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/lotto-appstore-20261018-06.webp",
+        "thumb": "images/screenshots/lotto-appstore-20261018-06-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/44/1f/e3441f07-9c40-21cb-093b-3ce5a3fca6d4/06_register.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
+        "height": 461
       },
       {
-        "src": "images/screenshots/lotto-ios-07.webp",
-        "thumb": "images/screenshots/lotto-ios-07-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/57/90/395790ea-1b46-43d0-210a-320e04b94ca5/07__Ubc88_Ud638__Uc9c1_Uc811__Uc785_Ub825_1242x2688.png/1000x2164bb.jpg",
+        "src": "images/screenshots/lotto-appstore-20261018-07.webp",
+        "thumb": "images/screenshots/lotto-appstore-20261018-07-thumb.webp",
+        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/93/ad/d893adcb-60fd-9986-0b35-17a57e1a6602/07_settings.png/1000x2200bb.jpg",
         "platform": "App Store",
         "width": 1000,
-        "height": 2164
-      },
-      {
-        "src": "images/screenshots/lotto-ios-08.webp",
-        "thumb": "images/screenshots/lotto-ios-08-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/32/52/d63252c2-8a56-e2b9-3370-f574c1a89489/05__Ubc18_Uc790_Ub3d9__Ubc88_Ud638_1242x2688.png/1000x2164bb.jpg",
-        "platform": "App Store",
-        "width": 1000,
-        "height": 2164
-      },
-      {
-        "src": "images/screenshots/lotto-ios-09.webp",
-        "thumb": "images/screenshots/lotto-ios-09-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/66/4f/13664f21-eed5-e393-cfee-cf55f7eccf20/10__Uc124_Uc815__Ud654_Uba74_1242x2688.png/1000x2164bb.jpg",
-        "platform": "App Store",
-        "width": 1000,
-        "height": 2164
-      },
-      {
-        "src": "images/screenshots/lotto-ios-10.webp",
-        "thumb": "images/screenshots/lotto-ios-10-thumb.webp",
-        "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/52/59/3852591b-13e2-7d9c-de9b-599622f485bf/06__Uad6c_Ub9e4_Ubc88_Ud638__Uad00_Ub9ac_1242x2688.png/1000x2164bb.jpg",
-        "platform": "App Store",
-        "width": 1000,
-        "height": 2164
+        "height": 461
       }
     ],
     "headline": {
@@ -1476,7 +1969,15 @@
       "ru": "От выбора чисел до проверки результатов.",
       "fil": "Mula pagpili ng numero hanggang resulta."
     },
-    "appStoreTitle": "나도 로또 당첨되고싶어"
+    "appStoreTitle": "나도 로또 당첨되고싶어",
+    "storeNotice": {
+      "ko": "앱스토어: 현재 미국 스토어 링크를 제공합니다. 한국 스토어에서는 조회되지 않으며, 이용 가능 여부는 계정의 국가·지역에 따라 다를 수 있습니다.",
+      "en": "App Store: this link opens the US store. The app is not currently listed in the Korean store; availability depends on your account region.",
+      "ja": "App Store：米国ストアへのリンクです。現在、韓国ストアには表示されません。利用可否はアカウントの国・地域によって異なります。",
+      "zh": "App Store：此链接前往美国商店。目前韩国商店未列出该应用，可用性取决于账户的国家或地区。",
+      "ru": "App Store: ссылка ведёт в магазин США. В корейском магазине приложение сейчас не отображается; доступность зависит от региона аккаунта.",
+      "fil": "App Store: sa US store papunta ang link. Hindi kasalukuyang nakalista sa Korean store; nakadepende sa rehiyon ng account ang availability."
+    }
   },
   {
     "name": "One Minute Kingdom",

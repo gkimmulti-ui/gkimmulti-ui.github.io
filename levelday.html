@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <title>Privacy Policy · LEVEL DAY</title>
-  <meta name="description" content="This Privacy Policy explains how LEVEL DAY (“the app”), made by Kenneth App (“we”), handles your information. In short: LEVEL DAY works entirely on your device. We do not collect, receive, or share any of your personal data.">
+  <meta name="description" content="LEVEL DAY by Kenneth App has no account or login. Diary data is stored locally; Android advertising uses Google AdMob and UMP as described in section 4.">
   <style>
 :root {
   --bg: #f7f6ff; --surface: #ffffff; --text: #1f1d3d; --muted: #5d5a85;
@@ -89,9 +89,9 @@ a { color: var(--accent); }
 </head>
 <body>
 <header class="top" id="top">
-  <p class="brand">LEVEL DAY</p>
+  <p class="brand">LEVEL DAY · Kenneth App</p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Effective date: October 3, 2026</p>
+  <p class="updated">Effective date: October 25, 2026</p>
 </header>
 <nav class="langs" aria-label="Language">
   <ul>
@@ -107,10 +107,10 @@ a { color: var(--accent); }
 <section class="lang" id="en" lang="en" aria-labelledby="en-title">
 <span class="lang-tag">English</span>
 <h2 id="en-title">Privacy Policy</h2>
-<p class="updated">Effective date: October 3, 2026</p>
-<p class="summary">This Privacy Policy explains how LEVEL DAY (“the app”), made by Kenneth App (“we”), handles your information. In short: LEVEL DAY works entirely on your device. We do not collect, receive, or share any of your personal data.</p>
+<p class="updated">Effective date: October 25, 2026</p>
+<p class="summary">LEVEL DAY by Kenneth App has no account or login. Diary data is stored locally; Android advertising uses Google AdMob and UMP as described in section 4.</p>
 <h3>1. Information we collect</h3>
-<p>We collect no personal information. The app has no account or login, does not connect to the internet, and does not send any data to us or to anyone else.</p>
+<p>Diary entries, photos, habits, goals and progress are stored on your device. There is no account or cloud sync. We do not send diary content to advertisers. Backups are encrypted with your password and saved to the location you choose; deleting app data removes local records.</p>
 <h3>2. Information stored on your device</h3>
 <p>To provide its features, the app saves the following only in local storage on your own device:</p>
 <ul class="body">
@@ -120,28 +120,40 @@ a { color: var(--accent); }
   <li>Progress such as XP, levels, streaks and badges</li>
   <li>Settings such as language, theme and reminder times</li>
   <li>If you turn on App Lock, an encrypted verifier of your PIN or password (never the PIN or password itself)</li>
+  <li>Photos you attach to diary entries (copied into the app’s private storage)</li>
 </ul>
-<p>This data never leaves your device, and we cannot see or access it.</p>
+<p>These records are not sent to advertisers or developer servers. A backup leaves local app storage only when you save it to a location you choose.</p>
+<p>If you add the LEVEL DAY home screen widget, it shows your level, streak and today’s counts on your home screen — never diary text or to-do titles.</p>
 <h3>3. How the information is used</h3>
 <p>The data above is used only on your device to run the app: to show your diary, track your habits and progress, and schedule the reminders you choose.</p>
 <h3>4. Sharing and third parties</h3>
-<p>We do not sell, share or transfer any data. The app contains no advertising, analytics, tracking, crash-reporting or social SDKs, and it does not request internet access.</p>
+<p>The Android app displays Google AdMob banner and interstitial ads. Google may process IP address, device and advertising identifiers, app interactions and diagnostics to deliver ads, measure performance and prevent fraud. Ad requests use the internet. Consent choices are handled by Google UMP before requesting ads. Where required, you can change your choices in Settings → Ad privacy choices. Google privacy policy: <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+<p>Notifications are optional. Photos and backups use system pickers without broad storage access. App Lock stores a salted password/PIN verifier in secure storage. Android blocks screenshots while App Lock is enabled; iOS covers app-switcher previews, but cannot block active screenshots. Email and website links open external apps only when selected. Contact: <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
 <h3>5. Device permissions</h3>
 <ul class="body">
-  <li>Notifications: to show the daily reminders you turn on in Settings. You can turn them off at any time.</li>
+  <li>Notifications: to show the reminders you turn on in Settings (daily, to-do, streak and quest reminders). You can turn them off at any time.</li>
   <li>Run at startup: to restore your scheduled reminders after the device restarts.</li>
   <li>Vibration: for reminder alerts.</li>
+  <li>Photo picker: when you add a photo to a diary entry, you choose it in the system photo picker. The app receives only that photo and needs no gallery or storage permission. Location and other metadata in the photo are removed.</li>
+  <li>Files: backups are saved and opened through the system file picker, only at the location you choose.</li>
 </ul>
 <p>Reminders are scheduled locally on the device; no push server is involved.</p>
+<ul class="body">
+  <li>Internet and network state: used for advertising and consent requests.</li>
+</ul>
 <h3>6. Security</h3>
 <p>Your PIN or password is never stored in plain text. Only a salted, hashed verifier (PBKDF2-HMAC-SHA256) is kept in the device’s secure storage (Android Keystore / iOS Keychain). Device cloud backup is disabled for the app, so your data is not copied to online backups.</p>
+<p>With App Lock on, Android blocks screenshots and hides recent-app previews. On iOS, the app-switcher preview is covered; screenshots taken while the app is active cannot be blocked. Developer email and website links open your chosen external app only when you tap them. You decide whether to send an email.</p>
+<p>If you create a backup, the file is encrypted with AES-256-GCM using a key derived from your backup password (PBKDF2-HMAC-SHA256). It is saved where you choose — for example your device or a cloud drive you select yourself. We never receive the file and cannot recover a forgotten backup password.</p>
 <h3>7. Keeping and deleting your data</h3>
 <p>Your data stays on your device until you delete it. You can delete individual entries in the app, clear the app’s data in your device settings, or uninstall the app, which permanently removes all of its data.</p>
+<p>“Delete all data” in the My tab erases everything at once, including photos. A backup you saved elsewhere is not affected; delete that file yourself if you no longer need it.</p>
 <p>Because we keep no copy, we cannot restore lost data or reset a forgotten PIN or password.</p>
+<p>Deleting app data does not delete separately saved backups or information already processed by Google. Google’s retention and deletion practices are described in its privacy policy.</p>
 <h3>8. Your rights</h3>
-<p>Privacy laws such as the GDPR, the CCPA and Korea’s PIPA give you rights to access, correct and delete your personal data. Since all of your data is stored only on your device and under your control, you can exercise these rights directly in the app. We hold no personal data about you.</p>
+<p>You can view, correct and delete local diary records in the app. Applicable privacy laws may provide additional rights. For data processed by Google, see its privacy policy and available privacy controls. Contact Kenneth App with questions about this app.</p>
 <h3>9. Children</h3>
-<p>The app does not collect personal information from anyone, including children.</p>
+<p>Local diary storage also applies to children’s entries. The Android app includes a third-party advertising SDK, so the advertising processing described in section 4 must also be considered. Parents or guardians with privacy concerns can contact Kenneth App.</p>
 <h3>10. Changes to this policy</h3>
 <p>If this policy changes, we will update this page and the effective date above.</p>
 <h3>11. Contact</h3>
@@ -152,10 +164,10 @@ a { color: var(--accent); }
 <section class="lang" id="ko" lang="ko" aria-labelledby="ko-title">
 <span class="lang-tag">한국어</span>
 <h2 id="ko-title">개인정보처리방침</h2>
-<p class="updated">시행일: 2026년 10월 3일</p>
-<p class="summary">본 개인정보처리방침은 Kenneth App(이하 “개발자”)이 만든 LEVEL DAY(이하 “앱”)가 이용자의 정보를 어떻게 처리하는지 설명합니다. 요약하면, LEVEL DAY는 전적으로 이용자의 기기 안에서만 동작하며, 개발자는 이용자의 개인정보를 수집·수신·공유하지 않습니다.</p>
+<p class="updated">시행일: 2026년 10월 25일</p>
+<p class="summary">Kenneth App의 LEVEL DAY에는 회원가입이나 로그인이 없습니다. 일기 데이터는 기기에 저장되며, Android 광고에는 제4항에서 설명하는 Google AdMob 및 UMP를 사용합니다.</p>
 <h3>1. 수집하는 개인정보</h3>
-<p>개발자는 어떠한 개인정보도 수집하지 않습니다. 앱에는 회원가입이나 로그인이 없고, 인터넷에 연결하지 않으며, 개발자나 제3자에게 어떤 데이터도 전송하지 않습니다.</p>
+<p>일기, 사진, 습관, 목표와 성장 기록은 기기에 저장됩니다. 회원가입과 클라우드 동기화는 없으며 일기 내용을 광고 업체에 보내지 않습니다. 백업은 사용자의 비밀번호로 암호화해 선택한 위치에 저장하고, 앱 데이터 삭제 시 로컬 기록을 삭제합니다.</p>
 <h3>2. 기기에 저장되는 정보</h3>
 <p>앱 기능을 제공하기 위해 다음 정보가 이용자 본인의 기기 내부 저장소에만 저장됩니다.</p>
 <ul class="body">
@@ -165,28 +177,40 @@ a { color: var(--accent); }
   <li>XP, 레벨, 연속 기록, 배지 등 진행 상황</li>
   <li>언어, 테마, 알림 시간 등 설정</li>
   <li>앱 잠금을 사용하는 경우, PIN 또는 비밀번호의 암호화된 검증값(PIN·비밀번호 원문은 저장하지 않음)</li>
+  <li>일기에 첨부한 사진(앱 전용 저장 공간에 복사됨)</li>
 </ul>
-<p>이 데이터는 기기 밖으로 나가지 않으며, 개발자는 이를 보거나 접근할 수 없습니다.</p>
+<p>이 기록은 광고 업체나 개발자 서버로 전송하지 않습니다. 백업은 이용자가 선택한 위치에 저장할 때 앱 내부 저장소 밖으로 나갈 수 있습니다.</p>
+<p>LEVEL DAY 홈 화면 위젯을 추가하면 홈 화면에 레벨, 연속 기록, 오늘의 진행 수치만 표시되며, 일기 내용이나 할 일 제목은 표시되지 않습니다.</p>
 <h3>3. 정보의 이용 목적</h3>
 <p>위 정보는 일기 표시, 습관·진행 상황 기록, 이용자가 설정한 알림 예약 등 앱을 동작시키기 위해서만 기기 안에서 사용됩니다.</p>
 <h3>4. 제3자 제공 및 처리 위탁</h3>
-<p>개발자는 어떠한 데이터도 판매·제공·이전하지 않습니다. 앱에는 광고, 분석, 추적, 오류 보고, 소셜 SDK가 포함되어 있지 않으며 인터넷 접근 권한을 요청하지 않습니다.</p>
+<p>Android 앱에는 Google AdMob 배너 및 전면 광고가 표시됩니다. Google은 광고 제공, 성과 측정 및 부정행위 방지를 위해 IP 주소, 기기·광고 식별자, 앱 상호작용 및 진단 정보를 처리할 수 있습니다. 광고 요청에는 인터넷을 사용합니다. 광고 요청 전에 Google UMP로 동의 상태를 확인하며 필요한 지역에서는 설정 → 광고 개인정보 설정에서 선택을 변경할 수 있습니다. Google 개인정보처리방침: <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+<p>알림은 선택 사항이며 사진과 백업은 시스템 선택기를 사용합니다. 앱 잠금은 PIN·비밀번호의 솔트 적용 검증값을 보안 저장소에 보관합니다. Android는 앱 잠금 시 스크린샷을 차단하고, iOS는 앱 전환 미리보기를 가리지만 활성 화면 캡처는 차단하지 못합니다. 이메일·웹사이트는 사용자가 선택할 때 외부 앱으로 열립니다. 문의: <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
 <h3>5. 기기 권한</h3>
 <ul class="body">
-  <li>알림: 설정에서 켠 일일 알림을 표시하기 위해 사용합니다. 언제든지 끌 수 있습니다.</li>
+  <li>알림: 설정에서 켠 알림(일일·할 일·스트릭·퀘스트 알림)을 표시하기 위해 사용합니다. 언제든지 끌 수 있습니다.</li>
   <li>부팅 시 실행: 기기를 재시작한 뒤 예약된 알림을 복원하기 위해 사용합니다.</li>
   <li>진동: 알림 시 진동을 위해 사용합니다.</li>
+  <li>사진 선택: 일기에 사진을 추가할 때 시스템 사진 선택기에서 직접 고릅니다. 앱은 고른 사진만 받으며, 갤러리·저장소 권한이 필요하지 않습니다. 사진의 위치 정보 등 메타데이터는 제거됩니다.</li>
+  <li>파일: 백업 파일은 시스템 파일 선택기를 통해 이용자가 고른 위치에만 저장하고 엽니다.</li>
 </ul>
 <p>알림은 기기 안에서 예약되며, 푸시 서버를 사용하지 않습니다.</p>
+<ul class="body">
+  <li>인터넷 및 네트워크 상태: 광고와 동의 상태 확인 요청에 사용합니다.</li>
+</ul>
 <h3>6. 안전성 확보 조치</h3>
 <p>PIN 또는 비밀번호는 평문으로 저장되지 않습니다. 솔트가 적용된 해시 검증값(PBKDF2-HMAC-SHA256)만 기기의 보안 저장소(Android Keystore / iOS Keychain)에 보관합니다. 앱의 클라우드 백업은 비활성화되어 있어 데이터가 온라인 백업에 복사되지 않습니다.</p>
+<p>앱 잠금이 켜져 있으면 Android는 스크린샷과 최근 앱 미리보기를 차단합니다. iOS는 앱 전환 미리보기를 가리지만 사용 중인 화면의 스크린샷은 차단할 수 없습니다. 개발자 이메일과 웹사이트는 이용자가 누를 때 외부 앱으로 열립니다. 이메일 전송 여부는 이용자가 결정합니다.</p>
+<p>백업을 만들면 파일은 이용자가 정한 백업 비밀번호에서 유도한 키(PBKDF2-HMAC-SHA256)로 AES-256-GCM 암호화됩니다. 파일은 이용자가 고른 위치(기기 또는 이용자가 직접 선택한 클라우드 드라이브 등)에 저장되며, 개발자는 이 파일을 받지 않고 잊어버린 백업 비밀번호를 복구할 수 없습니다.</p>
 <h3>7. 보유 기간 및 파기</h3>
 <p>데이터는 이용자가 삭제할 때까지 기기에 보관됩니다. 앱에서 개별 항목을 삭제하거나, 기기 설정에서 앱 데이터를 삭제하거나, 앱을 삭제하면 모든 데이터가 영구적으로 삭제됩니다.</p>
+<p>‘마이’ 탭의 ‘모든 데이터 삭제’로 사진을 포함한 모든 데이터를 한 번에 지울 수 있습니다. 다른 곳에 저장한 백업 파일은 영향을 받지 않으므로, 필요 없으면 직접 삭제해 주세요.</p>
 <p>개발자는 사본을 보관하지 않으므로, 분실된 데이터를 복구하거나 잊어버린 PIN·비밀번호를 재설정해 드릴 수 없습니다.</p>
+<p>앱 데이터를 삭제해도 별도로 저장한 백업이나 Google이 이미 처리한 정보가 함께 삭제되지는 않습니다. Google의 보유·삭제 방식은 Google 개인정보처리방침을 확인해 주세요.</p>
 <h3>8. 이용자의 권리</h3>
-<p>개인정보 보호법(PIPA), GDPR, CCPA 등은 개인정보의 열람·정정·삭제 권리를 보장합니다. 모든 데이터는 이용자의 기기에만 저장되어 이용자가 직접 관리하므로, 이러한 권리는 앱 안에서 직접 행사할 수 있습니다. 개발자는 이용자에 관한 개인정보를 보유하지 않습니다.</p>
+<p>기기에 저장된 일기 기록은 앱에서 직접 열람·정정·삭제할 수 있습니다. 적용되는 개인정보 보호법에 따라 추가적인 권리가 있을 수 있습니다. Google이 처리하는 정보는 Google 개인정보처리방침과 제공되는 개인정보 설정을 확인해 주세요. 앱 관련 문의는 Kenneth App으로 연락할 수 있습니다.</p>
 <h3>9. 아동의 개인정보</h3>
-<p>앱은 아동을 포함한 누구로부터도 개인정보를 수집하지 않습니다.</p>
+<p>아동이 작성한 일기에도 기기 내 저장 방식이 적용됩니다. 다만 Android 앱에는 제3자 광고 SDK가 포함되어 있으므로 제4항의 광고 정보 처리도 함께 고려해야 합니다. 아동의 개인정보 처리에 관한 문의는 보호자가 Kenneth App으로 연락할 수 있습니다.</p>
 <h3>10. 방침의 변경</h3>
 <p>본 방침이 변경되면 이 페이지와 위의 시행일을 갱신합니다.</p>
 <h3>11. 문의처</h3>
@@ -197,10 +221,10 @@ a { color: var(--accent); }
 <section class="lang" id="ja" lang="ja" aria-labelledby="ja-title">
 <span class="lang-tag">日本語</span>
 <h2 id="ja-title">プライバシーポリシー</h2>
-<p class="updated">施行日：2026年10月3日</p>
-<p class="summary">本プライバシーポリシーは、Kenneth App（以下「当方」）が提供する LEVEL DAY（以下「本アプリ」）における情報の取り扱いについて説明するものです。要約すると、LEVEL DAY はすべてお使いの端末内で動作し、当方はお客様の個人情報を収集・受信・共有することはありません。</p>
+<p class="updated">施行日：2026年10月25日</p>
+<p class="summary">Kenneth AppのLEVEL DAYにはアカウント登録やログインがありません。日記データは端末に保存されます。Androidの広告では第4項に記載するGoogle AdMobとUMPを使用します。</p>
 <h3>1. 収集する情報</h3>
-<p>当方は個人情報を一切収集しません。本アプリにはアカウント登録やログインがなく、インターネットに接続せず、当方や第三者にデータを送信することもありません。</p>
+<p>日記、写真、習慣、目標、成長記録は端末に保存されます。アカウントやクラウド同期はなく、日記の内容を広告会社へ送信しません。バックアップはパスワードで暗号化して選択した場所に保存します。アプリデータの削除で端末の記録を削除します。</p>
 <h3>2. 端末に保存される情報</h3>
 <p>機能を提供するため、以下の情報はお客様ご自身の端末のローカルストレージにのみ保存されます。</p>
 <ul class="body">
@@ -210,28 +234,40 @@ a { color: var(--accent); }
   <li>XP、レベル、連続記録、バッジなどの進捗</li>
   <li>言語、テーマ、リマインダー時刻などの設定</li>
   <li>アプリロックを有効にした場合、PIN またはパスワードの暗号化された検証値（PIN・パスワードそのものは保存しません）</li>
+  <li>日記に添付した写真（アプリ専用の保存領域にコピー）</li>
 </ul>
-<p>これらのデータが端末の外に出ることはなく、当方が閲覧・アクセスすることもできません。</p>
+<p>これらの記録を広告会社や開発者のサーバーへ送信しません。バックアップは利用者が選んだ場所へ保存するときにアプリ内の保存領域から出る場合があります。</p>
+<p>LEVEL DAYのホーム画面ウィジェットを追加すると、ホーム画面にレベル・連続記録・今日の進捗数のみが表示されます。日記の内容やToDoのタイトルは表示されません。</p>
 <h3>3. 情報の利用目的</h3>
 <p>上記の情報は、日記の表示、習慣や進捗の記録、お客様が設定したリマインダーの予約など、本アプリを動作させるためだけに端末内で利用されます。</p>
 <h3>4. 第三者への提供</h3>
-<p>当方はデータを販売・共有・移転しません。本アプリには広告、分析、トラッキング、クラッシュレポート、ソーシャル関連の SDK は含まれておらず、インターネットへのアクセス権限も要求しません。</p>
+<p>Android版にはGoogle AdMobのバナー広告と全画面広告が表示されます。Googleは広告配信、効果測定、不正防止のため、IPアドレス、端末・広告識別子、アプリ操作、診断情報を処理する場合があります。広告にはインターネットを使用します。広告リクエスト前にGoogle UMPで同意を確認します。必要な地域では設定 → 広告のプライバシー設定から選択を変更できます。Googleのポリシー: <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+<p>通知は任意です。写真とバックアップはシステム選択画面を使用します。アプリロックはソルト付きPIN・パスワード検証値を安全な領域に保存します。Androidはロック有効時のスクリーンショットを防止します。iOSはアプリ切替プレビューを隠しますが、画面撮影は防止できません。メールとウェブリンクは選択時のみ外部アプリで開きます。連絡先: <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
 <h3>5. 端末の権限</h3>
 <ul class="body">
-  <li>通知：設定で有効にした毎日のリマインダーを表示するため。いつでもオフにできます。</li>
+  <li>通知：設定で有効にしたリマインダー（毎日・タスク・ストリーク・クエスト）を表示するため。いつでもオフにできます。</li>
   <li>起動時の実行：端末の再起動後に予約済みのリマインダーを復元するため。</li>
   <li>バイブレーション：リマインダーの通知時に使用します。</li>
+  <li>写真の選択：日記に写真を追加するときは、システムの写真選択画面でご自身が選びます。アプリが受け取るのは選んだ写真だけで、ギャラリーやストレージの権限は不要です。写真の位置情報などのメタデータは削除されます。</li>
+  <li>ファイル：バックアップは、システムのファイル選択画面を通じて、ご自身が選んだ場所にのみ保存・読み込みされます。</li>
 </ul>
 <p>リマインダーは端末内で予約され、プッシュサーバーは使用しません。</p>
+<ul class="body">
+  <li>インターネットとネットワーク状態：広告と同意確認のリクエストに使用します。</li>
+</ul>
 <h3>6. セキュリティ</h3>
 <p>PIN またはパスワードが平文で保存されることはありません。ソルト付きのハッシュ検証値（PBKDF2-HMAC-SHA256）のみを端末のセキュアストレージ（Android Keystore / iOS Keychain）に保管します。本アプリのクラウドバックアップは無効になっているため、データがオンラインバックアップにコピーされることはありません。</p>
+<p>アプリロックがオンの場合、Android ではスクリーンショットと最近使ったアプリのプレビューを遮断します。iOS ではアプリ切り替え時のプレビューを隠しますが、使用中のスクリーンショットは遮断できません。 開発者のメールとウェブサイトは、タップしたときだけ外部アプリで開きます。メールを送信するかどうかはご自身で決められます。</p>
+<p>バックアップを作成すると、ファイルはバックアップ用パスワードから導出した鍵（PBKDF2-HMAC-SHA256）でAES-256-GCM暗号化されます。ファイルはご自身が選んだ場所（端末やご自身で選んだクラウドドライブなど）に保存され、当方がファイルを受け取ることはなく、忘れたバックアップ用パスワードを復元することもできません。</p>
 <h3>7. データの保存と削除</h3>
 <p>データはお客様が削除するまで端末に保存されます。アプリ内で個別の項目を削除する、端末の設定でアプリのデータを消去する、またはアプリをアンインストールすることで、すべてのデータが完全に削除されます。</p>
+<p>「マイ」タブの「すべてのデータを削除」で、写真を含むすべてのデータを一度に消去できます。別の場所に保存したバックアップファイルは影響を受けないため、不要な場合はご自身で削除してください。</p>
 <p>当方はデータのコピーを保持していないため、失われたデータの復元や、忘れた PIN・パスワードのリセットはできません。</p>
+<p>アプリデータを削除しても、別に保存したバックアップやGoogleが既に処理した情報は削除されません。Googleの保持・削除については同社のプライバシーポリシーをご確認ください。</p>
 <h3>8. お客様の権利</h3>
-<p>GDPR、CCPA、個人情報保護法などの法令は、個人データの開示・訂正・削除の権利を定めています。すべてのデータはお客様の端末にのみ保存され、お客様ご自身が管理しているため、これらの権利はアプリ内で直接行使できます。当方はお客様に関する個人データを保有していません。</p>
+<p>端末内の日記記録はアプリで閲覧・訂正・削除できます。適用される個人情報保護法に基づく追加の権利がある場合があります。Googleが処理する情報については、Googleのプライバシーポリシーと提供される設定をご確認ください。アプリに関する質問はKenneth Appへお問い合わせください。</p>
 <h3>9. お子様の情報</h3>
-<p>本アプリは、お子様を含むいかなる方からも個人情報を収集しません。</p>
+<p>子どもの日記にも端末内保存が適用されます。ただしAndroid版には第三者の広告SDKが含まれるため、第4項の広告情報処理も考慮する必要があります。保護者の方は子どものプライバシーについてKenneth Appへお問い合わせいただけます。</p>
 <h3>10. 本ポリシーの変更</h3>
 <p>本ポリシーを変更する場合は、このページと上記の施行日を更新します。</p>
 <h3>11. お問い合わせ</h3>
@@ -242,10 +278,10 @@ a { color: var(--accent); }
 <section class="lang" id="zh" lang="zh-Hans" aria-labelledby="zh-title">
 <span class="lang-tag">中文</span>
 <h2 id="zh-title">隐私政策</h2>
-<p class="updated">生效日期：2026年10月3日</p>
-<p class="summary">本隐私政策说明由 Kenneth App（以下简称“我们”）开发的 LEVEL DAY（以下简称“本应用”）如何处理您的信息。简而言之：LEVEL DAY 完全在您的设备上运行，我们不会收集、接收或分享您的任何个人数据。</p>
+<p class="updated">生效日期：2026年10月25日</p>
+<p class="summary">Kenneth App 提供的 LEVEL DAY 无需注册账号或登录。日记数据保存在设备上；Android 广告使用第4节所述的 Google AdMob 和 UMP。</p>
 <h3>1. 我们收集的信息</h3>
-<p>我们不收集任何个人信息。本应用没有账号或登录功能，不连接互联网，也不会向我们或任何第三方发送数据。</p>
+<p>日记、照片、习惯、目标和成长记录保存在设备上。没有账号或云同步，不会将日记内容发送给广告商。备份使用你的密码加密并保存至你选择的位置。删除应用数据会删除本地记录。</p>
 <h3>2. 存储在您设备上的信息</h3>
 <p>为提供应用功能，以下信息仅保存在您本人设备的本地存储中：</p>
 <ul class="body">
@@ -255,28 +291,40 @@ a { color: var(--accent); }
   <li>经验值（XP）、等级、连续记录和徽章等进度</li>
   <li>语言、主题和提醒时间等设置</li>
   <li>如果您开启应用锁，则保存 PIN 或密码的加密校验值（绝不保存 PIN 或密码本身）</li>
+  <li>您附加到日记中的照片（复制到应用的私有存储空间）</li>
 </ul>
-<p>这些数据不会离开您的设备，我们也无法查看或访问。</p>
+<p>这些记录不会发送给广告商或开发者服务器。只有在你将备份保存到所选位置时，备份才可能离开应用内部存储。</p>
+<p>如果您添加 LEVEL DAY 主屏幕小组件，它只会在主屏幕上显示您的等级、连续天数和今日进度数字，绝不显示日记内容或待办标题。</p>
 <h3>3. 信息的使用方式</h3>
 <p>上述数据仅在您的设备上用于运行本应用：显示您的日记、记录习惯和进度，以及安排您设置的提醒。</p>
 <h3>4. 共享与第三方</h3>
-<p>我们不会出售、共享或转让任何数据。本应用不包含广告、分析、跟踪、崩溃报告或社交类 SDK，也不申请互联网访问权限。</p>
+<p>Android 版显示 Google AdMob 横幅和插屏广告。Google 可能处理 IP 地址、设备和广告标识符、应用互动及诊断信息，用于投放广告、衡量效果及防止欺诈。广告请求使用网络。请求广告前通过 Google UMP 检查同意状态。需要时可在设置 → 广告隐私设置中更改选择。Google 隐私政策：<a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+<p>通知为可选功能。照片和备份使用系统选择器，无需广泛的存储访问权限。应用锁将加盐的 PIN 或密码验证值保存在安全存储中。Android 在启用应用锁时阻止截屏；iOS 隐藏应用切换预览，但无法阻止当前屏幕截屏。邮件和网站仅在你选择时通过外部应用打开。联系：<a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
 <h3>5. 设备权限</h3>
 <ul class="body">
-  <li>通知：用于显示您在设置中开启的每日提醒，您可随时关闭。</li>
+  <li>通知：用于显示您在设置中开启的提醒（每日、待办、连续记录和任务挑战提醒），您可随时关闭。</li>
   <li>开机启动：用于在设备重启后恢复已安排的提醒。</li>
   <li>振动：用于提醒通知。</li>
+  <li>照片选择：为日记添加照片时，您在系统照片选择器中自行选择。应用只会收到您选中的照片，无需相册或存储权限。照片中的位置等元数据会被移除。</li>
+  <li>文件：备份通过系统文件选择器保存和打开，仅限您选择的位置。</li>
 </ul>
 <p>提醒在设备本地安排，不使用任何推送服务器。</p>
+<ul class="body">
+  <li>网络及网络状态：用于广告和同意状态请求。</li>
+</ul>
 <h3>6. 安全</h3>
 <p>您的 PIN 或密码绝不会以明文形式存储。设备的安全存储（Android Keystore / iOS Keychain）中只保存加盐哈希校验值（PBKDF2-HMAC-SHA256）。本应用已停用设备云备份，因此您的数据不会被复制到在线备份中。</p>
+<p>开启应用锁后，Android 会阻止截屏并隐藏最近任务预览。iOS 会遮盖应用切换预览，但无法阻止使用期间的截屏。 只有在您点击时，开发者邮箱和网站链接才会打开外部应用。是否发送邮件由您决定。</p>
+<p>创建备份时，文件会使用由您的备份密码派生的密钥（PBKDF2-HMAC-SHA256）进行 AES-256-GCM 加密，并保存到您选择的位置（例如本设备或您自行选择的云盘）。我们不会收到该文件，也无法找回您忘记的备份密码。</p>
 <h3>7. 数据的保存与删除</h3>
 <p>您的数据会一直保存在设备上，直到您将其删除。您可以在应用中删除单条记录、在设备设置中清除应用数据，或卸载本应用，卸载后所有数据将被永久删除。</p>
+<p>在“我的”标签页中使用“删除所有数据”可一次性清除包括照片在内的所有数据。您另行保存的备份文件不受影响，如不再需要请自行删除。</p>
 <p>由于我们不保留任何副本，因此无法恢复丢失的数据，也无法重置您忘记的 PIN 或密码。</p>
+<p>删除应用数据不会删除单独保存的备份或 Google 已处理的信息。Google 的保留和删除方式请参阅其隐私政策。</p>
 <h3>8. 您的权利</h3>
-<p>GDPR、CCPA 以及《个人信息保护法》等法律赋予您访问、更正和删除个人数据的权利。由于您的所有数据仅存储在您的设备上并由您自行管理，您可以直接在应用中行使这些权利。我们不持有任何关于您的个人数据。</p>
+<p>你可以在应用中查看、更正和删除本地日记记录。适用的隐私法律可能赋予其他权利。关于 Google 处理的信息，请参阅其隐私政策及提供的隐私设置。应用相关问题可联系 Kenneth App。</p>
 <h3>9. 儿童隐私</h3>
-<p>本应用不会从任何人（包括儿童）处收集个人信息。</p>
+<p>儿童的日记同样采用本地存储。但 Android 应用包含第三方广告 SDK，因此也需要考虑第4节所述的广告信息处理。家长或监护人可就儿童隐私问题联系 Kenneth App。</p>
 <h3>10. 政策变更</h3>
 <p>如本政策发生变更，我们将更新本页面及上方的生效日期。</p>
 <h3>11. 联系我们</h3>
@@ -287,10 +335,10 @@ a { color: var(--accent); }
 <section class="lang" id="fil" lang="fil" aria-labelledby="fil-title">
 <span class="lang-tag">Filipino</span>
 <h2 id="fil-title">Patakaran sa Privacy</h2>
-<p class="updated">Petsa ng bisa: Oktubre 3, 2026</p>
-<p class="summary">Ipinapaliwanag ng Patakaran sa Privacy na ito kung paano pinangangasiwaan ng LEVEL DAY (“ang app”), na gawa ng Kenneth App (“kami”), ang iyong impormasyon. Sa madaling salita: gumagana ang LEVEL DAY nang buo sa iyong device. Hindi kami nangongolekta, tumatanggap, o nagbabahagi ng anumang personal mong data.</p>
+<p class="updated">Petsa ng bisa: Oktubre 25, 2026</p>
+<p class="summary">Walang account o pag-login sa LEVEL DAY ng Kenneth App. Lokal na nakaimbak ang diary; gumagamit ang Android advertising ng Google AdMob at UMP na inilalarawan sa seksyon 4.</p>
 <h3>1. Impormasyong kinokolekta namin</h3>
-<p>Wala kaming kinokolektang personal na impormasyon. Walang account o login ang app, hindi ito kumokonekta sa internet, at hindi ito nagpapadala ng anumang data sa amin o sa iba.</p>
+<p>Nakaimbak sa iyong device ang diary, mga larawan, habits, goals at progress. Walang account o cloud sync. Hindi namin ipinapadala ang nilalaman ng diary sa advertisers. Naka-encrypt gamit ang password mo ang backup at sine-save sa lugar na pipiliin mo. Binubura ang lokal na tala kapag binura ang app data.</p>
 <h3>2. Impormasyong naka-save sa iyong device</h3>
 <p>Para gumana ang mga feature nito, sine-save ng app ang mga sumusunod sa lokal na storage ng iyong sariling device lamang:</p>
 <ul class="body">
@@ -300,28 +348,40 @@ a { color: var(--accent); }
   <li>Progreso gaya ng XP, level, streak at badge</li>
   <li>Mga setting gaya ng wika, tema at oras ng paalala</li>
   <li>Kung bubuksan mo ang App Lock, isang naka-encrypt na verifier ng iyong PIN o password (hindi kailanman ang mismong PIN o password)</li>
+  <li>Mga larawang ikinakabit mo sa diary entry (kinokopya sa pribadong storage ng app)</li>
 </ul>
-<p>Hindi kailanman lumalabas ang data na ito sa iyong device, at hindi namin ito nakikita o naa-access.</p>
+<p>Hindi ipinapadala ang mga talang ito sa advertisers o server ng developer. Maaaring lumabas sa lokal na storage ng app ang backup kapag sine-save mo ito sa lugar na pinili mo.</p>
+<p>Kung idaragdag mo ang home screen widget ng LEVEL DAY, ipinapakita lang nito ang iyong level, streak at mga bilang para sa araw na ito — hindi kailanman ang laman ng diary o mga pamagat ng to-do.</p>
 <h3>3. Paano ginagamit ang impormasyon</h3>
 <p>Ginagamit lamang ang data sa itaas sa iyong device para patakbuhin ang app: para ipakita ang iyong diary, subaybayan ang iyong mga gawi at progreso, at i-iskedyul ang mga paalalang pinili mo.</p>
 <h3>4. Pagbabahagi at mga third party</h3>
-<p>Hindi kami nagbebenta, nagbabahagi, o naglilipat ng anumang data. Walang advertising, analytics, tracking, crash-reporting o social SDK ang app, at hindi ito humihingi ng access sa internet.</p>
+<p>May Google AdMob banner at interstitial ads sa Android app. Maaaring iproseso ng Google ang IP address, device at advertising identifiers, app interactions at diagnostics para sa ads, pagsukat ng performance at pag-iwas sa pandaraya. Gumagamit ng internet ang ads. Sinusuri ng Google UMP ang pahintulot bago humiling ng ads. Kung kinakailangan, mababago ang pagpili sa Settings → Privacy ng mga ad. Patakaran ng Google: <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+<p>Opsyonal ang notifications. System pickers ang gamit para sa larawan at backup. Salted PIN/password verifier lang ang nasa secure storage para sa App Lock. Hinaharang ng Android ang screenshots habang naka-lock; tinatakpan ng iOS ang app-switcher preview pero hindi ang aktibong screenshot. Bubukas lang ang email at website sa ibang app kapag pinili mo. Contact: <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
 <h3>5. Mga pahintulot sa device</h3>
 <ul class="body">
-  <li>Mga notification: para ipakita ang mga pang-araw-araw na paalalang binuksan mo sa Settings. Maaari mo itong i-off anumang oras.</li>
+  <li>Mga notification: para ipakita ang mga paalalang binuksan mo sa Settings (pang-araw-araw, gawain, streak at quest). Maaari mo itong i-off anumang oras.</li>
   <li>Pagtakbo sa startup: para maibalik ang mga naka-iskedyul na paalala pagkatapos mag-restart ang device.</li>
   <li>Pag-vibrate: para sa mga alerto ng paalala.</li>
+  <li>Photo picker: kapag nagdagdag ka ng larawan sa diary, pipiliin mo ito sa photo picker ng system. Ang larawang iyon lang ang natatanggap ng app at hindi nito kailangan ng pahintulot sa gallery o storage. Inaalis ang lokasyon at iba pang metadata ng larawan.</li>
+  <li>Mga file: sine-save at binubuksan ang mga backup sa pamamagitan ng file picker ng system, sa lokasyong pinili mo lang.</li>
 </ul>
 <p>Ang mga paalala ay naka-iskedyul nang lokal sa device; walang push server na ginagamit.</p>
+<ul class="body">
+  <li>Internet at network state: para sa mga kahilingan sa ads at pahintulot.</li>
+</ul>
 <h3>6. Seguridad</h3>
 <p>Hindi kailanman sine-save nang plain text ang iyong PIN o password. Isang salted at hashed na verifier (PBKDF2-HMAC-SHA256) lamang ang itinatago sa secure storage ng device (Android Keystore / iOS Keychain). Naka-disable ang cloud backup ng device para sa app, kaya hindi kinokopya ang iyong data sa mga online backup.</p>
+<p>Kapag naka-on ang App Lock, bina-block sa Android ang screenshots at recent-app previews. Sa iOS, tinatakpan ang app-switcher preview ngunit hindi maba-block ang screenshot habang ginagamit ang app. Bubuksan lang ng email at website links ng developer ang panlabas na app kapag pinindot mo ang mga ito. Ikaw ang magpapasya kung magpapadala ng email.</p>
+<p>Kapag gumawa ka ng backup, ine-encrypt ang file gamit ang AES-256-GCM na may key mula sa iyong backup password (PBKDF2-HMAC-SHA256). Sine-save ito kung saan mo pipiliin — halimbawa sa iyong device o sa cloud drive na ikaw mismo ang pumili. Hindi namin natatanggap ang file at hindi namin mababawi ang nakalimutang backup password.</p>
 <h3>7. Pagtatago at pagbura ng iyong data</h3>
 <p>Mananatili ang iyong data sa iyong device hanggang burahin mo ito. Maaari mong burahin ang mga indibidwal na entry sa app, i-clear ang data ng app sa settings ng iyong device, o i-uninstall ang app, na permanenteng magbubura sa lahat ng data nito.</p>
+<p>Binubura ng “Burahin ang lahat ng data” sa tab na My ang lahat nang sabay-sabay, kasama ang mga larawan. Hindi apektado ang backup na na-save mo sa ibang lugar; burahin mo ang file na iyon kung hindi mo na kailangan.</p>
 <p>Dahil wala kaming kopya, hindi namin maibabalik ang nawalang data o mai-reset ang nakalimutang PIN o password.</p>
+<p>Hindi nabubura ng pagtanggal sa app data ang hiwalay na backup o impormasyong naproseso na ng Google. Tingnan ang patakaran ng Google para sa pagpapanatili at pagbura ng data nito.</p>
 <h3>8. Ang iyong mga karapatan</h3>
-<p>Ang mga batas sa privacy gaya ng Data Privacy Act ng Pilipinas, GDPR at CCPA ay nagbibigay sa iyo ng karapatang i-access, itama at burahin ang iyong personal na data. Dahil ang lahat ng iyong data ay nasa iyong device lamang at nasa iyong kontrol, maaari mong gamitin ang mga karapatang ito nang direkta sa app. Wala kaming hawak na personal na data tungkol sa iyo.</p>
+<p>Maaari mong tingnan, itama at burahin ang lokal na diary sa app. Maaaring may karagdagang karapatan sa ilalim ng naaangkop na batas sa privacy. Para sa impormasyong pinoproseso ng Google, tingnan ang patakaran at mga privacy control nito. Makipag-ugnayan sa Kenneth App para sa mga tanong tungkol sa app.</p>
 <h3>9. Mga bata</h3>
-<p>Hindi nangongolekta ang app ng personal na impormasyon mula sa sinuman, kabilang ang mga bata.</p>
+<p>Lokal din ang pag-iimbak ng diary ng mga bata. Gayunman, may third-party advertising SDK ang Android app, kaya dapat ding isaalang-alang ang pagproseso sa seksyon 4. Maaaring makipag-ugnayan ang magulang o tagapag-alaga sa Kenneth App tungkol sa privacy ng bata.</p>
 <h3>10. Mga pagbabago sa patakarang ito</h3>
 <p>Kung magbabago ang patakarang ito, ia-update namin ang pahinang ito at ang petsa ng bisa sa itaas.</p>
 <h3>11. Makipag-ugnayan</h3>
@@ -332,10 +392,10 @@ a { color: var(--accent); }
 <section class="lang" id="ru" lang="ru" aria-labelledby="ru-title">
 <span class="lang-tag">Русский</span>
 <h2 id="ru-title">Политика конфиденциальности</h2>
-<p class="updated">Дата вступления в силу: 3 октября 2026 г.</p>
-<p class="summary">Настоящая Политика конфиденциальности описывает, как приложение LEVEL DAY (далее «приложение»), созданное Kenneth App (далее «мы»), обращается с вашей информацией. Кратко: LEVEL DAY работает полностью на вашем устройстве. Мы не собираем, не получаем и не передаём никакие ваши персональные данные.</p>
+<p class="updated">Дата вступления в силу: 25 октября 2026 г.</p>
+<p class="summary">В LEVEL DAY от Kenneth App нет регистрации и входа в аккаунт. Дневник хранится на устройстве. Для рекламы в Android используются Google AdMob и UMP, описанные в разделе 4.</p>
 <h3>1. Какую информацию мы собираем</h3>
-<p>Мы не собираем никакой персональной информации. В приложении нет учётной записи и входа, оно не подключается к интернету и не отправляет данные ни нам, ни кому-либо ещё.</p>
+<p>Дневник, фотографии, привычки, цели и прогресс хранятся на устройстве. Нет аккаунта или облачной синхронизации. Содержимое дневника не передаётся рекламодателям. Резервные копии шифруются вашим паролем и сохраняются в выбранном месте. Удаление данных приложения удаляет локальные записи.</p>
 <h3>2. Информация, хранящаяся на вашем устройстве</h3>
 <p>Для работы функций приложение сохраняет следующее только в локальном хранилище вашего устройства:</p>
 <ul class="body">
@@ -345,35 +405,47 @@ a { color: var(--accent); }
   <li>Прогресс: опыт (XP), уровни, серии и значки</li>
   <li>Настройки: язык, тема и время напоминаний</li>
   <li>Если вы включили блокировку приложения, зашифрованное проверочное значение PIN-кода или пароля (сам PIN-код или пароль не сохраняется)</li>
+  <li>Фотографии, прикреплённые к записям дневника (копируются в закрытое хранилище приложения)</li>
 </ul>
-<p>Эти данные никогда не покидают ваше устройство, и мы не можем их видеть или получить к ним доступ.</p>
+<p>Эти записи не отправляются рекламодателям или на серверы разработчика. Копия может покинуть внутреннее хранилище приложения, когда вы сохраняете её в выбранном месте.</p>
+<p>Если вы добавите виджет LEVEL DAY на главный экран, он показывает только ваш уровень, серию и сегодняшние показатели — никогда не текст дневника и не названия дел.</p>
 <h3>3. Как используется информация</h3>
 <p>Указанные данные используются только на вашем устройстве для работы приложения: чтобы показывать ваш дневник, отслеживать привычки и прогресс и планировать выбранные вами напоминания.</p>
 <h3>4. Передача данных и третьи лица</h3>
-<p>Мы не продаём, не передаём и не раскрываем никакие данные. В приложении нет рекламных, аналитических, отслеживающих, социальных SDK и SDK отчётов о сбоях, и оно не запрашивает доступ к интернету.</p>
+<p>В Android-приложении есть баннерная и полноэкранная реклама Google AdMob. Google может обрабатывать IP-адрес, идентификаторы устройства и рекламы, взаимодействия с приложением и диагностические данные для показа рекламы, измерения эффективности и предотвращения мошенничества. Рекламе нужен интернет. Перед запросом рекламы Google UMP проверяет согласие. Когда это требуется, выбор можно изменить в Настройки → Конфиденциальность рекламы. Политика Google: <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+<p>Уведомления необязательны. Для фотографий и копий используются системные средства выбора файлов. Для блокировки хранится только проверочное значение PIN/пароля с солью в защищённом хранилище. Android блокирует снимки экрана при включённой блокировке; iOS скрывает превью переключателя приложений, но не блокирует снимки активного экрана. Почта и сайт открываются во внешних приложениях по вашему выбору. Контакт: <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
 <h3>5. Разрешения устройства</h3>
 <ul class="body">
-  <li>Уведомления: для показа ежедневных напоминаний, которые вы включили в настройках. Их можно отключить в любой момент.</li>
+  <li>Уведомления: для показа напоминаний, которые вы включили в настройках (ежедневных, о задачах, о серии и о квестах). Их можно отключить в любой момент.</li>
   <li>Запуск при загрузке: чтобы восстановить запланированные напоминания после перезагрузки устройства.</li>
   <li>Вибрация: для сигналов напоминаний.</li>
+  <li>Выбор фото: добавляя фото в дневник, вы выбираете его в системном окне выбора фото. Приложение получает только это фото и не требует доступа к галерее или хранилищу. Геоданные и другие метаданные фото удаляются.</li>
+  <li>Файлы: резервные копии сохраняются и открываются через системное окно выбора файлов — только в выбранном вами месте.</li>
 </ul>
 <p>Напоминания планируются локально на устройстве; push-серверы не используются.</p>
+<ul class="body">
+  <li>Интернет и состояние сети: для запросов рекламы и проверки согласия.</li>
+</ul>
 <h3>6. Безопасность</h3>
 <p>Ваш PIN-код или пароль никогда не хранится в открытом виде. В защищённом хранилище устройства (Android Keystore / iOS Keychain) хранится только хешированное проверочное значение с солью (PBKDF2-HMAC-SHA256). Облачное резервное копирование для приложения отключено, поэтому ваши данные не копируются в онлайн-резервные копии.</p>
+<p>При включённой блокировке Android запрещает снимки экрана и скрывает предпросмотр недавних приложений. В iOS скрывается предпросмотр переключателя приложений, но снимки экрана во время использования заблокировать нельзя. Ссылки на почту и сайт разработчика открывают внешнее приложение только по вашему нажатию. Вы сами решаете, отправлять ли письмо.</p>
+<p>Резервная копия шифруется AES-256-GCM ключом, полученным из вашего пароля копии (PBKDF2-HMAC-SHA256). Файл сохраняется там, где вы выберете, — например, на устройстве или в выбранном вами облачном хранилище. Мы не получаем этот файл и не можем восстановить забытый пароль копии.</p>
 <h3>7. Хранение и удаление данных</h3>
 <p>Ваши данные хранятся на устройстве, пока вы их не удалите. Вы можете удалять отдельные записи в приложении, очистить данные приложения в настройках устройства или удалить приложение — в этом случае все его данные удаляются безвозвратно.</p>
+<p>«Удалить все данные» во вкладке «Моё» стирает всё сразу, включая фото. Резервная копия, сохранённая в другом месте, не затрагивается — удалите этот файл сами, если он больше не нужен.</p>
 <p>Поскольку у нас нет копии данных, мы не можем восстановить утерянные данные или сбросить забытый PIN-код или пароль.</p>
+<p>Удаление данных приложения не удаляет отдельно сохранённые копии или информацию, уже обработанную Google. Сроки хранения и порядок удаления данных Google описаны в политике Google.</p>
 <h3>8. Ваши права</h3>
-<p>Законы о защите данных, такие как GDPR, CCPA и Федеральный закон № 152-ФЗ «О персональных данных», предоставляют вам право на доступ к своим персональным данным, их исправление и удаление. Поскольку все ваши данные хранятся только на вашем устройстве и находятся под вашим контролем, вы можете реализовать эти права непосредственно в приложении. Мы не храним никаких персональных данных о вас.</p>
+<p>Локальные записи можно просматривать, исправлять и удалять в приложении. Применимые законы о конфиденциальности могут предоставлять дополнительные права. По вопросам данных, обрабатываемых Google, ознакомьтесь с политикой и доступными настройками Google. С вопросами о приложении обращайтесь в Kenneth App.</p>
 <h3>9. Дети</h3>
-<p>Приложение не собирает персональную информацию ни у кого, включая детей.</p>
+<p>Дневники детей также хранятся на устройстве. Однако Android-приложение содержит сторонний рекламный SDK, поэтому необходимо учитывать обработку рекламных данных из раздела 4. Родители или опекуны могут обратиться в Kenneth App по вопросам конфиденциальности ребёнка.</p>
 <h3>10. Изменения политики</h3>
 <p>При изменении настоящей политики мы обновим эту страницу и указанную выше дату вступления в силу.</p>
 <h3>11. Контакты</h3>
 <p>Вопросы по настоящей политике: Kenneth App — <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
 <p class="totop"><a href="#top">&uarr; Наверх</a></p>
 </section>
-<footer>LEVEL DAY · Kenneth App · <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></footer>
+<footer>LEVEL DAY · Kenneth App · <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a><br><a href="https://gkimmulti-ui.github.io/">https://gkimmulti-ui.github.io/</a></footer>
 </main>
 <script>
 (function () {

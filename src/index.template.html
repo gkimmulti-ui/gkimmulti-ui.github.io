@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-locale="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,14 +18,8 @@
   <meta name="keywords" id="meta-keywords" content="Kenneth App, 부조금관리, 마음장부, SnapLog, 무음카메라, Light Wall, Holy Ground, 챙김, Slim Joy, Light LED, 나도 로또 당첨되고 싶어, One Minute Kingdom, MBTI 16MODE, 안드로이드 앱, 무료 앱" />
   <link rel="canonical" href="https://gkimmulti-ui.github.io/" id="link-canonical" />
 
-  <!-- 언어별 주소 (hreflang) -->
-  <link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
-  <link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/?lang=ko" />
-  <link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/?lang=en" />
-  <link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/?lang=ja" />
-  <link rel="alternate" hreflang="zh" href="https://gkimmulti-ui.github.io/?lang=zh" />
-  <link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/?lang=ru" />
-  <link rel="alternate" hreflang="fil" href="https://gkimmulti-ui.github.io/?lang=fil" />
+  {{ALTERNATES}}
+  <link rel="alternate" type="application/rss+xml" title="Kenneth App" href="/feed.xml" />
 
   <!-- 공유 미리보기 (카카오톡·페이스북·네이버 블로그 등) -->
   <meta property="og:type" content="website" />
@@ -46,12 +40,6 @@
   <meta name="twitter:title" content="Kenneth App" id="tw-title" />
   <meta name="twitter:description" content="Kenneth App 공식 홈페이지 - 다양한 모바일 앱을 만나보세요." id="tw-desc" />
   <meta name="twitter:image" content="https://gkimmulti-ui.github.io/images/og-image.png" />
-
-  <!-- 검색엔진 소유 확인 — 각 웹마스터 도구에서 발급받은 코드를 content 에 넣으세요.
-       네이버: https://searchadvisor.naver.com  /  구글: https://search.google.com/search-console
-  <meta name="naver-site-verification" content="여기에_네이버_인증코드" />
-  <meta name="google-site-verification" content="여기에_구글_인증코드" />
-  -->
 
   <!-- 구조화 데이터 (구글 리치 결과 · AI 검색이 읽는 부분) -->
   <script type="application/ld+json" id="ld-json">{
@@ -89,16 +77,16 @@
     }
   ]
 }</script>
-  <link rel="preload" as="font" href="assets/fonts/kenneth-ui.woff2?v=20261018-hero" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="assets/home.css?v=20261018-hero" />
+  <link rel="preload" as="font" href="assets/fonts/kenneth-ui.woff2?v=20261026-seo" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="assets/home.css?v=20261026-seo" />
   <link rel="preload" as="image" href="{{HERO_PRELOAD}}" fetchpriority="high" />
-  <script src="assets/catalog.js?v=20261018-hero" defer></script>
-  <script src="assets/home.js?v=20261018-hero" defer></script>
+  <script src="assets/catalog.js?v=20261026-seo" defer></script>
+  <script src="assets/home.js?v=20261026-seo" defer></script>
 </head>
 <body data-homepage-version="2026-10-redesign">
   <a class="skip-link" href="#main" data-i18n="skip"></a>
   <header class="site-header"><div class="container nav">
-    <a href="#" class="wordmark" aria-label="Kenneth App"><span class="brand-symbol" aria-hidden="true">k</span><span>kenneth app<span class="brand-dot">.</span></span></a>
+    <a href="{{HOME_PATH}}" class="wordmark" aria-label="Kenneth App"><span class="brand-symbol" aria-hidden="true">k</span><span>kenneth app<span class="brand-dot">.</span></span></a>
     <div class="nav-right"><nav class="nav-links" aria-label="Main"><a href="#apps" data-i18n="nav.apps"></a><a href="#about" data-i18n="nav.about"></a><a href="#contact" data-i18n="nav.contact"></a></nav>
     <label class="lang-select"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><ellipse cx="12" cy="12" rx="4" ry="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18" stroke="currentColor" stroke-width="1.5"/></svg><span class="sr-only">Language</span><select id="lang-picker"><option value="ko">한국어</option><option value="en">English</option><option value="ja">日本語</option><option value="zh">中文</option><option value="ru">Русский</option><option value="fil">Filipino</option></select></label></div>
   </div></header>
@@ -139,7 +127,7 @@
     </div></div></section>
     <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container"><div class="contact-box"><div><p class="eyebrow">LET’S MAKE EVERYDAY BETTER</p><h2 id="contact-title" data-i18n="contact.title"></h2><p data-i18n="contact.desc"></p></div><div class="contact-action"><a class="button-primary" href="mailto:gkimmulti@gmail.com"><span data-i18n="contact.button"></span><span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></div></div></div></section>
   </main>
-  <footer class="site-footer"><div class="container"><div class="footer-main"><div class="footer-brand"><a href="#" class="wordmark" aria-label="Kenneth App"><span class="brand-symbol" aria-hidden="true">k</span><span>kenneth app<span class="brand-dot">.</span></span></a><p data-i18n="footer.tagline"></p></div><p>© 2026 Kenneth App. All rights reserved.</p></div><p class="footer-note" data-i18n="footer.storeNote"></p></div></footer>
+  <footer class="site-footer"><div class="container"><div class="footer-main"><div class="footer-brand"><a href="{{HOME_PATH}}" class="wordmark" aria-label="Kenneth App"><span class="brand-symbol" aria-hidden="true">k</span><span>kenneth app<span class="brand-dot">.</span></span></a><p data-i18n="footer.tagline"></p></div><p>© 2026 Kenneth App. All rights reserved.</p></div><nav class="language-links" aria-label="Language">{{LANGUAGE_LINKS}}</nav><p class="footer-note" data-i18n="footer.storeNote"></p></div></footer>
   <dialog class="screenshot-dialog" id="screenshot-dialog" aria-labelledby="viewer-title"><div class="viewer-shell"><header class="viewer-header"><div><h2 id="viewer-title"></h2><p id="viewer-count" aria-live="polite"></p></div><button class="viewer-close" id="viewer-close" type="button" data-i18n-label="gallery.close" aria-label="확대 보기 닫기" autofocus>×</button></header><div class="viewer-stage"><button class="viewer-nav prev" type="button" id="viewer-prev" data-i18n-label="gallery.prev" aria-label="이전 스크린샷"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6"/></svg></button><img id="viewer-image" alt="" /><button class="viewer-nav next" type="button" id="viewer-next" data-i18n-label="gallery.next" aria-label="다음 스크린샷"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6"/></svg></button></div><footer class="viewer-footer"><a id="viewer-source" target="_blank" rel="noopener noreferrer" data-i18n="gallery.source"></a></footer></div></dialog>
 </body>
 </html>

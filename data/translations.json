@@ -1,7 +1,7 @@
 {
   "en": {
-    "meta.title": "Kenneth App - Apps that improve your everyday life",
-    "meta.desc": "From moments worth keeping to things you need to remember. Kenneth App turns small everyday needs into mobile apps that feel easy to use.",
+    "meta.title": "Kenneth App | Everyday Apps, Photo Tools & Games",
+    "meta.desc": "Explore Kenneth App: SaveCity savings, HowLong date calculations, photo tools, journals and games. Browse real screenshots, features and Google Play or App Store download links.",
     "nav.apps": "Apps",
     "nav.about": "About",
     "nav.contact": "Contact",
@@ -84,11 +84,15 @@
     "hero.pause": "Pause slideshow",
     "hero.play": "Play slideshow",
     "hero.open": "View app details",
-    "hero.position": "Visible app screens"
+    "hero.position": "Visible app screens",
+    "seo.home": "Home",
+    "seo.related": "More apps to explore",
+    "seo.downloads": "Downloads and QR codes",
+    "seo.storeName": "Store listing name"
   },
   "ko": {
-    "meta.title": "Kenneth App - 일상을 바꾸는 앱을 만듭니다",
-    "meta.desc": "기억하고 싶은 순간부터, 잊지 말아야 할 일까지. 케네스앱은 일상 속 작은 필요를 발견하고, 누구나 쉽게 꺼내 쓸 수 있는 모바일 앱으로 만듭니다.",
+    "meta.title": "케네스앱 | 생활·사진·게임 앱 다운로드 · Kenneth App",
+    "meta.desc": "케네스앱(Kenneth App) 공식 홈페이지. SaveCity 절약 기록, HowLong 날짜 계산, 사진 정리·일기·게임 앱을 만나보세요. 실제 스크린샷과 기능 설명, 플레이스토어·앱스토어 다운로드 링크와 QR을 제공합니다.",
     "nav.apps": "앱 둘러보기",
     "nav.about": "소개",
     "nav.contact": "문의",
@@ -171,11 +175,15 @@
     "hero.pause": "자동 넘김 멈춤",
     "hero.play": "자동 넘김 시작",
     "hero.open": "앱 소개 보기",
-    "hero.position": "보이는 앱 화면"
+    "hero.position": "보이는 앱 화면",
+    "seo.home": "홈",
+    "seo.related": "함께 둘러볼 앱",
+    "seo.downloads": "다운로드 및 QR",
+    "seo.storeName": "스토어 등록명"
   },
   "ja": {
-    "meta.title": "Kenneth App - 日常を変えるアプリをつくります",
-    "meta.desc": "残したい瞬間から、忘れたくない予定まで。Kenneth Appは日々の小さなニーズを見つけ、気軽に使えるモバイルアプリにします。",
+    "meta.title": "Kenneth App | 暮らし・写真・ゲームアプリ",
+    "meta.desc": "Kenneth App公式サイト。SaveCityの節約記録、HowLongの日付計算、写真整理、日記、ゲームなどを紹介。実際の画面と機能、Google Play・App Storeのダウンロードリンクをご覧ください。",
     "nav.apps": "アプリ一覧",
     "nav.about": "紹介",
     "nav.contact": "お問い合わせ",
@@ -258,11 +266,15 @@
     "hero.pause": "自動再生を停止",
     "hero.play": "自動再生を開始",
     "hero.open": "アプリの紹介を見る",
-    "hero.position": "表示中のアプリ画面"
+    "hero.position": "表示中のアプリ画面",
+    "seo.home": "ホーム",
+    "seo.related": "ほかのアプリを見る",
+    "seo.downloads": "ダウンロードとQRコード",
+    "seo.storeName": "ストアでのアプリ名"
   },
   "zh": {
-    "meta.title": "Kenneth App - 打造改变日常的应用",
-    "meta.desc": "从值得记录的瞬间，到不该忘记的小事。Kenneth App发现日常中的小需求，将它们变成随手可用的移动应用。",
+    "meta.title": "Kenneth App | 生活、照片工具与游戏应用",
+    "meta.desc": "Kenneth App官方网站。了解SaveCity节约记录、HowLong日期计算，以及照片整理、日记和游戏应用。查看真实截图、功能介绍、Google Play和App Store下载链接。",
     "nav.apps": "应用列表",
     "nav.about": "介绍",
     "nav.contact": "联系我们",
@@ -345,11 +357,15 @@
     "hero.pause": "暂停自动播放",
     "hero.play": "开始自动播放",
     "hero.open": "查看应用介绍",
-    "hero.position": "当前显示的应用界面"
+    "hero.position": "当前显示的应用界面",
+    "seo.home": "首页",
+    "seo.related": "探索更多应用",
+    "seo.downloads": "下载与二维码",
+    "seo.storeName": "商店中的应用名称"
   },
   "ru": {
-    "meta.title": "Kenneth App - Приложения, которые меняют повседневную жизнь",
-    "meta.desc": "От памятных мгновений до важных дел. Kenneth App превращает повседневные потребности в простые мобильные приложения.",
+    "meta.title": "Kenneth App | Приложения для жизни, фото и игры",
+    "meta.desc": "Приложения Kenneth App: экономия с SaveCity, расчёт дат с HowLong, фото, дневники и игры. Скриншоты, функции и ссылки на Google Play и App Store.",
     "nav.apps": "Приложения",
     "nav.about": "О нас",
     "nav.contact": "Контакты",
@@ -432,11 +448,15 @@
     "hero.pause": "Приостановить показ",
     "hero.play": "Начать показ",
     "hero.open": "Подробнее о приложении",
-    "hero.position": "Видимые экраны приложений"
+    "hero.position": "Видимые экраны приложений",
+    "seo.home": "Главная",
+    "seo.related": "Другие приложения",
+    "seo.downloads": "Скачать и QR-коды",
+    "seo.storeName": "Название в магазине"
   },
   "fil": {
-    "meta.title": "Kenneth App - Mga app na nagpapabuti sa iyong araw-araw",
-    "meta.desc": "Mula sa mga sandaling gustong itabi hanggang sa mga bagay na dapat tandaan. Ginagawang madaling gamiting mobile app ng Kenneth App ang maliliit na pangangailangan sa araw-araw.",
+    "meta.title": "Kenneth App | Mga App para sa Araw-araw, Larawan at Laro",
+    "meta.desc": "Tuklasin ang Kenneth App: pag-iipon sa SaveCity, mga petsa sa HowLong, larawan, diary at laro. Mga screenshot, tampok at link sa Google Play at App Store.",
     "nav.apps": "Mga App",
     "nav.about": "Tungkol",
     "nav.contact": "Kontak",
@@ -519,6 +539,10 @@
     "hero.pause": "I-pause ang slideshow",
     "hero.play": "I-play ang slideshow",
     "hero.open": "Tingnan ang detalye ng app",
-    "hero.position": "Mga screen na nakikita"
+    "hero.position": "Mga screen na nakikita",
+    "seo.home": "Home",
+    "seo.related": "Iba pang mga app",
+    "seo.downloads": "Mga download at QR code",
+    "seo.storeName": "Pangalan sa store"
   }
 }

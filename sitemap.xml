@@ -1,81 +1,1888 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://gkimmulti-ui.github.io/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-26</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gkimmulti-ui.github.io/?lang=zh" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/?lang=ru" />
-    <xhtml:link rel="alternate" hreflang="fil" href="https://gkimmulti-ui.github.io/?lang=fil" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+
   </url>
   <url>
-    <loc>https://gkimmulti-ui.github.io/?lang=en</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gkimmulti-ui.github.io/?lang=zh" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/?lang=ru" />
-    <xhtml:link rel="alternate" hreflang="fil" href="https://gkimmulti-ui.github.io/?lang=fil" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+    <loc>https://gkimmulti-ui.github.io/apps/savecity/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-05.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://gkimmulti-ui.github.io/?lang=ja</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gkimmulti-ui.github.io/?lang=zh" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/?lang=ru" />
-    <xhtml:link rel="alternate" hreflang="fil" href="https://gkimmulti-ui.github.io/?lang=fil" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+    <loc>https://gkimmulti-ui.github.io/apps/howlong/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-05.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://gkimmulti-ui.github.io/?lang=zh</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gkimmulti-ui.github.io/?lang=zh" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/?lang=ru" />
-    <xhtml:link rel="alternate" hreflang="fil" href="https://gkimmulti-ui.github.io/?lang=fil" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+    <loc>https://gkimmulti-ui.github.io/apps/starstock/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-05.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://gkimmulti-ui.github.io/?lang=ru</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gkimmulti-ui.github.io/?lang=zh" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/?lang=ru" />
-    <xhtml:link rel="alternate" hreflang="fil" href="https://gkimmulti-ui.github.io/?lang=fil" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+    <loc>https://gkimmulti-ui.github.io/apps/deepdig/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-05.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://gkimmulti-ui.github.io/?lang=fil</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gkimmulti-ui.github.io/?lang=zh" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/?lang=ru" />
-    <xhtml:link rel="alternate" hreflang="fil" href="https://gkimmulti-ui.github.io/?lang=fil" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+    <loc>https://gkimmulti-ui.github.io/apps/quizaura/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-04.webp</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/snapclean/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/lumiday/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-06.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/maeum/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/snaplog/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/lightwall/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/holyground/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/chaengkim/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/slimjoy/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/lightled/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/lotto/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-07.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/kingdom/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-08.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/16mode/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/savecity/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/howlong/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/starstock/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/deepdig/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/quizaura/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/snapclean/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/lumiday/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-06.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/maeum/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/snaplog/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/lightwall/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/holyground/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/chaengkim/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/slimjoy/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/lightled/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/lotto/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-07.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/kingdom/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-08.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/16mode/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/savecity/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/howlong/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/starstock/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/deepdig/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/quizaura/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/snapclean/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/lumiday/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-06.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/maeum/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/snaplog/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/lightwall/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/holyground/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/chaengkim/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/slimjoy/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/lightled/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/lotto/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-07.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/kingdom/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-08.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/16mode/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/savecity/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/howlong/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/starstock/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/deepdig/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/quizaura/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/snapclean/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/lumiday/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-06.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/maeum/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/snaplog/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/lightwall/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/holyground/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/chaengkim/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/slimjoy/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/lightled/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/lotto/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-07.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/kingdom/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-08.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/16mode/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/savecity/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/howlong/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/starstock/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/deepdig/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/quizaura/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/snapclean/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/lumiday/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-06.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/maeum/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/snaplog/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/lightwall/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/holyground/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/chaengkim/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/slimjoy/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/lightled/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/lotto/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-07.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/kingdom/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-08.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/16mode/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
+
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/savecity/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/savecity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/savecity/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/savecity-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/howlong/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/howlong/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/howlong/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/howlong-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/starstock/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/starstock/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/starstock/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/starstock-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/deepdig/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/deepdig/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/deepdig/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/deepdig-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/quizaura/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/quizaura/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/quizaura/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/quizaura-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/snapclean/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snapclean/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snapclean-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/lumiday/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lumiday/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lumiday/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lumiday-06.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/maeum/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/maeum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/maeum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/maeum-appstore-20261018-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/snaplog/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/snaplog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/snaplog-04.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/lightwall/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightwall/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-08.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-09.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightwall-ios-10.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/holyground/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/holyground/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/holyground/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/holyground-play-20261018-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/chaengkim/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/chaengkim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/chaengkim/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/chaengkim-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/slimjoy/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/slimjoy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/slimjoy-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/lightled/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lightled/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lightled/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lightled-05.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/lotto/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/lotto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/lotto/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/lotto-appstore-20261018-07.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/kingdom/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/kingdom/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/kingdom/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-06.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/kingdom-08.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/16mode/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/16mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/16mode/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/16mode-04.webp</image:loc></image:image>
+  </url>
+  <url><loc>https://gkimmulti-ui.github.io/1minKingdom.html</loc><lastmod>2026-08-02</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/deepdig.html</loc><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/howlong.html</loc><lastmod>2026-09-12</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/levelday.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/littleheroes.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/lotto.html</loc><lastmod>2026-08-02</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/lumascape.html</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/mbti16mode.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/nightmarket.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/pocketdino.html</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/pocketjesus.html</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/pocketsanta-privacy.html</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/quizaura.html</loc><lastmod>2026-08-23</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/rateshift.html</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/savecity-terms.html</loc><lastmod>2026-09-09</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/savecity.html</loc><lastmod>2026-09-09</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/snapclean.html</loc><lastmod>2026-09-11</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/starstock.html</loc><lastmod>2026-09-13</lastmod></url>
+  <url><loc>https://gkimmulti-ui.github.io/ttirang.html</loc><lastmod>2026-10-21</lastmod></url>
 </urlset>

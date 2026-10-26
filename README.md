@@ -58,3 +58,24 @@ Commit the QR images and manifest with the generated homepage. The build rejects
 The top gallery shows one current store screenshot for every app. `data/hero.json` prioritizes new releases and updated galleries, with a zero-based screenshot index within the selected platform. The remaining apps are appended automatically using their first screenshot. Both static HTML and browser rendering read the same catalog metadata, so screenshot refreshes also update the hero. The build rejects featured selections that no longer exist.
 
 The gallery supports native touch scrolling, previous/next buttons, arrow keys, and a pause/play control. It advances every five seconds while visible, pauses on hover, and stops after keyboard focus or manual navigation. Reduced-motion preferences start it paused. App links restore filtered-out cards before navigating. All 17 screenshots and links also work without JavaScript.
+
+## Search visibility (2026-10-26)
+
+`node scripts/build.cjs` now builds 108 static content pages: six catalog homepages and 17 app detail pages in each language. Korean lives at `/`, other languages at `/en/`, `/ja/`, `/zh/`, `/ru/`, `/fil/`; app URLs append `apps/<slug>/`. All descriptions, screenshots, store badges, QR codes and language links are present without JavaScript. Legacy `?lang=` links navigate to the corresponding static URL. URL language always takes precedence over browser settings.
+
+The build generates unique titles/descriptions, self-canonical URLs, reciprocal hreflang links (ISO 639-1 `tl` for Filipino), Organization/WebSite/CollectionPage/MobileApplication/BreadcrumbList metadata, `sitemap.xml` with screenshot URLs, and a Korean `feed.xml`. It preserves the existing app privacy/terms documents and search-engine verification files. App ratings, current prices and download counts are not invented for structured data. Schema describes the content; eligibility for enhanced search results is not promised.
+
+`data/page-manifest.json` records page content hashes and meaningful change dates. Unchanged rebuilds preserve `lastmod`; changed pages get the current date in Asia/Seoul. `BUILD_DATE=YYYY-MM-DD node scripts/build.cjs` can pin the date for a deliberate release. Commit the generated pages and manifest with the sources. The validation command is `python scripts/check-seo.py` (Python standard library only).
+
+Google and Naver can discover the sitemap through `robots.txt`. For owner-account monitoring, submit `https://gkimmulti-ui.github.io/sitemap.xml` to Google Search Console and Naver Search Advisor; `https://gkimmulti-ui.github.io/feed.xml` is available for Naver RSS submission. Verification files being present does not prove the accounts are currently verified or that submission has occurred. Use Google URL Inspection to request indexing of the homepage and key app pages. Search engines decide whether and when to index/rank content.
+
+Naver IndexNow publication notifications use the **public** ownership key in `data/search-config.json` and the matching root `.txt` file. After GitHub Pages finishes publishing, preview only changed content URLs, then submit them:
+
+```sh
+python scripts/notify-indexnow.py --since <commit-before-update>
+python scripts/notify-indexnow.py --since <commit-before-update> --submit
+```
+
+The script verifies the live ownership file and sitemap before sending. HTTP 200 means the notification was received; 202 means key validation is pending. Neither means the URLs are indexed. IndexNow does not submit URLs to Google. Do not repeatedly send unchanged pages or use Google's deprecated sitemap ping endpoint.
+
+Official guidance: [Google multilingual pages](https://developers.google.com/search/docs/specialty/international/localized-versions), [Google recrawling](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl), [Naver sitemap/RSS](https://searchadvisor.naver.com/guide/request-feed), [Naver IndexNow](https://searchadvisor.naver.com/guide/indexnow-request).

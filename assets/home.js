@@ -5,11 +5,13 @@
     apps: require('../data/apps.json'), translations: require('../data/translations.json'), hero: require('../data/hero.json')
   } : KENNETH_DATA;
   const languages = ['ko', 'en', 'ja', 'zh', 'ru', 'fil'];
-  const htmlLang = {ko:'ko', en:'en', ja:'ja', zh:'zh-CN', ru:'ru', fil:'fil'};
   const groups = ['all', 'life', 'photo', 'tools', 'play', 'faith'];
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
   const local = (value, lang) => typeof value === 'object' && !Array.isArray(value) ? value[lang] ?? value.en ?? value.ko : value;
   const t = (key, lang) => data.translations[lang][key] ?? data.translations.en[key] ?? '';
+  const homePath = lang => lang==='ko'?'/':'/'+lang+'/';
+  const appPath = (app,lang) => homePath(lang)+'apps/'+app.slug+'/';
+  const asset = value => '/'+value.replace(/^\/+/, '');
   const arrow = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   function heroEntries() {
     const featured = data.hero.map(choice => {
@@ -23,7 +25,7 @@
   function heroSlides(lang) {
     return heroEntries().map(({app,shot},index) => {
       const name=escape(local(app.name,lang));
-      return `<li class="hero-slide tone-${app.tone}${shot.width>shot.height?' is-landscape':''}"><a class="hero-screen" href="#app-${app.slug}" aria-label="${name} · ${escape(t('hero.open',lang))}"><span class="hero-screen-image"><img src="${shot.thumb}" alt="${name} · ${escape(t('gallery.label',lang))} (${shot.platform})" width="${shot.width}" height="${shot.height}" loading="${index<6?'eager':'lazy'}" decoding="async"${index===0?' fetchpriority="high"':''}></span><span class="hero-screen-caption"><img src="${app.icon}" alt="" width="30" height="30" loading="lazy"><span><strong>${name}</strong><span>${escape(local(app.category,lang))}</span></span><span class="hero-screen-arrow" aria-hidden="true">↗</span></span></a></li>`;
+      return `<li class="hero-slide tone-${app.tone}${shot.width>shot.height?' is-landscape':''}"><a class="hero-screen" href="#app-${app.slug}" aria-label="${name} · ${escape(t('hero.open',lang))}"><span class="hero-screen-image"><img src="${asset(shot.thumb)}" alt="${name} · ${escape(t('gallery.label',lang))} (${shot.platform})" width="${shot.width}" height="${shot.height}" loading="${index<6?'eager':'lazy'}" decoding="async"${index===0?' fetchpriority="high"':''}></span><span class="hero-screen-caption"><img src="${asset(app.icon)}" alt="" width="30" height="30" loading="lazy"><span><strong>${name}</strong><span>${escape(local(app.category,lang))}</span></span><span class="hero-screen-arrow" aria-hidden="true">↗</span></span></a></li>`;
     }).join('');
   }
   function storeOption(app, store, lang) {
@@ -31,32 +33,34 @@
     const name = escape(local(app.name,lang));
     const url = store==='play'?app.playUrl:app.appStoreUrl;
     if(!url) return `<div class="store-option store-upcoming"><div class="upcoming-symbol" aria-hidden="true">◷</div><h5>${label}</h5><strong>${escape(t('store.soon',lang))}</strong><p>${escape(t('store.soonDetail',lang))}</p></div>`;
-    const qr = `assets/store-qr/${app.slug}-${store}.png?v=20261018-apps`;
-    const badge = `assets/store-badges/${store}-${lang}.${store==='play'?'png':'svg'}`;
+    const qr = `/assets/store-qr/${app.slug}-${store}.png?v=20261018-apps`;
+    const badge = `/assets/store-badges/${store}-${lang}.${store==='play'?'png':'svg'}`;
     return `<div class="store-option"><div class="store-download"><h5>${label}</h5><a class="store-badge-link ${store}" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${name} · ${label} · ${escape(t('store.download',lang))}"><img src="${badge}" alt="${label} · ${escape(t('store.download',lang))}" loading="lazy" decoding="async"></a></div><div class="store-qr"><a class="qr-link" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${name} · ${label} · ${escape(t('store.open',lang))}"><img src="${qr}" alt="${name} · ${label} ${escape(t('store.qr',lang))}" width="144" height="144" loading="lazy" decoding="async"></a><a class="qr-save" href="${qr}" download="${app.slug}-${store}-qr.png" aria-label="${name} · ${label} · ${escape(t('store.saveQr',lang))}">${escape(t('store.saveQr',lang))} <span aria-hidden="true">↓</span></a></div></div>`;
   }
   function card(app, lang) {
     const name = escape(local(app.name, lang));
     const shots = app.screenshots;
-    const gallery = shots.map((s,i) => `<a class="screen-link${s.width>s.height?' is-landscape':''}" href="${s.src}" data-shot="${i}" data-app="${app.slug}" aria-label="${name} · ${escape(t('gallery.open',lang))} ${i+1} · ${s.platform}"><img src="${s.thumb}" alt="${name} · ${escape(t('gallery.label',lang))} ${i+1} (${s.platform})" width="${s.width}" height="${s.height}" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span>${s.platform==='App Store'?'<span class="screen-platform">iPhone</span>':''}</a>`).join('');
+    const gallery = shots.map((s,i) => `<a class="screen-link${s.width>s.height?' is-landscape':''}" href="${asset(s.src)}" data-store-url="${escape(s.platform==='App Store'?app.appStoreUrl:app.playUrl)}" data-shot="${i}" data-app="${app.slug}" aria-label="${name} · ${escape(t('gallery.open',lang))} ${i+1} · ${s.platform}"><img src="${asset(s.thumb)}" alt="${name} · ${escape(t('gallery.label',lang))} ${i+1} (${s.platform})" width="${s.width}" height="${s.height}" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span>${s.platform==='App Store'?'<span class="screen-platform">iPhone</span>':''}</a>`).join('');
     return `<article class="app-card tone-${app.tone}" id="app-${app.slug}" aria-labelledby="name-${app.slug}">
-      <div class="app-head"><img class="app-icon" src="${escape(app.icon)}" alt="" width="52" height="52" loading="lazy"><div class="app-name"><h3 id="name-${app.slug}">${name}</h3><p>${escape(local(app.category,lang))}</p></div></div>
+      <div class="app-head"><img class="app-icon" src="${escape(asset(app.icon))}" alt="" width="52" height="52" loading="lazy"><div class="app-name"><h3 id="name-${app.slug}"><a href="${appPath(app,lang)}">${name}</a></h3><p>${escape(local(app.category,lang))}</p></div></div>
       <div class="gallery-wrap"><div class="screenshot-track" id="gallery-${app.slug}" role="group" aria-label="${name} · ${escape(t('gallery.label',lang))}">${gallery}</div>
       <div class="gallery-footer"><span>${escape(t('gallery.hint',lang))}</span><div class="gallery-controls"><button class="icon-btn gallery-prev" type="button" data-gallery="${app.slug}" data-direction="-1" aria-label="${name} · ${escape(t('gallery.prev',lang))}">${arrow}</button><button class="icon-btn" type="button" data-gallery="${app.slug}" data-direction="1" aria-label="${name} · ${escape(t('gallery.next',lang))}">${arrow}</button></div></div></div>
       <div class="app-copy"><h4>${escape(local(app.headline,lang))}</h4><p class="app-desc">${escape(local(app.desc,lang))}</p><ul class="app-tags">${(local(app.tags,lang)||[]).map(tag=>`<li>${escape(tag)}</li>`).join('')}</ul>
       ${app.note?`<details class="app-note"><summary>${escape(t('details',lang))}</summary><p>${escape(local(app.note,lang))}</p></details>`:''}
+      <a class="app-detail-link" href="${appPath(app,lang)}" aria-label="${name} · ${escape(t('hero.open',lang))}">${escape(t('hero.open',lang))} <span aria-hidden="true">↗</span></a>
       <div class="app-downloads"><p class="download-hint">${escape(t('store.hint',lang))}</p>${app.storeNotice?`<p class="store-notice">${escape(local(app.storeNotice,lang))}</p>`:''}<div class="store-options">${app.appStoreUrl?storeOption(app,'appstore',lang)+storeOption(app,'play',lang):storeOption(app,'play',lang)+storeOption(app,'appstore',lang)}</div></div></div></article>`;
   }
   function filters(lang, selected='all') {
     return groups.map(g=>`<button class="filter-chip${g===selected?' active':''}" type="button" data-filter="${g}" aria-pressed="${g===selected}">${escape(t('filter.'+g,lang))}${g==='all'?`<span>${data.apps.length}</span>`:''}</button>`).join('');
   }
-  if (typeof module !== 'undefined' && module.exports) { module.exports={card,filters,escape,heroEntries,heroSlides}; return; }
+  if (typeof module !== 'undefined' && module.exports) { module.exports={card,filters,escape,heroEntries,heroSlides,homePath,appPath}; return; }
 
-  let lang = new URLSearchParams(location.search).get('lang');
-  if (!languages.includes(lang)) { try { lang=localStorage.getItem('kennethapp-lang'); } catch {} }
-  if (!languages.includes(lang)) {
-    const preferred=(navigator.language||'ko').toLowerCase();
-    lang=languages.find(l=>preferred.startsWith(l)) || (preferred.startsWith('tl')?'fil':'en');
+  // A URL always serves one language, including before JavaScript runs.
+  const lang=document.documentElement.dataset.locale||'ko';
+  const legacyLang=new URLSearchParams(location.search).get('lang');
+  if(languages.includes(legacyLang)) {
+    location.replace(homePath(legacyLang)+location.hash);
+    return;
   }
   let activeGroup='all';
   const grid=document.getElementById('app-grid');
@@ -73,12 +77,6 @@
     document.getElementById('empty-state').hidden=apps.length!==0;
   }
   function render() {
-    document.documentElement.lang=htmlLang[lang];
-    document.title=t('meta.title',lang);
-    document.querySelector('meta[name="description"]').content=t('meta.desc',lang);
-    const locales={ko:'ko_KR',en:'en_US',ja:'ja_JP',zh:'zh_CN',ru:'ru_RU',fil:'fil_PH'};
-    const url='https://gkimmulti-ui.github.io/'+(lang==='ko'?'':'?lang='+lang);
-    for(const [id,attribute,value] of [['link-canonical','href',url],['og-url','content',url],['og-title','content',document.title],['og-desc','content',t('meta.desc',lang)],['tw-title','content',document.title],['tw-desc','content',t('meta.desc',lang)],['og-locale','content',locales[lang]]]) document.getElementById(id)?.setAttribute(attribute,value);
     document.querySelectorAll('[data-i18n]').forEach(el=>el.textContent=t(el.dataset.i18n,lang));
     document.querySelectorAll('[data-i18n-label]').forEach(el=>el.setAttribute('aria-label',t(el.dataset.i18nLabel,lang)));
     search.placeholder=t('search.label',lang);
@@ -89,7 +87,7 @@
   }
   function showShot() {
     const shot=currentApp.screenshots[currentShot];
-    viewerImage.src=shot.src;
+    viewerImage.src=asset(shot.src);
     viewerImage.alt=local(currentApp.name,lang)+' · '+t('gallery.label',lang)+' '+(currentShot+1)+' ('+shot.platform+')';
     document.getElementById('viewer-title').textContent=local(currentApp.name,lang);
     document.getElementById('viewer-count').textContent=shot.platform+' · '+(currentShot+1)+' / '+currentApp.screenshots.length;
@@ -120,9 +118,7 @@
   platform.addEventListener('change',renderApps);
   document.getElementById('reset-filters').addEventListener('click',()=>{activeGroup='all';search.value='';platform.value='all';render();search.focus();});
   document.getElementById('lang-picker').addEventListener('change',event=>{
-    lang=event.target.value;try{localStorage.setItem('kennethapp-lang',lang);}catch{}
-    const url=new URL(location.href);if(lang==='ko')url.searchParams.delete('lang');else url.searchParams.set('lang',lang);
-    history.replaceState(null,'',url);render();
+    if(languages.includes(event.target.value))location.assign(homePath(event.target.value)+location.hash);
   });
   const showcase=document.getElementById('hero-showcase');
   const heroTrack=document.getElementById('hero-track');

@@ -244,7 +244,7 @@
       "ja": "架空の株式 · シミュレーション",
       "zh": "虚拟股票 · 模拟经营",
       "ru": "Виртуальные акции · Симулятор",
-      "fil": "Virtual stocks · Simulation"
+      "fil": "Birtuwal na stock · Simulation"
     },
     "headline": {
       "ko": "나만의 전략으로 키우는 가상 포트폴리오.",
@@ -1019,7 +1019,7 @@
       "ja": "無音カメラ",
       "zh": "静音相机",
       "ru": "Бесшумная камера",
-      "fil": "Silent Camera"
+      "fil": "Tahimik na kamera"
     },
     "icon": "images/snaplog-icon.png",
     "iconBg": "linear-gradient(135deg, #0a1a3a, #1e3a8a)",
@@ -1328,7 +1328,7 @@
       "ja": "信仰記録 · ウィジェット",
       "zh": "信仰记录 · 小组件",
       "ru": "Дневник веры · Виджет",
-      "fil": "Faith Journal · Widget"
+      "fil": "Tala ng pananampalataya · Widget"
     },
     "icon": "images/holyground-icon.png",
     "iconBg": "linear-gradient(135deg, #e8c877, #f2e0a8)",
@@ -1564,7 +1564,7 @@
       "ja": "写真編集",
       "zh": "照片编辑",
       "ru": "Фоторедактор",
-      "fil": "Photo Editing"
+      "fil": "Pag-edit ng larawan"
     },
     "icon": "images/slimjoy-icon.png",
     "iconBg": "linear-gradient(135deg, #f2748f, #f7b25c)",
@@ -1686,7 +1686,7 @@
       "ja": "LED電光掲示板",
       "zh": "LED 显示屏",
       "ru": "Светодиодное табло",
-      "fil": "LED Display Board"
+      "fil": "LED na karatula"
     },
     "icon": "images/lightled-icon.png",
     "iconBg": "linear-gradient(135deg, #1b1030, #2a1050)",
@@ -1987,7 +1987,7 @@
       "ja": "カジュアルゲーム",
       "zh": "休闲游戏",
       "ru": "Казуальная игра",
-      "fil": "Casual Game"
+      "fil": "Kaswal na laro"
     },
     "icon": "images/oneminutekingdom-icon.png",
     "iconBg": "linear-gradient(135deg, #5b2fb0, #8b5cf6)",
@@ -2133,7 +2133,7 @@
       "ja": "自己成長 · ゲーム型",
       "zh": "自我成长 · 游戏化",
       "ru": "Саморазвитие · Игровое",
-      "fil": "Self-growth · Gamified"
+      "fil": "Pagpapaunlad sa sarili · Mga hamon"
     },
     "icon": "images/mbti16mode-icon.png",
     "iconBg": "linear-gradient(135deg, #2a2f6b, #4f6ef7)",

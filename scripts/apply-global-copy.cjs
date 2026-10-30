@@ -38,6 +38,7 @@ for(const app of apps){
   app.playDescription[l]=clean(listing.description);
   const paragraph=app.playDescription[l].split(/\n\s*\n/)[0];
   app.desc[l]=paragraph.length>500?listing.summary:paragraph;
+  app.category[l]=translations[l]['filter.'+app.group];
   if(l!=='en'&&app.playDescription[l]===clean(source.localized.en.description))delete app.playDescription[l];
  }
  // The store does not provide Korean-only app descriptions in every language.

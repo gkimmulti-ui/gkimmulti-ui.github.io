@@ -1,0 +1,73 @@
+name: Build and verify global homepage
+on:
+  push:
+    branches: [codex/homepage-global-20261030]
+    paths:
+      - '.github/workflows/verify-homepage.yml'
+      - 'scripts/build.cjs'
+      - 'scripts/check-seo.py'
+      - 'scripts/apply-global-copy.cjs'
+      - 'scripts/check-global.cjs'
+      - 'data/global-*.tsv'
+      - 'data/release-copy.tsv'
+      - 'data/languages.json'
+      - 'data/extra-languages.json'
+      - 'src/**'
+      - 'assets/home.js'
+      - 'assets/home.css'
+      - 'assets/languages.js'
+      - 'assets/detail.js'
+permissions:
+  contents: write
+concurrency:
+  group: homepage-catalog-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: node scripts/apply-global-copy.cjs
+      - run: node scripts/build.cjs
+      - run: python scripts/check-seo.py
+      - run: node scripts/check-global.cjs
+      - name: Save validated static pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data assets/catalog.js index.html apps en ja zh ru fil hi es pt fr de id sitemap.xml feed.xml
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build 23 apps in 12 languages with verified SEO [skip ci]'
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-homepage
+          path: |
+            index.html
+            assets
+            images
+            apps
+            en
+            ja
+            zh
+            ru
+            fil
+            hi
+            es
+            pt
+            fr
+            de
+            id
+            sitemap.xml
+            feed.xml
+            data/page-manifest.json

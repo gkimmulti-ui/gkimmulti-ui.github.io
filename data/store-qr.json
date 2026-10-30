@@ -1,5 +1,41 @@
 [
   {
+    "app": "levelday",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.levelday",
+    "image": "assets/store-qr/levelday-play.png"
+  },
+  {
+    "app": "littleheroes",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.littleheroes",
+    "image": "assets/store-qr/littleheroes-play.png"
+  },
+  {
+    "app": "nightmarket",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.bustlingnightmarket",
+    "image": "assets/store-qr/nightmarket-play.png"
+  },
+  {
+    "app": "pocketdino",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.pocket_dino",
+    "image": "assets/store-qr/pocketdino-play.png"
+  },
+  {
+    "app": "pocketjesus",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.pocket_jesus",
+    "image": "assets/store-qr/pocketjesus-play.png"
+  },
+  {
+    "app": "rateshift",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.rateshift",
+    "image": "assets/store-qr/rateshift-play.png"
+  },
+  {
     "app": "savecity",
     "store": "play",
     "url": "https://play.google.com/store/apps/details?id=com.kennethapp.savecity",

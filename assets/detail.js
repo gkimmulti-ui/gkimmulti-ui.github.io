@@ -5,7 +5,7 @@
  const home=code=>code==='ko'?'/':'/'+code+'/';
  document.getElementById('lang-picker').addEventListener('change',event=>{
   const code=event.target.value;
-  if(['ko','en','ja','zh','ru','fil'].includes(code))location.assign(home(code)+'apps/'+document.body.dataset.app+'/');
+  window.kennethLanguage.navigate(code);
  });
  const shots=[...document.querySelectorAll('[data-shot]')];
  const dialog=document.getElementById('screenshot-dialog');
@@ -30,3 +30,4 @@
  image.addEventListener('touchstart',event=>{touchX=event.changedTouches[0].clientX;},{passive:true});
  image.addEventListener('touchend',event=>{const delta=event.changedTouches[0].clientX-touchX;if(touchX!==null&&Math.abs(delta)>60)step(delta<0?1:-1);touchX=null;},{passive:true});
 })();
+

@@ -4,863 +4,2303 @@
     "path": "index.html",
     "lang": "ko",
     "app": null,
-    "lastmod": "2026-10-26",
-    "sha256": "faa0024516f09aacab0cc13539ef341454b0a100730a5c0ccd164171731eb84e"
+    "lastmod": "2026-10-30",
+    "sha256": "87e7c6e0b10cd862e4cfea9308371cc0f0aa208b9226b8a5ae979dab06ba1d49"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/apps/levelday/",
+    "path": "apps/levelday/index.html",
+    "lang": "ko",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "162f5d8718899e17e7aed21c44efb25cdb3d996f2187cece8364b37df968711c"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/apps/littleheroes/",
+    "path": "apps/littleheroes/index.html",
+    "lang": "ko",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "51c5a1ca483acac0c9e921936121db880b43a998924887c7b4bce03c36b670e8"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/apps/nightmarket/",
+    "path": "apps/nightmarket/index.html",
+    "lang": "ko",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "2e372ec5101759fb63544cdfdd65b7c04e9061b1d4da1d4fef3800a0d0a2bcab"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/apps/pocketdino/",
+    "path": "apps/pocketdino/index.html",
+    "lang": "ko",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "53c2fc1ed2dc2f6b861af09856779907f003489e3c422be4e543cc8ec9568b82"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/apps/pocketjesus/",
+    "path": "apps/pocketjesus/index.html",
+    "lang": "ko",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "4f98ab9e53b8546b8696eae4f6de0fa539c68b0db0eec60a89c45529b6e357c8"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/apps/rateshift/",
+    "path": "apps/rateshift/index.html",
+    "lang": "ko",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "02f3a462f0590bcaf174b88901cce0d2ec912915d535d2ebf52f36e9316d26cf"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/savecity/",
     "path": "apps/savecity/index.html",
     "lang": "ko",
     "app": "savecity",
-    "lastmod": "2026-10-26",
-    "sha256": "426a9ad6480c4b4a6b2ddbc6d1a259fb8519a3359b64acee4d62614d1360c330"
+    "lastmod": "2026-10-30",
+    "sha256": "b21181b550039c3272001abdc93a47e3b6331c5b8a16a658a19c91f48b6a9c56"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/howlong/",
     "path": "apps/howlong/index.html",
     "lang": "ko",
     "app": "howlong",
-    "lastmod": "2026-10-26",
-    "sha256": "45c3f8bf4d30d010d4aa90459e73e684e8162214dbe9e238fca0c7a3d6fe0d36"
+    "lastmod": "2026-10-30",
+    "sha256": "f8ed02f0b2bbda1242ea7ba7112e4c3ff07a1b7720ba25e93f105d3225f1e464"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/starstock/",
     "path": "apps/starstock/index.html",
     "lang": "ko",
     "app": "starstock",
-    "lastmod": "2026-10-26",
-    "sha256": "5907c4c4d1500efaa648e49a556a6cbfddfa2f9b87c38b56681ecc3ef124e7df"
+    "lastmod": "2026-10-30",
+    "sha256": "592c733c6dffcaa00028f891f4f35a4b78846d13fff41ad3c0d65d52afb39f28"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/deepdig/",
     "path": "apps/deepdig/index.html",
     "lang": "ko",
     "app": "deepdig",
-    "lastmod": "2026-10-26",
-    "sha256": "f6a2549f300f43f20d61dbbbd6f1d61b824c669eecf715dade103347c1f4bd42"
+    "lastmod": "2026-10-30",
+    "sha256": "ce191e51b0044f15a70be305223c15eeeaba5d556e38b3ced732044dac541c91"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/quizaura/",
     "path": "apps/quizaura/index.html",
     "lang": "ko",
     "app": "quizaura",
-    "lastmod": "2026-10-26",
-    "sha256": "69ce106c667d5f5f50edd8c3d2e9f8f085ec81ae3a677377110ebd4e7b1c79e4"
+    "lastmod": "2026-10-30",
+    "sha256": "6acc825bced58838ea8102408f7251c476c8369058208c76fe25b88603b02bc0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/snapclean/",
     "path": "apps/snapclean/index.html",
     "lang": "ko",
     "app": "snapclean",
-    "lastmod": "2026-10-26",
-    "sha256": "37e9b8bb1242983ab03ee3de95a1c7f9fe19013473458fa9ba4718c6c0c3b5d7"
+    "lastmod": "2026-10-30",
+    "sha256": "535d8ed13c168237b1eb7dc2a7a8c70faae4e7f026e1a82fc084229e654c2431"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/lumiday/",
     "path": "apps/lumiday/index.html",
     "lang": "ko",
     "app": "lumiday",
-    "lastmod": "2026-10-26",
-    "sha256": "2019933ba9a9756941cf5efd344eb8224141562d7942d0e19b460c89431d558b"
+    "lastmod": "2026-10-30",
+    "sha256": "41e42b94a7029cc002c3618d7ccc83d262d8d64bc58e4467dc65bc355d1fad30"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/maeum/",
     "path": "apps/maeum/index.html",
     "lang": "ko",
     "app": "maeum",
-    "lastmod": "2026-10-26",
-    "sha256": "afdef0ce69c41e13944b19574e672f200e09730266c19207889912de38cef049"
+    "lastmod": "2026-10-30",
+    "sha256": "edf835abb812e710d7960b5395c8414cc41b8607836daf1660a442519d12a9d1"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/snaplog/",
     "path": "apps/snaplog/index.html",
     "lang": "ko",
     "app": "snaplog",
-    "lastmod": "2026-10-26",
-    "sha256": "a052b995f11a84883caa81a5884c84a82f7cb03a04652130a7b71a4a23cee8ee"
+    "lastmod": "2026-10-30",
+    "sha256": "59370c89a3764d6a4ae27a9df3151db0d65ef8b406221f603dbcbb6ec1bd5dac"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/lightwall/",
     "path": "apps/lightwall/index.html",
     "lang": "ko",
     "app": "lightwall",
-    "lastmod": "2026-10-26",
-    "sha256": "d324f5ba7547267e7e4a8e2048772c94a07bc94ecf58e9ee985a96942ce7dce5"
+    "lastmod": "2026-10-30",
+    "sha256": "6010e5b459f1c67dbb40284b95455390efcb7ef451b3577d58d077a80cc7ca05"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/holyground/",
     "path": "apps/holyground/index.html",
     "lang": "ko",
     "app": "holyground",
-    "lastmod": "2026-10-26",
-    "sha256": "d9e9419b28447a202580795a943fc9552063651faf232a5c6ab0f7c9a9c33a4b"
+    "lastmod": "2026-10-30",
+    "sha256": "a74ea21a3a6209218d65dcbcde56589c630201a65f51bbd9f52b81da91134db5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/chaengkim/",
     "path": "apps/chaengkim/index.html",
     "lang": "ko",
     "app": "chaengkim",
-    "lastmod": "2026-10-26",
-    "sha256": "bf1cc44a84281d48d11233e1cf76bee881bbe43e17c07bb3d0317f36f31ff1aa"
+    "lastmod": "2026-10-30",
+    "sha256": "df687a878093ec7c2857b0fd786129d88234f8feb387b1752583dcd2f21e3a22"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/slimjoy/",
     "path": "apps/slimjoy/index.html",
     "lang": "ko",
     "app": "slimjoy",
-    "lastmod": "2026-10-26",
-    "sha256": "cf5a353c53067e5e3d5ab1b72387f3a5323b9e745a734901398777ca9407fd15"
+    "lastmod": "2026-10-30",
+    "sha256": "fe85d648ef50d793583597228fe36ffd2e1e61b4a426fd62ffc6172e910df39d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/lightled/",
     "path": "apps/lightled/index.html",
     "lang": "ko",
     "app": "lightled",
-    "lastmod": "2026-10-26",
-    "sha256": "7b2fc4290f3135f43821e706eae5ad6cc87db6d1d0c2bbd68870d3ee6cd6d543"
+    "lastmod": "2026-10-30",
+    "sha256": "817d668bba8ac619b0d258c0ff4d69ef723fb9962ced700f67100968c5671b67"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/lotto/",
     "path": "apps/lotto/index.html",
     "lang": "ko",
     "app": "lotto",
-    "lastmod": "2026-10-26",
-    "sha256": "9eda775574f9d384896e4704e522f57d7924daea404ac002a3b0e88c3a79291b"
+    "lastmod": "2026-10-30",
+    "sha256": "417092ff158197fb2b68895f7019a4b20dbc544824815a025ee4247d688677ea"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/kingdom/",
     "path": "apps/kingdom/index.html",
     "lang": "ko",
     "app": "kingdom",
-    "lastmod": "2026-10-26",
-    "sha256": "dc0af5cfd70336139e6c954df62f79c85fc39b71164c7a01f7123d073cc7d942"
+    "lastmod": "2026-10-30",
+    "sha256": "23009e26f2d7130ce735d73111f7a3c38d1baa7fc8bf66198d7ef2030dd6141e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/16mode/",
     "path": "apps/16mode/index.html",
     "lang": "ko",
     "app": "16mode",
-    "lastmod": "2026-10-26",
-    "sha256": "52d81198eea1be7a21192d72c917777bc895aaa191121e82eac41abb03902bc1"
+    "lastmod": "2026-10-30",
+    "sha256": "d106536694b99343f2693fcaee14842c744c94ab46090c81d3f7ee1391785643"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/",
     "path": "en/index.html",
     "lang": "en",
     "app": null,
-    "lastmod": "2026-10-26",
-    "sha256": "af0b0218ae81ad98a04f8682a3401b67b171f89877c512bbd5e6ed572a0ea10d"
+    "lastmod": "2026-10-30",
+    "sha256": "dd12685fd17af5becd92e33890e62d52ebb1862f07a8b6350e134a2c91ea3a32"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/en/apps/levelday/",
+    "path": "en/apps/levelday/index.html",
+    "lang": "en",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "fa955aa0a92f10e9d574bd77c786c469b48f0908c262ce75fd9a471d1e1c9ade"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/en/apps/littleheroes/",
+    "path": "en/apps/littleheroes/index.html",
+    "lang": "en",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "1c64ab21c3503254280bfc3b28dd500e8f7a4776b8e7c6273fce23a70680abd2"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/en/apps/nightmarket/",
+    "path": "en/apps/nightmarket/index.html",
+    "lang": "en",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "9bdff2952cc54e3f988acba41e4899423c8e3aa67221955e6ec5fac844b3b30a"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/en/apps/pocketdino/",
+    "path": "en/apps/pocketdino/index.html",
+    "lang": "en",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "5ca628b22caae35043d28eb122a878d5da06817c5f166f9974f1aa1ebb4260cc"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/en/apps/pocketjesus/",
+    "path": "en/apps/pocketjesus/index.html",
+    "lang": "en",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "57949f47d87b09427f3c6a57ac632959e57e1f86ac4656aa135606b14e1bcb7f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/en/apps/rateshift/",
+    "path": "en/apps/rateshift/index.html",
+    "lang": "en",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "6eebdc1573ae872e3740aed21aff20af5f31b4709340dfd93d63ccb8296dd2ab"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/savecity/",
     "path": "en/apps/savecity/index.html",
     "lang": "en",
     "app": "savecity",
-    "lastmod": "2026-10-26",
-    "sha256": "6b02d815df01775fce65b0275249dc28ba7695a2004f485e35e86e4f440b3f3d"
+    "lastmod": "2026-10-30",
+    "sha256": "33dad69d1ed8f2e2c75dfa2c11f6def8c1ad29ba3e4df410adf77d060def37d8"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/howlong/",
     "path": "en/apps/howlong/index.html",
     "lang": "en",
     "app": "howlong",
-    "lastmod": "2026-10-26",
-    "sha256": "b01e04a14da281346d198ae45dc5d20660c84400d41ba806328e2232d66eb014"
+    "lastmod": "2026-10-30",
+    "sha256": "7fab361d15e887f301a728d2699467ec93cf5b230e5da235b2983c148c4e300d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/starstock/",
     "path": "en/apps/starstock/index.html",
     "lang": "en",
     "app": "starstock",
-    "lastmod": "2026-10-26",
-    "sha256": "d03216608a665a751d92faa05346b905b80b27f92e7a942c42b2f529e138ff23"
+    "lastmod": "2026-10-30",
+    "sha256": "def9ee59be74334f10a9c2b318ed02de35b517400ab98a3c21c588950a74e1de"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/deepdig/",
     "path": "en/apps/deepdig/index.html",
     "lang": "en",
     "app": "deepdig",
-    "lastmod": "2026-10-26",
-    "sha256": "e08fb3bc60c4c06a3aeafdc7e95d489d3a48338d16dd1b4503ce4a159c79147c"
+    "lastmod": "2026-10-30",
+    "sha256": "b31e81c54e10fe35208179d2838c01d8ea5b57a5add5df8d8de0dafded962438"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/quizaura/",
     "path": "en/apps/quizaura/index.html",
     "lang": "en",
     "app": "quizaura",
-    "lastmod": "2026-10-26",
-    "sha256": "8f1fbca6ad6940479ba6da1adcb10f93c936ea176bd976b7cf37610c66d2fb0d"
+    "lastmod": "2026-10-30",
+    "sha256": "df8f0cdf8f8157daf52d2757e834e062b43f1ab5e558a43917fcd3327cc4798a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/snapclean/",
     "path": "en/apps/snapclean/index.html",
     "lang": "en",
     "app": "snapclean",
-    "lastmod": "2026-10-26",
-    "sha256": "b21f5d41f0e34a63db0c4e6c96fb0e3efa0ec3bf941439023e7c45082714edac"
+    "lastmod": "2026-10-30",
+    "sha256": "d4a32d56e5349aa04550fb555a758db353c0574b334dc7b006e0d93288ca602f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lumiday/",
     "path": "en/apps/lumiday/index.html",
     "lang": "en",
     "app": "lumiday",
-    "lastmod": "2026-10-26",
-    "sha256": "94f5ee72a4a0522733f180b06b79082c0a4a2b71710f497cb2c264eca030687d"
+    "lastmod": "2026-10-30",
+    "sha256": "4aa6fcd87aca8121557b243562cbe63a4517ae06181b58b53938cef45e50746a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/maeum/",
     "path": "en/apps/maeum/index.html",
     "lang": "en",
     "app": "maeum",
-    "lastmod": "2026-10-26",
-    "sha256": "5f935a2c02775a1f9fc353fdc9bd05d210b07f537bc0d0ad160757a1b789d0a4"
+    "lastmod": "2026-10-30",
+    "sha256": "f2fbc8624c0a93e6e5c4e77ca628a89ecf60b1f10db57dc8a41448d6e1c97f1c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/snaplog/",
     "path": "en/apps/snaplog/index.html",
     "lang": "en",
     "app": "snaplog",
-    "lastmod": "2026-10-26",
-    "sha256": "aad924b617882c9058dc47ac2b38b32913da5e2914a856542c217d85a547bf78"
+    "lastmod": "2026-10-30",
+    "sha256": "1331c9cdb08250df778d50140aac84bafa3b2434c1ab0e846cf6a04ca263bf3b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lightwall/",
     "path": "en/apps/lightwall/index.html",
     "lang": "en",
     "app": "lightwall",
-    "lastmod": "2026-10-26",
-    "sha256": "aedd4dfcfacf79185da00ad51f88ecb2166fd9dedc7489a6e69cf464b37e6974"
+    "lastmod": "2026-10-30",
+    "sha256": "029a71894b5d034430d5aba3dcbbffa4bfe9328876fd16419b43314683e82968"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/holyground/",
     "path": "en/apps/holyground/index.html",
     "lang": "en",
     "app": "holyground",
-    "lastmod": "2026-10-26",
-    "sha256": "375cbc1c6323aeae705c982278c125b7d7275baaf06ca7840cc57abd99f7f43c"
+    "lastmod": "2026-10-30",
+    "sha256": "8b84472a19cff0289c615d020d8cec3ad2facdd0c2ab33b767a7958009d4ca4b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/chaengkim/",
     "path": "en/apps/chaengkim/index.html",
     "lang": "en",
     "app": "chaengkim",
-    "lastmod": "2026-10-26",
-    "sha256": "de7e5cc0f2e443d231ec9f9a6fcd2817e740daefd04c316ebef16f1a2ec6c387"
+    "lastmod": "2026-10-30",
+    "sha256": "aad29ac2ca02e99dd8ed690934e72798724018487fc065c22eb4267eaf1b6cea"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/slimjoy/",
     "path": "en/apps/slimjoy/index.html",
     "lang": "en",
     "app": "slimjoy",
-    "lastmod": "2026-10-26",
-    "sha256": "f5643ac7282164ace2e051e383dbcc3afbb77731cb0fa950f4468683a1d947a5"
+    "lastmod": "2026-10-30",
+    "sha256": "1681cd39541e26a9bf06ca9ed3e8d900027213adafa19b991f529594601dbcf5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lightled/",
     "path": "en/apps/lightled/index.html",
     "lang": "en",
     "app": "lightled",
-    "lastmod": "2026-10-26",
-    "sha256": "5b6906ff6b89644f6d6044ce5958a035ff6a82d224c608bba2e9e2d6159e36e1"
+    "lastmod": "2026-10-30",
+    "sha256": "671a9f004455fd276b4698fc40cc30627c8e0c76b732697d983771df0664a30b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lotto/",
     "path": "en/apps/lotto/index.html",
     "lang": "en",
     "app": "lotto",
-    "lastmod": "2026-10-26",
-    "sha256": "a5b9206c6bec49f94bba8aad518b0bd0baa68f7e24dca6490426ed977f45abc8"
+    "lastmod": "2026-10-30",
+    "sha256": "211805924a7fa44b9b92dcca8ae74261c9e4f8c182d387a6b19c86591bd02946"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/kingdom/",
     "path": "en/apps/kingdom/index.html",
     "lang": "en",
     "app": "kingdom",
-    "lastmod": "2026-10-26",
-    "sha256": "f4dcb3438d2031cd2cb20faedab4c0c81b4756dba462b93051505d8d29b47382"
+    "lastmod": "2026-10-30",
+    "sha256": "fd68da9b355ab8446bee62ae947c03e8e6c89367e98a2605393a1329caf111e4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/16mode/",
     "path": "en/apps/16mode/index.html",
     "lang": "en",
     "app": "16mode",
-    "lastmod": "2026-10-26",
-    "sha256": "444b9cc6c492a7ee2bb8b35d027cd726e30cd2bcfd9b14df2c7968faf9f7cb7f"
+    "lastmod": "2026-10-30",
+    "sha256": "37b09ffc26a6c9559e5d06e64c6e0efb76aae306b4cd1a4fc6c199a0049ee2cf"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/",
     "path": "ja/index.html",
     "lang": "ja",
     "app": null,
-    "lastmod": "2026-10-26",
-    "sha256": "59a06f8703a283b9daa27e5d6d6ba69371f9c5d9c7b62f7e71af73d8d0f0b226"
+    "lastmod": "2026-10-30",
+    "sha256": "a647aa247fe7d02acc5327c941f26d1d36532e983f2d85039ffc69f5fcb2b496"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ja/apps/levelday/",
+    "path": "ja/apps/levelday/index.html",
+    "lang": "ja",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "d10ccad521d99cacc384fc36450ee15070b64c81205439fc4f23ed392a6831b3"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ja/apps/littleheroes/",
+    "path": "ja/apps/littleheroes/index.html",
+    "lang": "ja",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "14da94174f2f39b05c5b58f99b47cb4b2c2e32a49cc90ed0495b1911bc2ec3f5"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ja/apps/nightmarket/",
+    "path": "ja/apps/nightmarket/index.html",
+    "lang": "ja",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "25f220d6beb8b0aa2327a307089697d23a836aed3c138812132acb933e097aad"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ja/apps/pocketdino/",
+    "path": "ja/apps/pocketdino/index.html",
+    "lang": "ja",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "bec6e96ff39a8adf33af5f277ad42b5c4ad26710fe75bdaf51f79f7972e338a5"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ja/apps/pocketjesus/",
+    "path": "ja/apps/pocketjesus/index.html",
+    "lang": "ja",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "8ec495772b8789b04d20ec09bff5b44c7d656df29e1a0ee861595aa9a15399c4"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ja/apps/rateshift/",
+    "path": "ja/apps/rateshift/index.html",
+    "lang": "ja",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "2d7473a329181aa2c6a7165928ece02eb73b5d7236fd49a36de3475d03cc1609"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/savecity/",
     "path": "ja/apps/savecity/index.html",
     "lang": "ja",
     "app": "savecity",
-    "lastmod": "2026-10-26",
-    "sha256": "68306034ced64ddc5914721fe43a8c09a0147885575dc87f83afb5cf6a4ee8ba"
+    "lastmod": "2026-10-30",
+    "sha256": "eb2c3ca467d1da85b8972ace6503f7290294c6fcf1e70ba06ede69eb22cb0f8f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/howlong/",
     "path": "ja/apps/howlong/index.html",
     "lang": "ja",
     "app": "howlong",
-    "lastmod": "2026-10-26",
-    "sha256": "75140e75d65e81cea8e0d4ba8b876c2e54355fc7fe2a195948b26bad9bc1ee2d"
+    "lastmod": "2026-10-30",
+    "sha256": "ab393f87d5857e852060c5e3948b5d7dba439faea7b7afacb9ad286294c0eff6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/starstock/",
     "path": "ja/apps/starstock/index.html",
     "lang": "ja",
     "app": "starstock",
-    "lastmod": "2026-10-26",
-    "sha256": "5183e35491049e75717b996e1240df21c551a02e0631c8c3ddb1784e556f0244"
+    "lastmod": "2026-10-30",
+    "sha256": "538f7fb4cfcc9c93cb1d908f580faed8ce3c7738ee5baeb17897dc047a43619e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/deepdig/",
     "path": "ja/apps/deepdig/index.html",
     "lang": "ja",
     "app": "deepdig",
-    "lastmod": "2026-10-26",
-    "sha256": "9c7d9f6f3f3f4b3a50c8fbca14203741aded2b95b3a235f200245e89135b5b7e"
+    "lastmod": "2026-10-30",
+    "sha256": "06c9d4dda6845ab422d35567e445f242b15afecda33155aeb2a7f460f7c45220"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/quizaura/",
     "path": "ja/apps/quizaura/index.html",
     "lang": "ja",
     "app": "quizaura",
-    "lastmod": "2026-10-26",
-    "sha256": "ae088db4a46a0da8b76d8d6d868ae5b32bbdb9c794caef2cfcea9c3b84327743"
+    "lastmod": "2026-10-30",
+    "sha256": "8c226aa67b9899feee01bf0eb230cdaf44f37792dc39a8a0c3486812f36ee14b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/snapclean/",
     "path": "ja/apps/snapclean/index.html",
     "lang": "ja",
     "app": "snapclean",
-    "lastmod": "2026-10-26",
-    "sha256": "dcab5986f5eda062e768a2897a771e2d83333b350134542933408111ac9e7539"
+    "lastmod": "2026-10-30",
+    "sha256": "0e752717fa9ac3dc0d4dd2a9bc1c8841dc150b694a3fca8ffb17c5684c5a02fb"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lumiday/",
     "path": "ja/apps/lumiday/index.html",
     "lang": "ja",
     "app": "lumiday",
-    "lastmod": "2026-10-26",
-    "sha256": "d81bf5f36b4cce05325227a602fd55ca86ac9e81f0dbd0a32e3339b70573c475"
+    "lastmod": "2026-10-30",
+    "sha256": "3550554deea60e565346c1827d0f59cd3e852935e72d472d5925dc2b1ff2656a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/maeum/",
     "path": "ja/apps/maeum/index.html",
     "lang": "ja",
     "app": "maeum",
-    "lastmod": "2026-10-26",
-    "sha256": "740764f4c2d3ea447033245069d041844aa71df15283186c6025c58da43cf708"
+    "lastmod": "2026-10-30",
+    "sha256": "ade1700836d5df587317297f55802a56e10ce864d0650c46c19127fea13dc9e9"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/snaplog/",
     "path": "ja/apps/snaplog/index.html",
     "lang": "ja",
     "app": "snaplog",
-    "lastmod": "2026-10-26",
-    "sha256": "e19712a9d95a714e2219495a499c9061ed36abde681b14b59cdb213f0ef235bf"
+    "lastmod": "2026-10-30",
+    "sha256": "6fa4aa7aa4847fda5add29b36f6d8a19a16f46c7d2ca7da20bb1b48ecc889c86"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lightwall/",
     "path": "ja/apps/lightwall/index.html",
     "lang": "ja",
     "app": "lightwall",
-    "lastmod": "2026-10-26",
-    "sha256": "228b88d91db40e07882aa3ff42602b2cb0a8089fb0c792c11a07d7e735ef0877"
+    "lastmod": "2026-10-30",
+    "sha256": "de4aa23da5094113b37c6d6f46626c3d3cab034acda39f9ba40df7c2213b4018"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/holyground/",
     "path": "ja/apps/holyground/index.html",
     "lang": "ja",
     "app": "holyground",
-    "lastmod": "2026-10-26",
-    "sha256": "62ebdd8d77fc1d94b1f33dbe896d59ac1ce1605bd4f06b043db0c9acf7037b4e"
+    "lastmod": "2026-10-30",
+    "sha256": "f2fa0d4d0e21267fb5f666820a379feaa015aba4af86643cbd2bb3d70958a108"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/chaengkim/",
     "path": "ja/apps/chaengkim/index.html",
     "lang": "ja",
     "app": "chaengkim",
-    "lastmod": "2026-10-26",
-    "sha256": "f75359f3a0bb236929991082df18fb4cd178d392e1ff751e106170396d499bdd"
+    "lastmod": "2026-10-30",
+    "sha256": "d9ab2ed2db7882754ce4882fc9d268ca50731977c19a30fa469e1a1bdd682b3c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/slimjoy/",
     "path": "ja/apps/slimjoy/index.html",
     "lang": "ja",
     "app": "slimjoy",
-    "lastmod": "2026-10-26",
-    "sha256": "7eb4993bf1a784ee192b71cf979ced72969457f5ea7b91e4aed15c730c2d133f"
+    "lastmod": "2026-10-30",
+    "sha256": "b3829dc0dcf19861a485d2a6b739b9e1d6ba4b21fc0bf30449bb14498b356c45"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lightled/",
     "path": "ja/apps/lightled/index.html",
     "lang": "ja",
     "app": "lightled",
-    "lastmod": "2026-10-26",
-    "sha256": "677f9457f89feb1ff6c1e358fec4ae1fd8cc9ae82b95ba3d394c6fc6e5e3932a"
+    "lastmod": "2026-10-30",
+    "sha256": "37a3263acb29e15d703cde4cb7d6bc571a4cfb800b2df9f0440e763aeeae51d5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lotto/",
     "path": "ja/apps/lotto/index.html",
     "lang": "ja",
     "app": "lotto",
-    "lastmod": "2026-10-26",
-    "sha256": "f25966127badfbeeeffd1c0ed4478a32e849c72ef8e3ef9b6aa763f255441cf0"
+    "lastmod": "2026-10-30",
+    "sha256": "13fdea08c9ed3ea03690faa80f1403465bd64520e758596574729cfe0aead3a7"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/kingdom/",
     "path": "ja/apps/kingdom/index.html",
     "lang": "ja",
     "app": "kingdom",
-    "lastmod": "2026-10-26",
-    "sha256": "bfd936ece346386a7a41aada6533541664da8c4177c5c5cf985e79cfefb354fc"
+    "lastmod": "2026-10-30",
+    "sha256": "17940e698e52ebe1c9c789e66b4acb9c62acaee63b829023289ad86fbc6899d3"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/16mode/",
     "path": "ja/apps/16mode/index.html",
     "lang": "ja",
     "app": "16mode",
-    "lastmod": "2026-10-26",
-    "sha256": "d3caaefe34226d0eb33695bd38f459a2012c3828b3090e7bb785e71cee5ceefc"
+    "lastmod": "2026-10-30",
+    "sha256": "eba0b4ba98cf621a6a4ead7bcc6d146bc70ade854af45d21432f3784580f9b84"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/",
     "path": "zh/index.html",
     "lang": "zh",
     "app": null,
-    "lastmod": "2026-10-26",
-    "sha256": "11bf7a81d19bac4a0104f90d75902b92a66112556176ccb507af51eb3ec0d2c9"
+    "lastmod": "2026-10-30",
+    "sha256": "bd9e5fea10ea2a645d5a024a96e5d9edb561af6e6b36b32e783cf803361eefe5"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/zh/apps/levelday/",
+    "path": "zh/apps/levelday/index.html",
+    "lang": "zh",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "26a49114a8adc53eb87bc017b4cd78ca44fcec16dbfa37559d195677fb3a3a05"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/zh/apps/littleheroes/",
+    "path": "zh/apps/littleheroes/index.html",
+    "lang": "zh",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "9300b1584bc559f52ede91111b8fde154f639631530b94988993644b8cc594f7"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/zh/apps/nightmarket/",
+    "path": "zh/apps/nightmarket/index.html",
+    "lang": "zh",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "340b5c0f14d6b62b21bf271f319e8611135b164f5e6ca403ff010f7c9cc7a43d"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/zh/apps/pocketdino/",
+    "path": "zh/apps/pocketdino/index.html",
+    "lang": "zh",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "178d6e766ac9877336745728c870ade543b7fdbfc231c757397afb5fadea6055"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/zh/apps/pocketjesus/",
+    "path": "zh/apps/pocketjesus/index.html",
+    "lang": "zh",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "ccd184d5c1ecd2c1ed2a874722b4473b81a0022ad44cf2a137dd40ea7389f74c"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/zh/apps/rateshift/",
+    "path": "zh/apps/rateshift/index.html",
+    "lang": "zh",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "46acde7ffe3c60b800970650df1a8151567c29e541b0978892442e21d1367ccd"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/savecity/",
     "path": "zh/apps/savecity/index.html",
     "lang": "zh",
     "app": "savecity",
-    "lastmod": "2026-10-26",
-    "sha256": "cecdf92b4d7ab23ee3fef898d44b001c12fc38c47795e47630fdc524bf2f1c0f"
+    "lastmod": "2026-10-30",
+    "sha256": "bad72721cbbf1ec7a287d8211dc27e1a854d7d9370f331dca089cf9313ac7266"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/howlong/",
     "path": "zh/apps/howlong/index.html",
     "lang": "zh",
     "app": "howlong",
-    "lastmod": "2026-10-26",
-    "sha256": "2d82952debbfd457ae339f8efa4d6e79f4223eddbcadd048958ab01431959ecf"
+    "lastmod": "2026-10-30",
+    "sha256": "268d5fc79ccff05e5ca686130a792979167bcf6f259af58552b0e2f6326d0904"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/starstock/",
     "path": "zh/apps/starstock/index.html",
     "lang": "zh",
     "app": "starstock",
-    "lastmod": "2026-10-26",
-    "sha256": "8326e96fd29b36b2ac2b59119afd64916b3603cb7270f2cf809c9ff2d07f65a0"
+    "lastmod": "2026-10-30",
+    "sha256": "ca40689bf3eb344737d95a813aaf3918999a320ee6a535bbc3f240540c4c9289"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/deepdig/",
     "path": "zh/apps/deepdig/index.html",
     "lang": "zh",
     "app": "deepdig",
-    "lastmod": "2026-10-26",
-    "sha256": "443d3fd62b39ce474ed7f80ba85565172c72819261199fd380f99ed44e2bf01c"
+    "lastmod": "2026-10-30",
+    "sha256": "2e40083d66bf5e62b30fa83e416414a537fbcd92eed7c81678826cbea3ccfcdf"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/quizaura/",
     "path": "zh/apps/quizaura/index.html",
     "lang": "zh",
     "app": "quizaura",
-    "lastmod": "2026-10-26",
-    "sha256": "4881c249e3eba90926f4dede981aee8b6aa81ac7c8e54cb131883e88a6cd501d"
+    "lastmod": "2026-10-30",
+    "sha256": "ed5b8cc63310dceefdf10425e1d0589e190e984208b8cb114d4111021ada9ac9"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/snapclean/",
     "path": "zh/apps/snapclean/index.html",
     "lang": "zh",
     "app": "snapclean",
-    "lastmod": "2026-10-26",
-    "sha256": "fcc5accc98b6d013d79a5fb7c262161cf4ea699d53c88fc8795e2c9a8a278ecb"
+    "lastmod": "2026-10-30",
+    "sha256": "615509c7c4c6cdedc0bf947d8635479ac061b2ec35feaa9843c7efcc6d556315"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lumiday/",
     "path": "zh/apps/lumiday/index.html",
     "lang": "zh",
     "app": "lumiday",
-    "lastmod": "2026-10-26",
-    "sha256": "f8b1fc9b39f95fa0f7ccd45b2c79bc7d21940f8d5590c16018187a28a210dab2"
+    "lastmod": "2026-10-30",
+    "sha256": "d14f96a0e87de570443993450f4d47d077e1fc04bb1cca11f7ad1c898c741a3d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/maeum/",
     "path": "zh/apps/maeum/index.html",
     "lang": "zh",
     "app": "maeum",
-    "lastmod": "2026-10-26",
-    "sha256": "e909d8f8636c4da5dbb828ced8ab2f5756d245737fe3a506738747fc3a0483c2"
+    "lastmod": "2026-10-30",
+    "sha256": "e364b29efb634e53081cdf8e65fce93136abb8481811473eecea0ef7842db202"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/snaplog/",
     "path": "zh/apps/snaplog/index.html",
     "lang": "zh",
     "app": "snaplog",
-    "lastmod": "2026-10-26",
-    "sha256": "3df5e9efc108a19813b39d0c759fe7260a46c8bf2f976ab3deeefeda5a64e06d"
+    "lastmod": "2026-10-30",
+    "sha256": "e7149e7ee9a8ba28f5c51938b29bd77f9f1e73fbd6084d97dd7d63a1cf5b5288"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lightwall/",
     "path": "zh/apps/lightwall/index.html",
     "lang": "zh",
     "app": "lightwall",
-    "lastmod": "2026-10-26",
-    "sha256": "ef2971f7b24080f758522aa93467a605c22b0b6a19077deb45b1e7569a9d2c64"
+    "lastmod": "2026-10-30",
+    "sha256": "3f58286611e1872582ce3966ede7cbdcfccb7438bcc5b55369426461017122e6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/holyground/",
     "path": "zh/apps/holyground/index.html",
     "lang": "zh",
     "app": "holyground",
-    "lastmod": "2026-10-26",
-    "sha256": "2e82bf8f5209dfd90e72c331f2af91545ca9b7b26425d787ec0a07ea8905a3f3"
+    "lastmod": "2026-10-30",
+    "sha256": "6b0f08c6213fd83826e23ca6ba88130e3f8a8f1cfad8313093e2984bb183ae30"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/chaengkim/",
     "path": "zh/apps/chaengkim/index.html",
     "lang": "zh",
     "app": "chaengkim",
-    "lastmod": "2026-10-26",
-    "sha256": "4db95a3735a0bc3c14d38c837d61bbee75b48c168062752c74a4281e3d4b8d1f"
+    "lastmod": "2026-10-30",
+    "sha256": "06289ae7306684fc6282b14850f99f6f331573974648ada79d23f09b762ef5d5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/slimjoy/",
     "path": "zh/apps/slimjoy/index.html",
     "lang": "zh",
     "app": "slimjoy",
-    "lastmod": "2026-10-26",
-    "sha256": "ef9a50599366988d89d77a6f8a1d4ab9661ff831520ab6a8187a2a91854a658d"
+    "lastmod": "2026-10-30",
+    "sha256": "c68a83142b7d5618ec1daf452419c0d2e76835716b81e97a0f9f97dce3e646c9"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lightled/",
     "path": "zh/apps/lightled/index.html",
     "lang": "zh",
     "app": "lightled",
-    "lastmod": "2026-10-26",
-    "sha256": "d6cccf7e3491bb9a41ee59bdbf458328302a35e9078ae0e1ddd9598977c80208"
+    "lastmod": "2026-10-30",
+    "sha256": "bee44a6608cfea271f2320f4aad8526a3e4fa15fd3b1e0fd899c720637986e08"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lotto/",
     "path": "zh/apps/lotto/index.html",
     "lang": "zh",
     "app": "lotto",
-    "lastmod": "2026-10-26",
-    "sha256": "9cdf043c435da746e181658b7f7fba77d473725f68558ccaadfcf1a50d39f392"
+    "lastmod": "2026-10-30",
+    "sha256": "e934224af1558c1286a3165962c31da32eb80af947cf9fabf4bd891df137385d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/kingdom/",
     "path": "zh/apps/kingdom/index.html",
     "lang": "zh",
     "app": "kingdom",
-    "lastmod": "2026-10-26",
-    "sha256": "60578d13cba7232530437ad88fed811a7a29d47c1b5d8986a8045d8323a401c5"
+    "lastmod": "2026-10-30",
+    "sha256": "697634384a838e5efaffcd3e2e6b3bdd07bc3ef007c512a14250eab50d345b04"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/16mode/",
     "path": "zh/apps/16mode/index.html",
     "lang": "zh",
     "app": "16mode",
-    "lastmod": "2026-10-26",
-    "sha256": "696996e0d6ae6152cdaa1db07701003e1538ef5d6ab49524399b43c4bfa1c343"
+    "lastmod": "2026-10-30",
+    "sha256": "d9c31b035f1007726ad5e599ab8bd4861e7f4b854baacaec66f0f8a649b9e191"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/",
     "path": "ru/index.html",
     "lang": "ru",
     "app": null,
-    "lastmod": "2026-10-26",
-    "sha256": "27350f05fcafe8c87bb4fd40539d321b87bf12addf557d931dfa81055ef0f56b"
+    "lastmod": "2026-10-30",
+    "sha256": "a33871d4b7a54937e1331379f28959398eea2cd1b8963f9fc970c1c41b86bea9"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ru/apps/levelday/",
+    "path": "ru/apps/levelday/index.html",
+    "lang": "ru",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "7416704ad90ba685a51c8c8cecfe69c2bf45fde9a084e61ab9aa0b194318105a"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ru/apps/littleheroes/",
+    "path": "ru/apps/littleheroes/index.html",
+    "lang": "ru",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "64bfb6f399fb74b0bd72d5caff4f94609fe44ad775f9b7bf20c8a26ea3230bea"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ru/apps/nightmarket/",
+    "path": "ru/apps/nightmarket/index.html",
+    "lang": "ru",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "be3f486db5652b2a8120f6c4b63b7be87a47f7627827071fafe04646f3db29f4"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ru/apps/pocketdino/",
+    "path": "ru/apps/pocketdino/index.html",
+    "lang": "ru",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "4387ac971f8acfcd836e453dcc6da76d4be5e635cb6da8922c583801fbf6bba5"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ru/apps/pocketjesus/",
+    "path": "ru/apps/pocketjesus/index.html",
+    "lang": "ru",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "3630ad0f90057657b37a6160bcb6fbe0b0e6c4318da90f13b6ecdf3d8a678423"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/ru/apps/rateshift/",
+    "path": "ru/apps/rateshift/index.html",
+    "lang": "ru",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "fbb0babc99eb440b4390e102b39626fd1835dd9a06d70b1bdcdf1f9c6caed716"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/savecity/",
     "path": "ru/apps/savecity/index.html",
     "lang": "ru",
     "app": "savecity",
-    "lastmod": "2026-10-26",
-    "sha256": "07a759cfd43d9fffd7abfea96082e1b72fb6aa5e0df1e73f5d17bfa36eb3173c"
+    "lastmod": "2026-10-30",
+    "sha256": "1d0fbb06c390e95e9650254a65b40b0d7869c0c0a5d3091ae4512ab60adf8d1e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/howlong/",
     "path": "ru/apps/howlong/index.html",
     "lang": "ru",
     "app": "howlong",
-    "lastmod": "2026-10-26",
-    "sha256": "c769d202685ec37e8ee8bdb4db30ed402887ba0d86cbe15dddf0ace5fb2631e1"
+    "lastmod": "2026-10-30",
+    "sha256": "d05d9a8b5047ca2d29b7d03997aeb516bace1c44cb0899ef5c6185203422159d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/starstock/",
     "path": "ru/apps/starstock/index.html",
     "lang": "ru",
     "app": "starstock",
-    "lastmod": "2026-10-26",
-    "sha256": "25faa8d9db7fbb28c353e78e13818561b04f274dbf098fb0386f3d0d8a445de0"
+    "lastmod": "2026-10-30",
+    "sha256": "61a7e749bbbce7a002046e7bafbb9550e1356cda8a57dcb20d52273b9ed54cd6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/deepdig/",
     "path": "ru/apps/deepdig/index.html",
     "lang": "ru",
     "app": "deepdig",
-    "lastmod": "2026-10-26",
-    "sha256": "bae1168ab1ce6f48f3024ec77d35c3d41c034340c95d1898df7e956f6eac754c"
+    "lastmod": "2026-10-30",
+    "sha256": "75f27a71bb16a8d4196a79eb84805e5ed64a8496762653de720be34ea9b00bda"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/quizaura/",
     "path": "ru/apps/quizaura/index.html",
     "lang": "ru",
     "app": "quizaura",
-    "lastmod": "2026-10-26",
-    "sha256": "4ec2bd278bd02f029b53397b2c8a813bd20301e79bb95bf0227b28e454249f7f"
+    "lastmod": "2026-10-30",
+    "sha256": "6c19c8ceefe3ecab89138bf79b5b3a57b048077124fb6c6a1f577f44a79c2105"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/snapclean/",
     "path": "ru/apps/snapclean/index.html",
     "lang": "ru",
     "app": "snapclean",
-    "lastmod": "2026-10-26",
-    "sha256": "2fdbb4f43e913f5f50f8a29cfdf0c19dd7bca5e027a4c28272a05ea373880d7e"
+    "lastmod": "2026-10-30",
+    "sha256": "a628bdc46e93d32c891752346bfa6f0a1f0693f9f0d50dcfabc5f9b81ce1e184"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/lumiday/",
     "path": "ru/apps/lumiday/index.html",
     "lang": "ru",
     "app": "lumiday",
-    "lastmod": "2026-10-26",
-    "sha256": "6fb7e1e0a2e0fee25ffacc50f75a1ad6f6ffb14792e528aa7c46d92029046f62"
+    "lastmod": "2026-10-30",
+    "sha256": "68533836f15d40cece518e76ce83c4f5545b78d2264bfee5f7bc832206a6e338"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/maeum/",
     "path": "ru/apps/maeum/index.html",
     "lang": "ru",
     "app": "maeum",
-    "lastmod": "2026-10-26",
-    "sha256": "1d21ee5e5011168ded746fbf25f91e10c6b76992802a063f34a12a56fbd02018"
+    "lastmod": "2026-10-30",
+    "sha256": "4b2b6f416c5f65a066c69d2336123246b01371df02adb0214b8d5fce7a880b0f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/snaplog/",
     "path": "ru/apps/snaplog/index.html",
     "lang": "ru",
     "app": "snaplog",
-    "lastmod": "2026-10-26",
-    "sha256": "5c4fe07b77f33b3ef02fe5e1a0329863f9e7194ebb3662d0771de5a42c8f4702"
+    "lastmod": "2026-10-30",
+    "sha256": "ba17b7092db1c461a6d5ecefdfbe122d2cb32d6b42203d948799c6f43c25b16d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/lightwall/",
     "path": "ru/apps/lightwall/index.html",
     "lang": "ru",
     "app": "lightwall",
-    "lastmod": "2026-10-26",
-    "sha256": "dc23bb5c413fee86ec6d232c7b0da791c5d476b132d5aeb0eeaeef2a9827ccd0"
+    "lastmod": "2026-10-30",
+    "sha256": "65af61ff47e8fee40956714d66c219b9ad8224c48bc2197c548c177467eb9ecb"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/holyground/",
     "path": "ru/apps/holyground/index.html",
     "lang": "ru",
     "app": "holyground",
-    "lastmod": "2026-10-26",
-    "sha256": "7845a346b9289ac9c8e8205cd9c418491cc982d4248a01e39c6563e6079c4cac"
+    "lastmod": "2026-10-30",
+    "sha256": "4288253ce87b4930995e221a23181edc3393f6e07755d3fd0b1a057021ae4117"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/chaengkim/",
     "path": "ru/apps/chaengkim/index.html",
     "lang": "ru",
     "app": "chaengkim",
-    "lastmod": "2026-10-26",
-    "sha256": "0e6e998080d7360d09c0e4018663ae9e886bc0401e4405cae7f1a27a3742ac38"
+    "lastmod": "2026-10-30",
+    "sha256": "a2f9812bb8925cbcadc7b83ea6f67efb20afd2288f3f15aa915fa209f1b0d10f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/slimjoy/",
     "path": "ru/apps/slimjoy/index.html",
     "lang": "ru",
     "app": "slimjoy",
-    "lastmod": "2026-10-26",
-    "sha256": "a709e12f483d6333484d6c8df01975f2dbb985f703ad872416fe512eff5eb6a5"
+    "lastmod": "2026-10-30",
+    "sha256": "8cfd177c4188a4e0273bb7e0ffc2ce87d5dcfdbfacf7c0fd4304c365509bcc82"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/lightled/",
     "path": "ru/apps/lightled/index.html",
     "lang": "ru",
     "app": "lightled",
-    "lastmod": "2026-10-26",
-    "sha256": "5c1df4c7f35e179650cb864a9149d03e1baf1d2e2d31482566e47e56c5e388e9"
+    "lastmod": "2026-10-30",
+    "sha256": "e3e472b64e957a9a2d047b76b0b75f9a8e2a0dd90b5741918e3e4edad46a5a8a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/lotto/",
     "path": "ru/apps/lotto/index.html",
     "lang": "ru",
     "app": "lotto",
-    "lastmod": "2026-10-26",
-    "sha256": "52db232b3e3093ae15f13e911d5bb6ba2c066c21f03d22df153dccb222da869a"
+    "lastmod": "2026-10-30",
+    "sha256": "bce95ffc8fee36e26f8244122a9060a8e92935d76f2d0a693525d7d3290e42b4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/kingdom/",
     "path": "ru/apps/kingdom/index.html",
     "lang": "ru",
     "app": "kingdom",
-    "lastmod": "2026-10-26",
-    "sha256": "ec99cc85eea52059081a4cb7310fa51a9a44614f9cc6fdc672f784b288d075a5"
+    "lastmod": "2026-10-30",
+    "sha256": "bbe4779edbf43207406a54816c524ffd442595406f031987c13ae5a57412be88"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/16mode/",
     "path": "ru/apps/16mode/index.html",
     "lang": "ru",
     "app": "16mode",
-    "lastmod": "2026-10-26",
-    "sha256": "4fee3e92ed2f3e90ec15c8f320a07406777d9b8e0a17c31422af12fdd4da8cd1"
+    "lastmod": "2026-10-30",
+    "sha256": "f6d07c9e9d95638911421d7aaf85d9e78383c3eeaa42500dbe0f47367d1d8375"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/",
     "path": "fil/index.html",
     "lang": "fil",
     "app": null,
-    "lastmod": "2026-10-26",
-    "sha256": "486470b261cb0092c0fd3818e2e848e454182c45f4e4a057e6fb08d0713b55d1"
+    "lastmod": "2026-10-30",
+    "sha256": "675230a69e9e42925b562603a98d9ff1a152cfed1d601b78493467664ae2a357"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fil/apps/levelday/",
+    "path": "fil/apps/levelday/index.html",
+    "lang": "fil",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "e158fe92f4e5d1eed3ad69a950cd8bf3d17eb7923bef2fe103170dc5d9aefc3b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fil/apps/littleheroes/",
+    "path": "fil/apps/littleheroes/index.html",
+    "lang": "fil",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "a814fa17e746df8331cd1dffeed447d74a4ae91d8d1327926eeace7b05b4e9c8"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fil/apps/nightmarket/",
+    "path": "fil/apps/nightmarket/index.html",
+    "lang": "fil",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "3c1be408596f9d44e1a651ac04e37c470a5f74767482e633aa173ccc321a6e75"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fil/apps/pocketdino/",
+    "path": "fil/apps/pocketdino/index.html",
+    "lang": "fil",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "d3ea28d1fed8b58f4ddf782721b3dff86d2cd9be8ac8ef0a240a89d1a120a07d"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fil/apps/pocketjesus/",
+    "path": "fil/apps/pocketjesus/index.html",
+    "lang": "fil",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "65c9a5432d3e7a84d4e57374a188a1752f8244e7eee5b46ecaac828cf38839d8"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fil/apps/rateshift/",
+    "path": "fil/apps/rateshift/index.html",
+    "lang": "fil",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "a72ceee5a11ec929e5df817fb9920a9a8f9900d608c4437a178c2cc136e0cf0b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/savecity/",
     "path": "fil/apps/savecity/index.html",
     "lang": "fil",
     "app": "savecity",
-    "lastmod": "2026-10-26",
-    "sha256": "c5421de3c776439afbc26202284baa6639ccb63fb23f9053b5d1029cc4aa3c09"
+    "lastmod": "2026-10-30",
+    "sha256": "931f38ddab84eca808630fcdd84c53d6c24882d2c32e5338082cfb3bc6e05f1c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/howlong/",
     "path": "fil/apps/howlong/index.html",
     "lang": "fil",
     "app": "howlong",
-    "lastmod": "2026-10-26",
-    "sha256": "0d28cd8a8f92c45908c19f17e881bafee5c55a09b7b83fba08ee7826fcea2ded"
+    "lastmod": "2026-10-30",
+    "sha256": "12230e902257d650e04d9e70b3e4bb25f56f9115ef3e3e7d32c3e8917ff22665"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/starstock/",
     "path": "fil/apps/starstock/index.html",
     "lang": "fil",
     "app": "starstock",
-    "lastmod": "2026-10-26",
-    "sha256": "d8212dc89207673416cf5de24c73973aa3706b1ddcb72cfeff2745bf7f11b156"
+    "lastmod": "2026-10-30",
+    "sha256": "c56b041038a05d3f1b32e04970e78e87c01c4e12d8486a72622516d627f836ab"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/deepdig/",
     "path": "fil/apps/deepdig/index.html",
     "lang": "fil",
     "app": "deepdig",
-    "lastmod": "2026-10-26",
-    "sha256": "f72170520303a737d995bb3384dcbff57039f87fa9708b664ec2fc957a500191"
+    "lastmod": "2026-10-30",
+    "sha256": "e7176f2048cab11e3005b24bc832bc1fa65ed905375b6f55b18824d111370a18"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/quizaura/",
     "path": "fil/apps/quizaura/index.html",
     "lang": "fil",
     "app": "quizaura",
-    "lastmod": "2026-10-26",
-    "sha256": "d43472e1fe7bf8abe5bb75475344ae4970fab98b40379e32192b41a5f9085c9c"
+    "lastmod": "2026-10-30",
+    "sha256": "83240d989f8981290f36fd65b0bb97386f031d947ea3f94e749040a70074df6c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/snapclean/",
     "path": "fil/apps/snapclean/index.html",
     "lang": "fil",
     "app": "snapclean",
-    "lastmod": "2026-10-26",
-    "sha256": "6062d3863ffc1de24b489a55ea36c0b56d0145c219d696df2585d9c1111406a1"
+    "lastmod": "2026-10-30",
+    "sha256": "8a327f93792fe579097911a06e30a2de10f7a0888d184acf7a3c4473e113c800"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/lumiday/",
     "path": "fil/apps/lumiday/index.html",
     "lang": "fil",
     "app": "lumiday",
-    "lastmod": "2026-10-26",
-    "sha256": "ee43fb5e3c3110558577b04cd313807fdd604e3c2162075902ee972e199bca03"
+    "lastmod": "2026-10-30",
+    "sha256": "ff2bfad6407c34910e6d496461374a5dba325089cbbe448dad17ca23c34f3a95"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/maeum/",
     "path": "fil/apps/maeum/index.html",
     "lang": "fil",
     "app": "maeum",
-    "lastmod": "2026-10-26",
-    "sha256": "61ba833c9cc0c6763ab6d48c0d3fc2554e27a4a64934e2a7fb24b13401a44db9"
+    "lastmod": "2026-10-30",
+    "sha256": "b4e9701bd117c91ac6ea9bb919f705f064860799a7f6484fd8b3bfd460a7ba1d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/snaplog/",
     "path": "fil/apps/snaplog/index.html",
     "lang": "fil",
     "app": "snaplog",
-    "lastmod": "2026-10-26",
-    "sha256": "3c886d547060dc61c95581678d86b2363a9c64871dd58d056734ea52f994ef1b"
+    "lastmod": "2026-10-30",
+    "sha256": "1c67b044eff75ff499ad156f65b8f64eb99c63fe4564bcee263db2b33642d957"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/lightwall/",
     "path": "fil/apps/lightwall/index.html",
     "lang": "fil",
     "app": "lightwall",
-    "lastmod": "2026-10-26",
-    "sha256": "38a5b7fbaab0401c86cfaac293478ad0e6191432aba36453db74346048ed2ab2"
+    "lastmod": "2026-10-30",
+    "sha256": "fd6ad7f1642de23db197b3bf933116cd0f56525b2db3541717761281df07d74c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/holyground/",
     "path": "fil/apps/holyground/index.html",
     "lang": "fil",
     "app": "holyground",
-    "lastmod": "2026-10-26",
-    "sha256": "b7f703cf525aee324706282c78d19cb1248011e66a0874904208f6628a31b8fa"
+    "lastmod": "2026-10-30",
+    "sha256": "ae5123e68b03b95cc990a8e09505373a59e1b5320330cdca2d087692a3e1f869"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/chaengkim/",
     "path": "fil/apps/chaengkim/index.html",
     "lang": "fil",
     "app": "chaengkim",
-    "lastmod": "2026-10-26",
-    "sha256": "8b225fa51850e6d73f016c06ca775cc6884c405ad730b73de8286317de4b866c"
+    "lastmod": "2026-10-30",
+    "sha256": "6e9e1f884288856c8c2d3f55988316e16ce801fc385147aca9a417140d60e876"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/slimjoy/",
     "path": "fil/apps/slimjoy/index.html",
     "lang": "fil",
     "app": "slimjoy",
-    "lastmod": "2026-10-26",
-    "sha256": "e33649b5249e673adadcf0e7b1cbfa65ed44aba73e74470d0a8229cd0c770c3a"
+    "lastmod": "2026-10-30",
+    "sha256": "6fa6e8073520b0940e0c1dc988cdbc604e21bda47c1d2133900f4028848a8581"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/lightled/",
     "path": "fil/apps/lightled/index.html",
     "lang": "fil",
     "app": "lightled",
-    "lastmod": "2026-10-26",
-    "sha256": "75e12debe2c8079d838f8dfbbc93e86b4f875e4f39202df0150cc71e5883265f"
+    "lastmod": "2026-10-30",
+    "sha256": "82130f49e7d0c33e25014696294d7981d682f853d58664be24223709af8e1756"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/lotto/",
     "path": "fil/apps/lotto/index.html",
     "lang": "fil",
     "app": "lotto",
-    "lastmod": "2026-10-26",
-    "sha256": "c503928187e10a1f514a71e8bc760faf46dd5a9b914cb4b2765845c164a51ba5"
+    "lastmod": "2026-10-30",
+    "sha256": "f7fba319839ac12db6cfb012bdad843605d947e8c89f98e511d2bee0d1a138e0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/kingdom/",
     "path": "fil/apps/kingdom/index.html",
     "lang": "fil",
     "app": "kingdom",
-    "lastmod": "2026-10-26",
-    "sha256": "cce7b12222a6ecf8c55745061eaab5e81d828f08bd9a2508d154c3e8263f3031"
+    "lastmod": "2026-10-30",
+    "sha256": "22d24977fbf68be89ec6210f0305ab5e41ffb79acc7cfad6a2cfd8c4465a77e0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/16mode/",
     "path": "fil/apps/16mode/index.html",
     "lang": "fil",
     "app": "16mode",
-    "lastmod": "2026-10-26",
-    "sha256": "926e4d9f670d8e9b4d9bec76e3170002b43600ed8d6f6655144befdcede1c73d"
+    "lastmod": "2026-10-30",
+    "sha256": "58d85128ef08f527a93c0d229c8b8fed5a03ba0bea40093ed60c2d3840c070d7"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/",
+    "path": "hi/index.html",
+    "lang": "hi",
+    "app": null,
+    "lastmod": "2026-10-30",
+    "sha256": "7378284ced07b0c255caa279f707681f02ad72d958aab55f84409c49ba887372"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/levelday/",
+    "path": "hi/apps/levelday/index.html",
+    "lang": "hi",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "e8c4eaaafb2541211a7809d80eb0cae874419e0b1ce8b9610f15fb86c4bfbcd8"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/littleheroes/",
+    "path": "hi/apps/littleheroes/index.html",
+    "lang": "hi",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "9480074f8419b0267e190c17e25619169abb0b7f9dce22f3badaa71d8b7ce1a9"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/nightmarket/",
+    "path": "hi/apps/nightmarket/index.html",
+    "lang": "hi",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "6e12487dbcd81451f30669fc3a5d27cc69d634434f6450cfd2a60730b8c81152"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/pocketdino/",
+    "path": "hi/apps/pocketdino/index.html",
+    "lang": "hi",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "fe8f27197047d9ebfb03942681d15e253c11e8da874e7a3959a39c073df74754"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/pocketjesus/",
+    "path": "hi/apps/pocketjesus/index.html",
+    "lang": "hi",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "01aee5c6fca83458a978f4d59c9a38bc490de801b698601aa03f75c664246013"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/rateshift/",
+    "path": "hi/apps/rateshift/index.html",
+    "lang": "hi",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "009384e5260b9d1c0f30141000561e09c17a1c67dcf76b8e2a5ef15752a3b8c2"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/savecity/",
+    "path": "hi/apps/savecity/index.html",
+    "lang": "hi",
+    "app": "savecity",
+    "lastmod": "2026-10-30",
+    "sha256": "aaa5022bf4c5557278405dab0206055e3fe243652e6d2bf77d09383da7d45a56"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/howlong/",
+    "path": "hi/apps/howlong/index.html",
+    "lang": "hi",
+    "app": "howlong",
+    "lastmod": "2026-10-30",
+    "sha256": "eab0fbac53af1a8bc98425470c1d78603acb11f675bc0cbea8bad19d0ea33d0f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/starstock/",
+    "path": "hi/apps/starstock/index.html",
+    "lang": "hi",
+    "app": "starstock",
+    "lastmod": "2026-10-30",
+    "sha256": "76001f38cd33e0afe16747b825e792ff294e628d988b8fbd81c7885dd7b574af"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/deepdig/",
+    "path": "hi/apps/deepdig/index.html",
+    "lang": "hi",
+    "app": "deepdig",
+    "lastmod": "2026-10-30",
+    "sha256": "5a659c60b30c9c02ced82d0f7f66f3c0ef44da220fb1d8c13141d51c692bb863"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/quizaura/",
+    "path": "hi/apps/quizaura/index.html",
+    "lang": "hi",
+    "app": "quizaura",
+    "lastmod": "2026-10-30",
+    "sha256": "a203d62d9ffba8d7497d4d5a7ca1ca30a3e855e3a363cb8ab62235e5d867fbe9"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/snapclean/",
+    "path": "hi/apps/snapclean/index.html",
+    "lang": "hi",
+    "app": "snapclean",
+    "lastmod": "2026-10-30",
+    "sha256": "0c280fb9260ce655d23cc29c13cfe33f2bbe109cf77574918aee336581d6d6d4"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/lumiday/",
+    "path": "hi/apps/lumiday/index.html",
+    "lang": "hi",
+    "app": "lumiday",
+    "lastmod": "2026-10-30",
+    "sha256": "e8a5db64340c0593ef7c40395a1bb8c2a68c946de8d8a7db5cd59c6050fa8bea"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/maeum/",
+    "path": "hi/apps/maeum/index.html",
+    "lang": "hi",
+    "app": "maeum",
+    "lastmod": "2026-10-30",
+    "sha256": "e6300dedbbe3efe2cf65ad064c2845dd0daab96065dab8236ed7d0a9fde6acdd"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/snaplog/",
+    "path": "hi/apps/snaplog/index.html",
+    "lang": "hi",
+    "app": "snaplog",
+    "lastmod": "2026-10-30",
+    "sha256": "80f65a16d921663bf2003815777afb3d1a214e9ca6d837f4eacbcf27ac2cc3ad"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/lightwall/",
+    "path": "hi/apps/lightwall/index.html",
+    "lang": "hi",
+    "app": "lightwall",
+    "lastmod": "2026-10-30",
+    "sha256": "11d03c5173183ed599b6d53466398a8ea076d4935c883bbfd6543ac8c81b5187"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/holyground/",
+    "path": "hi/apps/holyground/index.html",
+    "lang": "hi",
+    "app": "holyground",
+    "lastmod": "2026-10-30",
+    "sha256": "869453cb8f44fdc18296b470615de4bdb8c40c851581fd0a823a9a16df88dd33"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/chaengkim/",
+    "path": "hi/apps/chaengkim/index.html",
+    "lang": "hi",
+    "app": "chaengkim",
+    "lastmod": "2026-10-30",
+    "sha256": "ce138387bf51be5ef495086cd00864b2fc55d79e9a72b29938f3c36ab98ad667"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/slimjoy/",
+    "path": "hi/apps/slimjoy/index.html",
+    "lang": "hi",
+    "app": "slimjoy",
+    "lastmod": "2026-10-30",
+    "sha256": "662cb4928279ab9002140d31d9f3e39173b47176836c6c4ffcaee9697c1ca703"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/lightled/",
+    "path": "hi/apps/lightled/index.html",
+    "lang": "hi",
+    "app": "lightled",
+    "lastmod": "2026-10-30",
+    "sha256": "a83a78393ca951646274c69aaa4b86f362b93cb62851f05ac52194089931654b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/lotto/",
+    "path": "hi/apps/lotto/index.html",
+    "lang": "hi",
+    "app": "lotto",
+    "lastmod": "2026-10-30",
+    "sha256": "f0e559a42be24610df683b6f29877a0a188cc000beca30cd0ee2a150cd18d7aa"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/kingdom/",
+    "path": "hi/apps/kingdom/index.html",
+    "lang": "hi",
+    "app": "kingdom",
+    "lastmod": "2026-10-30",
+    "sha256": "132747914ab69fc9c96efb5fca4a54f439d0a1eb10708b6501ab01055021a640"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/hi/apps/16mode/",
+    "path": "hi/apps/16mode/index.html",
+    "lang": "hi",
+    "app": "16mode",
+    "lastmod": "2026-10-30",
+    "sha256": "a3e4a2c5fd109dc2ba1a1a7ca646d4851b310d73bfc9120989c232b9dfceb3a3"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/",
+    "path": "es/index.html",
+    "lang": "es",
+    "app": null,
+    "lastmod": "2026-10-30",
+    "sha256": "9594e1e94ec56eb43cad3609ec258dcf080d0f1bb71a96d5f0f8fc291aa4414a"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/levelday/",
+    "path": "es/apps/levelday/index.html",
+    "lang": "es",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "6833f94af09bfcd97b815601ed0830bbc03a3fd7f15b2185fd7e325eefee7733"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/littleheroes/",
+    "path": "es/apps/littleheroes/index.html",
+    "lang": "es",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "56882478b2158e7841f0181acf898206d21f3d9eaa696f644964440863e47bf1"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/nightmarket/",
+    "path": "es/apps/nightmarket/index.html",
+    "lang": "es",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "dfd46c52cce5577c26759541affb2eeec1e515bccb45f7f33de55bd76fb55e9c"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/pocketdino/",
+    "path": "es/apps/pocketdino/index.html",
+    "lang": "es",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "60b14e1b6b9076b68daa9ab23627b5b739d20ffe4a1931d7e234b8d1523cd1ea"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/pocketjesus/",
+    "path": "es/apps/pocketjesus/index.html",
+    "lang": "es",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "ef5f5c69b6c1343dfdfc257ff848c2c1b09508614da814e19b5db4edf2f8da0d"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/rateshift/",
+    "path": "es/apps/rateshift/index.html",
+    "lang": "es",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "8c10794ce3f44eb536a667fa45b02497a455e5862af8a9adbc3f191e83f1e1ce"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/savecity/",
+    "path": "es/apps/savecity/index.html",
+    "lang": "es",
+    "app": "savecity",
+    "lastmod": "2026-10-30",
+    "sha256": "a18aa7e474ca71224cbbcb1873f36015c9095c110aa057ab29ca470624984b90"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/howlong/",
+    "path": "es/apps/howlong/index.html",
+    "lang": "es",
+    "app": "howlong",
+    "lastmod": "2026-10-30",
+    "sha256": "40d95b83ecbc7d71df3e183626e5a2dcb3d3f995d0e7f920159a39c075bf2920"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/starstock/",
+    "path": "es/apps/starstock/index.html",
+    "lang": "es",
+    "app": "starstock",
+    "lastmod": "2026-10-30",
+    "sha256": "2b0d214bfbf65728937bf95b92b34dc1063d8a78896b6955085527170dd1f292"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/deepdig/",
+    "path": "es/apps/deepdig/index.html",
+    "lang": "es",
+    "app": "deepdig",
+    "lastmod": "2026-10-30",
+    "sha256": "a762a4579b78b280e368e327c844ba13d026ccb4dbd68bcb32f0ed463e39d40b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/quizaura/",
+    "path": "es/apps/quizaura/index.html",
+    "lang": "es",
+    "app": "quizaura",
+    "lastmod": "2026-10-30",
+    "sha256": "e537377deef88cf7e67f9d880eba0de46312de01df06231d77089427bf073d16"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/snapclean/",
+    "path": "es/apps/snapclean/index.html",
+    "lang": "es",
+    "app": "snapclean",
+    "lastmod": "2026-10-30",
+    "sha256": "64dba7ea47cae911c5457506af581d38726753e27ca6dbeed67d742ddedbdfee"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/lumiday/",
+    "path": "es/apps/lumiday/index.html",
+    "lang": "es",
+    "app": "lumiday",
+    "lastmod": "2026-10-30",
+    "sha256": "279fa56a8ef8f32ee2d0484cb1066ea8fc044a4c62319ef32f3d2454c7994091"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/maeum/",
+    "path": "es/apps/maeum/index.html",
+    "lang": "es",
+    "app": "maeum",
+    "lastmod": "2026-10-30",
+    "sha256": "35e73a22aaea37443084b401503182d25e4b4667c713e0ee06122df7f90092b3"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/snaplog/",
+    "path": "es/apps/snaplog/index.html",
+    "lang": "es",
+    "app": "snaplog",
+    "lastmod": "2026-10-30",
+    "sha256": "ef1fa94501f48f863f6f08f8d34697202ed577a1a679799d39bf07ffead79e1c"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/lightwall/",
+    "path": "es/apps/lightwall/index.html",
+    "lang": "es",
+    "app": "lightwall",
+    "lastmod": "2026-10-30",
+    "sha256": "c9d78230afc4ae1bbb9ef7d440fff73e7817f150dafb2e4db7893ae124f4481c"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/holyground/",
+    "path": "es/apps/holyground/index.html",
+    "lang": "es",
+    "app": "holyground",
+    "lastmod": "2026-10-30",
+    "sha256": "51d3c4146967419b3f635381d54877fd8bf50c35bf4dcd110048364941a49a79"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/chaengkim/",
+    "path": "es/apps/chaengkim/index.html",
+    "lang": "es",
+    "app": "chaengkim",
+    "lastmod": "2026-10-30",
+    "sha256": "d928c382e276dca1a0f53f9adb789154418ac16698ee6dc3cc6edd98e67391e5"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/slimjoy/",
+    "path": "es/apps/slimjoy/index.html",
+    "lang": "es",
+    "app": "slimjoy",
+    "lastmod": "2026-10-30",
+    "sha256": "27df16de37285059131a9f4b5b181b889dd6e5e6bd25e0e8f75eddd27ebd4b10"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/lightled/",
+    "path": "es/apps/lightled/index.html",
+    "lang": "es",
+    "app": "lightled",
+    "lastmod": "2026-10-30",
+    "sha256": "45d1f315637c2aaab59348d85ad66f4ab91f5af5706b6d56b6f95737073c45d1"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/lotto/",
+    "path": "es/apps/lotto/index.html",
+    "lang": "es",
+    "app": "lotto",
+    "lastmod": "2026-10-30",
+    "sha256": "0c6599f08e4422cbe79bb2562412d8889e9bbe771fd8bdceeb0660ef55941021"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/kingdom/",
+    "path": "es/apps/kingdom/index.html",
+    "lang": "es",
+    "app": "kingdom",
+    "lastmod": "2026-10-30",
+    "sha256": "22755844d2e0cd2008722fa9f657a272758a1e21ff78fddcc9bb39929e431a00"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/es/apps/16mode/",
+    "path": "es/apps/16mode/index.html",
+    "lang": "es",
+    "app": "16mode",
+    "lastmod": "2026-10-30",
+    "sha256": "7a848e8cf70c0c47830288e7021fbf9861ab322f1f7d47f14a717cc01ce3a57f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/",
+    "path": "pt/index.html",
+    "lang": "pt",
+    "app": null,
+    "lastmod": "2026-10-30",
+    "sha256": "79772eabe732bb6e261c75f4f5f1b81f01d3e0acf23a0568fca53912240cab9b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/levelday/",
+    "path": "pt/apps/levelday/index.html",
+    "lang": "pt",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "9fdef77f20386f36b8d50fd7c54e946d12b21c88fe3ee52b25d75c99f9897ce4"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/littleheroes/",
+    "path": "pt/apps/littleheroes/index.html",
+    "lang": "pt",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "d605c8a518916e8305d3428546f218fdd884bb465b16e509304c2b5c53af4d89"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/nightmarket/",
+    "path": "pt/apps/nightmarket/index.html",
+    "lang": "pt",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "ffee02d64964e121dc2a43df706beab0644a69e387441f91ea9d7f833938115d"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/pocketdino/",
+    "path": "pt/apps/pocketdino/index.html",
+    "lang": "pt",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "6824b9cc76a47596fc9d411d74691370ee12ff6d6f9dbd9fd9f6b33d1e7c8805"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/pocketjesus/",
+    "path": "pt/apps/pocketjesus/index.html",
+    "lang": "pt",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "a82f944abd9cfac8575777ecb63db7f5fe6b41f150e45012674d51ca1114172d"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/rateshift/",
+    "path": "pt/apps/rateshift/index.html",
+    "lang": "pt",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "39ab124f75cf716a28067ab98953b3332d976c62f02dd04d4292333a1763028d"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/savecity/",
+    "path": "pt/apps/savecity/index.html",
+    "lang": "pt",
+    "app": "savecity",
+    "lastmod": "2026-10-30",
+    "sha256": "fbad6895aa6ba080742e29b55bf7475f75c545c0d62c366e317d950ac863230f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/howlong/",
+    "path": "pt/apps/howlong/index.html",
+    "lang": "pt",
+    "app": "howlong",
+    "lastmod": "2026-10-30",
+    "sha256": "ff0ad9c75514fe0d2512f85823c7c118e05976289945e33b5ab7a3be891f1485"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/starstock/",
+    "path": "pt/apps/starstock/index.html",
+    "lang": "pt",
+    "app": "starstock",
+    "lastmod": "2026-10-30",
+    "sha256": "3d1340152f07d78ebde3c0ceaaf7d2e50f29509c5d761e6548432fe11f20d7e6"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/deepdig/",
+    "path": "pt/apps/deepdig/index.html",
+    "lang": "pt",
+    "app": "deepdig",
+    "lastmod": "2026-10-30",
+    "sha256": "ae3eae7624445bf6f8157f1eb86a60aea51c5d3152dcf520454f457e47fdee30"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/quizaura/",
+    "path": "pt/apps/quizaura/index.html",
+    "lang": "pt",
+    "app": "quizaura",
+    "lastmod": "2026-10-30",
+    "sha256": "68794f69388cb1f6a0329e49d2de32f60be2dd264b327d143ebc64731de43a94"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/snapclean/",
+    "path": "pt/apps/snapclean/index.html",
+    "lang": "pt",
+    "app": "snapclean",
+    "lastmod": "2026-10-30",
+    "sha256": "48ad8cb8cfaea796bc2e19028c122da81186aeecacdae248ae8880d42522e983"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/lumiday/",
+    "path": "pt/apps/lumiday/index.html",
+    "lang": "pt",
+    "app": "lumiday",
+    "lastmod": "2026-10-30",
+    "sha256": "4916f04ab5e2e718c9419ece2f1361df2713535a18b48265bc8b7f8680a1247e"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/maeum/",
+    "path": "pt/apps/maeum/index.html",
+    "lang": "pt",
+    "app": "maeum",
+    "lastmod": "2026-10-30",
+    "sha256": "8037a608976b5a3079f593e140c5c1bf41636db992e227bfe28d368e32e3e1f3"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/snaplog/",
+    "path": "pt/apps/snaplog/index.html",
+    "lang": "pt",
+    "app": "snaplog",
+    "lastmod": "2026-10-30",
+    "sha256": "a4dd5aa9ca9fa527941da418e9f35846c0ec05404b32df1aa0aeca9e29656501"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/lightwall/",
+    "path": "pt/apps/lightwall/index.html",
+    "lang": "pt",
+    "app": "lightwall",
+    "lastmod": "2026-10-30",
+    "sha256": "07905524af54260c512760c55a9733e08677b9512dd516ef13aa8a77567b75c0"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/holyground/",
+    "path": "pt/apps/holyground/index.html",
+    "lang": "pt",
+    "app": "holyground",
+    "lastmod": "2026-10-30",
+    "sha256": "97c7e897c322262fff0d91202557f0f6cd9310a221e4db72cb99d3e279c4aa13"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/chaengkim/",
+    "path": "pt/apps/chaengkim/index.html",
+    "lang": "pt",
+    "app": "chaengkim",
+    "lastmod": "2026-10-30",
+    "sha256": "a4f2417c9aafd92738926b3c75dbff042893f2d61df2c7ad539f847417d92ecf"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/slimjoy/",
+    "path": "pt/apps/slimjoy/index.html",
+    "lang": "pt",
+    "app": "slimjoy",
+    "lastmod": "2026-10-30",
+    "sha256": "7405b978266aede5493a9a745db3daac405744779e45fd918a5e5ead151151d6"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/lightled/",
+    "path": "pt/apps/lightled/index.html",
+    "lang": "pt",
+    "app": "lightled",
+    "lastmod": "2026-10-30",
+    "sha256": "8d27d48d6a5fe0f943e6c97620437841a722095e9b1cfd1e2b183e9584ce1313"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/lotto/",
+    "path": "pt/apps/lotto/index.html",
+    "lang": "pt",
+    "app": "lotto",
+    "lastmod": "2026-10-30",
+    "sha256": "3ce2ab8d98e71fe23207dd6180fa7c596d14c7c5a828c3e06b07ab0d136b8750"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/kingdom/",
+    "path": "pt/apps/kingdom/index.html",
+    "lang": "pt",
+    "app": "kingdom",
+    "lastmod": "2026-10-30",
+    "sha256": "d9c8758629a93d1e39b0173e98973112caab0c1121ab7c2719b304b9c40cd84b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/pt/apps/16mode/",
+    "path": "pt/apps/16mode/index.html",
+    "lang": "pt",
+    "app": "16mode",
+    "lastmod": "2026-10-30",
+    "sha256": "5cf645b2b97dcd8b7f21fddf7e22e24c59d1958512b9137d8a65fc35ab35715e"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/",
+    "path": "fr/index.html",
+    "lang": "fr",
+    "app": null,
+    "lastmod": "2026-10-30",
+    "sha256": "7b51a41f2f32794c8c0006552032f42385190a9b7e90047549d5f7b79385b39f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/levelday/",
+    "path": "fr/apps/levelday/index.html",
+    "lang": "fr",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "64c485e95b90a587b2469c7a3383877166d6d7d4515485a4701eaead82ee45fb"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/littleheroes/",
+    "path": "fr/apps/littleheroes/index.html",
+    "lang": "fr",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "f21798cb914b8bd7226fddc9e54e9a2ce9ba7cbb01d066f511f279d5bb4b17fa"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/nightmarket/",
+    "path": "fr/apps/nightmarket/index.html",
+    "lang": "fr",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "c0133965f80fc5925a11f9803279254866391880fbc6192be9653356a438f922"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/pocketdino/",
+    "path": "fr/apps/pocketdino/index.html",
+    "lang": "fr",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "c9ea98aeea4fdaebe8f1114bd531b79ad7c3780580b62a2ec6b8d110558dbc9f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/pocketjesus/",
+    "path": "fr/apps/pocketjesus/index.html",
+    "lang": "fr",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "d09eb2891b1b14048794e9a58b38ad3b7b30193ddd3607b8b1f681fd30e26542"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/rateshift/",
+    "path": "fr/apps/rateshift/index.html",
+    "lang": "fr",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "279928f24e0783b25ccb2d1a7277add3aaa6813e856c5fadaa3f7bd2979351bc"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/savecity/",
+    "path": "fr/apps/savecity/index.html",
+    "lang": "fr",
+    "app": "savecity",
+    "lastmod": "2026-10-30",
+    "sha256": "b971a667a0c90bc007b8d11132c4fe8fa2b775bb9438e87f54b0fdf4a9c6f303"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/howlong/",
+    "path": "fr/apps/howlong/index.html",
+    "lang": "fr",
+    "app": "howlong",
+    "lastmod": "2026-10-30",
+    "sha256": "8758a9860c0d8685e8f7e060dd4b54387a52cf8bba67b480b854d6c82cf08c53"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/starstock/",
+    "path": "fr/apps/starstock/index.html",
+    "lang": "fr",
+    "app": "starstock",
+    "lastmod": "2026-10-30",
+    "sha256": "11472e733b9fd33e428676462e0ca1b8be997c82332f705e07817e91af9e54df"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/deepdig/",
+    "path": "fr/apps/deepdig/index.html",
+    "lang": "fr",
+    "app": "deepdig",
+    "lastmod": "2026-10-30",
+    "sha256": "d045a33fda81e4137e4a5435ebcdf332a833ec6f76d5e75c95cfd872f1cf9f74"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/quizaura/",
+    "path": "fr/apps/quizaura/index.html",
+    "lang": "fr",
+    "app": "quizaura",
+    "lastmod": "2026-10-30",
+    "sha256": "bb5cc4c9b91fecd1a2b3b337969fe4346fb4326a29307a40f5d6803a0ad39771"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/snapclean/",
+    "path": "fr/apps/snapclean/index.html",
+    "lang": "fr",
+    "app": "snapclean",
+    "lastmod": "2026-10-30",
+    "sha256": "21344b42b30c6edf281036ebad589c0d93b50365df43b44c24886c111b9855c9"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/lumiday/",
+    "path": "fr/apps/lumiday/index.html",
+    "lang": "fr",
+    "app": "lumiday",
+    "lastmod": "2026-10-30",
+    "sha256": "fecedde79efcf536f9d32b82216d5f2f9f8b7b7b5fe609e443509ab752873d10"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/maeum/",
+    "path": "fr/apps/maeum/index.html",
+    "lang": "fr",
+    "app": "maeum",
+    "lastmod": "2026-10-30",
+    "sha256": "63ba4049d07437d3b825240019955ec4ede67e855632aa5660cef2f896226fea"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/snaplog/",
+    "path": "fr/apps/snaplog/index.html",
+    "lang": "fr",
+    "app": "snaplog",
+    "lastmod": "2026-10-30",
+    "sha256": "73ee047f77ac41a790ab04902ec49ca3fd777b69ec67c5cbe1312c0925fde9b4"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/lightwall/",
+    "path": "fr/apps/lightwall/index.html",
+    "lang": "fr",
+    "app": "lightwall",
+    "lastmod": "2026-10-30",
+    "sha256": "52064f8b90595b57a46ce24876ee94334182272be4a84380e01f48dc1bc6ff17"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/holyground/",
+    "path": "fr/apps/holyground/index.html",
+    "lang": "fr",
+    "app": "holyground",
+    "lastmod": "2026-10-30",
+    "sha256": "dbfbacb04a3992c0d2021b0707da7747977937b3f42d7c9646fd62b1576b5ed7"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/chaengkim/",
+    "path": "fr/apps/chaengkim/index.html",
+    "lang": "fr",
+    "app": "chaengkim",
+    "lastmod": "2026-10-30",
+    "sha256": "471713c369bf2d0acb752c5a54fcfc6610cbf6424d8730a7c97be77ab3ca789b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/slimjoy/",
+    "path": "fr/apps/slimjoy/index.html",
+    "lang": "fr",
+    "app": "slimjoy",
+    "lastmod": "2026-10-30",
+    "sha256": "33e9e0d2b33678d43a65e9009d23ae64e43c04a46edeb15d2ccacc1a40e097b1"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/lightled/",
+    "path": "fr/apps/lightled/index.html",
+    "lang": "fr",
+    "app": "lightled",
+    "lastmod": "2026-10-30",
+    "sha256": "c1911a9ce13adf4d774603cfc4ad440c681443d1e978343a640093e728fa7efc"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/lotto/",
+    "path": "fr/apps/lotto/index.html",
+    "lang": "fr",
+    "app": "lotto",
+    "lastmod": "2026-10-30",
+    "sha256": "604a96fccbfdf84bf3070a251b48f7107b4e9076b1134fc31f8ef75b72212737"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/kingdom/",
+    "path": "fr/apps/kingdom/index.html",
+    "lang": "fr",
+    "app": "kingdom",
+    "lastmod": "2026-10-30",
+    "sha256": "2d7bfe4c549e05bf7db059f2392bf4f805b9e8f75044aee87b90fae621506a5c"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/fr/apps/16mode/",
+    "path": "fr/apps/16mode/index.html",
+    "lang": "fr",
+    "app": "16mode",
+    "lastmod": "2026-10-30",
+    "sha256": "316fb0a056429653435b98c7a3313776db7326186c24545f9a5dd63365f10416"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/",
+    "path": "de/index.html",
+    "lang": "de",
+    "app": null,
+    "lastmod": "2026-10-30",
+    "sha256": "d67bb6d622e50e981378105f149bf60e8cc8e7e1c596aad3e724a0a857eb9201"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/levelday/",
+    "path": "de/apps/levelday/index.html",
+    "lang": "de",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "c2996c4e8ff1384eabfb33396021ea901357536039b3a903c1c267d985f0439a"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/littleheroes/",
+    "path": "de/apps/littleheroes/index.html",
+    "lang": "de",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "f101dbab29441b12c60e014f8175867291bd68250e10376adfd05d3930a8ed5c"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/nightmarket/",
+    "path": "de/apps/nightmarket/index.html",
+    "lang": "de",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "79567d75c68b8111e7c5bfbf8bd88c6b3d7009d1b5b10385f352b3755c9ef118"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/pocketdino/",
+    "path": "de/apps/pocketdino/index.html",
+    "lang": "de",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "59f783b86573f7020466b0e6a909af2c878a30895e55b10acc7c8bfe456abf5c"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/pocketjesus/",
+    "path": "de/apps/pocketjesus/index.html",
+    "lang": "de",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "1f92854930c9ee9f6b4009140ffe262e8298fe4dd339f040e2e98d81b4393485"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/rateshift/",
+    "path": "de/apps/rateshift/index.html",
+    "lang": "de",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "ba86bb1b687b815f8d8e0b985052adf06613d3317214ab49ec98fe769502dee5"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/savecity/",
+    "path": "de/apps/savecity/index.html",
+    "lang": "de",
+    "app": "savecity",
+    "lastmod": "2026-10-30",
+    "sha256": "74012e09dcbcf8aa48df7a1672b564ea3b56b1902f4072b2e60a5cdc5a1ec4f8"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/howlong/",
+    "path": "de/apps/howlong/index.html",
+    "lang": "de",
+    "app": "howlong",
+    "lastmod": "2026-10-30",
+    "sha256": "2fdbcc316672662af27d1405385c535f58a74d6686622ee40a62d5ab40f2f255"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/starstock/",
+    "path": "de/apps/starstock/index.html",
+    "lang": "de",
+    "app": "starstock",
+    "lastmod": "2026-10-30",
+    "sha256": "d9b9e071f1346b42938b05c256ae6a162c574e41615032c94702723d4d923e93"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/deepdig/",
+    "path": "de/apps/deepdig/index.html",
+    "lang": "de",
+    "app": "deepdig",
+    "lastmod": "2026-10-30",
+    "sha256": "8bb439545437631e2fdacae1a94ae005ed929da0235a486a61dd0ef46165ca29"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/quizaura/",
+    "path": "de/apps/quizaura/index.html",
+    "lang": "de",
+    "app": "quizaura",
+    "lastmod": "2026-10-30",
+    "sha256": "db8084af6caadd9a2b6762639dc8c4e085683cd580d1c6c43ed1f026d4e496c9"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/snapclean/",
+    "path": "de/apps/snapclean/index.html",
+    "lang": "de",
+    "app": "snapclean",
+    "lastmod": "2026-10-30",
+    "sha256": "12ede8410704858923c52a0ed1f0bf6de848d1e1c70ec751278f54dd71d86188"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/lumiday/",
+    "path": "de/apps/lumiday/index.html",
+    "lang": "de",
+    "app": "lumiday",
+    "lastmod": "2026-10-30",
+    "sha256": "ab782dd139ebf269b2f5d678895eab1dfb7510a738de6ffc13734c04c73f29f3"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/maeum/",
+    "path": "de/apps/maeum/index.html",
+    "lang": "de",
+    "app": "maeum",
+    "lastmod": "2026-10-30",
+    "sha256": "c88c61c6e0f5baa5ca375a76461e5c41ce09a330a6673c73a772b17e0d64a510"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/snaplog/",
+    "path": "de/apps/snaplog/index.html",
+    "lang": "de",
+    "app": "snaplog",
+    "lastmod": "2026-10-30",
+    "sha256": "cfdc2d5be57966a768f66c5b1c95d2816a36ac1b5b8158f2e3ab3d8142391348"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/lightwall/",
+    "path": "de/apps/lightwall/index.html",
+    "lang": "de",
+    "app": "lightwall",
+    "lastmod": "2026-10-30",
+    "sha256": "d2b20e673fd5ccc09a3c6a317dcfd8eaf576046b4f617d9097877f49d874ea53"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/holyground/",
+    "path": "de/apps/holyground/index.html",
+    "lang": "de",
+    "app": "holyground",
+    "lastmod": "2026-10-30",
+    "sha256": "b562f0b78016d36078bdd4b7f7e64e541b91908a597fca422902df3f34d14a10"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/chaengkim/",
+    "path": "de/apps/chaengkim/index.html",
+    "lang": "de",
+    "app": "chaengkim",
+    "lastmod": "2026-10-30",
+    "sha256": "b2da8b135293c61c14523d89f7845593c18e64da87f02dd5feb7dc28aa897ae4"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/slimjoy/",
+    "path": "de/apps/slimjoy/index.html",
+    "lang": "de",
+    "app": "slimjoy",
+    "lastmod": "2026-10-30",
+    "sha256": "7eb00b3d299f1f6db6e4ce8476963af1141800d1102c965a2aaebd12e9941d7a"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/lightled/",
+    "path": "de/apps/lightled/index.html",
+    "lang": "de",
+    "app": "lightled",
+    "lastmod": "2026-10-30",
+    "sha256": "fb5d10a4388f96c69c52ef9c25f0125afb74e127db21c3fa31a5f90f1d08f043"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/lotto/",
+    "path": "de/apps/lotto/index.html",
+    "lang": "de",
+    "app": "lotto",
+    "lastmod": "2026-10-30",
+    "sha256": "99e5ed4b026f34fc1967e9ed0764e770a513993c70d051bbc9eab0efaf6f1860"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/kingdom/",
+    "path": "de/apps/kingdom/index.html",
+    "lang": "de",
+    "app": "kingdom",
+    "lastmod": "2026-10-30",
+    "sha256": "da04884438a4bfe01235f52866ee6f0feffd599564dcc509c4f1d2e71dfff8ca"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/de/apps/16mode/",
+    "path": "de/apps/16mode/index.html",
+    "lang": "de",
+    "app": "16mode",
+    "lastmod": "2026-10-30",
+    "sha256": "78fce121146ef16395900ebd056faa2f7fe95c243ec671fe7ce1bb0caf147f7f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/",
+    "path": "id/index.html",
+    "lang": "id",
+    "app": null,
+    "lastmod": "2026-10-30",
+    "sha256": "cc60b86c94a1526be1f203054ee62215b30943375fb07d137a4dff4979581a53"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/levelday/",
+    "path": "id/apps/levelday/index.html",
+    "lang": "id",
+    "app": "levelday",
+    "lastmod": "2026-10-30",
+    "sha256": "ab42ba6667bb9834a202e2bb471457580d7c9589b3fcaacbc88eb5f56e58413b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/littleheroes/",
+    "path": "id/apps/littleheroes/index.html",
+    "lang": "id",
+    "app": "littleheroes",
+    "lastmod": "2026-10-30",
+    "sha256": "74736e7abe28ae31efea5cfc7bf004027f53cb34745abf05c7f0817e3f678b73"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/nightmarket/",
+    "path": "id/apps/nightmarket/index.html",
+    "lang": "id",
+    "app": "nightmarket",
+    "lastmod": "2026-10-30",
+    "sha256": "b425b489895d24b8005d11fd02424d0c9ca152a5862de05badeb3e673c4f7bb0"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/pocketdino/",
+    "path": "id/apps/pocketdino/index.html",
+    "lang": "id",
+    "app": "pocketdino",
+    "lastmod": "2026-10-30",
+    "sha256": "1395f8b7fb7b51d6728ed2ca73e24855fb292c95bf9fce4072b36692063b864b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/pocketjesus/",
+    "path": "id/apps/pocketjesus/index.html",
+    "lang": "id",
+    "app": "pocketjesus",
+    "lastmod": "2026-10-30",
+    "sha256": "d92f927b2a36b9449fd7ecb15d9a67942276d221b71f80e614e9b43b56699847"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/rateshift/",
+    "path": "id/apps/rateshift/index.html",
+    "lang": "id",
+    "app": "rateshift",
+    "lastmod": "2026-10-30",
+    "sha256": "2e06c6d35efe6acd641a9f7a797fbef592de7cd560d456650f0e5c877cee1a0f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/savecity/",
+    "path": "id/apps/savecity/index.html",
+    "lang": "id",
+    "app": "savecity",
+    "lastmod": "2026-10-30",
+    "sha256": "87695041f364898734d6aab2a8ea73b7186d01b93533c168c7daaafbf1f743eb"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/howlong/",
+    "path": "id/apps/howlong/index.html",
+    "lang": "id",
+    "app": "howlong",
+    "lastmod": "2026-10-30",
+    "sha256": "0e825907060534edcf21dd66d7ff9d22a1cf99679130db88855a9dfdf1058a1d"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/starstock/",
+    "path": "id/apps/starstock/index.html",
+    "lang": "id",
+    "app": "starstock",
+    "lastmod": "2026-10-30",
+    "sha256": "978c899c5ceb01eb82d6a2ba3a6f6456069305e596994b6cf348e88f21796f85"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/deepdig/",
+    "path": "id/apps/deepdig/index.html",
+    "lang": "id",
+    "app": "deepdig",
+    "lastmod": "2026-10-30",
+    "sha256": "f4669b834767e772baa63e14a9080b5e6c48b2b8ee37b05ed12359686804cc3d"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/quizaura/",
+    "path": "id/apps/quizaura/index.html",
+    "lang": "id",
+    "app": "quizaura",
+    "lastmod": "2026-10-30",
+    "sha256": "6ae7b90a5aa74bf94a12bd62d44bdee38225dfb935ba7a07dbeabace82017759"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/snapclean/",
+    "path": "id/apps/snapclean/index.html",
+    "lang": "id",
+    "app": "snapclean",
+    "lastmod": "2026-10-30",
+    "sha256": "a92b6c66ac956a4569552bdb4b2258ce5dbef82057b9dec5a45bb448ff56afc7"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/lumiday/",
+    "path": "id/apps/lumiday/index.html",
+    "lang": "id",
+    "app": "lumiday",
+    "lastmod": "2026-10-30",
+    "sha256": "8a5bcf76d34ecac0c3ef2274c093cc1218eabc9f4e1ff70d98c7cc0d2552338b"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/maeum/",
+    "path": "id/apps/maeum/index.html",
+    "lang": "id",
+    "app": "maeum",
+    "lastmod": "2026-10-30",
+    "sha256": "2e99893ae1f32d87a702bcbe30f6c12b39e34fc9fcc4b04c8cfd9766e7548bea"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/snaplog/",
+    "path": "id/apps/snaplog/index.html",
+    "lang": "id",
+    "app": "snaplog",
+    "lastmod": "2026-10-30",
+    "sha256": "317ade7b27a3e5697885e1ebfb563237ccaf82b9ddf2016ad8bcf56fa2b4fe06"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/lightwall/",
+    "path": "id/apps/lightwall/index.html",
+    "lang": "id",
+    "app": "lightwall",
+    "lastmod": "2026-10-30",
+    "sha256": "f5a51373f68d7dfb70d673c074d48fd900fd8ec9596e10da673d7869eb126e41"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/holyground/",
+    "path": "id/apps/holyground/index.html",
+    "lang": "id",
+    "app": "holyground",
+    "lastmod": "2026-10-30",
+    "sha256": "5b532483abce4e09d040a50d5696d9c5cebe1d59bd154844513283a114ff506f"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/chaengkim/",
+    "path": "id/apps/chaengkim/index.html",
+    "lang": "id",
+    "app": "chaengkim",
+    "lastmod": "2026-10-30",
+    "sha256": "19e0db191b03c4ae4f9fe7087c30b4afc15d7e04ec38c65f0ee6d095067a26ab"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/slimjoy/",
+    "path": "id/apps/slimjoy/index.html",
+    "lang": "id",
+    "app": "slimjoy",
+    "lastmod": "2026-10-30",
+    "sha256": "f9f4681f5743daa98e2a1a2424ef130f7230a5909c7e6d463b3673106a0438d6"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/lightled/",
+    "path": "id/apps/lightled/index.html",
+    "lang": "id",
+    "app": "lightled",
+    "lastmod": "2026-10-30",
+    "sha256": "6e48618d58cb6b6ad078792dc90552ad1c1685ab9df4be32c81da639a0f01aa5"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/lotto/",
+    "path": "id/apps/lotto/index.html",
+    "lang": "id",
+    "app": "lotto",
+    "lastmod": "2026-10-30",
+    "sha256": "a08a86a327b23f447c4f32a6775de03b059c13d0b6f50284e642a457a8df5b20"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/kingdom/",
+    "path": "id/apps/kingdom/index.html",
+    "lang": "id",
+    "app": "kingdom",
+    "lastmod": "2026-10-30",
+    "sha256": "9345abbf1a111d7c1124035ea333bb79b855b0ad35c62f211d366e85e1c0bb18"
+  },
+  {
+    "url": "https://gkimmulti-ui.github.io/id/apps/16mode/",
+    "path": "id/apps/16mode/index.html",
+    "lang": "id",
+    "app": "16mode",
+    "lastmod": "2026-10-30",
+    "sha256": "04cf9491555adcfaab63e0b97ae10327789cf58b931964add3000d3560107f2a"
   }
 ]

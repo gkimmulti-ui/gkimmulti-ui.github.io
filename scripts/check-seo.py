@@ -11,7 +11,7 @@ SITE=json.loads((ROOT/'data/search-config.json').read_text())['site']
 PAGES=json.loads((ROOT/'data/page-manifest.json').read_text())
 APPS={a['slug']:a for a in json.loads((ROOT/'data/apps.json').read_text())}
 TRANSLATIONS=json.loads((ROOT/'data/translations.json').read_text())
-LANGS={'ko':'ko','en':'en','ja':'ja','zh':'zh-CN','ru':'ru','fil':'tl'}
+LANGS={l['code']:l['hreflang'] for l in json.loads((ROOT/'data/languages.json').read_text(encoding='utf-8'))}
 class Document(HTMLParser):
     def __init__(self,source):
         super().__init__(convert_charrefs=True);self.tags=[];self.feed(source)
@@ -45,7 +45,7 @@ def main():
         for crawler in ['Googlebot','Yeti']:ensure(robot.can_fetch(crawler,context),context+' crawl allowed')
         schema=json.loads(re.search(r'<script type="application/ld\+json" id="ld-json">(.*?)</script>',source,re.S).group(1));graph=schema['@graph']
         ensure(next(g for g in graph if g['@type'] in ['WebPage','CollectionPage'])['url']==context,context+' schema URL')
-        ensure(len([a for a in d.find('a') if a.get('hreflang')])==6,context+' crawlable language links')
+        ensure(len([a for a in d.find('a') if a.get('hreflang')])==len(LANGS),context+' crawlable language links')
         if page['app']:
             app=APPS[page['app']];software=next(g for g in graph if g['@type']=='MobileApplication')
             ensure(software['installUrl']==[u for u in [app['playUrl'],app.get('appStoreUrl')] if u],context+' store destinations')
@@ -85,3 +85,4 @@ def main():
     ensure('noindex' in (ROOT/'404.html').read_text(),'404 not indexable')
     print(f'PASS: {len(PAGES)} static pages, {len(urls)} sitemap URLs, {len(items)} RSS items; unique metadata, canonical/hreflang, schemas, links, assets and crawler access.')
 if __name__=='__main__':main()
+

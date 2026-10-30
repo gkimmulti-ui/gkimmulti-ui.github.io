@@ -9,6 +9,7 @@ import concurrent.futures
 import datetime
 import io
 import json
+import time
 import re
 import socket
 import urllib.request
@@ -19,7 +20,7 @@ from PIL import Image
 from google_play_scraper import app as play_app
 
 ROOT = Path(__file__).resolve().parents[1]
-TODAY = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date().isoformat()
 STAMP = TODAY.replace("-", "")
 socket.setdefaulttimeout(30)
 
@@ -96,7 +97,8 @@ def refresh(entry):
     record = {"slug": slug, "package": package,
               "storeUrl": entry["playUrl"] + "&hl=ko&gl=KR", "verifiedAt": TODAY,
               "storeTitle": data["title"], "iconSourceUrl": data["icon"]}
-    if not valid_image(ROOT / entry["icon"]):
+    # Always compare the current icon; a valid old file may still be stale.
+    if True:
         icon = Image.open(io.BytesIO(download(data["icon"].split("=")[0] + "=w256"))).convert("RGBA")
         icon.thumbnail((256, 256), Image.Resampling.LANCZOS)
         save_webp(icon, ROOT / entry["icon"], 92)
@@ -123,16 +125,40 @@ def refresh(entry):
                != [identity(s["sourceUrl"], platform) for s in images if s["platform"] == platform]]
     entry["screenshots"] = images
     record["screenshots"] = images
+    localized = {}
+    regions = {'ko': ('ko','kr'), 'en': ('en','us'), 'ja': ('ja','jp'), 'zh': ('zh-CN','tw'), 'ru': ('ru','us'), 'fil': ('fil','ph')}
+    names = {}
+    for locale, (language, country) in regions.items():
+        listing = data if locale == 'ko' else play_app(package, lang=language, country=country)
+        if listing['developer'] != 'Kenneth App':
+            raise ValueError('Unexpected localized developer: '+slug+'/'+locale)
+        description = listing.get('description','').strip()
+        if not description or not listing.get('summary'):
+            raise ValueError('Missing store copy: '+slug+'/'+locale)
+        names[locale] = listing['title']
+        paragraphs = [p.strip() for p in description.splitlines() if p.strip()]
+        excerpt = next((p for p in paragraphs if len(p) > 35), listing['summary'])
+        entry['headline'][locale] = listing['summary']
+        entry['desc'][locale] = excerpt[:700] + ('…' if len(excerpt)>700 else '')
+        entry['category'][locale] = listing['genre']
+        entry['tags'][locale] = []
+        localized[locale] = {'title':listing['title'], 'summary':listing['summary'], 'description':description,
+                             'version':listing.get('version'), 'updated':listing.get('updated'),
+                             'sourceUrl':entry['playUrl']+'&hl='+language+'&gl='+country.upper()}
+    entry['name'] = names
+    entry['playDescription'] = {key: value['description'] for key,value in localized.items()}
+    record['localized'] = localized
     print(f"{slug}: {len(images)} screenshots; updated: {', '.join(changed) or 'none'}", flush=True)
     return entry, record
 
 
 if __name__ == "__main__":
-    apps = json.loads((ROOT / "data/apps.json").read_text())
+    apps = json.loads((ROOT / "data/apps.json").read_text(encoding="utf-8"))
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         updated = list(executor.map(refresh, apps))
     # Write catalog files only after every official listing has been checked.
     for path, values in (("data/apps.json", [x[0] for x in updated]),
                          ("data/store-sources.json", [x[1] for x in updated])):
-        (ROOT / path).write_text(json.dumps(values, ensure_ascii=False, indent=2) + "\n")
+        (ROOT / path).write_text(json.dumps(values, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Verified {len(updated)} apps; {sum(len(x[0]['screenshots']) for x in updated)} distinct screenshots.")
+

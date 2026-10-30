@@ -1,0 +1,14 @@
+[
+ {"code":"ko","name":"한국어","html":"ko","hreflang":"ko","og":"ko_KR"},
+ {"code":"en","name":"English","html":"en","hreflang":"en","og":"en_US"},
+ {"code":"ja","name":"日本語","html":"ja","hreflang":"ja","og":"ja_JP"},
+ {"code":"zh","name":"中文","html":"zh-CN","hreflang":"zh-CN","og":"zh_CN"},
+ {"code":"ru","name":"Русский","html":"ru","hreflang":"ru","og":"ru_RU"},
+ {"code":"fil","name":"Filipino","html":"fil","hreflang":"tl","og":"fil_PH"},
+ {"code":"hi","name":"हिन्दी","html":"hi","hreflang":"hi","og":"hi_IN"},
+ {"code":"es","name":"Español","html":"es","hreflang":"es","og":"es_ES"},
+ {"code":"pt","name":"Português","html":"pt-BR","hreflang":"pt-BR","og":"pt_BR"},
+ {"code":"fr","name":"Français","html":"fr","hreflang":"fr","og":"fr_FR"},
+ {"code":"de","name":"Deutsch","html":"de","hreflang":"de","og":"de_DE"},
+ {"code":"id","name":"Bahasa Indonesia","html":"id","hreflang":"id","og":"id_ID"}
+]

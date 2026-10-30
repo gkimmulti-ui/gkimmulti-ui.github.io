@@ -4,7 +4,7 @@
   const data = typeof module !== 'undefined' && module.exports ? {
     apps: require('../data/apps.json'), translations: require('../data/translations.json'), hero: require('../data/hero.json')
   } : KENNETH_DATA;
-  const languages = ['ko', 'en', 'ja', 'zh', 'ru', 'fil'];
+  const languages = Object.keys(data.translations);
   const groups = ['all', 'life', 'photo', 'tools', 'play', 'faith'];
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
   const local = (value, lang) => typeof value === 'object' && !Array.isArray(value) ? value[lang] ?? value.en ?? value.ko : value;
@@ -34,7 +34,8 @@
     const url = store==='play'?app.playUrl:app.appStoreUrl;
     if(!url) return `<div class="store-option store-upcoming"><div class="upcoming-symbol" aria-hidden="true">◷</div><h5>${label}</h5><strong>${escape(t('store.soon',lang))}</strong><p>${escape(t('store.soonDetail',lang))}</p></div>`;
     const qr = `/assets/store-qr/${app.slug}-${store}.png?v=20261018-apps`;
-    const badge = `/assets/store-badges/${store}-${lang}.${store==='play'?'png':'svg'}`;
+    const badgeLang = ['ko','en','ja','zh','ru','fil'].includes(lang)?lang:'en';
+    const badge = `/assets/store-badges/${store}-${badgeLang}.${store==='play'?'png':'svg'}`;
     return `<div class="store-option"><div class="store-download"><h5>${label}</h5><a class="store-badge-link ${store}" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${name} · ${label} · ${escape(t('store.download',lang))}"><img src="${badge}" alt="${label} · ${escape(t('store.download',lang))}" loading="lazy" decoding="async"></a></div><div class="store-qr"><a class="qr-link" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${name} · ${label} · ${escape(t('store.open',lang))}"><img src="${qr}" alt="${name} · ${label} ${escape(t('store.qr',lang))}" width="144" height="144" loading="lazy" decoding="async"></a><a class="qr-save" href="${qr}" download="${app.slug}-${store}-qr.png" aria-label="${name} · ${label} · ${escape(t('store.saveQr',lang))}">${escape(t('store.saveQr',lang))} <span aria-hidden="true">↓</span></a></div></div>`;
   }
   function card(app, lang) {
@@ -46,7 +47,8 @@
       <div class="gallery-wrap"><div class="screenshot-track" id="gallery-${app.slug}" role="group" aria-label="${name} · ${escape(t('gallery.label',lang))}">${gallery}</div>
       <div class="gallery-footer"><span>${escape(t('gallery.hint',lang))}</span><div class="gallery-controls"><button class="icon-btn gallery-prev" type="button" data-gallery="${app.slug}" data-direction="-1" aria-label="${name} · ${escape(t('gallery.prev',lang))}">${arrow}</button><button class="icon-btn" type="button" data-gallery="${app.slug}" data-direction="1" aria-label="${name} · ${escape(t('gallery.next',lang))}">${arrow}</button></div></div></div>
       <div class="app-copy"><h4>${escape(local(app.headline,lang))}</h4><p class="app-desc">${escape(local(app.desc,lang))}</p><ul class="app-tags">${(local(app.tags,lang)||[]).map(tag=>`<li>${escape(tag)}</li>`).join('')}</ul>
-      ${app.note?`<details class="app-note"><summary>${escape(t('details',lang))}</summary><p>${escape(local(app.note,lang))}</p></details>`:''}
+      ${app.note?.[lang]?`<details class="app-note"><summary>${escape(t('details',lang))}</summary><p>${escape(local(app.note,lang))}</p></details>`:''}
+      ${app.playDescription?.[lang]?`<details class="app-note store-description"><summary>Google Play · ${escape(t('details',lang))}</summary><p>${escape(app.playDescription[lang])}</p></details>`:''}
       <a class="app-detail-link" href="${appPath(app,lang)}" aria-label="${name} · ${escape(t('hero.open',lang))}">${escape(t('hero.open',lang))} <span aria-hidden="true">↗</span></a>
       <div class="app-downloads"><p class="download-hint">${escape(t('store.hint',lang))}</p>${app.storeNotice?`<p class="store-notice">${escape(local(app.storeNotice,lang))}</p>`:''}<div class="store-options">${app.appStoreUrl?storeOption(app,'appstore',lang)+storeOption(app,'play',lang):storeOption(app,'play',lang)+storeOption(app,'appstore',lang)}</div></div></div></article>`;
   }
@@ -118,7 +120,7 @@
   platform.addEventListener('change',renderApps);
   document.getElementById('reset-filters').addEventListener('click',()=>{activeGroup='all';search.value='';platform.value='all';render();search.focus();});
   document.getElementById('lang-picker').addEventListener('change',event=>{
-    if(languages.includes(event.target.value))location.assign(homePath(event.target.value)+location.hash);
+    window.kennethLanguage.navigate(event.target.value);
   });
   const showcase=document.getElementById('hero-showcase');
   const heroTrack=document.getElementById('hero-track');
@@ -189,3 +191,4 @@
   });
   render();
 })();
+

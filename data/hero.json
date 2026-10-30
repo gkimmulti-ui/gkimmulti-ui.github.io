@@ -1,37 +1,32 @@
 [
   {
-    "slug": "savecity",
-    "platform": "Google Play",
-    "index": 2
-  },
-  {
-    "slug": "howlong",
+    "slug": "levelday",
     "platform": "Google Play",
     "index": 0
   },
   {
-    "slug": "starstock",
-    "platform": "Google Play",
-    "index": 3
-  },
-  {
-    "slug": "deepdig",
-    "platform": "Google Play",
-    "index": 4
-  },
-  {
-    "slug": "holyground",
+    "slug": "littleheroes",
     "platform": "Google Play",
     "index": 0
   },
   {
-    "slug": "maeum",
-    "platform": "App Store",
+    "slug": "nightmarket",
+    "platform": "Google Play",
     "index": 0
   },
   {
-    "slug": "lotto",
-    "platform": "App Store",
+    "slug": "pocketdino",
+    "platform": "Google Play",
+    "index": 0
+  },
+  {
+    "slug": "pocketjesus",
+    "platform": "Google Play",
+    "index": 0
+  },
+  {
+    "slug": "rateshift",
+    "platform": "Google Play",
     "index": 0
   }
 ]

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko" data-locale="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RateShift 금리·대출 계산기 - 편리한 도구 | Kenneth App</title>
+  <meta name="description" content="RateShift 금리·대출 계산기. 직접 입력한 금리로 대출 상환, 중도상환과 저축 계획을 비교하세요. 계산 결과는 입력 조건에 따른 추정치입니다." />
+  <link rel="icon" type="image/png" href="/images/kenneth-logo.png" />
+  <link rel="apple-touch-icon" href="/images/kenneth-logo.png" />
+
+  <!-- ── 검색 최적화 (SEO) ───────────────────────────────────────
+       아래 canonical / hreflang / og:url 의 주소와 sitemap.xml 은
+       루트 사이트(https://gkimmulti-ui.github.io/) 기준입니다.
+       ──────────────────────────────────────────────────────── -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="author" content="Kenneth App" />
+  <meta name="theme-color" content="#244b3e" />
+  <link rel="canonical" href="https://gkimmulti-ui.github.io/apps/rateshift/" id="link-canonical" />
+
+  <link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
+  <link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
+  <link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rateshift/" />
+  <link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rateshift/" />
+  <link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rateshift/" />
+  <link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rateshift/" />
+  <link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rateshift/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rateshift/" />
+  <link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rateshift/" />
+  <link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rateshift/" />
+  <link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rateshift/" />
+  <link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
+  <link rel="alternate" type="application/rss+xml" title="Kenneth App" href="/feed.xml" />
+
+  <!-- 공유 미리보기 (카카오톡·페이스북·네이버 블로그 등) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Kenneth App" />
+  <meta property="og:url" content="https://gkimmulti-ui.github.io/apps/rateshift/" id="og-url" />
+  <meta property="og:title" content="RateShift 금리·대출 계산기 - 편리한 도구 | Kenneth App" id="og-title" />
+  <meta property="og:description" content="RateShift 금리·대출 계산기. 직접 입력한 금리로 대출 상환, 중도상환과 저축 계획을 비교하세요. 계산 결과는 입력 조건에 따른 추정치입니다." id="og-desc" />
+  <meta property="og:image" content="https://gkimmulti-ui.github.io/images/rateshift-icon.webp" />
+  <meta property="og:locale" content="ko_KR" id="og-locale" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ja_JP" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+  <meta property="og:locale:alternate" content="ru_RU" />
+  <meta property="og:locale:alternate" content="fil_PH" />
+  <meta property="og:locale:alternate" content="hi_IN" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta property="og:locale:alternate" content="pt_BR" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  <meta property="og:locale:alternate" content="de_DE" />
+  <meta property="og:locale:alternate" content="id_ID" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="RateShift 금리·대출 계산기 - 편리한 도구 | Kenneth App" id="tw-title" />
+  <meta name="twitter:description" content="RateShift 금리·대출 계산기. 직접 입력한 금리로 대출 상환, 중도상환과 저축 계획을 비교하세요. 계산 결과는 입력 조건에 따른 추정치입니다." id="tw-desc" />
+  <meta name="twitter:image" content="https://gkimmulti-ui.github.io/images/rateshift-icon.webp" />
+
+  <!-- 구조화 데이터 (구글 리치 결과 · AI 검색이 읽는 부분) -->
+  <script type="application/ld+json" id="ld-json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://gkimmulti-ui.github.io/#publisher","name":"Kenneth App","alternateName":"케네스앱","url":"https://gkimmulti-ui.github.io/","logo":"https://gkimmulti-ui.github.io/images/kenneth-logo.png","email":"gkimmulti@gmail.com"},{"@type":"WebSite","@id":"https://gkimmulti-ui.github.io/#website","url":"https://gkimmulti-ui.github.io/","name":"Kenneth App","alternateName":"케네스앱","publisher":{"@id":"https://gkimmulti-ui.github.io/#publisher"},"inLanguage":["ko","en","ja","zh-CN","ru","fil","hi","es","pt-BR","fr","de","id"]},{"@type":"WebPage","@id":"https://gkimmulti-ui.github.io/apps/rateshift/#page","url":"https://gkimmulti-ui.github.io/apps/rateshift/","name":"RateShift 금리·대출 계산기 - 편리한 도구 | Kenneth App","description":"RateShift 금리·대출 계산기. 직접 입력한 금리로 대출 상환, 중도상환과 저축 계획을 비교하세요. 계산 결과는 입력 조건에 따른 추정치입니다.","inLanguage":"ko","isPartOf":{"@id":"https://gkimmulti-ui.github.io/#website"},"publisher":{"@id":"https://gkimmulti-ui.github.io/#publisher"},"mainEntity":{"@id":"https://gkimmulti-ui.github.io/apps/rateshift/#app"},"breadcrumb":{"@id":"https://gkimmulti-ui.github.io/apps/rateshift/#breadcrumb"}},{"@type":"MobileApplication","@id":"https://gkimmulti-ui.github.io/apps/rateshift/#app","name":"RateShift 금리·대출 계산기","url":"https://gkimmulti-ui.github.io/apps/rateshift/","description":"직접 입력한 금리로 대출 상환, 중도상환과 저축 계획을 비교하세요. 계산 결과는 입력 조건에 따른 추정치입니다.","image":"https://gkimmulti-ui.github.io/images/rateshift-icon.webp","screenshot":["https://gkimmulti-ui.github.io/images/screenshots/rateshift-play-20261030-01.webp","https://gkimmulti-ui.github.io/images/screenshots/rateshift-play-20261030-02.webp","https://gkimmulti-ui.github.io/images/screenshots/rateshift-play-20261030-03.webp","https://gkimmulti-ui.github.io/images/screenshots/rateshift-play-20261030-04.webp","https://gkimmulti-ui.github.io/images/screenshots/rateshift-play-20261030-05.webp"],"applicationCategory":"FinanceApplication","operatingSystem":"Android","installUrl":["https://play.google.com/store/apps/details?id=com.kennethapp.rateshift"],"sameAs":["https://play.google.com/store/apps/details?id=com.kennethapp.rateshift"],"author":{"@id":"https://gkimmulti-ui.github.io/#publisher"},"mainEntityOfPage":{"@id":"https://gkimmulti-ui.github.io/apps/rateshift/#page"}},{"@type":"BreadcrumbList","@id":"https://gkimmulti-ui.github.io/apps/rateshift/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Kenneth App","item":"https://gkimmulti-ui.github.io/"},{"@type":"ListItem","position":2,"name":"RateShift 금리·대출 계산기","item":"https://gkimmulti-ui.github.io/apps/rateshift/"}]}]}</script>
+  <link rel="preload" as="font" href="/assets/fonts/kenneth-ui.woff2?v=20261030-global" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/assets/home.css?v=20261030-global" />
+  <script src="/assets/languages.js?v=20261030-global" defer></script>
+  <script src="/assets/detail.js?v=20261030-global" defer></script>
+</head>
+<body data-app="rateshift">
+  <a class="skip-link" href="#main" data-i18n="skip">본문으로 바로가기</a>
+  <header class="site-header"><div class="container nav">
+    <a href="/" class="wordmark" aria-label="Kenneth App"><span class="brand-symbol" aria-hidden="true">k</span><span>kenneth app<span class="brand-dot">.</span></span></a>
+    <div class="nav-right"><nav class="nav-links" aria-label="Main"><a href="/#apps" data-i18n="nav.apps">앱 둘러보기</a><a href="/#about" data-i18n="nav.about">소개</a><a href="/#contact" data-i18n="nav.contact">문의</a></nav>
+    <label class="lang-select"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><ellipse cx="12" cy="12" rx="4" ry="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18" stroke="currentColor" stroke-width="1.5"/></svg><span class="sr-only">Language</span><select id="lang-picker" aria-describedby="translation-notice"><option value="ko" selected>한국어</option><option value="en">English</option><option value="ja">日本語</option><option value="zh">中文</option><option value="ru">Русский</option><option value="fil">Filipino</option><option value="hi">हिन्दी</option><option value="es">Español</option><option value="pt">Português</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="id">Bahasa Indonesia</option><optgroup label="다른 언어 — Google 번역"><option value="translate:af">Afrikaans ↗</option><option value="translate:sq">Shqip ↗</option><option value="translate:am">አማርኛ ↗</option><option value="translate:ar">العربية ↗</option><option value="translate:hy">Հայերեն ↗</option><option value="translate:as">অসমীয়া ↗</option><option value="translate:az">Azərbaycan ↗</option><option value="translate:eu">Euskara ↗</option><option value="translate:be">Беларуская ↗</option><option value="translate:bn">বাংলা ↗</option><option value="translate:bs">Bosanski ↗</option><option value="translate:bg">Български ↗</option><option value="translate:my">မြန်မာ ↗</option><option value="translate:ca">Català ↗</option><option value="translate:ceb">Cebuano ↗</option><option value="translate:zh-TW">繁體中文 ↗</option><option value="translate:co">Corsu ↗</option><option value="translate:hr">Hrvatski ↗</option><option value="translate:cs">Čeština ↗</option><option value="translate:da">Dansk ↗</option><option value="translate:nl">Nederlands ↗</option><option value="translate:eo">Esperanto ↗</option><option value="translate:et">Eesti ↗</option><option value="translate:fi">Suomi ↗</option><option value="translate:fy">Frysk ↗</option><option value="translate:gl">Galego ↗</option><option value="translate:ka">ქართული ↗</option><option value="translate:el">Ελληνικά ↗</option><option value="translate:gu">ગુજરાતી ↗</option><option value="translate:ht">Kreyòl ayisyen ↗</option><option value="translate:ha">Hausa ↗</option><option value="translate:haw">ʻŌlelo Hawaiʻi ↗</option><option value="translate:iw">עברית ↗</option><option value="translate:hmn">Hmoob ↗</option><option value="translate:hu">Magyar ↗</option><option value="translate:is">Íslenska ↗</option><option value="translate:ig">Igbo ↗</option><option value="translate:ga">Gaeilge ↗</option><option value="translate:it">Italiano ↗</option><option value="translate:jw">Basa Jawa ↗</option><option value="translate:kn">ಕನ್ನಡ ↗</option><option value="translate:kk">Қазақша ↗</option><option value="translate:km">ខ្មែរ ↗</option><option value="translate:rw">Kinyarwanda ↗</option><option value="translate:ku">Kurdî ↗</option><option value="translate:ky">Кыргызча ↗</option><option value="translate:lo">ລາວ ↗</option><option value="translate:la">Latina ↗</option><option value="translate:lv">Latviešu ↗</option><option value="translate:lt">Lietuvių ↗</option><option value="translate:lb">Lëtzebuergesch ↗</option><option value="translate:mk">Македонски ↗</option><option value="translate:mg">Malagasy ↗</option><option value="translate:ms">Bahasa Melayu ↗</option><option value="translate:ml">മലയാളം ↗</option><option value="translate:mt">Malti ↗</option><option value="translate:mi">Māori ↗</option><option value="translate:mr">मराठी ↗</option><option value="translate:mn">Монгол ↗</option><option value="translate:ne">नेपाली ↗</option><option value="translate:no">Norsk ↗</option><option value="translate:ny">Chichewa ↗</option><option value="translate:or">ଓଡ଼ିଆ ↗</option><option value="translate:ps">پښتو ↗</option><option value="translate:fa">فارسی ↗</option><option value="translate:pl">Polski ↗</option><option value="translate:pa">ਪੰਜਾਬੀ ↗</option><option value="translate:ro">Română ↗</option><option value="translate:sm">Gagana Samoa ↗</option><option value="translate:gd">Gàidhlig ↗</option><option value="translate:sr">Српски ↗</option><option value="translate:st">Sesotho ↗</option><option value="translate:sn">ChiShona ↗</option><option value="translate:sd">سنڌي ↗</option><option value="translate:si">සිංහල ↗</option><option value="translate:sk">Slovenčina ↗</option><option value="translate:sl">Slovenščina ↗</option><option value="translate:so">Soomaali ↗</option><option value="translate:su">Basa Sunda ↗</option><option value="translate:sw">Kiswahili ↗</option><option value="translate:sv">Svenska ↗</option><option value="translate:tg">Тоҷикӣ ↗</option><option value="translate:ta">தமிழ் ↗</option><option value="translate:tt">Татарча ↗</option><option value="translate:te">తెలుగు ↗</option><option value="translate:th">ไทย ↗</option><option value="translate:tr">Türkçe ↗</option><option value="translate:tk">Türkmençe ↗</option><option value="translate:uk">Українська ↗</option><option value="translate:ur">اردو ↗</option><option value="translate:ug">ئۇيغۇرچە ↗</option><option value="translate:uz">Oʻzbekcha ↗</option><option value="translate:vi">Tiếng Việt ↗</option><option value="translate:cy">Cymraeg ↗</option><option value="translate:xh">isiXhosa ↗</option><option value="translate:yi">ייִדיש ↗</option><option value="translate:yo">Yorùbá ↗</option><option value="translate:zu">isiZulu ↗</option></optgroup></select></label></div>
+  </div></header>
+  <main id="main" class="container detail-main app-detail"><nav aria-label="홈"><ol class="breadcrumbs"><li><a href="/">Kenneth App</a></li><li><a href="/#apps">앱 둘러보기</a></li><li aria-current="page">RateShift 금리·대출 계산기</li></ol></nav><div class="detail-heading"><img src="/images/rateshift-icon.webp" alt="" width="84" height="84"><div><p class="eyebrow">편리한 도구</p><h1 id="detail-title">RateShift 금리·대출 계산기</h1><p>RateShift 금리·대출 계산기</p></div></div><article class="app-card tone-blue" id="app-rateshift" aria-labelledby="detail-title">
+      <div class="gallery-wrap"><div class="screenshot-track" id="gallery-rateshift" role="group" aria-label="RateShift 금리·대출 계산기 · 스토어 스크린샷"><a class="screen-link" href="/images/screenshots/rateshift-play-20261030-01.webp" data-store-url="https://play.google.com/store/apps/details?id=com.kennethapp.rateshift" data-shot="0" data-app="rateshift" aria-label="RateShift 금리·대출 계산기 · 스크린샷 확대 1 · Google Play"><img src="/images/screenshots/rateshift-play-20261030-01-thumb.webp" alt="RateShift 금리·대출 계산기 · 스토어 스크린샷 1 (Google Play)" width="1000" height="1778" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span></a><a class="screen-link" href="/images/screenshots/rateshift-play-20261030-02.webp" data-store-url="https://play.google.com/store/apps/details?id=com.kennethapp.rateshift" data-shot="1" data-app="rateshift" aria-label="RateShift 금리·대출 계산기 · 스크린샷 확대 2 · Google Play"><img src="/images/screenshots/rateshift-play-20261030-02-thumb.webp" alt="RateShift 금리·대출 계산기 · 스토어 스크린샷 2 (Google Play)" width="1000" height="1778" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span></a><a class="screen-link" href="/images/screenshots/rateshift-play-20261030-03.webp" data-store-url="https://play.google.com/store/apps/details?id=com.kennethapp.rateshift" data-shot="2" data-app="rateshift" aria-label="RateShift 금리·대출 계산기 · 스크린샷 확대 3 · Google Play"><img src="/images/screenshots/rateshift-play-20261030-03-thumb.webp" alt="RateShift 금리·대출 계산기 · 스토어 스크린샷 3 (Google Play)" width="1000" height="1778" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span></a><a class="screen-link" href="/images/screenshots/rateshift-play-20261030-04.webp" data-store-url="https://play.google.com/store/apps/details?id=com.kennethapp.rateshift" data-shot="3" data-app="rateshift" aria-label="RateShift 금리·대출 계산기 · 스크린샷 확대 4 · Google Play"><img src="/images/screenshots/rateshift-play-20261030-04-thumb.webp" alt="RateShift 금리·대출 계산기 · 스토어 스크린샷 4 (Google Play)" width="1000" height="1778" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span></a><a class="screen-link" href="/images/screenshots/rateshift-play-20261030-05.webp" data-store-url="https://play.google.com/store/apps/details?id=com.kennethapp.rateshift" data-shot="4" data-app="rateshift" aria-label="RateShift 금리·대출 계산기 · 스크린샷 확대 5 · Google Play"><img src="/images/screenshots/rateshift-play-20261030-05-thumb.webp" alt="RateShift 금리·대출 계산기 · 스토어 스크린샷 5 (Google Play)" width="1000" height="1778" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span></a></div>
+      <div class="gallery-footer"><span>밀어서 보기 · 눌러서 확대</span><div class="gallery-controls"><button class="icon-btn gallery-prev" type="button" data-gallery="rateshift" data-direction="-1" aria-label="RateShift 금리·대출 계산기 · 이전 스크린샷"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button><button class="icon-btn" type="button" data-gallery="rateshift" data-direction="1" aria-label="RateShift 금리·대출 계산기 · 다음 스크린샷"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div></div></div>
+      <div class="app-copy"><h2>RateShift 금리·대출 계산기</h2><p class="app-desc">직접 입력한 금리로 대출 상환, 중도상환과 저축 계획을 비교하세요. 계산 결과는 입력 조건에 따른 추정치입니다.</p><ul class="app-tags"></ul>
+
+      <details class="app-note store-description"><summary>Google Play · 이용 안내</summary><p>금리가 바뀌면 이자와 월 납부액은 얼마나 달라질까요?
+RateShift에서 대출과 저축 조건을 직접 입력하고, 금리 변화부터 상환 계획까지 계산해 보세요. 여러 조건을 이름으로 저장해 다시 불러오고 비교할 수 있습니다.
+
+금리 변화 계산
+• 기존 금리와 변경 금리를 입력해 대출·예금 이자의 월간 및 연간 변화를 확인합니다.
+• 세율을 직접 입력해 예금 이자의 세전·세후 차이를 계산합니다.
+
+대출 시뮬레이션과 월별 상환표
+• 원리금균등, 원금균등, 만기일시상환 방식을 지원합니다.
+• 금리가 바뀌는 월차와 변경 금리를 최대 12개까지 설정합니다.
+• 총 납부액, 총 이자, 첫 정기 납부액과 상환 기간을 확인합니다.
+• 월별 상세 상환표에서 원금, 이자, 추가 상환액, 수수료와 잔액을 살펴봅니다.
+
+중도상환 효과 비교
+• 매월 추가 납입과 일회성 중도상환을 입력합니다.
+• 추가 납입 시작 월차, 중도상환 시점과 수수료율을 설정합니다.
+• 기간 단축 또는 월 납부액 감소 방식으로 계산합니다.
+• 같은 금리 조건에서 추가 상환이 없는 경우와 비교해 순절감액과 기간 변화를 확인합니다.
+
+적금과 복리 계산
+• 초기 금액과 매월 납입액으로 저축 계획을 계산합니다.
+• 단리, 월복리, 분기복리, 연복리를 선택합니다.
+• 월초·월말 납입 시점과 이자 세율을 반영합니다.
+• 세전·세후 만기 금액과 월별 적립 내역을 확인합니다.
+
+조건 저장과 비교
+• 대출·저축 조건을 이름을 붙여 최대 50개까지 기기에 저장합니다.
+• 저장한 조건을 불러와 수정하거나 복사해 새 조건을 만듭니다.
+• 같은 종류와 통화의 조건 두 개를 선택해 나란히 비교합니다.
+• 기본 계산 기록은 최근 20건까지 보관합니다.
+
+네 언어와 통화 표시
+한국어는 KRW, 영어는 USD, 일본어는 JPY, 중국어 간체는 CNY로 계산하고 표시합니다. 통화별 입력값을 구분하며 환율 환산은 제공하지 않습니다.
+
+계산 안내
+결과는 사용자가 입력한 조건에 따른 추정값입니다. 실제 금융기관의 일수 계산, 반올림, 세금 및 수수료에 따라 달라질 수 있습니다. 적용 금리와 세율은 직접 확인해 입력해 주세요. 실시간 금리 조회, 금융상품 중개 또는 대출 신청 기능은 제공하지 않습니다.
+
+회원가입 없이 계산할 수 있으며, 계산 데이터와 저장한 조건은 기기에 보관됩니다. 광고 서비스는 자체 개인정보처리방침과 동의 설정에 따라 정보를 처리할 수 있습니다.
+
+개발자: Kenneth App
+문의: gkimmulti@gmail.com
+홈페이지: https://gkimmulti-ui.github.io/</p></details>
+
+      <div class="app-downloads"><p class="download-hint">QR 코드를 스캔하거나 스토어 배지를 눌러 설치하세요.</p><div class="store-options"><div class="store-option"><div class="store-download"><h5>플레이스토어</h5><a class="store-badge-link play" href="https://play.google.com/store/apps/details?id=com.kennethapp.rateshift" target="_blank" rel="noopener noreferrer" aria-label="RateShift 금리·대출 계산기 · 플레이스토어 · 다운로드"><img src="/assets/store-badges/play-ko.png" alt="플레이스토어 · 다운로드" loading="lazy" decoding="async"></a></div><div class="store-qr"><a class="qr-link" href="https://play.google.com/store/apps/details?id=com.kennethapp.rateshift" target="_blank" rel="noopener noreferrer" aria-label="RateShift 금리·대출 계산기 · 플레이스토어 · 스토어 열기"><img src="/assets/store-qr/rateshift-play.png?v=20261018-apps" alt="RateShift 금리·대출 계산기 · 플레이스토어 다운로드 QR 코드" width="144" height="144" loading="lazy" decoding="async"></a><a class="qr-save" href="/assets/store-qr/rateshift-play.png?v=20261018-apps" download="rateshift-play-qr.png" aria-label="RateShift 금리·대출 계산기 · 플레이스토어 · QR 저장">QR 저장 <span aria-hidden="true">↓</span></a></div></div><div class="store-option store-upcoming"><div class="upcoming-symbol" aria-hidden="true">◷</div><h5>앱스토어</h5><strong>출시 예정</strong><p>출시 후 다운로드 링크와 QR 코드를 제공할 예정입니다.</p></div></div></div></div></article><section class="related-apps" aria-labelledby="related-title"><h2 id="related-title">함께 둘러볼 앱</h2><div class="related-grid"><a class="related-app" href="/apps/howlong/"><img src="/images/howlong-icon.webp" alt="" width="40" height="40" loading="lazy"><span><strong>HowLong? - 디데이 날짜 계산기</strong><small>편리한 도구</small></span></a><a class="related-app" href="/apps/lightled/"><img src="/images/lightled-icon.png" alt="" width="40" height="40" loading="lazy"><span><strong>Light LED</strong><small>편리한 도구</small></span></a><a class="related-app" href="/apps/lotto/"><img src="/images/lotto-icon.png" alt="" width="40" height="40" loading="lazy"><span><strong>나도 로또 당첨되고 싶어</strong><small>편리한 도구</small></span></a></div></section></main>
+  <footer class="site-footer"><div class="container"><div class="footer-main"><div class="footer-brand"><a href="/" class="wordmark" aria-label="Kenneth App"><span class="brand-symbol" aria-hidden="true">k</span><span>kenneth app<span class="brand-dot">.</span></span></a><p data-i18n="footer.tagline">일상에 작지만 분명한 도움.</p></div><p data-i18n="footer.text">© 2026 Kenneth App. All rights reserved.</p></div><nav class="language-links" aria-label="Language"><a href="/apps/rateshift/" lang="ko" hreflang="ko" aria-current="page">한국어</a><a href="/en/apps/rateshift/" lang="en" hreflang="en">English</a><a href="/ja/apps/rateshift/" lang="ja" hreflang="ja">日本語</a><a href="/zh/apps/rateshift/" lang="zh-CN" hreflang="zh-CN">中文</a><a href="/ru/apps/rateshift/" lang="ru" hreflang="ru">Русский</a><a href="/fil/apps/rateshift/" lang="fil" hreflang="tl">Filipino</a><a href="/hi/apps/rateshift/" lang="hi" hreflang="hi">हिन्दी</a><a href="/es/apps/rateshift/" lang="es" hreflang="es">Español</a><a href="/pt/apps/rateshift/" lang="pt-BR" hreflang="pt-BR">Português</a><a href="/fr/apps/rateshift/" lang="fr" hreflang="fr">Français</a><a href="/de/apps/rateshift/" lang="de" hreflang="de">Deutsch</a><a href="/id/apps/rateshift/" lang="id" hreflang="id">Bahasa Indonesia</a></nav><p class="footer-note" id="translation-notice" data-i18n="languages.notice">외부 번역 서비스로 이동합니다. 텍스트는 자동 번역되며 스크린샷 속 글자는 바뀌지 않습니다.</p><p class="footer-note" data-i18n="footer.storeNote">스크린샷은 각 앱의 공식 스토어 등록 이미지입니다. 지원 기기·언어·최신 기능은 스토어에서 확인해 주세요.</p></div></footer>
+  <dialog class="screenshot-dialog" id="screenshot-dialog" aria-labelledby="viewer-title"><div class="viewer-shell"><header class="viewer-header"><div><h2 id="viewer-title"></h2><p id="viewer-count" aria-live="polite"></p></div><button class="viewer-close" id="viewer-close" type="button" data-i18n-label="gallery.close" aria-label="확대 보기 닫기" autofocus>×</button></header><div class="viewer-stage"><button class="viewer-nav prev" type="button" id="viewer-prev" data-i18n-label="gallery.prev" aria-label="이전 스크린샷"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6"/></svg></button><img id="viewer-image" alt="" /><button class="viewer-nav next" type="button" id="viewer-next" data-i18n-label="gallery.next" aria-label="다음 스크린샷"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6"/></svg></button></div><footer class="viewer-footer"><a id="viewer-source" target="_blank" rel="noopener noreferrer" data-i18n="gallery.source">스토어에서 보기</a></footer></div></dialog>
+</body>
+</html>
+

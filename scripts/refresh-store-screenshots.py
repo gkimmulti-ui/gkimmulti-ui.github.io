@@ -136,7 +136,7 @@ def refresh(entry):
         if not description or not listing.get('summary'):
             raise ValueError('Missing store copy: '+slug+'/'+locale)
         names[locale] = listing['title']
-        paragraphs = [p.strip() for p in description.split('\\n') if p.strip()]
+        paragraphs = [p.strip() for p in description.splitlines() if p.strip()]
         excerpt = next((p for p in paragraphs if len(p) > 35), listing['summary'])
         entry['headline'][locale] = listing['summary']
         entry['desc'][locale] = excerpt[:700] + ('…' if len(excerpt)>700 else '')

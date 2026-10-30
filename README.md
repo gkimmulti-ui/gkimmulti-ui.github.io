@@ -79,3 +79,16 @@ python scripts/notify-indexnow.py --since <commit-before-update> --submit
 The script verifies the live ownership file and sitemap before sending. HTTP 200 means the notification was received; 202 means key validation is pending. Neither means the URLs are indexed. IndexNow does not submit URLs to Google. Do not repeatedly send unchanged pages or use Google's deprecated sitemap ping endpoint.
 
 Official guidance: [Google multilingual pages](https://developers.google.com/search/docs/specialty/international/localized-versions), [Google recrawling](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl), [Naver sitemap/RSS](https://searchadvisor.naver.com/guide/request-feed), [Naver IndexNow](https://searchadvisor.naver.com/guide/indexnow-request).
+
+
+## Global catalog update — 2026-10-30
+
+The catalog now contains 23 apps. LEVEL DAY, Little Heroes, Moonmori: Night Market, Pocket Dino, Pocket Jesus and RateShift are included with official Google Play titles, icons, screenshots and download QR codes. All 23 Google Play listings and the existing three App Store galleries were refreshed. HowLong, Star Stock and SnapLog have changed screenshot galleries.
+
+There are 12 static website languages: Korean, English, Japanese, Simplified Chinese, Russian, Filipino, Hindi, Spanish, Brazilian Portuguese, French, German and Indonesian. This produces 288 indexable pages. The language menu also offers additional languages through an explicitly labeled external Google Translate service, including Bengali, Tamil, Telugu and Marathi. These external translations are not local indexed pages, and neither website translation nor a store listing guarantees app-language or country availability. No automatic external translation request runs on page load.
+
+Language definitions live in data/languages.json. Authored UI and concise app descriptions are in data/global-ui.tsv and data/global-app-copy.tsv. Keep each tab-separated row aligned with hi, es, pt, fr, de, id. New-release descriptions for the original six languages live in data/release-copy.tsv. Official long descriptions are displayed only for the available matching locale; public personal contact footers are excluded in favor of the requested Kenneth App contact details.
+
+Build: node scripts/apply-global-copy.cjs, then node scripts/build.cjs. Validate: python scripts/check-seo.py and node scripts/check-global.cjs. The validation checks language completeness, generated content, all internal links/assets, canonical/hreflang, structured data, sitemap/RSS and actual language navigation. Extra languages reuse the official English store badges rather than fabricating artwork.
+
+The manual Refresh and verify homepage catalog workflow refreshes the official stores, rebuilds and validates before committing. It has no recurring schedule. The old upstream-overwrite workflow remains disabled by default. Privacy-policy pages, search-verification files and app-ads.txt retain their original paths and content.

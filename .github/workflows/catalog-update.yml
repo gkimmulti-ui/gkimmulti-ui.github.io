@@ -1,11 +1,5 @@
 name: Refresh and verify homepage catalog
 on:
-  push:
-    branches: [codex/homepage-global-20261030]
-    paths:
-      - '.github/workflows/catalog-update.yml'
-      - 'scripts/refresh-store-screenshots.py'
-      - 'scripts/prepare-global-catalog.py'
   workflow_dispatch:
 permissions:
   contents: write
@@ -25,11 +19,15 @@ jobs:
       - run: python scripts/prepare-global-catalog.py
       - run: python scripts/refresh-store-screenshots.py
       - run: python scripts/generate-store-qr.py
+      - run: node scripts/apply-global-copy.cjs
+      - run: node scripts/build.cjs
+      - run: python scripts/check-seo.py
+      - run: node scripts/check-global.cjs
       - name: Save verified store source data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data images assets/store-qr
+          git add data images assets index.html apps en ja zh ru fil hi es pt fr de id sitemap.xml feed.xml
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh official catalog metadata and artwork [skip ci]'
             git push

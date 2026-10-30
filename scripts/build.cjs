@@ -9,12 +9,13 @@ const hero=require('../data/hero.json');
 const sources=require('../data/store-sources.json');
 const {site}=require('../data/search-config.json');
 const {card,filters,escape,heroEntries,heroSlides,homePath,appPath}=require('../assets/home.js');
-const languages=['ko','en','ja','zh','ru','fil'];
-const languageNames={ko:'한국어',en:'English',ja:'日本語',zh:'中文',ru:'Русский',fil:'Filipino'};
-const htmlLang={ko:'ko',en:'en',ja:'ja',zh:'zh-CN',ru:'ru',fil:'fil'};
-// hreflang uses ISO 639-1; Filipino pages use the supported Tagalog code.
-const hreflang={...htmlLang,fil:'tl'};
-const locales={ko:'ko_KR',en:'en_US',ja:'ja_JP',zh:'zh_CN',ru:'ru_RU',fil:'fil_PH'};
+const languageConfig=require('../data/languages.json');
+const extraLanguages=require('../data/extra-languages.json');
+const languages=languageConfig.map(l=>l.code);
+const languageNames=Object.fromEntries(languageConfig.map(l=>[l.code,l.name]));
+const htmlLang=Object.fromEntries(languageConfig.map(l=>[l.code,l.html]));
+const hreflang=Object.fromEntries(languageConfig.map(l=>[l.code,l.hreflang]));
+const locales=Object.fromEntries(languageConfig.map(l=>[l.code,l.og]));
 const today=process.env.BUILD_DATE||new Date(Date.now()+9*60*60*1000).toISOString().slice(0,10);
 if(!/^\d{4}-\d{2}-\d{2}$/.test(today))throw Error('BUILD_DATE must be YYYY-MM-DD');
 const local=(value,lang)=>typeof value==='object'&&!Array.isArray(value)?value[lang]??value.en??value.ko:value;
@@ -33,7 +34,7 @@ const previous=fs.existsSync(oldManifestPath)?JSON.parse(fs.readFileSync(oldMani
 const pages=[];
 function alternateLinks(lang,app){return [...languages,'x-default'].map(code=>`<link rel="alternate" hreflang="${code==='x-default'?code:hreflang[code]}" href="${abs(app?appPath(app,code==='x-default'?'ko':code):homePath(code==='x-default'?'ko':code))}" />`).join('\n  ');}
 function languageLinks(lang,app){return languages.map(code=>`<a href="${app?appPath(app,code):homePath(code)}" lang="${htmlLang[code]}" hreflang="${hreflang[code]}"${code===lang?' aria-current="page"':''}>${languageNames[code]}</a>`).join('');}
-const categories={savecity:'FinanceApplication',howlong:'UtilitiesApplication',starstock:'GameApplication',deepdig:'GameApplication',quizaura:'EntertainmentApplication',snapclean:'UtilitiesApplication',lumiday:'LifestyleApplication',maeum:'FinanceApplication',snaplog:'MultimediaApplication',lightwall:'LifestyleApplication',holyground:'LifestyleApplication',chaengkim:'LifestyleApplication',slimjoy:'MultimediaApplication',lightled:'UtilitiesApplication',lotto:'UtilitiesApplication',kingdom:'GameApplication','16mode':'LifestyleApplication'};
+const categories={levelday:'LifestyleApplication',littleheroes:'GameApplication',nightmarket:'GameApplication',pocketdino:'LifestyleApplication',pocketjesus:'LifestyleApplication',rateshift:'FinanceApplication',savecity:'FinanceApplication',howlong:'UtilitiesApplication',starstock:'GameApplication',deepdig:'GameApplication',quizaura:'EntertainmentApplication',snapclean:'UtilitiesApplication',lumiday:'LifestyleApplication',maeum:'FinanceApplication',snaplog:'MultimediaApplication',lightwall:'LifestyleApplication',holyground:'LifestyleApplication',chaengkim:'LifestyleApplication',slimjoy:'MultimediaApplication',lightled:'UtilitiesApplication',lotto:'UtilitiesApplication',kingdom:'GameApplication','16mode':'LifestyleApplication'};
 function schema(lang,app,title,description,url){
  const publisher={'@type':'Organization','@id':site+'/#publisher',name:'Kenneth App',alternateName:'케네스앱',url:site+'/',logo:site+'/images/kenneth-logo.png',email:'gkimmulti@gmail.com'};
  const website={'@type':'WebSite','@id':site+'/#website',url:site+'/',name:'Kenneth App',alternateName:'케네스앱',publisher:{'@id':publisher['@id']},inLanguage:languages.map(l=>htmlLang[l])};
@@ -78,6 +79,8 @@ function render(lang,app){
   html=html.replace('{{HERO_SLIDES}}',heroSlides(lang)).replace('{{HERO_PRELOAD}}',heroEntries()[0].shot.thumb);
   html=html.replace('{{ICONS}}',apps.map(a=>`<a href="#app-${a.slug}" aria-label="${escape(local(a.name,lang))}"><img src="/${a.icon}" alt="${escape(local(a.name,lang))}" width="38" height="38" loading="lazy"></a>`).join(''));
  }
+ html=html.replace('{{LANGUAGE_OPTIONS}}',languages.map(code=>`<option value="${code}">${languageNames[code]}</option>`).join('')+`<optgroup label="${escape(t('languages.more',lang))}">`+Object.entries(extraLanguages).map(([code,name])=>`<option value="translate:${code}">${escape(name)} ↗</option>`).join('')+'</optgroup>');
+ html=html.replaceAll('{{LANGUAGE_COUNT}}',String(languages.length));
  html=html.replaceAll('{{HOME_PATH}}',homePath(lang)).replace('{{ALTERNATES}}',alternateLinks(lang,app)).replace('{{LANGUAGE_LINKS}}',languageLinks(lang,app));
  html=html.replaceAll('{{APP_COUNT}}',String(apps.length)).replaceAll('{{APP_RANGE}}','01—'+String(apps.length).padStart(2,'0'));
  html=html.replace(/<html[^>]*>/,`<html lang="${htmlLang[lang]}" data-locale="${lang}">`);
@@ -125,7 +128,8 @@ fs.writeFileSync(path.join(root,'sitemap.xml'),'<?xml version="1.0" encoding="UT
 const feedItems=apps.map(app=>{
  const page=pages.find(p=>p.app===app.slug&&p.lang==='ko');
  const body=[app.headline.ko,app.desc.ko,...app.tags.ko,app.note?.ko,app.storeNotice?.ko].filter(Boolean).join('\n\n');
- return `<item><title>${escape(app.name)}</title><link>${escape(page.url)}</link><guid isPermaLink="true">${escape(page.url)}</guid><description>${escape(body)}</description><pubDate>${new Date(page.lastmod+'T00:00:00+09:00').toUTCString()}</pubDate></item>`;
+ return `<item><title>${escape(local(app.name,'ko'))}</title><link>${escape(page.url)}</link><guid isPermaLink="true">${escape(page.url)}</guid><description>${escape(body)}</description><pubDate>${new Date(page.lastmod+'T00:00:00+09:00').toUTCString()}</pubDate></item>`;
 }).join('\n');
 fs.writeFileSync(path.join(root,'feed.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>케네스앱 · Kenneth App</title><link>${site}/</link><description>${escape(t('meta.desc','ko'))}</description><language>ko</language><atom:link href="${site}/feed.xml" rel="self" type="application/rss+xml"/>${feedItems}</channel></rss>\n`);
 console.log(`Built ${pages.length} indexable pages (${languages.length} languages × ${apps.length} apps + homepages), sitemap and RSS.`);
+

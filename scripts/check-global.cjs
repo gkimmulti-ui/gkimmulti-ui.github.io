@@ -5,7 +5,7 @@ const path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const apps=read('data/apps.json'),langs=read('data/languages.json'),translations=read('data/translations.json');
-assert.equal(apps.length,23);assert.equal(langs.length,12);
+assert.equal(apps.length,26);assert.equal(langs.length,12);
 for(const {code} of langs){
  for(const key of Object.keys(translations.en))assert.ok(translations[code][key],code+'/'+key);
  for(const app of apps)assert.ok(app.desc[code],app.slug+'/'+code);
@@ -29,9 +29,9 @@ let url=new URL(destination);assert.equal(url.hostname,'translate.google.com');a
 context.document.body.dataset={};context.window.kennethLanguage.navigate('es');assert.equal(destination,'/es/');
 context.window.kennethLanguage.navigate('javascript:alert(1)');assert.equal(destination,'/es/');
 const {card,heroEntries}=require('../assets/home.js');
-assert.equal(heroEntries().length,23);
+assert.equal(heroEntries().length,apps.length);
 for(const app of apps)for(const {code} of langs){
  const html=card(app,code);assert.ok(html.includes(app.playUrl));assert.ok(!html.includes('[object Object]'));
  if(!['ko','en','ja','zh','ru','fil'].includes(code))assert.ok(html.includes('play-en.png'));
 }
-console.log('PASS: 23 apps, 12 complete UI/description locales, safe language navigation, 23 hero images and existing store badges.');
+console.log('PASS: 26 apps, 12 complete UI/description locales, safe language navigation, 26 hero images and existing store badges.');

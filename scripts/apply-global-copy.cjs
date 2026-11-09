@@ -61,5 +61,5 @@ for(const [slug,values] of table('data/global-app-copy.tsv',added)){
 }
 for(const app of apps)for(const l of [...original,...added])if(!app.desc[l])throw Error('Missing app translation: '+app.slug+'/'+l);
 write('data/translations.json',translations);write('data/apps.json',apps);write('data/store-sources.json',sources);
-write('data/hero.json',[...['levelday','littleheroes','nightmarket','pocketdino','pocketjesus','rateshift'].map(slug=>({slug,platform:'Google Play',index:0}))]);
+write('data/hero.json',[...['pocketsanta','lumascape','ttirang','levelday','littleheroes','nightmarket','pocketdino','pocketjesus','rateshift'].map(slug=>({slug,platform:'Google Play',index:0}))]);
 console.log('Prepared '+apps.length+' apps in '+Object.keys(translations).length+' static languages.');

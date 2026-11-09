@@ -5,6 +5,9 @@ ROOT = Path(__file__).resolve().parents[1]
 path = ROOT / 'data/apps.json'
 apps = json.loads(path.read_text(encoding='utf-8'))
 releases = [
+ ('pocketsanta', 'com.kennethapp.pocketsanta', 'Pocket Santa', 'life', 'rose'),
+ ('lumascape', 'com.kennethapp.lumascape', 'Luma Scape', 'life', 'blue'),
+ ('ttirang', 'com.kennethapp.ttirang', 'Ttirang', 'life', 'sage'),
  ('levelday', 'com.kennethapp.levelday', 'LEVEL DAY', 'life', 'rose'),
  ('littleheroes', 'com.kennethapp.littleheroes', 'Little Heroes: Kingdom Quest', 'play', 'sage'),
  ('nightmarket', 'com.kennethapp.bustlingnightmarket', 'Moonmori: Night Market', 'play', 'peach'),

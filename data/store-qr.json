@@ -1,5 +1,23 @@
 [
   {
+    "app": "pocketsanta",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.pocketsanta",
+    "image": "assets/store-qr/pocketsanta-play.png"
+  },
+  {
+    "app": "lumascape",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.lumascape",
+    "image": "assets/store-qr/lumascape-play.png"
+  },
+  {
+    "app": "ttirang",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.ttirang",
+    "image": "assets/store-qr/ttirang-play.png"
+  },
+  {
     "app": "levelday",
     "store": "play",
     "url": "https://play.google.com/store/apps/details?id=com.kennethapp.levelday",

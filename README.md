@@ -92,3 +92,9 @@ Language definitions live in data/languages.json. Authored UI and concise app de
 Build: node scripts/apply-global-copy.cjs, then node scripts/build.cjs. Validate: python scripts/check-seo.py and node scripts/check-global.cjs. The validation checks language completeness, generated content, all internal links/assets, canonical/hreflang, structured data, sitemap/RSS and actual language navigation. Extra languages reuse the official English store badges rather than fabricating artwork.
 
 The manual Refresh and verify homepage catalog workflow refreshes the official stores, rebuilds and validates before committing. It has no recurring schedule. The old upstream-overwrite workflow remains disabled by default. Privacy-policy pages, search-verification files and app-ads.txt retain their original paths and content.
+
+## New releases — 2026-11-09
+
+Pocket Santa, Luma Scape and Ttirang are now included in the catalog and featured first. Their Google Play listings were verified directly, including official localized titles, descriptions, icons and 14 distinct screenshots. Download badges and local QR codes point to the published Android listings; no unverified iOS release is claimed. Existing 23 app records and policy pages are preserved.
+
+The site now contains 26 apps across 12 languages: 324 indexable catalog/detail pages. The new app pages include unique metadata, self-canonical and reciprocal hreflang links, MobileApplication and breadcrumb structured data, and sitemap/RSS entries. Existing crawler and ownership verification files are unchanged. Search indexing and ranking remain controlled by search engines.

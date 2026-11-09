@@ -1,5 +1,363 @@
 [
   {
+    "slug": "pocketsanta",
+    "name": {
+      "ko": "포켓 산타",
+      "en": "Pocket Santa",
+      "ja": "ポケットサンタ",
+      "zh": "口袋圣诞老人",
+      "ru": "Pocket Santa",
+      "fil": "Pocket Santa"
+    },
+    "group": "life",
+    "tone": "rose",
+    "category": {
+      "ko": "생활·기록",
+      "en": "Life & records",
+      "ja": "暮らし・記録",
+      "zh": "生活与记录",
+      "ru": "Жизнь и записи",
+      "fil": "Buhay at tala",
+      "hi": "जीवन और रिकॉर्ड",
+      "es": "Vida y registros",
+      "pt": "Vida e registros",
+      "fr": "Vie et souvenirs",
+      "de": "Alltag und Notizen",
+      "id": "Kehidupan dan catatan"
+    },
+    "headline": {
+      "ko": "포켓 산타",
+      "en": "Pocket Santa",
+      "ja": "ポケットサンタ",
+      "zh": "口袋圣诞老人",
+      "ru": "Pocket Santa",
+      "fil": "Pocket Santa",
+      "hi": "Pocket Santa",
+      "es": "Pocket Santa",
+      "pt": "Pocket Santa",
+      "fr": "Pocket Santa",
+      "de": "Pocket Santa",
+      "id": "Pocket Santa"
+    },
+    "desc": {
+      "ko": "30종의 크리스마스 친구 중 1~4명을 골라 화면 위 산책과 터치 미션을 즐겨 보세요.",
+      "en": "Choose one to four of 30 Christmas friends for on-screen walks and playful touch missions.",
+      "ja": "30種類のクリスマスの仲間から1〜4人を選んで、画面上のお散歩やタッチミッションを楽しめます。",
+      "zh": "从30种圣诞伙伴中选择1至4位，一起在屏幕上散步，体验趣味触摸任务。",
+      "ru": "Выберите от одного до четырёх из 30 рождественских друзей для прогулок по экрану и заданий с касаниями.",
+      "fil": "Pumili ng isa hanggang apat sa 30 kaibigang Pamasko para sa paglalakad sa screen at mga touch mission.",
+      "hi": "30 क्रिसमस दोस्तों में से एक से चार चुनें और स्क्रीन पर सैर व टच मिशन का आनंद लें।",
+      "es": "Elige entre uno y cuatro de los 30 amigos navideños para paseos por la pantalla y misiones táctiles.",
+      "pt": "Escolha de um a quatro entre 30 amigos natalinos para passeios pela tela e missões de toque.",
+      "fr": "Choisissez un à quatre compagnons parmi 30 amis de Noël pour des promenades à l’écran et des missions tactiles.",
+      "de": "Wähle ein bis vier von 30 Weihnachtsfreunden für Spaziergänge auf dem Bildschirm und kleine Tipp-Missionen.",
+      "id": "Pilih satu hingga empat dari 30 teman Natal untuk berjalan di layar dan menikmati misi sentuh."
+    },
+    "tags": {
+      "ko": [],
+      "en": [],
+      "ja": [],
+      "zh": [],
+      "ru": [],
+      "fil": [],
+      "hi": [],
+      "es": [],
+      "pt": [],
+      "fr": [],
+      "de": [],
+      "id": []
+    },
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.pocketsanta",
+    "appStoreUrl": null,
+    "icon": "images/pocketsanta-icon.webp",
+    "screenshots": [
+      {
+        "src": "images/screenshots/pocketsanta-play-20261109-01.webp",
+        "thumb": "images/screenshots/pocketsanta-play-20261109-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/rhmBLL7hsS6-eaXrHJbAjYe7672NPsEXszdEaiLWHBzU3xpneef_Y0R7twmGlbOW0hmX1BK-H6kUcYTVmu58=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/pocketsanta-play-20261109-02.webp",
+        "thumb": "images/screenshots/pocketsanta-play-20261109-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/6XblVMWK79HHUJMP_23N6k9M6iGpaWb_qEqCEYwTBM0Ivv9zh8qYRKWfBavG3fbJF3qfzknXufarxaImKfF0HA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/pocketsanta-play-20261109-03.webp",
+        "thumb": "images/screenshots/pocketsanta-play-20261109-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/B7BvYE2ThpcDUgKnBut6PVndsy-yYsbcijOxqX8DYj1Xg9_ntkJWTEwPLW3CeqwD9etARulf7ssce7SO7YYbbg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/pocketsanta-play-20261109-04.webp",
+        "thumb": "images/screenshots/pocketsanta-play-20261109-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/0xci2T520E1K_LpNBY9Uyhfvws-pWHI-zMYFYlqPydYOu24g4uzSH47RgL2m1uz4MDYb9VD4jaEkB1fVyKoj1Q=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/pocketsanta-play-20261109-05.webp",
+        "thumb": "images/screenshots/pocketsanta-play-20261109-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/kBqcA2ik6WClpw76VYvxh43XC0W2u9spMGsu2hwrVZa2N4Wv91Hw3fyqPA_FNyhSlcDaUsCxq3TGG3UfkFqGweM=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/pocketsanta-play-20261109-06.webp",
+        "thumb": "images/screenshots/pocketsanta-play-20261109-06-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/uD4cfpZ6aSSoGjBq-B2I8ptu9zW-z0tpi2pALIw5nK_lwWpDFDQNkkWnKPyvtIs18ou_oYqgi77RUZjgDf6V4Q=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/pocketsanta-play-20261109-07.webp",
+        "thumb": "images/screenshots/pocketsanta-play-20261109-07-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/NkTbq4MZZgOd8LA_5QzWIy3GaRX5-UgoGc02LFcIrUbZoQXGxW5xK6Q8LQci6RiejgRRpUAbZw3-eWe0MdtfDQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ],
+    "playDescription": {
+      "ko": "주머니 속 작은 크리스마스\n\n30종 중 1~4명을 자유롭게 골라요. 각자 걷고, 뛰고, 춤추고, 쉬는 겨울 친구들이에요.\n혼자 또는 최대 4명까지 함께해요. 친구를 눌러 추가·교체할 수 있어요.\n\n크리스마스 친구들\n산타, 루돌프, 눈사람, 엘프, 진저, 펭귄, 북극곰, 트리, 호두, 눈꽃요정, 겨울여우, 눈토끼, 양말냥이, 쿠키멍, 밤부엉, 물범이, 바다코, 무스, 알파카, 판다, 레서판다, 도토리, 고슴이, 꼬마용, 유니콘, 천사, 별똥이, 징글벨, 선물콩, 캔디팝\n\n효과 임팩트\n1: 은은하게 · 2: 크게 반짝이기\n\n마법 터치 미션\n이 화면이나 마법 버튼을 5번 눌러 축하 효과를 열어요. 화면 위 친구도 5번 터치! 진행은 각 화면을 닫으면 초기화돼요.\n\n설정\n선택한 친구들의 크기를 함께 조절해요\n산책 속도 · 편안한 움직임\n언제든 다른 언어로 바꿀 수 있어요\n\n화면 산책 시작\n‘다른 앱 위에 표시’는 다른 앱 위에 작은 캐릭터 1~4명을 그리는 선택 기능입니다. 다른 앱의 내용이나 입력을 읽거나 화면을 촬영하지 않습니다. 사용자가 시작한 산책은 포그라운드 서비스로 유지합니다. 알림을 허용하면 산책 상태와 중지 버튼을 표시합니다. 앱에서도 중지할 수 있고 Android 설정에서 권한을 철회할 수 있습니다. 허용하지 않아도 앱 안에서 친구를 이용할 수 있습니다.\n\n개인정보처리방침\n앱에는 광고·분석·추적 SDK와 자체 네트워크 전송 기능이 없습니다. 위치, 연락처, 사진, 카메라, 마이크, 광고 식별자를 수집하거나 판매·공유하지 않습니다. 이는 Android·스토어·사용자가 직접 여는 외부 서비스의 독립적인 처리가 없다는 뜻은 아닙니다.\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "en": "A little Christmas in your pocket\n\nChoose 1–4 of 30 friends. Watch them walk, hop, dance and rest.\nUse one friend or up to four. Tap a friend to add or replace them.\n\nChristmas friends\nSanta, Rudolph, Snowman, Elf, Ginger, Penguin, Polar Bear, Tree, Nutcracker, Snow Fairy, Winter Fox, Snow Bunny, Stocking Cat, Cookie Pup, Night Owl, Snow Seal, Walrus, Moose, Alpaca, Panda, Red Panda, Acorn Squirrel, Hedgehog, Little Dragon, Unicorn, Angel, Twinkle Star, Jingle Bell, Gift Box, Candy Pop\n\nEffect impact\n1: gentle · 2: bold sparkles\n\nMagic tap mission\nTap this scene or Magic five times for a celebration. Tap screen companions five times too! Progress resets when each view closes.\n\nSettings\nResize your chosen friends together\nWalking speed · Reduced motion\nYou can change the language at any time\n\nStart screen companions\nDisplay over other apps is optional and draws one to four small companions above other apps. It does not read their content or input or capture the screen. A foreground service maintains the walk you start. If notifications are allowed, a status notification includes Stop. You can also stop in the app or revoke permissions in Android Settings. In-app characters remain available without overlay permission.\n\nPrivacy Policy\nThe app has no advertising, analytics or tracking SDK and no app-operated network transmission. It does not collect, sell or share location, contacts, photos, camera or microphone data, or advertising IDs. This does not describe independent processing by Android, the store or external services you choose to open.\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "ja": "ポケットに小さなクリスマス\n\n30人から1～4人を選べます。歩いたり、跳ねたり、踊ったり、お休みしたり。\n1人でも最大4人でも。仲間をタップして追加・入れ替えできます。\n\nクリスマスの友達\nサンタ, ルドルフ, 雪だるま, エルフ, ジンジャー, ペンギン, シロクマ, ツリー, くるみ割り人形, 雪の妖精, 冬のキツネ, 雪うさぎ, くつしたネコ, クッキー犬, 夜のフクロウ, アザラシ, セイウチ, ヘラジカ, アルパカ, パンダ, レッサーパンダ, どんぐりリス, ハリネズミ, ちびドラゴン, ユニコーン, 天使, きらきら星, ジングルベル, プレゼント, キャンディ\n\nエフェクトの迫力\n1：穏やか · 2：大きくきらめく\n\n魔法タップミッション\nこの画面や魔法ボタンを5回タップするとお祝い！画面上の仲間も5回タップ。進行は各画面を閉じるとリセットされます。\n\n設定\n選んだ仲間のサイズを一緒に変更\nおさんぽの速さ · 動きを減らす\n言語はいつでも変更できます\n\n画面のおさんぽ開始\n「他のアプリの上に表示」は、1～4人の小さなキャラクターを表示する任意の機能です。他のアプリの内容や入力を読んだり、画面を撮影したりしません。利用者が開始したおさんぽをフォアグラウンドサービスで維持します。通知を許可すると状態と停止ボタンを表示します。アプリ内でも停止でき、Android設定で権限を撤回できます。許可しなくてもアプリ内の友達を楽しめます。\n\nプライバシーポリシー\n広告・分析・追跡SDKやアプリ独自のネットワーク送信機能はありません。位置、連絡先、写真、カメラ、マイク、広告IDを収集・販売・共有しません。Android、ストア、利用者が開く外部サービス独自の処理を説明するものではありません。\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "zh": "口袋里的小小圣诞节\n\n从30位伙伴中选择1至4位，欣赏散步、跳跃、舞蹈和休息动作。\n可以只选1位，最多4位。轻触伙伴即可添加或替换。\n\n圣诞朋友们\n圣诞老人, 鲁道夫, 雪人, 精灵, 姜饼人, 企鹅, 北极熊, 圣诞树, 胡桃夹子, 雪花仙子, 冬日狐狸, 雪兔, 袜子猫, 曲奇狗, 夜猫头鹰, 雪海豹, 海象, 驼鹿, 羊驼, 熊猫, 小熊猫, 橡果松鼠, 小刺猬, 小龙, 独角兽, 天使, 闪闪星, 铃铛, 礼物盒, 糖果棒\n\n效果强度\n1：柔和 · 2：绚丽闪耀\n\n魔法轻触任务\n轻触场景或魔法按钮5次，开启庆祝效果！屏幕上的伙伴也可轻触5次。各画面关闭后进度重置。\n\n设置\n一起调整已选伙伴的大小\n散步速度 · 减少动态效果\n你可以随时更改语言\n\n开始屏幕散步\n“显示在其他应用上层”是可选功能，用于显示1至4位小伙伴。它不读取其他应用的内容或输入，也不拍摄屏幕。前台服务维持由你启动的散步。允许通知后会显示状态和停止按钮，也可在应用内停止或在Android设置中撤回权限。即使不允许悬浮显示，仍可在应用内使用角色。\n\n隐私政策\n应用没有广告、分析、追踪SDK或自行运行的网络传输功能。不收集、出售或共享位置、联系人、照片、摄像头、麦克风数据或广告标识符。这不代表Android、应用商店或你主动打开的外部服务没有独立的数据处理。\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "ru": "Немного Рождества в вашем кармане\n\nВыберите 1–4 из 30 друзей. Наблюдайте, как они ходят, прыгают, танцуют и отдыхают.\nИспользуйте одного друга или до четырех. Нажмите на друга, чтобы добавить или заменить его.\n\nРождественские друзья\nСанта, Рудольф, Снеговик, Эльф, Рыжий, Пингвин, Белый медведь, Дерево, Щелкунчик, Снежная фея, Зимняя лиса, Снежный зайчик, Кот в чулке, Щенок-печенька, Ночная сова, Снежный тюлень, Морж, Лось, Альпака, Панда, Красная панда, Белка-желудь, Ёжик, Маленький дракон, Единорог, Ангел, Мерцающая звезда, Колокольчик, Подарочная коробка, Леденец\n\nЭффект воздействия\n1: мягкий · 2: яркий блеск\n\nВолшебное задание на касание\nНажмите на эту сцену или «Волшебство» пять раз, чтобы начать праздник. Нажмите на друзей на экране пять раз! Прогресс сбрасывается при закрытии каждого окна.\n\nНастройки\nИзмените размер выбранных вами друзей, чтобы они могли общаться вместе\nСкорость ходьбы · Уменьшенное движение\nВы можете изменить язык в любое время\n\nНачало работы с компаньонами на экране\nОтображение поверх других приложений является необязательным и отображает от одного до четырех маленьких компаньонов поверх других приложений. Приложение не считывает их содержимое, ввод и не делает снимки экрана. Запущенная вами прогулка поддерживается службой переднего плана. Если уведомления разрешены, уведомление о статусе будет включать «Стоп». Вы также можете остановить приложение или отозвать разрешения в настройках Android. Персонажи внутри приложения остаются доступными без разрешения на наложение.\n\nПолитика конфиденциальности\nВ приложении нет SDK для рекламы, аналитики или отслеживания, а также нет сетевой передачи данных, управляемой приложением. Оно не собирает, не продает и не передает данные о местоположении, контактах, фотографиях, данных камеры или микрофона, а также рекламные идентификаторы. Это не описывает независимую обработку данных Android, магазином или внешними службами, которые вы решите открыть.\n\nПриложение Kenneth\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "fil": "Isang munting Pasko sa iyong bulsa\n\nPumili ng 1–4 sa 30 kaibigan. Panoorin silang maglakad, tumalon, sumayaw at magpahinga.\n\nGumamit ng isang kaibigan o hanggang apat. I-tap ang isang kaibigan para idagdag o palitan sila.\n\nMga kaibigang Pasko\nSanta, Rudolph, Snowman, Duwende, Ginger, Penguin, Polar Bear, Tree, Nutcracker, Snow Fairy, Winter Fox, Snow Bunny, Stocking Cat, Cookie Pup, Night Owl, Snow Seal, Walrus, Moose, Alpaca, Panda, Red Panda, Acorn Squirrel, Hedgehog, Little Dragon, Unicorn, Angel, Twinkle Star, Jingle Bell, Gift Box, Candy Pop\n\nEpekto ng epekto\n1: banayad · 2: matingkad na kislap\n\nMisyon ng magic tap\nI-tap ang eksenang ito o Magic nang limang beses para sa isang pagdiriwang. I-tap din ang mga kasama sa screen nang limang beses! Nire-reset ang progreso kapag nagsara ang bawat view.\n\nMga Setting\nBaguhin ang laki ng iyong mga napiling kaibigan nang magkasama\nBilis ng paglalakad · Pinababang galaw\nMaaari mong baguhin ang wika anumang oras\n\nMga kasama sa pagsisimula ng screen\nOpsyonal ang pagpapakita sa ibabaw ng iba pang mga app at kumukuha ng isa hanggang apat na maliliit na kasama sa ibabaw ng iba pang mga app. Hindi nito binabasa ang kanilang nilalaman o input o kinukuha ang screen. Pinapanatili ng isang serbisyo sa harapan ang paglalakad na iyong sinimulan. Kung pinapayagan ang mga notification, kasama sa isang notification ng katayuan ang Stop. Maaari ka ring huminto sa app o bawiin ang mga pahintulot sa Mga Setting ng Android. Ang mga karakter sa loob ng app ay mananatiling available nang walang pahintulot sa overlay.\n\nPatakaran sa Pagkapribado\nAng app ay walang advertising, analytics o tracking SDK at walang transmission ng network na pinapatakbo ng app. Hindi ito nangongolekta, nagbebenta o nagbabahagi ng lokasyon, mga contact, mga larawan, data ng camera o mikropono, o mga advertising ID. Hindi nito inilalarawan ang independiyenteng pagproseso ng Android, ang tindahan o mga panlabas na serbisyo na iyong piniling buksan.\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/"
+    }
+  },
+  {
+    "slug": "lumascape",
+    "name": {
+      "ko": "Luma Scape: 풍경 잠금화면",
+      "en": "Luma Scape: Scenic Lock Screen",
+      "ja": "Luma Scape: 風景ロック画面",
+      "zh": "Luma Scape：风景锁屏",
+      "ru": "Luma Scape: пейзажи",
+      "fil": "Luma Scape: Scenic Lock Screen"
+    },
+    "group": "life",
+    "tone": "blue",
+    "category": {
+      "ko": "생활·기록",
+      "en": "Life & records",
+      "ja": "暮らし・記録",
+      "zh": "生活与记录",
+      "ru": "Жизнь и записи",
+      "fil": "Buhay at tala",
+      "hi": "जीवन और रिकॉर्ड",
+      "es": "Vida y registros",
+      "pt": "Vida e registros",
+      "fr": "Vie et souvenirs",
+      "de": "Alltag und Notizen",
+      "id": "Kehidupan dan catatan"
+    },
+    "headline": {
+      "ko": "Luma Scape: 풍경 잠금화면",
+      "en": "Luma Scape: Scenic Lock Screen",
+      "ja": "Luma Scape: 風景ロック画面",
+      "zh": "Luma Scape：风景锁屏",
+      "ru": "Luma Scape: пейзажи",
+      "fil": "Luma Scape: Scenic Lock Screen",
+      "hi": "Luma Scape: Scenic Lock Screen",
+      "es": "Luma Scape: Scenic Lock Screen",
+      "pt": "Luma Scape: Scenic Lock Screen",
+      "fr": "Luma Scape: Scenic Lock Screen",
+      "de": "Luma Scape: Scenic Lock Screen",
+      "id": "Luma Scape: Scenic Lock Screen"
+    },
+    "desc": {
+      "ko": "시간대에 맞춘 300개의 AI 창작 풍경과 1,000개의 창작 문구로 잠금화면을 꾸미고, 제외 시간도 설정하세요.",
+      "en": "Enjoy 300 AI-created landscapes and 1,000 original phrases on your lock screen, with scheduled display breaks.",
+      "ja": "300点のAI創作風景と1,000のオリジナルフレーズでロック画面を彩り、表示を休む時間も設定できます。",
+      "zh": "用300幅AI创作风景和1,000条原创短句装点锁屏，还可设置暂停显示的时段。",
+      "ru": "Украсьте экран блокировки 300 пейзажами, созданными ИИ, и 1000 авторских фраз и настройте перерывы в показе.",
+      "fil": "Palamutian ang lock screen ng 300 AI-created na tanawin at 1,000 orihinal na parirala, at magtakda ng pahinga sa pagpapakita.",
+      "hi": "300 AI-निर्मित दृश्यों और 1,000 मौलिक पंक्तियों से लॉक स्क्रीन सजाएँ और प्रदर्शन के विराम तय करें।",
+      "es": "Disfruta de 300 paisajes creados con IA y 1.000 frases originales en tu pantalla de bloqueo, con pausas programables.",
+      "pt": "Aproveite 300 paisagens criadas por IA e 1.000 frases originais na tela de bloqueio, com pausas programadas.",
+      "fr": "Profitez de 300 paysages créés par IA et de 1 000 phrases originales sur votre écran de verrouillage, avec des pauses programmées.",
+      "de": "Gestalte deinen Sperrbildschirm mit 300 KI-Landschaften und 1.000 eigenen Sprüchen und plane Anzeigepausen.",
+      "id": "Hiasi layar kunci dengan 300 pemandangan buatan AI dan 1.000 kalimat orisinal, serta jadwalkan jeda tampilan."
+    },
+    "tags": {
+      "ko": [],
+      "en": [],
+      "ja": [],
+      "zh": [],
+      "ru": [],
+      "fil": [],
+      "hi": [],
+      "es": [],
+      "pt": [],
+      "fr": [],
+      "de": [],
+      "id": []
+    },
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.lumascape",
+    "appStoreUrl": null,
+    "icon": "images/lumascape-icon.webp",
+    "screenshots": [
+      {
+        "src": "images/screenshots/lumascape-play-20261109-01.webp",
+        "thumb": "images/screenshots/lumascape-play-20261109-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/2c-ewgzXlYJbTvqvDarpRLtTqaQQtzbJU8H_Mlv3u7BpPxM5RseVcHWO9_LFt0uHHhj8pL9_8fGefASYYbQbvf0=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/lumascape-play-20261109-02.webp",
+        "thumb": "images/screenshots/lumascape-play-20261109-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/chyNUCfHWnW8vdkUT6bhPG2ruihGlNcS0I07ZLzaXB-6ldRTdhytTm79dArAedGFYuSOdo9e57RUpZZUZkUj=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/lumascape-play-20261109-03.webp",
+        "thumb": "images/screenshots/lumascape-play-20261109-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/vR-g0ZyVONnuMNt6llxO169aPiA17lz0ShyQ9hhNTBoCeHGjFM7L8Fng9vdvtpQnLIlaPE9dZE9yZOGThHkmDA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/lumascape-play-20261109-04.webp",
+        "thumb": "images/screenshots/lumascape-play-20261109-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/UGF_hPGC00CSp9eo2o2ldNHwJfFs5hQDuxnOy-8w99MQrThPfIvwvcK7vlYsvTqF5cheeXzxZD3ZSBZjpSXYBg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ],
+    "playDescription": {
+      "ko": "화면을 켤 때마다, 잠깐의 여유를 만나세요.\nLuma Scape는 시간대에 어울리는 풍경과 짧은 창작 문구를 보여 주는 잠금화면 앱입니다. 세계의 여행지와 자연에서 영감을 받은 풍경으로 일상에 작은 변화를 더해 보세요.\n\n아침부터 저녁까지, 300개의 풍경\n아침·낮·저녁에 각각 100개씩, 총 300개의 배경이 준비되어 있습니다. 산과 바다, 도시와 여행지에서 영감을 받은 AI 창작 풍경을 기기의 현지 시간에 맞춰 보여 줍니다.\n\n하루에 건네는 1,000개의 문구\n성장과 도전, 사랑과 관계, 일상과 휴식에 관한 창작 문구를 만나 보세요. 명언과 대사를 닮은 짧은 글이 풍경과 함께 표시됩니다. 실제 인물의 명언이나 영화·드라마 대사를 인용한 콘텐츠는 아닙니다.\n\n원하는 시간에는 표시를 쉬어 가세요\n업무나 수면에 방해가 되지 않도록 잠금화면 제외 시간을 설정할 수 있습니다.\n• 한 번만: 시작 날짜·시간과 종료 날짜·시간 지정\n• 매주 반복: 원하는 요일과 시간대 지정\n• 하루 종일 또는 자정을 넘기는 반복 일정 지원\n제외 중에는 Luma Scape 화면이 나타나지 않습니다. 제외 시간이 끝난 뒤 다음에 화면을 켜면 다시 표시됩니다.\n\n어느 방향으로든 밀어서 닫기\n위·아래·왼쪽·오른쪽으로 밀면 Luma Scape 화면이 닫힙니다. 기기의 기존 PIN·패턴·지문 등 보안 잠금은 그대로 유지됩니다.\n\n6개 언어로 편안하게\n한국어, 영어, 일본어, 중국어 간체, 러시아어, 힌디어를 지원합니다. 설정에서 언어를 선택하고, 앱 안에서 이용약관과 개인정보처리방침도 확인할 수 있습니다.\n\n사용 전 알아두세요\n• Android 8.0 이상에서 사용할 수 있습니다.\n• 자동 표시에는 다른 앱 위에 표시 권한과 전화 상태 권한이 필요합니다. 전화 상태 권한은 수신·통화 중 표시를 피하는 데 사용합니다.\n• 선택적으로 알림 접근을 허용하면 메시지·통화 알림에 화면을 양보합니다. 앱은 발신자나 알림 본문을 읽거나 저장하지 않습니다.\n• 표시와 통신 감지는 기기, Android 버전, 절전 설정과 권한에 따라 달라질 수 있습니다. 재부팅·강제 종료 후에는 앱을 열고 사용 스위치를 껐다 켜 주세요.\n• 배경은 실제 장소의 사진이 아닌 AI 창작 이미지입니다. 배경과 문구는 앱에 포함되어 오프라인으로 사용할 수 있습니다.\n\n개발자: Kenneth App\n문의: gkimmulti@gmail.com\n웹사이트: https://gkimmulti-ui.github.io/",
+      "en": "A small pause. A different view.\nLuma Scape brings time-of-day scenery and short original messages to your lock screen. Discover imaginative landscapes inspired by nature and destinations around the world.\n\n300 scenes, from morning to evening\nExplore 100 backgrounds for morning, 100 for daytime and 100 for evening. AI-created mountain, ocean, city and travel-inspired scenes follow your device’s local time.\n\n1,000 original messages\nFind words about growth, courage, love, relationships and everyday moments. These short, quote-like and dialogue-style messages are original writing, not quotations from real people, films or TV shows.\n\nMake room for work, rest and life\nSet quiet hours when you want Luma Scape to stay hidden.\n• One-time schedules: choose a start and end date and time.\n• Weekly schedules: choose days of the week and a time range.\n• Set all-day pauses or weekly periods that continue past midnight.\nWhen a quiet period ends, Luma Scape returns the next time you wake your screen.\n\nSwipe in any direction\nSwipe up, down, left or right to dismiss Luma Scape. Your device’s existing PIN, pattern, fingerprint or other security lock remains in place.\n\nSix languages\nUse the app in English, Korean, Japanese, Simplified Chinese, Russian or Hindi. Choose a language in Settings and read the Terms of Service and Privacy Policy inside the app.\n\nBefore you begin\n• Requires Android 8.0 or later.\n• Automatic display requires permission to appear over other apps and access phone state. Phone state is used to avoid displaying the screen during incoming or active calls.\n• Optional notification access lets the app yield to message and call notifications. The app does not read or store notification senders or message bodies.\n• Display and communication detection may vary by device, Android version, battery settings and permissions. After a reboot or force stop, open the app and turn its switch off, then on again.\n• Backgrounds are AI-created images, not photographs of real places. Scenes and messages are included in the app and work offline.\n\nDeveloper: Kenneth App\nSupport: gkimmulti@gmail.com\nWebsite: https://gkimmulti-ui.github.io/",
+      "ja": "画面を見るひとときに、いつもと違う景色を。\nLuma Scapeは、時間帯に合った風景と短いオリジナルの言葉を楽しめるロック画面アプリです。世界の旅先や自然に着想を得た景色が、日常に小さな彩りを添えます。\n\n朝・昼・夜、300枚の風景\n朝、昼、夜それぞれに100枚ずつ、合計300枚の背景を収録。山や海、街や旅先をイメージしたAI創作画像を、端末の現地時刻に合わせて表示します。\n\n1,000のオリジナルメッセージ\n成長や挑戦、愛情や人とのつながり、日々の暮らしや休息をテーマにした短い言葉を収録しています。名言やセリフのように楽しめる創作文章であり、実在する人物や映画・ドラマからの引用ではありません。\n\n仕事や休息に合わせて表示をお休み\nLuma Scapeを表示しない時間を設定できます。\n・一度だけ：開始と終了の日時を指定\n・毎週繰り返し：曜日と時間帯を指定\n・終日や、日付をまたぐ繰り返し予定にも対応\n休止時間が終わると、次に画面を点灯したときから再び表示されます。\n\nどの方向にもスワイプして閉じる\n上下左右のいずれかにスワイプすると、Luma Scapeの画面が閉じます。端末のPIN、パターン、指紋認証などのセキュリティロックはそのまま維持されます。\n\n6言語に対応\n日本語、韓国語、英語、簡体字中国語、ロシア語、ヒンディー語に対応。設定から言語を選び、アプリ内で利用規約やプライバシーポリシーも確認できます。\n\nご利用にあたって\n・Android 8.0以降に対応しています。\n・自動表示には「他のアプリの上に表示」と通話状態へのアクセス権限が必要です。通話状態は、着信時や通話中の表示を避けるために使用します。\n・任意で通知へのアクセスを許可すると、メッセージや通話の通知が届いたときにアプリの画面を閉じます。送信者や通知本文は読み取ったり保存したりしません。\n・表示や通信の検知は、端末、Androidのバージョン、省電力設定、権限によって異なる場合があります。再起動や強制停止後はアプリを開き、使用スイッチを入れ直してください。\n・背景は実際の場所を撮影した写真ではなく、AIによる創作画像です。背景と文章はアプリに収録されており、オフラインで利用できます。\n\n開発者：Kenneth App\nお問い合わせ：gkimmulti@gmail.com\nウェブサイト：https://gkimmulti-ui.github.io/",
+      "zh": "点亮屏幕，换一种心情。\nLuma Scape是一款结合分时风景与原创短句的锁屏应用。灵感来自世界各地的旅行目的地与自然景观，为日常生活增添片刻轻松。\n\n从清晨到夜晚，300张风景背景\n早晨、白天、晚间各有100张背景，共300张。以山川、海洋、城市和旅行景观为灵感的AI原创图片，会按照设备的当地时间分时显示。\n\n1,000条原创文字\n围绕成长、勇气、爱与关系、日常生活和休息，收录简短的原创文字。既有格言般的短句，也有对白式的表达；并非真实人物名言或电影、电视剧台词的引用。\n\n按自己的节奏暂停显示\n工作、睡眠或需要专注时，可以设置不显示Luma Scape的时段。\n• 仅一次：指定开始和结束的日期与时间。\n• 每周重复：选择星期和时间范围。\n• 支持全天暂停及跨越午夜的重复时段。\n暂停结束后，下次点亮屏幕时会恢复显示。\n\n向任意方向滑动关闭\n向上、下、左或右滑动，即可关闭Luma Scape画面。设备原有的PIN码、图案、指纹等安全锁定方式仍然保留。\n\n支持6种语言\n支持简体中文、韩语、英语、日语、俄语和印地语。可在设置中选择语言，并在应用内查看服务条款与隐私政策。\n\n使用须知\n• 支持Android 8.0及以上版本。\n• 自动显示需要“在其他应用上层显示”和电话状态权限。电话状态用于避免在来电或通话期间显示锁屏画面。\n• 可选择授予通知使用权，让应用在收到消息或通话通知时关闭自身画面。应用不会读取或保存发送者和通知正文。\n• 显示效果及通信状态检测可能受设备、Android版本、省电设置和权限影响。设备重启或应用被强行停止后，请打开应用，将使用开关关闭后重新开启。\n• 背景为AI原创图片，并非真实地点的实拍照片。背景与文字已包含在应用中，可离线使用。\n\n开发者：Kenneth App\n联系邮箱：gkimmulti@gmail.com\n网站：https://gkimmulti-ui.github.io/",
+      "ru": "Небольшая пауза — новый взгляд.\nLuma Scape показывает пейзажи по времени суток и короткие авторские фразы на экране блокировки. Откройте для себя образы, вдохновлённые природой и местами со всего мира.\n\n300 пейзажей для утра, дня и вечера\nПо 100 фонов для каждого времени суток. Созданные с помощью ИИ изображения гор, моря, городов и туристических мест сменяются в соответствии с местным временем устройства.\n\n1 000 авторских фраз\nКороткие тексты о развитии, смелости, любви, отношениях, повседневной жизни и отдыхе. Это оригинальные афоризмы и реплики в стиле диалога, а не цитаты реальных людей, фильмов или сериалов.\n\nВремя для работы и отдыха\nНастройте периоды, когда Luma Scape не будет появляться.\n• Разовое расписание: укажите дату и время начала и окончания.\n• Еженедельное расписание: выберите дни недели и временной интервал.\n• Доступны паузы на весь день и еженедельные интервалы с переходом через полночь.\nПосле окончания паузы экран приложения появится при следующем включении экрана устройства.\n\nСмахните в любую сторону\nСмахните вверх, вниз, влево или вправо, чтобы закрыть Luma Scape. PIN-код, графический ключ, отпечаток пальца и другие средства защиты устройства остаются действующими.\n\nШесть языков\nРусский, английский, корейский, японский, китайский (упрощённое письмо) и хинди. Выберите язык в настройках. Условия использования и политика конфиденциальности доступны прямо в приложении.\n\nПеред использованием\n• Требуется Android 8.0 или новее.\n• Для автоматического показа нужны разрешения на отображение поверх других приложений и доступ к состоянию телефона. Последний используется, чтобы не показывать экран при входящем или текущем звонке.\n• Дополнительный доступ к уведомлениям позволяет закрывать экран приложения при уведомлениях о сообщениях и звонках. Приложение не читает и не сохраняет отправителей или текст уведомлений.\n• Работа отображения и обнаружения звонков и уведомлений зависит от устройства, версии Android, энергосбережения и разрешений. После перезагрузки или принудительной остановки откройте приложение, выключите его переключатель и включите снова.\n• Фоны созданы с помощью ИИ и не являются фотографиями реальных мест. Изображения и тексты входят в приложение и доступны без интернета.\n\nРазработчик: Kenneth App\nПоддержка: gkimmulti@gmail.com\nСайт: https://gkimmulti-ui.github.io/",
+      "fil": "Isang maikling paghinto. Isang kakaibang tanawin.\n\nNagdadala ang Luma Scape ng mga tanawin ayon sa oras ng araw at maiikling orihinal na mensahe sa iyong lock screen. Tuklasin ang mga malikhaing tanawin na inspirasyon ng kalikasan at mga destinasyon sa buong mundo.\n\n300 eksena, mula umaga hanggang gabi\nMag-explore ng 100 background para sa umaga, 100 para sa araw at 100 para sa gabi. Ang mga eksenang inspirasyon ng bundok, karagatan, lungsod at paglalakbay na nilikha ng AI ay sumusunod sa lokal na oras ng iyong device.\n\n1,000 orihinal na mensahe\nMaghanap ng mga salita tungkol sa paglago, katapangan, pag-ibig, mga relasyon at pang-araw-araw na sandali. Ang mga maiikling mensaheng ito na parang sipi at istilo ng diyalogo ay orihinal na sulatin, hindi mga sipi mula sa mga totoong tao, pelikula o palabas sa TV.\n\nMaglaan ng espasyo para sa trabaho, pahinga at buhay\nMagtakda ng mga tahimik na oras kung kailan mo gustong manatiling nakatago ang Luma Scape.\n• Mga minsanang iskedyul: pumili ng petsa at oras ng pagsisimula at pagtatapos.\n• Mga lingguhang iskedyul: pumili ng mga araw ng linggo at isang saklaw ng oras.\n• Magtakda ng mga paghinto sa buong araw o mga lingguhang panahon na magpapatuloy lampas ng hatinggabi.\nKapag natapos na ang isang tahimik na panahon, babalik ang Luma Scape sa susunod na gisingin mo ang iyong screen.\n\nMag-swipe sa anumang direksyon\nMag-swipe pataas, pababa, pakaliwa o pakanan para i-dismiss ang Luma Scape. Ang kasalukuyang PIN, pattern, fingerprint o iba pang security lock ng iyong device ay mananatili sa lugar.\n\nAnim na wika\nGamitin ang app sa English, Korean, Japanese, Simplified Chinese, Russian o Hindi. Pumili ng wika sa Mga Setting at basahin ang Mga Tuntunin ng Serbisyo at Patakaran sa Privacy sa loob ng app.\n\nBago ka magsimula\n• Nangangailangan ng Android 8.0 o mas bago.\n• Ang awtomatikong pagpapakita ay nangangailangan ng pahintulot na lumabas sa ibabaw ng iba pang mga app at ma-access ang estado ng telepono. Ginagamit ang estado ng telepono upang maiwasan ang pagpapakita ng screen habang papasok o aktibong tawag.\n• Ang opsyonal na pag-access sa notification ay nagbibigay-daan sa app na magbigay-daan sa mga notification ng mensahe at tawag. Hindi binabasa o iniimbak ng app ang mga nagpadala ng notification o mga katawan ng mensahe.\n• Ang pagtukoy ng display at komunikasyon ay maaaring mag-iba ayon sa device, bersyon ng Android, mga setting ng baterya at mga pahintulot. Pagkatapos ng pag-reboot o puwersahang paghinto, buksan ang app at i-off ang switch nito, pagkatapos ay i-on muli.\n• Ang mga background ay mga larawang nilikha ng AI, hindi mga litrato ng mga totoong lugar. Kasama ang mga eksena at mensahe sa app at maaaring gamitin offline.\n\nDeveloper: Kenneth App\nSuporta: gkimmulti@gmail.com\nWebsite: https://gkimmulti-ui.github.io/"
+    }
+  },
+  {
+    "slug": "ttirang",
+    "name": {
+      "ko": "띠랑 — 나의 작은 띠 친구",
+      "en": "Ttirang: Zodiac Friends",
+      "ja": "Ttirang — 小さな干支の友だち",
+      "zh": "Ttirang — 生肖小伙伴",
+      "ru": "Ttirang: Zodiac Friends",
+      "fil": "Ttirang: Zodiac Friends"
+    },
+    "group": "life",
+    "tone": "sage",
+    "category": {
+      "ko": "생활·기록",
+      "en": "Life & records",
+      "ja": "暮らし・記録",
+      "zh": "生活与记录",
+      "ru": "Жизнь и записи",
+      "fil": "Buhay at tala",
+      "hi": "जीवन और रिकॉर्ड",
+      "es": "Vida y registros",
+      "pt": "Vida e registros",
+      "fr": "Vie et souvenirs",
+      "de": "Alltag und Notizen",
+      "id": "Kehidupan dan catatan"
+    },
+    "headline": {
+      "ko": "띠랑 — 나의 작은 띠 친구",
+      "en": "Ttirang: Zodiac Friends",
+      "ja": "Ttirang — 小さな干支の友だち",
+      "zh": "Ttirang — 生肖小伙伴",
+      "ru": "Ttirang: Zodiac Friends",
+      "fil": "Ttirang: Zodiac Friends",
+      "hi": "Ttirang: Zodiac Friends",
+      "es": "Ttirang: Zodiac Friends",
+      "pt": "Ttirang: Zodiac Friends",
+      "fr": "Ttirang: Zodiac Friends",
+      "de": "Ttirang: Zodiac Friends",
+      "id": "Ttirang: Zodiac Friends"
+    },
+    "desc": {
+      "ko": "열두 띠 동물에서 태어난 36명의 친구와 함께 산책하고, 작은 미션과 숨바꼭질을 즐기며 오늘을 일기로 남겨요.",
+      "en": "Meet 36 friends inspired by the 12 zodiac animals, enjoy screen walks, small missions and hide-and-seek, and keep a diary.",
+      "ja": "十二支の動物から生まれた36人の仲間と、画面上のお散歩や小さなミッション、かくれんぼを楽しみ、日記を残せます。",
+      "zh": "认识以十二生肖为灵感的36位伙伴，一起在屏幕上散步、完成小任务、玩捉迷藏，并写下日记。",
+      "ru": "Познакомьтесь с 36 друзьями по мотивам 12 животных зодиака: гуляйте по экрану, выполняйте задания, играйте в прятки и ведите дневник.",
+      "fil": "Kilalanin ang 36 na kaibigang hango sa 12 hayop ng zodiac, maglakad sa screen, maglaro ng taguan, gumawa ng misyon at magsulat ng diary.",
+      "hi": "12 राशि पशुओं से प्रेरित 36 दोस्तों से मिलें, स्क्रीन पर सैर करें, छोटे मिशन और लुका-छिपी खेलें और डायरी लिखें।",
+      "es": "Conoce a 36 amigos inspirados en los 12 animales del zodiaco, pasea por la pantalla, cumple misiones, juega al escondite y escribe un diario.",
+      "pt": "Conheça 36 amigos inspirados nos 12 animais do zodíaco, passeie pela tela, cumpra missões, brinque de esconde-esconde e escreva um diário.",
+      "fr": "Rencontrez 36 amis inspirés des 12 animaux du zodiaque, promenez-vous à l’écran, jouez à cache-cache, accomplissez des missions et tenez un journal.",
+      "de": "Lerne 36 Freunde nach den 12 Tierkreiszeichen kennen, gehe auf Bildschirm-Spaziergänge, löse kleine Aufgaben, spiele Verstecken und führe Tagebuch.",
+      "id": "Temui 36 teman terinspirasi dari 12 hewan shio, berjalan di layar, jalani misi kecil, bermain petak umpet, dan tulis jurnal."
+    },
+    "tags": {
+      "ko": [],
+      "en": [],
+      "ja": [],
+      "zh": [],
+      "ru": [],
+      "fil": [],
+      "hi": [],
+      "es": [],
+      "pt": [],
+      "fr": [],
+      "de": [],
+      "id": []
+    },
+    "playUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.ttirang",
+    "appStoreUrl": null,
+    "icon": "images/ttirang-icon.webp",
+    "screenshots": [
+      {
+        "src": "images/screenshots/ttirang-play-20261109-01.webp",
+        "thumb": "images/screenshots/ttirang-play-20261109-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/4aeNocxtKVnb9jT8uApNOWEYYjdyKqPi77U-x9aBKh4slg6iWVci3P-oVKCkrseurivt4ZLeDEx7N_zjyOVm=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2000
+      },
+      {
+        "src": "images/screenshots/ttirang-play-20261109-02.webp",
+        "thumb": "images/screenshots/ttirang-play-20261109-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/-4SGg8FvgJspDKnL53DAkplcmqcJMfGTaubVsAEY01vCNixdYlZJ6CGfQeeIGPRGSsQptFoKqjdTqYQDRpb6=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2000
+      },
+      {
+        "src": "images/screenshots/ttirang-play-20261109-03.webp",
+        "thumb": "images/screenshots/ttirang-play-20261109-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/uXxwMCm-uxAc_7w14muWIMbAw9_D6EKrCbhlPlfLZJSx8Xpu2mx8N5IxIk4Inwg1t_6GbctwRWWJk7Y2cY17nQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 2000
+      }
+    ],
+    "playDescription": {
+      "ko": "하루에 작은 친구를 초대해 보세요. 띠랑에서는 열두 띠 동물을 바탕으로 만든 36명의 캐릭터를 만날 수 있어요. 내 띠와 같은 친구도, 마음에 드는 다른 띠 친구도 골라 보세요.\n\n나만의 띠 친구\n쥐, 소, 호랑이, 토끼, 용, 뱀, 말, 양, 원숭이, 닭, 개, 돼지까지. 각 동물마다 세 가지 캐릭터가 준비되어 있어요. 먹이를 주고 함께 놀며 다양한 표정과 반응을 만나 보세요.\n\n화면 위에서 함께하는 하루\n동행 기능을 켜면 친구가 다른 앱 위를 걸어 다니고 말풍선으로 짧은 인사를 건네요. Android에서 사용하며, 다른 앱 위에 표시할 수 있도록 권한을 허용해야 해요.\n\n작은 미션과 숨바꼭질\n일상의 작은 미션을 함께하고, 숨어 있는 친구를 찾아보세요. 짧은 시간에도 친구와 함께하는 즐거움을 느낄 수 있어요.\n\n오늘의 일기\n오늘의 기분과 함께한 순간을 글로 남겨 보세요. 기록은 기기에 저장되며, 일기 내보내기와 가져오기로 직접 보관할 수 있어요.\n\n띠랑은 10개 언어를 지원해요. 작은 띠 친구와 나만의 하루를 만들어 보세요.\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "en": "Invite a little friend into your day. Ttirang brings you 36 characters inspired by the 12 animals of the East Asian zodiac. Choose the animal of your birth year or simply a friend you love.\n\nFind your favorite\nMeet the rat, ox, tiger, rabbit, dragon, snake, horse, sheep, monkey, rooster, dog and pig, with three characters for each animal. Feed your friend, play together and discover different expressions and reactions.\n\nA companion on your screen\nTurn on the companion feature to let your friend walk over other apps and greet you with short speech bubbles. This Android feature requires permission to display over other apps.\n\nLittle missions and hide-and-seek\nSpend a moment on daily missions or find a friend who is hiding. Make a little room for play in your everyday routine.\n\nYour daily diary\nWrite about your mood and the moments you shared. Diary entries are stored on your device. Export and import your diary to keep your own copy.\n\nTtirang supports 10 languages. Make each day your own with a little zodiac friend.\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "ja": "いつもの一日に、小さな友だちを。Ttirangでは、十二支をモチーフにした36のキャラクターに出会えます。自分の干支でも、好きな動物でも、お気に入りの子を選んでみましょう。\n\nお気に入りの友だちを見つけよう\nねずみ、うし、とら、うさぎ、りゅう、へび、うま、ひつじ、さる、とり、いぬ、ぶた。各動物に3種類のキャラクターがいます。ごはんをあげたり、一緒に遊んだりして、さまざまな表情や反応を楽しめます。\n\n画面の上でも一緒\n同行機能をオンにすると、友だちがほかのアプリの上を歩き、吹き出しで短いあいさつをしてくれます。Androidで利用でき、ほかのアプリの上に表示する権限が必要です。\n\n小さなミッションとかくれんぼ\n毎日のミッションを楽しんだり、隠れた友だちを探したり。すきま時間に、小さな遊びを取り入れてみましょう。\n\n今日の日記\nその日の気分や一緒に過ごした思い出を文章に残せます。日記は端末に保存され、エクスポートとインポートで自分の控えを保管できます。\n\nTtirangは10言語に対応。小さな干支の友だちと、自分らしい毎日を。\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "zh": "为平凡的一天添一位小伙伴。Ttirang带来以十二生肖为灵感的36个角色。选择自己的生肖，也可以选择最喜欢的动物。\n\n找到喜欢的小伙伴\n鼠、牛、虎、兔、龙、蛇、马、羊、猴、鸡、狗、猪，每种动物都有3个角色。给伙伴喂食、一起玩耍，发现不同的表情和反应。\n\n屏幕上的陪伴\n开启陪伴功能后，伙伴会在其他应用上方走动，用短短的气泡文字向你打招呼。此功能适用于Android，需要允许在其他应用上层显示。\n\n小任务与捉迷藏\n完成日常小任务，或找出躲起来的伙伴。利用片刻闲暇，享受一起玩耍的乐趣。\n\n今天的日记\n写下今天的心情和一起度过的时刻。日记保存在设备上，也可以通过导出和导入功能自行保管备份。\n\nTtirang支持10种语言。和生肖小伙伴一起，留下属于你的日常回忆。\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "ru": "Пригласите маленького друга в свой день. Ttirang предлагает 36 персонажей, вдохновленных 12 животными восточноазиатского зодиака. Выберите животное своего года рождения или просто любимого друга.\n\nНайдите своего любимца\nВстретьте крысу, быка, тигра, кролика, дракона, змею, лошадь, овцу, обезьяну, петуха, собаку и свинью — для каждого животного предусмотрено по три персонажа. Кормите своего друга, играйте вместе и открывайте для себя разные выражения лица и реакции.\n\nКомпаньон на вашем экране\nВключите функцию компаньона, чтобы ваш друг мог перемещаться по другим приложениям и приветствовать вас короткими речевыми пузырями. Для отображения этой функции Android требуется разрешение на использование поверх других приложений.\n\nНебольшие задания и прятки\nУделите немного времени ежедневным заданиям или найдите друга, который прячется. Выделите немного времени для игр в своей повседневной жизни.\n\nВаш ежедневный дневник\nПишите о своем настроении и моментах, которыми вы поделились. Записи дневника хранятся на вашем устройстве. Экспортируйте и импортируйте свой дневник, чтобы сохранить свою собственную копию.\n\nTtirang поддерживает 10 языков. Сделайте каждый день особенным вместе с маленьким другом-знаком зодиака.\n\nКеннет Апп\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/",
+      "fil": "Mag-imbita ng isang munting kaibigan sa iyong araw. May 36 na karakter si Ttirang na inspirasyon ng 12 hayop ng East Asian zodiac. Piliin ang hayop ng iyong taon ng kapanganakan o isang kaibigan lamang na iyong minamahal.\n\nHanapin ang iyong paborito\nKilalanin ang daga, baka, tigre, kuneho, dragon, ahas, kabayo, tupa, unggoy, tandang, aso at baboy, na may tatlong karakter para sa bawat hayop. Pakainin ang iyong kaibigan, maglaro nang sama-sama at tuklasin ang iba't ibang ekspresyon at reaksyon.\n\nIsang kasama sa iyong screen\nI-on ang feature na kasama para hayaan ang iyong kaibigan na dumaan sa iba pang mga app at batiin ka gamit ang maiikling speech bubble. Ang feature na Android na ito ay nangangailangan ng pahintulot upang maipakita sa iba pang mga app.\n\nMaliliit na misyon at taguan\nGumugol ng ilang sandali sa mga pang-araw-araw na misyon o maghanap ng kaibigang nagtatago. Gumawa ng maliit na espasyo para sa paglalaro sa iyong pang-araw-araw na gawain.\n\nAng iyong pang-araw-araw na talaarawan\nIsulat ang tungkol sa iyong kalooban at mga sandaling ibinahagi ninyo. Ang mga entry sa talaarawan ay nakaimbak sa iyong device. I-export at i-import ang iyong talaarawan para mapanatili ang iyong sariling kopya.\n\nSinusuportahan ng Ttirang ang 10 wika. Gawing iyo ang bawat araw gamit ang isang munting kaibigan sa zodiac.\n\nKenneth App\ngkimmulti@gmail.com\nhttps://gkimmulti-ui.github.io/"
+    }
+  },
+  {
     "slug": "levelday",
     "name": {
       "ko": "LEVEL DAY: 데일리 플래너 & 일기",

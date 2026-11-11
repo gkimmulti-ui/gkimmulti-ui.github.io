@@ -2,15 +2,18 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const vm=require('node:vm');
 const path=require('node:path');
+const crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const apps=read('data/apps.json'),langs=read('data/languages.json'),translations=read('data/translations.json');
 assert.equal(apps.length,26);assert.equal(langs.length,12);
+const catalogVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'assets/catalog.js'))).digest('hex').slice(0,16);
 for(const {code} of langs){
  for(const key of Object.keys(translations.en))assert.ok(translations[code][key],code+'/'+key);
  for(const app of apps)assert.ok(app.desc[code],app.slug+'/'+code);
  const html=fs.readFileSync(path.join(root,code==='ko'?'index.html':code+'/index.html'),'utf8');
  assert.ok(html.includes('id="translation-notice"'));
+ assert.ok(html.includes('/assets/catalog.js?v='+catalogVersion),code+' uses the current catalog content hash');
  assert.ok(html.includes('value="translate:bn"'));
  assert.ok(html.includes('value="translate:ta"'));
  assert.ok(!html.includes('[object Object]'));

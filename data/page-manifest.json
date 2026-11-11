@@ -4,8 +4,8 @@
     "path": "index.html",
     "lang": "ko",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "e1e0983381a769221762ba1454cf285a9aff74eaddf247ca6e458c22c86a95e8"
+    "lastmod": "2026-11-11",
+    "sha256": "c48f3fd1b6c37d63eb6f9bfdd3f307012d3dcd364ae37dec41b0c3cc9196fb3e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/pocketsanta/",
@@ -172,8 +172,8 @@
     "path": "apps/chaengkim/index.html",
     "lang": "ko",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "49a647903b8a877f78f5398cdcc1c7f12b76ad62809512f9de3a9de5aa0d4bfa"
+    "lastmod": "2026-11-11",
+    "sha256": "f1cf64b20f0dbc37a2edf3f8325f7cbcb13fb4d5fa3d308a005af2bdde99d1fa"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/slimjoy/",
@@ -212,16 +212,16 @@
     "path": "apps/16mode/index.html",
     "lang": "ko",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "d106536694b99343f2693fcaee14842c744c94ab46090c81d3f7ee1391785643"
+    "lastmod": "2026-11-11",
+    "sha256": "e79e76bd0d9fc5741f2b852bbdc821ee1c5854884d3f4180d034831b5fd22ed6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/",
     "path": "en/index.html",
     "lang": "en",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "3d2595b1ae68c0b19e11bdef2dc4ba78914e25fd409ee3b26e02f222a06f7d37"
+    "lastmod": "2026-11-11",
+    "sha256": "61354da4a06ad38ff72dfa92ee5cfffca745f76dff5551c8077124d53b184eb2"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/pocketsanta/",
@@ -388,8 +388,8 @@
     "path": "en/apps/chaengkim/index.html",
     "lang": "en",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "de8df47b39bd741b1659ee58d2860ff9ac69f615cddf90e35c7d2806210e5d3c"
+    "lastmod": "2026-11-11",
+    "sha256": "4e310b617314645bb570db0c1f4e64a836917f70eaa4b1e899d76f9eeb92bf14"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/slimjoy/",
@@ -428,16 +428,16 @@
     "path": "en/apps/16mode/index.html",
     "lang": "en",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "37b09ffc26a6c9559e5d06e64c6e0efb76aae306b4cd1a4fc6c199a0049ee2cf"
+    "lastmod": "2026-11-11",
+    "sha256": "69b9237394f747643ca590a7a91fdd6ec73c1064f2594a4532adffa1c43df8d4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/",
     "path": "ja/index.html",
     "lang": "ja",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "cf3ba568ad1c55b9cef9481c1d28ff80fcca5aa56ee511128ef70876d92a6c13"
+    "lastmod": "2026-11-11",
+    "sha256": "96887a1ba545e1cfdedeef5d43fff2547f02364f881bc6d32dd2da2f1248a7f4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/pocketsanta/",
@@ -604,8 +604,8 @@
     "path": "ja/apps/chaengkim/index.html",
     "lang": "ja",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "8f9dc8eefc00577b024aad5b9cb91626a10273da1cea1c6511968a9e7599f40c"
+    "lastmod": "2026-11-11",
+    "sha256": "743cb0d69e639d0350e16f5b5cc62dac1569577278c56a6037afd373d7bc6870"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/slimjoy/",
@@ -644,16 +644,16 @@
     "path": "ja/apps/16mode/index.html",
     "lang": "ja",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "eba0b4ba98cf621a6a4ead7bcc6d146bc70ade854af45d21432f3784580f9b84"
+    "lastmod": "2026-11-11",
+    "sha256": "6cad0385e5c8b75c0c813810fd3526fee68845d7956e7de05d2c67760ab1835e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/",
     "path": "zh/index.html",
     "lang": "zh",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "15fdfd6973c34bc9afe15c1b35fd1d29e4ef87ff14697ac1faa6ad6a190a54ec"
+    "lastmod": "2026-11-11",
+    "sha256": "6740f9cc21d641af1e6929aa2815d6b5c1f373f5852f8df94e794e2589e1902d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/pocketsanta/",
@@ -820,8 +820,8 @@
     "path": "zh/apps/chaengkim/index.html",
     "lang": "zh",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "cc43ff8c544d97ecb8f1b08eb79ba30a366263089b7146dd6a503ddd26a7c4b7"
+    "lastmod": "2026-11-11",
+    "sha256": "ae8fcd77a9cff4762cab03b94282c9d7a88d596c68d35dfce68ddf8eaaff0db0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/slimjoy/",
@@ -860,16 +860,16 @@
     "path": "zh/apps/16mode/index.html",
     "lang": "zh",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "d9c31b035f1007726ad5e599ab8bd4861e7f4b854baacaec66f0f8a649b9e191"
+    "lastmod": "2026-11-11",
+    "sha256": "8409e5c4cb1fe5bbb21b5b299f94ea40b0362db9ee8d0f748bb15f0e52bb505f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/",
     "path": "ru/index.html",
     "lang": "ru",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "af12a7eb35af4df2195c4e08af5913f5b3c4febab70792cce9ee44abab25cf2d"
+    "lastmod": "2026-11-11",
+    "sha256": "497b577ac481313d5a46c2947b2c2ce1278015d1942f11d295455b4e055c1054"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/pocketsanta/",
@@ -1036,8 +1036,8 @@
     "path": "ru/apps/chaengkim/index.html",
     "lang": "ru",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "34437e24752e0d658d72469a0b7b38ef34130ce8a848edfd2ab2bb9e1f6889c0"
+    "lastmod": "2026-11-11",
+    "sha256": "e071840710f83dce378245bff2971741c6dc983323f4cd042d087b983ece2221"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/slimjoy/",
@@ -1076,16 +1076,16 @@
     "path": "ru/apps/16mode/index.html",
     "lang": "ru",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "f6d07c9e9d95638911421d7aaf85d9e78383c3eeaa42500dbe0f47367d1d8375"
+    "lastmod": "2026-11-11",
+    "sha256": "48e2f6b755d46d8919dc4b54e7726796159f5ea94fcf8f0dd20975a70e6e58fa"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/",
     "path": "fil/index.html",
     "lang": "fil",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "eab4ec7376600f22effa5251d7414b7acd154c9b34e9e03cf8e7cf9f091054fd"
+    "lastmod": "2026-11-11",
+    "sha256": "b4d96be0bee5ad3400a8c994763528392e11f4430cf16bc2f9e058cc6bc73844"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/pocketsanta/",
@@ -1252,8 +1252,8 @@
     "path": "fil/apps/chaengkim/index.html",
     "lang": "fil",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "5c3de6adca094960a687e5396e02a4cccdd037ef1a0fb44d9d8ccc359eb09d8f"
+    "lastmod": "2026-11-11",
+    "sha256": "c484409abddd0dcb2204f53061f9695ecef69ee0b80888192fc975a00a6c6b6b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/slimjoy/",
@@ -1292,16 +1292,16 @@
     "path": "fil/apps/16mode/index.html",
     "lang": "fil",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "58d85128ef08f527a93c0d229c8b8fed5a03ba0bea40093ed60c2d3840c070d7"
+    "lastmod": "2026-11-11",
+    "sha256": "610bbcc21e5a36fe6361d8fe2ca00c331154da7806536a791a38fcedaa2354c2"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/",
     "path": "hi/index.html",
     "lang": "hi",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "94133c6fcfdd22d9fbb62c0e1847a4d4f352d7222a1ed6cfc4fb8612f162c1a1"
+    "lastmod": "2026-11-11",
+    "sha256": "a08586748b5bc9541037192458008d1c69f87cbb694a85e8d6611c3f16859b82"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/pocketsanta/",
@@ -1468,8 +1468,8 @@
     "path": "hi/apps/chaengkim/index.html",
     "lang": "hi",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "119a48fae3d3055d69d3c80d6198450298a9d6969c7b56d98805c6104d2316cd"
+    "lastmod": "2026-11-11",
+    "sha256": "fb6ce791ea3be21e84efe8cd08e407f9bd074c7e9f456d4fc4ec64f4412ac2a6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/slimjoy/",
@@ -1508,16 +1508,16 @@
     "path": "hi/apps/16mode/index.html",
     "lang": "hi",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "a3e4a2c5fd109dc2ba1a1a7ca646d4851b310d73bfc9120989c232b9dfceb3a3"
+    "lastmod": "2026-11-11",
+    "sha256": "53f9b5b03e39587a24990464d25b686df5776bec8a8208c637bc54e8a76d4a50"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/",
     "path": "es/index.html",
     "lang": "es",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "267ae352a5f41665196705dacddba83baef789ab37b3f76757d6873c8c7853d6"
+    "lastmod": "2026-11-11",
+    "sha256": "bdbaac375872fbc7406259d73560dc499eab25fcfc6908aea8a018d9e45fd2b6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/pocketsanta/",
@@ -1684,8 +1684,8 @@
     "path": "es/apps/chaengkim/index.html",
     "lang": "es",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "7a89ac635944d75eaff1f4d94555a7699cd25e33724eede8521a42f04f8ea45f"
+    "lastmod": "2026-11-11",
+    "sha256": "51ac88c812c30b9fe0e8325a41b29a23a9dc6b68497c3d62cd3bfcbd6592cf80"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/slimjoy/",
@@ -1724,16 +1724,16 @@
     "path": "es/apps/16mode/index.html",
     "lang": "es",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "7a848e8cf70c0c47830288e7021fbf9861ab322f1f7d47f14a717cc01ce3a57f"
+    "lastmod": "2026-11-11",
+    "sha256": "dffcf09a3c40cdb203002b499d5345b45487532ed99ac28836a19a3fec0ea267"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/",
     "path": "pt/index.html",
     "lang": "pt",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "4b81da54f904fdd170cb9cc55adb627caec97383c9320c6aaa60d6eca635248e"
+    "lastmod": "2026-11-11",
+    "sha256": "f21b9d79f1ff2dada186e3dd6d78057a913be509727ad291535839d62118f750"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/pocketsanta/",
@@ -1900,8 +1900,8 @@
     "path": "pt/apps/chaengkim/index.html",
     "lang": "pt",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "6019c4041174eda84546f3b9a489b3e9dce9e3edc3e805c69f6d6eea46eb89fa"
+    "lastmod": "2026-11-11",
+    "sha256": "17b1aff8195ab456e24c436716518600085d4d2e93a1c059bdda89cfc596be88"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/slimjoy/",
@@ -1940,16 +1940,16 @@
     "path": "pt/apps/16mode/index.html",
     "lang": "pt",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "5cf645b2b97dcd8b7f21fddf7e22e24c59d1958512b9137d8a65fc35ab35715e"
+    "lastmod": "2026-11-11",
+    "sha256": "38bf3a97aff2978bb14fe94edeb7b9e768696d6b71531372756d6c65617038f8"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/",
     "path": "fr/index.html",
     "lang": "fr",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "cfeaeb7d939b06d247a2d5d363ed3651a7d54b4def3cf22fc8ba7b41aaf14d38"
+    "lastmod": "2026-11-11",
+    "sha256": "757ad55b9a5a62368b398bc37783107cf0a3e030805eb0702493800416968dc3"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/pocketsanta/",
@@ -2116,8 +2116,8 @@
     "path": "fr/apps/chaengkim/index.html",
     "lang": "fr",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "2b57b605247f2c5843e0ee8bada0d8e14a83284188004dbf27106d9143d72f1f"
+    "lastmod": "2026-11-11",
+    "sha256": "208d0a739c9f7fe996bae1948b0bd8d3825b2dfc45b9da20c8a53330876da044"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/slimjoy/",
@@ -2156,16 +2156,16 @@
     "path": "fr/apps/16mode/index.html",
     "lang": "fr",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "316fb0a056429653435b98c7a3313776db7326186c24545f9a5dd63365f10416"
+    "lastmod": "2026-11-11",
+    "sha256": "4855f892c5ab20ec852cb7cfb8af646f9cb45a5e07952e8f0e9e32784717ad8a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/",
     "path": "de/index.html",
     "lang": "de",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "7a5f72108523a694530da9e683ed38bacb3a569f92bcc6e95e3bb4597c9db15c"
+    "lastmod": "2026-11-11",
+    "sha256": "c43009bbde27265e7e32a580631291a4221e8bbd078ec70de085b5fc3626ecfc"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/pocketsanta/",
@@ -2332,8 +2332,8 @@
     "path": "de/apps/chaengkim/index.html",
     "lang": "de",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "dfdaee0caeabe5600e001337a84f98bdb2c902d99d4d2df1f9e646ddf57c5754"
+    "lastmod": "2026-11-11",
+    "sha256": "ae806cedfb76ba61a369df29cbcc40b874e78bd98e51413b9ba1e78e1f33d2c7"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/slimjoy/",
@@ -2372,16 +2372,16 @@
     "path": "de/apps/16mode/index.html",
     "lang": "de",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "78fce121146ef16395900ebd056faa2f7fe95c243ec671fe7ce1bb0caf147f7f"
+    "lastmod": "2026-11-11",
+    "sha256": "40bfbc051d2042a5fcae9119aa3c4f2aff32deac2b8c44aa6ec458c11c2bb12e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/",
     "path": "id/index.html",
     "lang": "id",
     "app": null,
-    "lastmod": "2026-11-09",
-    "sha256": "353072acc8140f56111805d6499b0f688099b531baea2596571684e992d67cf0"
+    "lastmod": "2026-11-11",
+    "sha256": "80981e5608a6f63ec6abb547e0b38149aa50e7e1b3661f323399e2b4dd2511fb"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/pocketsanta/",
@@ -2548,8 +2548,8 @@
     "path": "id/apps/chaengkim/index.html",
     "lang": "id",
     "app": "chaengkim",
-    "lastmod": "2026-11-09",
-    "sha256": "f88e0cedf4bc5c6b297f300cd5185c00f57e6e526625791113c06248ae2c1e57"
+    "lastmod": "2026-11-11",
+    "sha256": "f5015344cad0e78c1695eada9b1f5d18dc18cc357b77e5f6200c852ef7e3ca9e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/slimjoy/",
@@ -2588,7 +2588,7 @@
     "path": "id/apps/16mode/index.html",
     "lang": "id",
     "app": "16mode",
-    "lastmod": "2026-10-30",
-    "sha256": "04cf9491555adcfaab63e0b97ae10327789cf58b931964add3000d3560107f2a"
+    "lastmod": "2026-11-11",
+    "sha256": "67ee6b9f530c543b3ae3f51b89f3d5c2cd3ccf38563c559153f4d8ecabdc9c92"
   }
 ]

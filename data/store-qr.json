@@ -138,6 +138,12 @@
     "image": "assets/store-qr/chaengkim-play.png"
   },
   {
+    "app": "chaengkim",
+    "store": "appstore",
+    "url": "https://apps.apple.com/kr/app/%EC%B1%99%EA%B2%A8%EB%B3%B4%EC%9E%90-%EC%B1%99%EA%B9%80/id6788755505",
+    "image": "assets/store-qr/chaengkim-appstore.png"
+  },
+  {
     "app": "slimjoy",
     "store": "play",
     "url": "https://play.google.com/store/apps/details?id=com.kennethapp.slimjoy",
@@ -172,5 +178,11 @@
     "store": "play",
     "url": "https://play.google.com/store/apps/details?id=com.sixteenmode.app",
     "image": "assets/store-qr/16mode-play.png"
+  },
+  {
+    "app": "16mode",
+    "store": "appstore",
+    "url": "https://apps.apple.com/app/mbti-16mode/id6806786879",
+    "image": "assets/store-qr/16mode-appstore.png"
   }
 ]

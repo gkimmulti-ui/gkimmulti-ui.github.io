@@ -1,0 +1,98 @@
+{
+  "rowmio": {
+    "ko-KR": {
+      "name": "RowMio: 뜨개질 단수 카운터",
+      "short": "뜨개질 단수를 세고 프로젝트별 목표·반복·메모를 한곳에서 관리하세요.",
+      "full": "뜨개질을 잠시 멈춰도, 어디까지 했는지 다시 찾기 쉽게. RowMio는 뜨개질과 코바늘 작업의 단수를 기록하는 카운터입니다. 여러 프로젝트를 따로 저장하고 필요한 작업으로 전환할 수 있습니다.\n\n탭으로 단수 기록\n단수를 올리거나 내리고, 잘못 누른 입력은 되돌릴 수 있습니다. 프로젝트마다 현재 단수를 저장해 다음 작업을 이어가세요.\n\n목표와 반복 간격\n목표 단수와 반복 간격을 정해 진행을 확인하세요. 목표나 반복 지점에 도달하면 앱 안에서 안내를 볼 수 있습니다.\n\n작업별 정리\n프로젝트 이름, 메모와 색상으로 작업을 구분하고 내용을 수정하거나 삭제할 수 있습니다.\n\n직접 관리하는 백업\n기록은 기기에 저장됩니다. JSON 텍스트를 복사해 별도로 보관하고, 붙여넣어 복원할 수 있습니다. 복원은 기존 프로젝트를 대체하므로 안내를 확인해 주세요.\n\n한국어, 영어, 일본어, 중국어 간체, 러시아어, 타갈로그어를 지원합니다. 계정 없이 핵심 기능을 오프라인으로 사용할 수 있습니다. 기기 간 자동 동기화는 제공하지 않으며, 앱 삭제 전 필요한 기록을 백업해 주세요.\n\nRowMio는 사용자가 누른 횟수를 기록하는 도구입니다. 실제 뜨개질 동작을 자동으로 감지하거나 예약 알림을 보내지는 않습니다."
+    },
+    "en-US": {
+      "name": "RowMio: Row Counter",
+      "short": "Count knitting rows and keep project goals, repeats and notes together.",
+      "full": "Pick up your knitting where you left off. RowMio is a row counter for knitting and crochet, with separate records for the projects you are working on.\n\nCOUNT WITH A TAP\nIncrease or decrease the row count and undo an accidental entry. Each project keeps its own count so you can switch between pieces.\n\nFOLLOW YOUR GOALS AND REPEATS\nSet a target row count and a repeat interval. In-app messages help you notice when you reach a target or repeat point.\n\nORGANIZE EACH PROJECT\nAdd a name, notes and a color to tell your projects apart. Edit or remove projects as your work changes.\n\nKEEP A COPY OF YOUR WORK\nRecords are saved on your device. Copy a JSON text backup somewhere safe, then paste it into the app to restore. Restoring replaces existing projects, so review the confirmation first.\n\nAvailable in Korean, English, Japanese, Simplified Chinese, Russian and Tagalog. Core features work offline without an account. There is no automatic cross-device sync. Back up important records before uninstalling.\n\nRowMio records your taps. It does not automatically detect knitting movements or send scheduled reminders."
+    },
+    "ja-JP": {
+      "name": "RowMio：編み物の段数カウンター",
+      "short": "編み物の段数を記録。作品ごとの目標、繰り返し、メモをまとめて管理。",
+      "full": "編み物を再開するとき、前回の続きがすぐ分かるように。RowMioは棒針編み・かぎ針編みの段数を記録するカウンターです。複数の作品を個別に保存し、作業に合わせて切り替えられます。\n\nタップで段数を記録\n段数を増減し、押し間違いは元に戻せます。作品ごとの段数を保存して、続きから取り組めます。\n\n目標と繰り返し\n目標の段数と繰り返し間隔を設定。目標や繰り返しの区切りに達すると、アプリ内にメッセージが表示されます。\n\n作品ごとに整理\n名前、メモ、色で作品を見分けやすく。内容の編集やプロジェクトの削除もできます。\n\n自分で保管するバックアップ\n記録は端末に保存されます。JSONテキストをコピーして別途保管し、貼り付けて復元できます。復元すると既存プロジェクトを置き換えるため、確認内容を読んでから実行してください。\n\n韓国語、英語、日本語、中国語簡体字、ロシア語、タガログ語に対応。アカウント不要で主な機能をオフラインで利用できます。端末間の自動同期はありません。アプリ削除前に必要な記録をバックアップしてください。\n\nRowMioはタップを記録するツールです。編む動作の自動検出や予約通知は行いません。"
+    },
+    "zh-CN": {
+      "name": "RowMio：编织行数计数器",
+      "short": "记录编织行数，分别管理项目目标、重复间隔与备注。",
+      "full": "重新拿起织物时，轻松找到上次停下的位置。RowMio是一款用于棒针与钩针编织的行数计数器。多个项目可分别保存，随时切换。\n\n点击记录行数\n增加或减少计数，误操作后可撤销。每个项目保留独立计数，方便继续未完成的作品。\n\n设置目标与重复间隔\n设定目标行数和重复间隔。到达目标或重复节点时，应用内会显示提示。\n\n整理不同作品\n使用名称、备注和颜色区分项目，并按需要编辑或删除。\n\n自行保管备份\n记录保存在设备上。可复制JSON文本并另行保存，再粘贴到应用中恢复。恢复会替换已有项目，请先阅读确认提示。\n\n支持韩语、英语、日语、简体中文、俄语和他加禄语。核心功能无需账号即可离线使用。不提供跨设备自动同步，请在卸载前备份重要记录。\n\nRowMio记录您点击的次数，不会自动识别编织动作，也不发送定时提醒。"
+    },
+    "ru-RU": {
+      "name": "RowMio: счётчик рядов",
+      "short": "Считайте ряды и храните цели, повторы и заметки отдельно для каждого проекта.",
+      "full": "Возвращайтесь к вязанию с того места, где остановились. RowMio — счётчик рядов для вязания спицами и крючком с отдельными записями для разных проектов.\n\nСЧИТАЙТЕ НАЖАТИЕМ\nУвеличивайте или уменьшайте число рядов и отменяйте случайный ввод. У каждого проекта свой счётчик, поэтому между работами легко переключаться.\n\nСЛЕДИТЕ ЗА ЦЕЛЯМИ И ПОВТОРАМИ\nЗадайте целевое число рядов и интервал повторов. При достижении цели или точки повтора сообщение появится внутри приложения.\n\nОРГАНИЗУЙТЕ ПРОЕКТЫ\nДобавьте название, заметки и цвет. Редактируйте или удаляйте проекты по мере работы.\n\nСОХРАНЯЙТЕ КОПИЮ\nЗаписи хранятся на устройстве. Скопируйте текст JSON в надёжное место и вставьте его в приложение для восстановления. Восстановление заменяет текущие проекты: сначала прочитайте подтверждение.\n\nПоддерживаются корейский, английский, японский, упрощённый китайский, русский и тагальский. Основные функции работают офлайн без аккаунта. Автоматической синхронизации между устройствами нет. Сохраните нужные записи перед удалением приложения.\n\nRowMio учитывает ваши нажатия, не распознаёт движения при вязании и не отправляет запланированные напоминания."
+    },
+    "fil": {
+      "name": "RowMio: Bilang ng Hanay",
+      "short": "Bilangin ang hanay sa knitting at crochet, kasama ang target, ulit at mga tala.",
+      "full": "Ipagpatuloy ang pagniniting mula sa huling hanay. Ang RowMio ay row counter para sa knitting at crochet, na may hiwalay na tala para sa bawat proyekto.\n\nMAGBILANG SA ISANG TAP\nDagdagan o bawasan ang bilang ng hanay at i-undo ang maling tap. May sariling counter ang bawat proyekto para madaling lumipat ng ginagawa.\n\nTARGET AT PAG-UULIT\nMagtakda ng target na bilang at pagitan ng pag-uulit. May mensahe sa loob ng app kapag naabot ang target o punto ng pag-uulit.\n\nAYUSIN ANG MGA PROYEKTO\nLagyan ng pangalan, tala at kulay ang bawat proyekto. Maaari mong baguhin o burahin ang mga ito habang umuusad ang gawain.\n\nMAGTABI NG BACKUP\nNaka-save sa device ang mga tala. Kopyahin ang JSON text sa ligtas na lugar at i-paste ito sa app para i-restore. Pinapalitan ng restore ang kasalukuyang mga proyekto, kaya basahin muna ang kumpirmasyon.\n\nMay Korean, English, Japanese, Simplified Chinese, Russian at Tagalog. Gumagana ang pangunahing feature offline nang walang account. Walang awtomatikong pag-sync sa ibang device. Mag-backup bago mag-uninstall.\n\nBinibilang ng RowMio ang mga tap mo. Hindi nito awtomatikong nakikilala ang galaw ng pagniniting o nagpapadala ng naka-iskedyul na paalala."
+    }
+  },
+  "bagsum": {
+    "ko-KR": {
+      "name": "Bag Sum: 수하물 무게 계산",
+      "short": "여행별 짐 목록을 만들고 가방 무게·수량·허용 중량을 함께 확인하세요.",
+      "full": "짐을 챙기며 무게도 함께 정리하세요. Bag Sum은 여행별로 가방과 물품 목록을 만들고, 입력한 무게와 수량으로 가방의 총무게를 계산하는 도구입니다.\n\n여행과 가방별 목록\n여러 여행을 나누어 관리하고 각 가방에 물품을 추가하세요. 물품 이름, 수량, 개당 무게와 체크 상태를 기록할 수 있습니다.\n\n가방 자체 무게까지 계산\n빈 가방 무게와 물품 무게를 합산합니다. 직접 입력한 허용 중량과 비교해 남은 여유 또는 초과 상태를 확인하세요.\n\nkg와 lb 지원\n익숙한 무게 단위를 선택해 목록을 관리할 수 있습니다.\n\n기기 저장과 JSON 백업\n기록은 기기에 저장됩니다. OS 공유창으로 JSON 백업을 내보내고 시스템 파일 선택기로 복원할 수 있습니다. 가져오기는 기존 데이터를 대체하므로 먼저 필요한 기록을 백업해 주세요.\n\n한국어, 영어, 일본어, 중국어 간체, 러시아어, 타갈로그어를 지원합니다. 계정 없이 핵심 기능을 오프라인으로 사용할 수 있습니다. 앱 자체의 클라우드 동기화는 없으며 기기 설정에 따른 Android 백업은 별개입니다.\n\nBag Sum은 저울이 아닙니다. 계산은 입력값에 따라 달라지므로 실제 무게와 항공사의 최신 수하물 규정을 출발 전에 따로 확인해 주세요."
+    },
+    "en-US": {
+      "name": "Bag Sum: Luggage Weight",
+      "short": "Plan packing lists, total bag weights and check your weight limits.",
+      "full": "Keep your packing list and luggage weight together. Bag Sum organizes trips, bags and items, then calculates bag totals from the weights and quantities you enter.\n\nPACK BY TRIP AND BAG\nCreate separate trips and add items to each bag. Record item names, quantities, weight per item and checked status.\n\nINCLUDE THE EMPTY BAG\nAdd the weight of the bag itself to your packed items. Set your own weight allowance and see the remaining capacity or overweight status.\n\nWORK IN KG OR LB\nChoose the weight unit that suits your planning.\n\nSAVE AND BACK UP\nRecords are stored on your device. Export a JSON backup through the OS share sheet and restore a file through the system picker. Import replaces existing data, so keep a backup before restoring.\n\nAvailable in Korean, English, Japanese, Simplified Chinese, Russian and Tagalog. Core features work offline without an account. The app does not provide cloud sync; Android system backup, where enabled by your device settings, is separate.\n\nBag Sum is not a scale. Results depend on the values you enter. Check the actual weight and your airline's current baggage rules before travelling."
+    },
+    "ja-JP": {
+      "name": "Bag Sum：荷物の重さ計算",
+      "short": "旅行ごとの持ち物を整理し、バッグの重さ、個数、重量上限をまとめて確認。",
+      "full": "荷造りリストと重さを、一緒に管理。Bag Sumは旅行、バッグ、持ち物を整理し、入力した重さと個数からバッグの総重量を計算するツールです。\n\n旅行・バッグごとに整理\n旅行を分けて作成し、それぞれのバッグに持ち物を追加。名前、個数、1個の重さ、チェック状態を記録できます。\n\nバッグ本体の重さも合計\n空のバッグと中身の重さを合算します。自分で重量上限を設定して、残りの余裕や超過を確認できます。\n\nkgとlbに対応\n使いやすい単位を選んで準備できます。\n\n端末に保存してバックアップ\n記録は端末内に保存。OSの共有画面からJSONを書き出し、ファイル選択画面で読み込んで復元できます。読み込みは既存データを置き換えるため、先に必要な内容をバックアップしてください。\n\n韓国語、英語、日本語、中国語簡体字、ロシア語、タガログ語に対応。主な機能はアカウント不要でオフライン利用できます。アプリ独自のクラウド同期はありません。端末設定に応じたAndroidのバックアップは別の仕組みです。\n\nBag Sumは計量器ではありません。結果は入力値に基づきます。出発前に実際の重量と航空会社の最新手荷物規定を別途確認してください。"
+    },
+    "zh-CN": {
+      "name": "Bag Sum：行李重量计算",
+      "short": "按旅行整理物品清单，计算行李总重并核对自设重量上限。",
+      "full": "整理行李清单，也整理行李重量。Bag Sum按旅行、行李和物品分类管理，根据您输入的重量与数量计算每件行李的总重。\n\n按旅行和行李分类\n创建不同旅行，为各个行李添加物品。记录名称、数量、单件重量及勾选状态。\n\n计入行李箱自重\n合计空箱与所装物品的重量。设置自己的重量上限，查看剩余重量额度或超重状态。\n\n支持kg与lb\n选择适合自己的重量单位。\n\n本地保存与备份\n记录保存在设备上。可通过系统分享面板导出JSON备份，再使用系统文件选择器导入恢复。导入会替换现有数据，请先备份重要内容。\n\n支持韩语、英语、日语、简体中文、俄语和他加禄语。核心功能无需账号即可离线使用。应用不提供云同步；依设备设置启用的Android系统备份属于独立功能。\n\nBag Sum不是电子秤，结果取决于您的输入。出行前请另行确认实际重量及航空公司最新行李规定。"
+    },
+    "ru-RU": {
+      "name": "Bag Sum: вес багажа",
+      "short": "Собирайте вещи по списку и считайте вес каждой сумки с учётом лимита.",
+      "full": "Список вещей и вес багажа в одном месте. Bag Sum помогает организовать поездки, сумки и вещи, а затем рассчитывает общий вес по введённым значениям и количеству.\n\nСПИСКИ ПО ПОЕЗДКАМ И СУМКАМ\nСоздавайте отдельные поездки и добавляйте вещи в каждую сумку. Указывайте название, количество, вес одной вещи и отметку в списке.\n\nУЧИТЫВАЙТЕ САМУ СУМКУ\nСложите вес пустой сумки и содержимого. Задайте собственный лимит и проверьте оставшийся запас или перевес.\n\nКИЛОГРАММЫ И ФУНТЫ\nВыберите удобную единицу веса: kg или lb.\n\nЛОКАЛЬНОЕ ХРАНЕНИЕ И КОПИИ\nЗаписи сохраняются на устройстве. Отправьте резервную копию JSON через системное меню и восстановите файл через системное окно выбора файлов. Импорт заменяет текущие данные: сначала сохраните важные записи.\n\nПоддерживаются корейский, английский, японский, упрощённый китайский, русский и тагальский. Основные функции работают офлайн без аккаунта. Облачной синхронизации приложения нет; резервное копирование Android, если включено на устройстве, работает отдельно.\n\nBag Sum не заменяет весы. Расчёт зависит от ваших данных. Перед поездкой проверьте фактический вес и действующие правила авиакомпании."
+    },
+    "fil": {
+      "name": "Bag Sum: Timbang ng Bagahe",
+      "short": "Ayusin ang packing list at kalkulahin ang bigat ng bawat bag ayon sa limitasyon.",
+      "full": "Pagsamahin ang packing list at bigat ng bagahe. Inaayos ng Bag Sum ang biyahe, bag at mga gamit, at kinakalkula ang kabuuang bigat mula sa timbang at daming inilagay mo.\n\nLISTAHAN BAWAT BIYAHE AT BAG\nGumawa ng magkakahiwalay na biyahe at magdagdag ng gamit sa bawat bag. Itala ang pangalan, dami, bigat bawat isa at check status.\n\nISAMA ANG BIGAT NG BAG\nIdagdag ang bigat ng walang-lamang bag sa laman nito. Magtakda ng sariling limitasyon at tingnan kung may natitirang allowance o sobrang bigat.\n\nKG O LB\nPiliin ang yunit ng bigat na mas pamilyar sa iyo.\n\nLOKAL NA SAVE AT BACKUP\nNaka-save sa device ang mga tala. Mag-export ng JSON backup sa OS share sheet at i-restore ang file sa system picker. Pinapalitan ng import ang kasalukuyang data, kaya mag-backup muna.\n\nMay Korean, English, Japanese, Simplified Chinese, Russian at Tagalog. Gumagana offline ang pangunahing feature nang walang account. Walang cloud sync ang app; hiwalay ang Android system backup kung naka-enable sa device.\n\nHindi timbangan ang Bag Sum. Nakabatay ang resulta sa inilagay mong halaga. Suriin ang aktuwal na bigat at kasalukuyang tuntunin ng airline bago bumiyahe."
+    }
+  },
+  "bracketbud": {
+    "ko-KR": {
+      "name": "Bracket Bud: 토너먼트 대진표",
+      "short": "2~32팀 대진표를 만들고 점수·승자를 기록한 뒤 PNG로 공유하세요.",
+      "full": "작은 대회부터 친구들과의 경기까지, 대진표를 간편하게 정리하세요. Bracket Bud는 2~32개 팀 또는 참가자의 싱글 엘리미네이션 토너먼트(한 번 패하면 탈락)를 만드는 도구입니다.\n\n참가자와 시드 정리\n팀이나 참가자 이름을 입력하고 순서를 조정하거나 섞을 수 있습니다. 인원수에 맞춰 필요한 부전승이 자동으로 배치됩니다.\n\n점수와 승자 기록\n경기 점수와 승자를 입력하며 토너먼트를 진행하세요. 앞선 라운드의 승자를 수정하면 영향을 받는 후속 결과가 초기화되므로 변경 내용을 확인할 수 있습니다.\n\n전체 대진표 PNG 공유\n대진표를 이미지로 내보내 OS 공유창에서 원하는 앱으로 전달할 수 있습니다. 참가자 이름과 결과가 포함될 수 있으므로 공유 전에 확인해 주세요.\n\n로컬 저장과 JSON 백업\n대회는 기기에 저장됩니다. JSON으로 백업하고 시스템 파일 선택기로 가져올 수 있습니다. 가져온 대회는 새 사본으로 추가됩니다.\n\n한국어, 영어, 일본어, 중국어 간체, 러시아어, 타갈로그어를 지원합니다. 계정 없이 핵심 기능을 오프라인으로 사용할 수 있습니다. 기기 간 자동 동기화나 실시간 온라인 경기 운영은 제공하지 않습니다.\n\nBracket Bud는 사용자가 입력한 대진과 결과를 정리합니다. 공식 경기 판정이나 인증을 대신하지 않습니다."
+    },
+    "en-US": {
+      "name": "Bracket Bud: Tournament",
+      "short": "Make 2–32-team brackets, record scores and winners, and share a PNG.",
+      "full": "Keep your next small tournament organized. Bracket Bud builds single-elimination brackets for 2–32 teams or participants.\n\nSET UP PARTICIPANTS AND SEEDS\nEnter team or participant names, adjust their order or shuffle the seeds. Byes are placed automatically when the number of entrants requires them.\n\nRECORD SCORES AND WINNERS\nEnter match scores and choose winners as the tournament progresses. Changing a winner in an earlier round clears affected later results, so review changes before confirming.\n\nSHARE THE BRACKET AS A PNG\nExport the full bracket as an image and send it through the operating system's share sheet. Review participant names and results before sharing.\n\nSAVE LOCALLY AND BACK UP\nTournaments are stored on your device. Export a JSON backup or import a file through the system picker. Imported tournaments are added as new copies.\n\nAvailable in Korean, English, Japanese, Simplified Chinese, Russian and Tagalog. Core features work offline without an account. There is no automatic cross-device sync or live online tournament management.\n\nBracket Bud organizes the entries and results you provide. It does not replace official match rulings or certification."
+    },
+    "ja-JP": {
+      "name": "Bracket Bud：トーナメント表",
+      "short": "2〜32チームの対戦表を作成。得点と勝者を記録してPNGで共有。",
+      "full": "小さな大会や仲間との対戦を、見やすい表で管理。Bracket Budは2〜32チームまたは参加者のシングルエリミネーション式トーナメントを作るツールです。\n\n参加者とシードを設定\nチーム名や参加者名を入力し、順番を調整したりシャッフルしたりできます。人数に応じて必要な不戦勝を自動で配置します。\n\n得点と勝者を記録\n試合ごとの得点と勝者を入力して大会を進行。前のラウンドの勝者を変更すると、影響する後続結果がリセットされるため、変更内容を確認してください。\n\nトーナメント表をPNGで共有\n表全体を画像に書き出し、OSの共有画面から好きなアプリへ送れます。参加者名や結果を含むため、共有前に内容を確認してください。\n\n端末保存とJSONバックアップ\n大会は端末内に保存。JSONで書き出し、システムのファイル選択から読み込めます。読み込んだ大会は新しいコピーとして追加されます。\n\n韓国語、英語、日本語、中国語簡体字、ロシア語、タガログ語に対応。主な機能はアカウント不要でオフライン利用できます。端末間の自動同期やオンラインでのリアルタイム大会運営は提供しません。\n\nBracket Budは入力した対戦と結果を整理するツールです。公式の判定や認証に代わるものではありません。"
+    },
+    "zh-CN": {
+      "name": "Bracket Bud：淘汰赛对阵表",
+      "short": "创建2至32队淘汰赛，记录比分与胜者，并以PNG分享对阵表。",
+      "full": "为小型赛事和朋友间的比赛整理对阵。Bracket Bud可为2至32支队伍或选手创建单败淘汰赛。\n\n安排参赛者与种子\n输入队伍或选手名称，调整顺序或随机打乱。应用会依据参赛人数自动安排所需轮空。\n\n记录比分与获胜者\n随着赛事进行，输入每场比分并选择胜者。修改较早轮次的胜者会清除受影响的后续结果，请先确认变更。\n\n通过PNG分享对阵表\n将完整对阵表导出为图片，并通过系统分享面板发送。图片可能包含参赛者名称和结果，分享前请检查。\n\n本地保存与JSON备份\n赛事保存在设备上。可导出JSON备份，也可通过系统文件选择器导入。导入的赛事会作为新副本添加。\n\n支持韩语、英语、日语、简体中文、俄语和他加禄语。核心功能无需账号即可离线使用。不提供跨设备自动同步或实时在线赛事管理。\n\nBracket Bud整理您提供的对阵和结果，不替代官方比赛裁决或认证。"
+    },
+    "ru-RU": {
+      "name": "Bracket Bud: турнирная сетка",
+      "short": "Создавайте сетки на 2–32 команды, записывайте результаты и отправляйте PNG.",
+      "full": "Организуйте небольшой турнир или соревнование с друзьями. Bracket Bud создаёт сетки на выбывание для 2–32 команд или участников.\n\nУЧАСТНИКИ И ПОСЕВ\nВведите названия команд или имена, измените порядок или перемешайте участников. При необходимости проходы без игры назначаются автоматически.\n\nСЧЁТ И ПОБЕДИТЕЛИ\nЗаписывайте счёт матчей и выбирайте победителей. Если изменить победителя раннего раунда, затронутые последующие результаты сбрасываются. Проверьте изменение перед подтверждением.\n\nОТПРАВКА СЕТКИ В PNG\nЭкспортируйте всю сетку как изображение и отправьте через системное меню. Перед отправкой проверьте имена участников и результаты.\n\nЛОКАЛЬНОЕ ХРАНЕНИЕ И JSON\nТурниры сохраняются на устройстве. Экспортируйте резервную копию JSON или импортируйте файл через системное окно выбора файлов. Импортированные турниры добавляются как новые копии.\n\nПоддерживаются корейский, английский, японский, упрощённый китайский, русский и тагальский. Основные функции работают офлайн без аккаунта. Нет автоматической синхронизации между устройствами и управления онлайн-турниром в реальном времени.\n\nBracket Bud упорядочивает введённые вами пары и результаты. Он не заменяет официальные судейские решения или сертификацию."
+    },
+    "fil": {
+      "name": "Bracket Bud: Mga Paligsahan",
+      "short": "Gumawa ng bracket para sa 2–32 team, magtala ng resulta at magbahagi ng PNG.",
+      "full": "Ayusin ang maliit na paligsahan o laro kasama ang mga kaibigan. Gumagawa ang Bracket Bud ng single-elimination bracket para sa 2–32 koponan o kalahok.\n\nMGA KALAHOK AT SEED\nIlagay ang pangalan ng koponan o kalahok. Ayusin ang pagkakasunod-sunod o i-shuffle. Awtomatikong nilalagay ang bye kapag kailangan ayon sa dami ng kalahok.\n\nPUNTOS AT NANALO\nItala ang puntos at piliin ang nanalo habang umuusad ang paligsahan. Kapag binago ang nanalo sa naunang round, mare-reset ang mga apektadong susunod na resulta. Suriin muna bago kumpirmahin.\n\nIBAHAGI BILANG PNG\nI-export ang buong bracket bilang larawan at ipadala sa OS share sheet. Suriin ang pangalan at resulta ng mga kalahok bago ibahagi.\n\nLOKAL NA SAVE AT JSON BACKUP\nNaka-save sa device ang paligsahan. Mag-export ng JSON backup o mag-import ng file sa system picker. Idinadagdag ang mga na-import na paligsahan bilang bagong kopya.\n\nMay Korean, English, Japanese, Simplified Chinese, Russian at Tagalog. Gumagana offline ang pangunahing feature nang walang account. Walang awtomatikong pag-sync sa ibang device o live online tournament management.\n\nInaayos ng Bracket Bud ang mga laban at resultang inilagay mo. Hindi ito kapalit ng opisyal na paghatol o sertipikasyon ng laro."
+    }
+  }
+}

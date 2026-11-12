@@ -51,7 +51,7 @@
 <div class="wrap">
   <p class="eyebrow">MBTI 16MODE</p>
   <h1 id="h1">Privacy Policy</h1>
-  <p class="meta"><span id="eff">Effective October 3, 2026</span> · Kenneth App · <a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a></p>
+  <p class="meta"><span id="eff">Effective November 12, 2026</span> · Kenneth App · <a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a></p>
   <div class="langs" id="langs" role="group" aria-label="Language"></div>
   <div id="doc"></div>
   <hr>
@@ -59,7 +59,7 @@
 </div>
 
 <script>
-const MAIL = '<a href="mailto:gkkimmulti@gmail.com">gkkimmulti@gmail.com</a>';
+const MAIL = '<a href="mailto:gkimmulti@gmail.com">gkimmulti@gmail.com</a>';
 const G_PRIV = 'https://policies.google.com/privacy';
 const G_PARTNER = 'https://policies.google.com/technologies/partner-sites';
 const G_ADC = 'https://myadcenter.google.com';
@@ -72,131 +72,426 @@ const LANGS = [
 
 // Section format: [title, paragraph, (optional) list, (optional) paragraph after list]
 const T = {
-  en:{ title:"Privacy Policy", eff:"Effective October 3, 2026",
-    sumL:"In short:", sum:"MBTI 16MODE is offline-first: the nickname, progress and settings you create stay <strong>on your device</strong>. We run no servers, have no accounts, and never sell your data. The only data that leaves your device is what <strong>Google AdMob</strong> uses to show ads (banner, full-screen and optional rewarded ads).",
-    s:[
-      ["Information we collect","We (the developer) do not collect, receive or store any personal information. The app has no user accounts, never asks you to sign in, and has no server of its own."],
-      ["Data stored on your device","To function, the app saves the following <strong>locally on your device only</strong>:",
-        ["A nickname you optionally enter","Your selected base mode and growth goals","Progress: XP, levels, streaks, completed quests, earned badges","Settings: language, notifications, sound preferences"],
-        "This data never leaves your device and is not accessible to us or anyone else."],
-      ["Deleting your data","Erase everything anytime via <code>Profile → Data → Reset Data</code>, or by uninstalling the app."],
-      ["Advertising (Google AdMob)","The app shows three kinds of ads through Google AdMob: a banner at the bottom of the screen, an occasional full-screen ad after you finish a mode session (at most once every 3 minutes), and a rewarded ad that you choose to watch for bonus XP. To serve ads, Google and its partners may collect and use:",
-        ["Your device's advertising identifier (Android Advertising ID)","IP address and the approximate location derived from it","Device and app information (model, OS version, language, app version)","Ad interaction data (ads shown, clicks) and SDK diagnostics"],
-        "Google uses this data to deliver and measure ads, to personalize them where permitted, and to prevent fraud, as described in the "+a(G_PRIV,"Google Privacy Policy")+" and "+a(G_PARTNER,"how Google uses information from sites or apps that use its services")+". We do not receive this data, and we use no other analytics or tracking SDK. In your device's ad settings you can reset or delete your Advertising ID or turn off personalized ads."],
-      ["Ad consent (Europe and similar regions)","If you are in the European Economic Area, the United Kingdom or Switzerland, the app shows Google's consent message before any ad is requested, and ads are only requested in line with your choice. To change your choice later, reinstall the app or clear its data and the consent message will appear again."],
-      ["iPhone and iPad (no tracking)","On iOS, the app does not ask for tracking permission (App Tracking Transparency) and does not track you across other companies' apps or websites. Without that permission, your device's advertising identifier (IDFA) is not available to the app or to Google."],
-      ["Permissions","On Android the app requests only Internet access and the Advertising ID permission (<code>com.google.android.gms.permission.AD_ID</code>), both used solely to show ads. It does not access your contacts, location, camera, microphone, photos or files. Any optional feature added later (such as local reminders) will be clearly described and stay optional."],
-      ["Data security","Your app data stays on your device and is protected by your device's own security. Communication between the ads SDK and Google uses encrypted connections (HTTPS)."],
-      ["Children","The app is suitable for all ages. We do not collect personal information from anyone, including children, and ads are served under Google's policies."],
-      ["MBTI disclaimer","MBTI-style content is for self-understanding and recommendations only — not a psychological diagnosis. Higher levels reflect usage experience, not a judgment of any person."],
-      ["Your rights and contact","Because we hold no personal data, there is nothing on our side to access, correct or delete — your app data lives on your device and you control it (section 3). You can manage the data Google uses for ads in "+a(G_ADC,"Google My Ad Center")+". Questions or requests: "+MAIL+"."],
-      ["Changes to this policy","If this policy changes, we update the effective date above. Continued use after changes means acceptance of the updated policy."]
-    ]},
-
-  ko:{ title:"개인정보처리방침", eff:"시행일: 2026년 10월 3일",
-    sumL:"요약:", sum:"MBTI 16MODE는 오프라인 우선 앱입니다. 이용자가 만든 닉네임·진행 상황·설정은 <strong>기기 안에만</strong> 저장됩니다. 저희는 서버와 계정을 운영하지 않으며 이용자의 데이터를 판매하지 않습니다. 기기 밖으로 나가는 데이터는 <strong>Google AdMob</strong>이 광고(배너·전면·선택형 보상형)를 표시하는 데 사용하는 정보뿐입니다.",
-    s:[
-      ["수집하는 정보","저희(개발자)는 어떤 개인정보도 수집·수신·보관하지 않습니다. 이 앱에는 계정과 로그인이 없고, 자체 서버도 없습니다."],
-      ["기기에 저장되는 데이터","앱 작동을 위해 다음 정보가 <strong>오직 이용자의 기기 안에만</strong> 저장됩니다:",
-        ["선택 입력하는 닉네임","선택한 기본 모드와 성장 목표","진행 상황: 경험치, 레벨, 연속 성장, 완료한 퀘스트, 획득 배지","설정: 언어, 알림, 사운드"],
-        "이 데이터는 기기를 벗어나지 않으며, 저희나 제3자가 접근할 수 없습니다."],
-      ["데이터 삭제","<code>프로필 → 데이터 → 데이터 초기화</code>에서 언제든 전체 삭제하거나, 앱을 삭제하면 됩니다."],
-      ["광고 (Google AdMob)","앱은 Google AdMob을 통해 세 가지 광고를 표시합니다: 화면 하단의 배너 광고, 모드 세션을 마친 뒤 가끔 나오는 전면 광고(최소 3분 간격), 그리고 이용자가 원할 때만 보는 보상형 광고(보너스 XP 지급). 광고 제공을 위해 Google과 파트너는 다음 정보를 수집·이용할 수 있습니다:",
-        ["기기 광고 식별자(Android 광고 ID)","IP 주소 및 이를 바탕으로 한 대략적 위치","기기·앱 정보(기종, OS 버전, 언어, 앱 버전)","광고 상호작용 데이터(노출·클릭) 및 SDK 진단 정보"],
-        "Google은 이 정보를 광고 제공·측정, (허용되는 경우) 맞춤 광고, 부정 행위 방지에 사용합니다. 자세한 내용은 "+a(G_PRIV,"Google 개인정보처리방침")+" 및 "+a(G_PARTNER,"Google 서비스를 사용하는 사이트·앱의 정보 이용 방식")+"을 참고하세요. 저희는 이 정보를 받지 않으며, 그 밖의 분석·추적 SDK는 사용하지 않습니다. 기기의 광고 설정에서 광고 ID를 재설정·삭제하거나 맞춤 광고를 해제할 수 있습니다."],
-      ["광고 동의 (유럽 등)","유럽경제지역(EEA)·영국·스위스에 있는 이용자에게는 광고를 요청하기 전에 Google의 동의 안내가 표시되며, 광고는 이용자의 선택에 따라서만 요청됩니다. 선택을 바꾸려면 앱을 재설치하거나 앱 데이터를 삭제하면 동의 안내가 다시 표시됩니다."],
-      ["iPhone·iPad (추적 안 함)","iOS에서 앱은 추적 허용(App Tracking Transparency)을 요청하지 않으며, 다른 회사의 앱·웹사이트에 걸쳐 이용자를 추적하지 않습니다. 이 허용이 없으면 기기의 광고 식별자(IDFA)는 앱과 Google 모두 사용할 수 없습니다."],
-      ["권한","Android에서 앱은 인터넷 접근과 광고 ID 권한(<code>com.google.android.gms.permission.AD_ID</code>)만 요청하며, 둘 다 광고 표시에만 사용됩니다. 연락처·위치·카메라·마이크·사진·파일에는 접근하지 않습니다. 향후 추가되는 선택 기능(예: 로컬 알림)은 명확히 안내되며 선택 사항으로 유지됩니다."],
-      ["데이터 보안","앱 데이터는 기기에만 있으며 기기 자체의 보안으로 보호됩니다. 광고 SDK와 Google 간의 통신은 암호화된 연결(HTTPS)을 사용합니다."],
-      ["아동","앱은 전체 이용가입니다. 저희는 아동을 포함한 누구로부터도 개인정보를 수집하지 않으며, 광고는 Google의 정책에 따라 제공됩니다."],
-      ["MBTI 관련 고지","앱의 MBTI 관련 내용은 자기이해와 추천을 위한 참고 정보이며, 심리 진단이 아닙니다. 높은 레벨은 사용 경험을 나타낼 뿐, 사람에 대한 평가가 아닙니다."],
-      ["이용자의 권리와 문의","저희는 개인정보를 보관하지 않으므로 저희 쪽에서 열람·정정·삭제할 정보가 없습니다. 앱 데이터는 이용자의 기기에 있으며 직접 관리할 수 있습니다(3항). Google이 광고에 사용하는 데이터는 "+a(G_ADC,"Google 내 광고 센터")+"에서 관리할 수 있습니다. 문의·요청: "+MAIL],
-      ["방침 변경","방침이 변경되면 위 시행일을 갱신합니다. 변경 후 계속 사용하면 개정된 방침에 동의한 것으로 간주됩니다."]
-    ]},
-
-  ja:{ title:"プライバシーポリシー", eff:"施行日：2026年10月3日",
-    sumL:"要点：", sum:"MBTI 16MODEはオフライン優先のアプリです。あなたが作成したニックネーム・進捗・設定は<strong>端末内にのみ</strong>保存されます。当方はサーバーもアカウントも運営しておらず、データを販売することはありません。端末の外に出るのは、<strong>Google AdMob</strong>が広告（バナー・全画面・任意のリワード広告）を表示するために使う情報だけです。",
-    s:[
-      ["収集する情報","当方（開発者）は個人情報を一切収集・受信・保存しません。本アプリにはアカウントもログインもなく、独自のサーバーもありません。"],
-      ["端末に保存されるデータ","アプリの動作のため、次の情報が<strong>端末内にのみ</strong>保存されます：",
-        ["任意で入力するニックネーム","選択した基本モードと成長目標","進捗：XP、レベル、連続記録、完了クエスト、獲得バッジ","設定：言語、通知、サウンド"],
-        "このデータは端末外に出ず、当方や第三者がアクセスすることはできません。"],
-      ["データの削除","<code>プロフィール → データ → データ初期化</code>からいつでも全削除できます。アンインストールでも消去されます。"],
-      ["広告（Google AdMob）","本アプリはGoogle AdMobを通じて3種類の広告を表示します：画面下部のバナー広告、モードセッション終了後にときどき表示される全画面広告（最短3分間隔）、そしてボーナスXPのためにあなたが自ら選んで視聴するリワード広告です。広告配信のため、Googleおよびそのパートナーは次の情報を収集・利用する場合があります：",
-        ["端末の広告識別子（Android広告ID）","IPアドレスとそこから推定されるおおよその位置","端末・アプリ情報（機種、OSバージョン、言語、アプリバージョン）","広告の操作データ（表示・クリック）およびSDKの診断情報"],
-        "Googleはこれらの情報を広告の配信・測定、（許可されている場合の）パーソナライズ、不正防止に使用します。詳しくは"+a(G_PRIV,"Googleプライバシーポリシー")+"および"+a(G_PARTNER,"Googleのサービスを使用するサイトやアプリから収集した情報の利用について")+"をご覧ください。当方はこれらの情報を受け取らず、その他の解析・追跡SDKも使用しません。端末の広告設定で広告IDのリセット・削除や、パーソナライズ広告の無効化ができます。"],
-      ["広告の同意（欧州など）","欧州経済領域（EEA）・英国・スイスにお住まいの方には、広告をリクエストする前にGoogleの同意メッセージが表示され、広告はあなたの選択に従ってのみリクエストされます。選択を変更するには、アプリを再インストールするかアプリのデータを削除すると、同意メッセージが再度表示されます。"],
-      ["iPhone・iPad（トラッキングなし）","iOSでは、本アプリはトラッキングの許可（App Tracking Transparency）を求めず、他社のアプリやウェブサイトをまたいであなたを追跡しません。この許可がない場合、端末の広告識別子（IDFA）は本アプリもGoogleも利用できません。"],
-      ["権限","Androidでは、本アプリはインターネットアクセスと広告ID権限（<code>com.google.android.gms.permission.AD_ID</code>）のみを要求し、どちらも広告表示にのみ使用します。連絡先・位置情報・カメラ・マイク・写真・ファイルにはアクセスしません。将来追加される任意機能（例：ローカル通知）は明示され、任意のままです。"],
-      ["データの安全性","アプリのデータは端末内にあり、端末自体のセキュリティで保護されます。広告SDKとGoogleとの通信には暗号化された接続（HTTPS）が使われます。"],
-      ["子どもについて","本アプリは全年齢対象です。当方は子どもを含む誰からも個人情報を収集せず、広告はGoogleのポリシーに従って配信されます。"],
-      ["MBTIに関する注意","アプリのMBTI関連の内容は自己理解と推薦のための参考情報であり、心理診断ではありません。高いレベルは使用経験を示すもので、人物評価ではありません。"],
-      ["あなたの権利とお問い合わせ","当方は個人情報を保有していないため、当方側で開示・訂正・削除する情報はありません。アプリのデータはあなたの端末にあり、ご自身で管理できます（第3項）。Googleが広告に使用するデータは"+a(G_ADC,"Googleのマイ アド センター")+"で管理できます。お問い合わせ・ご請求："+MAIL],
-      ["ポリシーの変更","本ポリシーを変更した場合、上記の施行日を更新します。変更後の継続利用は改定への同意とみなされます。"]
-    ]},
-
-  zh:{ title:"隐私政策", eff:"生效日期：2026年10月3日",
-    sumL:"简而言之：", sum:"MBTI 16MODE 是离线优先的应用。您创建的昵称、进度和设置<strong>仅保存在您的设备上</strong>。我们不运营服务器、没有账户，也绝不出售您的数据。唯一会离开您设备的，是 <strong>Google AdMob</strong> 为展示广告（横幅、全屏及可选的激励广告）所使用的信息。",
-    s:[
-      ["我们收集的信息","我们（开发者）不收集、不接收、也不存储任何个人信息。本应用没有账户、无需登录，也没有自己的服务器。"],
-      ["保存在设备上的数据","为使应用正常运行，以下信息<strong>仅保存在您的设备本地</strong>：",
-        ["您可选填的昵称","您选择的基础模式与成长目标","进度：经验值、等级、连续天数、已完成任务、已获得徽章","设置：语言、通知、声音"],
-        "这些数据不会离开您的设备，我们或任何第三方都无法访问。"],
-      ["删除您的数据","可随时通过 <code>我的资料 → 数据 → 重置数据</code> 全部清除，或卸载应用。"],
-      ["广告（Google AdMob）","本应用通过 Google AdMob 展示三种广告：屏幕底部的横幅广告；完成模式练习后偶尔出现的全屏广告（至少间隔 3 分钟）；以及由您自主选择观看以获得额外 XP 的激励广告。为投放广告，Google 及其合作伙伴可能会收集并使用以下信息：",
-        ["设备广告标识符（Android 广告 ID）","IP 地址及据此推断的大致位置","设备与应用信息（机型、系统版本、语言、应用版本）","广告互动数据（展示、点击）及 SDK 诊断信息"],
-        "Google 将这些信息用于广告投放与衡量、（在允许的情况下）个性化广告以及防止欺诈，详见 "+a(G_PRIV,"Google 隐私政策")+" 与 "+a(G_PARTNER,"Google 如何使用来自使用其服务的网站或应用的信息")+"。我们不会收到这些信息，也不使用任何其他分析或追踪 SDK。您可以在设备的广告设置中重置或删除广告 ID，或关闭个性化广告。"],
-      ["广告同意（欧洲等地区）","如果您位于欧洲经济区（EEA）、英国或瑞士，应用会在请求任何广告之前显示 Google 的同意提示，并仅按照您的选择请求广告。如需更改选择，请重新安装应用或清除应用数据，同意提示将再次出现。"],
-      ["iPhone 与 iPad（不追踪）","在 iOS 上，本应用不会请求追踪许可（App Tracking Transparency），也不会在其他公司的应用或网站之间追踪您。在没有该许可的情况下，应用和 Google 都无法使用设备的广告标识符（IDFA）。"],
-      ["权限","在 Android 上，本应用仅请求网络访问权限和广告 ID 权限（<code>com.google.android.gms.permission.AD_ID</code>），二者都只用于展示广告。本应用不访问您的通讯录、位置、相机、麦克风、照片或文件。日后新增的可选功能（如本地提醒）将明确说明并保持可选。"],
-      ["数据安全","应用数据仅保存在您的设备上，并受设备自身安全机制保护。广告 SDK 与 Google 之间的通信使用加密连接（HTTPS）。"],
-      ["儿童","本应用适合所有年龄。我们不会收集包括儿童在内任何人的个人信息，广告依照 Google 的政策提供。"],
-      ["MBTI 免责声明","应用中的 MBTI 相关内容仅供自我理解与推荐参考，并非心理诊断。较高等级代表使用经验，而非对个人的评判。"],
-      ["您的权利与联系方式","由于我们不保存任何个人信息，我们这边没有可供查阅、更正或删除的数据。应用数据保存在您的设备上，由您自行管理（第 3 条）。Google 用于广告的数据可在 "+a(G_ADC,"Google 我的广告中心")+" 管理。问题或请求："+MAIL],
-      ["政策变更","若本政策变更，我们会更新上方生效日期。变更后继续使用即表示接受更新后的政策。"]
-    ]},
-
-  ru:{ title:"Политика конфиденциальности", eff:"Действует с 3 октября 2026 г.",
-    sumL:"Коротко:", sum:"MBTI 16MODE работает офлайн: созданные вами никнейм, прогресс и настройки хранятся <strong>только на вашем устройстве</strong>. У нас нет серверов и учётных записей, и мы никогда не продаём ваши данные. Устройство покидают только данные, которые <strong>Google AdMob</strong> использует для показа рекламы (баннерной, полноэкранной и необязательной рекламы с вознаграждением).",
-    s:[
-      ["Какие данные мы собираем","Мы (разработчик) не собираем, не получаем и не храним никаких персональных данных. В приложении нет учётных записей и входа, и у него нет собственного сервера."],
-      ["Данные на вашем устройстве","Для работы приложение сохраняет следующее <strong>только на вашем устройстве</strong>:",
-        ["Никнейм, который вы вводите по желанию","Выбранный базовый режим и цели роста","Прогресс: опыт, уровни, серии, выполненные квесты, значки","Настройки: язык, уведомления, звук"],
-        "Эти данные не покидают устройство и недоступны ни нам, ни третьим лицам."],
-      ["Удаление данных","Удалите всё в любой момент через <code>Профиль → Данные → Сбросить данные</code> или удалив приложение."],
-      ["Реклама (Google AdMob)","Приложение показывает три вида рекламы через Google AdMob: баннер внизу экрана, иногда полноэкранную рекламу после завершения сессии режима (не чаще раза в 3 минуты) и рекламу с вознаграждением, которую вы смотрите только по своему желанию, чтобы получить бонусный XP. Для показа рекламы Google и его партнёры могут собирать и использовать:",
-        ["рекламный идентификатор устройства (Android Advertising ID)","IP-адрес и примерное местоположение, определённое по нему","сведения об устройстве и приложении (модель, версия ОС, язык, версия приложения)","данные о взаимодействии с рекламой (показы, нажатия) и диагностику SDK"],
-        "Google использует эти данные для показа и измерения рекламы, её персонализации (если это разрешено) и предотвращения мошенничества — см. "+a(G_PRIV,"Политику конфиденциальности Google")+" и "+a(G_PARTNER,"как Google использует информацию с сайтов и из приложений, использующих его сервисы")+". Мы эти данные не получаем и не используем других SDK аналитики или отслеживания. В рекламных настройках устройства можно сбросить или удалить рекламный идентификатор либо отключить персонализированную рекламу."],
-      ["Согласие на рекламу (Европа и др.)","Если вы находитесь в Европейской экономической зоне, Великобритании или Швейцарии, перед любым запросом рекламы приложение показывает форму согласия Google, и реклама запрашивается только в соответствии с вашим выбором. Чтобы изменить выбор, переустановите приложение или очистите его данные — форма согласия появится снова."],
-      ["iPhone и iPad (без отслеживания)","На iOS приложение не запрашивает разрешение на отслеживание (App Tracking Transparency) и не отслеживает вас в приложениях и на сайтах других компаний. Без этого разрешения рекламный идентификатор устройства (IDFA) недоступен ни приложению, ни Google."],
-      ["Разрешения","На Android приложение запрашивает только доступ в интернет и разрешение на рекламный идентификатор (<code>com.google.android.gms.permission.AD_ID</code>) — оба используются только для показа рекламы. Приложение не обращается к контактам, геолокации, камере, микрофону, фото или файлам. Любые будущие необязательные функции (например, локальные напоминания) будут чётко описаны и останутся необязательными."],
-      ["Безопасность данных","Данные приложения хранятся только на устройстве и защищены его собственными средствами безопасности. Обмен данными между рекламным SDK и Google идёт по зашифрованному соединению (HTTPS)."],
-      ["Дети","Приложение подходит для всех возрастов. Мы не собираем персональные данные ни у кого, включая детей; реклама показывается в соответствии с политиками Google."],
-      ["Оговорка о MBTI","Контент в стиле MBTI служит только для самопонимания и рекомендаций — это не психологический диагноз. Высокий уровень отражает опыт использования, а не оценку человека."],
-      ["Ваши права и контакты","Поскольку мы не храним персональные данные, у нас нет сведений, которые можно было бы предоставить, исправить или удалить. Данные приложения находятся на вашем устройстве, и вы управляете ими сами (раздел 3). Данными, которые Google использует для рекламы, можно управлять в "+a(G_ADC,"Моём рекламном центре Google")+". Вопросы и запросы: "+MAIL+"."],
-      ["Изменения политики","При изменении политики мы обновим дату вступления в силу выше. Продолжение использования означает согласие с обновлённой политикой."]
-    ]},
-
-  fil:{ title:"Patakaran sa Privacy", eff:"Epektibo mula Oktubre 3, 2026",
-    sumL:"Sa madaling salita:", sum:"Offline-first ang MBTI 16MODE: ang palayaw, progreso at setting na ginagawa mo ay nananatili <strong>sa iyong device</strong>. Wala kaming server o account, at hindi namin ibinebenta ang iyong datos. Ang tanging datos na lumalabas sa iyong device ay ang ginagamit ng <strong>Google AdMob</strong> para magpakita ng ads (banner, full-screen at opsyonal na rewarded ads).",
-    s:[
-      ["Impormasyong kinokolekta namin","Kami (ang developer) ay hindi nangongolekta, tumatanggap, o nag-iimbak ng anumang personal na impormasyon. Walang account o sign-in ang app, at wala itong sariling server."],
-      ["Datos na nasa iyong device","Para gumana, ini-save ng app ang sumusunod <strong>sa iyong device lamang</strong>:",
-        ["Palayaw na opsyonal mong ilalagay","Ang piniling base mode at growth goals","Progreso: XP, level, streak, natapos na quest, nakuhang badge","Mga setting: wika, abiso, tunog"],
-        "Hindi umaalis sa device ang datos na ito at hindi ito ma-access namin o ng sinuman."],
-      ["Pagbura ng datos","Burahin lahat anumang oras sa <code>Profile → Data → I-reset ang Data</code>, o sa pag-uninstall ng app."],
-      ["Advertising (Google AdMob)","Nagpapakita ang app ng tatlong uri ng ads sa pamamagitan ng Google AdMob: banner sa ibaba ng screen, paminsan-minsang full-screen ad pagkatapos mong tapusin ang isang mode session (hindi lalampas sa isang beses bawat 3 minuto), at rewarded ad na pinipili mong panoorin para sa bonus XP. Para maghatid ng ads, maaaring mangolekta at gumamit ang Google at mga partner nito ng:",
-        ["Advertising identifier ng device (Android Advertising ID)","IP address at tinatayang lokasyon mula rito","Impormasyon ng device at app (modelo, bersyon ng OS, wika, bersyon ng app)","Datos ng interaksyon sa ads (impression, click) at diagnostics ng SDK"],
-        "Ginagamit ng Google ang datos na ito para maghatid at sukatin ang ads, mag-personalize kung pinapayagan, at pigilan ang panloloko, gaya ng nakasaad sa "+a(G_PRIV,"Google Privacy Policy")+" at kung "+a(G_PARTNER,"paano ginagamit ng Google ang impormasyon mula sa mga site o app na gumagamit ng serbisyo nito")+". Hindi namin natatanggap ang datos na ito, at wala kaming ibang analytics o tracking SDK. Sa ad settings ng iyong device, puwede mong i-reset o i-delete ang Advertising ID o i-off ang personalized ads."],
-      ["Pahintulot sa ads (Europe at iba pa)","Kung nasa European Economic Area, United Kingdom o Switzerland ka, ipinapakita ng app ang consent message ng Google bago humiling ng anumang ad, at humihiling lang ito ng ads ayon sa iyong pinili. Para baguhin ang iyong pinili, i-reinstall ang app o i-clear ang datos nito at lalabas muli ang consent message."],
-      ["iPhone at iPad (walang tracking)","Sa iOS, hindi humihingi ang app ng pahintulot sa tracking (App Tracking Transparency) at hindi ka nito sinusubaybayan sa mga app o website ng ibang kumpanya. Kung wala ang pahintulot na ito, hindi magagamit ng app o ng Google ang advertising identifier ng iyong device (IDFA)."],
-      ["Mga pahintulot","Sa Android, humihingi lang ang app ng internet access at ng Advertising ID permission (<code>com.google.android.gms.permission.AD_ID</code>), at pareho itong para lang sa ads. Hindi ina-access ng app ang iyong contacts, location, camera, mikropono, photos o files. Ang anumang opsyonal na feature sa hinaharap (hal. lokal na paalala) ay malinaw na ipapaliwanag at mananatiling opsyonal."],
-      ["Seguridad ng datos","Nasa iyong device lang ang datos ng app at protektado ng sariling seguridad ng device. Gumagamit ng encrypted na koneksyon (HTTPS) ang komunikasyon ng ads SDK at Google."],
-      ["Mga bata","Angkop sa lahat ng edad ang app. Hindi kami nangongolekta ng personal na impormasyon mula kaninuman, kabilang ang mga bata, at inihahatid ang ads ayon sa mga patakaran ng Google."],
-      ["Paunawa sa MBTI","Ang MBTI-style na nilalaman ay para sa pag-unawa sa sarili at rekomendasyon lamang — hindi ito psychological diagnosis. Ang mas mataas na level ay karanasan sa paggamit, hindi paghatol sa tao."],
-      ["Iyong mga karapatan at pakikipag-ugnayan","Dahil wala kaming hawak na personal na datos, wala kaming maipapakita, maitatama, o mabubura sa aming panig. Nasa iyong device ang datos ng app at ikaw ang may kontrol dito (seksyon 3). Ang datos na ginagamit ng Google para sa ads ay mapapamahalaan sa "+a(G_ADC,"My Ad Center ng Google")+". Mga tanong o kahilingan: "+MAIL+"."],
-      ["Mga pagbabago sa patakaran","Kung magbabago ang patakarang ito, ia-update namin ang petsa sa itaas. Ang patuloy na paggamit pagkatapos ng pagbabago ay pagtanggap sa na-update na patakaran."]
-    ]}
+  "en": {
+    "title": "Privacy Policy",
+    "eff": "Effective November 12, 2026",
+    "sumL": "In short:",
+    "sum": "MBTI 16MODE stores your nickname, progress and settings on your device without an app account or developer-operated server. Advertising uses Google AdMob and may involve the data described below. Available ads and privacy controls depend on platform and app version.",
+    "s": [
+      [
+        "Information we collect",
+        "We do not operate an account or server to receive your nickname or progress. Google and its partners process advertising-related information as described in section 4; this is separate from your locally stored app content."
+      ],
+      [
+        "Data stored on your device",
+        "To function, the app saves the following <strong>locally on your device only</strong>:",
+        [
+          "A nickname you optionally enter",
+          "Your selected base mode and growth goals",
+          "Progress: XP, levels, streaks, completed quests, earned badges",
+          "Settings: language, notifications, sound preferences"
+        ],
+        "This data never leaves your device and is not accessible to us or anyone else."
+      ],
+      [
+        "Deleting your data",
+        "Erase everything anytime via <code>Profile → Data → Reset Data</code>, or by uninstalling the app."
+      ],
+      [
+        "Advertising (Google AdMob)",
+        "Google AdMob provides banner and occasional full-screen ads. Android also offers optional rewarded ads for bonus XP. The iOS 1.0.13 advertising update enables banner and full-screen units; rewarded ads are disabled when no production rewarded unit is configured. To provide advertising, Google and its partners may process: Full-screen ads appear after a completed mode session when returning home, no more than once every 180 seconds.",
+        [
+          "Device identifiers, including Android Advertising ID and, on iOS only with ATT permission, IDFA",
+          "IP address and the approximate location derived from it",
+          "Device and app information (model, OS version, language, app version)",
+          "Ad impressions and clicks, product interactions, crash logs and performance diagnostics"
+        ],
+        "Google uses this data to deliver and measure ads, to personalize them where permitted, and to prevent fraud, as described in the <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a> and <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">how Google uses information from sites or apps that use its services</a>. We do not receive this data, and we use no other analytics or tracking SDK. In your device's ad settings you can reset or delete your Advertising ID or turn off personalized ads."
+      ],
+      [
+        "Ad consent (Europe and similar regions)",
+        "Google UMP checks whether a consent message is required, including in the EEA, UK and Switzerland. Ad requests follow the available consent status; iOS also requires ATT permission in this app. From version 1.0.13, use the advertising privacy options in Profile when the app indicates they are required to review or change your choices. If a form cannot load, try again with a network connection. ATT permission is managed separately in iOS Settings."
+      ],
+      [
+        "iPhone and iPad: tracking permission",
+        "Before initializing Google AdMob on iOS, the app requests App Tracking Transparency (ATT) permission where it has not been decided. With permission, IDFA and advertising information may be used for cross-app/site advertising and measurement, subject to regional consent. If permission is denied, restricted, undecided or unavailable, this app disables ads while keeping its other functions usable. You can change ATT permission in iOS Settings → Privacy & Security → Tracking."
+      ],
+      [
+        "Permissions",
+        "On Android the app requests only Internet access and the Advertising ID permission (<code>com.google.android.gms.permission.AD_ID</code>), both used solely to show ads. It does not access your contacts, location, camera, microphone, photos or files. Any optional feature added later (such as local reminders) will be clearly described and stay optional."
+      ],
+      [
+        "Data security",
+        "Your app data stays on your device and is protected by your device's own security. Communication between the ads SDK and Google uses encrypted connections (HTTPS)."
+      ],
+      [
+        "Children",
+        "The app is suitable for all ages. We do not collect personal information from anyone, including children, and ads are served under Google's policies."
+      ],
+      [
+        "MBTI disclaimer",
+        "MBTI-style content is for self-understanding and recommendations only — not a psychological diagnosis. Higher levels reflect usage experience, not a judgment of any person."
+      ],
+      [
+        "Your rights and contact",
+        "Because we hold no personal data, there is nothing on our side to access, correct or delete — your app data lives on your device and you control it (section 3). You can manage the data Google uses for ads in <a href=\"https://myadcenter.google.com\" target=\"_blank\" rel=\"noopener\">Google My Ad Center</a>. Questions or requests: <a href=\"mailto:gkimmulti@gmail.com\">gkimmulti@gmail.com</a>."
+      ],
+      [
+        "Changes to this policy",
+        "If this policy changes, we update the effective date above. Continued use after changes means acceptance of the updated policy."
+      ]
+    ]
+  },
+  "ko": {
+    "title": "개인정보처리방침",
+    "eff": "시행일: 2026년 11월 12일",
+    "sumL": "요약:",
+    "sum": "MBTI 16MODE는 앱 계정이나 개발자 운영 서버 없이 닉네임·진행 상황·설정을 기기에 저장합니다. Google AdMob 광고를 위해 아래 정보가 처리될 수 있습니다. 광고 유형과 개인정보 선택 기능은 플랫폼 및 앱 버전에 따라 다릅니다.",
+    "s": [
+      [
+        "수집하는 정보",
+        "저희는 닉네임이나 진행 상황을 받는 계정·서버를 운영하지 않습니다. Google과 파트너는 4항에 설명한 광고 관련 정보를 처리하며, 이는 기기에 저장된 앱 콘텐츠와 구별됩니다."
+      ],
+      [
+        "기기에 저장되는 데이터",
+        "앱 작동을 위해 다음 정보가 <strong>오직 이용자의 기기 안에만</strong> 저장됩니다:",
+        [
+          "선택 입력하는 닉네임",
+          "선택한 기본 모드와 성장 목표",
+          "진행 상황: 경험치, 레벨, 연속 성장, 완료한 퀘스트, 획득 배지",
+          "설정: 언어, 알림, 사운드"
+        ],
+        "이 데이터는 기기를 벗어나지 않으며, 저희나 제3자가 접근할 수 없습니다."
+      ],
+      [
+        "데이터 삭제",
+        "<code>프로필 → 데이터 → 데이터 초기화</code>에서 언제든 전체 삭제하거나, 앱을 삭제하면 됩니다."
+      ],
+      [
+        "광고 (Google AdMob)",
+        "Google AdMob을 통해 배너와 간헐적인 전면 광고를 제공합니다. Android에서는 보너스 XP를 위한 선택형 보상 광고도 제공합니다. iOS 1.0.13 광고 업데이트는 배너·전면 광고 단위를 사용하며, 실제 보상형 광고 단위가 설정되지 않으면 보상형은 비활성화됩니다. 광고 제공을 위해 Google과 파트너는 다음 정보를 처리할 수 있습니다: 전면 광고는 모드 완료 후 홈으로 돌아갈 때 최소 180초 간격으로 표시됩니다.",
+        [
+          "기기 식별자(Android 광고 ID 및 iOS에서 ATT를 허용한 경우에만 IDFA)",
+          "IP 주소 및 이를 바탕으로 한 대략적 위치",
+          "기기·앱 정보(기종, OS 버전, 언어, 앱 버전)",
+          "광고 노출·클릭, 제품 상호작용, 충돌 기록 및 성능 진단 정보"
+        ],
+        "Google은 이 정보를 광고 제공·측정, (허용되는 경우) 맞춤 광고, 부정 행위 방지에 사용합니다. 자세한 내용은 <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 개인정보처리방침</a> 및 <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google 서비스를 사용하는 사이트·앱의 정보 이용 방식</a>을 참고하세요. 저희는 이 정보를 받지 않으며, 그 밖의 분석·추적 SDK는 사용하지 않습니다. 기기의 광고 설정에서 광고 ID를 재설정·삭제하거나 맞춤 광고를 해제할 수 있습니다."
+      ],
+      [
+        "광고 동의 (유럽 등)",
+        "Google UMP는 EEA·영국·스위스 등을 포함하여 동의 안내가 필요한지 확인합니다. 광고 요청은 확인된 동의 상태를 따르며, 이 앱의 iOS 광고에는 별도로 ATT 허용도 필요합니다. 1.0.13부터 앱에서 필요하다고 표시하는 경우 프로필의 광고 개인정보 선택 메뉴에서 선택을 확인·변경할 수 있습니다. 안내가 열리지 않으면 네트워크 연결 후 다시 시도하세요. ATT 권한은 iOS 설정에서 별도로 관리합니다."
+      ],
+      [
+        "iPhone·iPad: 추적 허용",
+        "iOS에서 Google AdMob을 초기화하기 전에 아직 결정되지 않은 ATT(앱 추적 투명성) 허용 여부를 요청합니다. 허용 시 지역별 동의에 따라 IDFA와 광고 정보가 다른 앱·웹사이트에 걸친 광고 및 성과 측정에 사용될 수 있습니다. 거부·제한·미결정·확인 불가 시 이 앱은 광고를 비활성화하고 다른 기능은 계속 사용할 수 있게 합니다. iOS 설정 → 개인정보 보호 및 보안 → 추적에서 ATT 권한을 변경할 수 있습니다."
+      ],
+      [
+        "권한",
+        "Android에서 앱은 인터넷 접근과 광고 ID 권한(<code>com.google.android.gms.permission.AD_ID</code>)만 요청하며, 둘 다 광고 표시에만 사용됩니다. 연락처·위치·카메라·마이크·사진·파일에는 접근하지 않습니다. 향후 추가되는 선택 기능(예: 로컬 알림)은 명확히 안내되며 선택 사항으로 유지됩니다."
+      ],
+      [
+        "데이터 보안",
+        "앱 데이터는 기기에만 있으며 기기 자체의 보안으로 보호됩니다. 광고 SDK와 Google 간의 통신은 암호화된 연결(HTTPS)을 사용합니다."
+      ],
+      [
+        "아동",
+        "앱은 전체 이용가입니다. 저희는 아동을 포함한 누구로부터도 개인정보를 수집하지 않으며, 광고는 Google의 정책에 따라 제공됩니다."
+      ],
+      [
+        "MBTI 관련 고지",
+        "앱의 MBTI 관련 내용은 자기이해와 추천을 위한 참고 정보이며, 심리 진단이 아닙니다. 높은 레벨은 사용 경험을 나타낼 뿐, 사람에 대한 평가가 아닙니다."
+      ],
+      [
+        "이용자의 권리와 문의",
+        "저희는 개인정보를 보관하지 않으므로 저희 쪽에서 열람·정정·삭제할 정보가 없습니다. 앱 데이터는 이용자의 기기에 있으며 직접 관리할 수 있습니다(3항). Google이 광고에 사용하는 데이터는 <a href=\"https://myadcenter.google.com\" target=\"_blank\" rel=\"noopener\">Google 내 광고 센터</a>에서 관리할 수 있습니다. 문의·요청: <a href=\"mailto:gkimmulti@gmail.com\">gkimmulti@gmail.com</a>"
+      ],
+      [
+        "방침 변경",
+        "방침이 변경되면 위 시행일을 갱신합니다. 변경 후 계속 사용하면 개정된 방침에 동의한 것으로 간주됩니다."
+      ]
+    ]
+  },
+  "ja": {
+    "title": "プライバシーポリシー",
+    "eff": "施行日：2026年11月12日",
+    "sumL": "要点：",
+    "sum": "MBTI 16MODEはアプリのアカウントや開発者のサーバーを使わず、ニックネーム・進捗・設定を端末に保存します。Google AdMobの広告には以下の情報処理が伴う場合があります。広告の種類とプライバシー設定はプラットフォームとアプリのバージョンによって異なります。",
+    "s": [
+      [
+        "収集する情報",
+        "当方はニックネームや進捗を受け取るアカウントやサーバーを運営していません。Googleとそのパートナーは第4項の広告関連情報を処理します。これは端末内のアプリ内容とは別です。"
+      ],
+      [
+        "端末に保存されるデータ",
+        "アプリの動作のため、次の情報が<strong>端末内にのみ</strong>保存されます：",
+        [
+          "任意で入力するニックネーム",
+          "選択した基本モードと成長目標",
+          "進捗：XP、レベル、連続記録、完了クエスト、獲得バッジ",
+          "設定：言語、通知、サウンド"
+        ],
+        "このデータは端末外に出ず、当方や第三者がアクセスすることはできません。"
+      ],
+      [
+        "データの削除",
+        "<code>プロフィール → データ → データ初期化</code>からいつでも全削除できます。アンインストールでも消去されます。"
+      ],
+      [
+        "広告（Google AdMob）",
+        "Google AdMobによりバナー広告と随時の全画面広告を提供します。AndroidではボーナスXPのための任意のリワード広告も提供します。iOS 1.0.13の広告更新はバナー・全画面の広告ユニットを使用し、本番のリワード広告ユニットが未設定の場合はリワード広告を無効にします。Googleとそのパートナーは広告配信のため次の情報を処理する場合があります： 全画面広告はモード完了後にホームへ戻る際、180秒以上の間隔で表示します。",
+        [
+          "端末識別子（Android広告ID、およびiOSでATTを許可した場合のみIDFA）",
+          "IPアドレスとそこから推定されるおおよその位置",
+          "端末・アプリ情報（機種、OSバージョン、言語、アプリバージョン）",
+          "広告の表示・クリック、製品の操作、クラッシュ記録およびパフォーマンス診断"
+        ],
+        "Googleはこれらの情報を広告の配信・測定、（許可されている場合の）パーソナライズ、不正防止に使用します。詳しくは<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Googleプライバシーポリシー</a>および<a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Googleのサービスを使用するサイトやアプリから収集した情報の利用について</a>をご覧ください。当方はこれらの情報を受け取らず、その他の解析・追跡SDKも使用しません。端末の広告設定で広告IDのリセット・削除や、パーソナライズ広告の無効化ができます。"
+      ],
+      [
+        "広告の同意（欧州など）",
+        "Google UMPはEEA・英国・スイスなどで同意メッセージが必要か確認します。広告リクエストは確認できた同意状態に従い、本アプリのiOS広告にはATT許可も必要です。1.0.13以降、アプリが必要と判断した場合はプロフィールの広告プライバシー設定から選択を確認・変更できます。フォームが開かない場合はネットワークに接続して再試行してください。ATT許可はiOS設定で別途管理します。"
+      ],
+      [
+        "iPhone・iPad：トラッキングの許可",
+        "iOSではGoogle AdMobの初期化前に、未決定の場合はATTの許可を求めます。許可すると、地域の同意条件に従いIDFAと広告情報がアプリやサイトを横断した広告や効果測定に使われる場合があります。拒否・制限・未決定・確認不可の場合、本アプリは広告を無効にし、他の機能は利用できます。iOS設定 → プライバシーとセキュリティ → トラッキングで変更できます。"
+      ],
+      [
+        "権限",
+        "Androidでは、本アプリはインターネットアクセスと広告ID権限（<code>com.google.android.gms.permission.AD_ID</code>）のみを要求し、どちらも広告表示にのみ使用します。連絡先・位置情報・カメラ・マイク・写真・ファイルにはアクセスしません。将来追加される任意機能（例：ローカル通知）は明示され、任意のままです。"
+      ],
+      [
+        "データの安全性",
+        "アプリのデータは端末内にあり、端末自体のセキュリティで保護されます。広告SDKとGoogleとの通信には暗号化された接続（HTTPS）が使われます。"
+      ],
+      [
+        "子どもについて",
+        "本アプリは全年齢対象です。当方は子どもを含む誰からも個人情報を収集せず、広告はGoogleのポリシーに従って配信されます。"
+      ],
+      [
+        "MBTIに関する注意",
+        "アプリのMBTI関連の内容は自己理解と推薦のための参考情報であり、心理診断ではありません。高いレベルは使用経験を示すもので、人物評価ではありません。"
+      ],
+      [
+        "あなたの権利とお問い合わせ",
+        "当方は個人情報を保有していないため、当方側で開示・訂正・削除する情報はありません。アプリのデータはあなたの端末にあり、ご自身で管理できます（第3項）。Googleが広告に使用するデータは<a href=\"https://myadcenter.google.com\" target=\"_blank\" rel=\"noopener\">Googleのマイ アド センター</a>で管理できます。お問い合わせ・ご請求：<a href=\"mailto:gkimmulti@gmail.com\">gkimmulti@gmail.com</a>"
+      ],
+      [
+        "ポリシーの変更",
+        "本ポリシーを変更した場合、上記の施行日を更新します。変更後の継続利用は改定への同意とみなされます。"
+      ]
+    ]
+  },
+  "zh": {
+    "title": "隐私政策",
+    "eff": "生效日期：2026年11月12日",
+    "sumL": "简而言之：",
+    "sum": "MBTI 16MODE 无需应用账户或开发者运营的服务器，将昵称、进度和设置保存在设备上。Google AdMob 广告可能涉及下述数据处理。广告类型和隐私选项取决于平台和应用版本。",
+    "s": [
+      [
+        "我们收集的信息",
+        "我们不运营接收昵称或进度的账户系统或服务器。Google 及合作伙伴处理第4节所述广告相关信息，这与设备本地的应用内容不同。"
+      ],
+      [
+        "保存在设备上的数据",
+        "为使应用正常运行，以下信息<strong>仅保存在您的设备本地</strong>：",
+        [
+          "您可选填的昵称",
+          "您选择的基础模式与成长目标",
+          "进度：经验值、等级、连续天数、已完成任务、已获得徽章",
+          "设置：语言、通知、声音"
+        ],
+        "这些数据不会离开您的设备，我们或任何第三方都无法访问。"
+      ],
+      [
+        "删除您的数据",
+        "可随时通过 <code>我的资料 → 数据 → 重置数据</code> 全部清除，或卸载应用。"
+      ],
+      [
+        "广告（Google AdMob）",
+        "Google AdMob 提供横幅及间歇性全屏广告。Android 还提供由用户选择观看以获得额外 XP 的激励广告。iOS 1.0.13 广告更新使用横幅和全屏广告单元；未配置正式激励广告单元时，激励广告停用。Google 及合作伙伴可能为广告处理以下信息： 全屏广告在完成模式并返回主页时展示，间隔至少180秒。",
+        [
+          "设备标识符，包括 Android 广告 ID，以及仅在 iOS 获得 ATT 许可时使用的 IDFA",
+          "IP 地址及据此推断的大致位置",
+          "设备与应用信息（机型、系统版本、语言、应用版本）",
+          "广告展示与点击、产品交互、崩溃日志及性能诊断"
+        ],
+        "Google 将这些信息用于广告投放与衡量、（在允许的情况下）个性化广告以及防止欺诈，详见 <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google 隐私政策</a> 与 <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">Google 如何使用来自使用其服务的网站或应用的信息</a>。我们不会收到这些信息，也不使用任何其他分析或追踪 SDK。您可以在设备的广告设置中重置或删除广告 ID，或关闭个性化广告。"
+      ],
+      [
+        "广告同意（欧洲等地区）",
+        "Google UMP 会检查是否需要同意提示，包括欧洲经济区、英国和瑞士等地区。广告请求遵循已确认的同意状态；本应用的 iOS 广告还要求 ATT 许可。从 1.0.13 起，应用判断需要时，可在个人资料中的广告隐私选项查看或更改选择。如果表单无法加载，请联网后重试。ATT 许可需在 iOS 设置中单独管理。"
+      ],
+      [
+        "iPhone 与 iPad：跟踪许可",
+        "在 iOS 初始化 Google AdMob 前，若尚未决定，应用会请求 ATT 跟踪许可。允许后，IDFA 和广告信息可能根据地区同意条件用于跨应用、网站的广告及效果衡量。拒绝、受限、未决定或无法确认时，本应用停用广告，其他功能仍可使用。可在 iOS 设置 → 隐私与安全性 → 跟踪中更改 ATT 许可。"
+      ],
+      [
+        "权限",
+        "在 Android 上，本应用仅请求网络访问权限和广告 ID 权限（<code>com.google.android.gms.permission.AD_ID</code>），二者都只用于展示广告。本应用不访问您的通讯录、位置、相机、麦克风、照片或文件。日后新增的可选功能（如本地提醒）将明确说明并保持可选。"
+      ],
+      [
+        "数据安全",
+        "应用数据仅保存在您的设备上，并受设备自身安全机制保护。广告 SDK 与 Google 之间的通信使用加密连接（HTTPS）。"
+      ],
+      [
+        "儿童",
+        "本应用适合所有年龄。我们不会收集包括儿童在内任何人的个人信息，广告依照 Google 的政策提供。"
+      ],
+      [
+        "MBTI 免责声明",
+        "应用中的 MBTI 相关内容仅供自我理解与推荐参考，并非心理诊断。较高等级代表使用经验，而非对个人的评判。"
+      ],
+      [
+        "您的权利与联系方式",
+        "由于我们不保存任何个人信息，我们这边没有可供查阅、更正或删除的数据。应用数据保存在您的设备上，由您自行管理（第 3 条）。Google 用于广告的数据可在 <a href=\"https://myadcenter.google.com\" target=\"_blank\" rel=\"noopener\">Google 我的广告中心</a> 管理。问题或请求：<a href=\"mailto:gkimmulti@gmail.com\">gkimmulti@gmail.com</a>"
+      ],
+      [
+        "政策变更",
+        "若本政策变更，我们会更新上方生效日期。变更后继续使用即表示接受更新后的政策。"
+      ]
+    ]
+  },
+  "ru": {
+    "title": "Политика конфиденциальности",
+    "eff": "Действует с 12 ноября 2026 г.",
+    "sumL": "Коротко:",
+    "sum": "MBTI 16MODE хранит никнейм, прогресс и настройки на устройстве без аккаунта приложения или сервера разработчика. Реклама Google AdMob может обрабатывать данные, описанные ниже. Виды рекламы и настройки конфиденциальности зависят от платформы и версии приложения.",
+    "s": [
+      [
+        "Какие данные мы собираем",
+        "Мы не используем аккаунты или сервер для получения вашего никнейма и прогресса. Google и его партнёры обрабатывают рекламные сведения, описанные в разделе 4, отдельно от локальных данных приложения."
+      ],
+      [
+        "Данные на вашем устройстве",
+        "Для работы приложение сохраняет следующее <strong>только на вашем устройстве</strong>:",
+        [
+          "Никнейм, который вы вводите по желанию",
+          "Выбранный базовый режим и цели роста",
+          "Прогресс: опыт, уровни, серии, выполненные квесты, значки",
+          "Настройки: язык, уведомления, звук"
+        ],
+        "Эти данные не покидают устройство и недоступны ни нам, ни третьим лицам."
+      ],
+      [
+        "Удаление данных",
+        "Удалите всё в любой момент через <code>Профиль → Данные → Сбросить данные</code> или удалив приложение."
+      ],
+      [
+        "Реклама (Google AdMob)",
+        "Google AdMob предоставляет баннерную и периодическую полноэкранную рекламу. На Android также доступна добровольная реклама за бонусный XP. Рекламное обновление iOS 1.0.13 использует баннерные и полноэкранные блоки; реклама с вознаграждением отключена, если соответствующий рабочий блок не настроен. Для рекламы Google и партнёры могут обрабатывать: Полноэкранная реклама показывается при возврате на главный экран после завершения режима, не чаще одного раза в 180 секунд.",
+        [
+          "Идентификаторы устройства: Android Advertising ID и IDFA на iOS только при разрешении ATT",
+          "IP-адрес и примерное местоположение, определённое по нему",
+          "сведения об устройстве и приложении (модель, версия ОС, язык, версия приложения)",
+          "Показы и нажатия рекламы, взаимодействия с продуктом, журналы сбоев и данные производительности"
+        ],
+        "Google использует эти данные для показа и измерения рекламы, её персонализации (если это разрешено) и предотвращения мошенничества — см. <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Политику конфиденциальности Google</a> и <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">как Google использует информацию с сайтов и из приложений, использующих его сервисы</a>. Мы эти данные не получаем и не используем других SDK аналитики или отслеживания. В рекламных настройках устройства можно сбросить или удалить рекламный идентификатор либо отключить персонализированную рекламу."
+      ],
+      [
+        "Согласие на рекламу (Европа и др.)",
+        "Google UMP проверяет необходимость формы согласия, в том числе в ЕЭЗ, Великобритании и Швейцарии. Запросы рекламы зависят от подтверждённого согласия; на iOS это приложение также требует разрешения ATT. Начиная с 1.0.13, когда приложение определяет такую необходимость, выбор можно просмотреть и изменить в рекламных настройках конфиденциальности в профиле. Если форма не загружается, повторите попытку с подключением к сети. Разрешение ATT управляется отдельно в настройках iOS."
+      ],
+      [
+        "iPhone и iPad: разрешение на отслеживание",
+        "До инициализации Google AdMob на iOS приложение запрашивает ATT, если решение ещё не принято. При разрешении IDFA и рекламная информация могут использоваться для рекламы и измерений между приложениями и сайтами с учётом регионального согласия. При отказе, ограничении, отсутствии решения или невозможности проверки приложение отключает рекламу; остальные функции остаются доступны. Изменить ATT можно в настройках iOS → Конфиденциальность и безопасность → Отслеживание."
+      ],
+      [
+        "Разрешения",
+        "На Android приложение запрашивает только доступ в интернет и разрешение на рекламный идентификатор (<code>com.google.android.gms.permission.AD_ID</code>) — оба используются только для показа рекламы. Приложение не обращается к контактам, геолокации, камере, микрофону, фото или файлам. Любые будущие необязательные функции (например, локальные напоминания) будут чётко описаны и останутся необязательными."
+      ],
+      [
+        "Безопасность данных",
+        "Данные приложения хранятся только на устройстве и защищены его собственными средствами безопасности. Обмен данными между рекламным SDK и Google идёт по зашифрованному соединению (HTTPS)."
+      ],
+      [
+        "Дети",
+        "Приложение подходит для всех возрастов. Мы не собираем персональные данные ни у кого, включая детей; реклама показывается в соответствии с политиками Google."
+      ],
+      [
+        "Оговорка о MBTI",
+        "Контент в стиле MBTI служит только для самопонимания и рекомендаций — это не психологический диагноз. Высокий уровень отражает опыт использования, а не оценку человека."
+      ],
+      [
+        "Ваши права и контакты",
+        "Поскольку мы не храним персональные данные, у нас нет сведений, которые можно было бы предоставить, исправить или удалить. Данные приложения находятся на вашем устройстве, и вы управляете ими сами (раздел 3). Данными, которые Google использует для рекламы, можно управлять в <a href=\"https://myadcenter.google.com\" target=\"_blank\" rel=\"noopener\">Моём рекламном центре Google</a>. Вопросы и запросы: <a href=\"mailto:gkimmulti@gmail.com\">gkimmulti@gmail.com</a>."
+      ],
+      [
+        "Изменения политики",
+        "При изменении политики мы обновим дату вступления в силу выше. Продолжение использования означает согласие с обновлённой политикой."
+      ]
+    ]
+  },
+  "fil": {
+    "title": "Patakaran sa Privacy",
+    "eff": "Epektibo mula Nobyembre 12, 2026",
+    "sumL": "Sa madaling salita:",
+    "sum": "Iniimbak ng MBTI 16MODE ang palayaw, progreso at mga setting sa device nang walang account ng app o server na pinapatakbo ng developer. Maaaring gamitin ng Google AdMob ang datos na inilalarawan sa ibaba para sa ads. Depende sa platform at bersyon ng app ang mga uri ng ads at privacy control.",
+    "s": [
+      [
+        "Impormasyong kinokolekta namin",
+        "Wala kaming account system o server na tumatanggap ng iyong palayaw o progreso. Pinoproseso ng Google at mga partner nito ang impormasyong pang-ad sa seksyon 4, na hiwalay sa lokal na nilalaman ng app."
+      ],
+      [
+        "Datos na nasa iyong device",
+        "Para gumana, ini-save ng app ang sumusunod <strong>sa iyong device lamang</strong>:",
+        [
+          "Palayaw na opsyonal mong ilalagay",
+          "Ang piniling base mode at growth goals",
+          "Progreso: XP, level, streak, natapos na quest, nakuhang badge",
+          "Mga setting: wika, abiso, tunog"
+        ],
+        "Hindi umaalis sa device ang datos na ito at hindi ito ma-access namin o ng sinuman."
+      ],
+      [
+        "Pagbura ng datos",
+        "Burahin lahat anumang oras sa <code>Profile → Data → I-reset ang Data</code>, o sa pag-uninstall ng app."
+      ],
+      [
+        "Advertising (Google AdMob)",
+        "Nagbibigay ang Google AdMob ng banner at paminsan-minsang full-screen ads. Sa Android, mayroon ding opsyonal na rewarded ads para sa bonus XP. Gumagamit ang iOS 1.0.13 ad update ng banner at full-screen units; naka-disable ang rewarded ads kapag walang production rewarded unit. Para sa ads, maaaring iproseso ng Google at mga partner nito ang: Lumalabas ang full-screen ads kapag bumalik sa Home matapos ang mode session, hindi hihigit sa isang beses bawat 180 segundo.",
+        [
+          "Mga identifier ng device, kabilang ang Android Advertising ID at IDFA sa iOS kapag pinayagan lamang ang ATT",
+          "IP address at tinatayang lokasyon mula rito",
+          "Impormasyon ng device at app (modelo, bersyon ng OS, wika, bersyon ng app)",
+          "Mga ad impression at click, interaksyon sa produkto, crash log at performance diagnostics"
+        ],
+        "Ginagamit ng Google ang datos na ito para maghatid at sukatin ang ads, mag-personalize kung pinapayagan, at pigilan ang panloloko, gaya ng nakasaad sa <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a> at kung <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\" rel=\"noopener\">paano ginagamit ng Google ang impormasyon mula sa mga site o app na gumagamit ng serbisyo nito</a>. Hindi namin natatanggap ang datos na ito, at wala kaming ibang analytics o tracking SDK. Sa ad settings ng iyong device, puwede mong i-reset o i-delete ang Advertising ID o i-off ang personalized ads."
+      ],
+      [
+        "Pahintulot sa ads (Europe at iba pa)",
+        "Sinusuri ng Google UMP kung kailangan ang consent message, kabilang sa EEA, UK at Switzerland. Sinusunod ng ad requests ang nakumpirmang consent status; kailangan din ng ATT permission para sa iOS ads sa app na ito. Mula sa 1.0.13, kapag ipinahiwatig ng app na kailangan ito, maaari mong tingnan o baguhin ang iyong pinili sa advertising privacy options sa Profile. Kung hindi ma-load ang form, subukan muli kapag may koneksyon. Hiwalay na pinamamahalaan ang ATT sa iOS Settings."
+      ],
+      [
+        "iPhone at iPad: pahintulot sa tracking",
+        "Bago simulan ang Google AdMob sa iOS, humihingi ang app ng ATT permission kung wala pang desisyon. Kapag pinayagan, maaaring gamitin ang IDFA at impormasyon sa ads para sa advertising at measurement sa iba’t ibang app at site, alinsunod sa regional consent. Kapag tinanggihan, restricted, walang desisyon o hindi makumpirma, idi-disable ng app ang ads habang magagamit pa rin ang ibang function. Baguhin ang ATT sa iOS Settings → Privacy & Security → Tracking."
+      ],
+      [
+        "Mga pahintulot",
+        "Sa Android, humihingi lang ang app ng internet access at ng Advertising ID permission (<code>com.google.android.gms.permission.AD_ID</code>), at pareho itong para lang sa ads. Hindi ina-access ng app ang iyong contacts, location, camera, mikropono, photos o files. Ang anumang opsyonal na feature sa hinaharap (hal. lokal na paalala) ay malinaw na ipapaliwanag at mananatiling opsyonal."
+      ],
+      [
+        "Seguridad ng datos",
+        "Nasa iyong device lang ang datos ng app at protektado ng sariling seguridad ng device. Gumagamit ng encrypted na koneksyon (HTTPS) ang komunikasyon ng ads SDK at Google."
+      ],
+      [
+        "Mga bata",
+        "Angkop sa lahat ng edad ang app. Hindi kami nangongolekta ng personal na impormasyon mula kaninuman, kabilang ang mga bata, at inihahatid ang ads ayon sa mga patakaran ng Google."
+      ],
+      [
+        "Paunawa sa MBTI",
+        "Ang MBTI-style na nilalaman ay para sa pag-unawa sa sarili at rekomendasyon lamang — hindi ito psychological diagnosis. Ang mas mataas na level ay karanasan sa paggamit, hindi paghatol sa tao."
+      ],
+      [
+        "Iyong mga karapatan at pakikipag-ugnayan",
+        "Dahil wala kaming hawak na personal na datos, wala kaming maipapakita, maitatama, o mabubura sa aming panig. Nasa iyong device ang datos ng app at ikaw ang may kontrol dito (seksyon 3). Ang datos na ginagamit ng Google para sa ads ay mapapamahalaan sa <a href=\"https://myadcenter.google.com\" target=\"_blank\" rel=\"noopener\">My Ad Center ng Google</a>. Mga tanong o kahilingan: <a href=\"mailto:gkimmulti@gmail.com\">gkimmulti@gmail.com</a>."
+      ],
+      [
+        "Mga pagbabago sa patakaran",
+        "Kung magbabago ang patakarang ito, ia-update namin ang petsa sa itaas. Ang patuloy na paggamit pagkatapos ng pagbabago ay pagtanggap sa na-update na patakaran."
+      ]
+    ]
+  }
 };
 
 const langsEl = document.getElementById("langs");

@@ -23,7 +23,9 @@ Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
 사용자가 선택한 이메일·웹사이트 링크는 외부 앱에서 열립니다. 지원 이메일을 보내면 발신 주소와 메시지를 문의 처리에 사용할 수 있으므로 불필요한 개인정보를 보내지 마세요. 외부 서비스는 자체 정책을 적용합니다. 개인정보 문의 또는 지원 이메일 관련 삭제 요청: gkimmulti@gmail.com. 처리 방식이 변경되면 앱과 이 문서를 함께 갱신합니다.
 
-사용자가 수조 PNG 저장을 누르면 수조 영역만 이미지로 생성하고 Android 시스템 문서 저장 선택기를 엽니다. 선택한 위치의 문서 제공자에게 해당 PNG를 전달합니다. 클라우드 위치를 선택하면 그 제공자의 정책에 따라 처리될 수 있으며 앱 자체 서버로 보내지 않습니다. 저장된 PNG는 앱 데이터와 별개로 남으므로 해당 위치에서 직접 삭제해야 합니다. 저장 취소는 게임 기록을 지우지 않습니다.</div></section></article>
+사용자가 수조 PNG 저장을 누르면 수조 영역만 이미지로 생성하고 Android 시스템 문서 저장 선택기를 엽니다. 선택한 위치의 문서 제공자에게 해당 PNG를 전달합니다. 클라우드 위치를 선택하면 그 제공자의 정책에 따라 처리될 수 있으며 앱 자체 서버로 보내지 않습니다. 저장된 PNG는 앱 데이터와 별개로 남으므로 해당 위치에서 직접 삭제해야 합니다. 저장 취소는 게임 기록을 지우지 않습니다.
+
+저장 선택 중 중단에 대비해 생성한 PNG를 앱 전용 임시 캐시에 보관합니다. 저장 완료·취소·실패 처리가 끝나면 임시 파일을 제거하며, 중단되어 처리가 끝나지 않은 파일은 다음 내보내기에서 대체되거나 운영체제의 캐시 정리로 삭제될 수 있습니다. 화면 재생성 후 알림을 위해 저장 결과 상태를 로컬에 잠시 보관할 수 있으며 앱이 해당 상태를 읽으면 삭제합니다. 이 임시 정보는 개발자 서버로 전송하지 않습니다.</div></section></article>
 <article class="lang" id="en" lang="en" data-language="en"><h2>English · Whalopip</h2><section id="en-terms"><h3>Whalopip Terms of Use</h3><div class="legal-text">Whalopip Terms of Service
 Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
@@ -48,7 +50,9 @@ Game records remain while the app data exists. Clear the app&#x27;s data in Andr
 
 Email and website links open in external apps only when selected. If you send a support email, your sender address and message may be used to handle the request; avoid unnecessary personal details. External services apply their own policies. For privacy questions or deletion requests concerning support email, contact gkimmulti@gmail.com. We update the app and this document when these practices change.
 
-When you choose Save aquarium PNG, only the aquarium area is rendered and the Android system document-save picker opens. The PNG is handed to the document provider for the location you select. A cloud destination may process it under that provider&#x27;s policy; it is not sent to an app-operated server. Exported PNGs remain independently of app data and must be deleted at their saved location. Canceling export does not delete game progress.</div></section></article>
+When you choose Save aquarium PNG, only the aquarium area is rendered and the Android system document-save picker opens. The PNG is handed to the document provider for the location you select. A cloud destination may process it under that provider&#x27;s policy; it is not sent to an app-operated server. Exported PNGs remain independently of app data and must be deleted at their saved location. Canceling export does not delete game progress.
+
+A generated PNG is temporarily kept in the app&#x27;s private cache to handle interruption during destination selection. The temporary file is removed when saving, cancellation or failure is handled. An unfinished interrupted export may be replaced by a later export or removed by operating-system cache cleanup. A local export-result status may be retained briefly to notify you after screen recreation and is removed when the app reads it. This temporary information is not sent to a developer server.</div></section></article>
 <article class="lang" id="ja" lang="ja" data-language="ja"><h2>日本語 · Whalopip</h2><section id="ja-terms"><h3>Whalopip 利用規約</h3><div class="legal-text">Whalopip 利用規約
 Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
@@ -73,7 +77,9 @@ Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
 選択したメール・ウェブサイトのリンクは外部アプリで開きます。サポートへメールを送ると、送信元アドレスと本文を対応に利用する場合があるため、不要な個人情報を送らないでください。外部サービスには独自の方針があります。プライバシーやサポートメールの削除に関するお問い合わせ: gkimmulti@gmail.com。扱いが変わる場合はアプリと本書を更新します。
 
-水槽PNGの保存を選ぶと水槽領域だけを画像化し、Androidのシステム文書保存画面を開きます。PNGは選択した保存先の文書プロバイダーに渡されます。クラウド保存先では、その提供者の方針に従って処理される場合があります。アプリ運営のサーバーには送りません。保存済みPNGはアプリデータとは別に残るため、保存先で削除してください。保存のキャンセルでゲーム記録は消えません。</div></section></article>
+水槽PNGの保存を選ぶと水槽領域だけを画像化し、Androidのシステム文書保存画面を開きます。PNGは選択した保存先の文書プロバイダーに渡されます。クラウド保存先では、その提供者の方針に従って処理される場合があります。アプリ運営のサーバーには送りません。保存済みPNGはアプリデータとは別に残るため、保存先で削除してください。保存のキャンセルでゲーム記録は消えません。
+
+保存先の選択中の中断に備え、生成したPNGをアプリ専用の一時キャッシュに保管します。保存完了・キャンセル・失敗の処理後に一時ファイルを削除します。中断した未完了の画像は次の書き出しで置き換えられたり、OSのキャッシュ整理で削除されたりする場合があります。画面再生成後の通知のため保存結果をローカルに一時保持する場合があり、アプリが読み取ると削除します。開発者のサーバーには送信しません。</div></section></article>
 <article class="lang" id="zh" lang="zh" data-language="zh"><h2>简体中文 · Whalopip</h2><section id="zh-terms"><h3>Whalopip 服务条款</h3><div class="legal-text">Whalopip 服务条款
 Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
@@ -98,7 +104,9 @@ Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
 邮件和网站链接仅在您选择后于外部应用中打开。如果发送支持邮件，发件地址和正文可能用于处理请求，请勿发送不必要的个人信息。外部服务适用其自身政策。如有隐私问题或需要删除支持邮件相关信息，请联系gkimmulti@gmail.com。处理方式变更时会同步更新应用与本文档。
 
-选择保存水族箱PNG后，仅将水族箱区域生成图片，并打开Android系统文档保存选择器。PNG会交给您所选位置的文档提供商。如果选择云端位置，可能按该提供商的政策处理；不会发送至本应用运营的服务器。导出的PNG独立于应用数据保留，需在保存位置自行删除。取消保存不会删除游戏进度。</div></section></article>
+选择保存水族箱PNG后，仅将水族箱区域生成图片，并打开Android系统文档保存选择器。PNG会交给您所选位置的文档提供商。如果选择云端位置，可能按该提供商的政策处理；不会发送至本应用运营的服务器。导出的PNG独立于应用数据保留，需在保存位置自行删除。取消保存不会删除游戏进度。
+
+为应对选择保存位置时的中断，生成的PNG会暂存在应用私有缓存中。保存完成、取消或失败处理结束后会移除临时文件。中断而未完成的导出可能被下一次导出替代，或由系统清理缓存。为在界面重建后提示结果，可能暂存本地导出状态，应用读取后即删除。这些临时信息不会发送至开发者服务器。</div></section></article>
 <article class="lang" id="ru" lang="ru" data-language="ru"><h2>Русский · Whalopip</h2><section id="ru-terms"><h3>Whalopip — условия использования</h3><div class="legal-text">Условия использования Whalopip
 Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
@@ -123,7 +131,9 @@ Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
 Ссылки на почту и сайт открываются во внешнем приложении только по вашему выбору. При обращении по электронной почте адрес отправителя и сообщение могут использоваться для ответа; не присылайте лишние личные сведения. У внешних сервисов свои политики. Вопросы о данных и запросы об удалении писем поддержке: gkimmulti@gmail.com. При изменениях обновляются приложение и этот документ.
 
-При выборе сохранения аквариума в PNG создаётся изображение только области аквариума и открывается системный выбор места сохранения Android. PNG передаётся поставщику документов выбранного места. При выборе облака файл может обрабатываться по правилам этого поставщика; на сервер приложения он не отправляется. Экспортированные PNG сохраняются отдельно от данных приложения и удаляются в месте сохранения. Отмена экспорта не удаляет игровой прогресс.</div></section></article>
+При выборе сохранения аквариума в PNG создаётся изображение только области аквариума и открывается системный выбор места сохранения Android. PNG передаётся поставщику документов выбранного места. При выборе облака файл может обрабатываться по правилам этого поставщика; на сервер приложения он не отправляется. Экспортированные PNG сохраняются отдельно от данных приложения и удаляются в месте сохранения. Отмена экспорта не удаляет игровой прогресс.
+
+Созданный PNG временно хранится в закрытом кэше приложения на случай прерывания выбора места сохранения. После обработки сохранения, отмены или ошибки временный файл удаляется. Незавершённый экспорт может быть заменён следующим или удалён системой при очистке кэша. Результат экспорта может временно сохраняться локально для уведомления после пересоздания экрана и удаляется после чтения приложением. На сервер разработчика эти сведения не отправляются.</div></section></article>
 <article class="lang" id="tl" lang="tl" data-language="tl"><h2>Filipino · Whalopip</h2><section id="tl-terms"><h3>Mga Tuntunin ng Paggamit ng Whalopip</h3><div class="legal-text">Mga Tuntunin ng Whalopip
 Kenneth App · gkimmulti@gmail.com · 2026-11-15
 
@@ -148,7 +158,9 @@ Nananatili ang mga tala habang naroon ang app data. Linisin ang data sa Android 
 
 Bubukas lang ang email at website sa panlabas na app kapag pinili mo. Kung mag-email ka sa suporta, maaaring gamitin ang address ng nagpadala at mensahe para tugunan ang kahilingan; huwag magpadala ng hindi kailangang personal na detalye. May sariling patakaran ang panlabas na serbisyo. Para sa tanong sa privacy o pagbura ng email sa suporta: gkimmulti@gmail.com. Ina-update ang app at dokumentong ito kapag nagbago ang paghawak ng datos.
 
-Kapag pinili ang pag-save ng aquarium PNG, aquarium lamang ang ginagawang larawan at bubukas ang system document-save picker ng Android. Ibinibigay ang PNG sa document provider ng napiling lokasyon. Kung cloud ang pinili, maaari itong iproseso ayon sa patakaran ng provider; hindi ito ipinapadala sa server ng app. Hiwalay na nananatili ang na-save na PNG at dapat burahin sa pinaglagyan nito. Hindi binubura ng pagkansela ng export ang progreso.</div></section></article>
+Kapag pinili ang pag-save ng aquarium PNG, aquarium lamang ang ginagawang larawan at bubukas ang system document-save picker ng Android. Ibinibigay ang PNG sa document provider ng napiling lokasyon. Kung cloud ang pinili, maaari itong iproseso ayon sa patakaran ng provider; hindi ito ipinapadala sa server ng app. Hiwalay na nananatili ang na-save na PNG at dapat burahin sa pinaglagyan nito. Hindi binubura ng pagkansela ng export ang progreso.
+
+Pansamantalang inilalagay ang nabuong PNG sa pribadong cache ng app para sa pagkaantala habang pumipili ng lokasyon. Inaalis ang pansamantalang file kapag naproseso ang pag-save, pagkansela o pagkabigo. Ang naantalang hindi natapos na export ay maaaring mapalitan ng susunod o maalis ng paglilinis ng cache ng system. Maaaring pansamantalang itago ang lokal na resulta upang ipaalam ito matapos muling mabuo ang screen; binubura ito kapag binasa ng app. Hindi ipinapadala sa server ng developer ang pansamantalang impormasyong ito.</div></section></article>
 </main><script>const choice=document.getElementById("language");function show(value){document.querySelectorAll(".lang").forEach(node=>node.hidden=value!=="all"&&node.dataset.language!==value);}choice.addEventListener("change",()=>show(choice.value));document.querySelectorAll("header nav a").forEach(link=>link.addEventListener("click",()=>{choice.value="all";show("all");}));</script></body></html>
 
 

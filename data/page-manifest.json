@@ -4,16 +4,16 @@
     "path": "index.html",
     "lang": "ko",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "595ec5ac4aac6812c14ed6c1862afc327d91196d65f629cf0d66c6ae9c477d1d"
+    "lastmod": "2026-11-18",
+    "sha256": "fa1376445f2c60561958363a24f8fd46244b82aa7721fadf811604d7a6ce0ceb"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/pocketsanta/",
     "path": "apps/pocketsanta/index.html",
     "lang": "ko",
     "app": "pocketsanta",
-    "lastmod": "2026-11-09",
-    "sha256": "fc5d59aab05fb3d99ec4a25476f291135b576b18662188fa5537f35303b0af69"
+    "lastmod": "2026-11-18",
+    "sha256": "9e047d530e2dd5c0cc8f44d71d361805f4f5fcd28617a5e84c0efd3670c35d34"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/lumascape/",
@@ -220,16 +220,16 @@
     "path": "en/index.html",
     "lang": "en",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "76ca12794d31c77f96277026a89112ca55116617c591542125d2d3365dcdd3a2"
+    "lastmod": "2026-11-18",
+    "sha256": "8c5460c8c61b123f769b05d7d1fe9222068502adac09aabd48ffcc54e84e2ea4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/pocketsanta/",
     "path": "en/apps/pocketsanta/index.html",
     "lang": "en",
     "app": "pocketsanta",
-    "lastmod": "2026-11-09",
-    "sha256": "871595e74e13aa7b9e0ada1a0503105855de35da316c26e73613f4608039f151"
+    "lastmod": "2026-11-18",
+    "sha256": "e9841b6a02ec3a3f56d580cd3721475608e1f05d2d72b97fde38157e8a5b4ea5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lumascape/",
@@ -436,16 +436,16 @@
     "path": "ja/index.html",
     "lang": "ja",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "77b370401e0955157f84ee21049899c3c49ea6b3795b0972e7c843c3fba8a1b5"
+    "lastmod": "2026-11-18",
+    "sha256": "24e8f3c9a82b84c74b4083b0fb7e2c6f25e5d3369c71fd0f223e40d120fd760a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/pocketsanta/",
     "path": "ja/apps/pocketsanta/index.html",
     "lang": "ja",
     "app": "pocketsanta",
-    "lastmod": "2026-11-09",
-    "sha256": "b1b889f24559a5263d7a515c693935a15d5a4abef709e61fc1c96ee64c32eefc"
+    "lastmod": "2026-11-18",
+    "sha256": "49ee6b8d61f59dce56cc94f801cd5e7a75aa93d22f710679cbaf0a9ec224a670"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lumascape/",
@@ -652,16 +652,16 @@
     "path": "zh/index.html",
     "lang": "zh",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "0d8ed05e12454d9c7f2d21330a33989592024a19c54d1973cdce64d713cd2138"
+    "lastmod": "2026-11-18",
+    "sha256": "ca7a4b40ac9181a1d89a6b2662bac33daa2e5f8da4354093cc7de6374de0919b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/pocketsanta/",
     "path": "zh/apps/pocketsanta/index.html",
     "lang": "zh",
     "app": "pocketsanta",
-    "lastmod": "2026-11-09",
-    "sha256": "4a91089b023df82ca2ea78b6fc4fc046f5b5fd5422747c4076232f97327725ab"
+    "lastmod": "2026-11-18",
+    "sha256": "4baf90b1b4c02fb0d9b2db028215ed66742add00ab46dab440e6025907de0eb6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lumascape/",
@@ -868,16 +868,16 @@
     "path": "ru/index.html",
     "lang": "ru",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "adba094e94cd3cc6e2a062c55412ea0daaf8d2f3c6a79ad64f5a7db6023c61a5"
+    "lastmod": "2026-11-18",
+    "sha256": "bbc20ebd05dbaf434a1e4c552631e53d00763adb4ed391daab640d9e75065c61"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/pocketsanta/",
     "path": "ru/apps/pocketsanta/index.html",
     "lang": "ru",
     "app": "pocketsanta",
-    "lastmod": "2026-11-09",
-    "sha256": "555a900346b2852c906d363d4a94d091edba4de22216896a355950e94f48271e"
+    "lastmod": "2026-11-18",
+    "sha256": "988e71a938fa503c571d03e5f4cd52879d2b065abda34871dc0f6faed541a5b6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/lumascape/",
@@ -1084,16 +1084,16 @@
     "path": "fil/index.html",
     "lang": "fil",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "db7b47ec4f217b05e955a9d0e149bfb4c48441f64ead32df7ea0144d6ffeedd0"
+    "lastmod": "2026-11-18",
+    "sha256": "5c49b96ed68e0567f05941663d0f89ed1bd77b303e5d759b811372000e261f06"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/pocketsanta/",
     "path": "fil/apps/pocketsanta/index.html",
     "lang": "fil",
     "app": "pocketsanta",
-    "lastmod": "2026-11-09",
-    "sha256": "1781e3df0c61520fffd1a3028c4f3c45c46fd5a2c7b32a36c25ea18a0490847c"
+    "lastmod": "2026-11-18",
+    "sha256": "ae635c2bf74f6b71dde71d413d994d1e0bc03526c7abf04ec7d0468ba30c9ba2"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/lumascape/",
@@ -1300,8 +1300,8 @@
     "path": "hi/index.html",
     "lang": "hi",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "a19c4518fd91fac88ac3dbdf9ad12fcc6fa08ea0e16a0df756866b17ab5a8bb1"
+    "lastmod": "2026-11-18",
+    "sha256": "d6841bdfa64c10ac0608cee1ad084d7ea06ea5bcc4420227969ff194e35f01be"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/pocketsanta/",
@@ -1516,8 +1516,8 @@
     "path": "es/index.html",
     "lang": "es",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "cb97b9ff533763626dff5cf7110df7e94b4f4ba6673c42ba8002f80a7bb44f31"
+    "lastmod": "2026-11-18",
+    "sha256": "94e4de63628ec8cbaa90a4a090a04ee25f3fccbe95cd87faf1efc7137bfc4b58"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/pocketsanta/",
@@ -1732,8 +1732,8 @@
     "path": "pt/index.html",
     "lang": "pt",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "2f54b7ad95f74474300772552b11d559f16c0af0a8e29b09fed7d40fd0327cb0"
+    "lastmod": "2026-11-18",
+    "sha256": "f33ca37f1b54039e0c0e1312e7130f799d90cd8225cf2ef03788d9e5f6dd9e4d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/pocketsanta/",
@@ -1948,8 +1948,8 @@
     "path": "fr/index.html",
     "lang": "fr",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "3fe77e8b0c65ac18c238b85b0a888e3405244d292c7292d4fdae1698b8f36781"
+    "lastmod": "2026-11-18",
+    "sha256": "264cae3b15df807f0df9a2c5b99632ea1e68796827406966eace3035d79287fb"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/pocketsanta/",
@@ -2164,8 +2164,8 @@
     "path": "de/index.html",
     "lang": "de",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "8d218ffd9ad123ee90b5b7836d63a833edb719aeb2b18bd5dd055de5e11e4263"
+    "lastmod": "2026-11-18",
+    "sha256": "b1dd1c04fff7a6beaa99b8072cde539e74a893240753e261b67f256d632918fa"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/pocketsanta/",
@@ -2380,8 +2380,8 @@
     "path": "id/index.html",
     "lang": "id",
     "app": null,
-    "lastmod": "2026-11-11",
-    "sha256": "cc444b3478179c9293908dcc0bfc2be7c96b78d48c5afabc0a2b4b57dff379f8"
+    "lastmod": "2026-11-18",
+    "sha256": "0a957971873e3129d1bd77836f6db2ac62e65c3cd309a6a3ba1a9ad8ee7fb70c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/pocketsanta/",

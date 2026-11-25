@@ -2,8 +2,8 @@
 name = "kenneth-release-alerts"
 main = "worker.mjs"
 compatibility_date = "2026-11-25"
-compatibility_flags = ["nodejs_compat"]
 keep_vars = true
 [vars]
 ENABLE_ALERTS = "false"
 ENABLE_DISPATCH = "false"
+ENABLE_OWNER_TEST = "false"

@@ -1,5 +1,6 @@
-import webpush from 'web-push';
+import {generateRequestDetails,validateSubscriptionKeys} from './webpush-native.mjs';
 const SITE='https://gkimmulti-ui.github.io';
+const TEST_ORIGIN='https://kenneth-release-alerts.gkimmulti.workers.dev';
 const APPS=new Set(['bracketbud','phrasepip','bagsum','roomnobi','rowmio','dottomint','morsepip','hushmio','zodimi','whalopip','sylvomi','robipip','meowbini','halopip','drakumi','boopiri']);
 const PLATFORMS=new Set(['android','ios']);
 const LANGS=new Set(['ko','en','ja','zh-CN','ru','fil']);
@@ -56,7 +57,7 @@ async function quota(db,kind,max){
 }
 function enabled(env){return env.ENABLE_ALERTS==='true'&&!!env.DB&&validB64(env.VAPID_PUBLIC_KEY,87,87)&&validB64(env.VAPID_PRIVATE_KEY,43,43)&&typeof env.VAPID_SUBJECT==='string'&&env.VAPID_SUBJECT.startsWith('mailto:')&&typeof env.OWNER_SECRET==='string'&&env.OWNER_SECRET.length>=32}
 async function subscribe(v,env){
- const p=subscriptionInput(v);if(!p)return json({error:'invalid_subscription'},400);
+ const p=subscriptionInput(v);if(!p||!await validateSubscriptionKeys({p256dh:p.p256dh,auth:p.auth}))return json({error:'invalid_subscription'},400);
  const db=env.DB;
  if(!await quota(db,'sub-write',400))return json({error:'quota_paused'},429);
  const release=await db.prepare('SELECT store_url FROM releases WHERE app=? AND platform=?').bind(p.app,p.platform).first();
@@ -108,7 +109,7 @@ async function dispatch(env){
    if(!active)return json({status:'skip'});
    const valid=subscriptionInput({app:sub.app,platform:sub.platform,lang:sub.lang,token:'A'.repeat(43),consent:true,subscription:{endpoint:sub.endpoint,keys:{p256dh:sub.p256dh,auth:sub.auth}}});
    const finalUrl=storeUrl(sub.store_url,sub.platform);if(!valid||!finalUrl)throw new Error('invalid');
-   const details=webpush.generateRequestDetails({endpoint:valid.endpoint,keys:{p256dh:valid.p256dh,auth:valid.auth}},JSON.stringify({title:'Kenneth App',body:APP_NAMES[sub.app]+': '+labels[sub.lang],url:finalUrl,tag:'release-'+sub.app+'-'+sub.platform}),{TTL:86400,urgency:'normal',contentEncoding:'aes128gcm',vapidDetails:{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY}});
+   const details=await generateRequestDetails({endpoint:valid.endpoint,keys:{p256dh:valid.p256dh,auth:valid.auth}},JSON.stringify({title:'Kenneth App',body:APP_NAMES[sub.app]+': '+labels[sub.lang],url:finalUrl,tag:'release-'+sub.app+'-'+sub.platform}),{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY});
    const result=await fetch(valid.endpoint,{method:'POST',headers:details.headers,body:details.body,redirect:'error'});
    if(result.status===404||result.status===410){state='expired';await db.prepare('DELETE FROM subscriptions WHERE id=?').bind(sub.id).run()}
    else if(result.ok){state='sent'}
@@ -116,10 +117,47 @@ async function dispatch(env){
  if(state!=='expired')await db.prepare('UPDATE dispatches SET state=? WHERE subscription_id=?').bind(state,sub.id).run();
  return json({status:state});
 }
+
+const testEnabled=env=>env.ENABLE_OWNER_TEST==='true'&&env.ENABLE_ALERTS!=='true'&&env.ENABLE_DISPATCH!=='true'&&!!env.DB&&validB64(env.VAPID_PUBLIC_KEY,87,87)&&validB64(env.VAPID_PRIVATE_KEY,43,43)&&typeof env.VAPID_SUBJECT==='string'&&env.VAPID_SUBJECT.startsWith('mailto:')&&typeof env.OWNER_SECRET==='string'&&env.OWNER_SECRET.length>=32;
+const testHeaders={'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','X-Robots-Tag':'noindex, nofollow','Referrer-Policy':'no-referrer','Content-Security-Policy':"default-src 'none'; script-src 'self'; connect-src 'self'; worker-src 'self'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'"};
+const testHtml='<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Kenneth App private alert test</title><h1>출시 알림 1회 검증</h1><p>실제 출시 알림이 아닙니다. 이 브라우저에만 테스트 알림을 한 번 보냅니다. 공개 알림 가입은 꺼져 있습니다.</p><label>관리용 비밀값 <input id="secret" type="password" autocomplete="off"></label><button id="synthetic" type="button">합성 검증 (알림 안 보냄)</button><button id="send" type="button" disabled>이 브라우저에 테스트 알림 1회 보내기</button><button id="cleanup" type="button">테스트 알림 확인 후 구독 정리</button><p id="result" role="status"></p><script src="/owner-test/test.js"></script></html>';
+const testScript="\n(()=>{'use strict';const $=id=>document.getElementById(id);let passed=false;\nconst output=s=>{$('result').textContent=s;};\nasync function api(path,body){const v=$('secret').value;if(!v)return {error:'secret_required'};const r=await fetch(path,{method:'POST',credentials:'same-origin',cache:'no-store',headers:{'Content-Type':'application/json',Authorization:'Bearer '+v},body:JSON.stringify(body||{})});return r.json();}\n$('synthetic').addEventListener('click',async()=>{try{$('synthetic').disabled=true;const x=await api('/owner-test/selftest');passed=x.status==='passed';$('send').disabled=!passed;output(passed?'합성 암호화·서명 검사 통과. 실제 알림은 아직 보내지 않았습니다.':'검사 실패: '+(x.error||'미확인'));}catch{output('검사 실패');}finally{$('synthetic').disabled=false}});\n$('send').addEventListener('click',async()=>{if(!passed)return; $('send').disabled=true;try{if(!('Notification'in window)||!('serviceWorker'in navigator)||!('PushManager'in window))throw Error('unsupported');\nif(await Notification.requestPermission()!=='granted')throw Error('permission');\nconst reg=await navigator.serviceWorker.register('/owner-test/sw.js',{scope:'/owner-test/'});await navigator.serviceWorker.ready;\nconst cfg=await(await fetch('/owner-test/config',{cache:'no-store'})).json();if(!cfg.enabled)throw Error('disabled');\nconst k=Uint8Array.from(atob(cfg.publicKey.replace(/-/g,'+').replace(/_/g,'/')),c=>c.charCodeAt(0));\nlet sub=await reg.pushManager.getSubscription();if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:k});\nconst out=await api('/owner-test/send',{consent:true,subscription:sub.toJSON()});\noutput(out.status==='sent'?'푸시 서버 접수 성공. 이 브라우저의 실제 테스트 알림을 확인해 주세요.':'전송 결과: '+(out.error||out.status||'미확인'));\n}catch{output('테스트 알림을 전송하지 못했습니다.');}finally{$('secret').value='';}});\n$('cleanup').addEventListener('click',async()=>{try{const reg=await navigator.serviceWorker.getRegistration('/owner-test/');if(reg){const sub=await reg.pushManager.getSubscription();if(sub)await sub.unsubscribe();await reg.unregister();}output('테스트 구독을 정리했습니다.');}catch{output('정리 실패');}});\n})();\n"; 
+const testSW="\nself.addEventListener('push',event=>{let x;try{x=event.data?.json();}catch{return;}if(x?.tag!=='kenneth-owner-test')return;event.waitUntil(self.registration.showNotification('Kenneth App 테스트',{body:'출시 알림 기능 테스트입니다. 실제 앱 출시는 아닙니다.',tag:'kenneth-owner-test'}));});\n";
+async function ownerTest(req,env,url,origin){
+ if(!testEnabled(env)||url.origin!==TEST_ORIGIN)return json({error:'not_enabled'},503);
+ if(req.method==='GET'){
+  if(url.pathname==='/owner-test/')return new Response(testHtml,{headers:{...testHeaders,'Content-Type':'text/html; charset=utf-8'}});
+  if(url.pathname==='/owner-test/test.js'||url.pathname==='/owner-test/sw.js')return new Response(url.pathname.endsWith('sw.js')?testSW:testScript,{headers:{...testHeaders,'Content-Type':'text/javascript; charset=utf-8'}});
+  if(url.pathname==='/owner-test/config')return json({enabled:true,publicKey:env.VAPID_PUBLIC_KEY});
+ }
+ if(req.method!=='POST'||origin!==TEST_ORIGIN||!await secretEqual(req.headers.get('authorization')?.replace(/^Bearer /,''),env.OWNER_SECRET))return json({error:'forbidden'},403);
+ if(url.pathname==='/owner-test/selftest'){
+  if(!await quota(env.DB,'owner-selftest',5))return json({error:'quota_paused'},429);
+  try{const pair=await crypto.subtle.generateKey({name:'ECDH',namedCurve:'P-256'},true,['deriveBits']);
+   const raw=new Uint8Array(await crypto.subtle.exportKey('raw',pair.publicKey));
+   const to64=x=>btoa(String.fromCharCode(...x)).replace(/=/g,'').replace(/\+/g,'-').replace(/\//g,'_');
+   const keys={p256dh:to64(raw),auth:to64(crypto.getRandomValues(new Uint8Array(16)))};
+   if(!await validateSubscriptionKeys(keys))throw Error('invalid');
+   const r=await generateRequestDetails({endpoint:'https://fcm.googleapis.com/fcm/send/synthetic-no-network',keys},'{"synthetic":true}',{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY});
+   if(r.headers['Content-Encoding']!=='aes128gcm'||r.body.length<100)throw Error('invalid');
+   await env.DB.prepare('INSERT INTO quotas(day,kind,used) VALUES(?,?,1) ON CONFLICT(day,kind) DO UPDATE SET used=1').bind(day(),'owner-selftest-passed').run();return json({status:'passed'});
+  }catch{return json({error:'selftest_failed'},503);}
+ }
+ if(url.pathname==='/owner-test/send'){
+  const v=await body(req);const p=subscriptionInput({...v,app:'bracketbud',platform:'android',lang:'ko',token:'A'.repeat(43)});
+  if(!p||!await validateSubscriptionKeys({p256dh:p.p256dh,auth:p.auth}))return json({error:'invalid_subscription'},400);
+  const verified=await env.DB.prepare('SELECT used FROM quotas WHERE day=? AND kind=?').bind(day(),'owner-selftest-passed').first();if(verified?.used!==1)return json({error:'synthetic_verification_required'},403);
+  if(!await quota(env.DB,'owner-test-send',1))return json({error:'quota_paused'},429);
+  try{const details=await generateRequestDetails({endpoint:p.endpoint,keys:{p256dh:p.p256dh,auth:p.auth}},JSON.stringify({tag:'kenneth-owner-test'}),{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY});
+  const r=await fetch(p.endpoint,{method:'POST',headers:details.headers,body:details.body,redirect:'error'});return json({status:r.ok?'sent':'not_accepted'});}catch{return json({error:'send_failed'},503);}
+ }
+ return json({error:'not_found'},404);
+}
 export default {
  async fetch(req,env){
   try{
    const u=new URL(req.url),origin=req.headers.get('origin');
+   if(u.pathname.startsWith('/owner-test/'))return await ownerTest(req,env,u,origin);
    if(req.method==='OPTIONS')return origin===SITE?new Response(null,{status:204,headers:CORS}):new Response(null,{status:403});
    if(origin&&origin!==SITE)return json({error:'forbidden'},403);
    if(req.method==='GET'&&u.pathname==='/v1/config')return json(enabled(env)?{enabled:true,publicKey:env.VAPID_PUBLIC_KEY}:{enabled:false});

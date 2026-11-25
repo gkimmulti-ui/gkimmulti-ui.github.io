@@ -1,0 +1,1 @@
+const fs=require('node:fs');const n=fs.readFileSync('webpush-native.mjs','utf8').replace(/^export \{[^}]+\};\s*$/m,'');const s=fs.readFileSync('worker.mjs','utf8').replace(/^import .*?;\n/,'');fs.writeFileSync('worker-native.bundle.mjs','// Standalone Worker: Web Crypto only.\n'+n+'\n'+s);

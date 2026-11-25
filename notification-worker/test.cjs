@@ -2,7 +2,7 @@ const assert=require('node:assert/strict');const {DatabaseSync}=require('node:sq
 const database=new DatabaseSync(':memory:');
 const fs=require('node:fs'),path=require('node:path');database.exec(fs.readFileSync(path.join(__dirname,'schema.sql'),'utf8'));
 const DB={prepare(sql){let args=[];const st=database.prepare(sql);return{bind(...x){args=x;return this},async first(){return st.get(...args)},async all(){return{results:st.all(...args)}},async run(){return{meta:{changes:Number(st.run(...args).changes)}}}}}};
-let pushes=0;let fakeStatus=201;const generateRequestDetails=async()=>({headers:{'Content-Encoding':'aes128gcm'},body:new Uint8Array(128)});const validateSubscriptionKeys=async()=>true;const fetch=async()=>{pushes++;return{status:fakeStatus,ok:fakeStatus===201}};
+let pushes=0;let fakeStatus=201;const generateRequestDetails=async()=>({headers:{'Content-Encoding':'aes128gcm'},body:new Uint8Array(128)});const validateSubscriptionKeys=async()=>true;const fetch=async(url,init)=>{assert.equal(init.redirect,'manual');assert.equal(new URL(url).hostname,'fcm.googleapis.com');pushes++;return{status:fakeStatus,ok:fakeStatus===201}};
 const source=fs.readFileSync(path.join(__dirname,'worker.mjs'),'utf8').replace(/^import .*?;\n/,'').replace('export default {','const handler = {').replace(/export \{[^}]+\};/,'');const handler=new Function('generateRequestDetails','validateSubscriptionKeys','fetch',source+'\nreturn handler')(generateRequestDetails,validateSubscriptionKeys,fetch);const SITE='https://gkimmulti-ui.github.io';
 (async()=>{
 const env={DB,ENABLE_ALERTS:'true',ENABLE_DISPATCH:'false',VAPID_PUBLIC_KEY:'A'.repeat(87),VAPID_PRIVATE_KEY:'B'.repeat(43),VAPID_SUBJECT:'mailto:test@example.invalid',OWNER_SECRET:'S'.repeat(32),RELEASE_APP_MAP:JSON.stringify({bracketbud:{android:'com.synthetic.only'}})};
@@ -44,7 +44,7 @@ assert.equal((await testCall('/owner-test/send','POST',{consent:true,subscriptio
 assert.equal((await testCall('/owner-test/selftest','POST',{})).status,200);
 assert.equal(pushes,1);
 assert.equal((await testCall('/owner-test/send','POST',{consent:false,subscription:sub.subscription})).status,400);
-assert.equal((await (await testCall('/owner-test/send','POST',{consent:true,subscription:sub.subscription})).json()).status,'sent');
+fakeStatus=302;assert.equal((await (await testCall('/owner-test/send','POST',{consent:true,subscription:sub.subscription})).json()).error,'push_redirect_rejected');
 assert.equal(pushes,2);
 assert.equal((await testCall('/owner-test/send','POST',{consent:true,subscription:sub.subscription})).status,429);
 assert.equal(database.prepare('SELECT count(*) n FROM subscriptions').get().n,0);

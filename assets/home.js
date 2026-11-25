@@ -190,5 +190,11 @@
     if(link&&!document.getElementById(link.hash.slice(1))){activeGroup='all';search.value='';platform.value='all';document.getElementById('app-filters').innerHTML=filters(lang);renderApps();}
   });
   render();
+  // Public upcoming catalog: no notification or subscription calls.
+  const upcomingLabels={ko:'출시 예정 앱',en:'Upcoming apps',ja:'近日公開アプリ',zh:'即将推出的应用',ru:'Скоро в продаже',fil:'Mga paparating na app',hi:'आगामी ऐप्स',es:'Próximas aplicaciones',pt:'Aplicativos em breve',fr:'Applications à venir',de:'Kommende Apps',id:'Aplikasi mendatang'};
+  const upcomingHref='/upcoming/?lang='+encodeURIComponent(lang);
+  for(const [selector,css] of [['.nav-links',''],['.hero-actions','text-link']]){
+    const host=document.querySelector(selector);if(!host)continue;
+    const a=document.createElement('a');a.href=upcomingHref;a.textContent=upcomingLabels[lang]||upcomingLabels.en;if(css)a.className=css;host.append(a);
+  }
 })();
-

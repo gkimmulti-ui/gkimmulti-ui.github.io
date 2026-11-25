@@ -5,7 +5,7 @@ const DB={prepare(sql){let args=[];const st=database.prepare(sql);return{bind(..
 let pushes=0;let fakeStatus=201;const webpush={generateRequestDetails(){return{headers:{},body:'synthetic'}}};const fetch=async()=>{pushes++;return{status:fakeStatus,ok:fakeStatus===201}};
 const source=fs.readFileSync(path.join(__dirname,'worker.mjs'),'utf8').replace(/^import .*?;\n/,'').replace('export default {','const handler = {').replace(/export \{[^}]+\};/,'');const handler=new Function('webpush','fetch',source+'\nreturn handler')(webpush,fetch);const SITE='https://gkimmulti-ui.github.io';
 (async()=>{
-const env={DB,ENABLE_ALERTS:'true',ENABLE_DISPATCH:'false',VAPID_PUBLIC_KEY:'A'.repeat(87),VAPID_PRIVATE_KEY:'B'.repeat(43),VAPID_SUBJECT:'mailto:test@example.invalid',OWNER_SECRET:'S'.repeat(32)};
+const env={DB,ENABLE_ALERTS:'true',ENABLE_DISPATCH:'false',VAPID_PUBLIC_KEY:'A'.repeat(87),VAPID_PRIVATE_KEY:'B'.repeat(43),VAPID_SUBJECT:'mailto:test@example.invalid',OWNER_SECRET:'S'.repeat(32),RELEASE_APP_MAP:JSON.stringify({bracketbud:{android:'com.synthetic.only'}})};
 const mk=(path,method='GET',payload,origin=SITE,secret)=>new Request('https://synthetic.invalid'+path,{method,headers:{...(origin?{origin}:{}),...(payload?{'Content-Type':'application/json'}:{}),...(secret?{authorization:'Bearer '+secret}:{})},...(payload?{body:JSON.stringify(payload)}:{})});
 const call=(p,m,b,o,s)=>handler.fetch(mk(p,m,b,o,s),env);
 let r=await call('/v1/config');assert.equal((await r.json()).enabled,true);
@@ -24,6 +24,7 @@ const releaseData={app:'bracketbud',platform:'android',publicationVerified:true,
 r=await call('/owner/release','POST',releaseData,null,'wrong');assert.equal(r.status,403);
 r=await call('/owner/release','POST',{...releaseData,storeUrl:'https://play.google.com/apps/testing/com.synthetic.only'},null,env.OWNER_SECRET);assert.equal(r.status,400);
 r=await call('/owner/release','POST',{...releaseData,platform:'ios'},null,env.OWNER_SECRET);assert.equal(r.status,400);
+r=await call('/owner/release','POST',{...releaseData,storeUrl:'https://play.google.com/store/apps/details?id=com.wrong.app'},null,env.OWNER_SECRET);assert.equal(r.status,400);
 r=await call('/owner/release','POST',releaseData,null,env.OWNER_SECRET);assert.equal((await r.json()).status,'release_registered');
 r=await call('/owner/dispatch','POST',{},null,env.OWNER_SECRET);assert.equal(r.status,503);assert.equal(pushes,0);
 env.ENABLE_DISPATCH='true';r=await call('/owner/dispatch','POST',{},null,env.OWNER_SECRET);assert.equal((await r.json()).status,'sent');assert.equal(pushes,1);

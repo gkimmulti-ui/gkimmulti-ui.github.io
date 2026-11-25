@@ -1,0 +1,16 @@
+# Do not rename to wrangler.toml or deploy until separate Workers Free D1 exists.
+name = "kenneth-release-alerts"
+main = "worker.mjs"
+compatibility_date = "2026-11-25"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENABLE_ALERTS = "false"
+ENABLE_DISPATCH = "false"
+# Actual VAPID keys and OWNER_SECRET must be Worker secrets.
+# VAPID_SUBJECT is the operator's verified mailto: URI.
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kenneth-release-alerts-subscriptions"
+database_id = "REPLACE_WITH_SEPARATE_FREE_D1_ID"

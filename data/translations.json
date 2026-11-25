@@ -90,7 +90,8 @@
     "seo.downloads": "Downloads and QR codes",
     "seo.storeName": "Store listing name",
     "languages.more": "More languages — Google Translate",
-    "languages.notice": "Opens an external translation service. Text is translated automatically; screenshot artwork stays unchanged."
+    "languages.notice": "Opens an external translation service. Text is translated automatically; screenshot artwork stays unchanged.",
+    "footer.admin": "Admin mode"
   },
   "ko": {
     "meta.title": "케네스앱 | 생활·사진·게임 앱 다운로드 · Kenneth App",
@@ -183,7 +184,8 @@
     "seo.downloads": "다운로드 및 QR",
     "seo.storeName": "스토어 등록명",
     "languages.more": "다른 언어 — Google 번역",
-    "languages.notice": "외부 번역 서비스로 이동합니다. 텍스트는 자동 번역되며 스크린샷 속 글자는 바뀌지 않습니다."
+    "languages.notice": "외부 번역 서비스로 이동합니다. 텍스트는 자동 번역되며 스크린샷 속 글자는 바뀌지 않습니다.",
+    "footer.admin": "관리자 모드"
   },
   "ja": {
     "meta.title": "Kenneth App | 暮らし・写真・ゲームアプリ",
@@ -276,7 +278,8 @@
     "seo.downloads": "ダウンロードとQRコード",
     "seo.storeName": "ストアでのアプリ名",
     "languages.more": "他の言語 — Google翻訳",
-    "languages.notice": "外部の翻訳サービスを開きます。テキストは自動翻訳されますが、画像内の文字は変わりません。"
+    "languages.notice": "外部の翻訳サービスを開きます。テキストは自動翻訳されますが、画像内の文字は変わりません。",
+    "footer.admin": "管理者モード"
   },
   "zh": {
     "meta.title": "Kenneth App | 生活、照片工具与游戏应用",
@@ -369,7 +372,8 @@
     "seo.downloads": "下载与二维码",
     "seo.storeName": "商店中的应用名称",
     "languages.more": "更多语言 — Google翻译",
-    "languages.notice": "打开外部翻译服务。文字将自动翻译，截图中的文字不会改变。"
+    "languages.notice": "打开外部翻译服务。文字将自动翻译，截图中的文字不会改变。",
+    "footer.admin": "管理员模式"
   },
   "ru": {
     "meta.title": "Kenneth App | Приложения для жизни, фото и игры",
@@ -462,7 +466,8 @@
     "seo.downloads": "Скачать и QR-коды",
     "seo.storeName": "Название в магазине",
     "languages.more": "Другие языки — Google Переводчик",
-    "languages.notice": "Откроется внешний сервис перевода. Текст переводится автоматически; изображения не меняются."
+    "languages.notice": "Откроется внешний сервис перевода. Текст переводится автоматически; изображения не меняются.",
+    "footer.admin": "Режим администратора"
   },
   "fil": {
     "meta.title": "Kenneth App | Mga App para sa Araw-araw, Larawan at Laro",
@@ -555,7 +560,8 @@
     "seo.downloads": "Mga download at QR code",
     "seo.storeName": "Pangalan sa store",
     "languages.more": "Iba pang wika — Google Translate",
-    "languages.notice": "Magbubukas ng panlabas na serbisyo ng pagsasalin. Awtomatikong isasalin ang teksto; hindi magbabago ang mga screenshot."
+    "languages.notice": "Magbubukas ng panlabas na serbisyo ng pagsasalin. Awtomatikong isasalin ang teksto; hindi magbabago ang mga screenshot.",
+    "footer.admin": "Mode ng administrator"
   },
   "hi": {
     "meta.title": "Kenneth App — रोज़मर्रा के ऐप और गेम",
@@ -648,7 +654,8 @@
     "seo.downloads": "डाउनलोड और QR कोड",
     "seo.storeName": "स्टोर में नाम",
     "languages.more": "और भाषाएँ — Google अनुवाद",
-    "languages.notice": "बाहरी अनुवाद सेवा खोलता है। पाठ का स्वचालित अनुवाद होगा; स्क्रीनशॉट नहीं बदलेंगे।"
+    "languages.notice": "बाहरी अनुवाद सेवा खोलता है। पाठ का स्वचालित अनुवाद होगा; स्क्रीनशॉट नहीं बदलेंगे।",
+    "footer.admin": "प्रशासक मोड"
   },
   "es": {
     "meta.title": "Kenneth App — Aplicaciones y juegos para cada día",
@@ -741,7 +748,8 @@
     "seo.downloads": "Descargas y códigos QR",
     "seo.storeName": "Nombre en la tienda",
     "languages.more": "Más idiomas — Google Traductor",
-    "languages.notice": "Abre un servicio externo. Traduce automáticamente el texto; las capturas no cambian."
+    "languages.notice": "Abre un servicio externo. Traduce automáticamente el texto; las capturas no cambian.",
+    "footer.admin": "Modo administrador"
   },
   "pt": {
     "meta.title": "Kenneth App — Aplicativos e jogos para o dia a dia",
@@ -834,7 +842,8 @@
     "seo.downloads": "Downloads e códigos QR",
     "seo.storeName": "Nome na loja",
     "languages.more": "Mais idiomas — Google Tradutor",
-    "languages.notice": "Abre um serviço externo. O texto é traduzido automaticamente; as capturas não mudam."
+    "languages.notice": "Abre um serviço externo. O texto é traduzido automaticamente; as capturas não mudam.",
+    "footer.admin": "Modo administrador"
   },
   "fr": {
     "meta.title": "Kenneth App — Applications et jeux du quotidien",
@@ -927,7 +936,8 @@
     "seo.downloads": "Téléchargements et codes QR",
     "seo.storeName": "Nom dans la boutique",
     "languages.more": "Autres langues — Google Traduction",
-    "languages.notice": "Ouvre un service externe. Le texte est traduit automatiquement, pas les captures."
+    "languages.notice": "Ouvre un service externe. Le texte est traduit automatiquement, pas les captures.",
+    "footer.admin": "Mode administrateur"
   },
   "de": {
     "meta.title": "Kenneth App — Apps und Spiele für jeden Tag",
@@ -1020,7 +1030,8 @@
     "seo.downloads": "Downloads und QR-Codes",
     "seo.storeName": "Name im Store",
     "languages.more": "Weitere Sprachen — Google Übersetzer",
-    "languages.notice": "Öffnet einen externen Dienst. Text wird automatisch übersetzt; Screenshots bleiben unverändert."
+    "languages.notice": "Öffnet einen externen Dienst. Text wird automatisch übersetzt; Screenshots bleiben unverändert.",
+    "footer.admin": "Administratormodus"
   },
   "id": {
     "meta.title": "Kenneth App — Aplikasi dan game sehari-hari",
@@ -1113,6 +1124,7 @@
     "seo.downloads": "Unduhan dan kode QR",
     "seo.storeName": "Nama di toko",
     "languages.more": "Bahasa lainnya — Google Terjemahan",
-    "languages.notice": "Membuka layanan eksternal. Teks diterjemahkan otomatis; gambar tetap sama."
+    "languages.notice": "Membuka layanan eksternal. Teks diterjemahkan otomatis; gambar tetap sama.",
+    "footer.admin": "Mode administrator"
   }
 }

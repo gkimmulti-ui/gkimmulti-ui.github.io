@@ -2,8 +2,8 @@ const assert=require('node:assert/strict');const {DatabaseSync}=require('node:sq
 const database=new DatabaseSync(':memory:');
 const fs=require('node:fs'),path=require('node:path');database.exec(fs.readFileSync(path.join(__dirname,'schema.sql'),'utf8'));
 const DB={prepare(sql){let args=[];const st=database.prepare(sql);return{bind(...x){args=x;return this},async first(){return st.get(...args)},async all(){return{results:st.all(...args)}},async run(){return{meta:{changes:Number(st.run(...args).changes)}}}}}};
-let pushes=0;let fakeStatus=201;const webpush={generateRequestDetails(){return{headers:{},body:'synthetic'}}};const fetch=async()=>{pushes++;return{status:fakeStatus,ok:fakeStatus===201}};
-const source=fs.readFileSync(path.join(__dirname,'worker.mjs'),'utf8').replace(/^import .*?;\n/,'').replace('export default {','const handler = {').replace(/export \{[^}]+\};/,'');const handler=new Function('webpush','fetch',source+'\nreturn handler')(webpush,fetch);const SITE='https://gkimmulti-ui.github.io';
+let pushes=0;let fakeStatus=201;const generateRequestDetails=async()=>({headers:{'Content-Encoding':'aes128gcm'},body:new Uint8Array(128)});const validateSubscriptionKeys=async()=>true;const fetch=async()=>{pushes++;return{status:fakeStatus,ok:fakeStatus===201}};
+const source=fs.readFileSync(path.join(__dirname,'worker.mjs'),'utf8').replace(/^import .*?;\n/,'').replace('export default {','const handler = {').replace(/export \{[^}]+\};/,'');const handler=new Function('generateRequestDetails','validateSubscriptionKeys','fetch',source+'\nreturn handler')(generateRequestDetails,validateSubscriptionKeys,fetch);const SITE='https://gkimmulti-ui.github.io';
 (async()=>{
 const env={DB,ENABLE_ALERTS:'true',ENABLE_DISPATCH:'false',VAPID_PUBLIC_KEY:'A'.repeat(87),VAPID_PRIVATE_KEY:'B'.repeat(43),VAPID_SUBJECT:'mailto:test@example.invalid',OWNER_SECRET:'S'.repeat(32),RELEASE_APP_MAP:JSON.stringify({bracketbud:{android:'com.synthetic.only'}})};
 const mk=(path,method='GET',payload,origin=SITE,secret)=>new Request('https://synthetic.invalid'+path,{method,headers:{...(origin?{origin}:{}),...(payload?{'Content-Type':'application/json'}:{}),...(secret?{authorization:'Bearer '+secret}:{})},...(payload?{body:JSON.stringify(payload)}:{})});
@@ -32,5 +32,23 @@ r=await call('/owner/dispatch','POST',{},null,env.OWNER_SECRET);assert.equal((aw
 r=await call('/v1/subscribe','POST',sub);assert.equal((await r.json()).status,'released');
 r=await call('/v1/unsubscribe','POST',{app:'bracketbud',platform:'android',token:sub.token});assert.equal((await r.json()).status,'unsubscribed');assert.equal(database.prepare('SELECT count(*) n FROM subscriptions').get().n,0);
 assert.equal(database.prepare('SELECT count(*) n FROM dispatches').get().n,0);
+
+const TEST='https://kenneth-release-alerts.gkimmulti.workers.dev';
+const testCall=(p,m='GET',data,s=env.OWNER_SECRET,o=TEST)=>handler.fetch(new Request(TEST+p,{method:m,headers:{...(o?{origin:o}:{}),Authorization:'Bearer '+s,...(data?{'Content-Type':'application/json'}:{})},...(data?{body:JSON.stringify(data)}:{})}),env);
+env.ENABLE_ALERTS='false';env.ENABLE_DISPATCH='false';env.ENABLE_OWNER_TEST='false';
+assert.equal((await testCall('/owner-test/')).status,503);
+env.ENABLE_OWNER_TEST='true';assert.equal((await testCall('/owner-test/')).status,200);
+assert.equal((await testCall('/owner-test/selftest','POST',{},'wrong')).status,403);
+assert.equal((await testCall('/owner-test/selftest','POST',{},env.OWNER_SECRET,'https://unrelated.invalid')).status,403);
+assert.equal((await testCall('/owner-test/send','POST',{consent:true,subscription:sub.subscription})).status,403);
+assert.equal((await testCall('/owner-test/selftest','POST',{})).status,200);
+assert.equal(pushes,1);
+assert.equal((await testCall('/owner-test/send','POST',{consent:false,subscription:sub.subscription})).status,400);
+assert.equal((await (await testCall('/owner-test/send','POST',{consent:true,subscription:sub.subscription})).json()).status,'sent');
+assert.equal(pushes,2);
+assert.equal((await testCall('/owner-test/send','POST',{consent:true,subscription:sub.subscription})).status,429);
+assert.equal(database.prepare('SELECT count(*) n FROM subscriptions').get().n,0);
+assert.equal(database.prepare('SELECT count(*) n FROM releases').get().n,1);
+console.log('PASS: owner test locally disabled, same-origin and secret gate, prior synthetic pass and consent required, one mocked delivery; no additional subscriber/release rows.');
 console.log('PASS: synthetic D1 schema, allowlist, consent, cross-origin, idempotency, auth, no test URL, no dispatch before enabling, one dispatch, no duplicates, unsubscribe cleanup. Real network untouched.');
 })().catch(e=>{console.error(e);process.exitCode=1});

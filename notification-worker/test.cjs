@@ -44,7 +44,14 @@ assert.equal((await testCall('/owner-test/send','POST',{consent:true,subscriptio
 assert.equal((await testCall('/owner-test/selftest','POST',{})).status,200);
 assert.equal(pushes,1);
 assert.equal((await testCall('/owner-test/send','POST',{consent:false,subscription:sub.subscription})).status,400);
-fakeStatus=302;assert.equal((await (await testCall('/owner-test/send','POST',{consent:true,subscription:sub.subscription})).json()).error,'push_redirect_rejected');
+assert.equal((await testCall('/owner-test/site-grant','POST',{},'wrong')).status,403);assert.equal((await testCall('/owner-test/site-grant','POST',{},env.OWNER_SECRET,SITE)).status,403);
+const grant=(await (await testCall('/owner-test/site-grant','POST',{})).json()).grant;assert.ok(grant);const savedNow=Date.now;try{Date.now=()=>savedNow()+601000;assert.equal((await testCall('/owner-test/site-send','POST',{consent:true,subscription:sub.subscription},grant,SITE)).status,403);}finally{Date.now=savedNow;}
+assert.equal((await testCall('/owner-test/site-send','OPTIONS',null,grant,SITE)).status,204);
+assert.equal((await testCall('/owner-test/site-send','POST',{consent:true,subscription:sub.subscription},env.OWNER_SECRET,SITE)).status,403);
+assert.equal((await testCall('/owner-test/site-send','POST',{consent:true,subscription:sub.subscription},grant,'https://unrelated.invalid')).status,403);
+assert.equal((await testCall('/owner-test/site-send','POST',{consent:true,subscription:sub.subscription},'1'+grant,SITE)).status,403);
+fakeStatus=302;assert.equal((await (await testCall('/owner-test/site-send','POST',{consent:true,subscription:sub.subscription},grant,SITE)).json()).error,'push_redirect_rejected');
+assert.equal((await testCall('/owner-test/site-send','POST',{consent:true,subscription:sub.subscription},grant,SITE)).status,429);
 assert.equal(pushes,2);
 assert.equal((await testCall('/owner-test/send','POST',{consent:true,subscription:sub.subscription})).status,429);
 assert.equal(database.prepare('SELECT count(*) n FROM subscriptions').get().n,0);

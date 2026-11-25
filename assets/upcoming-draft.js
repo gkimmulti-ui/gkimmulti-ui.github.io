@@ -6,13 +6,15 @@ const fieldIds=['title','intro','langlabel','back','note'];
 const select=document.querySelector('#language');
 const q=new URLSearchParams(location.search).get('lang');
 const requested=q==="zh"?"zh-CN":q;const initial=q?(languageCopy.findIndex(row=>row[7]===requested)<0?1:languageCopy.findIndex(row=>row[7]===requested)):0;
-function render(index){
+const knownHomeLocales=new Set(["ko","en","ja","zh","ru","fil","hi","es","pt","fr","de","id"]);
+const originalHomeLocale=knownHomeLocales.has(q)?q:q==="zh-CN"?"zh":null;
+function render(index, preserveHome=false){
   if(!Number.isInteger(index)||index<0||index>=languageCopy.length)index=0;
   const copy=languageCopy[index];
   document.documentElement.lang=copy[7];
   document.title=copy[0]+' | Kenneth App';
   fieldIds.forEach((id,i)=>{document.getElementById(id).textContent=copy[i];});
-  document.getElementById('back').href=copy[8];
+  document.getElementById('back').href=preserveHome&&originalHomeLocale?(originalHomeLocale==='ko'?'/':'/'+originalHomeLocale+'/'):copy[8];
   document.querySelectorAll('.coming-card').forEach((card)=>{
     const app=rows.find(row=>row[0]===card.dataset.app);
     if(!app)return;
@@ -23,5 +25,5 @@ function render(index){
   select.value=String(index);
 }
 select.addEventListener('change',()=>render(Number(select.value)));
-render(initial);
+render(initial,true);
 })();

@@ -8,7 +8,13 @@
       "ja": "完全に同一のファイルと似た写真を分け、並べて連動拡大で比較できます。整理する写真は自分で選択し、対応端末では圧縮動画を確認して元の動画を残したまま小さいコピーを保存できます。",
       "zh": "区分完全相同的文件与相似照片，并联动放大比较。自行选择要清理的内容；在支持的设备上预览压缩视频，保留原文件并保存较小的副本。",
       "ru": "Отличайте одинаковые файлы от похожих фото и сравнивайте их с синхронным увеличением. Сами выбирайте файлы для очистки; на поддерживаемых устройствах просматривайте сжатое видео и сохраняйте меньшую копию, не заменяя оригинал.",
-      "fil": "Paghiwalayin ang magkakaparehong file at magkakahawig na larawan, at ihambing sa sabayang pag-zoom. Piliin ang lilinisin; sa suportadong device, i-preview ang compressed video at i-save ang mas maliit na kopya nang hindi pinapalitan ang orihinal."
+      "fil": "Paghiwalayin ang magkakaparehong file at magkakahawig na larawan, at ihambing sa sabayang pag-zoom. Piliin ang lilinisin; sa suportadong device, i-preview ang compressed video at i-save ang mas maliit na kopya nang hindi pinapalitan ang orihinal.",
+      "hi": "एक जैसे फ़ाइलों और मिलती-जुलती तस्वीरों को अलग करके साथ-साथ ज़ूम से तुलना करें। साफ़ करने वाली चीज़ें स्वयं चुनें; समर्थित डिवाइस पर संपीड़ित वीडियो का पूर्वावलोकन करके मूल फ़ाइल को सुरक्षित रखते हुए छोटी कॉपी सहेजें।",
+      "es": "Distingue archivos idénticos de fotos similares y compáralos con zoom sincronizado. Elige qué limpiar; en dispositivos compatibles, previsualiza vídeos comprimidos y guarda una copia más pequeña sin sobrescribir el original.",
+      "pt": "Separe arquivos idênticos de fotos semelhantes e compare com zoom sincronizado. Escolha o que limpar; em dispositivos compatíveis, visualize vídeos comprimidos e salve uma cópia menor sem substituir o original.",
+      "fr": "Distinguez les fichiers identiques des photos similaires et comparez-les avec un zoom synchronisé. Choisissez les éléments à nettoyer ; sur les appareils compatibles, prévisualisez les vidéos compressées et enregistrez une copie plus petite sans écraser l’original.",
+      "de": "Unterscheiden Sie identische Dateien von ähnlichen Fotos und vergleichen Sie sie mit synchronisiertem Zoom. Wählen Sie selbst aus, was Sie bereinigen möchten; auf unterstützten Geräten lassen sich komprimierte Videos vorab ansehen und als kleinere Kopie speichern, ohne das Original zu überschreiben.",
+      "id": "Pisahkan file identik dan foto serupa, lalu bandingkan dengan zoom tersinkronisasi. Pilih sendiri yang ingin dibersihkan; pada perangkat yang didukung, pratinjau video terkompresi dan simpan salinan lebih kecil tanpa menimpa aslinya."
     },
     "lightled": {
       "ko": "원하는 문구를 전체 화면 LED 전광판으로 표시하세요. 도트 매트릭스·네온·세그먼트 스타일, 색상과 속도, 밝기 및 프리셋을 조절하고 선택적으로 기기 내 번역을 이용할 수 있습니다.",
@@ -16,7 +22,13 @@
       "ja": "好きなメッセージを全画面LED表示に。ドットマトリックス・ネオン・セグメントのスタイルや色、速度、明るさ、プリセットを調整し、必要に応じて端末内翻訳も使えます。",
       "zh": "将自定义消息显示为全屏LED滚动屏。可调整点阵、霓虹或数码管风格、颜色、速度、亮度及预设，并可选择设备端翻译。",
       "ru": "Показывайте сообщения на полноэкранном LED-табло. Настраивайте точечный, неоновый или сегментный стиль, цвета, скорость, яркость и шаблоны; доступен необязательный перевод на устройстве.",
-      "fil": "Gawing full-screen LED display ang mensahe. I-customize ang dot matrix, neon o segment style, kulay, bilis, liwanag at preset, na may opsiyonal na on-device translation."
+      "fil": "Gawing full-screen LED display ang mensahe. I-customize ang dot matrix, neon o segment style, kulay, bilis, liwanag at preset, na may opsiyonal na on-device translation.",
+      "hi": "अपने संदेश को पूरी स्क्रीन की LED डिस्प्ले बनाएं। डॉट मैट्रिक्स, नियॉन या सेगमेंट शैली, रंग, गति, चमक और प्रीसेट बदलें; वैकल्पिक डिवाइस-आधारित अनुवाद भी उपलब्ध है।",
+      "es": "Convierte tus mensajes en una pantalla LED a pantalla completa. Personaliza los estilos de matriz de puntos, neón o segmentos, los colores, la velocidad, el brillo y los ajustes predefinidos, con traducción opcional en el dispositivo.",
+      "pt": "Transforme sua mensagem em um painel LED de tela cheia. Personalize os estilos matriz de pontos, neon ou segmentos, cores, velocidade, brilho e predefinições, com tradução opcional no dispositivo.",
+      "fr": "Transformez votre message en affichage LED plein écran. Personnalisez les styles matriciel, néon ou segment, les couleurs, la vitesse, la luminosité et les préréglages, avec traduction facultative sur l’appareil.",
+      "de": "Zeigen Sie Ihre Nachricht als LED-Vollbildanzeige an. Stellen Sie Punktmatrix-, Neon- oder Segmentstil, Farben, Geschwindigkeit, Helligkeit und Vorlagen ein; optional ist eine Übersetzung auf dem Gerät möglich.",
+      "id": "Ubah pesan menjadi tampilan LED layar penuh. Sesuaikan gaya dot matrix, neon, atau segmen, warna, kecepatan, kecerahan, dan preset, dengan terjemahan opsional di perangkat."
     },
     "slimjoy": {
       "ko": "사진 속 얼굴선과 체형을 원하는 강도로 보정하고 결과를 비교·저장하세요. 기기 내 몸 윤곽 감지가 개선되었으며 인물을 확실히 감지하지 못하면 자동 보정을 건너뜁니다. 실제 신체 변화나 건강 효과를 제공하지 않는 사진 편집 도구입니다.",
@@ -24,7 +36,13 @@
       "ja": "選択した写真の顔や体型を調整し、結果を比較・保存。端末内の輪郭検出が改善され、人物の検出が不確かな場合は自動補正を行いません。実際の減量や健康効果ではなく、写真編集用の機能です。",
       "zh": "调整所选照片中的脸部轮廓和身体外观，比较并保存编辑结果。设备端人体轮廓检测已改进，无法可靠检测人物时会跳过自动调整。这是照片编辑工具，并不带来实际减重或健康效果。",
       "ru": "Настраивайте контуры лица и внешность тела на выбранных фото, сравнивайте и сохраняйте результат. Улучшенное распознавание контура на устройстве пропускает автообработку при ненадёжном обнаружении человека. Это редактор фото, а не средство похудения или оздоровления.",
-      "fil": "Ayusin ang hugis ng mukha at katawan sa napiling larawan, ihambing at i-save. Nilalaktawan ng pinahusay na on-device contour detection ang awtomatikong pag-edit kung hindi tiyak ang pagtukoy sa tao. Pang-edit ng larawan ito, hindi aktuwal na pagbabawas ng timbang o benepisyong pangkalusugan."
+      "fil": "Ayusin ang hugis ng mukha at katawan sa napiling larawan, ihambing at i-save. Nilalaktawan ng pinahusay na on-device contour detection ang awtomatikong pag-edit kung hindi tiyak ang pagtukoy sa tao. Pang-edit ng larawan ito, hindi aktuwal na pagbabawas ng timbang o benepisyong pangkalusugan.",
+      "hi": "चुनी गई तस्वीरों में चेहरे की रूपरेखा और शरीर का रूप समायोजित करें, फिर तुलना करें और सहेजें। बेहतर डिवाइस-आधारित पहचान अनिश्चित होने पर स्वचालित सुधार छोड़ देती है। यह फ़ोटो संपादन है, वास्तविक वज़न घटना या स्वास्थ्य लाभ नहीं।",
+      "es": "Ajusta el contorno facial y corporal en fotos seleccionadas, compara los cambios y guárdalos. La detección corporal mejorada en el dispositivo omite el ajuste automático si no identifica a una persona con fiabilidad. Es una herramienta de edición fotográfica, no de pérdida de peso ni salud.",
+      "pt": "Ajuste os contornos do rosto e do corpo em fotos selecionadas, compare e salve. A detecção corporal aprimorada no dispositivo ignora ajustes automáticos quando não identifica uma pessoa com segurança. É uma ferramenta de edição de fotos, não de emagrecimento real nem benefício à saúde.",
+      "fr": "Ajustez les contours du visage et du corps dans vos photos, comparez et enregistrez les retouches. La détection améliorée sur l’appareil ignore les corrections automatiques si la personne ne peut être détectée de manière fiable. C’est un éditeur photo, pas un outil d’amaigrissement ou de santé.",
+      "de": "Passen Sie Gesichts- und Körperkonturen in ausgewählten Fotos an, vergleichen und speichern Sie die Bearbeitungen. Die verbesserte Konturerkennung auf dem Gerät überspringt automatische Korrekturen bei unsicherer Personenerkennung. Ein Fotobearbeitungswerkzeug, kein echter Gewichtsverlust oder Gesundheitsnutzen.",
+      "id": "Sesuaikan kontur wajah dan bentuk tubuh pada foto yang dipilih, lalu bandingkan dan simpan hasilnya. Deteksi kontur di perangkat yang ditingkatkan melewati penyesuaian otomatis bila orang tidak terdeteksi dengan andal. Alat pengeditan foto, bukan penurunan berat badan nyata atau manfaat kesehatan."
     },
     "chaengkim": {
       "ko": "빌린 물건과 반납일, 가전제품 보증기간, 냉장고 재료, 반복 청소와 식물 물주기까지 한곳에 기록하세요. 오늘 할 일, 캘린더와 보관함으로 필요한 생활 기록을 정리할 수 있습니다.",
@@ -32,7 +50,13 @@
       "ja": "借りた物と返却日、家電の保証期限、冷蔵庫の食材、定期清掃や植物の水やりをまとめて記録。今日のタスク、カレンダー、保管機能で日常の記録を整理できます。",
       "zh": "集中记录借用物品与归还日期、家电保修期、冰箱食材、定期清洁及植物浇水。通过今日任务、日历和归档整理日常记录。",
       "ru": "Храните записи о взятых вещах и датах возврата, гарантиях техники, продуктах, регулярной уборке и уходе за растениями. Организуйте повседневные записи с помощью задач, календаря и архива.",
-      "fil": "Itala sa iisang lugar ang hiniram na gamit at petsa ng pagsasauli, warranty ng appliances, pagkain sa refrigerator, regular na paglilinis at pag-aalaga ng halaman. Ayusin ang mga tala gamit ang tasks, calendar at archive."
+      "fil": "Itala sa iisang lugar ang hiniram na gamit at petsa ng pagsasauli, warranty ng appliances, pagkain sa refrigerator, regular na paglilinis at pag-aalaga ng halaman. Ayusin ang mga tala gamit ang tasks, calendar at archive.",
+      "hi": "उधार ली गई चीज़ें और वापसी की तारीखें, उपकरणों की वारंटी, फ्रिज की सामग्री, नियमित सफ़ाई और पौधों की देखभाल एक जगह दर्ज करें। कामों, कैलेंडर और संग्रह से रोज़मर्रा के रिकॉर्ड व्यवस्थित करें।",
+      "es": "Registra en un solo lugar los objetos prestados y sus fechas de devolución, las garantías, los alimentos del frigorífico, la limpieza recurrente y el cuidado de plantas. Organiza tu día con tareas, calendario y archivo.",
+      "pt": "Registre em um só lugar itens emprestados e devoluções, garantias de eletrodomésticos, alimentos da geladeira, limpeza recorrente e cuidados com plantas. Organize seus registros com tarefas, calendário e arquivo.",
+      "fr": "Centralisez les objets empruntés et leurs dates de retour, les garanties des appareils, les aliments du réfrigérateur, le ménage récurrent et l’entretien des plantes. Organisez vos notes avec les tâches, le calendrier et les archives.",
+      "de": "Erfassen Sie geliehene Gegenstände und Rückgabedaten, Gerätegarantien, Kühlschrankvorräte, regelmäßige Reinigung und Pflanzenpflege an einem Ort. Organisieren Sie Alltagsaufzeichnungen mit Aufgaben, Kalender und Archiv.",
+      "id": "Catat barang pinjaman dan tanggal pengembalian, garansi peralatan rumah tangga, isi kulkas, jadwal bersih-bersih, dan perawatan tanaman di satu tempat. Atur catatan harian dengan tugas, kalender, dan arsip."
     }
   }
 }

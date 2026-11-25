@@ -3,6 +3,7 @@ PRAGMA foreign_keys = ON;
 CREATE TABLE IF NOT EXISTS subscriptions(
   id TEXT PRIMARY KEY,
   app TEXT NOT NULL,
+  platform TEXT NOT NULL CHECK(platform IN ('android','ios')),
   endpoint TEXT NOT NULL,
   p256dh TEXT NOT NULL,
   auth TEXT NOT NULL,
@@ -10,14 +11,17 @@ CREATE TABLE IF NOT EXISTS subscriptions(
   lang TEXT NOT NULL,
   consent_at TEXT NOT NULL,
   expires_at TEXT NOT NULL,
-  UNIQUE(app, endpoint)
+  UNIQUE(app, platform, endpoint)
 );
-CREATE INDEX IF NOT EXISTS sub_app_exp ON subscriptions(app, expires_at);
+CREATE INDEX IF NOT EXISTS sub_app_exp ON subscriptions(app, platform, expires_at);
+CREATE INDEX IF NOT EXISTS sub_revoke ON subscriptions(token_hash,app,platform);
 CREATE TABLE IF NOT EXISTS releases(
-  app TEXT PRIMARY KEY,
+  app TEXT NOT NULL,
+  platform TEXT NOT NULL CHECK(platform IN ('android','ios')),
   store_url TEXT NOT NULL,
   published_at TEXT NOT NULL,
-  verified_at TEXT NOT NULL
+  verified_at TEXT NOT NULL,
+  PRIMARY KEY(app,platform)
 );
 CREATE TABLE IF NOT EXISTS dispatches(
   subscription_id TEXT PRIMARY KEY REFERENCES subscriptions(id) ON DELETE CASCADE,

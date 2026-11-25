@@ -1,0 +1,38 @@
+{
+  "status": "Draft localized copy; pending asset export, generator rebuild and review",
+  "verifiedFrom": "Official published Google Play descriptions/current features 2026-11-25",
+  "descriptions": {
+    "snapclean": {
+      "ko": "완전히 같은 파일과 비슷한 사진을 구분하고, 나란히 확대해 비교하세요. 사진은 직접 선택해 정리하며, 지원 기기에서는 압축 동영상을 미리 확인한 뒤 원본을 보존하고 더 작은 사본을 저장할 수 있습니다.",
+      "en": "Separate identical files from similar photos and compare them with linked zoom. Choose what to clean yourself; on supported devices, preview compressed videos and save a smaller copy without overwriting the original.",
+      "ja": "完全に同一のファイルと似た写真を分け、並べて連動拡大で比較できます。整理する写真は自分で選択し、対応端末では圧縮動画を確認して元の動画を残したまま小さいコピーを保存できます。",
+      "zh": "区分完全相同的文件与相似照片，并联动放大比较。自行选择要清理的内容；在支持的设备上预览压缩视频，保留原文件并保存较小的副本。",
+      "ru": "Отличайте одинаковые файлы от похожих фото и сравнивайте их с синхронным увеличением. Сами выбирайте файлы для очистки; на поддерживаемых устройствах просматривайте сжатое видео и сохраняйте меньшую копию, не заменяя оригинал.",
+      "fil": "Paghiwalayin ang magkakaparehong file at magkakahawig na larawan, at ihambing sa sabayang pag-zoom. Piliin ang lilinisin; sa suportadong device, i-preview ang compressed video at i-save ang mas maliit na kopya nang hindi pinapalitan ang orihinal."
+    },
+    "lightled": {
+      "ko": "원하는 문구를 전체 화면 LED 전광판으로 표시하세요. 도트 매트릭스·네온·세그먼트 스타일, 색상과 속도, 밝기 및 프리셋을 조절하고 선택적으로 기기 내 번역을 이용할 수 있습니다.",
+      "en": "Turn your message into a full-screen LED display. Customize dot matrix, neon or segment styles, colors, speed, brightness and presets, with optional on-device translation.",
+      "ja": "好きなメッセージを全画面LED表示に。ドットマトリックス・ネオン・セグメントのスタイルや色、速度、明るさ、プリセットを調整し、必要に応じて端末内翻訳も使えます。",
+      "zh": "将自定义消息显示为全屏LED滚动屏。可调整点阵、霓虹或数码管风格、颜色、速度、亮度及预设，并可选择设备端翻译。",
+      "ru": "Показывайте сообщения на полноэкранном LED-табло. Настраивайте точечный, неоновый или сегментный стиль, цвета, скорость, яркость и шаблоны; доступен необязательный перевод на устройстве.",
+      "fil": "Gawing full-screen LED display ang mensahe. I-customize ang dot matrix, neon o segment style, kulay, bilis, liwanag at preset, na may opsiyonal na on-device translation."
+    },
+    "slimjoy": {
+      "ko": "사진 속 얼굴선과 체형을 원하는 강도로 보정하고 결과를 비교·저장하세요. 기기 내 몸 윤곽 감지가 개선되었으며 인물을 확실히 감지하지 못하면 자동 보정을 건너뜁니다. 실제 신체 변화나 건강 효과를 제공하지 않는 사진 편집 도구입니다.",
+      "en": "Adjust facial contours and body appearance in selected photos, then compare and save the edits. Improved on-device body contour detection skips automatic adjustment when a person cannot be reliably detected. A photo editing tool, not real weight loss or a health benefit.",
+      "ja": "選択した写真の顔や体型を調整し、結果を比較・保存。端末内の輪郭検出が改善され、人物の検出が不確かな場合は自動補正を行いません。実際の減量や健康効果ではなく、写真編集用の機能です。",
+      "zh": "调整所选照片中的脸部轮廓和身体外观，比较并保存编辑结果。设备端人体轮廓检测已改进，无法可靠检测人物时会跳过自动调整。这是照片编辑工具，并不带来实际减重或健康效果。",
+      "ru": "Настраивайте контуры лица и внешность тела на выбранных фото, сравнивайте и сохраняйте результат. Улучшенное распознавание контура на устройстве пропускает автообработку при ненадёжном обнаружении человека. Это редактор фото, а не средство похудения или оздоровления.",
+      "fil": "Ayusin ang hugis ng mukha at katawan sa napiling larawan, ihambing at i-save. Nilalaktawan ng pinahusay na on-device contour detection ang awtomatikong pag-edit kung hindi tiyak ang pagtukoy sa tao. Pang-edit ng larawan ito, hindi aktuwal na pagbabawas ng timbang o benepisyong pangkalusugan."
+    },
+    "chaengkim": {
+      "ko": "빌린 물건과 반납일, 가전제품 보증기간, 냉장고 재료, 반복 청소와 식물 물주기까지 한곳에 기록하세요. 오늘 할 일, 캘린더와 보관함으로 필요한 생활 기록을 정리할 수 있습니다.",
+      "en": "Keep borrowed items and return dates, appliance warranties, groceries, recurring cleaning and plant care in one place. Organize your everyday records with tasks, calendar and archive.",
+      "ja": "借りた物と返却日、家電の保証期限、冷蔵庫の食材、定期清掃や植物の水やりをまとめて記録。今日のタスク、カレンダー、保管機能で日常の記録を整理できます。",
+      "zh": "集中记录借用物品与归还日期、家电保修期、冰箱食材、定期清洁及植物浇水。通过今日任务、日历和归档整理日常记录。",
+      "ru": "Храните записи о взятых вещах и датах возврата, гарантиях техники, продуктах, регулярной уборке и уходе за растениями. Организуйте повседневные записи с помощью задач, календаря и архива.",
+      "fil": "Itala sa iisang lugar ang hiniram na gamit at petsa ng pagsasauli, warranty ng appliances, pagkain sa refrigerator, regular na paglilinis at pag-aalaga ng halaman. Ayusin ang mga tala gamit ang tasks, calendar at archive."
+    }
+  }
+}

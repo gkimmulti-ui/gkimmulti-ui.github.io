@@ -1,6 +1,7 @@
 import webpush from 'web-push';
 const SITE='https://gkimmulti-ui.github.io';
 const APPS=new Set(['bracketbud','phrasepip','bagsum','roomnobi','rowmio','dottomint','morsepip','hushmio','zodimi','whalopip','sylvomi','robipip','meowbini','halopip','drakumi','boopiri']);
+const PLATFORMS=new Set(['android','ios']);
 const LANGS=new Set(['ko','en','ja','zh-CN','ru','fil']);
 const HOSTS=new Set(['fcm.googleapis.com','updates.push.services.mozilla.com','web.push.apple.com']);
 const encoder=new TextEncoder();
@@ -11,24 +12,24 @@ const CORS={'Access-Control-Allow-Origin':SITE,'Access-Control-Allow-Methods':'G
 function json(body,status=200){return new Response(JSON.stringify(body),{status,headers:{...CORS,'Content-Type':'application/json; charset=utf-8'}})}
 function validB64(s,min,max){return typeof s==='string'&&s.length>=min&&s.length<=max&&/^[A-Za-z0-9_-]+$/.test(s)}
 function subscriptionInput(v){
-  if(!v||!APPS.has(v.app)||!LANGS.has(v.lang)||!validB64(v.token,43,43)||v.consent!==true)return null;
+  if(!v||!APPS.has(v.app)||!PLATFORMS.has(v.platform)||!LANGS.has(v.lang)||!validB64(v.token,43,43)||v.consent!==true)return null;
   if(!v.subscription||typeof v.subscription.endpoint!=='string'||v.subscription.endpoint.length>2048)return null;
   let u;try{u=new URL(v.subscription.endpoint)}catch{return null}
   if(u.protocol!=='https:'||u.username||u.password||u.port||u.hash||!HOSTS.has(u.hostname)||u.pathname.length<2)return null;
   const keys=v.subscription.keys;
   if(!validB64(keys?.p256dh,87,87)||!validB64(keys?.auth,22,22))return null;
-  return {app:v.app,lang:v.lang,token:v.token,endpoint:u.href,p256dh:keys.p256dh,auth:keys.auth}
+  return {app:v.app,platform:v.platform,lang:v.lang,token:v.token,endpoint:u.href,p256dh:keys.p256dh,auth:keys.auth}
 }
-function storeUrl(raw){
+function storeUrl(raw,platform){
   if(typeof raw!=='string'||raw.length>2048)return null;
   try{
     const u=new URL(raw);
     if(u.protocol!=='https:'||u.username||u.password||u.port||u.hash)return null;
-    if(u.hostname==='play.google.com'&&u.pathname==='/store/apps/details'){
+    if(platform==='android'&&u.hostname==='play.google.com'&&u.pathname==='/store/apps/details'){
       const id=u.searchParams.get('id'); if(!id||!/^[a-zA-Z0-9_]+(?:\.[a-zA-Z0-9_]+)+$/.test(id))return null;
       return 'https://play.google.com/store/apps/details?id='+id;
     }
-    if(u.hostname==='apps.apple.com'&&/^\/[a-z]{2}\/app\/(?:[a-zA-Z0-9_%.-]+\/)?id[0-9]+$/.test(u.pathname))return 'https://apps.apple.com'+u.pathname;
+    if(platform==='ios'&&u.hostname==='apps.apple.com'&&/^\/[a-z]{2}\/app\/(?:[a-zA-Z0-9_%.-]+\/)?id[0-9]+$/.test(u.pathname))return 'https://apps.apple.com'+u.pathname;
   }catch{}
   return null;
 }
@@ -52,28 +53,28 @@ async function subscribe(v,env){
  const p=subscriptionInput(v);if(!p)return json({error:'invalid_subscription'},400);
  const db=env.DB;
  if(!await quota(db,'sub-write',400))return json({error:'quota_paused'},429);
- const release=await db.prepare('SELECT store_url FROM releases WHERE app=?').bind(p.app).first();
+ const release=await db.prepare('SELECT store_url FROM releases WHERE app=? AND platform=?').bind(p.app,p.platform).first();
  if(release)return json({status:'released',url:release.store_url});
- const h=await hash(p.token),id=await hash(p.app+'\n'+p.endpoint),at=now(),exp=new Date(Date.now()+180*86400000).toISOString();
+ const h=await hash(p.token),id=await hash(p.app+'\n'+p.platform+'\n'+p.endpoint),at=now(),exp=new Date(Date.now()+180*86400000).toISOString();
  // Atomic insert bounded by total active subscriptions and absence of a publication.
- const r=await db.prepare(`INSERT INTO subscriptions(id,app,endpoint,p256dh,auth,token_hash,lang,consent_at,expires_at)
- SELECT ?,?,?,?,?,?,?,?,? WHERE (SELECT COUNT(*) FROM subscriptions)<5000 AND NOT EXISTS(SELECT 1 FROM releases WHERE app=?)
- ON CONFLICT(app,endpoint) DO UPDATE SET p256dh=excluded.p256dh,auth=excluded.auth,lang=excluded.lang,expires_at=excluded.expires_at WHERE subscriptions.token_hash=excluded.token_hash AND NOT EXISTS(SELECT 1 FROM releases WHERE app=excluded.app)`).bind(id,p.app,p.endpoint,p.p256dh,p.auth,h,p.lang,at,exp,p.app).run();
+ const r=await db.prepare(`INSERT INTO subscriptions(id,app,platform,endpoint,p256dh,auth,token_hash,lang,consent_at,expires_at)
+ SELECT ?,?,?,?,?,?,?,?,?,? WHERE (SELECT COUNT(*) FROM subscriptions)<5000 AND NOT EXISTS(SELECT 1 FROM releases WHERE app=? AND platform=?)
+ ON CONFLICT(app,platform,endpoint) DO UPDATE SET p256dh=excluded.p256dh,auth=excluded.auth,lang=excluded.lang,expires_at=excluded.expires_at WHERE subscriptions.token_hash=excluded.token_hash AND NOT EXISTS(SELECT 1 FROM releases WHERE app=excluded.app AND platform=excluded.platform)`).bind(id,p.app,p.platform,p.endpoint,p.p256dh,p.auth,h,p.lang,at,exp,p.app,p.platform).run();
  if(!changed(r))return json({error:'registration_unavailable'},409);
  return json({status:'subscribed'});
 }
 async function unsubscribe(v,env){
- if(!v||!APPS.has(v.app)||!validB64(v.token,43,43))return json({error:'invalid_request'},400);
+ if(!v||!APPS.has(v.app)||!PLATFORMS.has(v.platform)||!validB64(v.token,43,43))return json({error:'invalid_request'},400);
  const h=await hash(v.token);
- await env.DB.prepare('DELETE FROM subscriptions WHERE token_hash=? AND app=?').bind(h,v.app).run();
+ await env.DB.prepare('DELETE FROM subscriptions WHERE token_hash=? AND app=? AND platform=?').bind(h,v.app,v.platform).run();
  return json({status:'unsubscribed'});
 }
 async function release(v,env){
- if(!v||!APPS.has(v.app)||v.publicationVerified!==true||!dateValid(v.publishedAt)||!dateValid(v.verifiedAt)||Date.parse(v.verifiedAt)<Date.parse(v.publishedAt))return json({error:'verified_publication_required'},400);
- const url=storeUrl(v.storeUrl);if(!url)return json({error:'invalid_store_url'},400);
+ if(!v||!APPS.has(v.app)||!PLATFORMS.has(v.platform)||v.publicationVerified!==true||!dateValid(v.publishedAt)||!dateValid(v.verifiedAt)||Date.parse(v.verifiedAt)<Date.parse(v.publishedAt))return json({error:'verified_publication_required'},400);
+ const url=storeUrl(v.storeUrl,v.platform);if(!url)return json({error:'invalid_store_url'},400);
  // Owner must verify actual production availability outside this endpoint.
  // Approval, private test links, and any unverified date must never be submitted.
- const r=await env.DB.prepare('INSERT INTO releases(app,store_url,published_at,verified_at) VALUES(?,?,?,?) ON CONFLICT(app) DO NOTHING').bind(v.app,url,v.publishedAt,v.verifiedAt).run();
+ const r=await env.DB.prepare('INSERT INTO releases(app,platform,store_url,published_at,verified_at) VALUES(?,?,?,?,?) ON CONFLICT(app,platform) DO NOTHING').bind(v.app,v.platform,url,v.publishedAt,v.verifiedAt).run();
  return json({status:changed(r)?'release_registered':'already_registered'});
 }
 const labels={ko:'앱이 출시되었습니다!',en:'The app is now available!',ja:'アプリが公開されました！','zh-CN':'应用已发布！',ru:'Приложение выпущено!',fil:'Available na ang app!'};
@@ -81,8 +82,8 @@ async function dispatch(env){
  // Manual owner-only run. One send per invocation and at most 50 claimed sends/day.
  if(env.ENABLE_DISPATCH!=='true')return json({error:'dispatch_disabled'},503);
  const db=env.DB;if(!await quota(db,'dispatch',50))return json({error:'quota_paused'},429);
- const sub=await db.prepare(`SELECT s.id,s.app,s.endpoint,s.p256dh,s.auth,s.lang,r.store_url
- FROM subscriptions s JOIN releases r ON r.app=s.app LEFT JOIN dispatches d ON d.subscription_id=s.id
+ const sub=await db.prepare(`SELECT s.id,s.app,s.platform,s.endpoint,s.p256dh,s.auth,s.lang,r.store_url
+ FROM subscriptions s JOIN releases r ON r.app=s.app AND r.platform=s.platform LEFT JOIN dispatches d ON d.subscription_id=s.id
  WHERE d.subscription_id IS NULL AND s.expires_at>? AND s.consent_at<=r.verified_at ORDER BY s.consent_at LIMIT 1`).bind(now()).first();
  if(!sub)return json({status:'empty'});
  const claim=await db.prepare(`INSERT INTO dispatches(subscription_id,claimed_at,state)
@@ -93,9 +94,9 @@ async function dispatch(env){
  try{
    const active=await db.prepare('SELECT id FROM subscriptions WHERE id=? AND expires_at>?').bind(sub.id,now()).first();
    if(!active)return json({status:'skip'});
-   const valid=subscriptionInput({app:sub.app,lang:sub.lang,token:'A'.repeat(43),consent:true,subscription:{endpoint:sub.endpoint,keys:{p256dh:sub.p256dh,auth:sub.auth}}});
-   const finalUrl=storeUrl(sub.store_url);if(!valid||!finalUrl)throw new Error('invalid');
-   const details=webpush.generateRequestDetails({endpoint:valid.endpoint,keys:{p256dh:valid.p256dh,auth:valid.auth}},JSON.stringify({title:'Kenneth App',body:sub.app+': '+labels[sub.lang],url:finalUrl,tag:'release-'+sub.app}),{TTL:86400,urgency:'normal',contentEncoding:'aes128gcm',vapidDetails:{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY}});
+   const valid=subscriptionInput({app:sub.app,platform:sub.platform,lang:sub.lang,token:'A'.repeat(43),consent:true,subscription:{endpoint:sub.endpoint,keys:{p256dh:sub.p256dh,auth:sub.auth}}});
+   const finalUrl=storeUrl(sub.store_url,sub.platform);if(!valid||!finalUrl)throw new Error('invalid');
+   const details=webpush.generateRequestDetails({endpoint:valid.endpoint,keys:{p256dh:valid.p256dh,auth:valid.auth}},JSON.stringify({title:'Kenneth App',body:sub.app+': '+labels[sub.lang],url:finalUrl,tag:'release-'+sub.app+'-'+sub.platform}),{TTL:86400,urgency:'normal',contentEncoding:'aes128gcm',vapidDetails:{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY}});
    const result=await fetch(valid.endpoint,{method:'POST',headers:details.headers,body:details.body,redirect:'error'});
    if(result.status===404||result.status===410){state='expired';await db.prepare('DELETE FROM subscriptions WHERE id=?').bind(sub.id).run()}
    else if(result.ok){state='sent'}
@@ -111,7 +112,7 @@ export default {
    if(origin&&origin!==SITE)return json({error:'forbidden'},403);
    if(req.method==='GET'&&u.pathname==='/v1/config')return json(enabled(env)?{enabled:true,publicKey:env.VAPID_PUBLIC_KEY}:{enabled:false});
    if(req.method==='GET'&&u.pathname==='/v1/releases'&&env.DB){
-     const list=await env.DB.prepare('SELECT app,store_url,published_at FROM releases ORDER BY published_at DESC LIMIT 16').all();
+     const list=await env.DB.prepare('SELECT app,platform,store_url,published_at FROM releases ORDER BY published_at DESC LIMIT 32').all();
      return json({releases:list.results||[]});
    }
    if(req.method!=='POST')return json({error:'not_found'},404);

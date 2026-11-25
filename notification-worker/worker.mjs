@@ -3,6 +3,7 @@ const SITE='https://gkimmulti-ui.github.io';
 const APPS=new Set(['bracketbud','phrasepip','bagsum','roomnobi','rowmio','dottomint','morsepip','hushmio','zodimi','whalopip','sylvomi','robipip','meowbini','halopip','drakumi','boopiri']);
 const PLATFORMS=new Set(['android','ios']);
 const LANGS=new Set(['ko','en','ja','zh-CN','ru','fil']);
+const APP_NAMES={"bracketbud":"Bracket Bud: Tournament","phrasepip":"PhrasePip: Travel Phrases","bagsum":"Bag Sum: Luggage Weight","roomnobi":"RoomNobi: Room Planner","rowmio":"RowMio: Row Counter","dottomint":"DottoMint: Pixel Art Studio","morsepip":"MorsePip: Learn Morse Code","hushmio":"HushMio: Ambient Sound Mixer","zodimi":"Zodimi","whalopip":"Whalopip","sylvomi":"Sylvomi","robipip":"Robipip","meowbini":"Meowbini","halopip":"Halopip","drakumi":"Drakumi","boopiri":"Boopiri"};
 const HOSTS=new Set(['fcm.googleapis.com','updates.push.services.mozilla.com','web.push.apple.com']);
 const encoder=new TextEncoder();
 const now=()=>new Date().toISOString();
@@ -32,6 +33,11 @@ function storeUrl(raw,platform){
     if(platform==='ios'&&u.hostname==='apps.apple.com'&&/^\/[a-z]{2}\/app\/(?:[a-zA-Z0-9_%.-]+\/)?id[0-9]+$/.test(u.pathname))return 'https://apps.apple.com'+u.pathname;
   }catch{}
   return null;
+}
+function identityValid(v,env,url){
+  let map;try{map=JSON.parse(env.RELEASE_APP_MAP||'{}')}catch{return false}
+  const expected=map?.[v.app]?.[v.platform];if(typeof expected!=='string'||!expected)return false;
+  const u=new URL(url);return v.platform==='android'?u.searchParams.get('id')===expected:u.pathname.split('/').pop()==='id'+expected;
 }
 function dateValid(s){return typeof s==='string'&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(s)&&Number.isFinite(Date.parse(s))&&Date.parse(s)<=Date.now()}
 async function hash(s){const bytes=new Uint8Array(await crypto.subtle.digest('SHA-256',encoder.encode(s)));return [...bytes].map(b=>b.toString(16).padStart(2,'0')).join('')}
@@ -65,19 +71,25 @@ async function subscribe(v,env){
 }
 async function unsubscribe(v,env){
  if(!v||!APPS.has(v.app)||!PLATFORMS.has(v.platform)||!validB64(v.token,43,43))return json({error:'invalid_request'},400);
+ if(!await quota(env.DB,'cancel-write',1000))return json({error:'quota_paused'},429);
  const h=await hash(v.token);
  await env.DB.prepare('DELETE FROM subscriptions WHERE token_hash=? AND app=? AND platform=?').bind(h,v.app,v.platform).run();
  return json({status:'unsubscribed'});
 }
 async function release(v,env){
  if(!v||!APPS.has(v.app)||!PLATFORMS.has(v.platform)||v.publicationVerified!==true||!dateValid(v.publishedAt)||!dateValid(v.verifiedAt)||Date.parse(v.verifiedAt)<Date.parse(v.publishedAt))return json({error:'verified_publication_required'},400);
- const url=storeUrl(v.storeUrl,v.platform);if(!url)return json({error:'invalid_store_url'},400);
+ const url=storeUrl(v.storeUrl,v.platform);if(!url||!identityValid(v,env,url))return json({error:'invalid_store_identity'},400);
  // Owner must verify actual production availability outside this endpoint.
  // Approval, private test links, and any unverified date must never be submitted.
  const r=await env.DB.prepare('INSERT INTO releases(app,platform,store_url,published_at,verified_at) VALUES(?,?,?,?,?) ON CONFLICT(app,platform) DO NOTHING').bind(v.app,v.platform,url,v.publishedAt,v.verifiedAt).run();
  return json({status:changed(r)?'release_registered':'already_registered'});
 }
 const labels={ko:'앱이 출시되었습니다!',en:'The app is now available!',ja:'アプリが公開されました！','zh-CN':'应用已发布！',ru:'Приложение выпущено!',fil:'Available na ang app!'};
+async function purge(env){
+ const db=env.DB;if(!await quota(db,'cleanup',2))return json({error:'quota_paused'},429);
+ const r=await db.prepare('DELETE FROM subscriptions WHERE id IN (SELECT id FROM subscriptions WHERE expires_at<=? LIMIT 250)').bind(now()).run();
+ return json({status:'cleaned',count:changed(r)});
+}
 async function dispatch(env){
  // Manual owner-only run. One send per invocation and at most 50 claimed sends/day.
  if(env.ENABLE_DISPATCH!=='true')return json({error:'dispatch_disabled'},503);
@@ -96,7 +108,7 @@ async function dispatch(env){
    if(!active)return json({status:'skip'});
    const valid=subscriptionInput({app:sub.app,platform:sub.platform,lang:sub.lang,token:'A'.repeat(43),consent:true,subscription:{endpoint:sub.endpoint,keys:{p256dh:sub.p256dh,auth:sub.auth}}});
    const finalUrl=storeUrl(sub.store_url,sub.platform);if(!valid||!finalUrl)throw new Error('invalid');
-   const details=webpush.generateRequestDetails({endpoint:valid.endpoint,keys:{p256dh:valid.p256dh,auth:valid.auth}},JSON.stringify({title:'Kenneth App',body:sub.app+': '+labels[sub.lang],url:finalUrl,tag:'release-'+sub.app+'-'+sub.platform}),{TTL:86400,urgency:'normal',contentEncoding:'aes128gcm',vapidDetails:{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY}});
+   const details=webpush.generateRequestDetails({endpoint:valid.endpoint,keys:{p256dh:valid.p256dh,auth:valid.auth}},JSON.stringify({title:'Kenneth App',body:APP_NAMES[sub.app]+': '+labels[sub.lang],url:finalUrl,tag:'release-'+sub.app+'-'+sub.platform}),{TTL:86400,urgency:'normal',contentEncoding:'aes128gcm',vapidDetails:{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY}});
    const result=await fetch(valid.endpoint,{method:'POST',headers:details.headers,body:details.body,redirect:'error'});
    if(result.status===404||result.status===410){state='expired';await db.prepare('DELETE FROM subscriptions WHERE id=?').bind(sub.id).run()}
    else if(result.ok){state='sent'}
@@ -112,21 +124,27 @@ export default {
    if(origin&&origin!==SITE)return json({error:'forbidden'},403);
    if(req.method==='GET'&&u.pathname==='/v1/config')return json(enabled(env)?{enabled:true,publicKey:env.VAPID_PUBLIC_KEY}:{enabled:false});
    if(req.method==='GET'&&u.pathname==='/v1/releases'&&env.DB){
+     const cache=typeof caches!=='undefined'?caches.default:null;
+     const key=new Request(u.origin+'/v1/releases');
+     if(cache){const cached=await cache.match(key);if(cached)return cached}
      const list=await env.DB.prepare('SELECT app,platform,store_url,published_at FROM releases ORDER BY published_at DESC LIMIT 32').all();
-     return json({releases:list.results||[]});
+     const response=new Response(JSON.stringify({releases:list.results||[]}),{headers:{...CORS,'Content-Type':'application/json; charset=utf-8','Cache-Control':'public, max-age=60'}});
+     if(cache){try{await cache.put(key,response.clone())}catch{}}
+     return response;
    }
    if(req.method!=='POST')return json({error:'not_found'},404);
    if(u.pathname==='/v1/unsubscribe'&&origin===SITE&&env.DB){const v=await body(req);return unsubscribe(v,env)}
    if(!enabled(env))return json({error:'not_enabled'},503);
    if(u.pathname==='/v1/subscribe'){if(origin!==SITE)return json({error:'forbidden'},403);return subscribe(await body(req),env)}
-   if(u.pathname==='/owner/release'||u.pathname==='/owner/dispatch'){
+   if(u.pathname==='/owner/release'||u.pathname==='/owner/dispatch'||u.pathname==='/owner/purge'){
      // Owner endpoints are deliberately not available to browser-origin requests.
      if(origin||!await secretEqual(req.headers.get('authorization')?.replace(/^Bearer /,''),env.OWNER_SECRET))return json({error:'forbidden'},403);
      if(u.pathname==='/owner/release')return release(await body(req),env);
+     if(u.pathname==='/owner/purge')return purge(env);
      return dispatch(env);
    }
    return json({error:'not_found'},404);
   }catch{return json({error:'temporarily_unavailable'},503)}
  }
 };
-export {subscriptionInput,storeUrl,dateValid,enabled,quota,secretEqual,body};
+export {subscriptionInput,storeUrl,identityValid,dateValid,enabled,quota,secretEqual,body};

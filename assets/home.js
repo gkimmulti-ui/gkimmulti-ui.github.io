@@ -197,4 +197,11 @@
     const host=document.querySelector(selector);if(!host)continue;
     const a=document.createElement('a');a.href=upcomingHref;a.textContent=upcomingLabels[lang]||upcomingLabels.en;if(css)a.className=css;host.append(a);
   }
+  // Private administrator link: authentication is enforced by the dashboard itself.
+  const adminLabels={ko:'관리자 모드',en:'Admin mode',ja:'管理者モード',zh:'管理员模式',ru:'Режим администратора',fil:'Mode ng administrator',hi:'प्रशासक मोड',es:'Modo administrador',pt:'Modo administrador',fr:'Mode administrateur',de:'Administratormodus',id:'Mode administrator'};
+  const footer=document.querySelector('.site-footer > .container');
+  if(footer&&!document.getElementById('admin-dashboard-link')){
+    const note=document.createElement('p');note.className='footer-note';
+    const link=document.createElement('a');link.id='admin-dashboard-link';link.href='https://kenneth-app-dashboard.gkimmulti.workers.dev/';link.rel='noopener noreferrer';link.textContent=adminLabels[lang]||adminLabels.en;link.style.textDecoration='underline';note.append(link);footer.append(note);
+  }
 })();

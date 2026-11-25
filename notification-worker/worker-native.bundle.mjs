@@ -150,7 +150,7 @@ async function dispatch(env){
    const valid=subscriptionInput({app:sub.app,platform:sub.platform,lang:sub.lang,token:'A'.repeat(43),consent:true,subscription:{endpoint:sub.endpoint,keys:{p256dh:sub.p256dh,auth:sub.auth}}});
    const finalUrl=storeUrl(sub.store_url,sub.platform);if(!valid||!finalUrl)throw new Error('invalid');
    const details=await generateRequestDetails({endpoint:valid.endpoint,keys:{p256dh:valid.p256dh,auth:valid.auth}},JSON.stringify({title:'Kenneth App',body:APP_NAMES[sub.app]+': '+labels[sub.lang],url:finalUrl,tag:'release-'+sub.app+'-'+sub.platform}),{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY});
-   const result=await fetch(valid.endpoint,{method:'POST',headers:details.headers,body:details.body,redirect:'error'});
+   const result=await fetch(valid.endpoint,{method:'POST',headers:details.headers,body:details.body,redirect:'manual'});
    if(result.status===404||result.status===410){state='expired';await db.prepare('DELETE FROM subscriptions WHERE id=?').bind(sub.id).run()}
    else if(result.ok){state='sent'}
  }catch{}
@@ -189,7 +189,7 @@ async function ownerTest(req,env,url,origin){
   const verified=await env.DB.prepare('SELECT used FROM quotas WHERE day=? AND kind=?').bind(day(),'owner-selftest-passed').first();if(verified?.used!==1)return json({error:'synthetic_verification_required'},403);
   if(!await quota(env.DB,'owner-test-send',1))return json({error:'quota_paused'},429);
   try{const details=await generateRequestDetails({endpoint:p.endpoint,keys:{p256dh:p.p256dh,auth:p.auth}},JSON.stringify({tag:'kenneth-owner-test'}),{subject:env.VAPID_SUBJECT,publicKey:env.VAPID_PUBLIC_KEY,privateKey:env.VAPID_PRIVATE_KEY});
-  const r=await fetch(p.endpoint,{method:'POST',headers:details.headers,body:details.body,redirect:'error'});return json({status:r.ok?'sent':'not_accepted'});}catch{return json({error:'send_failed'},503);}
+  const r=await fetch(p.endpoint,{method:'POST',headers:details.headers,body:details.body,redirect:'manual'});if(r.ok)return json({status:'sent'});if(r.status>=300&&r.status<400)return json({error:'push_redirect_rejected'},502);return json({error:[400,401,403,404,410,429].includes(r.status)?'push_http_'+r.status:'push_not_accepted'},502);}catch{return json({error:'send_failed'},503);}
  }
  return json({error:'not_found'},404);
 }

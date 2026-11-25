@@ -3,12 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node test.cjs",
+    "test": "node test.cjs && node test-webpush.mjs",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"
-  },
-  "dependencies": {
-    "web-push": "3.6.7"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"

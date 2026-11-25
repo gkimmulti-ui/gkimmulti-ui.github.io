@@ -4,6 +4,7 @@ No credentials, private data, or app store writes. Abort on gallery identity dri
 import hashlib, json, re, urllib.parse, runpy
 from pathlib import Path
 from google_play_scraper import app as play_app
+from public_store_description import public_description
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 helper=runpy.run_path(str(ROOT/'scripts/refresh-store-screenshots.py'))
@@ -33,7 +34,7 @@ for entry in apps:
         listing=play_app(package,lang=language,country=country)
         assert listing['developer']=='Kenneth App',slug
         assert listing.get('description') and listing.get('summary'),(slug,locale)
-        seen[locale]=listing
+        seen[locale]={**listing,'description':public_description(listing['description'])}
     current=seen['ko']
     assert set(copy[slug])==set(entry['desc'])
     entry['desc']=copy[slug]

@@ -18,6 +18,7 @@ from urllib.parse import parse_qs, urlparse
 
 from PIL import Image
 from google_play_scraper import app as play_app
+from public_store_description import public_description
 
 ROOT = Path(__file__).resolve().parents[1]
 TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date().isoformat()
@@ -132,7 +133,7 @@ def refresh(entry):
         listing = data if locale == 'ko' else play_app(package, lang=language, country=country)
         if listing['developer'] != 'Kenneth App':
             raise ValueError('Unexpected localized developer: '+slug+'/'+locale)
-        description = listing.get('description','').strip()
+        description = public_description(listing.get('description','')).strip()
         if not description or not listing.get('summary'):
             raise ValueError('Missing store copy: '+slug+'/'+locale)
         names[locale] = listing['title']

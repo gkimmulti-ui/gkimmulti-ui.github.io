@@ -4,8 +4,8 @@
     "path": "index.html",
     "lang": "ko",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "fa1376445f2c60561958363a24f8fd46244b82aa7721fadf811604d7a6ce0ceb"
+    "lastmod": "2026-11-25",
+    "sha256": "f9a693d7ec9a306e036de77c537fd5d4849ca19d3fe5121e4bc47837aa0e8d6d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/pocketsanta/",
@@ -124,8 +124,8 @@
     "path": "apps/snapclean/index.html",
     "lang": "ko",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "02ded74a1a5f74757b1d95d877b64256b3aa0e1e55e7741765b86f45e1b637c4"
+    "lastmod": "2026-11-25",
+    "sha256": "1f00a248fa7f5ed2dd919f8187418e361f0ca55253a7d0ef8fb7ea5c1614467d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/lumiday/",
@@ -172,24 +172,24 @@
     "path": "apps/chaengkim/index.html",
     "lang": "ko",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "f1cf64b20f0dbc37a2edf3f8325f7cbcb13fb4d5fa3d308a005af2bdde99d1fa"
+    "lastmod": "2026-11-25",
+    "sha256": "299f62e1cf9f718c51223cf51fe8f709bdbcd0b29d0482f8163c9fbb1df33a2e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/slimjoy/",
     "path": "apps/slimjoy/index.html",
     "lang": "ko",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "10539a7f979c0c0ec1ea051be641a2b620a79e551a6b8014ad942b0b1dc0e001"
+    "lastmod": "2026-11-25",
+    "sha256": "f592aebcf369b11b877f656b685edd8383c312b61f8102612bb17b004c5fde76"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/lightled/",
     "path": "apps/lightled/index.html",
     "lang": "ko",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "817d668bba8ac619b0d258c0ff4d69ef723fb9962ced700f67100968c5671b67"
+    "lastmod": "2026-11-25",
+    "sha256": "95107a5f38d75d5908d0c8329aaf3a68171394b7879e4096da21fd773a9acb3f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/lotto/",
@@ -220,8 +220,8 @@
     "path": "en/index.html",
     "lang": "en",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "8c5460c8c61b123f769b05d7d1fe9222068502adac09aabd48ffcc54e84e2ea4"
+    "lastmod": "2026-11-25",
+    "sha256": "4bd759ae3560ba80f3fa8c92a4a04827f183762223f68643b1a6201994a3a902"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/pocketsanta/",
@@ -340,8 +340,8 @@
     "path": "en/apps/snapclean/index.html",
     "lang": "en",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "196d2857ae930611c103b212a883a85d73b3b597c53bf108f897884f6b3e9ca2"
+    "lastmod": "2026-11-25",
+    "sha256": "e0459c03279a42f284167f7606a11f570f9591385e54f74e8527c4862463e8bd"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lumiday/",
@@ -388,24 +388,24 @@
     "path": "en/apps/chaengkim/index.html",
     "lang": "en",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "4e310b617314645bb570db0c1f4e64a836917f70eaa4b1e899d76f9eeb92bf14"
+    "lastmod": "2026-11-25",
+    "sha256": "9888f06d51e19a59a161854c87d8a4109e8a62a1095a8456b48b31ad60ca9860"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/slimjoy/",
     "path": "en/apps/slimjoy/index.html",
     "lang": "en",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "ec7572936142b500a4e7cb06b4a53662b6d5f75917e72d70bc3fb483ba1f7d10"
+    "lastmod": "2026-11-25",
+    "sha256": "c882cc071f67f4dd0c5f95e74f19383b74d7e45ad7064dd24bf7b22ca49611b0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lightled/",
     "path": "en/apps/lightled/index.html",
     "lang": "en",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "671a9f004455fd276b4698fc40cc30627c8e0c76b732697d983771df0664a30b"
+    "lastmod": "2026-11-25",
+    "sha256": "92c0b14daa587c8df88a9c0984cbc4cc468b8667080aa211faae5e870ac96c83"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lotto/",
@@ -436,8 +436,8 @@
     "path": "ja/index.html",
     "lang": "ja",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "24e8f3c9a82b84c74b4083b0fb7e2c6f25e5d3369c71fd0f223e40d120fd760a"
+    "lastmod": "2026-11-25",
+    "sha256": "f54b05407a177e8c754ab9b9c4843d7f33c97c23ec7f2ac7debe92c207db4ae3"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/pocketsanta/",
@@ -556,8 +556,8 @@
     "path": "ja/apps/snapclean/index.html",
     "lang": "ja",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "75801670a3f4238ddfbcbf04d282f28d8c2494ff7fcf854c147f65efe9ac9b03"
+    "lastmod": "2026-11-25",
+    "sha256": "dd570aedc656b7df0ec6e041150805b1affd7ecd1e769e49ec91e3be36ee174c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lumiday/",
@@ -604,24 +604,24 @@
     "path": "ja/apps/chaengkim/index.html",
     "lang": "ja",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "743cb0d69e639d0350e16f5b5cc62dac1569577278c56a6037afd373d7bc6870"
+    "lastmod": "2026-11-25",
+    "sha256": "01eebe02e056e5518652b0a4ed46bab12a95b1c390eb9d58df71c61e9b071ca0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/slimjoy/",
     "path": "ja/apps/slimjoy/index.html",
     "lang": "ja",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "87e6dfe1673752b3c8c6de4a62291593544158c685baab297a5adac8f15a9219"
+    "lastmod": "2026-11-25",
+    "sha256": "43464779a83d2bc7c35dd22bce4a5235c1d96c6777b57b173bea308118585e8e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lightled/",
     "path": "ja/apps/lightled/index.html",
     "lang": "ja",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "37a3263acb29e15d703cde4cb7d6bc571a4cfb800b2df9f0440e763aeeae51d5"
+    "lastmod": "2026-11-25",
+    "sha256": "ebaddb9b5f057f3f65cad53f5ab3fc4d0a40fdf68736c6e5b942e77cdf3f612f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lotto/",
@@ -652,8 +652,8 @@
     "path": "zh/index.html",
     "lang": "zh",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "ca7a4b40ac9181a1d89a6b2662bac33daa2e5f8da4354093cc7de6374de0919b"
+    "lastmod": "2026-11-25",
+    "sha256": "00af2efa5b8c7f8598ee008ea9efdab628d14afbba78cfccbb7c692d9d6080e1"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/pocketsanta/",
@@ -772,8 +772,8 @@
     "path": "zh/apps/snapclean/index.html",
     "lang": "zh",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "6d4fac74396fd570e77cae6ed4a77785e8757bbbdfb61d6e1a3dcd71e29c51f9"
+    "lastmod": "2026-11-25",
+    "sha256": "f9ef388febf223be9116312cdca2339d72e047b3e54fbaf07a0ae57dec5846dd"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lumiday/",
@@ -820,24 +820,24 @@
     "path": "zh/apps/chaengkim/index.html",
     "lang": "zh",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "ae8fcd77a9cff4762cab03b94282c9d7a88d596c68d35dfce68ddf8eaaff0db0"
+    "lastmod": "2026-11-25",
+    "sha256": "14daa0d6879076092b38546041f537ac2eab9a9c0abb437cb246e39ac6e15c72"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/slimjoy/",
     "path": "zh/apps/slimjoy/index.html",
     "lang": "zh",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "bd3fefae53c4499c41db1c2dbf5ba5b85ccea2afe584d8f82cb6cbe0c3316a83"
+    "lastmod": "2026-11-25",
+    "sha256": "c10bdbc80109bfcbeb438a06ed66a5f5005c81d99bdfb5c2bcf1f855fcb86d9a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lightled/",
     "path": "zh/apps/lightled/index.html",
     "lang": "zh",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "bee44a6608cfea271f2320f4aad8526a3e4fa15fd3b1e0fd899c720637986e08"
+    "lastmod": "2026-11-25",
+    "sha256": "7883ed7514df616c782fbe9707db19f149147a614579d45c748472144254e86c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lotto/",
@@ -868,8 +868,8 @@
     "path": "ru/index.html",
     "lang": "ru",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "bbc20ebd05dbaf434a1e4c552631e53d00763adb4ed391daab640d9e75065c61"
+    "lastmod": "2026-11-25",
+    "sha256": "2a9a27ee5a889e1fecdf67485b840fee69cf75b4a9664228b88bc161950842bb"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/pocketsanta/",
@@ -988,8 +988,8 @@
     "path": "ru/apps/snapclean/index.html",
     "lang": "ru",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "f396edbea81f88ce27cb6eb21d330bc7738fcabea9bdfba05f2845f6b5036297"
+    "lastmod": "2026-11-25",
+    "sha256": "840c65b871695462030af60010305b9bddbb8c5fafcc199c9dfa4c480a9ee7f8"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/lumiday/",
@@ -1036,24 +1036,24 @@
     "path": "ru/apps/chaengkim/index.html",
     "lang": "ru",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "e071840710f83dce378245bff2971741c6dc983323f4cd042d087b983ece2221"
+    "lastmod": "2026-11-25",
+    "sha256": "d60991e405d2a2e6be3626f62beb5e0227b7e68cd6fade68d871e370e43b653e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/slimjoy/",
     "path": "ru/apps/slimjoy/index.html",
     "lang": "ru",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "0d3ac4dcd8730fd65a7c76e0690c414aa0fa664a912a2da99688bbd3a07e5ceb"
+    "lastmod": "2026-11-25",
+    "sha256": "be98737933e5d063a2fbefe3eafcfb7f81bbeea6346f38726e79a4919a4e2e89"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/lightled/",
     "path": "ru/apps/lightled/index.html",
     "lang": "ru",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "e3e472b64e957a9a2d047b76b0b75f9a8e2a0dd90b5741918e3e4edad46a5a8a"
+    "lastmod": "2026-11-25",
+    "sha256": "343bc57a231d5bb63b641bbeaeb697a727d0dfe05cf87979476e4bb032e078c2"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/lotto/",
@@ -1084,8 +1084,8 @@
     "path": "fil/index.html",
     "lang": "fil",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "5c49b96ed68e0567f05941663d0f89ed1bd77b303e5d759b811372000e261f06"
+    "lastmod": "2026-11-25",
+    "sha256": "9291ef7d28efce19fb86fe6293625cf062b9cd0ebf5cfc1a1c47241aa42cc81a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/pocketsanta/",
@@ -1204,8 +1204,8 @@
     "path": "fil/apps/snapclean/index.html",
     "lang": "fil",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "65646e9d672c0ddff68c3c3c4f37cf730620b38c622cd00879c1566f4db6b8c1"
+    "lastmod": "2026-11-25",
+    "sha256": "1a5820b5984da989581529b5cc1244212aed16929e9151128ca5d3d81c1c2ff0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/lumiday/",
@@ -1252,24 +1252,24 @@
     "path": "fil/apps/chaengkim/index.html",
     "lang": "fil",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "c484409abddd0dcb2204f53061f9695ecef69ee0b80888192fc975a00a6c6b6b"
+    "lastmod": "2026-11-25",
+    "sha256": "c5a97173bc535436b7f4893fa2c6b4d6b6b9de4c53b0db841ea7127a76d6b5a8"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/slimjoy/",
     "path": "fil/apps/slimjoy/index.html",
     "lang": "fil",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "a3952441dbbc71e9f8ef11d4b7955e9f7bbc3caf298043f75f7dc6a39eedafbc"
+    "lastmod": "2026-11-25",
+    "sha256": "ffe7a2034c766447386fa45a9afec59b5ce4297eaa3a9703683faee90b28b2a4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/lightled/",
     "path": "fil/apps/lightled/index.html",
     "lang": "fil",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "82130f49e7d0c33e25014696294d7981d682f853d58664be24223709af8e1756"
+    "lastmod": "2026-11-25",
+    "sha256": "1f23a753be20fad0007eed1d9472d91997b16dc2ca70d66eb111031ef1dc9674"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/lotto/",
@@ -1300,8 +1300,8 @@
     "path": "hi/index.html",
     "lang": "hi",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "d6841bdfa64c10ac0608cee1ad084d7ea06ea5bcc4420227969ff194e35f01be"
+    "lastmod": "2026-11-25",
+    "sha256": "463ea3c7b946b6b2b47c9daa866adeecf6d383a1a32deecbf1ea4fc66eb9e7b0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/pocketsanta/",
@@ -1420,8 +1420,8 @@
     "path": "hi/apps/snapclean/index.html",
     "lang": "hi",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "fe434577f4d66a31821300ca4a0b45fae7454a526428f0a40d30fd5956bd8d1d"
+    "lastmod": "2026-11-25",
+    "sha256": "08118177b2f33c8e58087be0e51a9e099a628ce399393bb7b20100499817aefa"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/lumiday/",
@@ -1468,24 +1468,24 @@
     "path": "hi/apps/chaengkim/index.html",
     "lang": "hi",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "fb6ce791ea3be21e84efe8cd08e407f9bd074c7e9f456d4fc4ec64f4412ac2a6"
+    "lastmod": "2026-11-25",
+    "sha256": "9dc04cead5704f9fab5c4d6bcbf567156201c17449bf16093d0849fcbfd7ea0c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/slimjoy/",
     "path": "hi/apps/slimjoy/index.html",
     "lang": "hi",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "ef9ddc93a8a33e775370a68e757873ced41fcbe516daf8dda1ed34369cb747b1"
+    "lastmod": "2026-11-25",
+    "sha256": "3b12e1f7733329fd2be084ae88f6c7247641cfb14e063d127966b80952279b50"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/lightled/",
     "path": "hi/apps/lightled/index.html",
     "lang": "hi",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "a83a78393ca951646274c69aaa4b86f362b93cb62851f05ac52194089931654b"
+    "lastmod": "2026-11-25",
+    "sha256": "39d1afdb47171808d2c0d3bff01c143a278bcc03473df67e503b18eef21f6e68"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/lotto/",
@@ -1516,8 +1516,8 @@
     "path": "es/index.html",
     "lang": "es",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "94e4de63628ec8cbaa90a4a090a04ee25f3fccbe95cd87faf1efc7137bfc4b58"
+    "lastmod": "2026-11-25",
+    "sha256": "c1020c46b9e801b1ddbab08eac228bbc5b9500725836c5168ee61683180a9769"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/pocketsanta/",
@@ -1636,8 +1636,8 @@
     "path": "es/apps/snapclean/index.html",
     "lang": "es",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "1ce86971ea4aa74aeb41e8ef7431d8133d57ac44f5204bdb884f9ec68312dccd"
+    "lastmod": "2026-11-25",
+    "sha256": "001ba0237b088255902dcc197c7b12b9dfde313d58720ef7248cfe2605824f12"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/lumiday/",
@@ -1684,24 +1684,24 @@
     "path": "es/apps/chaengkim/index.html",
     "lang": "es",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "51ac88c812c30b9fe0e8325a41b29a23a9dc6b68497c3d62cd3bfcbd6592cf80"
+    "lastmod": "2026-11-25",
+    "sha256": "9ecd4fbeeae71f3263c6b01bbdc46c681d772fdf86571cfc8d41e82af9924aaa"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/slimjoy/",
     "path": "es/apps/slimjoy/index.html",
     "lang": "es",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "1e4e7feeadce5fa330ee2d674d4d7ba5781844dc7b895063b531f2185eef7098"
+    "lastmod": "2026-11-25",
+    "sha256": "91afebb86aed3efd5534273528b595222cb668368b5e355b7df0ab90d9ca14a2"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/lightled/",
     "path": "es/apps/lightled/index.html",
     "lang": "es",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "45d1f315637c2aaab59348d85ad66f4ab91f5af5706b6d56b6f95737073c45d1"
+    "lastmod": "2026-11-25",
+    "sha256": "7f3a6924167631a84d81b13e86d24914c3739fc923e0d56d803cd91d59e4c009"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/lotto/",
@@ -1732,8 +1732,8 @@
     "path": "pt/index.html",
     "lang": "pt",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "f33ca37f1b54039e0c0e1312e7130f799d90cd8225cf2ef03788d9e5f6dd9e4d"
+    "lastmod": "2026-11-25",
+    "sha256": "8dfdcca4f30166e16a65cd7cb73b2a9486e1fad999cd460fb40ac0dd11ab02e1"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/pocketsanta/",
@@ -1852,8 +1852,8 @@
     "path": "pt/apps/snapclean/index.html",
     "lang": "pt",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "307f68804525ce647090a8179cd5b5285ad00c7be90f9c83b05a233d7b70167f"
+    "lastmod": "2026-11-25",
+    "sha256": "7043fb3d8d995a6403ae19df0c3771245b8ab8c1fd5bcb900a820fcbf5752f42"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/lumiday/",
@@ -1900,24 +1900,24 @@
     "path": "pt/apps/chaengkim/index.html",
     "lang": "pt",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "17b1aff8195ab456e24c436716518600085d4d2e93a1c059bdda89cfc596be88"
+    "lastmod": "2026-11-25",
+    "sha256": "57b1f9b2b47ded846e66c29e6f2b6f92345952d87501601e855309e4c314b1ac"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/slimjoy/",
     "path": "pt/apps/slimjoy/index.html",
     "lang": "pt",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "95f88c0a56d3b19599d4a7d8baf9b7fa8b902eaf0d96a1599c8f53acc4270aa6"
+    "lastmod": "2026-11-25",
+    "sha256": "6a23db51ee472ec406a2ec6b9c8c387d3f26ef3782455aefc146dd426e007784"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/lightled/",
     "path": "pt/apps/lightled/index.html",
     "lang": "pt",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "8d27d48d6a5fe0f943e6c97620437841a722095e9b1cfd1e2b183e9584ce1313"
+    "lastmod": "2026-11-25",
+    "sha256": "5cb1f11c03508d252da3e1c25189a714110fc705d9899596074d375beba36542"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/lotto/",
@@ -1948,8 +1948,8 @@
     "path": "fr/index.html",
     "lang": "fr",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "264cae3b15df807f0df9a2c5b99632ea1e68796827406966eace3035d79287fb"
+    "lastmod": "2026-11-25",
+    "sha256": "7919f94ac06386600122195ff67d94fb4937c873232d81f1b2155a40a2d977be"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/pocketsanta/",
@@ -2068,8 +2068,8 @@
     "path": "fr/apps/snapclean/index.html",
     "lang": "fr",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "da0d85cfd3861a5bd9c387e0e51e7a2ddc34a837a8b6a4e26a26f8efe5598c2c"
+    "lastmod": "2026-11-25",
+    "sha256": "8260a9613ca32b9f3f489bdc7aecc52ee6b1148d7f1fe42e329cef838ed1e003"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/lumiday/",
@@ -2116,24 +2116,24 @@
     "path": "fr/apps/chaengkim/index.html",
     "lang": "fr",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "208d0a739c9f7fe996bae1948b0bd8d3825b2dfc45b9da20c8a53330876da044"
+    "lastmod": "2026-11-25",
+    "sha256": "373e5a1c951ee6f06966fbe21a36c9b94ef514521be6f8bd3ff5e05b4dfee14a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/slimjoy/",
     "path": "fr/apps/slimjoy/index.html",
     "lang": "fr",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "d98d1942674344544ba8942769016b9675331795da5e6abd7ef691a4a0e6979b"
+    "lastmod": "2026-11-25",
+    "sha256": "92300260de688f650e882ebe2e29a6e1fb1ece357f393ebd87b65ca97b1afc63"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/lightled/",
     "path": "fr/apps/lightled/index.html",
     "lang": "fr",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "c1911a9ce13adf4d774603cfc4ad440c681443d1e978343a640093e728fa7efc"
+    "lastmod": "2026-11-25",
+    "sha256": "c1bb6089de36eabccc03bd58f360521a8409dcf5fbc100f4df719ec0501bb93a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/lotto/",
@@ -2164,8 +2164,8 @@
     "path": "de/index.html",
     "lang": "de",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "b1dd1c04fff7a6beaa99b8072cde539e74a893240753e261b67f256d632918fa"
+    "lastmod": "2026-11-25",
+    "sha256": "463859f4a6af36f9f85e918dd6cdeaa51453b7e60b01797eeb371bc2208e7c2e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/pocketsanta/",
@@ -2284,8 +2284,8 @@
     "path": "de/apps/snapclean/index.html",
     "lang": "de",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "ea400ac1cc9045a050725f07b80810594bb2b087115836ff11851d297d6aa022"
+    "lastmod": "2026-11-25",
+    "sha256": "576d762b13284376b85a2f3b385ae4bb70137a8f9451ad94fae74e85abf013c6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/lumiday/",
@@ -2332,24 +2332,24 @@
     "path": "de/apps/chaengkim/index.html",
     "lang": "de",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "ae806cedfb76ba61a369df29cbcc40b874e78bd98e51413b9ba1e78e1f33d2c7"
+    "lastmod": "2026-11-25",
+    "sha256": "1b149815350ddd2b669b5fb996f3c76d9d938d982d1e9c3e8539f5bb98980a8b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/slimjoy/",
     "path": "de/apps/slimjoy/index.html",
     "lang": "de",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "84463822a75503840f45730abc2ca63c257b2e46ee292c60ef45b213792b546d"
+    "lastmod": "2026-11-25",
+    "sha256": "3af2399812c8afb3d604f986548eb0ddd7cae2071c7bfadd1a81c47e1dc963f1"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/lightled/",
     "path": "de/apps/lightled/index.html",
     "lang": "de",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "fb5d10a4388f96c69c52ef9c25f0125afb74e127db21c3fa31a5f90f1d08f043"
+    "lastmod": "2026-11-25",
+    "sha256": "7778a757a9c33c9c4209407e61c32398aa2c3500ff3f0396172eb256e725996a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/lotto/",
@@ -2380,8 +2380,8 @@
     "path": "id/index.html",
     "lang": "id",
     "app": null,
-    "lastmod": "2026-11-18",
-    "sha256": "0a957971873e3129d1bd77836f6db2ac62e65c3cd309a6a3ba1a9ad8ee7fb70c"
+    "lastmod": "2026-11-25",
+    "sha256": "9dafa5fa71db40f306b3c468e339e8c52515b82c1c78ef37a3dc114ed969f80d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/pocketsanta/",
@@ -2500,8 +2500,8 @@
     "path": "id/apps/snapclean/index.html",
     "lang": "id",
     "app": "snapclean",
-    "lastmod": "2026-11-09",
-    "sha256": "b28bdf5d41cdd5941cff098d82fb88b45c8d1f364bae1ff14fed24d8e81d6cfd"
+    "lastmod": "2026-11-25",
+    "sha256": "ac6652ff1dbbd3fdf098380297ecd5757613e50d0467b3301698cbf9271799b8"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/lumiday/",
@@ -2548,24 +2548,24 @@
     "path": "id/apps/chaengkim/index.html",
     "lang": "id",
     "app": "chaengkim",
-    "lastmod": "2026-11-11",
-    "sha256": "f5015344cad0e78c1695eada9b1f5d18dc18cc357b77e5f6200c852ef7e3ca9e"
+    "lastmod": "2026-11-25",
+    "sha256": "7d621df4ec07c8e963f1d5f17a70998e338e7f2b613013a36194803615b74d11"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/slimjoy/",
     "path": "id/apps/slimjoy/index.html",
     "lang": "id",
     "app": "slimjoy",
-    "lastmod": "2026-11-09",
-    "sha256": "32724c775703e92da5d8417bb0df3e2a1e62baf6c87a8ac110e650c1b9f5d661"
+    "lastmod": "2026-11-25",
+    "sha256": "83b637526ee23ee4ab93069edae1ae889ec2fc59dd387aa8c4e759666908af09"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/lightled/",
     "path": "id/apps/lightled/index.html",
     "lang": "id",
     "app": "lightled",
-    "lastmod": "2026-10-30",
-    "sha256": "6e48618d58cb6b6ad078792dc90552ad1c1685ab9df4be32c81da639a0f01aa5"
+    "lastmod": "2026-11-25",
+    "sha256": "2bbc7cabc06e460a3c825465c7481e6dc713d4a3672914ed76c7d5981be55da5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/lotto/",

@@ -1,0 +1,9 @@
+# Staging build only. D1 binding must be set to the separately created database in Cloudflare.
+name = "kenneth-release-alerts"
+main = "worker.mjs"
+compatibility_date = "2026-11-25"
+compatibility_flags = ["nodejs_compat"]
+keep_vars = true
+[vars]
+ENABLE_ALERTS = "false"
+ENABLE_DISPATCH = "false"

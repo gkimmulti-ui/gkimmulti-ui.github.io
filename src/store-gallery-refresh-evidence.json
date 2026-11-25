@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-11-25",
+  "state": "asset-export-blocked; source-only evidence; not published",
+  "apps": {
+    "snapclean": {
+      "observedImageUrls": [
+        "https://play-lh.googleusercontent.com/Gyi8vgsqcLMc2Pnl9XpnewROqFOlaaP_Crr0bnMK6mcm-tGlFWDjoHeovqqTlH8lPgTClAZDTNPRrPP4igujS_k=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/OeM3m7RjoUcdveu1sN99DD0K7mTe4uaEttUtAvUDGRirWioAGdMArVBrtIwmga10Qn62R85lSGLr1SuJGD70GA=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/SZzXLHYXHQ3zfri0T_CqzVGnUJUGkOam6SAabMqa1dqYCWFFEZO2Zp9Fg0Fa9F2n7Tt-TpmwYaYiHSKaqNj88Q=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/QxgSEtBWxT7lnRfOMfkBXojxyFWMtVm_dmE23mcBL6dciINGmPLiixh6vg-1kPDPjy_nt63NMvvR815EXQ3-6g=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/v1qqBbmRjWjtlzbSy1Fybw-ruJWB5AisSwiLSZv4f1fIcLW2zCJ06mZJ8LMdeJXVR-Z7q_1JSAqtLKEM9Rl87Q=w526-h296-rw"
+      ],
+      "galleryChange": "replacement",
+      "sourceOnly": true,
+      "fullResolutionImageUrls": [
+        "https://play-lh.googleusercontent.com/Gyi8vgsqcLMc2Pnl9XpnewROqFOlaaP_Crr0bnMK6mcm-tGlFWDjoHeovqqTlH8lPgTClAZDTNPRrPP4igujS_k=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/OeM3m7RjoUcdveu1sN99DD0K7mTe4uaEttUtAvUDGRirWioAGdMArVBrtIwmga10Qn62R85lSGLr1SuJGD70GA=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/SZzXLHYXHQ3zfri0T_CqzVGnUJUGkOam6SAabMqa1dqYCWFFEZO2Zp9Fg0Fa9F2n7Tt-TpmwYaYiHSKaqNj88Q=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/QxgSEtBWxT7lnRfOMfkBXojxyFWMtVm_dmE23mcBL6dciINGmPLiixh6vg-1kPDPjy_nt63NMvvR815EXQ3-6g=w2560-h1440-rw",
+        "https://play-lh.googleusercontent.com/v1qqBbmRjWjtlzbSy1Fybw-ruJWB5AisSwiLSZv4f1fIcLW2zCJ06mZJ8LMdeJXVR-Z7q_1JSAqtLKEM9Rl87Q=w2560-h1440-rw"
+      ]
+    },
+    "lightled": {
+      "observedImageUrls": [
+        "https://play-lh.googleusercontent.com/Q7Qrf7ZA3rBUpPFxvMDl398boXGj5n7ppXUnEp8t3XJzVVbG9OktLSV-63jqFVaBzhgq66XjWkgNrBF_bNECagQ=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/LvMLW0sNPXLrDHQ6YAFA6vtIqMvy0aqm46APGE758V8ST-t29Nt0QZN70toZoM7evDywtGjkXfx3XSCxX_QpEQ=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/WSySM7T2tgMltxvR15FL2WS-9USn74DJlNJnVqfh9JGA9lU0o41I6odaOQxrGdAekLRufm_igtlpvC9LjWjCeg=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/dUm9CcKqQjiLxn-biU2ofUWoD6Hdup5CEfc1TUCJeeUJ6R4m-nRik0j7AFjUb3qyWwjsD6RDXCL4NBBMDtksTA=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/DzsWROJF0gws3dEbN9FEYn2N7yyiSj2M8-yHnDTGuIEaCJXn8oKnPZAH10t9wsroYTIaDf6zTDueXXBIlKddPA=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/PXudf8Ka-Xx9qiSdaRav2t7nF0Y1vEUax4kieNYLyQQEbperyudxp8joJWy-LVVkmErABRy4lqqdI5x1M41Hsg=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/ZG59yLaBD9zesoqHNwRtjUFfRTHJrklRP7OHfohpR24A-J3NZMUvS5Xbn9suihO4cgfx0vTtWrrhX88UwbUeyQ=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/AqzyO3rcsjRo-qpqebFLIwhl0wehUjTYgK445AemVD169Rffb59RlA6931mvRtBrpQ8Whzw6-izXEUog7EqeUA=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/9eMHDlChKgcx7izozYIogajoogCx6zzUFt1jXSKTt59igfiHsOrlPX69VCocObH84VhJvt4DLy2uK_NdTdGa=w526-h296-rw"
+      ],
+      "galleryChange": "4 added; 5 existing",
+      "sourceOnly": true
+    },
+    "chaengkim": {
+      "observedImageUrls": [
+        "https://play-lh.googleusercontent.com/MORtLcWQENb1aY6LiDulXh3rVE8ygq6XOqg4-gUKlIjCxxfZ2yQTLFuDssLYieHV0aPtjB_lvUey09N0DFNC=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/g0j8WIYTVU7FYnAPj-oBQWZKJ2inBAmtdhvQqZnPiCWMSEJCnFBx8pugU-EjUA4KQtpdNaUARWcWiCqs9yEYLw=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/KzjFQXTdtiByGsWcG9Hg-TuM-No0ec-fd_6LiUjiQouOIfMmxwePubZQNFeouUemMBvuhuIBiJF-wKlz8pOfqA=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/MkA_kjW-5Xe17eFlRf1UKuBZEsKwtofarXpG_FlUnzYOaE01eBbQ01Da2AiiTcBiLN65Tc5VEbF2bnJ3l1eCwWM=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/qrfctxGpmqzTU4XF7i3oRBbqChchmx56QINGQQoED90MQlP6_FPeSL3mahyQmTSSSFaJiqO6qJ2HgZSlLwYNyt0=w526-h296-rw",
+        "https://play-lh.googleusercontent.com/yQz0xP-Gb4a6j41VNNZMQSn28KYp80SFVCY-LuJIn7a89AH8gZ_hhDY3D-UshNgIILJWZoiavHBrMJuCKWI=w526-h296-rw"
+      ],
+      "galleryChange": "replacement",
+      "sourceOnly": true
+    }
+  }
+}

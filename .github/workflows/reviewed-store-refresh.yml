@@ -3,6 +3,9 @@ on:
   push:
     branches: [refresh/verified-store-20261125]
     paths: ['.github/workflows/reviewed-store-refresh.yml']
+concurrency:
+  group: reviewed-store-refresh-only
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -25,7 +28,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/apps.json data/store-sources.json src/store-gallery-verified-20261125.json images/screenshots assets/catalog.js index.html sitemap.xml feed.xml src/generated-pages.json
+          git add -- data/apps.json data/store-sources.json src/store-gallery-verified-20261125.json images/screenshots assets/catalog.js index.html sitemap.xml feed.xml data/page-manifest.json
           git add -- '*.html'
           git diff --cached --stat
           git commit -m 'Refresh verified public store gallery and localized descriptions'

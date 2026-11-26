@@ -1862,6 +1862,134 @@
         "updated": null,
         "sourceUrl": "https://play.google.com/store/apps/details?id=com.snaplog.myapp&hl=fil&gl=PH"
       }
+    },
+    "localizedScreenshots": {
+      "en": [
+        {
+          "src": "images/screenshots/snaplog-play-20261126-en-01.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-en-01-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/jci4_60oN9krCVq2T_icDnXiv2VN34Re4Z-70bv_FIoqdJQUuX7EQ0wMFxs8U6Po9Lp9e1WJGMQlkhShv0Q1Uj4=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-en-02.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-en-02-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/V25XIM6wqD2rV5YA45iM0aWq0jrq-M8uPYZRCr9adv6Orb1PJpZkWcnLoerwEvZyCUmXCw3F8-stihs0DwoTmg=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-en-03.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-en-03-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/XwQZfOK0NA7inWZKLK-gzn8NQtA-Ea-4dyp1hRWRnzUFpWT_9qXWZv8mzvXxUS8T_0_PQ0zluIhRv_0eADiogg=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-en-04.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-en-04-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/69QKzksLBbb7HLoMWdHXI62sfdQiwIoYu9LY4tuiQ905_9pEs__83PXbA6FNXzPB1YLOzWVL6P4Q8OulQqM74oM=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-en-05.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-en-05-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/j3qI29GdmCWHmvuCSUUfaT5AHwF3QK1nLgDShJ5S0T4DI30APY2PFZE_fJdxT18ptSgS4OJPATUUZFTAYtUicg=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        }
+      ],
+      "ja": [
+        {
+          "src": "images/screenshots/snaplog-play-20261126-ja-01.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-ja-01-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/rn68nbqFkeONVNGyBp_nElv5Txk5L7MzRJg-S7PT_hnS8D1zDlnFxUABAOOMacdEu8HtSQpMUH2NJ3dH0P0H=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-ja-02.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-ja-02-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/Nxy4UDHlsvqm4j5f5biyrvcdi2fvRLyIfCLjj5XT6Vb1XpHEK-h3RG4iaHJz_XtiSSIxMHntS4Z1u5FIIxRNZ08=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-ja-03.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-ja-03-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/wqCbAVmHp0ttYN8Avk-n6fz56ESq0D_F3FtkLKrPK0YSQWnUy-W17l2LI3tkk820WktEiCvdinhRdMa9oRv2NQ=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-ja-04.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-ja-04-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/sVLK0fSGuAWgV0l3rTdPdl_DMXBn2OQYqzKbz1zG2ZL8C8pOMdmvPNrnPZhqX7KeW9wiw0M3lp1NVAWHgV8_=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-ja-05.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-ja-05-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/4mWm2WtOhKy6aAAHVRl4njouiXhXrwTsuzMoOm7KKYUu9smdkYzOuMXODy_4TyOXux96xXS2c3V4FeUP8WNkyXY=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        }
+      ],
+      "zh": [
+        {
+          "src": "images/screenshots/snaplog-play-20261126-zh-01.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-zh-01-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/W39ReNoFAF3BRd-iK2J8zCh2qTaiAD2NeOF4ZW6_iW23aBHxGfqhQ7l2D59PMQbus_EZyNMtgPsIiGhpiq-2POY=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-zh-02.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-zh-02-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/8HiOTptsMhsucx9LHy_YAsEkZURPUaAs66Vg_wnazcKKXDrB3p5BqRygvmVt6AVI2Jtn04g-pH6Qf7SFz6FVG2o=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-zh-03.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-zh-03-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/DOWByfWyplHfQSt93OUMVlmhni6jmhj8DKIlitH0ZyAgsH2-9FZPqoZM3aDZHpUEyn4oViszy8MvO6JGPNRbnUY=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-zh-04.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-zh-04-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/LsxEfM4Gb-RDi3tEd1ZEcGkwje8h9okDpuwm3dKeJfMUwUJlLdJWX5FRPCw-QcBbXnffDltYShJWgloiOKU5=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/snaplog-play-20261126-zh-05.webp",
+          "thumb": "images/screenshots/snaplog-play-20261126-zh-05-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/6SzmL_ttLHsPsN-a8Dd8mid1lcag5hs2-SHPeU-P0CWywVlcSXN-fH7FydRCp-TiAsC5R4VNp-foHq4UlIoQgCg=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        }
+      ]
     }
   },
   {
@@ -2061,41 +2189,41 @@
     "iconSourceUrl": "https://play-lh.googleusercontent.com/nxn0x_ddJ8zo5o-QRD6wiR_c_GNKTmy66NeCHs1QbUY4E7hWSRWstlv-PLOuByjclrjOeUUYcTB2AldTf1BC",
     "screenshots": [
       {
-        "src": "images/screenshots/holyground-play-20261018-01.webp",
-        "thumb": "images/screenshots/holyground-play-20261018-01-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/Uim7gJA05DAcg6rVM1KnRfLobehl5DXSqm8eUfjMcVknwWFhZqwtjqTPLU0BA5oVrKZqe3XH53DaacTAhmVv=w1000",
+        "src": "images/screenshots/holyground-play-20261126-ko-01.webp",
+        "thumb": "images/screenshots/holyground-play-20261126-ko-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphaUu6quoQ0P6Y456tJ75Bj9-Bib-IP-t5Oy12b9290FECXowBMEwObppCC439TIIf_cPpNnowPGB0nq-1pqLxEGWbJYq_I=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
       },
       {
-        "src": "images/screenshots/holyground-play-20261018-02.webp",
-        "thumb": "images/screenshots/holyground-play-20261018-02-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/0zJ4ArYiYs821B3rAMt2wihH9L7_ZtesvQsHl2cslgCQ3gycm3iF-ZnG6G6uHrK11zkbH57fPMj0fZZHQD9Fhg=w1000",
+        "src": "images/screenshots/holyground-play-20261126-ko-02.webp",
+        "thumb": "images/screenshots/holyground-play-20261126-ko-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphad2ebIILp6SjZaDcAgbTyJ0ANFHHVezpIqYKKxqKCOgKcAhBt8SQed8UeXX02RnUL0UTlYi9CjHQ3bDXb62VgLtyztRuk=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
       },
       {
-        "src": "images/screenshots/holyground-play-20261018-03.webp",
-        "thumb": "images/screenshots/holyground-play-20261018-03-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/vrrdMvUBihLruj35WSjmML5o3i2DNl9rUsawyVeP85nMsfvFZUwuYFhjltneVVPwYabv7wgn1aQgs92YoHuI5w=w1000",
+        "src": "images/screenshots/holyground-play-20261126-ko-03.webp",
+        "thumb": "images/screenshots/holyground-play-20261126-ko-03-thumb.webp",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=holyground.myapp&hl=ko#holy-ground_ko-KR_1080x1920_03-weekly",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
       },
       {
-        "src": "images/screenshots/holyground-play-20261018-04.webp",
-        "thumb": "images/screenshots/holyground-play-20261018-04-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/3TdAP7Ae8VTo06W0aSS5HFXb6j3FD2YP-5XZ8JehkTUq_F2Tzu9sTCsH8r8SEdjmbS5DF0kH4OUDgl7v6zgrkg=w1000",
+        "src": "images/screenshots/holyground-play-20261126-ko-04.webp",
+        "thumb": "images/screenshots/holyground-play-20261126-ko-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphZcHQCexScZ0NwVivANedn_D3W4V_cmcMge_AmfTc9vuuCiacZTstTAPa-YkGfiKzkZSk51aRhrfWDMoILtyFv-5SMV7MM=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
       },
       {
-        "src": "images/screenshots/holyground-play-20261018-05.webp",
-        "thumb": "images/screenshots/holyground-play-20261018-05-thumb.webp",
-        "sourceUrl": "https://play-lh.googleusercontent.com/gNAmhdNqgTVflZ68wOwq7ACqJm2fDqxjkYdSwqFDz_j8KEURDfrE2OC1RozHVtOFeDZZUajdMznaxexPlU2Rpg=w1000",
+        "src": "images/screenshots/holyground-play-20261126-ko-05.webp",
+        "thumb": "images/screenshots/holyground-play-20261126-ko-05-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphYvkcREJuWaRoJO6sgid044CvYXMVnHImwlLeIjQEvgwA0vSTicC99xReV-M7S49BqPaC2uME7U705dpyLsX5YuuV3nMeI=w1000",
         "platform": "Google Play",
         "width": 1000,
         "height": 1778
@@ -2150,6 +2278,184 @@
         "updated": null,
         "sourceUrl": "https://play.google.com/store/apps/details?id=holyground.myapp&hl=fil&gl=PH"
       }
+    },
+    "localizedScreenshots": {
+      "en": [
+        {
+          "src": "images/screenshots/holyground-play-20261126-en-01.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-en-01-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphbzpwd7ThvFLr6SpmCuUvwmKesZ66OwKohu-tyktUb2ucICl3XKI2tkWPGI2Qs8ALYE1ACqW2HO0c3iQKc1d_y2azd4kgQ=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-en-02.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-en-02-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphY1V43hkGMGYn4jg9Uc8Xegj4NMcQw1m5AoCRN1AGmvzWoEnxdDzJdnYfG2OKhssYD1ZtdKY3JJPfLFGvtW8effJ4O61ew=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-en-03.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-en-03-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphbe42hVWuhnnKUZCdJ86Pi3b_ApVmXoj27Ct_HqMRCLutjJEUP44VuXTxUJqQuIkRisLYwCBqrYrEb84csZRxfNEl3CxAg=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-en-04.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-en-04-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphbuoaY3CWbDXeqIHbsf8Ji5adS_IHtQsxdOi6q2_NzPHV9oTyppvXbcbzID6rNUMMF40pEsDINpyAlifrt_BMhwTemgbQ=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-en-05.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-en-05-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphai4jr8L8BhNO3zAwu2dbpuCLdK_vBzjT9BYm0jsBsKCrGXWetGmHLGOKIai3R5GckzNgp7xwCUv0nc2_LJ_q-nm2iq1JU=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        }
+      ],
+      "ja": [
+        {
+          "src": "images/screenshots/holyground-play-20261126-ja-01.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ja-01-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphZoyMg12COnUthTLrwLyGK5pIdnQXC65YsbiPZLAvfRMVMcguu4djay13wk4CE9JHwtIXrssY6HZoOofrJzXCkDQh95HQ=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-ja-02.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ja-02-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphbQjOLT2Bsd1buvJfIFiPCO2dbacRTBxe-1qi_cbu2ICRwdDbnsG8P9bm4cImvncmBQ4CMmUNsQ_rmg5KdcWJOW58dSPWAG=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-ja-03.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ja-03-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphb6wNC5jKAhXU9diJoEwk46xvLJbQAil2dURueOm_FEi3Wf1wBt6duHimQ8Z7MqSGMPGs0JM-LaBNPzq5viBsg_WtY_-fY=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-ja-04.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ja-04-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphafANrE6CnoU8mO_5CFygaY0N9bcQNHFm3I1bUeUJyWsxMEVQ3RhY0rC5njFeki5-N3P-zcDOJJKttC2ZBUnKluj_dEMQ=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-ja-05.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ja-05-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphYjR58fQ0G2glU58dmiTCBE3H6n0HQUvxWvt46PXrK6DA3lvz0d4x77DrgZKPStXRvoDugA7UAGrPfDOa7eQ7r8DknYVvY=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        }
+      ],
+      "zh": [
+        {
+          "src": "images/screenshots/holyground-play-20261126-zh-01.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-zh-01-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphZMuZOoXDpfNkpX7fM4AYR9tjryJpOV0RXl3pp6W8GuL7zE5a197STnqXuQUlAqbhht2997lfcOVkFmHuJ-Z7uY_vIgnHU=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-zh-02.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-zh-02-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphbM6bmC4jHGY4H8ITadkgg9LKZ5pBQt_BJ8omLHOw5UFLujfYcsvK990QLTxkCasJrrWu31mRE30Lvr-qwOwRl1RRR0Hho=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-zh-03.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-zh-03-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphb1zrLYrnKVCXHVyDzkXFaRqOxISUQzXkVWYjWgtavHxKWf08lAdiSp_E_lz4QmnYbAtoseEcmXTeETJxUgZhOb09oa3g=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-zh-04.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-zh-04-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphb4lU75M1ZDFndSGbJKjw5kDOnzbUARXzWLrDFbk5ay6vZgXekhtalHRhQS4hustAYxx7DMYHlQWJZ9mteMALW_E2on=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-zh-05.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-zh-05-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphaNTGVGagK7dQyZSyTY3ETTqtl5SBvhP5gAE4VU8qapfumJm4C9MsAXO8UUiML-WC3CLoP1RxfYWJMIpq8M10XDQiMC0yw=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        }
+      ],
+      "ru": [
+        {
+          "src": "images/screenshots/holyground-play-20261126-ru-01.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ru-01-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphZCssmD6cweAOsM-1GUPzWWyFlAAu8Rk3HmKlrhatPDHq7YwHJygY3tC2fQMeEkMkiJrKYXu3KvRIYu7SRBEkd0NtWWuPMs=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-ru-02.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ru-02-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphaO08SjNPpuqPyz4D41fwb-8UH_9R0h13yIeFxND1-wcJuPVd0G1SjoAh4yDu7kkSOeuviCHqaVhqd4BX3ocDygp2G7nW0=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-ru-03.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ru-03-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphYbM5z8QAKom_tPE1opMph4BX8u8Pb9LfJQdhcDqnMWCXyeCx7S_eGlrZVdCmuYzs-ekPnnjADPxCgvk-WN6nLj0oBZndQ=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-ru-04.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ru-04-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphbKryOkFbY3bhGmhC5Ym8rTNzpm7wKkqYNl22zCcje84dIQMrk1Z0fkg31erisQ0QZJkgkJ6EWVhlg9LJjJM501zkynfVpf=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        },
+        {
+          "src": "images/screenshots/holyground-play-20261126-ru-05.webp",
+          "thumb": "images/screenshots/holyground-play-20261126-ru-05-thumb.webp",
+          "sourceUrl": "https://play-lh.googleusercontent.com/pcsb/AEecphbLrq_RbUCLPR2BxT88kxBx6bUB0GYoAgualONRJakn9gidREkH_QUzqPpFB7Mu6gOrZ5bwPd7r21kgUlq39WwuCUNka4h7=w1000",
+          "platform": "Google Play",
+          "width": 1000,
+          "height": 1778
+        }
+      ]
+    },
+    "screenshotRelease": "1.1.2 (53)",
+    "screenshotPublicMatchCounts": {
+      "ko": 4,
+      "en": 5,
+      "ja": 5,
+      "zh": 5,
+      "ru": 5
     }
   },
   {

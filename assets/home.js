@@ -13,17 +13,18 @@
   const appPath = (app,lang) => homePath(lang)+'apps/'+app.slug+'/';
   const asset = value => '/'+value.replace(/^\/+/, '');
   const arrow = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  function heroEntries() {
+  const shotsFor = (app,lang) => app.localizedScreenshots?.[lang] ?? app.screenshots;
+  function heroEntries(lang='ko') {
     const featured = data.hero.map(choice => {
       const app = data.apps.find(app => app.slug === choice.slug);
-      const shot = app?.screenshots.filter(shot => shot.platform === choice.platform)[choice.index];
+      const shot = (app?shotsFor(app,lang):[]).filter(shot => shot.platform === choice.platform)[choice.index];
       if (!shot) throw new Error('Hero screenshot missing: '+choice.slug+'. Update data/hero.json.');
       return {app, shot};
     });
-    return [...featured, ...data.apps.filter(app => !data.hero.some(choice => choice.slug === app.slug)).map(app => ({app, shot:app.screenshots[0]}))];
+    return [...featured, ...data.apps.filter(app => !data.hero.some(choice => choice.slug === app.slug)).map(app => ({app, shot:shotsFor(app,lang)[0]}))];
   }
   function heroSlides(lang) {
-    return heroEntries().map(({app,shot},index) => {
+    return heroEntries(lang).map(({app,shot},index) => {
       const name=escape(local(app.name,lang));
       return `<li class="hero-slide tone-${app.tone}${shot.width>shot.height?' is-landscape':''}"><a class="hero-screen" href="#app-${app.slug}" aria-label="${name} · ${escape(t('hero.open',lang))}"><span class="hero-screen-image"><img src="${asset(shot.thumb)}" alt="${name} · ${escape(t('gallery.label',lang))} (${shot.platform})" width="${shot.width}" height="${shot.height}" loading="${index<6?'eager':'lazy'}" decoding="async"${index===0?' fetchpriority="high"':''}></span><span class="hero-screen-caption"><img src="${asset(app.icon)}" alt="" width="30" height="30" loading="lazy"><span><strong>${name}</strong><span>${escape(local(app.category,lang))}</span></span><span class="hero-screen-arrow" aria-hidden="true">↗</span></span></a></li>`;
     }).join('');
@@ -40,7 +41,7 @@
   }
   function card(app, lang) {
     const name = escape(local(app.name, lang));
-    const shots = app.screenshots;
+    const shots = shotsFor(app,lang);
     const gallery = shots.map((s,i) => `<a class="screen-link${s.width>s.height?' is-landscape':''}" href="${asset(s.src)}" data-store-url="${escape(s.platform==='App Store'?app.appStoreUrl:app.playUrl)}" data-shot="${i}" data-app="${app.slug}" aria-label="${name} · ${escape(t('gallery.open',lang))} ${i+1} · ${s.platform}"><img src="${asset(s.thumb)}" alt="${name} · ${escape(t('gallery.label',lang))} ${i+1} (${s.platform})" width="${s.width}" height="${s.height}" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span>${s.platform==='App Store'?'<span class="screen-platform">iPhone</span>':''}</a>`).join('');
     return `<article class="app-card tone-${app.tone}" id="app-${app.slug}" aria-labelledby="name-${app.slug}">
       <div class="app-head"><img class="app-icon" src="${escape(asset(app.icon))}" alt="" width="52" height="52" loading="lazy"><div class="app-name"><h3 id="name-${app.slug}"><a href="${appPath(app,lang)}">${name}</a></h3><p>${escape(local(app.category,lang))}</p></div></div>
@@ -55,7 +56,7 @@
   function filters(lang, selected='all') {
     return groups.map(g=>`<button class="filter-chip${g===selected?' active':''}" type="button" data-filter="${g}" aria-pressed="${g===selected}">${escape(t('filter.'+g,lang))}${g==='all'?`<span>${data.apps.length}</span>`:''}</button>`).join('');
   }
-  if (typeof module !== 'undefined' && module.exports) { module.exports={card,filters,escape,heroEntries,heroSlides,homePath,appPath}; return; }
+  if (typeof module !== 'undefined' && module.exports) { module.exports={card,filters,escape,heroEntries,heroSlides,homePath,appPath,shotsFor}; return; }
 
   // A URL always serves one language, including before JavaScript runs.
   const lang=document.documentElement.dataset.locale||'ko';
@@ -88,14 +89,14 @@
     renderHero();
   }
   function showShot() {
-    const shot=currentApp.screenshots[currentShot];
+    const shots=shotsFor(currentApp,lang), shot=shots[currentShot];
     viewerImage.src=asset(shot.src);
     viewerImage.alt=local(currentApp.name,lang)+' · '+t('gallery.label',lang)+' '+(currentShot+1)+' ('+shot.platform+')';
     document.getElementById('viewer-title').textContent=local(currentApp.name,lang);
-    document.getElementById('viewer-count').textContent=shot.platform+' · '+(currentShot+1)+' / '+currentApp.screenshots.length;
+    document.getElementById('viewer-count').textContent=shot.platform+' · '+(currentShot+1)+' / '+shots.length;
     document.getElementById('viewer-source').href=shot.platform==='App Store'?currentApp.appStoreUrl:currentApp.playUrl;
   }
-  function step(direction){currentShot=(currentShot+direction+currentApp.screenshots.length)%currentApp.screenshots.length;showShot();}
+  function step(direction){const count=shotsFor(currentApp,lang).length;currentShot=(currentShot+direction+count)%count;showShot();}
   grid.addEventListener('click',event=>{
     const gallery=event.target.closest('[data-gallery]');
     if(gallery){const track=document.getElementById('gallery-'+gallery.dataset.gallery);track.scrollBy({left:track.clientWidth*.8*Number(gallery.dataset.direction),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});return;}

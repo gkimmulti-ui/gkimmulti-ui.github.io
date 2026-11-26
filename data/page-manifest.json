@@ -4,8 +4,8 @@
     "path": "index.html",
     "lang": "ko",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "acc2b8c4a41479f068408e1ca1b0919bb29bf84d4427732f5a72d2986ee4eace"
+    "lastmod": "2026-11-26",
+    "sha256": "b867a060f0179aa29b9b78db792bd1f274d773c3200226b44a29a789bdd7ba7f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/pocketsanta/",
@@ -164,8 +164,8 @@
     "path": "apps/holyground/index.html",
     "lang": "ko",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "acea37e621b9c2f7170dc6eff6fdbe9a50298d477ddeca383b534505185d77fe"
+    "lastmod": "2026-11-26",
+    "sha256": "9fc17c0cd806788873aa3ae57aeb3b3c815846195dd0de05c481e37d11a0c8f0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/chaengkim/",
@@ -220,8 +220,8 @@
     "path": "en/index.html",
     "lang": "en",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "bf8c4577992b148b24639ee5764d663ab050719d573d12c863b84ce015f4ff2c"
+    "lastmod": "2026-11-26",
+    "sha256": "34b3446853667611734e13b347b33a74a2c405f597ba8b5500f006990c1eefb9"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/pocketsanta/",
@@ -364,8 +364,8 @@
     "path": "en/apps/snaplog/index.html",
     "lang": "en",
     "app": "snaplog",
-    "lastmod": "2026-11-25",
-    "sha256": "6fb0f5460fddf5e1c07255b59b5332dc80b94ef684e30858c6de487e711c554e"
+    "lastmod": "2026-11-26",
+    "sha256": "40911adaa399cfc1b3d55fa6c8084f8ac01c7badd72ee5d97c1dfbcb98f63a3b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/lightwall/",
@@ -380,8 +380,8 @@
     "path": "en/apps/holyground/index.html",
     "lang": "en",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "6b90cbbd48a2baf9127dcb880f11870c0daa3004e687a6265e86048890ed41e5"
+    "lastmod": "2026-11-26",
+    "sha256": "f620590c6d009619255f632a64a3f1e63244cdf536a2bd075b2acf455d599b33"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/chaengkim/",
@@ -436,8 +436,8 @@
     "path": "ja/index.html",
     "lang": "ja",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "28c9319b5e1fe51d167df995e9c04dde78a4abef6035c60fdfc3bada9df740da"
+    "lastmod": "2026-11-26",
+    "sha256": "3c11e2835fc7e1657ddb5557e53dc25ec9cd4dfce98983b76584220ae78e90ce"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/pocketsanta/",
@@ -580,8 +580,8 @@
     "path": "ja/apps/snaplog/index.html",
     "lang": "ja",
     "app": "snaplog",
-    "lastmod": "2026-11-25",
-    "sha256": "9eed6b86c05a3b36600e72a0c3711208292a29d093a20560c59da6f129343c4c"
+    "lastmod": "2026-11-26",
+    "sha256": "70312d066aa731a0d6e0e488abcf3d5ff25940042515874bfa179127cbce3f55"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/lightwall/",
@@ -596,8 +596,8 @@
     "path": "ja/apps/holyground/index.html",
     "lang": "ja",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "233e4743ea8738c9eb1d3b56e3f8ab7c8148fbd8d99a0fd2f00a96a3b6fc3165"
+    "lastmod": "2026-11-26",
+    "sha256": "e43ece4e313f414072dacc3525f8844418fd5d67d53c99cf920cd1c21256a2d8"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/chaengkim/",
@@ -652,8 +652,8 @@
     "path": "zh/index.html",
     "lang": "zh",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "264996907d893c53ae4dab5b8d787d6608b18c2ac5f81d262c404a927fccc33f"
+    "lastmod": "2026-11-26",
+    "sha256": "a0422cc528e09dda323178936a754cbb76dc4470836df9bbd5aafead2a8dfad6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/pocketsanta/",
@@ -796,8 +796,8 @@
     "path": "zh/apps/snaplog/index.html",
     "lang": "zh",
     "app": "snaplog",
-    "lastmod": "2026-11-25",
-    "sha256": "8f28d68592b6ab095c01fff080f0acbe6a3437e446cb18ad71020676abd38287"
+    "lastmod": "2026-11-26",
+    "sha256": "fef256b8908ea989238283de970424c2476d416251cb535b7bfa78368dc6a208"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/lightwall/",
@@ -812,8 +812,8 @@
     "path": "zh/apps/holyground/index.html",
     "lang": "zh",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "3cc630d607926b4e827b89c11a3b3158f4466b2b47cc3259887cd5ebe2e2bc1b"
+    "lastmod": "2026-11-26",
+    "sha256": "4662f3d94e349a36e842a7f99585c48a4cb41dd106129efb6edc2329d32314c3"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/chaengkim/",
@@ -868,8 +868,8 @@
     "path": "ru/index.html",
     "lang": "ru",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "d793d8b29a5952b264f5bbc27886ebc8a2e73d9f67c608d51f8a9652b6b48c78"
+    "lastmod": "2026-11-26",
+    "sha256": "9245a92475813102087974d67348b39c68ff03fdcea400ade96b428f09a03071"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/pocketsanta/",
@@ -1028,8 +1028,8 @@
     "path": "ru/apps/holyground/index.html",
     "lang": "ru",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "32c5be6f6d68f555202f10058e7835f37d23903c622bcf4c526955742d3988bf"
+    "lastmod": "2026-11-26",
+    "sha256": "f1e50ddd2468984d3014f5e1011078261462af6b5e37bf6c70c6f71089248395"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/chaengkim/",
@@ -1084,8 +1084,8 @@
     "path": "fil/index.html",
     "lang": "fil",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "4a2a91679dff4de05ce8396f2ae5dc9d9eab5fd5601ad2171414480969354cc1"
+    "lastmod": "2026-11-26",
+    "sha256": "834fcb67d95cf8cc91f27ef1e306c6a5989cb594b7c70c1cea40c065a89ca0c8"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/pocketsanta/",
@@ -1244,8 +1244,8 @@
     "path": "fil/apps/holyground/index.html",
     "lang": "fil",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "6c5a270e0fdfa8f3e7901a2f4946d7a4c063f997b0a44862e95ce4b098d844d9"
+    "lastmod": "2026-11-26",
+    "sha256": "8e49ce1b5313e00ae3414fb4d7568706e759d094e23edfe95a31dbf338e27f1f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/chaengkim/",
@@ -1300,8 +1300,8 @@
     "path": "hi/index.html",
     "lang": "hi",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "137bc5c5d386668eea62c2575de7a805992361813df6aa16b44330f929893634"
+    "lastmod": "2026-11-26",
+    "sha256": "35fb687b6399dc9b1f1317a099afbf315b1b774f0c78db62ce6026ea4e3e591f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/pocketsanta/",
@@ -1460,8 +1460,8 @@
     "path": "hi/apps/holyground/index.html",
     "lang": "hi",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "39b18b2bda311d9cdf936ade2b34c11d49c905821948ecfb088853dbb6380d80"
+    "lastmod": "2026-11-26",
+    "sha256": "7c24beda2a4f53803a681ff117095fa22bc2ca5ba6b2d6a0231f857e5200fac4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/chaengkim/",
@@ -1516,8 +1516,8 @@
     "path": "es/index.html",
     "lang": "es",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "004d0bd10a520ed1f5e1baa2839143969ecc736c1632d488066fa745753837ca"
+    "lastmod": "2026-11-26",
+    "sha256": "92f9c2ce59aaea6424c2337350aa37aadb1c3f39b2682c331f5c84518f0fc9ea"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/pocketsanta/",
@@ -1676,8 +1676,8 @@
     "path": "es/apps/holyground/index.html",
     "lang": "es",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "87949bf0b32e9ee19ef14c82569894133df68a8741b0cddd7475e16300d1841a"
+    "lastmod": "2026-11-26",
+    "sha256": "a5ed50cd6e069d76c04d9fb7dd47121d361896a87c9464c4fb989978aadb1ea4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/chaengkim/",
@@ -1732,8 +1732,8 @@
     "path": "pt/index.html",
     "lang": "pt",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "028b017aa399e3cfac287333926e95b7216fe7ac79e510dc6f47286f83874f7f"
+    "lastmod": "2026-11-26",
+    "sha256": "4d7fc11585c8c2fc84ab9744d59c93d9a0689b61a94728860926a371cee3b3b7"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/pocketsanta/",
@@ -1892,8 +1892,8 @@
     "path": "pt/apps/holyground/index.html",
     "lang": "pt",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "e89a9cb874583bed09dae1086bd80427f849833e5bd8f6581d50bdca1dd547c6"
+    "lastmod": "2026-11-26",
+    "sha256": "73d41f2310db0f1904755b3930967a2d14a27079ec3f4670973e2bc6a70a1032"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/chaengkim/",
@@ -1948,8 +1948,8 @@
     "path": "fr/index.html",
     "lang": "fr",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "9dbd2ad7e8fad27ad83a545258539c6de7c695c063f64d9f35d23eb3de66c41b"
+    "lastmod": "2026-11-26",
+    "sha256": "e2ab12f5b80ed86ceafc2d18cae1bf272a12e514d38d4fbd79aff00e030f5558"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/pocketsanta/",
@@ -2108,8 +2108,8 @@
     "path": "fr/apps/holyground/index.html",
     "lang": "fr",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "5833b9c202d0f600daaba5203d2695c3dd98d44fb8ef67195ecbd67f79640212"
+    "lastmod": "2026-11-26",
+    "sha256": "0d0d90c8d0e1f4143a045d1c627feb0aa013f3bd01fb928b69ea26ac8bdb94d4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/chaengkim/",
@@ -2164,8 +2164,8 @@
     "path": "de/index.html",
     "lang": "de",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "a16c29f9c1f602d318749a484b22781c88d177a7b522dc2df44eb3c153f65bc2"
+    "lastmod": "2026-11-26",
+    "sha256": "cb173ff8a257474d2c1d876f00646eed9b7f505d1b452ef4b3d59cb684cda4a3"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/pocketsanta/",
@@ -2324,8 +2324,8 @@
     "path": "de/apps/holyground/index.html",
     "lang": "de",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "7392acff40a32351a8586fb755188e4b95fc913e79112b34f8953b8fb54e3254"
+    "lastmod": "2026-11-26",
+    "sha256": "e04a4542090dc4bac38e574621718b9438449b9983037552856fed2e4a36a7cc"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/chaengkim/",
@@ -2380,8 +2380,8 @@
     "path": "id/index.html",
     "lang": "id",
     "app": null,
-    "lastmod": "2026-11-25",
-    "sha256": "f1434fb9acedb08981ecfe324611e012784f8eb85b2717da8e5911f3076732aa"
+    "lastmod": "2026-11-26",
+    "sha256": "8f2561e65fa189ccd182f05a289688f6809e329bd22138a392bcc50ca56af8db"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/pocketsanta/",
@@ -2540,8 +2540,8 @@
     "path": "id/apps/holyground/index.html",
     "lang": "id",
     "app": "holyground",
-    "lastmod": "2026-11-25",
-    "sha256": "de08770f08d7910eb1068f876174b772d8780b02df2ae13af0d1a97b2dbeb3d3"
+    "lastmod": "2026-11-26",
+    "sha256": "f51145c2513e6ea9c8cb447af37aa198e56aba19d3b2c3c43b9f396bc338fbd9"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/chaengkim/",

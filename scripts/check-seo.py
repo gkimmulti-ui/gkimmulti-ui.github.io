@@ -50,7 +50,9 @@ def main():
             app=APPS[page['app']];software=next(g for g in graph if g['@type']=='MobileApplication')
             ensure(software['installUrl']==[u for u in [app['playUrl'],app.get('appStoreUrl')] if u],context+' store destinations')
             ensure(__import__('html').escape(app['desc'][page['lang']],quote=True).replace('&#x27;','&#39;') in source,context+' static translated description')
-            ensure(len([a for a in d.find('a') if 'data-shot' in a])==len(app['screenshots']),context+' screenshots')
+            shots=app.get('localizedScreenshots',{}).get(page['lang'],app['screenshots'])
+            ensure([a['href'] for a in d.find('a') if 'data-shot' in a]==['/'+s['src'] for s in shots],context+' screenshots in locale order')
+            ensure(software['screenshot']==[SITE+'/'+s['src'] for s in shots],context+' localized screenshot schema')
             ensure('aggregateRating' not in software and 'review' not in software,context+' no invented reviews')
         else:
             ensure(len([a for a in d.find('article') if a.get('id','').startswith('app-')])==len(APPS),context+' full static catalog')

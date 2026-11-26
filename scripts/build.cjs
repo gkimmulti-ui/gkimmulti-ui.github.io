@@ -8,7 +8,7 @@ const translations=require('../data/translations.json');
 const hero=require('../data/hero.json');
 const sources=require('../data/store-sources.json');
 const {site}=require('../data/search-config.json');
-const {card,filters,escape,heroEntries,heroSlides,homePath,appPath}=require('../assets/home.js');
+const {card,filters,escape,heroEntries,heroSlides,homePath,appPath,shotsFor}=require('../assets/home.js');
 const languageConfig=require('../data/languages.json');
 const extraLanguages=require('../data/extra-languages.json');
 const languages=languageConfig.map(l=>l.code);
@@ -31,7 +31,7 @@ for(const app of apps)for(const [store,key]of[['play','playUrl'],['appstore','ap
  const qr=qrManifest.find(entry=>entry.app===app.slug&&entry.store===store);
  if(app[key]?(!qr||qr.url!==app[key]||!fs.existsSync(path.join(root,qr.image))):qr)throw Error(`QR code out of date: ${app.slug}/${store}`);
 }
-const template=fs.readFileSync(path.join(root,'src/index.template.html'),'utf8');
+const template=fs.readFileSync(path.join(root,'src/index.template.html'),'utf8').replace(/\r\n/g,'\n');
 const oldManifestPath=path.join(root,'data/page-manifest.json');
 const previous=fs.existsSync(oldManifestPath)?JSON.parse(fs.readFileSync(oldManifestPath,'utf8')):[];
 const pages=[];
@@ -45,7 +45,7 @@ function schema(lang,app,title,description,url){
  const graph=[publisher,website,page];
  if(app){
   const storeName=sources.find(s=>s.slug===app.slug)?.storeTitle;
-  const software={'@type':'MobileApplication','@id':url+'#app',name:local(app.name,lang),url,description:local(app.desc,lang),image:site+'/'+app.icon,screenshot:app.screenshots.map(s=>site+'/'+s.src),applicationCategory:categories[app.slug]||'UtilitiesApplication',operatingSystem:app.appStoreUrl?'Android, iOS':'Android',installUrl:[app.playUrl,app.appStoreUrl].filter(Boolean),sameAs:[app.playUrl,app.appStoreUrl].filter(Boolean),author:{'@id':publisher['@id']},mainEntityOfPage:{'@id':page['@id']}};
+  const software={'@type':'MobileApplication','@id':url+'#app',name:local(app.name,lang),url,description:local(app.desc,lang),image:site+'/'+app.icon,screenshot:shotsFor(app,lang).map(s=>site+'/'+s.src),applicationCategory:categories[app.slug]||'UtilitiesApplication',operatingSystem:app.appStoreUrl?'Android, iOS':'Android',installUrl:[app.playUrl,app.appStoreUrl].filter(Boolean),sameAs:[app.playUrl,app.appStoreUrl].filter(Boolean),author:{'@id':publisher['@id']},mainEntityOfPage:{'@id':page['@id']}};
   if(storeName&&storeName!==software.name)software.alternateName=storeName;
   // Ratings and prices are intentionally omitted without current verified evidence.
   page.mainEntity={'@id':software['@id']};
@@ -78,8 +78,9 @@ function render(lang,app){
   html=html.replace('<body data-homepage-version="2026-10-redesign">',`<body data-app="${app.slug}">`);
   html=html.replace(/href="#(apps|about|contact)"/g,`href="${homePath(lang)}#$1"`);
  }else{
+  html=html.replace('assets/home.js?v=20261125-admin','assets/home.js?v='+catalogVersion);
   html=html.replace('{{CARDS}}',apps.map(a=>card(a,lang)).join('\n')).replace('{{FILTERS}}',filters(lang));
-  html=html.replace('{{HERO_SLIDES}}',heroSlides(lang)).replace('{{HERO_PRELOAD}}',heroEntries()[0].shot.thumb);
+  html=html.replace('{{HERO_SLIDES}}',heroSlides(lang)).replace('{{HERO_PRELOAD}}',heroEntries(lang)[0].shot.thumb);
   html=html.replace('{{ICONS}}',apps.map(a=>`<a href="#app-${a.slug}" aria-label="${escape(local(a.name,lang))}"><img src="/${a.icon}" alt="${escape(local(a.name,lang))}" width="38" height="38" loading="lazy"></a>`).join(''));
  }
  html=html.replace('{{LANGUAGE_OPTIONS}}',languages.map(code=>`<option value="${code}">${languageNames[code]}</option>`).join('')+`<optgroup label="${escape(t('languages.more',lang))}">`+Object.entries(extraLanguages).map(([code,name])=>`<option value="translate:${code}">${escape(name)} ↗</option>`).join('')+'</optgroup>');
@@ -106,8 +107,14 @@ function render(lang,app){
 function writePage(record){
  if(/\{\{[A-Z_]+\}\}/.test(record.html))throw Error('Unresolved template placeholder '+record.url);
  const file=record.pathname.slice(1)+'index.html';
- const sha256=crypto.createHash('sha256').update(record.html).digest('hex');
  const old=previous.find(p=>p.url===record.url);
+ const existingFile=path.join(root,file);
+ if(old&&fs.existsSync(existingFile)){
+  const existing=fs.readFileSync(existingFile,'utf8');
+  const existingHash=crypto.createHash('sha256').update(existing).digest('hex');
+  if(existingHash===old.sha256&&existing.replace(/\r\n/g,'\n')===record.html.replace(/\r\n/g,'\n'))record.html=existing;
+ }
+ const sha256=crypto.createHash('sha256').update(record.html).digest('hex');
  const lastmod=old?.sha256===sha256?old.lastmod:today;
  fs.mkdirSync(path.dirname(path.join(root,file)),{recursive:true});fs.writeFileSync(path.join(root,file),record.html);
  pages.push({url:record.url,path:file,lang:record.lang,app:record.app?.slug||null,lastmod,sha256});
@@ -119,7 +126,7 @@ fs.writeFileSync(oldManifestPath,JSON.stringify(pages,null,2)+'\n');
 const sitemapEntries=pages.map(page=>{
  const app=apps.find(a=>a.slug===page.app);
  const alternates=[...languages,'x-default'].map(code=>`    <xhtml:link rel="alternate" hreflang="${code==='x-default'?code:hreflang[code]}" href="${abs(app?appPath(app,code==='x-default'?'ko':code):homePath(code==='x-default'?'ko':code))}" />`).join('\n');
- const images=app?app.screenshots.map(s=>`    <image:image><image:loc>${site}/${escape(s.src)}</image:loc></image:image>`).join('\n'):'';
+ const images=app?shotsFor(app,page.lang).map(s=>`    <image:image><image:loc>${site}/${escape(s.src)}</image:loc></image:image>`).join('\n'):'';
  return `  <url>\n    <loc>${escape(page.url)}</loc>\n    <lastmod>${page.lastmod}</lastmod>\n${alternates}\n${images}\n  </url>`;
 });
 // Existing app privacy/terms documents retain their paths and actual git dates.

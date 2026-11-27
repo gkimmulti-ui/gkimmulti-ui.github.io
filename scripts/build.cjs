@@ -8,6 +8,7 @@ const translations=require('../data/translations.json');
 const hero=require('../data/hero.json');
 const sources=require('../data/store-sources.json');
 const {site}=require('../data/search-config.json');
+const seoCopy=require('../data/seo-copy.json');
 const {card,filters,escape,heroEntries,heroSlides,homePath,appPath,shotsFor}=require('../assets/home.js');
 const languageConfig=require('../data/languages.json');
 const extraLanguages=require('../data/extra-languages.json');
@@ -67,8 +68,9 @@ function detailContent(app,lang){
 }
 function render(lang,app){
  const pathname=app?appPath(app,lang):homePath(lang),url=abs(pathname);
- const title=app?`${local(app.name,lang)} - ${local(app.category,lang)} | Kenneth App`:t('meta.title',lang);
- const fullDescription=app?`${local(app.name,lang)}. ${local(app.desc,lang)}`:t('meta.desc',lang);
+ const editorial=seoCopy[lang]?.[app?.slug||'home'];
+ const title=editorial?.[0]??(app?`${local(app.name,lang)} - ${local(app.category,lang)} | Kenneth App`:t('meta.title',lang));
+ const fullDescription=editorial?.[1]??(app?`${local(app.name,lang)}. ${local(app.desc,lang)}`:t('meta.desc',lang));
  const description=Array.from(fullDescription).length>180?Array.from(fullDescription).slice(0,177).join('')+'…':fullDescription;
  let html=template.replaceAll('{{CATALOG_VERSION}}',catalogVersion);
  if(app){

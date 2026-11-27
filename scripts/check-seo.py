@@ -12,6 +12,7 @@ PAGES=json.loads((ROOT/'data/page-manifest.json').read_text())
 APPS={a['slug']:a for a in json.loads((ROOT/'data/apps.json').read_text())}
 TRANSLATIONS=json.loads((ROOT/'data/translations.json').read_text())
 LANGS={l['code']:l['hreflang'] for l in json.loads((ROOT/'data/languages.json').read_text(encoding='utf-8'))}
+SEO_COPY=json.loads((ROOT/'data/seo-copy.json').read_text())
 class Document(HTMLParser):
     def __init__(self,source):
         super().__init__(convert_charrefs=True);self.tags=[];self.feed(source)
@@ -35,6 +36,12 @@ def main():
         ensure(len(d.find('h1'))==1,context+' exactly one H1')
         title=re.search(r'<title>(.*?)</title>',source).group(1);titles.append(title)
         desc=d.find('meta',name='description');ensure(len(desc)==1 and desc[0]['content'],context+' description');descriptions.append(desc[0]['content'])
+        editorial=SEO_COPY.get(page['lang'],{}).get(page['app'] or 'home')
+        if editorial:
+            ensure(__import__('html').unescape(title)==editorial[0],context+' focused title')
+            ensure(desc[0]['content']==editorial[1],context+' focused description')
+            if page['lang']=='ko':
+                ensure(len(editorial[0])<=40 and len(editorial[1])<=80,context+' Korean snippet length')
         ensure(d.find('link',rel='canonical')[0]['href']==context,context+' self canonical')
         ensure(d.find('meta',property='og:url')[0]['content']==context,context+' OG URL')
         ensure(d.find('meta',property='og:title')[0]['content']==__import__('html').unescape(title),context+' OG title')

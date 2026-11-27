@@ -6,7 +6,7 @@ const crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const apps=read('data/apps.json'),langs=read('data/languages.json'),translations=read('data/translations.json');
-assert.equal(apps.length,26);assert.equal(langs.length,12);
+assert.equal(apps.length,28);assert.equal(langs.length,12);
 const catalogVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'assets/catalog.js'))).digest('hex').slice(0,16);
 for(const {code} of langs){
  for(const key of Object.keys(translations.en))assert.ok(translations[code][key],code+'/'+key);
@@ -37,4 +37,4 @@ for(const app of apps)for(const {code} of langs){
  const html=card(app,code);assert.ok(html.includes(app.playUrl));assert.ok(!html.includes('[object Object]'));
  if(!['ko','en','ja','zh','ru','fil'].includes(code))assert.ok(html.includes('play-en.png'));
 }
-console.log('PASS: 26 apps, 12 complete UI/description locales, safe language navigation, 26 hero images and existing store badges.');
+console.log('PASS: 28 apps, 12 complete UI/description locales, safe language navigation, 28 hero images and existing store badges.');

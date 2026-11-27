@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://gkimmulti-ui.github.io/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -17,6 +17,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/pocketsanta/</loc>
@@ -172,7 +214,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -194,7 +236,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -238,7 +280,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -325,7 +367,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -401,7 +443,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -423,7 +465,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -455,7 +497,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -500,7 +542,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -522,7 +564,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -548,7 +590,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -623,7 +665,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -638,6 +680,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/en/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/pocketsanta/</loc>
@@ -793,7 +877,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -815,7 +899,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -859,7 +943,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -946,7 +1030,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -1022,7 +1106,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/snaplog/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -1044,7 +1128,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -1076,7 +1160,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -1121,7 +1205,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -1143,7 +1227,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -1169,7 +1253,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/en/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -1244,7 +1328,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -1259,6 +1343,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ja/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/pocketsanta/</loc>
@@ -1414,7 +1540,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -1436,7 +1562,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -1480,7 +1606,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -1567,7 +1693,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -1643,7 +1769,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/snaplog/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -1665,7 +1791,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -1697,7 +1823,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -1742,7 +1868,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -1764,7 +1890,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -1790,7 +1916,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ja/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -1865,7 +1991,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -1880,6 +2006,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/zh/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/pocketsanta/</loc>
@@ -2035,7 +2203,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -2057,7 +2225,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -2101,7 +2269,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -2188,7 +2356,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -2264,7 +2432,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/snaplog/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -2286,7 +2454,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -2318,7 +2486,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -2363,7 +2531,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -2385,7 +2553,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -2411,7 +2579,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/zh/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -2486,7 +2654,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -2501,6 +2669,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/ru/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/pocketsanta/</loc>
@@ -2656,7 +2866,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -2678,7 +2888,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -2722,7 +2932,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -2809,7 +3019,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -2885,7 +3095,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -2907,7 +3117,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -2939,7 +3149,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -2984,7 +3194,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -3006,7 +3216,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -3032,7 +3242,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/ru/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -3107,7 +3317,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -3122,6 +3332,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fil/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/pocketsanta/</loc>
@@ -3277,7 +3529,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -3299,7 +3551,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -3343,7 +3595,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -3430,7 +3682,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -3506,7 +3758,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -3528,7 +3780,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -3560,7 +3812,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -3605,7 +3857,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -3627,7 +3879,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -3653,7 +3905,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fil/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -3728,7 +3980,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -3743,6 +3995,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/hi/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/hi/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/pocketsanta/</loc>
@@ -3898,7 +4192,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -3920,7 +4214,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -3964,7 +4258,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -4051,7 +4345,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -4127,7 +4421,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -4149,7 +4443,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -4181,7 +4475,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -4226,7 +4520,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -4248,7 +4542,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -4274,7 +4568,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/hi/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -4349,7 +4643,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -4364,6 +4658,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/es/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/es/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/pocketsanta/</loc>
@@ -4519,7 +4855,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -4541,7 +4877,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -4585,7 +4921,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -4672,7 +5008,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -4748,7 +5084,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -4770,7 +5106,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -4802,7 +5138,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -4847,7 +5183,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -4869,7 +5205,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -4895,7 +5231,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/es/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -4970,7 +5306,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -4985,6 +5321,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/pt/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/pt/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/pocketsanta/</loc>
@@ -5140,7 +5518,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -5162,7 +5540,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -5206,7 +5584,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -5293,7 +5671,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -5369,7 +5747,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -5391,7 +5769,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -5423,7 +5801,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -5468,7 +5846,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -5490,7 +5868,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -5516,7 +5894,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/pt/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -5591,7 +5969,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -5606,6 +5984,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fr/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/fr/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/pocketsanta/</loc>
@@ -5761,7 +6181,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -5783,7 +6203,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -5827,7 +6247,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -5914,7 +6334,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -5990,7 +6410,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -6012,7 +6432,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -6044,7 +6464,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -6089,7 +6509,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -6111,7 +6531,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -6137,7 +6557,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/fr/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -6212,7 +6632,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -6227,6 +6647,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/de/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/de/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/pocketsanta/</loc>
@@ -6382,7 +6844,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -6404,7 +6866,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -6448,7 +6910,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -6535,7 +6997,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -6611,7 +7073,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -6633,7 +7095,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -6665,7 +7127,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -6710,7 +7172,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -6732,7 +7194,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -6758,7 +7220,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/de/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />
@@ -6833,7 +7295,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/" />
@@ -6848,6 +7310,48 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/" />
 
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/id/apps/bagsum/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/bagsum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/bagsum/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/bagsum-play-20261127-01.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gkimmulti-ui.github.io/id/apps/rowmio/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://gkimmulti-ui.github.io/zh/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gkimmulti-ui.github.io/ru/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://gkimmulti-ui.github.io/fil/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://gkimmulti-ui.github.io/hi/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gkimmulti-ui.github.io/es/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://gkimmulti-ui.github.io/pt/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gkimmulti-ui.github.io/fr/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gkimmulti-ui.github.io/de/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://gkimmulti-ui.github.io/id/apps/rowmio/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gkimmulti-ui.github.io/apps/rowmio/" />
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-04.webp</image:loc></image:image>
+    <image:image><image:loc>https://gkimmulti-ui.github.io/images/screenshots/rowmio-play-20261127-03.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/pocketsanta/</loc>
@@ -7003,7 +7507,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/pocketjesus/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/pocketjesus/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/pocketjesus/" />
@@ -7025,7 +7529,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/rateshift/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/rateshift/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/rateshift/" />
@@ -7069,7 +7573,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/howlong/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/howlong/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/howlong/" />
@@ -7156,7 +7660,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/snapclean/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snapclean/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snapclean/" />
@@ -7232,7 +7736,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/snaplog/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/snaplog/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/snaplog/" />
@@ -7254,7 +7758,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/lightwall/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightwall/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightwall/" />
@@ -7286,7 +7790,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/holyground/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/holyground/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/holyground/" />
@@ -7331,7 +7835,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/slimjoy/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/slimjoy/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/slimjoy/" />
@@ -7353,7 +7857,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/lightled/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lightled/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lightled/" />
@@ -7379,7 +7883,7 @@
   </url>
   <url>
     <loc>https://gkimmulti-ui.github.io/id/apps/lotto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <xhtml:link rel="alternate" hreflang="ko" href="https://gkimmulti-ui.github.io/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://gkimmulti-ui.github.io/en/apps/lotto/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://gkimmulti-ui.github.io/ja/apps/lotto/" />

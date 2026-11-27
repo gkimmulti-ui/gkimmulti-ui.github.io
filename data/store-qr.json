@@ -1,5 +1,17 @@
 [
   {
+    "app": "bagsum",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.bagsum",
+    "image": "assets/store-qr/bagsum-play.png"
+  },
+  {
+    "app": "rowmio",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.rowmio",
+    "image": "assets/store-qr/rowmio-play.png"
+  },
+  {
     "app": "pocketsanta",
     "store": "play",
     "url": "https://play.google.com/store/apps/details?id=com.kennethapp.pocketsanta",

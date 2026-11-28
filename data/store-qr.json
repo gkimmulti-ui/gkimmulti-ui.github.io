@@ -196,5 +196,35 @@
     "store": "appstore",
     "url": "https://apps.apple.com/app/mbti-16mode/id6806786879",
     "image": "assets/store-qr/16mode-appstore.png"
+  },
+  {
+    "app": "dottomint",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.dottomint",
+    "image": "assets/store-qr/dottomint-play.png"
+  },
+  {
+    "app": "hushmio",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.hushmio",
+    "image": "assets/store-qr/hushmio-play.png"
+  },
+  {
+    "app": "phrasepip",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.phrasepip",
+    "image": "assets/store-qr/phrasepip-play.png"
+  },
+  {
+    "app": "roomnobi",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.roomnobi",
+    "image": "assets/store-qr/roomnobi-play.png"
+  },
+  {
+    "app": "morsepip",
+    "store": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.kennethapp.morsepip",
+    "image": "assets/store-qr/morsepip-play.png"
   }
 ]

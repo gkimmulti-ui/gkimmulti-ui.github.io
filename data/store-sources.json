@@ -3325,5 +3325,465 @@
         "sourceUrl": "https://play.google.com/store/apps/details?id=com.sixteenmode.app&hl=fil&gl=PH"
       }
     }
+  },
+  {
+    "slug": "dottomint",
+    "package": "com.kennethapp.dottomint",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.dottomint",
+    "verifiedAt": "2026-11-28",
+    "storeTitle": "DottoMint: 도트 그림 그리기",
+    "iconSourceUrl": "https://play-lh.googleusercontent.com/eoCKAlM5SQ3Dm_7gRX22ifffEr1n-dcRqmTSzBv3hcYO0jVBkdXfHhQzunhhlyFNkBv3V8jKb_IND3AGpWce",
+    "screenshots": [
+      {
+        "src": "images/screenshots/dottomint-play-20261128-01.webp",
+        "thumb": "images/screenshots/dottomint-play-20261128-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/R-GAjmzT3DBBY8fqZflq1NzST6bZhGygA2fCNMtOzEwBMruS2DrJPRXgohTVmOH4PugPo_ytkFER4_AsVlT9Ww=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/dottomint-play-20261128-02.webp",
+        "thumb": "images/screenshots/dottomint-play-20261128-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/B7SitbVL2nQkSqEKAEKGOdehGfJAZfLrgQK5Wu0aPQBsvHXieEs6-heGo6WLCpUUrEtxd97jwpLL8i09bQfgUQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/dottomint-play-20261128-03.webp",
+        "thumb": "images/screenshots/dottomint-play-20261128-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Nwl1SUD81L810ZQ0nG_jlPlzflK8rO5OreuKeX2VbrGDrsztdFUyiB0B-iVJadSNtmJ9GtNYmTDXUT8_KuQf3WQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/dottomint-play-20261128-04.webp",
+        "thumb": "images/screenshots/dottomint-play-20261128-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/dr5mDCcy7fkUP7OCW4x_9TJYLRfvaHyctEkQSi1vJrpnSUhb04W5fnV6URUPyQ9E04r4E_Z1Ecnp2IN11K2xF6o=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ],
+    "localized": {
+      "ko": {
+        "title": "DottoMint: 도트 그림 그리기",
+        "summary": "16×16 또는 32×32 캔버스에 픽셀 그림을 그리고, 펜과 채우기 도구로 편집한 작품을 투명 PNG로 저장하세요.",
+        "description": "16×16 또는 32×32 캔버스에 픽셀 그림을 그리고, 펜과 채우기 도구로 편집한 작품을 투명 PNG로 저장하세요.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.dottomint&hl=ko&gl=KR"
+      },
+      "en": {
+        "title": "DottoMint: Pixel Art Studio",
+        "summary": "Draw pixel art on a 16×16 or 32×32 canvas. Use the pen, eraser and fill tools, then export your work as a transparent PNG.",
+        "description": "Draw pixel art on a 16×16 or 32×32 canvas. Use the pen, eraser and fill tools, then export your work as a transparent PNG.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.dottomint&hl=en&gl=US"
+      },
+      "ja": {
+        "title": "DottoMint: ドット絵スタジオ",
+        "summary": "16×16または32×32のキャンバスにドット絵を描き、ペンや塗りつぶしで編集して、透過PNGで保存できます。",
+        "description": "16×16または32×32のキャンバスにドット絵を描き、ペンや塗りつぶしで編集して、透過PNGで保存できます。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.dottomint&hl=ja&gl=JP"
+      },
+      "zh": {
+        "title": "DottoMint: 像素画工坊",
+        "summary": "在 16×16 或 32×32 画布上创作像素画，使用画笔、橡皮擦和填充工具，完成后导出透明 PNG。",
+        "description": "在 16×16 或 32×32 画布上创作像素画，使用画笔、橡皮擦和填充工具，完成后导出透明 PNG。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.dottomint&hl=zh-CN&gl=TW"
+      },
+      "ru": {
+        "title": "DottoMint: Пиксельный редактор",
+        "summary": "Рисуйте пиксель-арт на холсте 16×16 или 32×32. Используйте карандаш, ластик и заливку и экспортируйте работу в прозрачный PNG.",
+        "description": "Рисуйте пиксель-арт на холсте 16×16 или 32×32. Используйте карандаш, ластик и заливку и экспортируйте работу в прозрачный PNG.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.dottomint&hl=ru&gl=US"
+      },
+      "fil": {
+        "title": "DottoMint: Pixel Art Studio",
+        "summary": "Gumuhit ng pixel art sa 16×16 o 32×32 na canvas. Gamitin ang panulat, pambura at fill tool, at i-export bilang transparent na PNG.",
+        "description": "Gumuhit ng pixel art sa 16×16 o 32×32 na canvas. Gamitin ang panulat, pambura at fill tool, at i-export bilang transparent na PNG.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.dottomint&hl=fil&gl=PH"
+      }
+    }
+  },
+  {
+    "slug": "hushmio",
+    "package": "com.kennethapp.hushmio",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.hushmio",
+    "verifiedAt": "2026-11-28",
+    "storeTitle": "HushMio: 휴식과 집중 소리",
+    "iconSourceUrl": "https://play-lh.googleusercontent.com/FJyPcH5KYBj2l15EdwVwxGHeqp9_TdB7IgGpBcud25-5ldB2A-lgNNiBuhvz8_NcDJeIsOUU7clFs0ZGDr2jXw",
+    "screenshots": [
+      {
+        "src": "images/screenshots/hushmio-play-20261128-01.webp",
+        "thumb": "images/screenshots/hushmio-play-20261128-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/nvTfsIKpUflTliOn5Kkbna7vaKptyHEi8RDjZBLy4YlSBHVH-HBHn1l5vw_k3MhtUg_jhhTFT0Bs3B87ofUA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/hushmio-play-20261128-02.webp",
+        "thumb": "images/screenshots/hushmio-play-20261128-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/FqTp4TZv6JaGpzerrfWMJqgtNOQc6f4KioX6G_jPs0SHPHGt23MWpHrL8RLeP04DCrMmGi_UIYhGFxWS-SN2QJ8=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/hushmio-play-20261128-03.webp",
+        "thumb": "images/screenshots/hushmio-play-20261128-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/4dsEqmkonc3sfsTS_HYjSjSn0XY-qLzWBrbeMaarhWviEnF8v_H4gMUqeWMF3DSkPodvOzO8QRN4HbUZOiYb0PY=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/hushmio-play-20261128-04.webp",
+        "thumb": "images/screenshots/hushmio-play-20261128-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/C9l9CqfFR8ww10n4pB58z62dPYpHjCOUtone7R5ZRcb-tf-0pXllUbNxeRAQ1JSz5ZRbM7t67C5lOtW1153upw=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ],
+    "localized": {
+      "ko": {
+        "title": "HushMio: 휴식과 집중 소리",
+        "summary": "비, 파도, 바람 등 합성 환경음 6가지의 음량을 섞고, 자주 쓰는 조합을 저장해 오프라인으로 들어 보세요. 종료 타이머도 설정할 수 있어요.",
+        "description": "비, 파도, 바람 등 합성 환경음 6가지의 음량을 섞고, 자주 쓰는 조합을 저장해 오프라인으로 들어 보세요. 종료 타이머도 설정할 수 있어요.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.hushmio&hl=ko&gl=KR"
+      },
+      "en": {
+        "title": "HushMio: Ambient Sound Mixer",
+        "summary": "Mix six synthesized ambient sounds, such as rain, waves and wind. Save your favorite mixes, listen offline and set a sleep timer.",
+        "description": "Mix six synthesized ambient sounds, such as rain, waves and wind. Save your favorite mixes, listen offline and set a sleep timer.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.hushmio&hl=en&gl=US"
+      },
+      "ja": {
+        "title": "HushMio: 環境音ミキサー",
+        "summary": "雨や波、風など6種類の合成環境音をミックス。お気に入りの組み合わせを保存し、オフライン再生や終了タイマーを利用できます。",
+        "description": "雨や波、風など6種類の合成環境音をミックス。お気に入りの組み合わせを保存し、オフライン再生や終了タイマーを利用できます。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.hushmio&hl=ja&gl=JP"
+      },
+      "zh": {
+        "title": "HushMio：环境音混音",
+        "summary": "混合雨声、海浪和风声等六种合成环境音，保存喜欢的组合，离线播放并设置停止定时器。",
+        "description": "混合雨声、海浪和风声等六种合成环境音，保存喜欢的组合，离线播放并设置停止定时器。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.hushmio&hl=zh-CN&gl=TW"
+      },
+      "ru": {
+        "title": "HushMio: микшер фоновых звуков",
+        "summary": "Смешивайте шесть синтезированных фоновых звуков, включая дождь, волны и ветер. Сохраняйте миксы, слушайте офлайн и задавайте таймер отключения.",
+        "description": "Смешивайте шесть синтезированных фоновых звуков, включая дождь, волны и ветер. Сохраняйте миксы, слушайте офлайн и задавайте таймер отключения.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.hushmio&hl=ru&gl=US"
+      },
+      "fil": {
+        "title": "HushMio: Halo ng Tunog",
+        "summary": "Pagsamahin ang anim na sintetikong tunog sa paligid, gaya ng ulan, alon at hangin. I-save ang mga mix, makinig offline at magtakda ng timer.",
+        "description": "Pagsamahin ang anim na sintetikong tunog sa paligid, gaya ng ulan, alon at hangin. I-save ang mga mix, makinig offline at magtakda ng timer.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.hushmio&hl=fil&gl=PH"
+      }
+    }
+  },
+  {
+    "slug": "phrasepip",
+    "package": "com.kennethapp.phrasepip",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.phrasepip",
+    "verifiedAt": "2026-11-28",
+    "storeTitle": "PhrasePip: 여행 회화 카드",
+    "iconSourceUrl": "https://play-lh.googleusercontent.com/8mTgTJfF4u6_qebEjXWcRcmICzi1txLny91v68k3bx-al8pZyHcvcMwPPymTn22F83tlaesORpnAZ4b-2gy4",
+    "screenshots": [
+      {
+        "src": "images/screenshots/phrasepip-play-20261128-01.webp",
+        "thumb": "images/screenshots/phrasepip-play-20261128-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/CNT4wjmt6_PHEr6KpLw9nZBhBJUmcGACqJZWif5LRp7JOWDZ0ZHWhWZeTRivPbU1FotrPb7oCK-bSPo_5n8g2A=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/phrasepip-play-20261128-02.webp",
+        "thumb": "images/screenshots/phrasepip-play-20261128-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/OYB2YsYHqixJJCH8VvHuidS39y7gq8hypujgqMtxEmEsoNB1w5lUvvCJJpoyGnNCVOLCZT5Z847tTYqJRtC7=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/phrasepip-play-20261128-03.webp",
+        "thumb": "images/screenshots/phrasepip-play-20261128-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/LOFbGOcg3ITZkdsgENcwUMzHkZCpV9w8Q3IGOVWApwzxp57Tb4kmv7pyY8PW1hutRtYeK1zcxyVhKms4WGNyqA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/phrasepip-play-20261128-04.webp",
+        "thumb": "images/screenshots/phrasepip-play-20261128-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/n9iN5fI__adZtm3Qa_40eAgMTjxbXsJfomAoNkPoULwa2ez1Mfmk0KIGDTFK75VlTCvUKMc-2FpRTG7Mh5ZWDg=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ],
+    "localized": {
+      "ko": {
+        "title": "PhrasePip: 여행 회화 카드",
+        "summary": "공항, 식당, 교통 등 여섯 가지 여행 상황에서 쓸 기본 문장 36개를 여섯 언어로 오프라인에서 찾아보세요. 검색, 즐겨찾기와 큰 글씨 보기를 지원합니다.",
+        "description": "공항, 식당, 교통 등 여섯 가지 여행 상황에서 쓸 기본 문장 36개를 여섯 언어로 오프라인에서 찾아보세요. 검색, 즐겨찾기와 큰 글씨 보기를 지원합니다.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.phrasepip&hl=ko&gl=KR"
+      },
+      "en": {
+        "title": "PhrasePip: Travel Phrases",
+        "summary": "Find 36 essential phrases in six languages across six travel situations, including airports, restaurants and transport. Browse offline, bookmark phrases and show them in large print.",
+        "description": "Find 36 essential phrases in six languages across six travel situations, including airports, restaurants and transport. Browse offline, bookmark phrases and show them in large print.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.phrasepip&hl=en&gl=US"
+      },
+      "ja": {
+        "title": "PhrasePip: 旅行会話カード",
+        "summary": "空港や飲食店、交通機関など6つの旅行場面で使える36の基本フレーズを6言語で検索。オフライン閲覧、お気に入り、大きな文字表示に対応します。",
+        "description": "空港や飲食店、交通機関など6つの旅行場面で使える36の基本フレーズを6言語で検索。オフライン閲覧、お気に入り、大きな文字表示に対応します。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.phrasepip&hl=ja&gl=JP"
+      },
+      "zh": {
+        "title": "PhrasePip: 旅行会话卡",
+        "summary": "离线查找六种语言的 36 句常用表达，涵盖机场、餐厅和交通等六种旅行场景，支持搜索、收藏和大字展示。",
+        "description": "离线查找六种语言的 36 句常用表达，涵盖机场、餐厅和交通等六种旅行场景，支持搜索、收藏和大字展示。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.phrasepip&hl=zh-CN&gl=TW"
+      },
+      "ru": {
+        "title": "PhrasePip: Фразы в поездке",
+        "summary": "Находите 36 базовых фраз на шести языках для шести ситуаций в поездке: от аэропорта до ресторана. Сохраняйте избранное, ищите офлайн и показывайте фразы крупным шрифтом.",
+        "description": "Находите 36 базовых фраз на шести языках для шести ситуаций в поездке: от аэропорта до ресторана. Сохраняйте избранное, ищите офлайн и показывайте фразы крупным шрифтом.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.phrasepip&hl=ru&gl=US"
+      },
+      "fil": {
+        "title": "PhrasePip: Travel Phrases",
+        "summary": "Maghanap offline ng 36 na pangunahing parirala sa anim na wika para sa anim na sitwasyon sa biyahe. I-save ang paborito at ipakita sa malaking teksto.",
+        "description": "Maghanap offline ng 36 na pangunahing parirala sa anim na wika para sa anim na sitwasyon sa biyahe. I-save ang paborito at ipakita sa malaking teksto.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.phrasepip&hl=fil&gl=PH"
+      }
+    }
+  },
+  {
+    "slug": "roomnobi",
+    "package": "com.kennethapp.roomnobi",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.roomnobi",
+    "verifiedAt": "2026-11-28",
+    "storeTitle": "RoomNobi: 가구 배치 메모",
+    "iconSourceUrl": "https://play-lh.googleusercontent.com/CguhqxKVaYiAfOaYpoExR1zJCz4YfOvDuWNuyRUcGkcPOSAxEvbEIgNsZyu5dcg3UrmD9diVkdeXm8IMS0eV_Q",
+    "screenshots": [
+      {
+        "src": "images/screenshots/roomnobi-play-20261128-01.webp",
+        "thumb": "images/screenshots/roomnobi-play-20261128-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/0a9VemBauMRQheoXmxYcESPuricQCxmRb54D94K65vSML95otMsFAdhYb_XRvfLnC60RVQPyNeN4T7dhcbXRew=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/roomnobi-play-20261128-02.webp",
+        "thumb": "images/screenshots/roomnobi-play-20261128-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/cry0cue3QG2gK7ocz811ImEuUgzvwrYwx4W0Z1dZNbqQCxLrLzsZfWSXgsLIIrO3LqvSCrLKj4608NiObE0-=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/roomnobi-play-20261128-03.webp",
+        "thumb": "images/screenshots/roomnobi-play-20261128-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/1MpwyXw2Y75UVXTZKLXJGsWUwrA0giLevxX6xdGoEPgCUgzzZ3hX7LZj50g8V6F_fjSA25BtfBiQZLjHX457=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/roomnobi-play-20261128-04.webp",
+        "thumb": "images/screenshots/roomnobi-play-20261128-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/6LfAFrB1CB7B_UWF6gN6Zc0qzS_h5YbzZ3CfprS46sFkIC9YbYDQ74NIsLlOZdMJyVEizDK-bSIosnvKqV9W=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ],
+    "localized": {
+      "ko": {
+        "title": "RoomNobi: 가구 배치 메모",
+        "summary": "방과 가구의 실제 치수를 직접 입력해 평면도를 만들고, 가구를 옮기거나 돌려 배치를 비교하세요. 완성한 배치는 PNG로 공유할 수 있어요.",
+        "description": "방과 가구의 실제 치수를 직접 입력해 평면도를 만들고, 가구를 옮기거나 돌려 배치를 비교하세요. 완성한 배치는 PNG로 공유할 수 있어요.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.roomnobi&hl=ko&gl=KR"
+      },
+      "en": {
+        "title": "RoomNobi: Room Planner",
+        "summary": "Enter room and furniture measurements to make a floor plan. Move or rotate furniture to compare layouts, then share the plan as a PNG.",
+        "description": "Enter room and furniture measurements to make a floor plan. Move or rotate furniture to compare layouts, then share the plan as a PNG.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.roomnobi&hl=en&gl=US"
+      },
+      "ja": {
+        "title": "RoomNobi: 家具配置プランナー",
+        "summary": "部屋と家具の実寸を入力して間取り図を作成。家具を移動・回転して配置を比較し、完成した図をPNGで共有できます。",
+        "description": "部屋と家具の実寸を入力して間取り図を作成。家具を移動・回転して配置を比較し、完成した図をPNGで共有できます。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.roomnobi&hl=ja&gl=JP"
+      },
+      "zh": {
+        "title": "RoomNobi: 房间家具布局",
+        "summary": "输入房间和家具的实测尺寸，绘制平面图。移动或旋转家具来比较布局，并将方案以 PNG 图片分享。",
+        "description": "输入房间和家具的实测尺寸，绘制平面图。移动或旋转家具来比较布局，并将方案以 PNG 图片分享。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.roomnobi&hl=zh-CN&gl=TW"
+      },
+      "ru": {
+        "title": "RoomNobi: Планировка комнаты",
+        "summary": "Введите размеры комнаты и мебели, чтобы создать план. Перемещайте и поворачивайте мебель, сравнивайте варианты и делитесь планом в формате PNG.",
+        "description": "Введите размеры комнаты и мебели, чтобы создать план. Перемещайте и поворачивайте мебель, сравнивайте варианты и делитесь планом в формате PNG.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.roomnobi&hl=ru&gl=US"
+      },
+      "fil": {
+        "title": "RoomNobi: Room Planner",
+        "summary": "Ilagay ang sukat ng kuwarto at muwebles para gumawa ng floor plan. Ilipat o iikot ang mga muwebles at ibahagi ang plano bilang PNG.",
+        "description": "Ilagay ang sukat ng kuwarto at muwebles para gumawa ng floor plan. Ilipat o iikot ang mga muwebles at ibahagi ang plano bilang PNG.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.roomnobi&hl=fil&gl=PH"
+      }
+    }
+  },
+  {
+    "slug": "morsepip",
+    "package": "com.kennethapp.morsepip",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.morsepip",
+    "verifiedAt": "2026-11-28",
+    "storeTitle": "MorsePip: 모스부호 연습",
+    "iconSourceUrl": "https://play-lh.googleusercontent.com/3mq-E-QHYMvhVTcCze3lij-DNxiBmwmGvppLvFR0FKrA2SJKjQuKzVPbSasXTsVUMuhSGjsEVipeGqmoQ1_p",
+    "screenshots": [
+      {
+        "src": "images/screenshots/morsepip-play-20261128-01.webp",
+        "thumb": "images/screenshots/morsepip-play-20261128-01-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/I9NQN01gU7OMf38LfgQ3Rw2G9ENLyCc6ixjyVJF_ZJeeNPS_dk0MTjofy4stJPLMe3MrOw-xic-J_8x6mA9aivA=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/morsepip-play-20261128-02.webp",
+        "thumb": "images/screenshots/morsepip-play-20261128-02-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/1rVAOrYjTgjh4JmySI1TfpvPChM8nluDLYwgPE2GHmRI5TxKvuK-i7V1vZxeUSDz4mPbhH2HmC4DwXRk3lCyXsc=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/morsepip-play-20261128-03.webp",
+        "thumb": "images/screenshots/morsepip-play-20261128-03-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/Fi60biVPMoVyi2MFkqDUxzkqleLw29R7X6-ddOlIgeMUCAxoNA2eHCl7ee7gluil08sScmhqjqWhIsaDclhCBQ=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      },
+      {
+        "src": "images/screenshots/morsepip-play-20261128-04.webp",
+        "thumb": "images/screenshots/morsepip-play-20261128-04-thumb.webp",
+        "sourceUrl": "https://play-lh.googleusercontent.com/SR98bGF5gXYWh-4yQ4JhXe0kmDrn2_8G5ot3J8ZhhyFVlzsyeyfFh0DSNBl4k9SjMvgFRpWeFzlX06g3crgm8w=w1000",
+        "platform": "Google Play",
+        "width": 1000,
+        "height": 1778
+      }
+    ],
+    "localized": {
+      "ko": {
+        "title": "MorsePip: 모스부호 연습",
+        "summary": "영문 A–Z와 숫자 0–9를 모스부호로 변환하고, 소리 재생과 문자표, 선택형 퀴즈로 익혀 보세요.",
+        "description": "영문 A–Z와 숫자 0–9를 모스부호로 변환하고, 소리 재생과 문자표, 선택형 퀴즈로 익혀 보세요.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.morsepip&hl=ko&gl=KR"
+      },
+      "en": {
+        "title": "MorsePip: Learn Morse Code",
+        "summary": "Convert A–Z and 0–9 to Morse code and back. Learn with audio playback, a reference chart and multiple-choice quizzes.",
+        "description": "Convert A–Z and 0–9 to Morse code and back. Learn with audio playback, a reference chart and multiple-choice quizzes.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.morsepip&hl=en&gl=US"
+      },
+      "ja": {
+        "title": "MorsePip: モールス信号練習",
+        "summary": "英字A–Zと数字0–9をモールス信号に変換し、復号もできます。音の再生、文字表、選択式クイズで練習します。",
+        "description": "英字A–Zと数字0–9をモールス信号に変換し、復号もできます。音の再生、文字表、選択式クイズで練習します。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.morsepip&hl=ja&gl=JP"
+      },
+      "zh": {
+        "title": "MorsePip: 摩斯密码练习",
+        "summary": "在英文字母 A–Z、数字 0–9 和摩斯电码之间转换，通过声音播放、对照表和选择题练习。",
+        "description": "在英文字母 A–Z、数字 0–9 和摩斯电码之间转换，通过声音播放、对照表和选择题练习。",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.morsepip&hl=zh-CN&gl=TW"
+      },
+      "ru": {
+        "title": "MorsePip: Азбука Морзе",
+        "summary": "Преобразуйте A–Z и 0–9 в азбуку Морзе и обратно. Тренируйтесь со звуковым воспроизведением, таблицей символов и тестами с вариантами ответа.",
+        "description": "Преобразуйте A–Z и 0–9 в азбуку Морзе и обратно. Тренируйтесь со звуковым воспроизведением, таблицей символов и тестами с вариантами ответа.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.morsepip&hl=ru&gl=US"
+      },
+      "fil": {
+        "title": "MorsePip: Aralin ang Morse",
+        "summary": "I-convert ang A–Z at 0–9 sa Morse code at pabalik. Magsanay gamit ang tunog, gabay na tsart at multiple-choice na pagsusulit.",
+        "description": "I-convert ang A–Z at 0–9 sa Morse code at pabalik. Magsanay gamit ang tunog, gabay na tsart at multiple-choice na pagsusulit.",
+        "version": null,
+        "updated": null,
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.kennethapp.morsepip&hl=fil&gl=PH"
+      }
+    }
   }
 ]

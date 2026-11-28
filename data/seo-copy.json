@@ -115,6 +115,26 @@
     "16mode": [
       "MBTI 16MODE | 16가지 성격유형 테스트",
       "성격 질문에 답하고 16가지 유형 중 내 결과와 성향 설명을 확인해 보세요."
+    ],
+    "dottomint": [
+      "DottoMint | 픽셀아트·도트 그림 편집기",
+      "도트 그림을 16×16 또는 32×32 캔버스에 그리고, 펜·지우개·채우기로 편집해 투명 PNG로 저장하세요."
+    ],
+    "hushmio": [
+      "HushMio | 환경음 믹서·종료 타이머",
+      "비·파도·바람 등 합성 환경음 6가지를 섞어 저장하고, 오프라인 재생과 종료 타이머를 이용하세요."
+    ],
+    "phrasepip": [
+      "PhrasePip | 오프라인 여행 회화 카드",
+      "공항·식당·교통 등 여행 회화 36개를 6개 언어로 찾아보세요. 오프라인 카드와 큰 글씨 보기를 지원합니다."
+    ],
+    "roomnobi": [
+      "RoomNobi | 방 평면도·가구 배치 앱",
+      "방과 가구의 치수를 입력한 뒤 가구를 이동하거나 돌려 배치를 비교하고, 평면도를 PNG로 공유하세요."
+    ],
+    "morsepip": [
+      "MorsePip | 모스부호 변환·연습 앱",
+      "영문과 숫자를 모스부호로 변환하고, 소리 재생·문자표·선택형 퀴즈로 연습하세요."
     ]
   },
   "en": {
@@ -129,6 +149,26 @@
     "rowmio": [
       "RowMio | Knitting and crochet row counter",
       "Count rows for each knitting or crochet project, undo accidental taps, and save row goals, repeat intervals and notes."
+    ],
+    "dottomint": [
+      "DottoMint: Pixel Art Studio | Kenneth App",
+      "Draw pixel art on a 16×16 or 32×32 canvas. Use the pen, eraser and fill tools, then export your work as a transparent PNG."
+    ],
+    "hushmio": [
+      "HushMio: Ambient Sound Mixer | Kenneth App",
+      "Mix six synthesized ambient sounds, such as rain, waves and wind. Save your favorite mixes, listen offline and set a sleep timer."
+    ],
+    "phrasepip": [
+      "PhrasePip: Travel Phrases | Kenneth App",
+      "Browse 36 essential phrases in six languages and six travel situations. Find phrases offline, bookmark them and show them in large print."
+    ],
+    "roomnobi": [
+      "RoomNobi: Room Planner | Kenneth App",
+      "Enter room and furniture measurements to make a floor plan. Move or rotate furniture to compare layouts, then share the plan as a PNG."
+    ],
+    "morsepip": [
+      "MorsePip: Learn Morse Code | Kenneth App",
+      "Convert A–Z and 0–9 to Morse code and back. Learn with audio playback, a reference chart and multiple-choice quizzes."
     ]
   }
 }

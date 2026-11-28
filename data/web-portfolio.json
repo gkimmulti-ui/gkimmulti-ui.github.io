@@ -31,14 +31,17 @@
     {
       "key": "dashboard",
       "screenshots": [
-        "dashboard"
+        "dashboard",
+        "dash-current-kanban",
+        "dash-current-metrics"
       ]
     },
     {
       "key": "ai-office",
       "screenshots": [
-        "ai-office-floor",
-        "ai-office-board"
+        "ai-current-lobby",
+        "ai-current-qa",
+        "ai-current-work"
       ],
       "privateLabel": "private-dev"
     }
@@ -68,13 +71,16 @@
       "caption-sacrament": "공개 성찬식 순서지",
       "caption-dashboard": "비공개 정보를 가린 실제 화면",
       "ai-office-title": "Kenneth AI 오피스",
-      "ai-office-description": "캐릭터가 배치된 가상 사무실과 업무 보드에서 역할 분담, 검토·승인, 테스트 기록을 확인하는 비공개 개발 공간입니다.",
+      "ai-office-description": "캐릭터가 배치된 가상 사무실과 업무 보드에서 역할 분담, 검토·승인, 테스트 기록을 확인하는 비공개 개발 공간입니다. 운영판과 동일한 최신 화면을 테스트 데이터로 캡처했습니다.",
       "private-dev": "비공개 · 개발 중",
-      "caption-ai-office-floor": "가상 오피스와 팀별 자리",
-      "caption-ai-office-board": "예시 작업의 검토·테스트 기록",
       "caption-gwangju-photo": "실제 건물 외관 사진",
       "caption-sacrament-program": "주간 공개 순서지 · 이름 가림",
-      "caption-sacrament-admin": "담당자 화면 예시 · 순서지 편집과 기도·말씀 이력"
+      "caption-sacrament-admin": "담당자 화면 예시 · 순서지 편집과 기도·말씀 이력",
+      "caption-ai-current-lobby": "1층 로비 · 안내 데스크와 층별 캐릭터",
+      "caption-ai-current-qa": "3층 QA·출시팀 · 기기 테스트 벤치와 출시 모니터",
+      "caption-ai-current-work": "업무 보드 · 작업 상태와 검색 필터",
+      "caption-dash-current-kanban": "개발 작업 칸반 · 실제 데이터 제외",
+      "caption-dash-current-metrics": "설치·다운로드·리뷰 통계 · 실제 데이터 제외"
     },
     "en": {
       "title": "Web Portfolio",
@@ -100,13 +106,16 @@
       "caption-sacrament": "Public sacrament meeting program",
       "caption-dashboard": "Actual screen with private details hidden",
       "ai-office-title": "Kenneth AI Office",
-      "ai-office-description": "A private development workspace with a virtual office and task board for team roles, reviews, approvals, and test records.",
+      "ai-office-description": "A private development workspace with a virtual office and task board for team roles, reviews, approvals, and test records. Current production UI, captured with test data.",
       "private-dev": "Private · In development",
-      "caption-ai-office-floor": "Virtual office and team desks",
-      "caption-ai-office-board": "Example task review and test records",
       "caption-gwangju-photo": "Photo of the actual building exterior",
       "caption-sacrament-program": "Public weekly program · names redacted",
-      "caption-sacrament-admin": "Demo admin view · program editing and prayer or talk assignments"
+      "caption-sacrament-admin": "Demo admin view · program editing and prayer or talk assignments",
+      "caption-ai-current-lobby": "1F lobby · Reception and characters",
+      "caption-ai-current-qa": "3F QA & Release · Device test bench and release monitors",
+      "caption-ai-current-work": "Work board · Status categories and search filters",
+      "caption-dash-current-kanban": "Development Kanban · Live data excluded",
+      "caption-dash-current-metrics": "Installs, downloads and reviews · Live data excluded"
     },
     "ja": {
       "title": "ウェブポートフォリオ",
@@ -132,13 +141,16 @@
       "caption-sacrament": "公開されている聖餐会プログラム",
       "caption-dashboard": "非公開情報を隠した実際の画面",
       "ai-office-title": "Kenneth AI オフィス",
-      "ai-office-description": "キャラクターのいる仮想オフィスと業務ボードで、役割分担、レビュー・承認、テスト記録を確認できる非公開の開発スペースです。",
+      "ai-office-description": "キャラクターのいる仮想オフィスと業務ボードで、役割分担、レビュー・承認、テスト記録を確認できる非公開の開発スペースです。 現行の運用版と同じ画面をテストデータで撮影しました。",
       "private-dev": "非公開・開発中",
-      "caption-ai-office-floor": "仮想オフィスとチームの席",
-      "caption-ai-office-board": "サンプル作業のレビューとテスト記録",
       "caption-gwangju-photo": "実際の建物外観の写真",
       "caption-sacrament-program": "公開の週間プログラム・氏名は非表示",
-      "caption-sacrament-admin": "管理画面の例・進行の編集と祈りやお話の担当履歴"
+      "caption-sacrament-admin": "管理画面の例・進行の編集と祈りやお話の担当履歴",
+      "caption-ai-current-lobby": "1階ロビー・受付とキャラクター",
+      "caption-ai-current-qa": "3階 品質保証・リリース・端末テスト台とモニター",
+      "caption-ai-current-work": "業務ボード・作業状況と検索フィルター",
+      "caption-dash-current-kanban": "開発カンバン・実データなし",
+      "caption-dash-current-metrics": "インストール、ダウンロード、レビュー・実データなし"
     },
     "zh": {
       "title": "网页项目作品集",
@@ -164,13 +176,16 @@
       "caption-sacrament": "公开圣餐聚会流程",
       "caption-dashboard": "隐藏非公开信息的实际画面",
       "ai-office-title": "Kenneth AI 办公室",
-      "ai-office-description": "用于开发的非公开工作空间。通过虚拟办公室和任务看板查看分工、审核、批准和测试记录。",
+      "ai-office-description": "用于开发的非公开工作空间。通过虚拟办公室和任务看板查看分工、审核、批准和测试记录。 截图使用测试数据，界面与当前正式版一致。",
       "private-dev": "非公开 · 开发中",
-      "caption-ai-office-floor": "虚拟办公室与团队工位",
-      "caption-ai-office-board": "示例任务审核与测试记录",
       "caption-gwangju-photo": "实际建筑外观照片",
       "caption-sacrament-program": "公开每周聚会流程 · 姓名已隐藏",
-      "caption-sacrament-admin": "管理员界面示例 · 编辑聚会流程及查看祷告和演讲安排"
+      "caption-sacrament-admin": "管理员界面示例 · 编辑聚会流程及查看祷告和演讲安排",
+      "caption-ai-current-lobby": "一楼大厅 · 接待台与角色",
+      "caption-ai-current-qa": "三楼测试与发布 · 设备测试台和发布监视器",
+      "caption-ai-current-work": "任务看板 · 状态与搜索筛选",
+      "caption-dash-current-kanban": "开发看板 · 不含实际数据",
+      "caption-dash-current-metrics": "安装、下载与评论 · 不含实际数据"
     },
     "ru": {
       "title": "Веб-портфолио",
@@ -196,13 +211,16 @@
       "caption-sacrament": "Открытая программа причастного собрания",
       "caption-dashboard": "Реальный экран со скрытыми данными",
       "ai-office-title": "Kenneth AI Office",
-      "ai-office-description": "Закрытое пространство разработки: виртуальный офис и доска задач помогают отслеживать роли, проверки, согласования и тесты.",
+      "ai-office-description": "Закрытое пространство разработки: виртуальный офис и доска задач помогают отслеживать роли, проверки, согласования и тесты. Снимок актуальной рабочей версии с тестовыми данными.",
       "private-dev": "Закрытый доступ · в разработке",
-      "caption-ai-office-floor": "Виртуальный офис и места команд",
-      "caption-ai-office-board": "Пример проверки задачи и журнал тестов",
       "caption-gwangju-photo": "Фотография реального здания",
       "caption-sacrament-program": "Открытая недельная программа · имена скрыты",
-      "caption-sacrament-admin": "Пример панели ответственного · редактирование программы, молитвы и выступления"
+      "caption-sacrament-admin": "Пример панели ответственного · редактирование программы, молитвы и выступления",
+      "caption-ai-current-lobby": "Холл на первом этаже · Стойка и персонажи",
+      "caption-ai-current-qa": "Третий этаж · Стенд тестирования и мониторы выпуска",
+      "caption-ai-current-work": "Доска задач · Статусы и фильтры поиска",
+      "caption-dash-current-kanban": "Канбан разработки · Без рабочих данных",
+      "caption-dash-current-metrics": "Установки, загрузки и отзывы · Без рабочих данных"
     },
     "fil": {
       "title": "Portfolio sa Web",
@@ -228,13 +246,16 @@
       "caption-sacrament": "Pampublikong programa ng sacrament meeting",
       "caption-dashboard": "Aktuwal na screen na tinakpan ang pribadong detalye",
       "ai-office-title": "Kenneth AI Office",
-      "ai-office-description": "Pribadong lugar para sa pag-develop na may virtual na opisina at task board para sa mga tungkulin, pagsusuri, pag-apruba, at tala ng pagsubok.",
+      "ai-office-description": "Pribadong lugar para sa pag-develop na may virtual na opisina at task board para sa mga tungkulin, pagsusuri, pag-apruba, at tala ng pagsubok. Kasalukuyang interface ng production na kinunan gamit ang test data.",
       "private-dev": "Pribado · Ginagawa pa",
-      "caption-ai-office-floor": "Virtual na opisina at mga puwesto ng team",
-      "caption-ai-office-board": "Halimbawang pagsusuri ng gawain at tala ng pagsubok",
       "caption-gwangju-photo": "Larawan ng tunay na labas ng gusali",
       "caption-sacrament-program": "Pampublikong programa sa linggong ito · nakatago ang mga pangalan",
-      "caption-sacrament-admin": "Halimbawang admin screen · pag-edit ng programa at mga nakatalagang panalangin o mensahe"
+      "caption-sacrament-admin": "Halimbawang admin screen · pag-edit ng programa at mga nakatalagang panalangin o mensahe",
+      "caption-ai-current-lobby": "Unang palapag · Reception at mga karakter",
+      "caption-ai-current-qa": "Ikatlong palapag · Mesa para sa device test at mga release monitor",
+      "caption-ai-current-work": "Task board · Mga status at filter sa paghahanap",
+      "caption-dash-current-kanban": "Development Kanban · Walang aktuwal na data",
+      "caption-dash-current-metrics": "Mga install, download at review · Walang aktuwal na data"
     },
     "hi": {
       "title": "वेब पोर्टफ़ोलियो",
@@ -260,13 +281,16 @@
       "caption-sacrament": "प्रभुभोज सभा का सार्वजनिक कार्यक्रम",
       "caption-dashboard": "निजी जानकारी छिपाकर वास्तविक स्क्रीन",
       "ai-office-title": "Kenneth AI ऑफ़िस",
-      "ai-office-description": "वर्चुअल ऑफ़िस और कार्य बोर्ड वाला निजी विकास क्षेत्र, जहाँ भूमिकाएँ, समीक्षाएँ, अनुमोदन और परीक्षण रिकॉर्ड देखे जा सकते हैं।",
+      "ai-office-description": "वर्चुअल ऑफ़िस और कार्य बोर्ड वाला निजी विकास क्षेत्र, जहाँ भूमिकाएँ, समीक्षाएँ, अनुमोदन और परीक्षण रिकॉर्ड देखे जा सकते हैं। मौजूदा प्रोडक्शन इंटरफ़ेस का स्क्रीनशॉट परीक्षण डेटा के साथ।",
       "private-dev": "निजी · विकास जारी",
-      "caption-ai-office-floor": "वर्चुअल ऑफ़िस और टीम की सीटें",
-      "caption-ai-office-board": "नमूना कार्य की समीक्षा और परीक्षण रिकॉर्ड",
       "caption-gwangju-photo": "असली इमारत के बाहरी हिस्से की तस्वीर",
       "caption-sacrament-program": "सार्वजनिक साप्ताहिक कार्यक्रम · नाम छिपाए गए",
-      "caption-sacrament-admin": "नमूना व्यवस्थापक स्क्रीन · कार्यक्रम संपादन और प्रार्थना या वक्तव्य के रिकॉर्ड"
+      "caption-sacrament-admin": "नमूना व्यवस्थापक स्क्रीन · कार्यक्रम संपादन और प्रार्थना या वक्तव्य के रिकॉर्ड",
+      "caption-ai-current-lobby": "पहली मंज़िल की लॉबी · रिसेप्शन और किरदार",
+      "caption-ai-current-qa": "तीसरी मंज़िल QA व रिलीज़ · डिवाइस परीक्षण और रिलीज़ मॉनिटर",
+      "caption-ai-current-work": "कार्य बोर्ड · स्थिति और खोज फ़िल्टर",
+      "caption-dash-current-kanban": "डेवलपमेंट कानबान · वास्तविक डेटा नहीं",
+      "caption-dash-current-metrics": "इंस्टॉल, डाउनलोड और समीक्षाएँ · वास्तविक डेटा नहीं"
     },
     "es": {
       "title": "Portafolio web",
@@ -292,13 +316,16 @@
       "caption-sacrament": "Programa público de la reunión sacramental",
       "caption-dashboard": "Pantalla real con datos privados ocultos",
       "ai-office-title": "Kenneth AI Office",
-      "ai-office-description": "Espacio privado de desarrollo con una oficina virtual y un tablero para consultar funciones, revisiones, aprobaciones y registros de pruebas.",
+      "ai-office-description": "Espacio privado de desarrollo con una oficina virtual y un tablero para consultar funciones, revisiones, aprobaciones y registros de pruebas. Interfaz actual de producción, capturada con datos de prueba.",
       "private-dev": "Privado · En desarrollo",
-      "caption-ai-office-floor": "Oficina virtual y puestos de los equipos",
-      "caption-ai-office-board": "Revisión de una tarea de ejemplo y registro de pruebas",
       "caption-gwangju-photo": "Foto del exterior del edificio real",
       "caption-sacrament-program": "Programa semanal público · nombres ocultos",
-      "caption-sacrament-admin": "Vista de administración de ejemplo · edición del programa y asignación de oraciones o discursos"
+      "caption-sacrament-admin": "Vista de administración de ejemplo · edición del programa y asignación de oraciones o discursos",
+      "caption-ai-current-lobby": "Vestíbulo de la primera planta · Recepción y personajes",
+      "caption-ai-current-qa": "Tercera planta, pruebas y lanzamientos · Banco de dispositivos y monitores",
+      "caption-ai-current-work": "Tablero de tareas · Estados y filtros de búsqueda",
+      "caption-dash-current-kanban": "Kanban de desarrollo · Sin datos reales",
+      "caption-dash-current-metrics": "Instalaciones, descargas y reseñas · Sin datos reales"
     },
     "pt": {
       "title": "Portfólio web",
@@ -324,13 +351,16 @@
       "caption-sacrament": "Programa público da reunião sacramental",
       "caption-dashboard": "Tela real com dados privados ocultos",
       "ai-office-title": "Kenneth AI Office",
-      "ai-office-description": "Espaço privado de desenvolvimento com um escritório virtual e um quadro para acompanhar papéis, revisões, aprovações e registros de teste.",
+      "ai-office-description": "Espaço privado de desenvolvimento com um escritório virtual e um quadro para acompanhar papéis, revisões, aprovações e registros de teste. Interface atual de produção, capturada com dados de teste.",
       "private-dev": "Privado · Em desenvolvimento",
-      "caption-ai-office-floor": "Escritório virtual e mesas das equipes",
-      "caption-ai-office-board": "Revisão de tarefa de exemplo e registros de testes",
       "caption-gwangju-photo": "Foto da fachada do prédio real",
       "caption-sacrament-program": "Programa semanal público · nomes ocultos",
-      "caption-sacrament-admin": "Exemplo da tela administrativa · edição do programa e designação de orações ou discursos"
+      "caption-sacrament-admin": "Exemplo da tela administrativa · edição do programa e designação de orações ou discursos",
+      "caption-ai-current-lobby": "Saguão do primeiro andar · Recepção e personagens",
+      "caption-ai-current-qa": "Terceiro andar, testes e lançamento · Bancada de aparelhos e monitores",
+      "caption-ai-current-work": "Quadro de tarefas · Status e filtros de busca",
+      "caption-dash-current-kanban": "Kanban de desenvolvimento · Sem dados reais",
+      "caption-dash-current-metrics": "Instalações, downloads e avaliações · Sem dados reais"
     },
     "fr": {
       "title": "Portfolio web",
@@ -356,13 +386,16 @@
       "caption-sacrament": "Programme public de la réunion de Sainte-Cène",
       "caption-dashboard": "Écran réel, données privées masquées",
       "ai-office-title": "Kenneth AI Office",
-      "ai-office-description": "Espace de développement privé comprenant un bureau virtuel et un tableau pour suivre les rôles, les vérifications, les validations et les tests.",
+      "ai-office-description": "Espace de développement privé comprenant un bureau virtuel et un tableau pour suivre les rôles, les vérifications, les validations et les tests. Interface actuelle de production, capturée avec des données de test.",
       "private-dev": "Privé · En développement",
-      "caption-ai-office-floor": "Bureau virtuel et postes des équipes",
-      "caption-ai-office-board": "Vérification d’une tâche exemple et relevé des tests",
       "caption-gwangju-photo": "Photo de l’extérieur du bâtiment réel",
       "caption-sacrament-program": "Programme hebdomadaire public · noms masqués",
-      "caption-sacrament-admin": "Exemple d’écran de gestion · modification du programme et suivi des prières et interventions"
+      "caption-sacrament-admin": "Exemple d’écran de gestion · modification du programme et suivi des prières et interventions",
+      "caption-ai-current-lobby": "Hall du premier niveau · Accueil et personnages",
+      "caption-ai-current-qa": "Troisième niveau, QA et publication · Banc de test et écrans de suivi",
+      "caption-ai-current-work": "Tableau de tâches · États et filtres de recherche",
+      "caption-dash-current-kanban": "Kanban de développement · Sans données réelles",
+      "caption-dash-current-metrics": "Installations, téléchargements et avis · Sans données réelles"
     },
     "de": {
       "title": "Web-Portfolio",
@@ -388,13 +421,16 @@
       "caption-sacrament": "Öffentliches Programm der Abendmahlsversammlung",
       "caption-dashboard": "Echter Bildschirm, private Details ausgeblendet",
       "ai-office-title": "Kenneth AI Office",
-      "ai-office-description": "Privater Entwicklungsbereich mit einem virtuellen Büro und einer Aufgabenübersicht für Rollen, Überprüfungen, Freigaben und Testprotokolle.",
+      "ai-office-description": "Privater Entwicklungsbereich mit einem virtuellen Büro und einer Aufgabenübersicht für Rollen, Überprüfungen, Freigaben und Testprotokolle. Aktuelle Produktionsoberfläche, mit Testdaten aufgenommen.",
       "private-dev": "Privat · In Entwicklung",
-      "caption-ai-office-floor": "Virtuelles Büro und Teamplätze",
-      "caption-ai-office-board": "Prüfung einer Beispielaufgabe und Testprotokoll",
       "caption-gwangju-photo": "Foto des tatsächlichen Gebäudes",
       "caption-sacrament-program": "Öffentliches Wochenprogramm · Namen ausgeblendet",
-      "caption-sacrament-admin": "Beispiel der Verwaltungsansicht · Programm und Zuteilung von Gebeten oder Ansprachen"
+      "caption-sacrament-admin": "Beispiel der Verwaltungsansicht · Programm und Zuteilung von Gebeten oder Ansprachen",
+      "caption-ai-current-lobby": "Lobby im ersten Stock · Empfang und Figuren",
+      "caption-ai-current-qa": "Dritter Stock, QA und Veröffentlichung · Gerätetestplatz und Monitore",
+      "caption-ai-current-work": "Aufgabenübersicht · Status und Suchfilter",
+      "caption-dash-current-kanban": "Entwicklungs-Kanban · Ohne echte Betriebsdaten",
+      "caption-dash-current-metrics": "Installationen, Downloads und Bewertungen · Ohne echte Betriebsdaten"
     },
     "id": {
       "title": "Portofolio Web",
@@ -420,13 +456,16 @@
       "caption-sacrament": "Susunan pertemuan sakramen publik",
       "caption-dashboard": "Tampilan asli dengan data pribadi disembunyikan",
       "ai-office-title": "Kenneth AI Office",
-      "ai-office-description": "Ruang pengembangan pribadi dengan kantor virtual dan papan tugas untuk melihat peran, peninjauan, persetujuan, dan catatan pengujian.",
+      "ai-office-description": "Ruang pengembangan pribadi dengan kantor virtual dan papan tugas untuk melihat peran, peninjauan, persetujuan, dan catatan pengujian. Antarmuka produksi terkini, diambil dengan data uji.",
       "private-dev": "Pribadi · Dalam pengembangan",
-      "caption-ai-office-floor": "Kantor virtual dan meja tim",
-      "caption-ai-office-board": "Contoh peninjauan tugas dan catatan pengujian",
       "caption-gwangju-photo": "Foto tampak luar bangunan asli",
       "caption-sacrament-program": "Susunan mingguan publik · nama disembunyikan",
-      "caption-sacrament-admin": "Contoh tampilan admin · sunting susunan dan riwayat tugas doa atau ceramah"
+      "caption-sacrament-admin": "Contoh tampilan admin · sunting susunan dan riwayat tugas doa atau ceramah",
+      "caption-ai-current-lobby": "Lobi lantai satu · Resepsionis dan karakter",
+      "caption-ai-current-qa": "Lantai tiga, QA dan rilis · Meja uji perangkat dan monitor rilis",
+      "caption-ai-current-work": "Papan tugas · Status dan filter pencarian",
+      "caption-dash-current-kanban": "Kanban pengembangan · Tanpa data nyata",
+      "caption-dash-current-metrics": "Instalasi, unduhan, dan ulasan · Tanpa data nyata"
     }
   }
 }

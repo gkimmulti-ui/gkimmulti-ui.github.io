@@ -93,8 +93,11 @@ function render(){
    const link=document.createElement('a');link.className='release-download';link.href=href;link.textContent=t[r.platform==='android'?7:8];link.rel='noopener';card.append(link);
   }
   btn.hidden=appReleases.some(r=>r.platform==='android')&&!selected;
-  btn.disabled=pending.has(key)||(!enabled()&&!selected);
-  if(availabilityKnown||configFailed||selected)btn.textContent=selected?t[1]:t[0];
+  const changing=pending.has(key);
+  btn.disabled=changing||(!enabled()&&!selected);
+  btn.setAttribute('data-alert-state',changing?'working':selected?'subscribed':'new');
+  btn.setAttribute('aria-busy',String(changing));
+  if(availabilityKnown||configFailed||selected)btn.textContent=selected?(t[5]+' · '+t[1]):t[0];
   btn.setAttribute('aria-label',btn.textContent+' · '+card.querySelector('h2').textContent);
   btn.setAttribute('aria-describedby','note');
  });

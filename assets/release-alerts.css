@@ -1,0 +1,24 @@
+/* Launch alerts: an explicit action and a visually distinct subscribed state. */
+.coming-card button{
+ display:inline-flex;align-items:center;justify-content:center;gap:9px;align-self:flex-start;
+ min-height:46px;max-width:100%;padding:10px 15px;border:1px solid #1b4cb6;border-radius:13px;
+ background:linear-gradient(140deg,#2360db,#1744ad);color:#fff;
+ box-shadow:0 3px 0 #123582,0 6px 12px rgba(30,64,151,.22);
+ font-size:.9rem;font-weight:750;line-height:1.25;text-align:center;white-space:normal;overflow-wrap:anywhere;
+ transition:background .2s,box-shadow .2s,transform .2s
+}
+.coming-card button::before{
+ content:"";flex:0 0 18px;height:18px;background:currentColor;
+ mask:center/contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 8a6 6 0 0 0-12 0c0 6-3 6-3 8h18c0-2-3-2-3-8M10 20a2 2 0 0 0 4 0'/%3E%3C/svg%3E")
+}
+.coming-card button:hover:not(:disabled){background:linear-gradient(140deg,#1e53c3,#133a99);transform:translateY(-1px)}
+.coming-card button:active:not(:disabled){transform:translateY(2px);box-shadow:0 1px 0 #123582}
+.coming-card button:focus-visible{outline:3px solid #123982;outline-offset:4px}
+.coming-card button[data-alert-state="subscribed"]{color:#13418e;background:#eaf2ff;border-color:#9cbaf0;box-shadow:none}
+.coming-card button[data-alert-state="subscribed"]:hover:not(:disabled){background:#dce9ff}
+.coming-card button[data-alert-state="subscribed"]::before{mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12 4 4L19 6'/%3E%3C/svg%3E")}
+.coming-card button:disabled{color:#475f89;background:#e8eef9;border-color:#c8d6ed;box-shadow:none}
+.coming-card button[data-alert-state="working"]::before{mask:none;box-sizing:border-box;background:none;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:release-alert-spin .75s linear infinite}
+.coming-card button[hidden]{display:none}
+@keyframes release-alert-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.coming-card button{transition:none}.coming-card button[data-alert-state="working"]::before{animation:none}}

@@ -98,3 +98,9 @@ The manual Refresh and verify homepage catalog workflow refreshes the official s
 Pocket Santa, Luma Scape and Ttirang are now included in the catalog and featured first. Their Google Play listings were verified directly, including official localized titles, descriptions, icons and 14 distinct screenshots. Download badges and local QR codes point to the published Android listings; no unverified iOS release is claimed. Existing 23 app records and policy pages are preserved.
 
 The site now contains 26 apps across 12 languages: 324 indexable catalog/detail pages. The new app pages include unique metadata, self-canonical and reciprocal hreflang links, MobileApplication and breadcrumb structured data, and sitemap/RSS entries. Existing crawler and ownership verification files are unchanged. Search indexing and ranking remain controlled by search engines.
+
+## Web portfolio
+
+The homepage's `#portfolio` section lists public web projects separately from the mobile app catalog. Project URLs, image keys, captions, and descriptions for all homepage languages live in `data/web-portfolio.json`; compressed screenshots live in `images/portfolio/`. Update these inputs and run `node scripts/build.cjs`.
+
+Keep the internal dashboard address out of public HTML, scripts, and images. Its card shows only a vetted screenshot with private details removed; no dashboard permissions are controlled by this website.

@@ -21,6 +21,26 @@ const today=process.env.BUILD_DATE||new Date(Date.now()+9*60*60*1000).toISOStrin
 if(!/^\d{4}-\d{2}-\d{2}$/.test(today))throw Error('BUILD_DATE must be YYYY-MM-DD');
 const local=(value,lang)=>typeof value==='object'&&!Array.isArray(value)?value[lang]??value.en??value.ko:value;
 const t=(key,lang)=>translations[lang][key]??translations.en[key]??'';
+const portfolio=require('../data/web-portfolio.json');
+function portfolioFor(lang) {
+ const copy=portfolio.copy[lang];
+ if(!copy)throw Error('Missing portfolio locale: '+lang);
+ const word=k=>{if(!copy[k])throw Error('Missing portfolio text: '+k+' '+lang);return escape(copy[k]);};
+ const projects=portfolio.projects.map(({key,url,screenshots})=>{
+  const title=word(key+'-title');
+  const shot=(imageKey,lead=false)=>{
+   const asset='/images/portfolio/'+imageKey+'.webp', caption=word('caption-'+imageKey);
+   if(!fs.existsSync(path.join(root,asset.slice(1))))throw Error('Missing project screenshot: '+asset);
+   return `<figure class="portfolio-figure${lead?' portfolio-lead':''}"><div class="portfolio-shot"><a href="${asset}" target="_blank" rel="noopener noreferrer"><img src="${asset}" width="1280" height="800" loading="lazy" decoding="async" alt="${title}: ${caption}"></a></div><figcaption>${caption}</figcaption></figure>`;
+  };
+  const [lead,...gallery]=screenshots;
+  const action=url
+   ? `<a class="portfolio-action" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${title}: ${word('open')}">${word('open')} <span aria-hidden="true">↗</span></a>`
+   : `<span class="portfolio-private">${word('private')}</span>`;
+  return `<article class="portfolio-card">${shot(lead,true)}<div class="portfolio-copy"><h3>${title}</h3><p>${word(key+'-description')}</p>${action}</div>${gallery.length?`<div class="portfolio-gallery">${gallery.map(key=>shot(key)).join('')}</div>`:''}</article>`;
+ });
+ return {nav:`<a href="#portfolio">${word('title')}</a>`,shortcut:`<a class="text-link portfolio-shortcut" href="#portfolio">${word('title')} <span aria-hidden="true">↗</span></a>`,section:`<section class="portfolio-section" id="portfolio" aria-labelledby="portfolio-title"><div class="container"><div class="portfolio-heading"><h2 id="portfolio-title">${word('title')}</h2><p>${word('intro')}</p></div><div class="portfolio-grid">${projects.join('\n')}</div><p class="portfolio-note">${word('ongoing')}</p></div></section>`};
+}
 const rootAssets=html=>html.replace(/(src|href)="((?:assets|images)\/[^\"]*)"/g,'$1="/$2"');
 const abs=pathname=>site+pathname;
 const json=value=>JSON.stringify(value).replaceAll('<','\\u003c');
@@ -72,7 +92,8 @@ function render(lang,app){
  const title=editorial?.[0]??(app?`${local(app.name,lang)} - ${local(app.category,lang)} | Kenneth App`:t('meta.title',lang));
  const fullDescription=editorial?.[1]??(app?`${local(app.name,lang)}. ${local(app.desc,lang)}`:t('meta.desc',lang));
  const description=Array.from(fullDescription).length>180?Array.from(fullDescription).slice(0,177).join('')+'…':fullDescription;
- let html=template.replaceAll('{{CATALOG_VERSION}}',catalogVersion);
+ const web=app?{nav:'',section:'',shortcut:''}:portfolioFor(lang);
+ let html=template.replaceAll('{{CATALOG_VERSION}}',catalogVersion).replace('{{PORTFOLIO_NAV}}',web.nav).replace('{{PORTFOLIO_SECTION}}',web.section).replace('{{PORTFOLIO_HERO}}',web.shortcut).replace('{{PORTFOLIO_FOOTER}}',web.nav?'<p class="footer-note portfolio-footer">'+web.nav+'</p>':'');
  if(app){
   html=html.replace(/<main id="main">[\s\S]*?<\/main>/,detailContent(app,lang));
   html=html.replace(/  <script src="assets\/catalog\.js[^\n]*\n/,'').replace('assets/home.js?','assets/detail.js?');
@@ -80,7 +101,7 @@ function render(lang,app){
   html=html.replace('<body data-homepage-version="2026-10-redesign">',`<body data-app="${app.slug}">`);
   html=html.replace(/href="#(apps|about|contact)"/g,`href="${homePath(lang)}#$1"`);
  }else{
-  html=html.replace('assets/home.js?v=20261125-admin','assets/home.js?v='+catalogVersion);
+  html=html.replace('assets/home.js?v=20261125-admin','assets/home.js?v='+crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'assets/home.js'))).digest('hex').slice(0,16));
   const styleVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'assets/home.css'))).digest('hex').slice(0,16);
   html=html.replace('assets/home.css?v=20261030-global','assets/home.css?v='+styleVersion);
   html=html.replace('{{CARDS}}',apps.map(a=>card(a,lang)).join('\n')).replace('{{FILTERS}}',filters(lang));

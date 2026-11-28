@@ -93,7 +93,7 @@ function render(lang,app){
  const fullDescription=editorial?.[1]??(app?`${local(app.name,lang)}. ${local(app.desc,lang)}`:t('meta.desc',lang));
  const description=Array.from(fullDescription).length>180?Array.from(fullDescription).slice(0,177).join('')+'…':fullDescription;
  const web=app?{nav:'',section:'',shortcut:''}:portfolioFor(lang);
- let html=template.replaceAll('{{CATALOG_VERSION}}',catalogVersion).replace('{{PORTFOLIO_NAV}}',web.nav).replace('{{PORTFOLIO_SECTION}}',web.section).replace('{{PORTFOLIO_HERO}}',web.shortcut).replace('{{PORTFOLIO_FOOTER}}',web.nav?'<p class="footer-note portfolio-footer">'+web.nav+'</p>':'');
+ let html=template.replaceAll('{{CATALOG_VERSION}}',catalogVersion).replace('{{PORTFOLIO_NAV}}',web.nav).replace('{{PORTFOLIO_SECTION}}',web.section).replace('{{PORTFOLIO_HERO}}',web.shortcut).replace('{{PORTFOLIO_FOOTER}}',web.nav?'<p class="footer-note portfolio-footer">'+web.nav+'</p>':'').replace('{{OWNER_TOOLS_FOOTER}}',app?'':'<p class="footer-note portfolio-footer"><a href="https://kenneth-admin-tools.geonwookim715.chatgpt.site/" rel="nofollow noreferrer" data-i18n="footer.admin"></a></p>');
  if(app){
   html=html.replace(/<main id="main">[\s\S]*?<\/main>/,detailContent(app,lang));
   html=html.replace(/  <script src="assets\/catalog\.js[^\n]*\n/,'').replace('assets/home.js?','assets/detail.js?');

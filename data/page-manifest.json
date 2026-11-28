@@ -5,7 +5,7 @@
     "lang": "ko",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "7d86356215340f17fc0b2d3b4f285ccb85bbddb1a50d9ee1e0cb918e0856e473"
+    "sha256": "5251ccccc72d47414b8822c07bfab9a11aa7c71b28b62d0c39830fc84f3088a7"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/bagsum/",
@@ -277,7 +277,7 @@
     "lang": "en",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "12027234694b301ef3decac66e9e0ee88942c24a2ba79595438f26a5da98f899"
+    "sha256": "2473d74c93a6611cd5c42087e4ea0d3bd1504a885e90659a10df95104ba49231"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/bagsum/",
@@ -549,7 +549,7 @@
     "lang": "ja",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "f8fd8fe01fe208ad4e4b5188360b890af9ac1eb3a1161d80a689bbb23be45a9a"
+    "sha256": "a496b53f609b318e6f919a78c64ac0537467fdab74d359eccf5a5115fea9b1f0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/bagsum/",
@@ -821,7 +821,7 @@
     "lang": "zh",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "a1fee083f7a8361ac6e020d5f6695f9b066e742ffafd97fd5da304ce44c83f42"
+    "sha256": "5896d5eca9a8be4410289f5a1143fbe580bbd7373d900e2688d3137486f81625"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/bagsum/",
@@ -1093,7 +1093,7 @@
     "lang": "ru",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "5fb0f39b45b276acc5d9f714dc474d4a921882db389d4e8f6ecc9772887eeda5"
+    "sha256": "a4489e258af9f28d61cd93c26137a754fc9c25a5f2bdd77e37f144676799ae17"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/bagsum/",
@@ -1365,7 +1365,7 @@
     "lang": "fil",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "07e77379a6f827a51e229253ac52d9aed6e55ec22ea8260df7cc77f8e1b513b8"
+    "sha256": "e2dd0ee28a547cb970db4393405d2d38f0b3355b364551f0c65f2dec2e40801a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/bagsum/",
@@ -1637,7 +1637,7 @@
     "lang": "hi",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "a17503a08f088e663e6572f2e4e3c98db9f36ec0fdbbfa78dd232344896c5b1a"
+    "sha256": "6f6413eb42059f0d2bb197678bcc8716f643f6329f1fc99f4eb15049ca24bb60"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/bagsum/",
@@ -1909,7 +1909,7 @@
     "lang": "es",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "203c9b1a9cc0690ae5d2b6511f4d7842cb78340bf32cb89929802e880a3e62b2"
+    "sha256": "0d0f50c1a1483af0f268936d5532cdf68d2554489648eaf481479ac15cafb602"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/bagsum/",
@@ -2181,7 +2181,7 @@
     "lang": "pt",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "bcde72b857d359c21993776ea425e16e27a041348a9758d7814d3d01a4b80620"
+    "sha256": "50bc30d0ce239b5ebe93931aa2279f604e03fc2a84a1e58836b2cb8d621748c0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/bagsum/",
@@ -2453,7 +2453,7 @@
     "lang": "fr",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "8f707da5ac6f633d51645b4bb05eba33d1ef34a1a78987bc5ac9247e65c1fef4"
+    "sha256": "e49835e8575d6b5f5ae19966b9b7fda65143f0efb8396912e33c0e954658e8e4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/bagsum/",
@@ -2725,7 +2725,7 @@
     "lang": "de",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "350bdf24b1b7b8cbb10604f7383d735338daaad9ecc9ab1564890b4d52157bb6"
+    "sha256": "86d5967de0a4fd97209496742d97c02e5cb9d45e5a26b133add52b982df5c197"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/bagsum/",
@@ -2997,7 +2997,7 @@
     "lang": "id",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "121ea537d9ddc680f5350f468b1b547e029cb4b423a5b225ba5175e5694b9a36"
+    "sha256": "8266657c4394a299df3abf68a6b68371d60ba6e7b00fe69bb81d0a88ccff5a25"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/bagsum/",

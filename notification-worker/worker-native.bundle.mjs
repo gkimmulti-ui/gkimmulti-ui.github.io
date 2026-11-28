@@ -42,6 +42,8 @@ async function generateRequestDetails(subscription,payload,details){
 const SITE='https://gkimmulti-ui.github.io';
 const TEST_ORIGIN='https://kenneth-release-alerts.gkimmulti.workers.dev';
 const APPS=new Set(['bracketbud','phrasepip','bagsum','roomnobi','rowmio','dottomint','morsepip','hushmio','zodimi','whalopip','sylvomi','robipip','meowbini','halopip','drakumi','boopiri']);
+// These were publicly available before alerts launched; never accept retroactive subscriptions.
+const ARCHIVED=new Set(['bagsum','rowmio','dottomint','hushmio','phrasepip','roomnobi','morsepip']);
 const PLATFORMS=new Set(['android','ios']);
 const LANGS=new Set(['ko','en','ja','zh-CN','ru','fil']);
 const APP_NAMES={"bracketbud":"Bracket Bud: Tournament","phrasepip":"PhrasePip: Travel Phrases","bagsum":"Bag Sum: Luggage Weight","roomnobi":"RoomNobi: Room Planner","rowmio":"RowMio: Row Counter","dottomint":"DottoMint: Pixel Art Studio","morsepip":"MorsePip: Learn Morse Code","hushmio":"HushMio: Ambient Sound Mixer","zodimi":"Zodimi","whalopip":"Whalopip","sylvomi":"Sylvomi","robipip":"Robipip","meowbini":"Meowbini","halopip":"Halopip","drakumi":"Drakumi","boopiri":"Boopiri"};
@@ -98,6 +100,7 @@ async function quota(db,kind,max){
 function enabled(env){return env.ENABLE_ALERTS==='true'&&!!env.DB&&validB64(env.VAPID_PUBLIC_KEY,87,87)&&validB64(env.VAPID_PRIVATE_KEY,43,43)&&typeof env.VAPID_SUBJECT==='string'&&env.VAPID_SUBJECT.startsWith('mailto:')&&typeof env.OWNER_SECRET==='string'&&env.OWNER_SECRET.length>=32}
 async function subscribe(v,env){
  const p=subscriptionInput(v);if(!p||!await validateSubscriptionKeys({p256dh:p.p256dh,auth:p.auth}))return json({error:'invalid_subscription'},400);
+ if(ARCHIVED.has(p.app))return json({error:'already_public'},409);
  const db=env.DB;
  if(!await quota(db,'sub-write',400))return json({error:'quota_paused'},429);
  const release=await db.prepare('SELECT store_url FROM releases WHERE app=? AND platform=?').bind(p.app,p.platform).first();
@@ -202,10 +205,31 @@ async function ownerTest(req,env,url,origin){
  }
  return json({error:'not_found'},404);
 }
+const statsHtml=`<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Kenneth App · 비공개 출시 알림 관리</title><link rel="stylesheet" href="/owner/alerts/style.css"><main><p>Kenneth App · 관리자 전용</p><h1>출시 알림 신청 현황</h1><p>앱별 활성 브라우저 구독 수입니다. 중복 방문이나 실제 사람 수를 세지 않습니다.</p><label for="secret">관리용 비밀값</label> <input id="secret" type="password" autocomplete="off"> <button id="view" type="button">신청 건수 조회</button><p id="status" role="status"></p><table hidden id="table"><thead><tr><th scope="col">앱</th><th scope="col">스토어</th><th scope="col">활성 신청</th></tr></thead><tbody id="rows"></tbody></table></main><script src="/owner/alerts/stats.js"></script></html>`;
+const statsStyle='body{margin:0;background:#f7f7f1;color:#23342d;font-family:system-ui,sans-serif}main{max-width:680px;margin:32px auto;padding:0 18px}p{line-height:1.6}input,button{font:inherit;padding:8px;margin:3px 0}button{background:#244b3e;color:#fff;border:0;border-radius:6px}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:10px 5px;border-bottom:1px solid #c8d4cc}td:last-child,th:last-child{text-align:right}';
+const statsScript=`(()=>{'use strict';const e=id=>document.getElementById(id);const b=e('view');b.onclick=async()=>{const pass=e('secret').value;e('secret').value='';e('table').hidden=true;e('rows').replaceChildren();if(!pass){e('status').textContent='관리용 비밀값을 입력하세요.';return}b.disabled=true;e('status').textContent='조회 중';try{const r=await fetch('/owner/alerts/stats',{method:'POST',headers:{Authorization:'Bearer '+pass},cache:'no-store',credentials:'omit',redirect:'error'});if(!r.ok)throw Error();const d=await r.json();for(const a of d.apps){const tr=document.createElement('tr');for(const val of [a.name,a.platform==='android'?'Google Play':'App Store',String(a.active)]){const td=document.createElement('td');td.textContent=val;tr.append(td)}e('rows').append(tr)}e('table').hidden=false;e('status').textContent='조회 완료 · '+new Date(d.checkedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})+' (KST)';}catch{e('status').textContent='인증 또는 조회에 실패했습니다.';}finally{b.disabled=false}}})();`;
+const statsHeaders={...testHeaders,'Content-Security-Policy':testHeaders['Content-Security-Policy'].replace("script-src 'self';","script-src 'self'; style-src 'self';")};
+async function ownerStats(req,env,u,origin){
+ if(u.origin!==TEST_ORIGIN )return new Response(null,{status:404,headers:statsHeaders});
+ if(req.method==='GET'){
+   const file=u.pathname==='/owner/alerts/'?[statsHtml,'text/html']:u.pathname==='/owner/alerts/style.css'?[statsStyle,'text/css']:u.pathname==='/owner/alerts/stats.js'?[statsScript,'text/javascript']:null;
+   return file?new Response(file[0],{headers:{...statsHeaders,'Content-Type':file[1]+'; charset=utf-8'}}):new Response(null,{status:404,headers:statsHeaders});
+ }
+ const protectedJson=(data,status)=>new Response(JSON.stringify(data),{status,headers:{...statsHeaders,'Content-Type':'application/json; charset=utf-8'}});
+ if(req.method!=='POST'||u.pathname!=='/owner/alerts/stats'||(origin&&origin!==TEST_ORIGIN)||!await secretEqual(req.headers.get('authorization')?.replace(/^Bearer /,''),env.OWNER_SECRET))return protectedJson({error:'forbidden'},403);
+ if(!env.DB)return protectedJson({error:'unavailable'},503);
+ const at=now();
+ const q=await env.DB.prepare(`SELECT s.app,s.platform,COUNT(DISTINCT s.token_hash) AS active FROM subscriptions s
+    LEFT JOIN dispatches d ON d.subscription_id=s.id WHERE s.expires_at>? AND d.subscription_id IS NULL GROUP BY s.app,s.platform`).bind(at).all();
+ const rows=q.results||[];
+ const apps=[...APPS].filter(app=>!ARCHIVED.has(app)).map(app=>({app,name:APP_NAMES[app],platform:'android',active:Number(rows.find(r=>r.app===app&&r.platform==='android')?.active||0)}));
+ return protectedJson({checkedAt:at,apps},200);
+}
 export default {
  async fetch(req,env){
   try{
    const u=new URL(req.url),origin=req.headers.get('origin');
+   if(u.pathname.startsWith('/owner/alerts/'))return await ownerStats(req,env,u,origin);
    if(u.pathname.startsWith('/owner-test/'))return await ownerTest(req,env,u,origin);
    if(req.method==='OPTIONS')return origin===SITE?new Response(null,{status:204,headers:CORS}):new Response(null,{status:403});
    if(origin&&origin!==SITE)return json({error:'forbidden'},403);

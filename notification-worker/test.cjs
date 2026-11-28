@@ -16,6 +16,13 @@ r=await call('/v1/subscribe','POST',{...sub,consent:false});assert.equal(r.statu
 r=await call('/v1/subscribe','POST',{...sub,subscription:{...sub.subscription,endpoint:'https://private.invalid/'}});assert.equal(r.status,400);
 r=await call('/v1/subscribe','POST',sub);assert.equal((await r.json()).status,'subscribed');
 r=await call('/v1/subscribe','POST',sub);assert.equal((await r.json()).status,'subscribed');assert.equal(database.prepare('SELECT count(*) n FROM subscriptions').get().n,1);
+const stats=(secret,origin='https://kenneth-release-alerts.gkimmulti.workers.dev')=>handler.fetch(new Request('https://kenneth-release-alerts.gkimmulti.workers.dev/owner/alerts/stats',{method:'POST',headers:{Origin:origin,...(secret?{Authorization:'Bearer '+secret}:{})}}),env);
+assert.equal((await stats()).status,403);
+assert.equal((await stats(env.OWNER_SECRET,'https://unrelated.invalid')).status,403);
+let result=await stats(env.OWNER_SECRET);assert.equal(result.status,200);assert.equal(result.headers.get('access-control-allow-origin'),null);
+let counts=await result.json();assert.equal(counts.apps.length,9);assert.equal(counts.apps.find(a=>a.app==='bracketbud').active,1);assert.ok(!JSON.stringify(counts).includes('endpoint')&&!JSON.stringify(counts).includes('token_hash'));
+r=await call('/v1/subscribe','POST',{...sub,app:'hushmio'});assert.equal(r.status,409);
+
 r=await call('/v1/subscribe','POST',{...sub,token:'X'.repeat(43)});assert.equal(r.status,409);
 r=await call('/v1/unsubscribe','POST',{app:'bracketbud',platform:'android',token:'X'.repeat(43)});assert.equal((await r.json()).status,'unsubscribed');assert.equal(database.prepare('SELECT count(*) n FROM subscriptions').get().n,1);
 r=await call('/v1/subscribe','POST',{...sub,platform:'ios'});assert.equal((await r.json()).status,'subscribed');assert.equal(database.prepare('SELECT count(*) n FROM subscriptions').get().n,2);
@@ -31,7 +38,7 @@ env.ENABLE_DISPATCH='true';r=await call('/owner/dispatch','POST',{},null,env.OWN
 r=await call('/owner/dispatch','POST',{},null,env.OWNER_SECRET);assert.equal((await r.json()).status,'empty');assert.equal(pushes,1);
 r=await call('/v1/subscribe','POST',sub);assert.equal((await r.json()).status,'released');
 r=await call('/v1/unsubscribe','POST',{app:'bracketbud',platform:'android',token:sub.token});assert.equal((await r.json()).status,'unsubscribed');assert.equal(database.prepare('SELECT count(*) n FROM subscriptions').get().n,0);
-assert.equal(database.prepare('SELECT count(*) n FROM dispatches').get().n,0);
+assert.equal(database.prepare('SELECT count(*) n FROM dispatches').get().n,0);assert.equal((await (await stats(env.OWNER_SECRET)).json()).apps.find(a=>a.app==='bracketbud').active,0);
 
 const TEST='https://kenneth-release-alerts.gkimmulti.workers.dev';
 const testCall=(p,m='GET',data,s=env.OWNER_SECRET,o=TEST)=>handler.fetch(new Request(TEST+p,{method:m,headers:{...(o?{origin:o}:{}),Authorization:'Bearer '+s,...(data?{'Content-Type':'application/json'}:{})},...(data?{body:JSON.stringify(data)}:{})}),env);

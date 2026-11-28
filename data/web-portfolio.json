@@ -15,14 +15,17 @@
       "url": "https://gwangju-stake-metaverse.lds-cd5.workers.dev/",
       "screenshots": [
         "gwangju",
-        "gwangju-chapel"
+        "gwangju-chapel",
+        "gwangju-photo"
       ]
     },
     {
       "key": "sacrament",
       "url": "https://sunday-program-preview.lds-cd5.workers.dev/",
       "screenshots": [
-        "sacrament"
+        "sacrament",
+        "sacrament-program",
+        "sacrament-admin"
       ]
     },
     {
@@ -30,6 +33,14 @@
       "screenshots": [
         "dashboard"
       ]
+    },
+    {
+      "key": "ai-office",
+      "screenshots": [
+        "ai-office-floor",
+        "ai-office-board"
+      ],
+      "privateLabel": "private-dev"
     }
   ],
   "copy": {
@@ -55,7 +66,15 @@
       "caption-gwangju": "정문 계단",
       "caption-gwangju-chapel": "2층 예배실",
       "caption-sacrament": "공개 성찬식 순서지",
-      "caption-dashboard": "비공개 정보를 가린 실제 화면"
+      "caption-dashboard": "비공개 정보를 가린 실제 화면",
+      "ai-office-title": "Kenneth AI 오피스",
+      "ai-office-description": "캐릭터가 배치된 가상 사무실과 업무 보드에서 역할 분담, 검토·승인, 테스트 기록을 확인하는 비공개 개발 공간입니다.",
+      "private-dev": "비공개 · 개발 중",
+      "caption-ai-office-floor": "가상 오피스와 팀별 자리",
+      "caption-ai-office-board": "예시 작업의 검토·테스트 기록",
+      "caption-gwangju-photo": "실제 건물 외관 사진",
+      "caption-sacrament-program": "주간 공개 순서지 · 이름 가림",
+      "caption-sacrament-admin": "담당자 화면 예시 · 순서지 편집과 기도·말씀 이력"
     },
     "en": {
       "title": "Web Portfolio",
@@ -79,7 +98,15 @@
       "caption-gwangju": "Main entrance stairs",
       "caption-gwangju-chapel": "Second-floor chapel",
       "caption-sacrament": "Public sacrament meeting program",
-      "caption-dashboard": "Actual screen with private details hidden"
+      "caption-dashboard": "Actual screen with private details hidden",
+      "ai-office-title": "Kenneth AI Office",
+      "ai-office-description": "A private development workspace with a virtual office and task board for team roles, reviews, approvals, and test records.",
+      "private-dev": "Private · In development",
+      "caption-ai-office-floor": "Virtual office and team desks",
+      "caption-ai-office-board": "Example task review and test records",
+      "caption-gwangju-photo": "Photo of the actual building exterior",
+      "caption-sacrament-program": "Public weekly program · names redacted",
+      "caption-sacrament-admin": "Demo admin view · program editing and prayer or talk assignments"
     },
     "ja": {
       "title": "ウェブポートフォリオ",
@@ -103,7 +130,15 @@
       "caption-gwangju": "正面玄関の階段",
       "caption-gwangju-chapel": "2階の礼拝堂",
       "caption-sacrament": "公開されている聖餐会プログラム",
-      "caption-dashboard": "非公開情報を隠した実際の画面"
+      "caption-dashboard": "非公開情報を隠した実際の画面",
+      "ai-office-title": "Kenneth AI オフィス",
+      "ai-office-description": "キャラクターのいる仮想オフィスと業務ボードで、役割分担、レビュー・承認、テスト記録を確認できる非公開の開発スペースです。",
+      "private-dev": "非公開・開発中",
+      "caption-ai-office-floor": "仮想オフィスとチームの席",
+      "caption-ai-office-board": "サンプル作業のレビューとテスト記録",
+      "caption-gwangju-photo": "実際の建物外観の写真",
+      "caption-sacrament-program": "公開の週間プログラム・氏名は非表示",
+      "caption-sacrament-admin": "管理画面の例・進行の編集と祈りやお話の担当履歴"
     },
     "zh": {
       "title": "网页项目作品集",
@@ -127,7 +162,15 @@
       "caption-gwangju": "正门台阶",
       "caption-gwangju-chapel": "二楼礼拜堂",
       "caption-sacrament": "公开圣餐聚会流程",
-      "caption-dashboard": "隐藏非公开信息的实际画面"
+      "caption-dashboard": "隐藏非公开信息的实际画面",
+      "ai-office-title": "Kenneth AI 办公室",
+      "ai-office-description": "用于开发的非公开工作空间。通过虚拟办公室和任务看板查看分工、审核、批准和测试记录。",
+      "private-dev": "非公开 · 开发中",
+      "caption-ai-office-floor": "虚拟办公室与团队工位",
+      "caption-ai-office-board": "示例任务审核与测试记录",
+      "caption-gwangju-photo": "实际建筑外观照片",
+      "caption-sacrament-program": "公开每周聚会流程 · 姓名已隐藏",
+      "caption-sacrament-admin": "管理员界面示例 · 编辑聚会流程及查看祷告和演讲安排"
     },
     "ru": {
       "title": "Веб-портфолио",
@@ -151,7 +194,15 @@
       "caption-gwangju": "Лестница у главного входа",
       "caption-gwangju-chapel": "Часовня на втором этаже",
       "caption-sacrament": "Открытая программа причастного собрания",
-      "caption-dashboard": "Реальный экран со скрытыми данными"
+      "caption-dashboard": "Реальный экран со скрытыми данными",
+      "ai-office-title": "Kenneth AI Office",
+      "ai-office-description": "Закрытое пространство разработки: виртуальный офис и доска задач помогают отслеживать роли, проверки, согласования и тесты.",
+      "private-dev": "Закрытый доступ · в разработке",
+      "caption-ai-office-floor": "Виртуальный офис и места команд",
+      "caption-ai-office-board": "Пример проверки задачи и журнал тестов",
+      "caption-gwangju-photo": "Фотография реального здания",
+      "caption-sacrament-program": "Открытая недельная программа · имена скрыты",
+      "caption-sacrament-admin": "Пример панели ответственного · редактирование программы, молитвы и выступления"
     },
     "fil": {
       "title": "Portfolio sa Web",
@@ -175,7 +226,15 @@
       "caption-gwangju": "Hagdan sa pangunahing pasukan",
       "caption-gwangju-chapel": "Kapilya sa ikalawang palapag",
       "caption-sacrament": "Pampublikong programa ng sacrament meeting",
-      "caption-dashboard": "Aktuwal na screen na tinakpan ang pribadong detalye"
+      "caption-dashboard": "Aktuwal na screen na tinakpan ang pribadong detalye",
+      "ai-office-title": "Kenneth AI Office",
+      "ai-office-description": "Pribadong lugar para sa pag-develop na may virtual na opisina at task board para sa mga tungkulin, pagsusuri, pag-apruba, at tala ng pagsubok.",
+      "private-dev": "Pribado · Ginagawa pa",
+      "caption-ai-office-floor": "Virtual na opisina at mga puwesto ng team",
+      "caption-ai-office-board": "Halimbawang pagsusuri ng gawain at tala ng pagsubok",
+      "caption-gwangju-photo": "Larawan ng tunay na labas ng gusali",
+      "caption-sacrament-program": "Pampublikong programa sa linggong ito · nakatago ang mga pangalan",
+      "caption-sacrament-admin": "Halimbawang admin screen · pag-edit ng programa at mga nakatalagang panalangin o mensahe"
     },
     "hi": {
       "title": "वेब पोर्टफ़ोलियो",
@@ -199,7 +258,15 @@
       "caption-gwangju": "मुख्य प्रवेश की सीढ़ियाँ",
       "caption-gwangju-chapel": "दूसरी मंज़िल का प्रार्थना कक्ष",
       "caption-sacrament": "प्रभुभोज सभा का सार्वजनिक कार्यक्रम",
-      "caption-dashboard": "निजी जानकारी छिपाकर वास्तविक स्क्रीन"
+      "caption-dashboard": "निजी जानकारी छिपाकर वास्तविक स्क्रीन",
+      "ai-office-title": "Kenneth AI ऑफ़िस",
+      "ai-office-description": "वर्चुअल ऑफ़िस और कार्य बोर्ड वाला निजी विकास क्षेत्र, जहाँ भूमिकाएँ, समीक्षाएँ, अनुमोदन और परीक्षण रिकॉर्ड देखे जा सकते हैं।",
+      "private-dev": "निजी · विकास जारी",
+      "caption-ai-office-floor": "वर्चुअल ऑफ़िस और टीम की सीटें",
+      "caption-ai-office-board": "नमूना कार्य की समीक्षा और परीक्षण रिकॉर्ड",
+      "caption-gwangju-photo": "असली इमारत के बाहरी हिस्से की तस्वीर",
+      "caption-sacrament-program": "सार्वजनिक साप्ताहिक कार्यक्रम · नाम छिपाए गए",
+      "caption-sacrament-admin": "नमूना व्यवस्थापक स्क्रीन · कार्यक्रम संपादन और प्रार्थना या वक्तव्य के रिकॉर्ड"
     },
     "es": {
       "title": "Portafolio web",
@@ -223,7 +290,15 @@
       "caption-gwangju": "Escaleras de la entrada principal",
       "caption-gwangju-chapel": "Capilla en la segunda planta",
       "caption-sacrament": "Programa público de la reunión sacramental",
-      "caption-dashboard": "Pantalla real con datos privados ocultos"
+      "caption-dashboard": "Pantalla real con datos privados ocultos",
+      "ai-office-title": "Kenneth AI Office",
+      "ai-office-description": "Espacio privado de desarrollo con una oficina virtual y un tablero para consultar funciones, revisiones, aprobaciones y registros de pruebas.",
+      "private-dev": "Privado · En desarrollo",
+      "caption-ai-office-floor": "Oficina virtual y puestos de los equipos",
+      "caption-ai-office-board": "Revisión de una tarea de ejemplo y registro de pruebas",
+      "caption-gwangju-photo": "Foto del exterior del edificio real",
+      "caption-sacrament-program": "Programa semanal público · nombres ocultos",
+      "caption-sacrament-admin": "Vista de administración de ejemplo · edición del programa y asignación de oraciones o discursos"
     },
     "pt": {
       "title": "Portfólio web",
@@ -247,7 +322,15 @@
       "caption-gwangju": "Escadaria da entrada principal",
       "caption-gwangju-chapel": "Capela no segundo andar",
       "caption-sacrament": "Programa público da reunião sacramental",
-      "caption-dashboard": "Tela real com dados privados ocultos"
+      "caption-dashboard": "Tela real com dados privados ocultos",
+      "ai-office-title": "Kenneth AI Office",
+      "ai-office-description": "Espaço privado de desenvolvimento com um escritório virtual e um quadro para acompanhar papéis, revisões, aprovações e registros de teste.",
+      "private-dev": "Privado · Em desenvolvimento",
+      "caption-ai-office-floor": "Escritório virtual e mesas das equipes",
+      "caption-ai-office-board": "Revisão de tarefa de exemplo e registros de testes",
+      "caption-gwangju-photo": "Foto da fachada do prédio real",
+      "caption-sacrament-program": "Programa semanal público · nomes ocultos",
+      "caption-sacrament-admin": "Exemplo da tela administrativa · edição do programa e designação de orações ou discursos"
     },
     "fr": {
       "title": "Portfolio web",
@@ -271,7 +354,15 @@
       "caption-gwangju": "Escalier de l’entrée principale",
       "caption-gwangju-chapel": "Chapelle au deuxième niveau",
       "caption-sacrament": "Programme public de la réunion de Sainte-Cène",
-      "caption-dashboard": "Écran réel, données privées masquées"
+      "caption-dashboard": "Écran réel, données privées masquées",
+      "ai-office-title": "Kenneth AI Office",
+      "ai-office-description": "Espace de développement privé comprenant un bureau virtuel et un tableau pour suivre les rôles, les vérifications, les validations et les tests.",
+      "private-dev": "Privé · En développement",
+      "caption-ai-office-floor": "Bureau virtuel et postes des équipes",
+      "caption-ai-office-board": "Vérification d’une tâche exemple et relevé des tests",
+      "caption-gwangju-photo": "Photo de l’extérieur du bâtiment réel",
+      "caption-sacrament-program": "Programme hebdomadaire public · noms masqués",
+      "caption-sacrament-admin": "Exemple d’écran de gestion · modification du programme et suivi des prières et interventions"
     },
     "de": {
       "title": "Web-Portfolio",
@@ -295,7 +386,15 @@
       "caption-gwangju": "Treppe am Haupteingang",
       "caption-gwangju-chapel": "Kapelle im zweiten Stock",
       "caption-sacrament": "Öffentliches Programm der Abendmahlsversammlung",
-      "caption-dashboard": "Echter Bildschirm, private Details ausgeblendet"
+      "caption-dashboard": "Echter Bildschirm, private Details ausgeblendet",
+      "ai-office-title": "Kenneth AI Office",
+      "ai-office-description": "Privater Entwicklungsbereich mit einem virtuellen Büro und einer Aufgabenübersicht für Rollen, Überprüfungen, Freigaben und Testprotokolle.",
+      "private-dev": "Privat · In Entwicklung",
+      "caption-ai-office-floor": "Virtuelles Büro und Teamplätze",
+      "caption-ai-office-board": "Prüfung einer Beispielaufgabe und Testprotokoll",
+      "caption-gwangju-photo": "Foto des tatsächlichen Gebäudes",
+      "caption-sacrament-program": "Öffentliches Wochenprogramm · Namen ausgeblendet",
+      "caption-sacrament-admin": "Beispiel der Verwaltungsansicht · Programm und Zuteilung von Gebeten oder Ansprachen"
     },
     "id": {
       "title": "Portofolio Web",
@@ -319,7 +418,15 @@
       "caption-gwangju": "Tangga pintu masuk utama",
       "caption-gwangju-chapel": "Kapel di lantai dua",
       "caption-sacrament": "Susunan pertemuan sakramen publik",
-      "caption-dashboard": "Tampilan asli dengan data pribadi disembunyikan"
+      "caption-dashboard": "Tampilan asli dengan data pribadi disembunyikan",
+      "ai-office-title": "Kenneth AI Office",
+      "ai-office-description": "Ruang pengembangan pribadi dengan kantor virtual dan papan tugas untuk melihat peran, peninjauan, persetujuan, dan catatan pengujian.",
+      "private-dev": "Pribadi · Dalam pengembangan",
+      "caption-ai-office-floor": "Kantor virtual dan meja tim",
+      "caption-ai-office-board": "Contoh peninjauan tugas dan catatan pengujian",
+      "caption-gwangju-photo": "Foto tampak luar bangunan asli",
+      "caption-sacrament-program": "Susunan mingguan publik · nama disembunyikan",
+      "caption-sacrament-admin": "Contoh tampilan admin · sunting susunan dan riwayat tugas doa atau ceramah"
     }
   }
 }

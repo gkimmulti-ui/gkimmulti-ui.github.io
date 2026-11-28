@@ -26,7 +26,7 @@ function portfolioFor(lang) {
  const copy=portfolio.copy[lang];
  if(!copy)throw Error('Missing portfolio locale: '+lang);
  const word=k=>{if(!copy[k])throw Error('Missing portfolio text: '+k+' '+lang);return escape(copy[k]);};
- const projects=portfolio.projects.map(({key,url,screenshots})=>{
+ const projects=portfolio.projects.map(({key,url,screenshots,privateLabel})=>{
   const title=word(key+'-title');
   const shot=(imageKey,lead=false)=>{
    const asset='/images/portfolio/'+imageKey+'.webp', caption=word('caption-'+imageKey);
@@ -36,7 +36,7 @@ function portfolioFor(lang) {
   const [lead,...gallery]=screenshots;
   const action=url
    ? `<a class="portfolio-action" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${title}: ${word('open')}">${word('open')} <span aria-hidden="true">↗</span></a>`
-   : `<span class="portfolio-private">${word('private')}</span>`;
+   : `<span class="portfolio-private">${word(privateLabel||'private')}</span>`;
   return `<article class="portfolio-card">${shot(lead,true)}<div class="portfolio-copy"><h3>${title}</h3><p>${word(key+'-description')}</p>${action}</div>${gallery.length?`<div class="portfolio-gallery">${gallery.map(key=>shot(key)).join('')}</div>`:''}</article>`;
  });
  return {nav:`<a href="#portfolio">${word('title')}</a>`,shortcut:`<a class="text-link portfolio-shortcut" href="#portfolio">${word('title')} <span aria-hidden="true">↗</span></a>`,section:`<section class="portfolio-section" id="portfolio" aria-labelledby="portfolio-title"><div class="container"><div class="portfolio-heading"><h2 id="portfolio-title">${word('title')}</h2><p>${word('intro')}</p></div><div class="portfolio-grid">${projects.join('\n')}</div><p class="portfolio-note">${word('ongoing')}</p></div></section>`};

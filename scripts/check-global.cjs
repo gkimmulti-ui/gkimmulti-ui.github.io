@@ -38,3 +38,21 @@ for(const app of apps)for(const {code} of langs){
  if(!['ko','en','ja','zh','ru','fil'].includes(code))assert.ok(html.includes('play-en.png'));
 }
 console.log('PASS: 33 apps, 12 complete UI/description locales, safe language navigation, 33 hero images and existing store badges.');
+// Keep category controls and the visible intro in both the static and hydrated catalog.
+const freshGroups={dottomint:'design',roomnobi:'design',phrasepip:'learning',morsepip:'learning',hushmio:'life'};
+for(const {code} of langs){
+ const homes=fs.readFileSync(path.join(root,code==='ko'?'index.html':code+'/index.html'),'utf8');
+ for(const group of new Set(apps.map(a=>a.group))){
+  const count=apps.filter(a=>a.group===group).length;
+  assert.ok(homes.includes('data-filter="'+group+'" aria-pressed="false">'+require('../assets/home.js').escape(translations[code]['filter.'+group])+'<span>'+count+'</span>'));
+ }
+ for(const [slug,group] of Object.entries(freshGroups)){
+  const a=apps.find(x=>x.slug===slug);
+  assert.equal(a.group,group);
+  assert.equal(a.category[code],translations[code]['filter.'+group]);
+  const section=homes.split('id="app-'+slug+'"')[1].split('</article>')[0];
+  assert.ok(section.indexOf('class="app-intro"')>=0 && section.indexOf('class="app-intro"')<section.indexOf('class="gallery-wrap"'));
+  assert.ok(section.includes(require('../assets/home.js').escape(a.desc[code])) && section.includes(a.playUrl));
+ }
+}
+console.log('PASS: all 12 localized category filters, category counts and five lead descriptions.');

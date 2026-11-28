@@ -5,7 +5,7 @@
     "lang": "ko",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "792b475e7abcf6d813683c304ee3f0e72690e4cb2200e196610f7687e0b589c1"
+    "sha256": "4dc75524e62a56eb32fc22b158afb9481c9ec1c8897f460f28f1af7110305731"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/bagsum/",
@@ -237,7 +237,7 @@
     "lang": "ko",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "db83dad8926c2e079cc7a04f438c1c3137911d7b87fafb372508be4a2a2f7a32"
+    "sha256": "5d9cb8491201301c634f3acd40249486c8b3cc751549af9b5edb04b9ab6a9c11"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/hushmio/",
@@ -245,7 +245,7 @@
     "lang": "ko",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "d446943d90db8c70c0336eb5a0b24f78ea1a5043c21bca3334b541bab4a98a72"
+    "sha256": "d3b59fd92dbdddf3367eb4afab9fb2e0b313fb0f98f8449f809d1d802801c8e5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/phrasepip/",
@@ -253,7 +253,7 @@
     "lang": "ko",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "01ac33bd67cba931ff7c7500ee438c7b293f30628d59ed4915e6d38a250498c3"
+    "sha256": "d2c2eb7aacf971a8da58a2fba8f9128f671fc8ac06209c098b117fafdbbb545e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/roomnobi/",
@@ -261,7 +261,7 @@
     "lang": "ko",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "e8acc9568d79652cfe37859b9e94e543fc884937a5a7c6dc6a1577b4fa115b18"
+    "sha256": "ce1636c03aaf4beb2658d4f4014e6b628deeccb2ed39fd3a63d5fce5ab8e9001"
   },
   {
     "url": "https://gkimmulti-ui.github.io/apps/morsepip/",
@@ -269,7 +269,7 @@
     "lang": "ko",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "e78228de61b2abccce16b4206e1bf209efa7ba12780a6727e8cfeb79eb7d222c"
+    "sha256": "5b4f3083d9eb016913b9bfdeedfe0021dbff8be509af56c693e778cdb0d61f35"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/",
@@ -277,7 +277,7 @@
     "lang": "en",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "742524980561d628e35ccf23865309d5c3fa59716aac71c57030411bb5108272"
+    "sha256": "21000241760751b292d95ba6a56caf3837a416404b79025f47e693e58f441f7d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/bagsum/",
@@ -509,7 +509,7 @@
     "lang": "en",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "d30c4f345ae9b30a2b542bd100be0be24381e8e45748f0b47d868db31bd54a60"
+    "sha256": "8f535a43ba1115bc0c25482c83a50df53c8544958d78a1a2964d2a8619d498cf"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/hushmio/",
@@ -517,7 +517,7 @@
     "lang": "en",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "3e5b3a19d376e683c774d534a87135585694a82f7fe7fe64a77da4563a237f33"
+    "sha256": "7922f925d3a229a046b982b9adc72c75fc03bef8af292691fa78e7b155da5e6f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/phrasepip/",
@@ -525,7 +525,7 @@
     "lang": "en",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "e442b8c72a491d762467c8a8c0609aa927f09b49771b096db5985f931a86ff75"
+    "sha256": "66a133b1f2e3b7d287af6905052b6c5186cd6a6b98c7a9cd22aea8b2dbbcc042"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/roomnobi/",
@@ -533,7 +533,7 @@
     "lang": "en",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "20f06b44cf991aa2474e4954a6013cf086e0a94b93dfae0faeabec719ea34208"
+    "sha256": "305122a8b9c35ba2a9886a44906c6cfb661323aab71039ab8305d57b467f83cd"
   },
   {
     "url": "https://gkimmulti-ui.github.io/en/apps/morsepip/",
@@ -541,7 +541,7 @@
     "lang": "en",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "41885db1e0a441c85d256a10d4ee7186c013897d893fd1692e2d4cac038636be"
+    "sha256": "e19ab641e356cc755f6c0aab3fb2be7435cde7625542c6414443b36a2255010a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/",
@@ -549,7 +549,7 @@
     "lang": "ja",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "a661fa24188a8b3dadaab557c891603bcd4cc7d04a5325baf957637b1d3818a5"
+    "sha256": "0cdba8193e05116390b0b547f5ad9040a811d43ef343632004228303f1e9741e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/bagsum/",
@@ -781,7 +781,7 @@
     "lang": "ja",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "153e5e756e22a2f6aa83c27f350841569d7f57aa42738bf8b53e172d9f60f055"
+    "sha256": "24a726c92031c826fd789bd7ae22604962fe56153a7b985d0b19e2e90f68a65e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/hushmio/",
@@ -789,7 +789,7 @@
     "lang": "ja",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "00c8383264c21ee68411a9187cb45930f4449dd75c2a41dacaf577cfc92b5e28"
+    "sha256": "b4e60860961567bbdea1dae2bac6acd4a0bf3f53ff2ec0efed9300bc4ff7ae45"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/phrasepip/",
@@ -797,7 +797,7 @@
     "lang": "ja",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "cd2bd73f0c79f2c5ded4cd1b5473e45fde44dabe1001240edc76cb8a1c515a2b"
+    "sha256": "53a5e148ee217611e20dfe03807a83ded433a2b551348636bf45e857b0c7793f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/roomnobi/",
@@ -805,7 +805,7 @@
     "lang": "ja",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "ef8fd9e56e3c3ef847ee12bfa7ab44bfdbe685b27a873d659a418ed224c60732"
+    "sha256": "0cd1c07a5ef181c262638e924b3367b508c08f946972f04eef5794a4f6af9887"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ja/apps/morsepip/",
@@ -813,7 +813,7 @@
     "lang": "ja",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "3084bc1025f22962630e0a776b3abe577c004ad6c2b646acf6ccb196defcea5a"
+    "sha256": "9cedd5de73fcdc89b68ef11e31a228fb04b0f9a09febba029873e4dd5915b760"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/",
@@ -821,7 +821,7 @@
     "lang": "zh",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "b52f28e12ff0c431dfb8f1d291f28931e08b41113be900043dd54b58e734de43"
+    "sha256": "03b70f1c8f2555eb94a3a0fe2ba3b961cf0715cb006cb413403a54485ecc41d1"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/bagsum/",
@@ -1053,7 +1053,7 @@
     "lang": "zh",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "6488eac21275291751f772c1f5d25164255744ac086e2906c0db76654c5ee74b"
+    "sha256": "d217214709c911a967ac556c040b28fe78962a804d1549975caec414d26bac2c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/hushmio/",
@@ -1061,7 +1061,7 @@
     "lang": "zh",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "912a54507bc5a66096a4ef3e7688b2a5cf3a0fcdf4f7c6dec422f75a35ae69d1"
+    "sha256": "70b9a97765f03818c13904be1edbcf7a5958bf2ae39bd397aad906357d785df4"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/phrasepip/",
@@ -1069,7 +1069,7 @@
     "lang": "zh",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "fbcdb0371f1f108ae2748bce8dd77bf2c5e6c2fef725503e20378336924f9e0d"
+    "sha256": "88b940cb6eb10cb8622e8afe9157861d0eaa221892e464f7aea01ac44ebaff2a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/roomnobi/",
@@ -1077,7 +1077,7 @@
     "lang": "zh",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "1e086082d1b7066b6ea09256599b5bad68027734b9f615c29d8ad8ba41e8a281"
+    "sha256": "090e4ee55c2ac5d0e2182660f0d599b9afa6c095fb46d41ed05bf9ae16dffcbe"
   },
   {
     "url": "https://gkimmulti-ui.github.io/zh/apps/morsepip/",
@@ -1085,7 +1085,7 @@
     "lang": "zh",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "c0048523c8cf030d8ca52697e805aacb89d040844a1a5539d125473ce1339023"
+    "sha256": "7f46f0754a55d338a32ad627c5a8c0c35999a5c6cc5ec6b821c23622ad6d8dd6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/",
@@ -1093,7 +1093,7 @@
     "lang": "ru",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "31296c7b060f8a9505f99c056e391efc859ac1174df676d77952fc484c141e3e"
+    "sha256": "2ce9dbde4a8ab97a198d95be11f240429b110f0b9bc3efa2ab93d24214c8edb2"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/bagsum/",
@@ -1325,7 +1325,7 @@
     "lang": "ru",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "7ca776685ce8f19a2d7523409c01d482c7cc28dcacca857e6e052ac5944d1960"
+    "sha256": "ebc480848993a28eff7c76e24a3383d6f07e6ac69cd1c8c9220e36461fe97c16"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/hushmio/",
@@ -1333,7 +1333,7 @@
     "lang": "ru",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "5e05509511e96134ae28177ea8c96de9a9df1fc05de9421d892c665364355bdf"
+    "sha256": "48739cc725c3fdc2e44a03366d151f99acca2838fb96b5e070093a27d7516e4f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/phrasepip/",
@@ -1341,7 +1341,7 @@
     "lang": "ru",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "d0b8c1bde2f8913e3d305db2f1cfe9dd50b73fb3e798b1c04ce62df6f1b2f975"
+    "sha256": "14c4ca523314263dfb1172ff262f0a6f38a5da678395a8f8379397bf36c1d845"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/roomnobi/",
@@ -1349,7 +1349,7 @@
     "lang": "ru",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "33035811d342a520300cc8913162343f84b83a9f43897c7b0f4602b8f5f874b8"
+    "sha256": "2135e4e6dc9ea82d7bcd1f45af95dc9a738a7d3dd9ec5628a6a1fcc6149c7b43"
   },
   {
     "url": "https://gkimmulti-ui.github.io/ru/apps/morsepip/",
@@ -1357,7 +1357,7 @@
     "lang": "ru",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "3fd8a73bb726158e302614ce6326bcbb268f3087db32f7250afca885a84c7a03"
+    "sha256": "a6e4ba8a4e83236fa525976fdf4f345863a2c2d2b1165fd9d3ff9e200ff824e6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/",
@@ -1365,7 +1365,7 @@
     "lang": "fil",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "691e1748196d5ab5013a8ba0096aadd2d23f2604d4a90ee14f7857c6243f2117"
+    "sha256": "ce962998b70fe7b321ef7cb44051eb05e7a763513bfe0299ccd671219d819ba7"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/bagsum/",
@@ -1597,7 +1597,7 @@
     "lang": "fil",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "362dbc3a4e689620bccfaf25756458690513533c715f4881bd0c9b2315281d45"
+    "sha256": "812c858ef4b019d95203691c84deaf3ffc4d814d034c05cb28e7acbd0300045b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/hushmio/",
@@ -1605,7 +1605,7 @@
     "lang": "fil",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "d61e99a206d43d00bc714baaa34383b745807fba9ccdeea6d4fc801f18d0b507"
+    "sha256": "e7ac1dfda5378766be7f84413a6f76e6f565f0b531d40dba00235ebc1a36118c"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/phrasepip/",
@@ -1613,7 +1613,7 @@
     "lang": "fil",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "a6a959f43643d2037a2473d8ff651532bf3879cb7fc2891be178b017d1e5ae7f"
+    "sha256": "61bb6d8544e70d9beee61fd624bae04346a42cb97b8126e424110cd8f65f8c30"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/roomnobi/",
@@ -1621,7 +1621,7 @@
     "lang": "fil",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "57870d57f3cbe36c6de970cd9fd6479047cc6ca8fe866f9b6ab75fb6dd1002d6"
+    "sha256": "b69658f8acc3f8d1987b5edc62b3ec6eb5dc454be2eca8f611069e6924ff5f3b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fil/apps/morsepip/",
@@ -1629,7 +1629,7 @@
     "lang": "fil",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "86a049635472e5c79f6ac14e378bf6064a06e64f6396b2e788707f59aaf04c58"
+    "sha256": "f30649a4f2a368c20d6b87687dd67b7b149d9102a6abf5cd9f3922c93430f735"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/",
@@ -1637,7 +1637,7 @@
     "lang": "hi",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "850b5f5eb056dc7f60b0c47f80c4d48b181063a1e4a28bd4fd159f1e51c6acbd"
+    "sha256": "474c158a2c515a04df7d66176a36e441fe6e246c40a05db61c596460e02c8b5a"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/bagsum/",
@@ -1869,7 +1869,7 @@
     "lang": "hi",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "8930e86ee5f9cc34257dd6f5ffced3fff525eb9b91a5b883c1a5e6be11971f4b"
+    "sha256": "8c3ef344ee06ddfb51462788fe5cbf269e1ec8ec2463bbe53e1715df34b8f33e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/hushmio/",
@@ -1877,7 +1877,7 @@
     "lang": "hi",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "4002bf1be812acf6ff899360ee8cfeb0d26ca3505ade772a94929fe2a1cc5b58"
+    "sha256": "e2642d9140033ed86c31415f492ccf9dd462c74712c3c42c13ab091c0e9b688e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/phrasepip/",
@@ -1885,7 +1885,7 @@
     "lang": "hi",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "8b048a035dbf27520b03cf2ad645f9dc5ef81933dd549a269ad0191d5b2ec361"
+    "sha256": "0c3fe88d85d4e9d9f3586d40198955012c00976baf4b46eb192f4dcfed273a32"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/roomnobi/",
@@ -1893,7 +1893,7 @@
     "lang": "hi",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "a06a48829009c44d163527103a3564270bfb74dd71ce86e4e071f06a1d790acc"
+    "sha256": "9bb594fe0183e70fd4c91b5cac75fc9060cd711a08e7818c58360a854cd8e3e7"
   },
   {
     "url": "https://gkimmulti-ui.github.io/hi/apps/morsepip/",
@@ -1901,7 +1901,7 @@
     "lang": "hi",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "5a2d9ed9c21f946b4b6732f0eb67effeee0bf9d023e09cb2c1821c7742dcf438"
+    "sha256": "7da265bdb1d1ea856be33b31a34e5639b1414b3dbd6dca70c163106dbf512633"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/",
@@ -1909,7 +1909,7 @@
     "lang": "es",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "cd81e194c7dafb9bc807accaa772674c38f4f86999f14de03eccef6a86218483"
+    "sha256": "244b2174392aafe0bac98d096bb2fb8b5c1d42f54d3a2a1256596364efaee3ce"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/bagsum/",
@@ -2141,7 +2141,7 @@
     "lang": "es",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "f5eb3f364177da26f61a6f9d4238c3f2d7c194ff7172c08566261f73dc98158f"
+    "sha256": "e831193794e80674098613490a97e0485489a45ce3ecef61ea43e612c4ecbd5b"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/hushmio/",
@@ -2149,7 +2149,7 @@
     "lang": "es",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "3796684ab99c980cf2b07adaff1d317725b48cadd6f573017ba5fad5101dfa42"
+    "sha256": "255ae287de59a331e59eb969b2e9247abaeb04d765a6641199ed93ba20defd21"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/phrasepip/",
@@ -2157,7 +2157,7 @@
     "lang": "es",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "da6023378d7e74cd29449db2a0e492205c4ff735160bf0106e915228ccdede59"
+    "sha256": "7aafefa5159e7df8c882374916299e8d5dd73bd01ec2717c78506874f09056b5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/roomnobi/",
@@ -2165,7 +2165,7 @@
     "lang": "es",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "41917dba7e0269dad6042d71a18a5e63b2771348fb29dc865497132d9fe82366"
+    "sha256": "2af2150098489ef0e6dc514630bf9f102725f9e05e698d38cad449795f5f3760"
   },
   {
     "url": "https://gkimmulti-ui.github.io/es/apps/morsepip/",
@@ -2173,7 +2173,7 @@
     "lang": "es",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "14464768b24095510853ae2d38ba2d3d13b55081da3700b2bf0617460bcddf92"
+    "sha256": "ba274db9b2fed49ced977c2210c4a937c410bbaf64025401d536c2f646b958f5"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/",
@@ -2181,7 +2181,7 @@
     "lang": "pt",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "0584e1b2a9a434f58761ff12d7e4d39f8cade586a398e920433535cd62689f67"
+    "sha256": "b3dc62aa0d2ff22361bc47e5e553727c8ae192860f653eceba30a990539bc668"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/bagsum/",
@@ -2413,7 +2413,7 @@
     "lang": "pt",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "05a819d0eeb77f1444e5c681d6e2207efc4fbd6fcf8ba93280c09a425f13c29a"
+    "sha256": "a739da2e8e1221f24948e8eff556d83bd83cf3b7f9670ce9206177cd31ab0275"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/hushmio/",
@@ -2421,7 +2421,7 @@
     "lang": "pt",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "3df102886e0ad3d54edaad846ad9094edc0933ba358ffcb3d26bd5c0a32c6bbd"
+    "sha256": "a0c41bdbb283e89d2a2d8fbad9b680407c5252986eecf1c26c52f601a3c0e2db"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/phrasepip/",
@@ -2429,7 +2429,7 @@
     "lang": "pt",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "4e4591cba25b22fda34607f7a258d9e2f9508d0bfeb36ab14a38fb583cb7b402"
+    "sha256": "c40efb7274a614d89ad954c90f7a94b761a341d698b481d8799d8e897e490d39"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/roomnobi/",
@@ -2437,7 +2437,7 @@
     "lang": "pt",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "4da12e4e6267f220d37743386fdcc29e81de8f7e4a8f6d4483f35452f5a291a7"
+    "sha256": "2998589aca36dfb773b00fda44911e020b0f263ce62d65585dac6399d6209586"
   },
   {
     "url": "https://gkimmulti-ui.github.io/pt/apps/morsepip/",
@@ -2445,7 +2445,7 @@
     "lang": "pt",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "515fa2034e2b26dd248152c0b8ffce0024d735870a4d9c9d0d27fbb59a65f207"
+    "sha256": "189b78ba4488cfc81bc2ca9e39a1203a25e4791dc261ba852f8a146cb28bcaa6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/",
@@ -2453,7 +2453,7 @@
     "lang": "fr",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "448e2e5e1d62cb9f61b38dc1eeff4ca4cf66b294a6c7059ddf816fc1884a7110"
+    "sha256": "a426a5e081d14704d81abfacca5923bc7a8bcb490efdd9f4d27027fed99d23a0"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/bagsum/",
@@ -2685,7 +2685,7 @@
     "lang": "fr",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "07ed5922b74637afc916a0b0391449b4aaad76567f6ba74bfcabbb4252f2b8db"
+    "sha256": "8fd118e1e304d7af69267b9f3ceb09408db9f426ca344569b19901695fb10941"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/hushmio/",
@@ -2693,7 +2693,7 @@
     "lang": "fr",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "aa9a336516aedee6f1fbd8de0ee268ed6b38ac4cfc6de6ab61aa05467921b96a"
+    "sha256": "9f069ff8485019ed432fb0e974ea45867be60ce4b5c19b671c5dd9c4eef2ba74"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/phrasepip/",
@@ -2701,7 +2701,7 @@
     "lang": "fr",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "87aca2b59d79c150a6c95caf8d4ac741283cb7f68737c91d0f9d3d43fc398ccc"
+    "sha256": "b824c45cdea33952c8ef5b931bb06e9ede0bb900f09538defa8008024d8ae8ca"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/roomnobi/",
@@ -2709,7 +2709,7 @@
     "lang": "fr",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "77b43735ecebc4c6e6e6017cc03f1327fa90054adf8822f6f97cf32411bfe37e"
+    "sha256": "006af1ba8fd0c8395e42478faa66e525090b6a82930e4c30059895f7a69ce2a3"
   },
   {
     "url": "https://gkimmulti-ui.github.io/fr/apps/morsepip/",
@@ -2717,7 +2717,7 @@
     "lang": "fr",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "f39062f85c36d9be74c84abc2c7e62f255bcb5fe57d40bfceee6e4f57fb17d43"
+    "sha256": "b03b317d083df8e6ac234a61ed7c6264c5f1685cdd4a68cc2fe31c0b415799d2"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/",
@@ -2725,7 +2725,7 @@
     "lang": "de",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "86eb08c5ec6a16e335a379134959e926e89fa1483e78533d3f51f9f059afef7d"
+    "sha256": "0812a219dbe157e4e4d645267acdafa064339528026224365916a6a202aff1e1"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/bagsum/",
@@ -2957,7 +2957,7 @@
     "lang": "de",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "8ff9326ebdc0c8d9dba70afbf9dc6a6262aade8f343057cd99dd026a3387b57d"
+    "sha256": "340c973c412a33d28f4252873db9a0acaa2c2d465588767482b8c4c394305b07"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/hushmio/",
@@ -2965,7 +2965,7 @@
     "lang": "de",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "3d057f21acbe1a73c7100530e64b1777a636c10f61315ade211f91eba58d65be"
+    "sha256": "317a63cb599c508e94bf8a426cd8dfd20bba29ba1be1d947ce61dab50f38220f"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/phrasepip/",
@@ -2973,7 +2973,7 @@
     "lang": "de",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "4d6179e3f80d59b0e539b24e023565116f634f4d7283d425bd3ccd51ab8add5c"
+    "sha256": "84d87ba6c364cffa781df53026892ddf525816af8ea4bf966c4bcfa26b89257e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/roomnobi/",
@@ -2981,7 +2981,7 @@
     "lang": "de",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "e2b9539a8f09e031c1123d19091ec1b12d82ad5d1ec31b1ac83934c4c62960e7"
+    "sha256": "78b142c307777b8035680c9e551dd095e6e6766f2abd1a5c50c274511875e905"
   },
   {
     "url": "https://gkimmulti-ui.github.io/de/apps/morsepip/",
@@ -2989,7 +2989,7 @@
     "lang": "de",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "2790a91e027baac690fdf37a4a4546953452dc02a011bcac8356c3f69f55994b"
+    "sha256": "32a56d475792cfbd062df1906f1e595ff68fd6e1acd67fd8d1f16bfba99927b6"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/",
@@ -2997,7 +2997,7 @@
     "lang": "id",
     "app": null,
     "lastmod": "2026-11-28",
-    "sha256": "528a15922a00d73d5b749ce9b735f1424b3dc3bfc7f3a7f5ae0454bf8aef1389"
+    "sha256": "ced9e59e01689de86d0068f771a8c6b1e44d1f071e4d6909987407e1d2c52eee"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/bagsum/",
@@ -3229,7 +3229,7 @@
     "lang": "id",
     "app": "dottomint",
     "lastmod": "2026-11-28",
-    "sha256": "4759ae34e8890e33cd5af6444c796fe0bdc65ee481726c3bcbc115603d1728ce"
+    "sha256": "3ce4ef31aee4f488958bfac84e458b053c9f325821f325e28500ce4976e9271e"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/hushmio/",
@@ -3237,7 +3237,7 @@
     "lang": "id",
     "app": "hushmio",
     "lastmod": "2026-11-28",
-    "sha256": "561588e5704a19b4ad43038b014fc50480b853a6191c0323efff0bed9b665707"
+    "sha256": "8750618b4375212bf685855d2f1787bb5bf9799fdbb58854d4e3ad7d5388bd85"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/phrasepip/",
@@ -3245,7 +3245,7 @@
     "lang": "id",
     "app": "phrasepip",
     "lastmod": "2026-11-28",
-    "sha256": "076f034513a3d101ee40009823c79f120f9015be890f1a8ffaacb9234807d235"
+    "sha256": "9cf666a166483b1d010786e8d689cf0a45972c2074ede1f6e19b3e3fb37fa90d"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/roomnobi/",
@@ -3253,7 +3253,7 @@
     "lang": "id",
     "app": "roomnobi",
     "lastmod": "2026-11-28",
-    "sha256": "7c48990bd58bf09882a3ad6295a182be0e397783366d57c209ec7f9029211af6"
+    "sha256": "3914599a6e9c2341768a41022a9f212e39afc61750d023d56383ed7a44c93d34"
   },
   {
     "url": "https://gkimmulti-ui.github.io/id/apps/morsepip/",
@@ -3261,6 +3261,6 @@
     "lang": "id",
     "app": "morsepip",
     "lastmod": "2026-11-28",
-    "sha256": "f31cf8472801eb68fb7898eabaaf2dc1377b9e48de49cd3c47a63e1b6d7995ec"
+    "sha256": "529d58706355a4e94f01e05f2a428ca68431980210301dc3ee7e1c19ed6b4d1c"
   }
 ]

@@ -38,7 +38,7 @@ const previous=fs.existsSync(oldManifestPath)?JSON.parse(fs.readFileSync(oldMani
 const pages=[];
 function alternateLinks(lang,app){return [...languages,'x-default'].map(code=>`<link rel="alternate" hreflang="${code==='x-default'?code:hreflang[code]}" href="${abs(app?appPath(app,code==='x-default'?'ko':code):homePath(code==='x-default'?'ko':code))}" />`).join('\n  ');}
 function languageLinks(lang,app){return languages.map(code=>`<a href="${app?appPath(app,code):homePath(code)}" lang="${htmlLang[code]}" hreflang="${hreflang[code]}"${code===lang?' aria-current="page"':''}>${languageNames[code]}</a>`).join('');}
-const categories={pocketsanta:'LifestyleApplication',lumascape:'LifestyleApplication',ttirang:'LifestyleApplication',levelday:'LifestyleApplication',littleheroes:'GameApplication',nightmarket:'GameApplication',pocketdino:'LifestyleApplication',pocketjesus:'LifestyleApplication',rateshift:'FinanceApplication',savecity:'FinanceApplication',howlong:'UtilitiesApplication',starstock:'GameApplication',deepdig:'GameApplication',quizaura:'EntertainmentApplication',snapclean:'UtilitiesApplication',lumiday:'LifestyleApplication',maeum:'FinanceApplication',snaplog:'MultimediaApplication',lightwall:'LifestyleApplication',holyground:'LifestyleApplication',chaengkim:'LifestyleApplication',slimjoy:'MultimediaApplication',lightled:'UtilitiesApplication',lotto:'UtilitiesApplication',kingdom:'GameApplication','16mode':'LifestyleApplication'};
+const categories={dottomint:'DesignApplication',roomnobi:'DesignApplication',phrasepip:'EducationalApplication',morsepip:'EducationalApplication',hushmio:'LifestyleApplication',pocketsanta:'LifestyleApplication',lumascape:'LifestyleApplication',ttirang:'LifestyleApplication',levelday:'LifestyleApplication',littleheroes:'GameApplication',nightmarket:'GameApplication',pocketdino:'LifestyleApplication',pocketjesus:'LifestyleApplication',rateshift:'FinanceApplication',savecity:'FinanceApplication',howlong:'UtilitiesApplication',starstock:'GameApplication',deepdig:'GameApplication',quizaura:'EntertainmentApplication',snapclean:'UtilitiesApplication',lumiday:'LifestyleApplication',maeum:'FinanceApplication',snaplog:'MultimediaApplication',lightwall:'LifestyleApplication',holyground:'LifestyleApplication',chaengkim:'LifestyleApplication',slimjoy:'MultimediaApplication',lightled:'UtilitiesApplication',lotto:'UtilitiesApplication',kingdom:'GameApplication','16mode':'LifestyleApplication'};
 function schema(lang,app,title,description,url){
  const publisher={'@type':'Organization','@id':site+'/#publisher',name:'Kenneth App',alternateName:'케네스앱',url:site+'/',logo:site+'/images/kenneth-logo.png',email:'gkimmulti@gmail.com'};
  const website={'@type':'WebSite','@id':site+'/#website',url:site+'/',name:'Kenneth App',alternateName:'케네스앱',publisher:{'@id':publisher['@id']},inLanguage:languages.map(l=>htmlLang[l])};
@@ -60,7 +60,7 @@ function schema(lang,app,title,description,url){
 }
 function detailContent(app,lang){
  const name=escape(local(app.name,lang));
- let appCard=card(app,lang).replace(/<div class="app-head">[\s\S]*?<\/div><\/div>\s*(?=<div class="gallery-wrap">)/,'').replace(/<a class="app-detail-link"[\s\S]*?<\/a>/,'').replace(/<h4>(.*?)<\/h4>/,'<h2>$1</h2>').replace('aria-labelledby="name-'+app.slug+'"','aria-labelledby="detail-title"');
+ let appCard=card(app,lang,{detail:true}).replace(/<div class="app-head">[\s\S]*?<\/div><\/div>\s*(?=<div class="gallery-wrap">)/,'').replace(/<a class="app-detail-link"[\s\S]*?<\/a>/,'').replace(/<h4>(.*?)<\/h4>/,'<h2>$1</h2>').replace('aria-labelledby="name-'+app.slug+'"','aria-labelledby="detail-title"');
  const storeName=sources.find(s=>s.slug===app.slug)?.storeTitle;
  if(lang==='ko'&&storeName&&storeName!==local(app.name,lang))appCard=appCard.replace('<div class="app-downloads">',`<p class="store-listing-name">${escape(t('seo.storeName',lang))}: ${escape(storeName)}</p><div class="app-downloads">`);
  const related=[...apps.filter(a=>a.slug!==app.slug&&a.group===app.group),...apps.filter(a=>a.slug!==app.slug&&a.group!==app.group)].slice(0,3);
@@ -81,6 +81,8 @@ function render(lang,app){
   html=html.replace(/href="#(apps|about|contact)"/g,`href="${homePath(lang)}#$1"`);
  }else{
   html=html.replace('assets/home.js?v=20261125-admin','assets/home.js?v='+catalogVersion);
+  const styleVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'assets/home.css'))).digest('hex').slice(0,16);
+  html=html.replace('assets/home.css?v=20261030-global','assets/home.css?v='+styleVersion);
   html=html.replace('{{CARDS}}',apps.map(a=>card(a,lang)).join('\n')).replace('{{FILTERS}}',filters(lang));
   html=html.replace('{{HERO_SLIDES}}',heroSlides(lang)).replace('{{HERO_PRELOAD}}',heroEntries(lang)[0].shot.thumb);
   html=html.replace('{{ICONS}}',apps.map(a=>`<a href="#app-${a.slug}" aria-label="${escape(local(a.name,lang))}"><img src="/${a.icon}" alt="${escape(local(a.name,lang))}" width="38" height="38" loading="lazy"></a>`).join(''));

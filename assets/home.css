@@ -68,3 +68,4 @@
 
 /* Wider language menu and readable official descriptions. */
 .lang-select select{max-width:160px}.store-description p{white-space:pre-line;overflow-wrap:anywhere}.language-links{flex-wrap:wrap}.tone-peach{--tone:#f7e5d6}html[lang=hi] .hero h1{letter-spacing:0;line-height:1.55}html[lang=hi] .eyebrow{letter-spacing:.3px}@media(max-width:600px){.lang-select select{max-width:112px}.app-name h3{overflow-wrap:anywhere}}
+.app-grid .app-head{padding-bottom:10px}.app-intro{padding:0 26px 20px;min-width:0}.app-intro .app-desc{color:#34423b;font-size:14px;line-height:1.75;overflow-wrap:anywhere}.app-grid .app-copy{padding-top:19px}.app-grid .app-copy .app-tags:empty{display:none}@media(max-width:760px){.app-intro{padding:0 23px 17px}}

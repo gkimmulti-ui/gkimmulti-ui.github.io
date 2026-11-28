@@ -5,7 +5,7 @@
     apps: require('../data/apps.json'), translations: require('../data/translations.json'), hero: require('../data/hero.json')
   } : KENNETH_DATA;
   const languages = Object.keys(data.translations);
-  const groups = ['all', 'life', 'photo', 'tools', 'play', 'faith'];
+  const groups = ['all', 'life', 'photo', 'design', 'learning', 'tools', 'play', 'faith'];
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
   const local = (value, lang) => typeof value === 'object' && !Array.isArray(value) ? value[lang] ?? value.en ?? value.ko : value;
   const t = (key, lang) => data.translations[lang][key] ?? data.translations.en[key] ?? '';
@@ -39,22 +39,25 @@
     const badge = `/assets/store-badges/${store}-${badgeLang}.${store==='play'?'png':'svg'}`;
     return `<div class="store-option"><div class="store-download"><h5>${label}</h5><a class="store-badge-link ${store}" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${name} · ${label} · ${escape(t('store.download',lang))}"><img src="${badge}" alt="${label} · ${escape(t('store.download',lang))}" loading="lazy" decoding="async"></a></div><div class="store-qr"><a class="qr-link" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${name} · ${label} · ${escape(t('store.open',lang))}"><img src="${qr}" alt="${name} · ${label} ${escape(t('store.qr',lang))}" width="144" height="144" loading="lazy" decoding="async"></a><a class="qr-save" href="${qr}" download="${app.slug}-${store}-qr.png" aria-label="${name} · ${label} · ${escape(t('store.saveQr',lang))}">${escape(t('store.saveQr',lang))} <span aria-hidden="true">↓</span></a></div></div>`;
   }
-  function card(app, lang) {
+  function card(app, lang, {detail=false}={}) {
     const name = escape(local(app.name, lang));
     const shots = shotsFor(app,lang);
+    const headline = local(app.headline,lang);
+    const intro = `<p class="app-desc">${escape(local(app.desc,lang))}</p>`;
     const gallery = shots.map((s,i) => `<a class="screen-link${s.width>s.height?' is-landscape':''}" href="${asset(s.src)}" data-store-url="${escape(s.platform==='App Store'?app.appStoreUrl:app.playUrl)}" data-shot="${i}" data-app="${app.slug}" aria-label="${name} · ${escape(t('gallery.open',lang))} ${i+1} · ${s.platform}"><img src="${asset(s.thumb)}" alt="${name} · ${escape(t('gallery.label',lang))} ${i+1} (${s.platform})" width="${s.width}" height="${s.height}" loading="lazy" decoding="async"><span class="screen-zoom" aria-hidden="true">↗</span>${s.platform==='App Store'?'<span class="screen-platform">iPhone</span>':''}</a>`).join('');
     return `<article class="app-card tone-${app.tone}" id="app-${app.slug}" aria-labelledby="name-${app.slug}">
       <div class="app-head"><img class="app-icon" src="${escape(asset(app.icon))}" alt="" width="52" height="52" loading="lazy"><div class="app-name"><h3 id="name-${app.slug}"><a href="${appPath(app,lang)}">${name}</a></h3><p>${escape(local(app.category,lang))}</p></div></div>
+      ${detail?'':`<div class="app-intro">${intro}</div>`}
       <div class="gallery-wrap"><div class="screenshot-track" id="gallery-${app.slug}" role="group" aria-label="${name} · ${escape(t('gallery.label',lang))}">${gallery}</div>
       <div class="gallery-footer"><span>${escape(t('gallery.hint',lang))}</span><div class="gallery-controls"><button class="icon-btn gallery-prev" type="button" data-gallery="${app.slug}" data-direction="-1" aria-label="${name} · ${escape(t('gallery.prev',lang))}">${arrow}</button><button class="icon-btn" type="button" data-gallery="${app.slug}" data-direction="1" aria-label="${name} · ${escape(t('gallery.next',lang))}">${arrow}</button></div></div></div>
-      <div class="app-copy"><h4>${escape(local(app.headline,lang))}</h4><p class="app-desc">${escape(local(app.desc,lang))}</p><ul class="app-tags">${(local(app.tags,lang)||[]).map(tag=>`<li>${escape(tag)}</li>`).join('')}</ul>
+      <div class="app-copy">${detail?`<h4>${escape(headline)}</h4>${intro}`:''}<ul class="app-tags">${(local(app.tags,lang)||[]).map(tag=>`<li>${escape(tag)}</li>`).join('')}</ul>
       ${app.note?.[lang]?`<details class="app-note"><summary>${escape(t('details',lang))}</summary><p>${escape(local(app.note,lang))}</p></details>`:''}
       ${app.playDescription?.[lang]?`<details class="app-note store-description"><summary>Google Play · ${escape(t('details',lang))}</summary><p>${escape(app.playDescription[lang])}</p></details>`:''}
       <a class="app-detail-link" href="${appPath(app,lang)}" aria-label="${name} · ${escape(t('hero.open',lang))}">${escape(t('hero.open',lang))} <span aria-hidden="true">↗</span></a>
       <div class="app-downloads"><p class="download-hint">${escape(t('store.hint',lang))}</p>${app.storeNotice?`<p class="store-notice">${escape(local(app.storeNotice,lang))}</p>`:''}<div class="store-options">${app.appStoreUrl?storeOption(app,'appstore',lang)+storeOption(app,'play',lang):storeOption(app,'play',lang)+storeOption(app,'appstore',lang)}</div></div></div></article>`;
   }
   function filters(lang, selected='all') {
-    return groups.map(g=>`<button class="filter-chip${g===selected?' active':''}" type="button" data-filter="${g}" aria-pressed="${g===selected}">${escape(t('filter.'+g,lang))}${g==='all'?`<span>${data.apps.length}</span>`:''}</button>`).join('');
+    return groups.map(g=>[g,g==='all'?data.apps.length:data.apps.filter(app=>app.group===g).length]).filter(([,count])=>count>0).map(([g,count])=>`<button class="filter-chip${g===selected?' active':''}" type="button" data-filter="${g}" aria-pressed="${g===selected}">${escape(t('filter.'+g,lang))}<span>${count}</span></button>`).join('');
   }
   if (typeof module !== 'undefined' && module.exports) { module.exports={card,filters,escape,heroEntries,heroSlides,homePath,appPath,shotsFor}; return; }
 
